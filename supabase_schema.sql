@@ -295,7 +295,6 @@ CREATE TABLE IF NOT EXISTS public.exam_sessions (
   answer_image_key        TEXT,                              -- R2 object key for re-signing
   answer_image_expires_at TIMESTAMPTZ,
   answer_image_delete_at  TIMESTAMPTZ,                       -- set by backend to started_at + 30 days
-                          GENERATED ALWAYS AS (started_at + INTERVAL '30 days') STORED,
 
   -- Step 5: evaluation results
   score_awarded           INT,
