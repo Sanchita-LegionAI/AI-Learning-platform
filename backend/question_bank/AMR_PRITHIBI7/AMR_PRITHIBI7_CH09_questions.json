@@ -1,0 +1,819 @@
+{
+  "book_id": "AMR_PRITHIBI_7",
+  "book_name": "Amader Prithibi",
+  "book_name_bn": "আমাদের পৃথিবী",
+  "subject": "Geography",
+  "class": 7,
+  "chapter_no": 9,
+  "chapter_title": "এশিয়া মহাদেশ",
+  "chapter_subtitle": "এশিয়ার ভূমিরূপ, জলবায়ু, নদী ও মানবজীবন",
+  "source_file": "ch09.pdf",
+  "question_count": 100,
+  "distribution": {
+    "2_marks": 40,
+    "3_marks": 40,
+    "5_marks": 20
+  },
+  "questions": [
+    {
+      "id": "CH09_Q001",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "এশিয়ার আয়তন",
+      "expected_lines": "2-3",
+      "question": "এশিয়া মহাদেশের আয়তন কত?"
+    },
+    {
+      "id": "CH09_Q002",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "এশিয়ার অবস্থান",
+      "expected_lines": "2-3",
+      "question": "এশিয়া মহাদেশ কোন গোলার্ধে অবস্থিত?"
+    },
+    {
+      "id": "CH09_Q003",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "এশিয়ার সীমানা",
+      "expected_lines": "2-3",
+      "question": "এশিয়া মহাদেশের পূর্বে কোন মহাসাগর?"
+    },
+    {
+      "id": "CH09_Q004",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "এশিয়ার দেশ",
+      "expected_lines": "2-3",
+      "question": "এশিয়া মহাদেশে কতটি দেশ আছে?"
+    },
+    {
+      "id": "CH09_Q005",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "এশিয়ার জনসংখ্যা",
+      "expected_lines": "2-3",
+      "question": "এশিয়ায় পৃথিবীর মোট জনসংখ্যার কত ভাগ মানুষ বাস করে?"
+    },
+    {
+      "id": "CH09_Q006",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "হিমালয়",
+      "expected_lines": "2-3",
+      "question": "হিমালয় পর্বতমালা কোথায় অবস্থিত?"
+    },
+    {
+      "id": "CH09_Q007",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "মাউন্ট এভারেস্ট",
+      "expected_lines": "2-3",
+      "question": "মাউন্ট এভারেস্টের উচ্চতা কত?"
+    },
+    {
+      "id": "CH09_Q008",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "মৃত সাগর",
+      "expected_lines": "2-3",
+      "question": "মৃত সাগর কোথায় এবং এটি কেন বিখ্যাত?"
+    },
+    {
+      "id": "CH09_Q009",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ক্যাস্পিয়ান সাগর",
+      "expected_lines": "2-3",
+      "question": "ক্যাস্পিয়ান সাগর কেন বিশেষ?"
+    },
+    {
+      "id": "CH09_Q010",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ইয়াংসি নদী",
+      "expected_lines": "2-3",
+      "question": "ইয়াংসি নদী কোন দেশে এবং এর দৈর্ঘ্য কত?"
+    },
+    {
+      "id": "CH09_Q011",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "হোয়াং হো",
+      "expected_lines": "2-3",
+      "question": "হোয়াং হো নদীকে কী বলা হয়?"
+    },
+    {
+      "id": "CH09_Q012",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "গোবি মরুভূমি",
+      "expected_lines": "2-3",
+      "question": "গোবি মরুভূমি কোথায় অবস্থিত?"
+    },
+    {
+      "id": "CH09_Q013",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "আরব মরুভূমি",
+      "expected_lines": "2-3",
+      "question": "আরব মরুভূমি কোন মহাদেশের অংশ?"
+    },
+    {
+      "id": "CH09_Q014",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "এশিয়ার উচ্চতম স্থান",
+      "expected_lines": "2-3",
+      "question": "এশিয়ার সর্বোচ্চ স্থান কোনটি?"
+    },
+    {
+      "id": "CH09_Q015",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "পামীর মালভূমি",
+      "expected_lines": "2-3",
+      "question": "পামীর মালভূমিকে কী বলা হয় এবং কেন?"
+    },
+    {
+      "id": "CH09_Q016",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "এশিয়ার নদী",
+      "expected_lines": "2-3",
+      "question": "এশিয়ার দীর্ঘতম নদীর নাম কী?"
+    },
+    {
+      "id": "CH09_Q017",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "মৌসুমি জলবায়ু",
+      "expected_lines": "2-3",
+      "question": "এশিয়ায় মৌসুমি জলবায়ু কোথায় দেখা যায়?"
+    },
+    {
+      "id": "CH09_Q018",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "এশিয়ার খনিজ",
+      "expected_lines": "2-3",
+      "question": "এশিয়ায় কোন কোন খনিজ সম্পদ পাওয়া যায়?"
+    },
+    {
+      "id": "CH09_Q019",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "তুন্দ্রা জলবায়ু",
+      "expected_lines": "2-3",
+      "question": "তুন্দ্রা জলবায়ু এশিয়ার কোথায় দেখা যায়?"
+    },
+    {
+      "id": "CH09_Q020",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "এশিয়ার ধর্ম",
+      "expected_lines": "2-3",
+      "question": "এশিয়ায় কোন কোন বড় ধর্মের উৎপত্তি হয়েছে?"
+    },
+    {
+      "id": "CH09_Q021",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "চীনের নদী",
+      "expected_lines": "2-3",
+      "question": "চীনের দুটি প্রধান নদীর নাম ও দৈর্ঘ্য লেখো।"
+    },
+    {
+      "id": "CH09_Q022",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "বৈকাল হ্রদ",
+      "expected_lines": "2-3",
+      "question": "বৈকাল হ্রদ কোথায় এবং এর বিশেষত্ব কী?"
+    },
+    {
+      "id": "CH09_Q023",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "ভারত মহাসাগর",
+      "expected_lines": "2-3",
+      "question": "ভারত মহাসাগর এশিয়ার কোন দিকে?"
+    },
+    {
+      "id": "CH09_Q024",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "এশিয়ার জলবায়ু বৈচিত্র্য",
+      "expected_lines": "2-3",
+      "question": "এশিয়া মহাদেশে এত বৈচিত্র্যপূর্ণ জলবায়ু কেন?"
+    },
+    {
+      "id": "CH09_Q025",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "এশিয়ার অর্থনীতি",
+      "expected_lines": "2-3",
+      "question": "এশিয়ার কোন দেশগুলি অর্থনৈতিকভাবে সবচেয়ে উন্নত?"
+    },
+    {
+      "id": "CH09_Q026",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "এশিয়ার জনঘনত্ব",
+      "expected_lines": "2-3",
+      "question": "এশিয়ায় জনঘনত্ব সর্বাধিক কোথায় এবং কেন?"
+    },
+    {
+      "id": "CH09_Q027",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "সাইবেরিয়া",
+      "expected_lines": "2-3",
+      "question": "সাইবেরিয়া কোথায় এবং এর বৈশিষ্ট্য কী?"
+    },
+    {
+      "id": "CH09_Q028",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "টাইগা বন",
+      "expected_lines": "2-3",
+      "question": "টাইগা বন কী? এশিয়ার কোথায় দেখা যায়?"
+    },
+    {
+      "id": "CH09_Q029",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "এশিয়া ও ইউরোপ",
+      "expected_lines": "2-3",
+      "question": "ইউরাল পর্বত কেন গুরুত্বপূর্ণ?"
+    },
+    {
+      "id": "CH09_Q030",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "মেকং নদী",
+      "expected_lines": "2-3",
+      "question": "মেকং নদী কোন দেশগুলির মধ্য দিয়ে প্রবাহিত হয়েছে?"
+    },
+    {
+      "id": "CH09_Q031",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "এশিয়ার ভূমিরূপ",
+      "expected_lines": "2-3",
+      "question": "এশিয়ার প্রধান ভূমিরূপগুলির নাম লেখো।"
+    },
+    {
+      "id": "CH09_Q032",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ভারত মহাসাগর",
+      "expected_lines": "2-3",
+      "question": "ভারত মহাসাগরের অবস্থান লেখো।"
+    },
+    {
+      "id": "CH09_Q033",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "সিন্ধু নদী",
+      "expected_lines": "2-3",
+      "question": "সিন্ধু নদী কোন দেশগুলির মধ্য দিয়ে গেছে?"
+    },
+    {
+      "id": "CH09_Q034",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "মালয় উপদ্বীপ",
+      "expected_lines": "2-3",
+      "question": "মালয় উপদ্বীপ কোথায় অবস্থিত?"
+    },
+    {
+      "id": "CH09_Q035",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "এশিয়ার রাজনীতি",
+      "expected_lines": "2-3",
+      "question": "এশিয়ার কোন অঞ্চল সবচেয়ে রাজনৈতিকভাবে অস্থিতিশীল?"
+    },
+    {
+      "id": "CH09_Q036",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "জাপান",
+      "expected_lines": "2-3",
+      "question": "জাপান এশিয়ার কোথায় অবস্থিত?"
+    },
+    {
+      "id": "CH09_Q037",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "আরব সাগর",
+      "expected_lines": "2-3",
+      "question": "আরব সাগর কোথায় অবস্থিত?"
+    },
+    {
+      "id": "CH09_Q038",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "এশিয়ার কৃষি",
+      "expected_lines": "2-3",
+      "question": "এশিয়ায় প্রধান কৃষিপণ্য কী কী?"
+    },
+    {
+      "id": "CH09_Q039",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "চীন",
+      "expected_lines": "2-3",
+      "question": "চীন পৃথিবীর কোন বৃহত্তম দেশ?"
+    },
+    {
+      "id": "CH09_Q040",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "ব্রহ্মপুত্র",
+      "expected_lines": "2-3",
+      "question": "ব্রহ্মপুত্র নদীর উৎস কোথায়?"
+    },
+    {
+      "id": "CH09_Q041",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "এশিয়া মহাদেশ",
+      "expected_lines": "4-6",
+      "question": "এশিয়া মহাদেশের আয়তন, অবস্থান ও সীমানা আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q042",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "এশিয়ার ভূমিরূপ",
+      "expected_lines": "4-6",
+      "question": "এশিয়া মহাদেশের প্রধান ভূমিরূপ অঞ্চলগুলির নাম ও বৈশিষ্ট্য লেখো।"
+    },
+    {
+      "id": "CH09_Q043",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "এশিয়ার পর্বত",
+      "expected_lines": "4-6",
+      "question": "এশিয়ার প্রধান পর্বতমালাগুলির নাম ও অবস্থান লেখো।"
+    },
+    {
+      "id": "CH09_Q044",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "এশিয়ার নদী",
+      "expected_lines": "4-6",
+      "question": "এশিয়ার প্রধান নদীগুলির নাম, দৈর্ঘ্য ও উৎস লেখো।"
+    },
+    {
+      "id": "CH09_Q045",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "হিমালয় পর্বতমালা",
+      "expected_lines": "4-6",
+      "question": "হিমালয় পর্বতমালার অবস্থান, বৈশিষ্ট্য ও গুরুত্ব আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q046",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "মাউন্ট এভারেস্ট",
+      "expected_lines": "4-6",
+      "question": "মাউন্ট এভারেস্ট সম্পর্কে বিস্তারিত লেখো।"
+    },
+    {
+      "id": "CH09_Q047",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "মৃত সাগর",
+      "expected_lines": "4-6",
+      "question": "মৃত সাগর কোথায়? এটি এত নোনা কেন?"
+    },
+    {
+      "id": "CH09_Q048",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "ক্যাস্পিয়ান সাগর",
+      "expected_lines": "4-6",
+      "question": "ক্যাস্পিয়ান সাগর বিশ্বের বৃহত্তম হ্রদ—এর বৈশিষ্ট্য আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q049",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "এশিয়ার জলবায়ু",
+      "expected_lines": "4-6",
+      "question": "এশিয়া মহাদেশের বিভিন্ন জলবায়ু অঞ্চলের নাম ও বৈশিষ্ট্য আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q050",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "মৌসুমি জলবায়ু",
+      "expected_lines": "4-6",
+      "question": "মৌসুমি জলবায়ু কী? দক্ষিণ ও দক্ষিণ-পূর্ব এশিয়ায় এর প্রভাব কী?"
+    },
+    {
+      "id": "CH09_Q051",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "এশিয়ার মরুভূমি",
+      "expected_lines": "4-6",
+      "question": "এশিয়ার প্রধান মরুভূমিগুলির নাম, অবস্থান ও বৈশিষ্ট্য আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q052",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "এশিয়ার জনসংখ্যা",
+      "expected_lines": "4-6",
+      "question": "এশিয়ায় পৃথিবীর ৬০% মানুষ বাস করে—কারণ ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH09_Q053",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ইয়াংসি নদী",
+      "expected_lines": "4-6",
+      "question": "ইয়াংসি নদীর দৈর্ঘ্য, উৎস ও গুরুত্ব আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q054",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "হোয়াং হো",
+      "expected_lines": "4-6",
+      "question": "হোয়াং হো নদীকে 'চীনের দুঃখ' বলা হয় কেন?"
+    },
+    {
+      "id": "CH09_Q055",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "পামীর মালভূমি",
+      "expected_lines": "4-6",
+      "question": "পামীর মালভূমিকে 'পৃথিবীর ছাদ' বলা হয় কেন?"
+    },
+    {
+      "id": "CH09_Q056",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "এশিয়ার খনিজ",
+      "expected_lines": "4-6",
+      "question": "পশ্চিম এশিয়ায় প্রচুর পেট্রোলিয়াম পাওয়ার কারণ কী?"
+    },
+    {
+      "id": "CH09_Q057",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "এশিয়ার জলবায়ু বৈচিত্র্য",
+      "expected_lines": "4-6",
+      "question": "এশিয়া মহাদেশে ক্রান্তীয় থেকে মেরু জলবায়ু পর্যন্ত বৈচিত্র্য কেন?"
+    },
+    {
+      "id": "CH09_Q058",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "সাইবেরিয়ার বৈশিষ্ট্য",
+      "expected_lines": "4-6",
+      "question": "সাইবেরিয়ার ভূপ্রকৃতি, জলবায়ু ও সম্পদ আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q059",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "এশিয়ার অর্থনৈতিক উন্নয়ন",
+      "expected_lines": "4-6",
+      "question": "জাপান, চীন ও ভারতের অর্থনৈতিক উন্নয়নের তুলনা করো।"
+    },
+    {
+      "id": "CH09_Q060",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "দক্ষিণ-পূর্ব এশিয়া",
+      "expected_lines": "4-6",
+      "question": "দক্ষিণ-পূর্ব এশিয়ার দেশগুলির বৈশিষ্ট্য ও গুরুত্ব কী?"
+    },
+    {
+      "id": "CH09_Q061",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "মধ্যপ্রাচ্য",
+      "expected_lines": "4-6",
+      "question": "মধ্যপ্রাচ্য কেন পৃথিবীর রাজনৈতিক কেন্দ্র?"
+    },
+    {
+      "id": "CH09_Q062",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "এশিয়ার ধর্ম",
+      "expected_lines": "4-6",
+      "question": "এশিয়ায় উৎপত্তি হওয়া বড় ধর্মগুলির নাম ও জন্মস্থান লেখো।"
+    },
+    {
+      "id": "CH09_Q063",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "ভারতের অবস্থান",
+      "expected_lines": "4-6",
+      "question": "ভারত এশিয়ার কোন অংশে অবস্থিত?"
+    },
+    {
+      "id": "CH09_Q064",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "বৈকাল হ্রদ",
+      "expected_lines": "4-6",
+      "question": "বৈকাল হ্রদ বিশ্বের গভীরতম হ্রদ—এর বৈশিষ্ট্য আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q065",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "মেকং নদী",
+      "expected_lines": "4-6",
+      "question": "মেকং নদী কোন দেশগুলির মধ্য দিয়ে প্রবাহিত হয়েছে? এর গুরুত্ব কী?"
+    },
+    {
+      "id": "CH09_Q066",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "আরব মরুভূমি",
+      "expected_lines": "4-6",
+      "question": "আরব মরুভূমির বৈশিষ্ট্য ও এখানকার মানুষের জীবনযাত্রা বর্ণনা করো।"
+    },
+    {
+      "id": "CH09_Q067",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "এশিয়ার কৃষি",
+      "expected_lines": "4-6",
+      "question": "এশিয়ার কৃষি ব্যবস্থা ও প্রধান ফসলের তালিকা তৈরি করো।"
+    },
+    {
+      "id": "CH09_Q068",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "এশিয়ার হ্রদ",
+      "expected_lines": "4-6",
+      "question": "এশিয়ার তিনটি বিখ্যাত হ্রদের নাম ও অবস্থান লেখো।"
+    },
+    {
+      "id": "CH09_Q069",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "এশিয়ার ভবিষ্যৎ",
+      "expected_lines": "4-6",
+      "question": "এশিয়া ভবিষ্যতে বিশ্বের অর্থনৈতিক কেন্দ্র হবে কেন?"
+    },
+    {
+      "id": "CH09_Q070",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "টাইগা বন",
+      "expected_lines": "4-6",
+      "question": "টাইগা বন কী? এর অর্থনৈতিক গুরুত্ব কী?"
+    },
+    {
+      "id": "CH09_Q071",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "এশিয়ার জনবসতি",
+      "expected_lines": "4-6",
+      "question": "এশিয়ায় জনবসতির তারতম্যের কারণ ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH09_Q072",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "গোবি মরুভূমি",
+      "expected_lines": "4-6",
+      "question": "গোবি মরুভূমির অবস্থান ও বৈশিষ্ট্য লেখো।"
+    },
+    {
+      "id": "CH09_Q073",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "এশিয়ার উপকূল",
+      "expected_lines": "4-6",
+      "question": "এশিয়ার প্রধান উপকূলীয় বৈশিষ্ট্য আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q074",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "এশিয়া ও বিশ্ব",
+      "expected_lines": "4-6",
+      "question": "এশিয়া বিশ্বের অর্থনীতি, সংস্কৃতি ও রাজনীতিতে কী ভূমিকা রাখছে?"
+    },
+    {
+      "id": "CH09_Q075",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "ওব নদী",
+      "expected_lines": "4-6",
+      "question": "ওব নদী কোথায়?"
+    },
+    {
+      "id": "CH09_Q076",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "সিন্ধু নদী",
+      "expected_lines": "4-6",
+      "question": "সিন্ধু নদীর উৎস, গতিপথ ও গুরুত্ব আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q077",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "এশিয়ার পরিবেশ",
+      "expected_lines": "4-6",
+      "question": "এশিয়ার পরিবেশ দূষণ ও জলবায়ু পরিবর্তনের প্রভাব আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q078",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "এশিয়ার উপসাগর",
+      "expected_lines": "4-6",
+      "question": "পারস্য উপসাগর কেন গুরুত্বপূর্ণ?"
+    },
+    {
+      "id": "CH09_Q079",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "এশিয়ার বনভূমি",
+      "expected_lines": "4-6",
+      "question": "এশিয়ার প্রধান বনভূমি অঞ্চলগুলি কোথায়?"
+    },
+    {
+      "id": "CH09_Q080",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "এশিয়ার নগরায়ন",
+      "expected_lines": "4-6",
+      "question": "এশিয়ার দ্রুত নগরায়ন পরিবেশ ও সমাজে কী প্রভাব ফেলছে?"
+    },
+    {
+      "id": "CH09_Q081",
+      "marks": 5,
+      "difficulty": "Easy",
+      "topic": "এশিয়া মহাদেশ পরিচিতি",
+      "expected_lines": "8-10",
+      "question": "এশিয়া মহাদেশের আয়তন, অবস্থান, সীমানা, ভূমিরূপ ও জলবায়ুর বিস্তারিত বিবরণ দাও।"
+    },
+    {
+      "id": "CH09_Q082",
+      "marks": 5,
+      "difficulty": "Easy",
+      "topic": "এশিয়ার ভূমিরূপ",
+      "expected_lines": "8-10",
+      "question": "এশিয়ার পর্বত, মালভূমি, সমভূমি ও মরুভূমির বৈশিষ্ট্য বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q083",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "এশিয়ার নদী",
+      "expected_lines": "8-10",
+      "question": "এশিয়ার প্রধান নদীগুলি (ইয়াংসি, হোয়াং হো, মেকং, সিন্ধু, গঙ্গা, ব্রহ্মপুত্র, আমুর) তাদের উৎস, দৈর্ঘ্য ও গুরুত্ব সহ বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q084",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "এশিয়ার জলবায়ু",
+      "expected_lines": "8-10",
+      "question": "এশিয়ার বিভিন্ন জলবায়ু অঞ্চল (ক্রান্তীয়, মৌসুমি, মরু, শীতল, তুন্দ্রা) বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q085",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "এশিয়ার জনসংখ্যা",
+      "expected_lines": "8-10",
+      "question": "এশিয়ার জনসংখ্যার বৈশিষ্ট্য, বণ্টন ও কারণ বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q086",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "এশিয়ার অর্থনীতি",
+      "expected_lines": "8-10",
+      "question": "এশিয়ার বিভিন্ন দেশের অর্থনৈতিক উন্নয়ন, সম্পদ ও শিল্পের তুলনামূলক আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q087",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "এশিয়ার পর্বত ও নদী",
+      "expected_lines": "8-10",
+      "question": "হিমালয়, পামীর ও এশিয়ার প্রধান নদীগুলির মধ্যে পারস্পরিক সম্পর্ক বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q088",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "মধ্যপ্রাচ্যের গুরুত্ব",
+      "expected_lines": "8-10",
+      "question": "মধ্যপ্রাচ্যের ভৌগোলিক অবস্থান, পেট্রোলিয়াম সম্পদ ও বিশ্বরাজনীতিতে এর ভূমিকা বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q089",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একটি মহাকাশযানে বসে এশিয়া মহাদেশের ওপর দিয়ে উড়ে যাচ্ছ। হিমালয়ের বরফঢাকা চূড়া থেকে আরব মরুভূমি, সাইবেরিয়ার বরফ থেকে গ্রীষ্মমণ্ডলীয় বন পর্যন্ত কী কী দেখলে? কল্পনা করে বিস্তারিত লেখো।"
+    },
+    {
+      "id": "CH09_Q090",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি মাউন্ট এভারেস্টের চূড়ায় দাঁড়িয়ে আছ। তোমার চারপাশের দৃশ্য, অনুভূতি এবং এভারেস্টের ভৌগোলিক গুরুত্ব মিলিয়ে বিস্তারিত লেখো।"
+    },
+    {
+      "id": "CH09_Q091",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি হোয়াং হো নদীর তীরে একজন কৃষক। নদীর বন্যায় তোমার জমি বারবার ডুবে যাচ্ছে। তোমার জীবনসংগ্রাম ও হোয়াং হোকে 'চীনের দুঃখ' বলার কারণ কল্পনা করে লেখো।"
+    },
+    {
+      "id": "CH09_Q092",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একজন পর্যটক এবং এশিয়ার পাঁচটি ভিন্ন দেশ ভ্রমণ করছ—প্রতিটিতে ভিন্ন ভাষা, ধর্ম, খাবার ও প্রকৃতি। তোমার অভিজ্ঞতা কল্পনা করে লেখো।"
+    },
+    {
+      "id": "CH09_Q093",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "এশিয়ার বন ও পরিবেশ",
+      "expected_lines": "8-10",
+      "question": "টাইগা বন ও গ্রীষ্মমণ্ডলীয় বনের বৈশিষ্ট্য ও পার্থক্য বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q094",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "এশিয়ার পরিবেশ সমস্যা",
+      "expected_lines": "8-10",
+      "question": "এশিয়ায় পরিবেশ দূষণ, বনভূমি ধ্বংস ও জলবায়ু পরিবর্তনের প্রভাব বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q095",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি আরব মরুভূমিতে একজন বেদুইন যাযাবর। তোমার দৈনন্দিন জীবন, পানীয় জলের সংকট ও মরুভূমিতে বেঁচে থাকার কৌশল কল্পনা করে বিস্তারিত লেখো।"
+    },
+    {
+      "id": "CH09_Q096",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "এশিয়ার কৃষি ও শিল্প",
+      "expected_lines": "8-10",
+      "question": "এশিয়ার প্রধান কৃষিপণ্য ও শিল্পের বিস্তারিত বিবরণ দাও।"
+    },
+    {
+      "id": "CH09_Q097",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "এশিয়ার ভবিষ্যৎ",
+      "expected_lines": "8-10",
+      "question": "২১শ শতাব্দীতে এশিয়া বিশ্বের কেন্দ্রে পরিণত হচ্ছে—এই দাবির সপক্ষে বিস্তারিত যুক্তি দাও।"
+    },
+    {
+      "id": "CH09_Q098",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "সাইবেরিয়া",
+      "expected_lines": "8-10",
+      "question": "সাইবেরিয়ার ভূপ্রকৃতি, জলবায়ু, সম্পদ ও মানব বসতির বিস্তারিত বিবরণ দাও।"
+    },
+    {
+      "id": "CH09_Q099",
+      "marks": 5,
+      "difficulty": "Easy",
+      "topic": "এশিয়ার ধর্ম ও সংস্কৃতি",
+      "expected_lines": "8-10",
+      "question": "এশিয়া বিভিন্ন ধর্ম ও সংস্কৃতির জন্মভূমি—বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q100",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো সাইবেরিয়ার বরফ হঠাৎ গলে যেতে শুরু করেছে এবং বিশাল অঞ্চল জলের তলায় যাচ্ছে। এশিয়ার পরিবেশ, নদী ও মানুষের জীবনে কী প্রভাব পড়বে? কল্পনা করে লেখো।"
+    }
+  ]
+}

@@ -1,0 +1,819 @@
+{
+  "book_id": "AMR_PRITHIBI_7",
+  "book_name": "Amader Prithibi",
+  "book_name_bn": "আমাদের পৃথিবী",
+  "subject": "Geography",
+  "class": 7,
+  "chapter_no": 1,
+  "chapter_title": "পৃথিবীর পরিক্রমণ",
+  "chapter_subtitle": "পৃথিবীর বার্ষিক গতি, ঋতু পরিবর্তন, বিষুব ও সংক্রান্তি",
+  "source_file": "ch01.pdf",
+  "question_count": 100,
+  "distribution": {
+    "2_marks": 40,
+    "3_marks": 40,
+    "5_marks": 20
+  },
+  "questions": [
+    {
+      "id": "CH01_Q001",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "মহাকর্ষ ও অভিকর্ষ",
+      "expected_lines": "2-3",
+      "question": "পৃথিবীর আকর্ষণ বলকে কী বলে?"
+    },
+    {
+      "id": "CH01_Q002",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "মহাকর্ষ",
+      "expected_lines": "2-3",
+      "question": "মহাকর্ষ কী?"
+    },
+    {
+      "id": "CH01_Q003",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "পরিক্রমণ গতি",
+      "expected_lines": "2-3",
+      "question": "পৃথিবীর পরিক্রমণ গতি কাকে বলে?"
+    },
+    {
+      "id": "CH01_Q004",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "পৃথিবীর অক্ষ",
+      "expected_lines": "2-3",
+      "question": "পৃথিবীর অক্ষ কাকে বলে?"
+    },
+    {
+      "id": "CH01_Q005",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "আবর্তন গতি",
+      "expected_lines": "2-3",
+      "question": "পৃথিবীর আবর্তন গতি কাকে বলে?"
+    },
+    {
+      "id": "CH01_Q006",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "অধিবর্ষ",
+      "expected_lines": "2-3",
+      "question": "অধিবর্ষ কাকে বলে?"
+    },
+    {
+      "id": "CH01_Q007",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "বিষুব",
+      "expected_lines": "2-3",
+      "question": "বিষুব কাকে বলে?"
+    },
+    {
+      "id": "CH01_Q008",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "সংক্রান্তি",
+      "expected_lines": "2-3",
+      "question": "কর্কটসংক্রান্তি কী?"
+    },
+    {
+      "id": "CH01_Q009",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "সংক্রান্তি",
+      "expected_lines": "2-3",
+      "question": "মকরসংক্রান্তি কী?"
+    },
+    {
+      "id": "CH01_Q010",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "অনুসূর-অপসূর",
+      "expected_lines": "2-3",
+      "question": "অনুসূর অবস্থান কাকে বলে?"
+    },
+    {
+      "id": "CH01_Q011",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "অনুসূর-অপসূর",
+      "expected_lines": "2-3",
+      "question": "অপসূর অবস্থান কাকে বলে?"
+    },
+    {
+      "id": "CH01_Q012",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "কক্ষপথ",
+      "expected_lines": "2-3",
+      "question": "পৃথিবীর কক্ষপথ কাকে বলে?"
+    },
+    {
+      "id": "CH01_Q013",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "মুক্তিবেগ",
+      "expected_lines": "2-3",
+      "question": "মুক্তিবেগ কী?"
+    },
+    {
+      "id": "CH01_Q014",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "চান্দ্রমাস",
+      "expected_lines": "2-3",
+      "question": "চান্দ্রমাস কাকে বলে?"
+    },
+    {
+      "id": "CH01_Q015",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "কক্ষপথ",
+      "expected_lines": "2-3",
+      "question": "পৃথিবীর কক্ষতল কাকে বলে?"
+    },
+    {
+      "id": "CH01_Q016",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "পরিক্রমণ গতি",
+      "expected_lines": "2-3",
+      "question": "পৃথিবীর বার্ষিক গতির বেগ কত?"
+    },
+    {
+      "id": "CH01_Q017",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "অধিবর্ষ",
+      "expected_lines": "2-3",
+      "question": "শতাব্দী বছরে অধিবর্ষের নিয়মটি কী?"
+    },
+    {
+      "id": "CH01_Q018",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "সৌর বছর",
+      "expected_lines": "2-3",
+      "question": "সৌর বছর কাকে বলে?"
+    },
+    {
+      "id": "CH01_Q019",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "উত্তরায়ণ",
+      "expected_lines": "2-3",
+      "question": "উত্তরায়ণ কাকে বলে?"
+    },
+    {
+      "id": "CH01_Q020",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "দক্ষিণায়ন",
+      "expected_lines": "2-3",
+      "question": "দক্ষিণায়ন কাকে বলে?"
+    },
+    {
+      "id": "CH01_Q021",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "মেরু",
+      "expected_lines": "2-3",
+      "question": "উত্তর মেরু ও দক্ষিণ মেরু কাকে বলে?"
+    },
+    {
+      "id": "CH01_Q022",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "রবিমার্গ",
+      "expected_lines": "2-3",
+      "question": "রবিমার্গ কী?"
+    },
+    {
+      "id": "CH01_Q023",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "অরোরা",
+      "expected_lines": "2-3",
+      "question": "সুমেরু প্রভা কী?"
+    },
+    {
+      "id": "CH01_Q024",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "অরোরা",
+      "expected_lines": "2-3",
+      "question": "কুমেরু প্রভা কীভাবে সৃষ্টি হয়?"
+    },
+    {
+      "id": "CH01_Q025",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "মধ্যরাত্রির সূর্য",
+      "expected_lines": "2-3",
+      "question": "মধ্যরাত্রির সূর্যের দেশ কাকে বলে?"
+    },
+    {
+      "id": "CH01_Q026",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "প্রাকৃতিক ঘড়ি",
+      "expected_lines": "2-3",
+      "question": "সময় মাপার তিনটি প্রাকৃতিক উপায় কী কী?"
+    },
+    {
+      "id": "CH01_Q027",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "উপবৃত্তাকার কক্ষপথ",
+      "expected_lines": "2-3",
+      "question": "উপবৃত্ত কাকে বলে?"
+    },
+    {
+      "id": "CH01_Q028",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "কেপলার",
+      "expected_lines": "2-3",
+      "question": "কেপলারের প্রথম সূত্রটি কী?"
+    },
+    {
+      "id": "CH01_Q029",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "পৃথিবীর হেলানো অক্ষ",
+      "expected_lines": "2-3",
+      "question": "পৃথিবীর অক্ষ কক্ষতলের সাথে কত কোণে হেলানো?"
+    },
+    {
+      "id": "CH01_Q030",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "বিষুব",
+      "expected_lines": "2-3",
+      "question": "মহাবিষুব কবে হয় এবং এই দিনটির কী বৈশিষ্ট্য?"
+    },
+    {
+      "id": "CH01_Q031",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "ঋতু",
+      "expected_lines": "2-3",
+      "question": "২১ জুন উত্তর গোলার্ধে কোন ঋতু থাকে এবং কেন?"
+    },
+    {
+      "id": "CH01_Q032",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "ঋতু",
+      "expected_lines": "2-3",
+      "question": "২২ ডিসেম্বর দক্ষিণ গোলার্ধে কোন ঋতু এবং কেন?"
+    },
+    {
+      "id": "CH01_Q033",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "অনুসূর-অপসূর",
+      "expected_lines": "2-3",
+      "question": "৩ জানুয়ারি পৃথিবী থেকে সূর্যের দূরত্ব কত এবং এই অবস্থার নাম কী?"
+    },
+    {
+      "id": "CH01_Q034",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "অনুসূর-অপসূর",
+      "expected_lines": "2-3",
+      "question": "৪ জুলাই পৃথিবী থেকে সূর্যের দূরত্ব কত এবং এই অবস্থার নাম কী?"
+    },
+    {
+      "id": "CH01_Q035",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "আলোকিত রাত্রি",
+      "expected_lines": "2-3",
+      "question": "'আলোকিত রাত্রি' কোথায় কখন দেখা যায়?"
+    },
+    {
+      "id": "CH01_Q036",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "অন্ধকার দিন",
+      "expected_lines": "2-3",
+      "question": "'অন্ধকার দিন' কী এবং কোথায় দেখা যায়?"
+    },
+    {
+      "id": "CH01_Q037",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "সূর্যের দৈনিক আপাতগতি",
+      "expected_lines": "2-3",
+      "question": "সূর্যের দৈনিক আপাতগতি বলতে কী বোঝায়?"
+    },
+    {
+      "id": "CH01_Q038",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "তির্যকরশ্মি ও লম্বরশ্মি",
+      "expected_lines": "2-3",
+      "question": "লম্বরশ্মি ও তির্যকরশ্মির মধ্যে পার্থক্য কী?"
+    },
+    {
+      "id": "CH01_Q039",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "উপবৃত্তাকার কক্ষপথ",
+      "expected_lines": "2-3",
+      "question": "উপবৃত্তের ফোকাস বিন্দু কী এবং পৃথিবীর কক্ষপথে সূর্য কোথায় থাকে?"
+    },
+    {
+      "id": "CH01_Q040",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "ছয় ঋতু",
+      "expected_lines": "2-3",
+      "question": "আমাদের দেশে ছয়টি ঋতুর নাম কী কী?"
+    },
+    {
+      "id": "CH01_Q041",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "মহাকর্ষ ও অভিকর্ষ",
+      "expected_lines": "4-6",
+      "question": "মহাকর্ষ ও অভিকর্ষের মধ্যে পার্থক্য বুঝিয়ে লেখো।"
+    },
+    {
+      "id": "CH01_Q042",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "পৃথিবীর গতি",
+      "expected_lines": "4-6",
+      "question": "পৃথিবীর আবর্তন গতি ও পরিক্রমণ গতির মধ্যে পার্থক্য লেখো।"
+    },
+    {
+      "id": "CH01_Q043",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "দিন-রাত",
+      "expected_lines": "4-6",
+      "question": "পৃথিবীর আবর্তন গতির ফলে কীভাবে দিন ও রাত হয়? সংক্ষেপে বর্ণনা করো।"
+    },
+    {
+      "id": "CH01_Q044",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "প্রাকৃতিক ঘড়ি",
+      "expected_lines": "4-6",
+      "question": "সময় মাপার তিনটি প্রাকৃতিক উপায় সংক্ষেপে বর্ণনা করো।"
+    },
+    {
+      "id": "CH01_Q045",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "অধিবর্ষ",
+      "expected_lines": "4-6",
+      "question": "অধিবর্ষ কেন হয়? সংক্ষেপে ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH01_Q046",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "কক্ষপথ ও উপবৃত্ত",
+      "expected_lines": "4-6",
+      "question": "পৃথিবীর কক্ষপথ কেমন? উপবৃত্ত ও বৃত্তের পার্থক্য সংক্ষেপে লেখো।"
+    },
+    {
+      "id": "CH01_Q047",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "ঋতু পরিবর্তন",
+      "expected_lines": "4-6",
+      "question": "পৃথিবীতে ঋতু পরিবর্তনের মূল কারণ কী?"
+    },
+    {
+      "id": "CH01_Q048",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "বিষুব",
+      "expected_lines": "4-6",
+      "question": "বিষুব কবে হয়? এই দিনগুলিতে দিন ও রাতের দৈর্ঘ্য কেমন থাকে?"
+    },
+    {
+      "id": "CH01_Q049",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "সংক্রান্তি",
+      "expected_lines": "4-6",
+      "question": "কর্কটসংক্রান্তি ও মকরসংক্রান্তি কবে হয়? প্রতিটির বৈশিষ্ট্য লেখো।"
+    },
+    {
+      "id": "CH01_Q050",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "মুক্তিবেগ",
+      "expected_lines": "4-6",
+      "question": "মুক্তিবেগ কাকে বলে? পৃথিবীর মুক্তিবেগ কত?"
+    },
+    {
+      "id": "CH01_Q051",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "সূর্যঘড়ি",
+      "expected_lines": "4-6",
+      "question": "সূর্যঘড়ি কীভাবে কাজ করে? সংক্ষেপে বর্ণনা করো।"
+    },
+    {
+      "id": "CH01_Q052",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "অনুসূর-অপসূর",
+      "expected_lines": "4-6",
+      "question": "অনুসূর ও অপসূর অবস্থান কী? প্রতিটিতে পৃথিবী থেকে সূর্যের দূরত্ব কত?"
+    },
+    {
+      "id": "CH01_Q053",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "রবিমার্গ",
+      "expected_lines": "4-6",
+      "question": "রবিমার্গ কী? সৌর বার্ষিক আপাতগতি বলতে কী বোঝায়?"
+    },
+    {
+      "id": "CH01_Q054",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "উত্তরায়ণ-দক্ষিণায়ন",
+      "expected_lines": "4-6",
+      "question": "উত্তরায়ণ ও দক্ষিণায়ন কাকে বলে? প্রতিটি কখন শুরু হয়?"
+    },
+    {
+      "id": "CH01_Q055",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ঋতু পরিবর্তন",
+      "expected_lines": "4-6",
+      "question": "পৃথিবীর হেলানো অক্ষ কীভাবে ঋতু পরিবর্তনে ভূমিকা রাখে? ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH01_Q056",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "কর্কটসংক্রান্তি",
+      "expected_lines": "4-6",
+      "question": "২১ জুন তারিখে উত্তর ও দক্ষিণ গোলার্ধের দিন-রাতের দৈর্ঘ্য কেমন? কারণ ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH01_Q057",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "মকরসংক্রান্তি",
+      "expected_lines": "4-6",
+      "question": "২২ ডিসেম্বর উত্তর ও দক্ষিণ গোলার্ধে কোন ঋতু থাকে? দিন ও রাতের দৈর্ঘ্য কেমন?"
+    },
+    {
+      "id": "CH01_Q058",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "লম্বরশ্মি ও তির্যকরশ্মি",
+      "expected_lines": "4-6",
+      "question": "লম্বরশ্মি ও তির্যকরশ্মি কীভাবে তাপমাত্রার পার্থক্য তৈরি করে? ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH01_Q059",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "মেরু অঞ্চল",
+      "expected_lines": "4-6",
+      "question": "মেরু অঞ্চলে ছ মাস দিন ও ছ মাস রাত হওয়ার কারণ ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH01_Q060",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "অরোরা",
+      "expected_lines": "4-6",
+      "question": "সুমেরু প্রভা ও কুমেরু প্রভা কীভাবে সৃষ্টি হয়? সংক্ষেপে বর্ণনা করো।"
+    },
+    {
+      "id": "CH01_Q061",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "মধ্যরাত্রির সূর্য",
+      "expected_lines": "4-6",
+      "question": "মধ্যরাত্রির সূর্য কোথায় কোথায় দেখা যায়? কেন এই ঘটনা ঘটে?"
+    },
+    {
+      "id": "CH01_Q062",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "অধিবর্ষ",
+      "expected_lines": "4-6",
+      "question": "শতাব্দী বছরে অধিবর্ষের বিশেষ নিয়মটি কী এবং কেন এই নিয়ম করা হয়েছে?"
+    },
+    {
+      "id": "CH01_Q063",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "সূর্যের আপাতগতি",
+      "expected_lines": "4-6",
+      "question": "সূর্যের দৈনিক আপাতগতি ও বার্ষিক আপাতগতির মধ্যে পার্থক্য লেখো।"
+    },
+    {
+      "id": "CH01_Q064",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "বসন্তকাল",
+      "expected_lines": "4-6",
+      "question": "উত্তর গোলার্ধে বসন্তকাল কখন আসে? কারণ সহ ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH01_Q065",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "শরৎকাল",
+      "expected_lines": "4-6",
+      "question": "উত্তর গোলার্ধে শরৎকাল কখন থাকে? জলবিষুবের গুরুত্ব কী?"
+    },
+    {
+      "id": "CH01_Q066",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "কেপলারের সূত্র",
+      "expected_lines": "4-6",
+      "question": "কেপলারের প্রথম সূত্র অনুযায়ী গ্রহের গতির বৈশিষ্ট্য কী?"
+    },
+    {
+      "id": "CH01_Q067",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "পৃথিবীর অক্ষ",
+      "expected_lines": "4-6",
+      "question": "পৃথিবীর অক্ষ হেলানো না হলে কী হতো?"
+    },
+    {
+      "id": "CH01_Q068",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ঋতু বৈচিত্র্য",
+      "expected_lines": "4-6",
+      "question": "ঋতু বৈচিত্র্য কৃষি ও মানবজীবনে কীভাবে প্রভাব ফেলে?"
+    },
+    {
+      "id": "CH01_Q069",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "কক্ষপথ ও দূরত্ব",
+      "expected_lines": "4-6",
+      "question": "পৃথিবীর কক্ষপথ উপবৃত্তাকার হওয়ায় সারাবছর সূর্য থেকে পৃথিবীর দূরত্ব সমান থাকে না—ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH01_Q070",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "গ্রীষ্মকাল",
+      "expected_lines": "4-6",
+      "question": "উত্তর গোলার্ধে গ্রীষ্মকালে দিন বড় হয় কেন? বিস্তারিত ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH01_Q071",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "শীতকাল",
+      "expected_lines": "4-6",
+      "question": "উত্তর গোলার্ধে শীতকালে রাত বড় হওয়ার কারণ কী?"
+    },
+    {
+      "id": "CH01_Q072",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "নিরক্ষীয় অঞ্চল",
+      "expected_lines": "4-6",
+      "question": "নিরক্ষীয় অঞ্চলে সারাবছর দিন-রাত সমান থাকে কেন?"
+    },
+    {
+      "id": "CH01_Q073",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "অরোরা ও বায়ুমণ্ডল",
+      "expected_lines": "4-6",
+      "question": "অরোরা সৃষ্টিতে বায়ুমণ্ডলের ভূমিকা কী?"
+    },
+    {
+      "id": "CH01_Q074",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "মিশরীয় সভ্যতা",
+      "expected_lines": "4-6",
+      "question": "প্রাচীন মিশরীয়রা ক্যালেন্ডার তৈরিতে কীভাবে জ্যোতির্বিদ্যার সাহায্য নিয়েছিল?"
+    },
+    {
+      "id": "CH01_Q075",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "উত্তর ও দক্ষিণ গোলার্ধ",
+      "expected_lines": "4-6",
+      "question": "উত্তর ও দক্ষিণ গোলার্ধে ঋতুগুলি কেন বিপরীত হয়? উদাহরণ দিয়ে বোঝাও।"
+    },
+    {
+      "id": "CH01_Q076",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "সৌরজগৎ",
+      "expected_lines": "4-6",
+      "question": "সূর্য কোথায় থাকে এবং গ্রহগুলি সূর্যের চারদিকে কীভাবে পরিক্রমণ করে?"
+    },
+    {
+      "id": "CH01_Q077",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "আলোকিত রাত্রি ও অন্ধকার দিন",
+      "expected_lines": "4-6",
+      "question": "আলোকিত রাত্রি ও অন্ধকার দিন কোন কোন দেশে দেখা যায়? কারণ লেখো।"
+    },
+    {
+      "id": "CH01_Q078",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "সংক্রান্তি ও সংস্কৃতি",
+      "expected_lines": "4-6",
+      "question": "সংক্রান্তির দিনগুলি প্রাচীনকাল থেকে কেন গুরুত্বপূর্ণ ছিল?"
+    },
+    {
+      "id": "CH01_Q079",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "ছয় ঋতু",
+      "expected_lines": "4-6",
+      "question": "আমাদের দেশে ছয়টি ঋতু থাকলেও পৃথিবীর অধিকাংশ অঞ্চলে চারটি ঋতু কেন?"
+    },
+    {
+      "id": "CH01_Q080",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "জ্যোতির্বিদ্যার ইতিহাস",
+      "expected_lines": "4-6",
+      "question": "কোপার্নিকাস ও কেপলার গ্রহের গতি সম্পর্কে কী আবিষ্কার করেছিলেন?"
+    },
+    {
+      "id": "CH01_Q081",
+      "marks": 5,
+      "difficulty": "Easy",
+      "topic": "পরিক্রমণ গতি",
+      "expected_lines": "8-10",
+      "question": "পৃথিবীর পরিক্রমণ গতি কী? এই গতির ফলে কী কী ঘটনা ঘটে? বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH01_Q082",
+      "marks": 5,
+      "difficulty": "Easy",
+      "topic": "দিন-রাত ও ঋতু",
+      "expected_lines": "8-10",
+      "question": "পৃথিবীর আবর্তন ও পরিক্রমণ গতির ফলে কীভাবে দিন-রাত ও ঋতু পরিবর্তন হয়? বিস্তারিত বর্ণনা করো।"
+    },
+    {
+      "id": "CH01_Q083",
+      "marks": 5,
+      "difficulty": "Easy",
+      "topic": "উত্তর গোলার্ধের ঋতু",
+      "expected_lines": "8-10",
+      "question": "উত্তর গোলার্ধে চারটি ঋতু কখন এবং কেন হয়? প্রতিটি ঋতুর বৈশিষ্ট্য সহ আলোচনা করো।"
+    },
+    {
+      "id": "CH01_Q084",
+      "marks": 5,
+      "difficulty": "Easy",
+      "topic": "বিষুব ও সংক্রান্তি",
+      "expected_lines": "8-10",
+      "question": "বিষুব ও সংক্রান্তি কী? এই দিনগুলিতে পৃথিবীর বিভিন্ন অঞ্চলে দিন-রাতের পরিস্থিতি কেমন হয়?"
+    },
+    {
+      "id": "CH01_Q085",
+      "marks": 5,
+      "difficulty": "Easy",
+      "topic": "অধিবর্ষ",
+      "expected_lines": "8-10",
+      "question": "অধিবর্ষ কীভাবে গণনা করা হয়? শতাব্দী বছরে অধিবর্ষের বিশেষ নিয়মটি উদাহরণ দিয়ে বুঝিয়ে দাও।"
+    },
+    {
+      "id": "CH01_Q086",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "ঋতু পরিবর্তনের কারণ",
+      "expected_lines": "8-10",
+      "question": "পৃথিবীর হেলানো অক্ষ ও পরিক্রমণ গতি কীভাবে ঋতু পরিবর্তন ঘটায়? চিত্র সহ ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH01_Q087",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "মেরু অঞ্চলের বিশেষত্ব",
+      "expected_lines": "8-10",
+      "question": "মেরু অঞ্চলে ছ মাস দিন ও ছ মাস রাত হয় কেন? এই অঞ্চলের জলবায়ু ও প্রকৃতির উপর এর কী প্রভাব পড়ে?"
+    },
+    {
+      "id": "CH01_Q088",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "সূর্যের আপাতগতি",
+      "expected_lines": "8-10",
+      "question": "সূর্যের দৈনিক ও বার্ষিক আপাতগতি বিস্তারিতভাবে আলোচনা করো। প্রকৃতপক্ষে কোনটির গতি আছে?"
+    },
+    {
+      "id": "CH01_Q089",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "লম্বরশ্মি ও তির্যকরশ্মি",
+      "expected_lines": "8-10",
+      "question": "লম্বরশ্মি ও তির্যকরশ্মি কাকে বলে? এদের কারণে বিভিন্ন অঞ্চলে তাপমাত্রার তারতম্য কীভাবে ঘটে?"
+    },
+    {
+      "id": "CH01_Q090",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "উপবৃত্তাকার কক্ষপথ",
+      "expected_lines": "8-10",
+      "question": "পৃথিবীর উপবৃত্তাকার কক্ষপথের কারণে সারাবছর সূর্য থেকে পৃথিবীর দূরত্ব পরিবর্তন হয়—কেপলারের সূত্রের আলোকে ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH01_Q091",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "অরোরা",
+      "expected_lines": "8-10",
+      "question": "সুমেরু প্রভা ও কুমেরু প্রভা কী? এরা কীভাবে সৃষ্টি হয়? কোথায় এগুলি দেখা যায়?"
+    },
+    {
+      "id": "CH01_Q092",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "ঋতু বৈচিত্র্য ও সংস্কৃতি",
+      "expected_lines": "8-10",
+      "question": "ঋতু বৈচিত্র্য মানুষের জীবনযাত্রা, কৃষিকাজ ও সংস্কৃতিতে কীভাবে প্রভাব ফেলে? বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH01_Q093",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "মধ্যরাত্রির সূর্য",
+      "expected_lines": "8-10",
+      "question": "মধ্যরাত্রির সূর্য কেন হয়? কোন কোন দেশে দেখা যায়? এই ঘটনার বৈজ্ঞানিক কারণ বিস্তারিত লেখো।"
+    },
+    {
+      "id": "CH01_Q094",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "পরিক্রমণ গতির ফলাফল",
+      "expected_lines": "8-10",
+      "question": "পৃথিবীর পরিক্রমণ গতি না থাকলে কী হতো? বিভিন্ন দিক থেকে বিশ্লেষণ করে লেখো।"
+    },
+    {
+      "id": "CH01_Q095",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "উত্তর ও দক্ষিণ গোলার্ধ",
+      "expected_lines": "8-10",
+      "question": "উত্তর ও দক্ষিণ গোলার্ধে ঋতু কেন বিপরীত? এক বছরের মধ্যে বিভিন্ন গুরুত্বপূর্ণ তারিখে উভয় গোলার্ধের পরিস্থিতি তুলনামূলক আলোচনা করো।"
+    },
+    {
+      "id": "CH01_Q096",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা ও বিজ্ঞান",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি উত্তর মেরুতে বসবাস করো। গ্রীষ্মকালে ও শীতকালে তোমার দৈনন্দিন জীবন কেমন হবে? কল্পনা করে লেখো।"
+    },
+    {
+      "id": "CH01_Q097",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো পৃথিবীর অক্ষ একদম সোজা ছিল, একটুও হেলানো ছিল না। তাহলে পৃথিবীর বিভিন্ন অঞ্চলে ঋতু পরিবর্তন, দিন-রাতের দৈর্ঘ্য এবং মানুষের জীবনযাত্রা কেমন হতো? কল্পনা করে লেখো।"
+    },
+    {
+      "id": "CH01_Q098",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একটি মহাকাশযানে চড়ে পৃথিবীর চারপাশে ঘুরছ। ওপর থেকে পৃথিবীর পরিক্রমণ, বিভিন্ন ঋতু ও আলোকিত-অন্ধকার অঞ্চলগুলি কেমন দেখাবে? কল্পনা করে বিস্তারিত লেখো।"
+    },
+    {
+      "id": "CH01_Q099",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো পৃথিবী থেকে চাঁদ হঠাৎ অদৃশ্য হয়ে গেল। চান্দ্রমাসের হিসেব, জোয়ার-ভাটা এবং পৃথিবীর ঋতু পরিবর্তনে কী কী পরিবর্তন আসত বলে তুমি মনে করো? কল্পনা করে লেখো।"
+    },
+    {
+      "id": "CH01_Q100",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একজন প্রাচীন মিশরীয় জ্যোতির্বিদ। পৃথিবীর পরিক্রমণ গতি পর্যবেক্ষণ করে কীভাবে ক্যালেন্ডার তৈরি করবে? তোমার পর্যবেক্ষণ ও চিন্তাভাবনা কল্পনা করে লেখো।"
+    }
+  ]
+}

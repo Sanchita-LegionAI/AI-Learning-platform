@@ -1,0 +1,819 @@
+{
+  "book_id": "PARIBESH_BIGYAN_7",
+  "book_name": "Paribesh O Bigyan",
+  "book_name_bn": "পরিবেশ ও বিজ্ঞান",
+  "subject": "Environmental Science",
+  "class": 7,
+  "chapter_no": 5,
+  "chapter_title": "ভৌত পরিবেশ — পরিবেশবান্ধব শক্তির ব্যবহার",
+  "chapter_subtitle": "জীবাশ্ম জ্বালানি, সৌরশক্তি, বায়ুশক্তি, জলবিদ্যুৎ, জিওথার্মাল শক্তি ও শক্তি সংরক্ষণ",
+  "source_file": "ch05.pdf",
+  "question_count": 100,
+  "distribution": {
+    "2_marks": 40,
+    "3_marks": 40,
+    "5_marks": 20
+  },
+  "questions": [
+    {
+      "id": "CH05_Q001",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "জীবাশ্ম জ্বালানি",
+      "expected_lines": "2-3",
+      "question": "জীবাশ্ম জ্বালানি কাকে বলে? কীভাবে তৈরি হয়?"
+    },
+    {
+      "id": "CH05_Q002",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "কয়লার গঠন",
+      "expected_lines": "2-3",
+      "question": "কয়লা কীভাবে তৈরি হয়েছে?"
+    },
+    {
+      "id": "CH05_Q003",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "পেট্রোলিয়াম",
+      "expected_lines": "2-3",
+      "question": "পেট্রোলিয়াম বা খনিজ তেল কোথায় পাওয়া যায়?"
+    },
+    {
+      "id": "CH05_Q004",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "প্রাকৃতিক গ্যাস",
+      "expected_lines": "2-3",
+      "question": "প্রাকৃতিক গ্যাস কীভাবে পাওয়া যায়?"
+    },
+    {
+      "id": "CH05_Q005",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "সৌরশক্তি",
+      "expected_lines": "2-3",
+      "question": "সৌরশক্তি কী? এটি কীভাবে ব্যবহার করা হয়?"
+    },
+    {
+      "id": "CH05_Q006",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "সোলার প্যানেল",
+      "expected_lines": "2-3",
+      "question": "সোলার প্যানেল কীভাবে বিদ্যুৎ তৈরি করে?"
+    },
+    {
+      "id": "CH05_Q007",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "বায়ুশক্তি",
+      "expected_lines": "2-3",
+      "question": "বায়ু থেকে বিদ্যুৎ কীভাবে তৈরি হয়?"
+    },
+    {
+      "id": "CH05_Q008",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "জলবিদ্যুৎ",
+      "expected_lines": "2-3",
+      "question": "জলবিদ্যুৎ কীভাবে উৎপাদিত হয়?"
+    },
+    {
+      "id": "CH05_Q009",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "জিওথার্মাল শক্তি",
+      "expected_lines": "2-3",
+      "question": "ভূ-তাপশক্তি বা জিওথার্মাল এনার্জি কী?"
+    },
+    {
+      "id": "CH05_Q010",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "পরিবেশবান্ধব শক্তি",
+      "expected_lines": "2-3",
+      "question": "পরিবেশবান্ধব শক্তি কাকে বলে?"
+    },
+    {
+      "id": "CH05_Q011",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "শক্তির অপব্যবহার",
+      "expected_lines": "2-3",
+      "question": "শক্তির অপব্যবহার কীভাবে পরিবেশ ক্ষতি করে?"
+    },
+    {
+      "id": "CH05_Q012",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "জীবাশ্ম জ্বালানির সীমাবদ্ধতা",
+      "expected_lines": "2-3",
+      "question": "জীবাশ্ম জ্বালানি ব্যবহারের দুটি সমস্যা লেখো।"
+    },
+    {
+      "id": "CH05_Q013",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "বায়োগ্যাস",
+      "expected_lines": "2-3",
+      "question": "বায়োগ্যাস কী? কীভাবে তৈরি হয়?"
+    },
+    {
+      "id": "CH05_Q014",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "শক্তির সংরক্ষণ",
+      "expected_lines": "2-3",
+      "question": "শক্তি সংরক্ষণ বলতে কী বোঝায়?"
+    },
+    {
+      "id": "CH05_Q015",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "সাইকেল ও শক্তি",
+      "expected_lines": "2-3",
+      "question": "সাইকেলে চলাফেরা কীভাবে শক্তি সাশ্রয় করে?"
+    },
+    {
+      "id": "CH05_Q016",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "গ্রিনহাউস গ্যাস",
+      "expected_lines": "2-3",
+      "question": "CO₂ নির্গমন ও গ্রিনহাউস প্রভাবের সম্পর্ক কী?"
+    },
+    {
+      "id": "CH05_Q017",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "সোলার কুকার",
+      "expected_lines": "2-3",
+      "question": "সোলার কুকার কীভাবে কাজ করে?"
+    },
+    {
+      "id": "CH05_Q018",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "নৌকা ও জ্বালানি",
+      "expected_lines": "2-3",
+      "question": "নৌকা চলাচলে কোন কোন শক্তি ব্যবহার হয়?"
+    },
+    {
+      "id": "CH05_Q019",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "তাপ শক্তির ব্যবহার",
+      "expected_lines": "2-3",
+      "question": "তাপশক্তির পাঁচটি দৈনন্দিন ব্যবহার লেখো।"
+    },
+    {
+      "id": "CH05_Q020",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "পুনর্নবীকরণযোগ্য শক্তি",
+      "expected_lines": "2-3",
+      "question": "পুনর্নবীকরণযোগ্য ও অপুনর্নবীকরণযোগ্য শক্তির পার্থক্য কী?"
+    },
+    {
+      "id": "CH05_Q021",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "LED বাল্ব",
+      "expected_lines": "2-3",
+      "question": "LED বাল্ব কেন শক্তি সাশ্রয়ী?"
+    },
+    {
+      "id": "CH05_Q022",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "শক্তির রূপান্তর",
+      "expected_lines": "2-3",
+      "question": "সৌরশক্তি কোন কোন শক্তিতে রূপান্তরিত হয়?"
+    },
+    {
+      "id": "CH05_Q023",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "জীবাশ্ম জ্বালানি ও প্রদূষণ",
+      "expected_lines": "2-3",
+      "question": "কয়লা পোড়ালে কোন কোন ক্ষতিকর গ্যাস নির্গত হয়?"
+    },
+    {
+      "id": "CH05_Q024",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "শক্তি ঘনত্ব",
+      "expected_lines": "2-3",
+      "question": "জীবাশ্ম জ্বালানির শক্তি ঘনত্ব বেশি কেন?"
+    },
+    {
+      "id": "CH05_Q025",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "ওয়াট ও কিলোওয়াট",
+      "expected_lines": "2-3",
+      "question": "ওয়াট ও কিলোওয়াট-ঘণ্টা কী?"
+    },
+    {
+      "id": "CH05_Q026",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "বায়োমাস",
+      "expected_lines": "2-3",
+      "question": "বায়োমাস থেকে শক্তি কীভাবে পাওয়া যায়?"
+    },
+    {
+      "id": "CH05_Q027",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "জোয়ারভাটার শক্তি",
+      "expected_lines": "2-3",
+      "question": "সমুদ্রের জোয়ারভাটা থেকে কীভাবে বিদ্যুৎ পাওয়া যায়?"
+    },
+    {
+      "id": "CH05_Q028",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "পারমাণবিক শক্তি",
+      "expected_lines": "2-3",
+      "question": "পারমাণবিক শক্তি কী? এটি কি পরিবেশবান্ধব?"
+    },
+    {
+      "id": "CH05_Q029",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "শক্তির পরিমাপ",
+      "expected_lines": "2-3",
+      "question": "শক্তি পরিমাপের SI একক কী?"
+    },
+    {
+      "id": "CH05_Q030",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "জীবাশ্ম জ্বালানি শেষ হবে",
+      "expected_lines": "2-3",
+      "question": "বর্তমান হারে জীবাশ্ম জ্বালানি কত বছর চলবে?"
+    },
+    {
+      "id": "CH05_Q031",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "হাইড্রোজেন জ্বালানি",
+      "expected_lines": "2-3",
+      "question": "হাইড্রোজেন ভবিষ্যতের জ্বালানি — কেন?"
+    },
+    {
+      "id": "CH05_Q032",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "শক্তি নিরাপত্তা",
+      "expected_lines": "2-3",
+      "question": "শক্তি নিরাপত্তা কী? কেন এটি গুরুত্বপূর্ণ?"
+    },
+    {
+      "id": "CH05_Q033",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "কার্বন নিঃসরণ কমানো",
+      "expected_lines": "2-3",
+      "question": "কার্বন নিঃসরণ কমাতে আমরা কী করতে পারি?"
+    },
+    {
+      "id": "CH05_Q034",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "সোলার সেল ও সোলার প্যানেল",
+      "expected_lines": "2-3",
+      "question": "সোলার সেল ও সোলার প্যানেলের মধ্যে পার্থক্য কী?"
+    },
+    {
+      "id": "CH05_Q035",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "নলকূপের বিদ্যুৎ",
+      "expected_lines": "2-3",
+      "question": "গভীর নলকূপের বদলে নদীর জল ব্যবহার করলে কোন শক্তি বাঁচে?"
+    },
+    {
+      "id": "CH05_Q036",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "পরিবেশ ও শক্তি",
+      "expected_lines": "2-3",
+      "question": "শক্তির অতিরিক্ত ব্যবহার পরিবেশকে কীভাবে প্রভাবিত করে?"
+    },
+    {
+      "id": "CH05_Q037",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "বাড়িতে শক্তি সাশ্রয়",
+      "expected_lines": "2-3",
+      "question": "বাড়িতে শক্তি সাশ্রয়ের পাঁচটি উপায় লেখো।"
+    },
+    {
+      "id": "CH05_Q038",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "বায়ুকল",
+      "expected_lines": "2-3",
+      "question": "বায়ুকলের মাধ্যমে বিদ্যুৎ কীভাবে উৎপাদন হয়?"
+    },
+    {
+      "id": "CH05_Q039",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "শক্তির শ্রেণিবিভাগ",
+      "expected_lines": "2-3",
+      "question": "যান্ত্রিক, তাপ, আলোক, রাসায়নিক শক্তির একটি করে উদাহরণ দাও।"
+    },
+    {
+      "id": "CH05_Q040",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "কয়লার শ্রেণিভাগ",
+      "expected_lines": "2-3",
+      "question": "অ্যান্থ্রাসাইট, বিটুমিনাস ও লিগনাইট কয়লার পার্থক্য কী?"
+    },
+    {
+      "id": "CH05_Q041",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "জীবাশ্ম জ্বালানির সুবিধা ও অসুবিধা",
+      "expected_lines": "4-6",
+      "question": "জীবাশ্ম জ্বালানির সুবিধা ও পরিবেশগত ক্ষতি আলোচনা করো।"
+    },
+    {
+      "id": "CH05_Q042",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "সৌরশক্তির ব্যবহার",
+      "expected_lines": "4-6",
+      "question": "সৌরশক্তির বিভিন্ন ব্যবহার তিনটি উদাহরণ দিয়ে ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH05_Q043",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "পুনর্নবীকরণযোগ্য শক্তি",
+      "expected_lines": "4-6",
+      "question": "পুনর্নবীকরণযোগ্য শক্তির উৎস ও সুবিধা আলোচনা করো।"
+    },
+    {
+      "id": "CH05_Q044",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "বায়ুশক্তি",
+      "expected_lines": "4-6",
+      "question": "বায়ুশক্তি থেকে বিদ্যুৎ উৎপাদনের পদ্ধতি ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH05_Q045",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "জলবিদ্যুৎ কেন্দ্র",
+      "expected_lines": "4-6",
+      "question": "জলবিদ্যুৎ কেন্দ্র কীভাবে কাজ করে? পরিবেশে এর প্রভাব কী?"
+    },
+    {
+      "id": "CH05_Q046",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "কার্বন নিঃসরণ ও জলবায়ু পরিবর্তন",
+      "expected_lines": "4-6",
+      "question": "জীবাশ্ম জ্বালানি পোড়ানো কীভাবে জলবায়ু পরিবর্তনে অবদান রাখে?"
+    },
+    {
+      "id": "CH05_Q047",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "শক্তি সংরক্ষণ",
+      "expected_lines": "4-6",
+      "question": "দৈনন্দিন জীবনে শক্তি সংরক্ষণের পাঁচটি উপায় বিশদে লেখো।"
+    },
+    {
+      "id": "CH05_Q048",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "বায়োগ্যাস প্ল্যান্ট",
+      "expected_lines": "4-6",
+      "question": "বায়োগ্যাস প্ল্যান্ট কী? এটি গ্রামে কীভাবে ব্যবহার হয়?"
+    },
+    {
+      "id": "CH05_Q049",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "ভূ-তাপশক্তি",
+      "expected_lines": "4-6",
+      "question": "ভূ-তাপশক্তি কোন দেশে বেশি ব্যবহার হয় এবং কেন?"
+    },
+    {
+      "id": "CH05_Q050",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "শক্তির রূপান্তর ও সংরক্ষণ সূত্র",
+      "expected_lines": "4-6",
+      "question": "শক্তির রূপান্তর ও সংরক্ষণ সূত্র উদাহরণসহ ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH05_Q051",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "সৌরশক্তি ও কৃষি",
+      "expected_lines": "4-6",
+      "question": "কৃষিকাজে সৌরশক্তির ব্যবহার কীভাবে করা যায়?"
+    },
+    {
+      "id": "CH05_Q052",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "শক্তি সাশ্রয়ের প্রয়োজনীয়তা",
+      "expected_lines": "4-6",
+      "question": "শক্তি সাশ্রয় কেন প্রয়োজন? পরিবেশের দৃষ্টিকোণ থেকে আলোচনা করো।"
+    },
+    {
+      "id": "CH05_Q053",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "পারমাণবিক শক্তির সুবিধা ও বিপদ",
+      "expected_lines": "4-6",
+      "question": "পারমাণবিক শক্তির সুবিধা ও বিপদ তুলনামূলকভাবে আলোচনা করো।"
+    },
+    {
+      "id": "CH05_Q054",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "হাইড্রোজেন জ্বালানি",
+      "expected_lines": "4-6",
+      "question": "হাইড্রোজেন জ্বালানির সুবিধা ও উৎপাদন পদ্ধতি ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH05_Q055",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "শক্তির দক্ষতা",
+      "expected_lines": "4-6",
+      "question": "শক্তির দক্ষতা কী? এটি বাড়ানোর উপায় কী?"
+    },
+    {
+      "id": "CH05_Q056",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "ইন্টারন্যাশনাল শক্তি",
+      "expected_lines": "4-6",
+      "question": "বিশ্বে শক্তি উৎপাদনে কোন দেশ কোন পদ্ধতিতে এগিয়ে?"
+    },
+    {
+      "id": "CH05_Q057",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "সৌরশক্তি ও তাপমাত্রা",
+      "expected_lines": "4-6",
+      "question": "সৌরশক্তি সংগ্রহ মেঘলা দিনে কমে যায় কেন?"
+    },
+    {
+      "id": "CH05_Q058",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "বায়ুকলের অসুবিধা",
+      "expected_lines": "4-6",
+      "question": "বায়ুকল স্থাপনের পরিবেশগত সমস্যা কী কী?"
+    },
+    {
+      "id": "CH05_Q059",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "শক্তি ও উন্নয়ন",
+      "expected_lines": "4-6",
+      "question": "শক্তির সহজলভ্যতা ও দেশের উন্নয়নের মধ্যে সম্পর্ক কী?"
+    },
+    {
+      "id": "CH05_Q060",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "শক্তির ভবিষ্যৎ",
+      "expected_lines": "4-6",
+      "question": "ভবিষ্যতে পৃথিবীতে মূল শক্তির উৎস কী হবে বলে মনে করো?"
+    },
+    {
+      "id": "CH05_Q061",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "সৌর উনুন পরীক্ষা",
+      "expected_lines": "4-6",
+      "question": "সোলার কুকারে রান্না করার একটি পরীক্ষা বর্ণনা করো।"
+    },
+    {
+      "id": "CH05_Q062",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "জলবিদ্যুৎ ও পরিবেশ",
+      "expected_lines": "4-6",
+      "question": "বাঁধ নির্মাণে পরিবেশের উপর কী প্রভাব পড়ে?"
+    },
+    {
+      "id": "CH05_Q063",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "শক্তির আন্তর্জাতিক সংকট",
+      "expected_lines": "4-6",
+      "question": "বৈশ্বিক শক্তি সংকট কী? কারণ ও সমাধান আলোচনা করো।"
+    },
+    {
+      "id": "CH05_Q064",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "গ্রামাঞ্চলে সৌরশক্তি",
+      "expected_lines": "4-6",
+      "question": "বিদ্যুৎহীন গ্রামে সৌরশক্তি কীভাবে পরিবর্তন আনতে পারে?"
+    },
+    {
+      "id": "CH05_Q065",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "শক্তির ক্ষতিকর রূপ",
+      "expected_lines": "4-6",
+      "question": "তাপ দূষণ ও শব্দ দূষণ কীভাবে শক্তির অপচয় থেকে তৈরি হয়?"
+    },
+    {
+      "id": "CH05_Q066",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "তেল সংকট",
+      "expected_lines": "4-6",
+      "question": "১৯৭৩ সালের তেল সংকট থেকে পৃথিবী কী শিক্ষা নিয়েছে?"
+    },
+    {
+      "id": "CH05_Q067",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "সংগ্রহযোগ্য শক্তির সীমা",
+      "expected_lines": "4-6",
+      "question": "সৌর ও বায়ু শক্তির কী কী সীমাবদ্ধতা আছে?"
+    },
+    {
+      "id": "CH05_Q068",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "শক্তি ও জীববৈচিত্র্য",
+      "expected_lines": "4-6",
+      "question": "শক্তি উৎপাদন কীভাবে জীববৈচিত্র্যকে ক্ষতিগ্রস্ত করে?"
+    },
+    {
+      "id": "CH05_Q069",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "পরিবেশবান্ধব পরিবহন",
+      "expected_lines": "4-6",
+      "question": "বৈদ্যুতিক গাড়ি ও সাইকেল কীভাবে শক্তি সাশ্রয় করে?"
+    },
+    {
+      "id": "CH05_Q070",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "শক্তির চক্র",
+      "expected_lines": "4-6",
+      "question": "সৌর শক্তি কীভাবে পৃথিবীর সব শক্তির উৎস?"
+    },
+    {
+      "id": "CH05_Q071",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "সামুদ্রিক শক্তি",
+      "expected_lines": "4-6",
+      "question": "সমুদ্রের ঢেউ থেকে কীভাবে বিদ্যুৎ পাওয়া সম্ভব?"
+    },
+    {
+      "id": "CH05_Q072",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "জলবায়ু চুক্তি",
+      "expected_lines": "4-6",
+      "question": "প্যারিস জলবায়ু চুক্তিতে শক্তি নিয়ে কী সিদ্ধান্ত নেওয়া হয়েছে?"
+    },
+    {
+      "id": "CH05_Q073",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "শক্তি উৎপাদনে ভারত",
+      "expected_lines": "4-6",
+      "question": "ভারতে সৌর ও বায়ুশক্তি উৎপাদনের বর্তমান অবস্থা কী?"
+    },
+    {
+      "id": "CH05_Q074",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "শক্তির তুলনা",
+      "expected_lines": "4-6",
+      "question": "সৌরশক্তি, বায়ুশক্তি ও জলবিদ্যুৎ — তিনটির তুলনামূলক আলোচনা করো।"
+    },
+    {
+      "id": "CH05_Q075",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "পুরনো ঘড়ি ও শক্তি",
+      "expected_lines": "4-6",
+      "question": "ঘুড়ি উড়ানো ও সাইকেল চালানো — এতে কোন শক্তির রূপান্তর হয়?"
+    },
+    {
+      "id": "CH05_Q076",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "শক্তির ইতিহাস",
+      "expected_lines": "4-6",
+      "question": "মানব ইতিহাসে শক্তির ব্যবহার কীভাবে পরিবর্তিত হয়েছে?"
+    },
+    {
+      "id": "CH05_Q077",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "শক্তির পরিবেশগত হিসাব",
+      "expected_lines": "4-6",
+      "question": "শক্তি উৎপাদনে কার্বন ফুটপ্রিন্ট কী?"
+    },
+    {
+      "id": "CH05_Q078",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "বায়োজ্বালানি",
+      "expected_lines": "4-6",
+      "question": "বায়োজ্বালানি কী? এর সুবিধা ও সমস্যা লেখো।"
+    },
+    {
+      "id": "CH05_Q079",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "শক্তি ব্যবহারের নীতি",
+      "expected_lines": "4-6",
+      "question": "শক্তি ব্যবহারে কোন নীতিগুলি মেনে চলা উচিত?"
+    },
+    {
+      "id": "CH05_Q080",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "সৌরশক্তি প্রকল্প",
+      "expected_lines": "4-6",
+      "question": "ভারতের বড় সৌরশক্তি প্রকল্পের একটি উদাহরণ দাও।"
+    },
+    {
+      "id": "CH05_Q081",
+      "marks": 5,
+      "difficulty": "Easy",
+      "topic": "জীবাশ্ম জ্বালানি ও পরিবেশ",
+      "expected_lines": "8-10",
+      "question": "জীবাশ্ম জ্বালানির ব্যবহার ও পরিবেশগত প্রভাব বিশদে আলোচনা করো।"
+    },
+    {
+      "id": "CH05_Q082",
+      "marks": 5,
+      "difficulty": "Easy",
+      "topic": "পরিবেশবান্ধব শক্তির উৎস",
+      "expected_lines": "8-10",
+      "question": "সৌরশক্তি, বায়ুশক্তি ও জলবিদ্যুৎ — প্রতিটির কার্যপদ্ধতি ও সুবিধা বিশদে লেখো।"
+    },
+    {
+      "id": "CH05_Q083",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "শক্তি সংকট ও সমাধান",
+      "expected_lines": "8-10",
+      "question": "বিশ্বব্যাপী শক্তি সংকটের কারণ ও সমাধানের উপায় আলোচনা করো।"
+    },
+    {
+      "id": "CH05_Q084",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "শক্তির ভবিষ্যৎ",
+      "expected_lines": "8-10",
+      "question": "ভবিষ্যতের পৃথিবীতে শক্তির উৎস ও ব্যবহার কেমন হবে? তোমার মতামত দাও।"
+    },
+    {
+      "id": "CH05_Q085",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "জলবায়ু পরিবর্তন ও শক্তি",
+      "expected_lines": "8-10",
+      "question": "শক্তির ব্যবহার কীভাবে জলবায়ু পরিবর্তনে ভূমিকা রাখছে? সমাধান কী?"
+    },
+    {
+      "id": "CH05_Q086",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "শক্তি সাশ্রয়ের পরিকল্পনা",
+      "expected_lines": "8-10",
+      "question": "তোমার স্কুলে শক্তি সাশ্রয়ের একটি পরিকল্পনা তৈরি করো।"
+    },
+    {
+      "id": "CH05_Q087",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — শক্তিবিহীন দিন",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো একদিন পৃথিবীতে সব জ্বালানি শেষ হয়ে গেল। মানুষ কীভাবে টিকে থাকবে?"
+    },
+    {
+      "id": "CH05_Q088",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — সৌর গ্রহে",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি এমন একটি গ্রহে গেছ যেখানে শুধু সৌরশক্তিই পাওয়া যায়। সেখানকার সভ্যতার বর্ণনা দাও।"
+    },
+    {
+      "id": "CH05_Q089",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — পরিবেশবান্ধব গ্রাম",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একটি গ্রামের মাথা। সেই গ্রামকে ১০০% পরিবেশবান্ধব শক্তি নির্ভর করতে তুমি কী কী পদক্ষেপ নেবে?"
+    },
+    {
+      "id": "CH05_Q090",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — বিজ্ঞানী হিসেবে",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একজন শক্তিবিজ্ঞানী যে নতুন একটি পরিবেশবান্ধব শক্তির উৎস আবিষ্কার করেছ। সেই আবিষ্কারের বিবরণ লেখো।"
+    },
+    {
+      "id": "CH05_Q091",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — সৌরশক্তির যানবাহন",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো ভবিষ্যতে সব গাড়ি, বাস ও ট্রেন সৌরশক্তিতে চলছে। এই পৃথিবীর পরিবেশ ও জীবনযাত্রার বর্ণনা দাও।"
+    },
+    {
+      "id": "CH05_Q092",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — শক্তির সেরা বন্ধু",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি শক্তির বিভিন্ন রূপ — সৌর, বায়ু, জল, জীবাশ্ম — এদের সাথে কথা বলতে পারছ। তারা কে কী বলছে — সেই কথোপকথন লেখো।"
+    },
+    {
+      "id": "CH05_Q093",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — জলবায়ু সম্মেলন",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একটি আন্তর্জাতিক জলবায়ু সম্মেলনে প্রতিনিধিত্ব করছ। জীবাশ্ম জ্বালানি ব্যবহার কমানো নিয়ে তুমি কী বক্তব্য রাখবে?"
+    },
+    {
+      "id": "CH05_Q094",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — শক্তির ডায়েরি",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো শক্তি নিজেই একটি ডায়েরি লিখছে। তার জন্মের (সূর্যে) থেকে বিভিন্ন রূপে রূপান্তরিত হয়ে শেষ পর্যন্ত তাপে পরিণত হওয়া পর্যন্ত তার যাত্রা লেখো।"
+    },
+    {
+      "id": "CH05_Q095",
+      "marks": 5,
+      "difficulty": "Easy",
+      "topic": "সোলার হিটার",
+      "expected_lines": "8-10",
+      "question": "সোলার হিটার কীভাবে কাজ করে?"
+    },
+    {
+      "id": "CH05_Q096",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "শক্তির অপচয়",
+      "expected_lines": "8-10",
+      "question": "শক্তির অপচয় কীভাবে কমানো যায়?"
+    },
+    {
+      "id": "CH05_Q097",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "বায়ুশক্তির সীমাবদ্ধতা",
+      "expected_lines": "8-10",
+      "question": "বায়ু থেকে বিদ্যুৎ উৎপাদনের সুবিধা ও সীমাবদ্ধতা আলোচনা করো।"
+    },
+    {
+      "id": "CH05_Q098",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "শক্তি ও পরিবেশ",
+      "expected_lines": "8-10",
+      "question": "শক্তি উৎপাদন কীভাবে পরিবেশ দূষণ করে?"
+    },
+    {
+      "id": "CH05_Q099",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — তেল কূপে",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একটি তেল কূপের ভেতরে আছ। লক্ষ বছর ধরে তুমি কীভাবে তৈরি হয়েছিলে এবং এখন তোমাকে তুলে নিয়ে জ্বালানো হচ্ছে — সেই গল্প লেখো।"
+    },
+    {
+      "id": "CH05_Q100",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — বায়ুকল হলে আমি",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একটি বায়ুকল। বাতাসে ঘুরতে ঘুরতে বিদ্যুৎ তৈরি করছ। তোমার দৈনন্দিন অভিজ্ঞতা লেখো।"
+    }
+  ]
+}

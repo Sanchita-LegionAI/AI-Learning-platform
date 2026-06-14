@@ -1,0 +1,819 @@
+{
+  "book_id": "PARIBESH_BIGYAN_7",
+  "book_name": "Paribesh O Bigyan",
+  "book_name_bn": "পরিবেশ ও বিজ্ঞান",
+  "subject": "Environmental Science",
+  "class": 7,
+  "chapter_no": 9,
+  "chapter_title": "মানুষের খাদ্য",
+  "chapter_subtitle": "খাদ্য উপাদান, শর্করা, প্রোটিন, স্নেহ, ভিটামিন, খনিজ, জল ও পুষ্টি",
+  "source_file": "ch09.pdf",
+  "question_count": 100,
+  "distribution": {
+    "2_marks": 40,
+    "3_marks": 40,
+    "5_marks": 20
+  },
+  "questions": [
+    {
+      "id": "CH09_Q001",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "খাদ্যের প্রয়োজন",
+      "expected_lines": "2-3",
+      "question": "মানুষের খাদ্যের প্রয়োজন কেন?"
+    },
+    {
+      "id": "CH09_Q002",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "শর্করা",
+      "expected_lines": "2-3",
+      "question": "শর্করা কী? কোন কোন খাবারে পাওয়া যায়?"
+    },
+    {
+      "id": "CH09_Q003",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "প্রোটিন",
+      "expected_lines": "2-3",
+      "question": "প্রোটিন কী? কোন কোন খাবারে পাওয়া যায়?"
+    },
+    {
+      "id": "CH09_Q004",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "স্নেহ পদার্থ",
+      "expected_lines": "2-3",
+      "question": "স্নেহ পদার্থ কী? কোন খাবারে আছে?"
+    },
+    {
+      "id": "CH09_Q005",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ভিটামিন",
+      "expected_lines": "2-3",
+      "question": "ভিটামিন কী? এর ভূমিকা কী?"
+    },
+    {
+      "id": "CH09_Q006",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "খনিজ",
+      "expected_lines": "2-3",
+      "question": "খনিজ বা মিনারেলস কী? উদাহরণ দাও।"
+    },
+    {
+      "id": "CH09_Q007",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "আঁশ",
+      "expected_lines": "2-3",
+      "question": "আঁশ বা ফাইবার কেন প্রয়োজন?"
+    },
+    {
+      "id": "CH09_Q008",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "জল",
+      "expected_lines": "2-3",
+      "question": "মানবদেহে জলের ভূমিকা কী?"
+    },
+    {
+      "id": "CH09_Q009",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ক্যালোরি",
+      "expected_lines": "2-3",
+      "question": "ক্যালোরি কী? শর্করা থেকে কত ক্যালোরি পাওয়া যায়?"
+    },
+    {
+      "id": "CH09_Q010",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ভিটামিন C",
+      "expected_lines": "2-3",
+      "question": "ভিটামিন C-এর অভাবে কী হয়?"
+    },
+    {
+      "id": "CH09_Q011",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ভিটামিন D",
+      "expected_lines": "2-3",
+      "question": "ভিটামিন D-এর উৎস ও ভূমিকা কী?"
+    },
+    {
+      "id": "CH09_Q012",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "আয়রন",
+      "expected_lines": "2-3",
+      "question": "দেহে আয়রনের ভূমিকা ও এর অভাবে কী হয়?"
+    },
+    {
+      "id": "CH09_Q013",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ক্যালশিয়াম",
+      "expected_lines": "2-3",
+      "question": "ক্যালশিয়ামের উৎস ও অভাবজনিত সমস্যা কী?"
+    },
+    {
+      "id": "CH09_Q014",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "সুষম খাদ্য",
+      "expected_lines": "2-3",
+      "question": "সুষম খাদ্য কাকে বলে?"
+    },
+    {
+      "id": "CH09_Q015",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "BMI",
+      "expected_lines": "2-3",
+      "question": "BMI বা বডি মাস ইন্ডেক্স কী?"
+    },
+    {
+      "id": "CH09_Q016",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "স্থূলতা",
+      "expected_lines": "2-3",
+      "question": "স্থূলতা কী? কীভাবে এড়ানো যায়?"
+    },
+    {
+      "id": "CH09_Q017",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "অপুষ্টি",
+      "expected_lines": "2-3",
+      "question": "অপুষ্টি কী? কোন শ্রেণির মানুষ সবচেয়ে বেশি ক্ষতিগ্রস্ত?"
+    },
+    {
+      "id": "CH09_Q018",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "প্রোটিনের অভাব",
+      "expected_lines": "2-3",
+      "question": "প্রোটিনের অভাবে কী রোগ হয়?"
+    },
+    {
+      "id": "CH09_Q019",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "শর্করার প্রকার",
+      "expected_lines": "2-3",
+      "question": "সরল ও জটিল শর্করার পার্থক্য কী?"
+    },
+    {
+      "id": "CH09_Q020",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "ট্রান্স ফ্যাট",
+      "expected_lines": "2-3",
+      "question": "ট্রান্স ফ্যাট কী? কেন ক্ষতিকর?"
+    },
+    {
+      "id": "CH09_Q021",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ভিটামিন A",
+      "expected_lines": "2-3",
+      "question": "ভিটামিন A-এর উৎস ও ভূমিকা কী?"
+    },
+    {
+      "id": "CH09_Q022",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ভিটামিন B",
+      "expected_lines": "2-3",
+      "question": "ভিটামিন B-এর ভূমিকা কী?"
+    },
+    {
+      "id": "CH09_Q023",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "জাঙ্ক ফুড",
+      "expected_lines": "2-3",
+      "question": "জাঙ্ক ফুড কেন স্বাস্থ্যের ক্ষতি করে?"
+    },
+    {
+      "id": "CH09_Q024",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "পানীয় জল",
+      "expected_lines": "2-3",
+      "question": "দিনে কতটুকু জল পান করা উচিত?"
+    },
+    {
+      "id": "CH09_Q025",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "কার্বোহাইড্রেট ও শক্তি",
+      "expected_lines": "2-3",
+      "question": "কার্বোহাইড্রেট কীভাবে শক্তি দেয়?"
+    },
+    {
+      "id": "CH09_Q026",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "প্রোটিন ও দেহগঠন",
+      "expected_lines": "2-3",
+      "question": "প্রোটিন দেহগঠনে কীভাবে ব্যবহার হয়?"
+    },
+    {
+      "id": "CH09_Q027",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "স্নেহ ও হরমোন",
+      "expected_lines": "2-3",
+      "question": "স্নেহ পদার্থ হরমোন তৈরিতে কীভাবে সাহায্য করে?"
+    },
+    {
+      "id": "CH09_Q028",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "পাচনতন্ত্র",
+      "expected_lines": "2-3",
+      "question": "খাদ্য পাচনতন্ত্রে কীভাবে হজম হয়?"
+    },
+    {
+      "id": "CH09_Q029",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "এনজাইম",
+      "expected_lines": "2-3",
+      "question": "হজমে এনজাইমের ভূমিকা কী?"
+    },
+    {
+      "id": "CH09_Q030",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "রক্তশূন্যতা",
+      "expected_lines": "2-3",
+      "question": "রক্তশূন্যতা কী? কোন খনিজের অভাবে হয়?"
+    },
+    {
+      "id": "CH09_Q031",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "ডায়াবেটিস",
+      "expected_lines": "2-3",
+      "question": "ডায়াবেটিস কী? খাদ্যাভ্যাসের সাথে এর কী সম্পর্ক?"
+    },
+    {
+      "id": "CH09_Q032",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "খাদ্য সংরক্ষণ",
+      "expected_lines": "2-3",
+      "question": "খাদ্য সংরক্ষণের দুটি পদ্ধতি লেখো।"
+    },
+    {
+      "id": "CH09_Q033",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "রাতকানা রোগ",
+      "expected_lines": "2-3",
+      "question": "রাতকানা রোগ কোন ভিটামিনের অভাবে হয়?"
+    },
+    {
+      "id": "CH09_Q034",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "বেরিবেরি",
+      "expected_lines": "2-3",
+      "question": "বেরিবেরি কোন ভিটামিনের অভাবে হয়?"
+    },
+    {
+      "id": "CH09_Q035",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "রিকেট",
+      "expected_lines": "2-3",
+      "question": "রিকেট রোগ কোন ভিটামিনের অভাবে হয়?"
+    },
+    {
+      "id": "CH09_Q036",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "স্কার্ভি",
+      "expected_lines": "2-3",
+      "question": "স্কার্ভি কোন ভিটামিনের অভাবে হয়?"
+    },
+    {
+      "id": "CH09_Q037",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "প্রোটিন ও শাকসবজি",
+      "expected_lines": "2-3",
+      "question": "কোন কোন উদ্ভিজ্জ খাবারে প্রচুর প্রোটিন পাওয়া যায়?"
+    },
+    {
+      "id": "CH09_Q038",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "শিশু পুষ্টি",
+      "expected_lines": "2-3",
+      "question": "শিশুদের জন্য কোন কোন পুষ্টি সবচেয়ে জরুরি?"
+    },
+    {
+      "id": "CH09_Q039",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "ওমেগা-৩",
+      "expected_lines": "2-3",
+      "question": "ওমেগা-৩ ফ্যাটি অ্যাসিড কী? কোন খাবারে পাওয়া যায়?"
+    },
+    {
+      "id": "CH09_Q040",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "খাদ্য লেবেল",
+      "expected_lines": "2-3",
+      "question": "খাবারের প্যাকেটের পুষ্টি লেবেল কীভাবে পড়তে হয়?"
+    },
+    {
+      "id": "CH09_Q041",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "খাদ্য উপাদান",
+      "expected_lines": "4-6",
+      "question": "মানুষের খাদ্যের বিভিন্ন উপাদান এবং তাদের ভূমিকা ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH09_Q042",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "সুষম খাদ্য",
+      "expected_lines": "4-6",
+      "question": "সুষম খাদ্য কী? একটি সুষম খাদ্য তালিকা তৈরি করো।"
+    },
+    {
+      "id": "CH09_Q043",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ভিটামিন ও অভাবজনিত রোগ",
+      "expected_lines": "4-6",
+      "question": "বিভিন্ন ভিটামিনের উৎস, ভূমিকা ও অভাবজনিত রোগ ছকে দেখাও।"
+    },
+    {
+      "id": "CH09_Q044",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "প্রোটিনের গুরুত্ব",
+      "expected_lines": "4-6",
+      "question": "দেহগঠনে প্রোটিনের ভূমিকা বিশদে ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH09_Q045",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "স্নেহ পদার্থ",
+      "expected_lines": "4-6",
+      "question": "স্নেহ পদার্থের বিভিন্ন ধরন ও দেহে তাদের ভূমিকা আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q046",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "খনিজের ভূমিকা",
+      "expected_lines": "4-6",
+      "question": "কোন কোন খনিজ মানবদেহে কী কাজ করে? ছকে দেখাও।"
+    },
+    {
+      "id": "CH09_Q047",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "পাচনতন্ত্র",
+      "expected_lines": "4-6",
+      "question": "মানুষের পাচনতন্ত্র কীভাবে কাজ করে? খাদ্য পরিপাকের ধাপগুলি লেখো।"
+    },
+    {
+      "id": "CH09_Q048",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "অপুষ্টির প্রভাব",
+      "expected_lines": "4-6",
+      "question": "অপুষ্টি কী? শিশুদের উপর অপুষ্টির প্রভাব আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q049",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "জাঙ্ক ফুড বনাম স্বাস্থ্যকর খাবার",
+      "expected_lines": "4-6",
+      "question": "জাঙ্ক ফুড কেন ক্ষতিকর? স্বাস্থ্যকর খাবারের সাথে তুলনা করো।"
+    },
+    {
+      "id": "CH09_Q050",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "খাদ্য সংরক্ষণ",
+      "expected_lines": "4-6",
+      "question": "খাদ্য সংরক্ষণের পাঁচটি পদ্ধতি ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH09_Q051",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ওজন নিয়ন্ত্রণ",
+      "expected_lines": "4-6",
+      "question": "স্বাস্থ্যকর ওজন বজায় রাখার বৈজ্ঞানিক উপায় আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q052",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "কৃষি ও পুষ্টি",
+      "expected_lines": "4-6",
+      "question": "কৃষিজ খাদ্য থেকে পুষ্টি কীভাবে পাওয়া যায়?"
+    },
+    {
+      "id": "CH09_Q053",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "ভেজাল খাদ্য",
+      "expected_lines": "4-6",
+      "question": "খাদ্যে ভেজাল কীভাবে চেনা যায়? এর ক্ষতিকর প্রভাব কী?"
+    },
+    {
+      "id": "CH09_Q054",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "শিশু পুষ্টির সমস্যা",
+      "expected_lines": "4-6",
+      "question": "ভারতে শিশু পুষ্টির সমস্যা আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q055",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "খাদ্য ও রোগ প্রতিরোধ",
+      "expected_lines": "4-6",
+      "question": "পুষ্টিকর খাদ্য কীভাবে রোগ প্রতিরোধ ক্ষমতা বাড়ায়?"
+    },
+    {
+      "id": "CH09_Q056",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ফাইবারের ভূমিকা",
+      "expected_lines": "4-6",
+      "question": "খাদ্যে ফাইবারের গুরুত্ব ব্যাখ্যা করো। কোষ্ঠকাঠিন্য প্রতিরোধে কীভাবে সাহায্য করে?"
+    },
+    {
+      "id": "CH09_Q057",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "মেদবহুল রোগ",
+      "expected_lines": "4-6",
+      "question": "ডায়াবেটিস, উচ্চ রক্তচাপ, হৃদরোগ — খাদ্যের সাথে এদের সম্পর্ক কী?"
+    },
+    {
+      "id": "CH09_Q058",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "জৈব ও কৃত্রিম খাদ্য",
+      "expected_lines": "4-6",
+      "question": "জৈব খাদ্য ও কৃত্রিম সংযোজিত খাদ্যের পার্থক্য কী?"
+    },
+    {
+      "id": "CH09_Q059",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "খাদ্যের শ্রেণিবিভাগ",
+      "expected_lines": "4-6",
+      "question": "খাদ্যকে বিভিন্নভাবে শ্রেণিবদ্ধ করা যায় — কীভাবে?"
+    },
+    {
+      "id": "CH09_Q060",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "পানীয় ও স্বাস্থ্য",
+      "expected_lines": "4-6",
+      "question": "কোন পানীয় স্বাস্থ্যকর এবং কোনটি ক্ষতিকর?"
+    },
+    {
+      "id": "CH09_Q061",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "প্রাক-স্কুল শিশু পুষ্টি",
+      "expected_lines": "4-6",
+      "question": "৫ বছরের নিচে শিশুদের জন্য বিশেষ পুষ্টির প্রয়োজনীয়তা কী?"
+    },
+    {
+      "id": "CH09_Q062",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "বয়স্কদের পুষ্টি",
+      "expected_lines": "4-6",
+      "question": "বয়স্কদের খাদ্যে কোন বিষয়গুলি মনে রাখতে হয়?"
+    },
+    {
+      "id": "CH09_Q063",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "গর্ভাবস্থায় পুষ্টি",
+      "expected_lines": "4-6",
+      "question": "গর্ভাবস্থায় অতিরিক্ত কোন পুষ্টি প্রয়োজন?"
+    },
+    {
+      "id": "CH09_Q064",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "খেলাধুলা ও পুষ্টি",
+      "expected_lines": "4-6",
+      "question": "ক্রীড়াবিদদের জন্য বিশেষ খাদ্য পরিকল্পনা কেন প্রয়োজন?"
+    },
+    {
+      "id": "CH09_Q065",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "দুগ্ধজাত পণ্য",
+      "expected_lines": "4-6",
+      "question": "দুধ ও দুগ্ধজাত পণ্যের পুষ্টিগুণ ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH09_Q066",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ডিম ও প্রোটিন",
+      "expected_lines": "4-6",
+      "question": "ডিম কেন সম্পূর্ণ প্রোটিনের উৎস বলা হয়?"
+    },
+    {
+      "id": "CH09_Q067",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "খাদ্য ও মস্তিষ্ক",
+      "expected_lines": "4-6",
+      "question": "কোন কোন খাদ্য মস্তিষ্কের কার্যকারিতা বাড়ায়?"
+    },
+    {
+      "id": "CH09_Q068",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "সামুদ্রিক খাবার",
+      "expected_lines": "4-6",
+      "question": "মাছ ও সামুদ্রিক খাবারের পুষ্টিগুণ লেখো।"
+    },
+    {
+      "id": "CH09_Q069",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "রান্না ও পুষ্টিমান",
+      "expected_lines": "4-6",
+      "question": "রান্নায় পুষ্টিমান কীভাবে কমে যায়? সংরক্ষণের উপায় কী?"
+    },
+    {
+      "id": "CH09_Q070",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "ফল ও সবজির গুরুত্ব",
+      "expected_lines": "4-6",
+      "question": "প্রতিদিনের খাদ্যে ফল ও সবজি কেন প্রয়োজন?"
+    },
+    {
+      "id": "CH09_Q071",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "পানির অভাব",
+      "expected_lines": "4-6",
+      "question": "জলশূন্যতা বা ডিহাইড্রেশন কী? এর লক্ষণ ও প্রতিকার কী?"
+    },
+    {
+      "id": "CH09_Q072",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "লবণ ও স্বাস্থ্য",
+      "expected_lines": "4-6",
+      "question": "অতিরিক্ত লবণ খাওয়া কেন ক্ষতিকর? কতটুকু খাওয়া উচিত?"
+    },
+    {
+      "id": "CH09_Q073",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "চিনি ও স্বাস্থ্য",
+      "expected_lines": "4-6",
+      "question": "অতিরিক্ত চিনি খাওয়ার ক্ষতিকর প্রভাব কী?"
+    },
+    {
+      "id": "CH09_Q074",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "তেল ও চর্বি",
+      "expected_lines": "4-6",
+      "question": "ভালো ও খারাপ চর্বির মধ্যে পার্থক্য কী?"
+    },
+    {
+      "id": "CH09_Q075",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "খাদ্য অ্যালার্জি",
+      "expected_lines": "4-6",
+      "question": "খাদ্য অ্যালার্জি কী? সাধারণ অ্যালার্জির কারণগুলি কী?"
+    },
+    {
+      "id": "CH09_Q076",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "প্রিবায়োটিক ও প্রোবায়োটিক",
+      "expected_lines": "4-6",
+      "question": "প্রিবায়োটিক ও প্রোবায়োটিক কী? অন্ত্রের স্বাস্থ্যে এদের ভূমিকা কী?"
+    },
+    {
+      "id": "CH09_Q077",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "সামাজিক খাদ্যাভ্যাস",
+      "expected_lines": "4-6",
+      "question": "সংস্কৃতি ও ধর্ম কীভাবে খাদ্যাভ্যাসকে প্রভাবিত করে?"
+    },
+    {
+      "id": "CH09_Q078",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "বিশ্ব খাদ্য সংকট",
+      "expected_lines": "4-6",
+      "question": "বিশ্বে খাদ্য সংকটের কারণ ও সমাধান কী?"
+    },
+    {
+      "id": "CH09_Q079",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "পুষ্টি শিক্ষা",
+      "expected_lines": "4-6",
+      "question": "স্কুলে পুষ্টি শিক্ষার গুরুত্ব কী?"
+    },
+    {
+      "id": "CH09_Q080",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "খাদ্য ও পরিবেশ",
+      "expected_lines": "4-6",
+      "question": "খাদ্য উৎপাদন পরিবেশে কী প্রভাব ফেলে?"
+    },
+    {
+      "id": "CH09_Q081",
+      "marks": 5,
+      "difficulty": "Easy",
+      "topic": "খাদ্য উপাদান বিশদ",
+      "expected_lines": "8-10",
+      "question": "মানুষের খাদ্যের বিভিন্ন উপাদান, তাদের উৎস ও ভূমিকা বিশদে আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q082",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "সুষম খাদ্য ও স্বাস্থ্য",
+      "expected_lines": "8-10",
+      "question": "সুষম খাদ্যের গুরুত্ব ও একটি আদর্শ খাদ্য তালিকা তৈরি করো।"
+    },
+    {
+      "id": "CH09_Q083",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "পাচনতন্ত্র",
+      "expected_lines": "8-10",
+      "question": "মানুষের পাচনতন্ত্রের কাজ বিশদে ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH09_Q084",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "অপুষ্টি ও রোগ",
+      "expected_lines": "8-10",
+      "question": "অপুষ্টিজনিত রোগ ও তাদের প্রতিকার আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q085",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "খাদ্য নিরাপত্তা",
+      "expected_lines": "8-10",
+      "question": "বিশ্বে খাদ্য নিরাপত্তার সমস্যা ও সমাধান আলোচনা করো।"
+    },
+    {
+      "id": "CH09_Q086",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — খাদ্য ট্যুর",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি তোমার মুখে প্রবেশ করা একটি রুটির টুকরো। পাচনতন্ত্রের মধ্য দিয়ে তোমার যাত্রার পুরো বিবরণ দাও।"
+    },
+    {
+      "id": "CH09_Q087",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — পুষ্টিবিদ",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একটি গ্রামের পুষ্টিবিদ। সেখানে অপুষ্টিতে ভোগা শিশুদের জন্য কম খরচে পুষ্টিকর খাদ্য পরিকল্পনা তৈরি করো।"
+    },
+    {
+      "id": "CH09_Q088",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — ভিটামিন C-র কথা",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একটি ভিটামিন C অণু। কমলালেবু থেকে মানুষের রক্তে পৌঁছানো পর্যন্ত তোমার যাত্রা লেখো।"
+    },
+    {
+      "id": "CH09_Q089",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — ভবিষ্যতের খাবার",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো ২০৫০ সালে মানুষ কীভাবে খাদ্য উৎপাদন করবে। কৃত্রিম মাংস, শৈবাল, পোকামাকড় — এই খাবারের পৃথিবী কেমন হবে?"
+    },
+    {
+      "id": "CH09_Q090",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — খাদ্যহীন দিন",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একদিন কিছুই খাওনি। তোমার শরীরে কী কী পরিবর্তন হলো — বৈজ্ঞানিক দৃষ্টিকোণ থেকে বর্ণনা করো।"
+    },
+    {
+      "id": "CH09_Q091",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — প্রোটিন ও কার্বোহাইড্রেটের তর্ক",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো প্রোটিন ও কার্বোহাইড্রেট কথা বলতে পারে। কে বেশি গুরুত্বপূর্ণ তা নিয়ে তাদের মধ্যে তর্ক হচ্ছে। সেই কথোপকথন লেখো।"
+    },
+    {
+      "id": "CH09_Q092",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — জাঙ্ক ফুডের দেশে",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি এমন একটি দেশে গেছ যেখানে শুধু জাঙ্ক ফুড খাওয়া হয়। সেখানকার মানুষের স্বাস্থ্য কেমন? তুমি কীভাবে পরিবর্তন আনবে?"
+    },
+    {
+      "id": "CH09_Q093",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — ক্ষুধার্ত শিশু",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একজন ডাক্তার যে অপুষ্টিতে ভোগা একটি শিশুকে সুস্থ করছ। কোন কোন খাবার কীভাবে দিলে সে সুস্থ হবে — তার পরিকল্পনা লেখো।"
+    },
+    {
+      "id": "CH09_Q094",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — রান্নাঘরের বিজ্ঞান",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি রান্নাঘরে বসে মায়ের রান্না দেখছ। প্রতিটি উপকরণে কোন পুষ্টি আছে এবং রান্নায় কীভাবে তা পরিবর্তিত হচ্ছে — বর্ণনা করো।"
+    },
+    {
+      "id": "CH09_Q095",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — সুষম খাদ্যের দিন",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একটি সুষম খাদ্যের দিনযাপন করছ। সকাল থেকে রাত পর্যন্ত তুমি কী খাচ্ছ এবং প্রতিটি খাবার তোমার শরীরে কী করছে — লেখো।"
+    },
+    {
+      "id": "CH09_Q096",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — গ্লুকোজের যাত্রা",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একটি গ্লুকোজ অণু। ভাত থেকে শুরু হয়ে পাকস্থলীতে হজম হয়ে রক্তে পৌঁছানো, এবং পেশিতে শক্তি দেওয়া পর্যন্ত তোমার যাত্রা লেখো।"
+    },
+    {
+      "id": "CH09_Q097",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "খাদ্য ও শক্তি",
+      "expected_lines": "8-10",
+      "question": "খাদ্য থেকে কীভাবে শক্তি পাওয়া যায়?"
+    },
+    {
+      "id": "CH09_Q098",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "স্নেহ ও মস্তিষ্ক",
+      "expected_lines": "8-10",
+      "question": "স্নেহ পদার্থ মস্তিষ্কের কাজে কীভাবে সাহায্য করে?"
+    },
+    {
+      "id": "CH09_Q099",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — অ্যামিনো অ্যাসিড",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একটি অ্যামিনো অ্যাসিড। খাবার থেকে শোষিত হয়ে প্রোটিন তৈরিতে ব্যবহৃত হওয়া পর্যন্ত তোমার যাত্রা লেখো।"
+    },
+    {
+      "id": "CH09_Q100",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো — পুষ্টিহীন গ্রাম",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একটি গ্রামে গেছ যেখানে সবাই একই ধরনের খাবার খায়। পুষ্টির ঘাটতি সমাধানে তুমি কী পদক্ষেপ নেবে?"
+    }
+  ]
+}

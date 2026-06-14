@@ -1,0 +1,819 @@
+{
+  "book_id": "AMR_PRITHIBI_7",
+  "book_name": "Amader Prithibi",
+  "book_name_bn": "আমাদের পৃথিবী",
+  "subject": "Geography",
+  "class": 7,
+  "chapter_no": 11,
+  "chapter_title": "ইউরোপ মহাদেশ",
+  "chapter_subtitle": "ইউরোপের ভূমিরূপ, শিল্প, ইতিহাস ও মানবজীবন",
+  "source_file": "ch11.pdf",
+  "question_count": 100,
+  "distribution": {
+    "2_marks": 40,
+    "3_marks": 40,
+    "5_marks": 20
+  },
+  "questions": [
+    {
+      "id": "CH11_Q001",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ইউরোপের আয়তন",
+      "expected_lines": "2-3",
+      "question": "ইউরোপ পৃথিবীর কত নম্বর ক্ষুদ্রতম মহাদেশ?"
+    },
+    {
+      "id": "CH11_Q002",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ইউরোপের অবস্থান",
+      "expected_lines": "2-3",
+      "question": "ইউরোপ মহাদেশ কোন গোলার্ধে অবস্থিত?"
+    },
+    {
+      "id": "CH11_Q003",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ইউরোপ ও এশিয়ার সীমানা",
+      "expected_lines": "2-3",
+      "question": "ইউরাল পর্বত কেন গুরুত্বপূর্ণ?"
+    },
+    {
+      "id": "CH11_Q004",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "আল্পস পর্বত",
+      "expected_lines": "2-3",
+      "question": "আল্পস পর্বত কোথায় অবস্থিত?"
+    },
+    {
+      "id": "CH11_Q005",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "মন্ট ব্লাঁ",
+      "expected_lines": "2-3",
+      "question": "মন্ট ব্লাঁ কোথায় এবং এর উচ্চতা কত?"
+    },
+    {
+      "id": "CH11_Q006",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "রাইন নদী",
+      "expected_lines": "2-3",
+      "question": "রাইন নদী কোন দেশগুলির মধ্য দিয়ে গেছে?"
+    },
+    {
+      "id": "CH11_Q007",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ডানিউব নদী",
+      "expected_lines": "2-3",
+      "question": "ডানিউব নদী কোন সাগরে পড়েছে?"
+    },
+    {
+      "id": "CH11_Q008",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ইউরোপের দীর্ঘতম নদী",
+      "expected_lines": "2-3",
+      "question": "ইউরোপের দীর্ঘতম নদীর নাম কী?"
+    },
+    {
+      "id": "CH11_Q009",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ভলগা নদী",
+      "expected_lines": "2-3",
+      "question": "ভলগা নদী কোথায়?"
+    },
+    {
+      "id": "CH11_Q010",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ভূমধ্যসাগর",
+      "expected_lines": "2-3",
+      "question": "ভূমধ্যসাগর ইউরোপের কোন দিকে?"
+    },
+    {
+      "id": "CH11_Q011",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "উত্তর সাগর",
+      "expected_lines": "2-3",
+      "question": "উত্তর সাগর কোথায়?"
+    },
+    {
+      "id": "CH11_Q012",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ইউরোপের জনসংখ্যা",
+      "expected_lines": "2-3",
+      "question": "ইউরোপের মোট জনসংখ্যা আনুমানিক কত?"
+    },
+    {
+      "id": "CH11_Q013",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "শিল্পবিপ্লব",
+      "expected_lines": "2-3",
+      "question": "শিল্পবিপ্লব কোথায় শুরু হয়েছিল?"
+    },
+    {
+      "id": "CH11_Q014",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ইউরোপিয়ান ইউনিয়ন",
+      "expected_lines": "2-3",
+      "question": "ইউরোপিয়ান ইউনিয়ন (EU) কী?"
+    },
+    {
+      "id": "CH11_Q015",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "রুর অঞ্চল",
+      "expected_lines": "2-3",
+      "question": "রুর অঞ্চল কোন দেশে এবং এটি কেন বিখ্যাত?"
+    },
+    {
+      "id": "CH11_Q016",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের জলবায়ু",
+      "expected_lines": "2-3",
+      "question": "পশ্চিম ইউরোপে সমুদ্রীয় জলবায়ু কেন হয়?"
+    },
+    {
+      "id": "CH11_Q017",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের কৃষি",
+      "expected_lines": "2-3",
+      "question": "ইউরোপে প্রধান কৃষিপণ্য কী কী?"
+    },
+    {
+      "id": "CH11_Q018",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের শিল্প",
+      "expected_lines": "2-3",
+      "question": "ইউরোপে কোন কোন শিল্প বিখ্যাত?"
+    },
+    {
+      "id": "CH11_Q019",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের উপনিবেশ",
+      "expected_lines": "2-3",
+      "question": "ইউরোপের দেশগুলি বিশ্বের বিভিন্ন অঞ্চলে উপনিবেশ স্থাপন করেছিল কেন?"
+    },
+    {
+      "id": "CH11_Q020",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "পিরিনি পর্বত",
+      "expected_lines": "2-3",
+      "question": "পিরিনি পর্বত কোথায়?"
+    },
+    {
+      "id": "CH11_Q021",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "স্ক্যান্ডিনেভিয়া",
+      "expected_lines": "2-3",
+      "question": "স্ক্যান্ডিনেভিয়া কী?"
+    },
+    {
+      "id": "CH11_Q022",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের বন",
+      "expected_lines": "2-3",
+      "question": "ইউরোপে কী ধরনের বন পাওয়া যায়?"
+    },
+    {
+      "id": "CH11_Q023",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের মুদ্রা",
+      "expected_lines": "2-3",
+      "question": "ইউরোর প্রচলন কেন হয়েছে?"
+    },
+    {
+      "id": "CH11_Q024",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "ইউরোপের শিল্পবিপ্লব",
+      "expected_lines": "2-3",
+      "question": "শিল্পবিপ্লব ইউরোপ থেকে শুরু হয়েছিল কেন?"
+    },
+    {
+      "id": "CH11_Q025",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "ইউরোপের রাজনীতি",
+      "expected_lines": "2-3",
+      "question": "ইউরোপীয় ইউনিয়নের সুবিধা কী?"
+    },
+    {
+      "id": "CH11_Q026",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "ইউরোপের পরিবেশ",
+      "expected_lines": "2-3",
+      "question": "ইউরোপে শিল্পায়নের পরিবেশগত প্রভাব কী?"
+    },
+    {
+      "id": "CH11_Q027",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "ইউরোপের সংস্কৃতি",
+      "expected_lines": "2-3",
+      "question": "ইউরোপ বিশ্বের সংস্কৃতিতে কী অবদান রেখেছে?"
+    },
+    {
+      "id": "CH11_Q028",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "ইউরোপের যুদ্ধ",
+      "expected_lines": "2-3",
+      "question": "দুটি বিশ্বযুদ্ধ ইউরোপে শুরু হয়েছিল কেন?"
+    },
+    {
+      "id": "CH11_Q029",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "রাইন-রুর শিল্পাঞ্চল",
+      "expected_lines": "2-3",
+      "question": "রাইন-রুর শিল্পাঞ্চলের বৈশিষ্ট্য কী?"
+    },
+    {
+      "id": "CH11_Q030",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "ইউরোপ ও বিশ্ব",
+      "expected_lines": "2-3",
+      "question": "ইউরোপ ঐতিহাসিকভাবে বিশ্বকে কীভাবে প্রভাবিত করেছে?"
+    },
+    {
+      "id": "CH11_Q031",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ইউরোপের দেশ",
+      "expected_lines": "2-3",
+      "question": "ইউরোপে কতটি দেশ আছে?"
+    },
+    {
+      "id": "CH11_Q032",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "মেডিটেরানিয়ান",
+      "expected_lines": "2-3",
+      "question": "ভূমধ্যসাগরীয় অঞ্চলে কী ধরনের জলবায়ু?"
+    },
+    {
+      "id": "CH11_Q033",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের উদ্ভিদ",
+      "expected_lines": "2-3",
+      "question": "ইউরোপের বিভিন্ন অঞ্চলে কী ধরনের উদ্ভিদ দেখা যায়?"
+    },
+    {
+      "id": "CH11_Q034",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের নদী",
+      "expected_lines": "2-3",
+      "question": "ইউরোপের তিনটি প্রধান নদীর নাম ও দৈর্ঘ্য লেখো।"
+    },
+    {
+      "id": "CH11_Q035",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "ইউরোপের অভিবাসন",
+      "expected_lines": "2-3",
+      "question": "বর্তমানে ইউরোপে অভিবাসন সমস্যা কেন বাড়ছে?"
+    },
+    {
+      "id": "CH11_Q036",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ফ্রান্স",
+      "expected_lines": "2-3",
+      "question": "ফ্রান্স ইউরোপের কোথায়?"
+    },
+    {
+      "id": "CH11_Q037",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের বন্দর",
+      "expected_lines": "2-3",
+      "question": "ইউরোপের প্রধান সমুদ্রবন্দরগুলির নাম লেখো।"
+    },
+    {
+      "id": "CH11_Q038",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "ইউরোপের শক্তি",
+      "expected_lines": "2-3",
+      "question": "ইউরোপ শক্তির জন্য কোথায় নির্ভরশীল?"
+    },
+    {
+      "id": "CH11_Q039",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "যুক্তরাজ্য",
+      "expected_lines": "2-3",
+      "question": "যুক্তরাজ্য কোথায় অবস্থিত?"
+    },
+    {
+      "id": "CH11_Q040",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের ঐতিহ্য",
+      "expected_lines": "2-3",
+      "question": "ইউরোপের তিনটি বিখ্যাত ঐতিহাসিক স্থানের নাম লেখো।"
+    },
+    {
+      "id": "CH11_Q041",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "ইউরোপ মহাদেশ",
+      "expected_lines": "4-6",
+      "question": "ইউরোপ মহাদেশের আয়তন, অবস্থান ও সীমানা আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q042",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "ইউরোপের ভূমিরূপ",
+      "expected_lines": "4-6",
+      "question": "ইউরোপের প্রধান ভূমিরূপ অঞ্চলগুলির নাম ও বৈশিষ্ট্য লেখো।"
+    },
+    {
+      "id": "CH11_Q043",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "আল্পস পর্বতমালা",
+      "expected_lines": "4-6",
+      "question": "আল্পস পর্বতমালার অবস্থান, বৈশিষ্ট্য ও গুরুত্ব আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q044",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "ইউরোপের নদী",
+      "expected_lines": "4-6",
+      "question": "ইউরোপের প্রধান নদীগুলির নাম, দৈর্ঘ্য ও উৎস লেখো।"
+    },
+    {
+      "id": "CH11_Q045",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "রাইন নদী",
+      "expected_lines": "4-6",
+      "question": "রাইন নদীর গুরুত্ব ও বৈশিষ্ট্য আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q046",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "ইউরোপের জলবায়ু",
+      "expected_lines": "4-6",
+      "question": "ইউরোপের বিভিন্ন জলবায়ু অঞ্চলের নাম ও বৈশিষ্ট্য লেখো।"
+    },
+    {
+      "id": "CH11_Q047",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "শিল্পবিপ্লব",
+      "expected_lines": "4-6",
+      "question": "শিল্পবিপ্লব কোথায়, কখন ও কেন শুরু হয়েছিল?"
+    },
+    {
+      "id": "CH11_Q048",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "ইউরোপিয়ান ইউনিয়ন",
+      "expected_lines": "4-6",
+      "question": "ইউরোপিয়ান ইউনিয়ন কী? এর উদ্দেশ্য ও সুবিধা কী?"
+    },
+    {
+      "id": "CH11_Q049",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "ইউরোপের কৃষি",
+      "expected_lines": "4-6",
+      "question": "ইউরোপের প্রধান কৃষিপণ্য ও কৃষির বৈশিষ্ট্য আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q050",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "ইউরোপের শিল্প",
+      "expected_lines": "4-6",
+      "question": "ইউরোপের প্রধান শিল্পগুলির নাম ও অবস্থান লেখো।"
+    },
+    {
+      "id": "CH11_Q051",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "রুর অঞ্চল",
+      "expected_lines": "4-6",
+      "question": "রুর অঞ্চলের শিল্পের বৈশিষ্ট্য ও গুরুত্ব আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q052",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের উপনিবেশ",
+      "expected_lines": "4-6",
+      "question": "ইউরোপের দেশগুলি কীভাবে বিশ্বের বিভিন্ন অঞ্চলে উপনিবেশ স্থাপন করেছিল?"
+    },
+    {
+      "id": "CH11_Q053",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের বন্দর",
+      "expected_lines": "4-6",
+      "question": "ইউরোপের প্রধান বন্দরগুলির গুরুত্ব আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q054",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "স্ক্যান্ডিনেভিয়ার দেশ",
+      "expected_lines": "4-6",
+      "question": "স্ক্যান্ডিনেভিয়ার দেশগুলির বৈশিষ্ট্য ও গুরুত্ব কী?"
+    },
+    {
+      "id": "CH11_Q055",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ভূমধ্যসাগরীয় জলবায়ু",
+      "expected_lines": "4-6",
+      "question": "ভূমধ্যসাগরীয় জলবায়ুর বৈশিষ্ট্য ও এই অঞ্চলের কৃষি আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q056",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের খনিজ",
+      "expected_lines": "4-6",
+      "question": "ইউরোপের প্রধান খনিজ সম্পদ ও তাদের বিস্তার লেখো।"
+    },
+    {
+      "id": "CH11_Q057",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের পরিবহন",
+      "expected_lines": "4-6",
+      "question": "ইউরোপের উন্নত পরিবহন ব্যবস্থার বৈশিষ্ট্য আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q058",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ডানিউব নদী",
+      "expected_lines": "4-6",
+      "question": "ডানিউব নদীর গতিপথ ও গুরুত্ব আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q059",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের সংস্কৃতি",
+      "expected_lines": "4-6",
+      "question": "ইউরোপ বিশ্বের শিল্প, বিজ্ঞান ও সংস্কৃতিতে কী অবদান রেখেছে?"
+    },
+    {
+      "id": "CH11_Q060",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের ইতিহাস",
+      "expected_lines": "4-6",
+      "question": "রেনেসাঁ ও শিল্পবিপ্লব ইউরোপকে কীভাবে পরিবর্তন করেছিল?"
+    },
+    {
+      "id": "CH11_Q061",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "রাইন-রুর শিল্পাঞ্চল",
+      "expected_lines": "4-6",
+      "question": "রাইন-রুর শিল্পাঞ্চলের উন্নয়নের কারণ ও প্রভাব বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q062",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "ইউরোপের শিল্পবিপ্লবের প্রভাব",
+      "expected_lines": "4-6",
+      "question": "শিল্পবিপ্লব ইউরোপ ও বিশ্বে কী কী পরিবর্তন এনেছিল?"
+    },
+    {
+      "id": "CH11_Q063",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "দুই বিশ্বযুদ্ধ",
+      "expected_lines": "4-6",
+      "question": "প্রথম ও দ্বিতীয় বিশ্বযুদ্ধ ইউরোপে শুরু হওয়ার কারণ কী ছিল?"
+    },
+    {
+      "id": "CH11_Q064",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "ইউরোপের পরিবেশ",
+      "expected_lines": "4-6",
+      "question": "শিল্পায়নের ফলে ইউরোপের পরিবেশে কী কী সমস্যা দেখা দিয়েছে?"
+    },
+    {
+      "id": "CH11_Q065",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "ইউরোপের শক্তি",
+      "expected_lines": "4-6",
+      "question": "ইউরোপ শক্তির জন্য রাশিয়ার উপর নির্ভরশীল কেন?"
+    },
+    {
+      "id": "CH11_Q066",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "ইউরোপের অভিবাসন",
+      "expected_lines": "4-6",
+      "question": "ইউরোপে অভিবাসন সমস্যার কারণ ও প্রভাব আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q067",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "ইউরোপ ও বিশ্ব",
+      "expected_lines": "4-6",
+      "question": "ঐতিহাসিকভাবে ইউরোপ কীভাবে বিশ্বকে নিয়ন্ত্রণ করেছে?"
+    },
+    {
+      "id": "CH11_Q068",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "ইউরোপের ভাষা",
+      "expected_lines": "4-6",
+      "question": "ইউরোপে কোন কোন প্রধান ভাষাগোষ্ঠী আছে?"
+    },
+    {
+      "id": "CH11_Q069",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের হ্রদ",
+      "expected_lines": "4-6",
+      "question": "ইউরোপের প্রধান হ্রদগুলির নাম ও অবস্থান লেখো।"
+    },
+    {
+      "id": "CH11_Q070",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের পর্যটন",
+      "expected_lines": "4-6",
+      "question": "ইউরোপ বিশ্বের সবচেয়ে জনপ্রিয় পর্যটন গন্তব্য কেন?"
+    },
+    {
+      "id": "CH11_Q071",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "ইউরোপের ভবিষ্যৎ",
+      "expected_lines": "4-6",
+      "question": "ইউরোপ কি ভবিষ্যতে বিশ্বের কেন্দ্রে থাকবে?"
+    },
+    {
+      "id": "CH11_Q072",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "ইউরোপের পর্বত",
+      "expected_lines": "4-6",
+      "question": "ইউরোপের তিনটি প্রধান পর্বতমালার নাম ও অবস্থান লেখো।"
+    },
+    {
+      "id": "CH11_Q073",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের মুদ্রা ও বাণিজ্য",
+      "expected_lines": "4-6",
+      "question": "ইউরো মুদ্রা চালু হওয়ার সুবিধা ও অসুবিধা আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q074",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "ইউরোপের নিরাপত্তা",
+      "expected_lines": "4-6",
+      "question": "ন্যাটো কী? ইউরোপের নিরাপত্তায় এর ভূমিকা কী?"
+    },
+    {
+      "id": "CH11_Q075",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "ইউরোপের প্রধান দেশ",
+      "expected_lines": "4-6",
+      "question": "ইউরোপের পাঁচটি বড় দেশের নাম ও রাজধানী লেখো।"
+    },
+    {
+      "id": "CH11_Q076",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ইউরোপ ও এশিয়ার পার্থক্য",
+      "expected_lines": "4-6",
+      "question": "এশিয়া ও ইউরোপের ভূমিরূপ ও জলবায়ুর মধ্যে পার্থক্য আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q077",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "ব্রেক্সিট",
+      "expected_lines": "4-6",
+      "question": "ব্রেক্সিট কী? এর কারণ ও প্রভাব সংক্ষেপে বলো।"
+    },
+    {
+      "id": "CH11_Q078",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "ইউরোপের ধর্ম",
+      "expected_lines": "4-6",
+      "question": "ইউরোপে কোন ধর্মের মানুষ বেশি?"
+    },
+    {
+      "id": "CH11_Q079",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের কৃষি ও শিল্পের তুলনা",
+      "expected_lines": "4-6",
+      "question": "ইউরোপের উত্তর ও দক্ষিণ অংশের কৃষি ও শিল্পের পার্থক্য কী?"
+    },
+    {
+      "id": "CH11_Q080",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "ইউরোপের জলবায়ু পরিবর্তন",
+      "expected_lines": "4-6",
+      "question": "জলবায়ু পরিবর্তন ইউরোপের ভূগোল ও মানবজীবনে কী প্রভাব ফেলছে?"
+    },
+    {
+      "id": "CH11_Q081",
+      "marks": 5,
+      "difficulty": "Easy",
+      "topic": "ইউরোপ মহাদেশ পরিচিতি",
+      "expected_lines": "8-10",
+      "question": "ইউরোপ মহাদেশের আয়তন, অবস্থান, সীমানা, ভূমিরূপ ও জলবায়ুর বিস্তারিত বিবরণ দাও।"
+    },
+    {
+      "id": "CH11_Q082",
+      "marks": 5,
+      "difficulty": "Easy",
+      "topic": "ইউরোপের ভূমিরূপ",
+      "expected_lines": "8-10",
+      "question": "ইউরোপের পর্বত, সমভূমি ও নদীর বৈশিষ্ট্য বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q083",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "শিল্পবিপ্লব",
+      "expected_lines": "8-10",
+      "question": "শিল্পবিপ্লব কোথায়, কখন ও কেন শুরু হয়েছিল? এর ইউরোপ ও বিশ্বে কী প্রভাব পড়েছিল? বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q084",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের শিল্প",
+      "expected_lines": "8-10",
+      "question": "রাইন-রুর শিল্পাঞ্চলের উন্নয়নের কারণ, প্রধান শিল্পসমূহ ও বিশ্ব অর্থনীতিতে এর গুরুত্ব বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q085",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের জলবায়ু",
+      "expected_lines": "8-10",
+      "question": "ইউরোপের বিভিন্ন জলবায়ু অঞ্চল (সমুদ্রীয়, মহাদেশীয়, ভূমধ্যসাগরীয়, তুন্দ্রা) বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q086",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "ইউরোপের উপনিবেশবাদ",
+      "expected_lines": "8-10",
+      "question": "ইউরোপের দেশগুলি কীভাবে বিশ্বের বিভিন্ন অঞ্চলে উপনিবেশ স্থাপন করেছিল? এর ইতিবাচক ও নেতিবাচক প্রভাব বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q087",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "ইউরোপিয়ান ইউনিয়ন",
+      "expected_lines": "8-10",
+      "question": "ইউরোপিয়ান ইউনিয়নের গঠন, উদ্দেশ্য, সুবিধা ও সমস্যা বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q088",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "ইউরোপের পরিবেশ",
+      "expected_lines": "8-10",
+      "question": "শিল্পায়ন ও নগরায়নের ফলে ইউরোপের পরিবেশে কী কী সমস্যা দেখা দিয়েছে? সমাধানের উপায় কী?"
+    },
+    {
+      "id": "CH11_Q089",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি ১৮শ শতাব্দীর ইংল্যান্ডে শিল্পবিপ্লবের সময়কার একজন কারখানা শ্রমিক। তোমার দৈনন্দিন জীবন, কষ্ট, নতুন যন্ত্রপাতির বিস্ময় এবং এই পরিবর্তনের প্রভাব কল্পনা করে বিস্তারিত লেখো।"
+    },
+    {
+      "id": "CH11_Q090",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি আল্পস পর্বতের একটি ছোটো গ্রামে থাকো। গ্রীষ্মে পর্যটকে ভরে যায়, শীতে বরফে ঢেকে যায়। তোমার বার্ষিক জীবনচক্র, প্রকৃতির রূপ এবং আল্পসের ভৌগোলিক বৈশিষ্ট্য কল্পনা করে বিস্তারিত লেখো।"
+    },
+    {
+      "id": "CH11_Q091",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি ডানিউব নদীতে একটি নৌকায় ভ্রমণ করছ এবং একে একে ১০টি দেশ পার হচ্ছ। প্রতিটি দেশের ভাষা, সংস্কৃতি, খাবার ও প্রাকৃতিক সৌন্দর্য দেখছ। তোমার এই অভিজ্ঞতা কল্পনা করে বিস্তারিত লেখো।"
+    },
+    {
+      "id": "CH11_Q092",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি ভবিষ্যতের একজন ইউরোপিয়ান ইউনিয়নের কূটনীতিক এবং ইউরোপকে জলবায়ু পরিবর্তনের হাত থেকে রক্ষার পরিকল্পনা তৈরি করছ। তোমার পরিকল্পনা কী? কল্পনা করে বিস্তারিত লেখো।"
+    },
+    {
+      "id": "CH11_Q093",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের ইতিহাস",
+      "expected_lines": "8-10",
+      "question": "রেনেসাঁ, শিল্পবিপ্লব ও দুই বিশ্বযুদ্ধ ইউরোপকে কীভাবে পরিবর্তন করেছে? বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q094",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "ইউরোপ ও বিশ্ব",
+      "expected_lines": "8-10",
+      "question": "ইউরোপ কীভাবে শত বছর ধরে বিশ্বের রাজনীতি, অর্থনীতি ও সংস্কৃতিকে প্রভাবিত করেছে? বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q095",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো দ্বিতীয় বিশ্বযুদ্ধে তুমি ইউরোপের একটি যুদ্ধবিধ্বস্ত শহরের শিশু। যুদ্ধের ভয়াবহতা, মানুষের দুঃখ এবং শান্তির আকাঙ্ক্ষা—তোমার চোখ দিয়ে দেখা সেই সময়কার ছবি কল্পনা করে বিস্তারিত লেখো।"
+    },
+    {
+      "id": "CH11_Q096",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "ইউরোপের কৃষি ও শিল্প",
+      "expected_lines": "8-10",
+      "question": "ইউরোপের কৃষি ও শিল্পের উন্নয়নের কারণ ও বিশ্ব অর্থনীতিতে এর প্রভাব বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q097",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "ইউরোপের অভিবাসন",
+      "expected_lines": "8-10",
+      "question": "ইউরোপে অভিবাসন সমস্যার কারণ, প্রভাব ও সম্ভাব্য সমাধান বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q098",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "ইউরোপ আফ্রিকা এশিয়া তুলনা",
+      "expected_lines": "8-10",
+      "question": "এশিয়া, আফ্রিকা ও ইউরোপ মহাদেশের ভূগোল, জলবায়ু ও মানব উন্নয়নের তুলনামূলক আলোচনা করো।"
+    },
+    {
+      "id": "CH11_Q099",
+      "marks": 5,
+      "difficulty": "Easy",
+      "topic": "ইউরোপের নদী ও সভ্যতা",
+      "expected_lines": "8-10",
+      "question": "ইউরোপের নদীগুলি কীভাবে সভ্যতা, বাণিজ্য ও শিল্পের বিকাশে সাহায্য করেছে?"
+    },
+    {
+      "id": "CH11_Q100",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি ২১শ শতাব্দীর একজন ইউরোপিয়ান তরুণ যে ২৭টি EU দেশে স্বাধীনভাবে ঘুরে বেড়াতে পারছ। এই স্বাধীনতার অনুভূতি ও ইউরোপের বৈচিত্র্যের মধ্যে ঐক্যের ধারণা কল্পনা করে বিস্তারিত লেখো।"
+    }
+  ]
+}

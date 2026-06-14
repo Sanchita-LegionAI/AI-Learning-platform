@@ -1,0 +1,819 @@
+{
+  "book_id": "AMR_PRITHIBI_7",
+  "book_name": "Amader Prithibi",
+  "book_name_bn": "আমাদের পৃথিবী",
+  "subject": "Geography",
+  "class": 7,
+  "chapter_no": 7,
+  "chapter_title": "জলদূষণ",
+  "chapter_subtitle": "জলদূষণের কারণ, প্রভাব ও প্রতিকার",
+  "source_file": "ch07.pdf",
+  "question_count": 100,
+  "distribution": {
+    "2_marks": 40,
+    "3_marks": 40,
+    "5_marks": 20
+  },
+  "questions": [
+    {
+      "id": "CH07_Q001",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "জলদূষণ",
+      "expected_lines": "2-3",
+      "question": "জলদূষণ কাকে বলে?"
+    },
+    {
+      "id": "CH07_Q002",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "স্বাদু জল",
+      "expected_lines": "2-3",
+      "question": "স্বাদু জল কাকে বলে?"
+    },
+    {
+      "id": "CH07_Q003",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "পানীয় জল",
+      "expected_lines": "2-3",
+      "question": "পানীয় জল বলতে কী বোঝায়?"
+    },
+    {
+      "id": "CH07_Q004",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "জল সংকট",
+      "expected_lines": "2-3",
+      "question": "জল সংকট কী?"
+    },
+    {
+      "id": "CH07_Q005",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "সমুদ্রের জল",
+      "expected_lines": "2-3",
+      "question": "পৃথিবীর মোট জলের কত ভাগ সমুদ্রের নোনা জল?"
+    },
+    {
+      "id": "CH07_Q006",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "স্বাদু জলের পরিমাণ",
+      "expected_lines": "2-3",
+      "question": "পৃথিবীর মোট জলের কত ভাগ স্বাদু জল?"
+    },
+    {
+      "id": "CH07_Q007",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "হিমবাহের জল",
+      "expected_lines": "2-3",
+      "question": "পৃথিবীর স্বাদু জলের কত ভাগ হিমবাহে আছে?"
+    },
+    {
+      "id": "CH07_Q008",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "ভৌমজল",
+      "expected_lines": "2-3",
+      "question": "ভৌমজল কী?"
+    },
+    {
+      "id": "CH07_Q009",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "জল সংরক্ষণ",
+      "expected_lines": "2-3",
+      "question": "জল সংরক্ষণ কেন দরকার?"
+    },
+    {
+      "id": "CH07_Q010",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "জলের উৎস",
+      "expected_lines": "2-3",
+      "question": "আমাদের পানীয় জলের প্রধান উৎস কী কী?"
+    },
+    {
+      "id": "CH07_Q011",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "গঙ্গা দূষণ",
+      "expected_lines": "2-3",
+      "question": "গঙ্গা নদী কীভাবে দূষিত হচ্ছে?"
+    },
+    {
+      "id": "CH07_Q012",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "কলকারখানা ও জল",
+      "expected_lines": "2-3",
+      "question": "কলকারখানার বর্জ্য নদীতে মেশার ফলে কী হয়?"
+    },
+    {
+      "id": "CH07_Q013",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "কৃষি ও জল",
+      "expected_lines": "2-3",
+      "question": "কৃষিতে ব্যবহৃত কীটনাশক জলকে কীভাবে দূষিত করে?"
+    },
+    {
+      "id": "CH07_Q014",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "পয়ঃপ্রণালী",
+      "expected_lines": "2-3",
+      "question": "পয়ঃপ্রণালীর বর্জ্য জলকে কীভাবে দূষিত করে?"
+    },
+    {
+      "id": "CH07_Q015",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "জলবাহিত রোগ",
+      "expected_lines": "2-3",
+      "question": "জলদূষণের ফলে কোন কোন রোগ ছড়ায়?"
+    },
+    {
+      "id": "CH07_Q016",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "জলের অপচয়",
+      "expected_lines": "2-3",
+      "question": "জলের অপচয় কীভাবে কমানো যায়?"
+    },
+    {
+      "id": "CH07_Q017",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "বৃষ্টির জল সংগ্রহ",
+      "expected_lines": "2-3",
+      "question": "রেইনওয়াটার হার্ভেস্টিং কী?"
+    },
+    {
+      "id": "CH07_Q018",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "জল পরিশোধন",
+      "expected_lines": "2-3",
+      "question": "জল পরিশোধন কীভাবে করা হয়?"
+    },
+    {
+      "id": "CH07_Q019",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "প্লাস্টিক ও জল",
+      "expected_lines": "2-3",
+      "question": "প্লাস্টিক বর্জ্য জলকে কীভাবে দূষিত করে?"
+    },
+    {
+      "id": "CH07_Q020",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "তেল ও জল",
+      "expected_lines": "2-3",
+      "question": "সমুদ্রে তেল ছড়িয়ে পড়লে কী ক্ষতি হয়?"
+    },
+    {
+      "id": "CH07_Q021",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "অ্যাসিড বৃষ্টি",
+      "expected_lines": "2-3",
+      "question": "অ্যাসিড বৃষ্টি জলকে কীভাবে দূষিত করে?"
+    },
+    {
+      "id": "CH07_Q022",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "জলাভূমি",
+      "expected_lines": "2-3",
+      "question": "জলাভূমি কী? এটি কেন গুরুত্বপূর্ণ?"
+    },
+    {
+      "id": "CH07_Q023",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "জলের pH",
+      "expected_lines": "2-3",
+      "question": "জলের pH কী? দূষিত জলের pH কেমন হয়?"
+    },
+    {
+      "id": "CH07_Q024",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "ভূগর্ভস্থ জল দূষণ",
+      "expected_lines": "2-3",
+      "question": "ভূগর্ভস্থ জল কীভাবে দূষিত হয়?"
+    },
+    {
+      "id": "CH07_Q025",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "আর্সেনিক দূষণ",
+      "expected_lines": "2-3",
+      "question": "আর্সেনিক দূষণ কী? এটি কোথায় বেশি দেখা যায়?"
+    },
+    {
+      "id": "CH07_Q026",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "জলসংকট ও যুদ্ধ",
+      "expected_lines": "2-3",
+      "question": "ভবিষ্যতে জলের জন্য যুদ্ধ হতে পারে—কেন?"
+    },
+    {
+      "id": "CH07_Q027",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "সমুদ্র দূষণ",
+      "expected_lines": "2-3",
+      "question": "সমুদ্র দূষণের কারণ ও প্রভাব কী?"
+    },
+    {
+      "id": "CH07_Q028",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "জল ও স্বাস্থ্য",
+      "expected_lines": "2-3",
+      "question": "দূষিত জল পান করলে কী কী স্বাস্থ্য সমস্যা হয়?"
+    },
+    {
+      "id": "CH07_Q029",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "জলের অধিকার",
+      "expected_lines": "2-3",
+      "question": "নিরাপদ পানীয় জল পাওয়া কি মানুষের অধিকার?"
+    },
+    {
+      "id": "CH07_Q030",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "শিল্পবর্জ্য ও জল",
+      "expected_lines": "2-3",
+      "question": "শিল্পবর্জ্য থেকে জল দূষণ রোধের উপায় কী?"
+    },
+    {
+      "id": "CH07_Q031",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "জল ও জীববৈচিত্র্য",
+      "expected_lines": "2-3",
+      "question": "জলদূষণ জলজ প্রাণীদের কীভাবে ক্ষতি করে?"
+    },
+    {
+      "id": "CH07_Q032",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "পুকুরের জল",
+      "expected_lines": "2-3",
+      "question": "পুকুরের জল দূষিত হলে কী করা উচিত?"
+    },
+    {
+      "id": "CH07_Q033",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "সার ও জল",
+      "expected_lines": "2-3",
+      "question": "রাসায়নিক সার জলকে কীভাবে দূষিত করে?"
+    },
+    {
+      "id": "CH07_Q034",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "গৃহস্থালি বর্জ্য",
+      "expected_lines": "2-3",
+      "question": "গৃহস্থালি বর্জ্য থেকে জলদূষণ কীভাবে হয়?"
+    },
+    {
+      "id": "CH07_Q035",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "জল পুনর্ব্যবহার",
+      "expected_lines": "2-3",
+      "question": "ব্যবহৃত জল পুনর্ব্যবহারযোগ্য করার উপায় কী?"
+    },
+    {
+      "id": "CH07_Q036",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "বিশুদ্ধ জল",
+      "expected_lines": "2-3",
+      "question": "জল বিশুদ্ধ করার সহজ পদ্ধতি কী?"
+    },
+    {
+      "id": "CH07_Q037",
+      "marks": 2,
+      "difficulty": "Medium",
+      "topic": "জলবায়ু পরিবর্তন ও জল",
+      "expected_lines": "2-3",
+      "question": "জলবায়ু পরিবর্তন কীভাবে জলসংকট বাড়াচ্ছে?"
+    },
+    {
+      "id": "CH07_Q038",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "জল সাশ্রয়",
+      "expected_lines": "2-3",
+      "question": "ঘরে বসে জল সাশ্রয়ের তিনটি উপায় লেখো।"
+    },
+    {
+      "id": "CH07_Q039",
+      "marks": 2,
+      "difficulty": "Hard",
+      "topic": "আন্তর্জাতিক জল",
+      "expected_lines": "2-3",
+      "question": "আন্তর্জাতিক নদীর জল নিয়ে বিভিন্ন দেশের মধ্যে বিরোধ কেন হয়?"
+    },
+    {
+      "id": "CH07_Q040",
+      "marks": 2,
+      "difficulty": "Easy",
+      "topic": "জল ও কৃষি",
+      "expected_lines": "2-3",
+      "question": "কৃষিতে সেচের জন্য জল কোথা থেকে আসে?"
+    },
+    {
+      "id": "CH07_Q041",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "জলদূষণ",
+      "expected_lines": "4-6",
+      "question": "জলদূষণ কাকে বলে? জলদূষণের প্রধান কারণগুলি বর্ণনা করো।"
+    },
+    {
+      "id": "CH07_Q042",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "জলের প্রকার",
+      "expected_lines": "4-6",
+      "question": "পৃথিবীতে কত ধরনের জল আছে? প্রতিটির পরিমাণ কত?"
+    },
+    {
+      "id": "CH07_Q043",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "পানীয় জল সংকট",
+      "expected_lines": "4-6",
+      "question": "পৃথিবীতে পানীয় জলের সংকট কেন হচ্ছে?"
+    },
+    {
+      "id": "CH07_Q044",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "গঙ্গা দূষণ",
+      "expected_lines": "4-6",
+      "question": "গঙ্গা নদী দূষণের প্রধান কারণগুলি ও এর প্রভাব আলোচনা করো।"
+    },
+    {
+      "id": "CH07_Q045",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "জলবাহিত রোগ",
+      "expected_lines": "4-6",
+      "question": "জলদূষণের ফলে কোন কোন রোগ ছড়ায়? প্রতিটির কারণ লেখো।"
+    },
+    {
+      "id": "CH07_Q046",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "জল পরিশোধন",
+      "expected_lines": "4-6",
+      "question": "পানীয় জল পরিশোধনের প্রধান পদ্ধতিগুলি বর্ণনা করো।"
+    },
+    {
+      "id": "CH07_Q047",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "কৃষি ও জলদূষণ",
+      "expected_lines": "4-6",
+      "question": "কৃষিতে ব্যবহৃত রাসায়নিক সার ও কীটনাশক জলদূষণে কীভাবে ভূমিকা রাখে?"
+    },
+    {
+      "id": "CH07_Q048",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "শিল্পবর্জ্য",
+      "expected_lines": "4-6",
+      "question": "শিল্পকারখানার বর্জ্য নদী দূষণে কীভাবে ভূমিকা রাখে?"
+    },
+    {
+      "id": "CH07_Q049",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ভৌমজল",
+      "expected_lines": "4-6",
+      "question": "ভৌমজল কী? এটি কীভাবে দূষিত হয়?"
+    },
+    {
+      "id": "CH07_Q050",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "জলাভূমির গুরুত্ব",
+      "expected_lines": "4-6",
+      "question": "জলাভূমি পরিবেশে কী ভূমিকা রাখে?"
+    },
+    {
+      "id": "CH07_Q051",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "সমুদ্র দূষণ",
+      "expected_lines": "4-6",
+      "question": "সমুদ্র দূষণের কারণ ও জলজ প্রাণীদের উপর এর প্রভাব আলোচনা করো।"
+    },
+    {
+      "id": "CH07_Q052",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "রেইনওয়াটার হার্ভেস্টিং",
+      "expected_lines": "4-6",
+      "question": "রেইনওয়াটার হার্ভেস্টিং কী? এর সুবিধা কী?"
+    },
+    {
+      "id": "CH07_Q053",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "অ্যাসিড বৃষ্টি",
+      "expected_lines": "4-6",
+      "question": "অ্যাসিড বৃষ্টি কীভাবে হয় এবং জলকে কীভাবে দূষিত করে?"
+    },
+    {
+      "id": "CH07_Q054",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "প্লাস্টিক ও সমুদ্র",
+      "expected_lines": "4-6",
+      "question": "প্লাস্টিক বর্জ্য সমুদ্রের জীববৈচিত্র্যকে কীভাবে ক্ষতি করছে?"
+    },
+    {
+      "id": "CH07_Q055",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "আর্সেনিক দূষণ",
+      "expected_lines": "4-6",
+      "question": "আর্সেনিক দূষণ কী? এটি মানুষের স্বাস্থ্যে কী প্রভাব ফেলে?"
+    },
+    {
+      "id": "CH07_Q056",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "জলসংকট অঞ্চল",
+      "expected_lines": "4-6",
+      "question": "ভারতের কোন রাজ্যগুলিতে জলসংকট বেশি? কারণ কী?"
+    },
+    {
+      "id": "CH07_Q057",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "জল পুনর্ব্যবহার",
+      "expected_lines": "4-6",
+      "question": "বর্জ্য জল পুনর্ব্যবহারযোগ্য করার প্রক্রিয়া বর্ণনা করো।"
+    },
+    {
+      "id": "CH07_Q058",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "জলবায়ু পরিবর্তন ও জল",
+      "expected_lines": "4-6",
+      "question": "জলবায়ু পরিবর্তন কীভাবে বিশ্বের জলসম্পদকে প্রভাবিত করছে?"
+    },
+    {
+      "id": "CH07_Q059",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "আন্তর্জাতিক জল বিরোধ",
+      "expected_lines": "4-6",
+      "question": "আন্তর্জাতিক নদীর জল নিয়ে বিভিন্ন দেশের মধ্যে বিরোধের উদাহরণ দাও।"
+    },
+    {
+      "id": "CH07_Q060",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "জলের অধিকার",
+      "expected_lines": "4-6",
+      "question": "নিরাপদ পানীয় জল পাওয়া মানুষের মৌলিক অধিকার—এই বিষয়ে তোমার মত ব্যাখ্যা করো।"
+    },
+    {
+      "id": "CH07_Q061",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "ভূগর্ভস্থ জল",
+      "expected_lines": "4-6",
+      "question": "ভূগর্ভস্থ জল অতিরিক্ত উত্তোলনের ফলে কী কী সমস্যা দেখা দেয়?"
+    },
+    {
+      "id": "CH07_Q062",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "জল সাশ্রয়",
+      "expected_lines": "4-6",
+      "question": "দৈনন্দিন জীবনে জল সাশ্রয়ের উপায়গুলি আলোচনা করো।"
+    },
+    {
+      "id": "CH07_Q063",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "পুকুর ও নদীর জল",
+      "expected_lines": "4-6",
+      "question": "পুকুর ও নদীর জল দূষণমুক্ত রাখার উপায় কী?"
+    },
+    {
+      "id": "CH07_Q064",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "জল ও স্বাস্থ্য",
+      "expected_lines": "4-6",
+      "question": "নিরাপদ পানীয় জলের অভাবে কী কী স্বাস্থ্য সমস্যা দেখা দেয়?"
+    },
+    {
+      "id": "CH07_Q065",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "কৃষিতে জলসেচ",
+      "expected_lines": "4-6",
+      "question": "অতিরিক্ত সেচের ফলে মাটি ও জল কীভাবে দূষিত হয়?"
+    },
+    {
+      "id": "CH07_Q066",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "জল দিবস",
+      "expected_lines": "4-6",
+      "question": "বিশ্ব জল দিবস কবে এবং কেন পালন করা হয়?"
+    },
+    {
+      "id": "CH07_Q067",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "জলের ভবিষ্যৎ",
+      "expected_lines": "4-6",
+      "question": "২০৫০ সালের মধ্যে বিশ্বে জলসংকট কতটা তীব্র হতে পারে?"
+    },
+    {
+      "id": "CH07_Q068",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "সুপেয় জল",
+      "expected_lines": "4-6",
+      "question": "সুপেয় জল কাকে বলে? এটি সরবরাহে কী কী চ্যালেঞ্জ আছে?"
+    },
+    {
+      "id": "CH07_Q069",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "জল ও শক্তি",
+      "expected_lines": "4-6",
+      "question": "জলবিদ্যুৎ উৎপাদন পরিবেশে কী প্রভাব ফেলে?"
+    },
+    {
+      "id": "CH07_Q070",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "জল ও কৃষি সম্পর্ক",
+      "expected_lines": "4-6",
+      "question": "কৃষিতে সবচেয়ে বেশি জল ব্যবহার হয়—কেন?"
+    },
+    {
+      "id": "CH07_Q071",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "নদী পুনরুজ্জীবন",
+      "expected_lines": "4-6",
+      "question": "দূষিত নদীকে পরিষ্কার করার সফল উদাহরণ বিশ্বে আছে কি?"
+    },
+    {
+      "id": "CH07_Q072",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "জল ও দারিদ্র্য",
+      "expected_lines": "4-6",
+      "question": "জলসংকট কীভাবে দারিদ্র্য ও স্বাস্থ্য সমস্যা বাড়ায়?"
+    },
+    {
+      "id": "CH07_Q073",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "জল সংরক্ষণ আইন",
+      "expected_lines": "4-6",
+      "question": "জল সংরক্ষণে সরকার কী কী আইন করেছে?"
+    },
+    {
+      "id": "CH07_Q074",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "তেল দূষণ",
+      "expected_lines": "4-6",
+      "question": "সমুদ্রে তেল ছড়িয়ে পড়লে কীভাবে পরিষ্কার করা হয়?"
+    },
+    {
+      "id": "CH07_Q075",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "নগরায়ন ও জল",
+      "expected_lines": "4-6",
+      "question": "নগরায়নের ফলে জলদূষণ কীভাবে বাড়ছে?"
+    },
+    {
+      "id": "CH07_Q076",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "জলের সুষম বণ্টন",
+      "expected_lines": "4-6",
+      "question": "সমাজে জলের সুষম বণ্টন নিশ্চিত করা কেন দরকার?"
+    },
+    {
+      "id": "CH07_Q077",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "ভারতে জল ব্যবস্থাপনা",
+      "expected_lines": "4-6",
+      "question": "ভারতে জল ব্যবস্থাপনার প্রধান সমস্যাগুলি কী কী?"
+    },
+    {
+      "id": "CH07_Q078",
+      "marks": 3,
+      "difficulty": "Hard",
+      "topic": "সমন্বিত জল ব্যবস্থাপনা",
+      "expected_lines": "4-6",
+      "question": "সমন্বিত জল ব্যবস্থাপনা বলতে কী বোঝায়?"
+    },
+    {
+      "id": "CH07_Q079",
+      "marks": 3,
+      "difficulty": "Easy",
+      "topic": "বাড়িতে জল পরিশোধন",
+      "expected_lines": "4-6",
+      "question": "বাড়িতে জল পরিশোধনের সহজ পদ্ধতিগুলি বর্ণনা করো।"
+    },
+    {
+      "id": "CH07_Q080",
+      "marks": 3,
+      "difficulty": "Medium",
+      "topic": "জলজ বাস্তুতন্ত্র",
+      "expected_lines": "4-6",
+      "question": "জলদূষণ জলজ বাস্তুতন্ত্রকে কীভাবে ক্ষতিগ্রস্ত করে?"
+    },
+    {
+      "id": "CH07_Q081",
+      "marks": 5,
+      "difficulty": "Easy",
+      "topic": "জলদূষণ",
+      "expected_lines": "8-10",
+      "question": "জলদূষণ কাকে বলে? জলদূষণের কারণ, প্রভাব ও প্রতিকারের উপায় বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH07_Q082",
+      "marks": 5,
+      "difficulty": "Easy",
+      "topic": "পানীয় জল সংকট",
+      "expected_lines": "8-10",
+      "question": "পৃথিবীতে পানীয় জলের সংকট কেন হচ্ছে? জলসম্পদের সুষম ব্যবহারের উপায় বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH07_Q083",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "নদী দূষণ",
+      "expected_lines": "8-10",
+      "question": "ভারতের নদীগুলি কীভাবে দূষিত হচ্ছে? দূষণের কারণ, প্রভাব ও সমাধানের উপায় বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH07_Q084",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "সমুদ্র দূষণ",
+      "expected_lines": "8-10",
+      "question": "সমুদ্র দূষণের কারণ, প্রভাব ও প্রতিকারের উপায় বিস্তারিতভাবে আলোচনা করো।"
+    },
+    {
+      "id": "CH07_Q085",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "জল সংরক্ষণ",
+      "expected_lines": "8-10",
+      "question": "জল সংরক্ষণের বিভিন্ন পদ্ধতি বিস্তারিতভাবে আলোচনা করো।"
+    },
+    {
+      "id": "CH07_Q086",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "জলবায়ু পরিবর্তন ও জল",
+      "expected_lines": "8-10",
+      "question": "জলবায়ু পরিবর্তন কীভাবে বিশ্বের জলচক্র ও জলসম্পদকে প্রভাবিত করছে?"
+    },
+    {
+      "id": "CH07_Q087",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "আর্সেনিক দূষণ",
+      "expected_lines": "8-10",
+      "question": "আর্সেনিক দূষণ কী? এটি কোথায় বেশি দেখা যায়, স্বাস্থ্যে কী প্রভাব ফেলে ও প্রতিকারের উপায় কী?"
+    },
+    {
+      "id": "CH07_Q088",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "জলের অধিকার ও রাজনীতি",
+      "expected_lines": "8-10",
+      "question": "জল একটি মৌলিক অধিকার—এই বিষয়ে বিস্তারিত আলোচনা করো। আন্তর্জাতিক জল বিরোধের উদাহরণ দাও।"
+    },
+    {
+      "id": "CH07_Q089",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো পৃথিবীতে আর পানীয় জল নেই। মানুষ, প্রাণী ও উদ্ভিদ কীভাবে বেঁচে থাকার চেষ্টা করবে? কল্পনা করে বিস্তারিত লেখো।"
+    },
+    {
+      "id": "CH07_Q090",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একটি দূষিত নদীর জলের ফোঁটা। তুমি কীভাবে দূষিত হলে, কী কী ক্ষতি করলে এবং পরিষ্কার হওয়ার জন্য কী চাইলে? কল্পনা করে বিস্তারিত লেখো।"
+    },
+    {
+      "id": "CH07_Q091",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একটি গ্রামের মানুষ যে দশ বছর ধরে আর্সেনিকযুক্ত জল পান করছ। তোমার স্বাস্থ্য, পরিবার ও জীবনে কী প্রভাব পড়েছে? সরকারের কাছে সাহায্যের জন্য কী আবেদন করবে? কল্পনা করে লেখো।"
+    },
+    {
+      "id": "CH07_Q092",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো ২০৭৫ সালে তুমি একজন জল বিজ্ঞানী। পৃথিবীতে জলসংকট চরম আকার নিয়েছে। তুমি কী কী নতুন প্রযুক্তি ও পদ্ধতি উদ্ভাবন করে মানুষকে জল সরবরাহ করবে? কল্পনা করে লেখো।"
+    },
+    {
+      "id": "CH07_Q093",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "জল ও স্বাস্থ্য",
+      "expected_lines": "8-10",
+      "question": "নিরাপদ পানীয় জলের অভাব ও জলবাহিত রোগের সম্পর্ক বিস্তারিতভাবে আলোচনা করো।"
+    },
+    {
+      "id": "CH07_Q094",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "ভারতে জল ব্যবস্থাপনা",
+      "expected_lines": "8-10",
+      "question": "ভারতে জলসম্পদ ব্যবস্থাপনার বর্তমান অবস্থা, সমস্যা ও ভবিষ্যৎ পরিকল্পনা বিস্তারিত আলোচনা করো।"
+    },
+    {
+      "id": "CH07_Q095",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একজন পরিবেশমন্ত্রী এবং দেশের নদীগুলি বাঁচানোর জন্য একটি পূর্ণাঙ্গ পরিকল্পনা তৈরি করতে হবে। তোমার পরিকল্পনা কী হবে? কল্পনা করে বিস্তারিত লেখো।"
+    },
+    {
+      "id": "CH07_Q096",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "রেইনওয়াটার হার্ভেস্টিং",
+      "expected_lines": "8-10",
+      "question": "রেইনওয়াটার হার্ভেস্টিং কী? এটি কীভাবে জলসংকট সমাধানে সাহায্য করতে পারে?"
+    },
+    {
+      "id": "CH07_Q097",
+      "marks": 5,
+      "difficulty": "Medium",
+      "topic": "জলাভূমি সংরক্ষণ",
+      "expected_lines": "8-10",
+      "question": "জলাভূমি পরিবেশে কী ভূমিকা রাখে? জলাভূমি ধ্বংসের পরিণাম কী?"
+    },
+    {
+      "id": "CH07_Q098",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "প্লাস্টিক দূষণ",
+      "expected_lines": "8-10",
+      "question": "প্লাস্টিক দূষণ সমুদ্র ও নদীর জীববৈচিত্র্যকে কতটা ক্ষতিগ্রস্ত করছে? সমাধান কী?"
+    },
+    {
+      "id": "CH07_Q099",
+      "marks": 5,
+      "difficulty": "Easy",
+      "topic": "দৈনন্দিন জীবনে জল সাশ্রয়",
+      "expected_lines": "8-10",
+      "question": "দৈনন্দিন জীবনে আমরা কীভাবে জল অপচয় রোধ করতে পারি? বিস্তারিত পরিকল্পনা লেখো।"
+    },
+    {
+      "id": "CH07_Q100",
+      "marks": 5,
+      "difficulty": "Hard",
+      "topic": "কল্পনা করে লেখো",
+      "expected_lines": "8-10",
+      "question": "কল্পনা করো তুমি একটি মহাকাশ যান থেকে পৃথিবীকে দেখছ এবং লক্ষ করছ সমুদ্রের রং পরিবর্তন হয়ে যাচ্ছে, নদীগুলি শুকিয়ে যাচ্ছে। এই দৃশ্য দেখে তোমার কী অনুভূতি হচ্ছে এবং পৃথিবীতে ফিরে তুমি কী পদক্ষেপ নেবে? কল্পনা করে লেখো।"
+    }
+  ]
+}
