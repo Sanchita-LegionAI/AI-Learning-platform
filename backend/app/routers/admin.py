@@ -1,0 +1,210 @@
+"""
+routers/admin.py
+GET  /api/admin/config          — current active providers per purpose
+POST /api/admin/config          — switch active provider (no restart)
+GET  /api/admin/usage-summary   — aggregated cost data
+GET  /api/admin/usage-logs      — filterable log entries
+DELETE /api/admin/logs          — clear logs
+GET  /api/admin/chapters        — chapters with question counts
+GET  /api/admin/chapter-stats   — performance analytics
+POST /api/admin/questions/import — trigger reimport from question_bank/ folder
+"""
+import subprocess
+import sys
+from datetime import date
+from fastapi import APIRouter, Depends, HTTPException, Query
+from pydantic import BaseModel
+from typing import Optional
+from app.core.auth import require_admin
+from app.core.supabase import get_supabase
+
+router = APIRouter(prefix="/api/admin", tags=["admin"])
+
+
+# =============================================================================
+# MODELS
+# =============================================================================
+
+class ProviderUpdateRequest(BaseModel):
+    purpose: str                # question_generation | evaluation | tutor
+    provider_name: str          # openai | anthropic
+    model_name: str
+
+
+# =============================================================================
+# PROVIDER CONFIG (runtime model switching)
+# =============================================================================
+
+@router.get("/config")
+def get_provider_config(admin: dict = Depends(require_admin)):
+    """Current active + available providers per purpose."""
+    supabase = get_supabase()
+    res = supabase.table("providers").select("*").order("purpose").order("active", desc=True).execute()
+    providers = res.data
+
+    # Group by purpose
+    grouped = {}
+    for p in providers:
+        purpose = p["purpose"]
+        if purpose not in grouped:
+            grouped[purpose] = {"active": None, "available": []}
+        if p["active"]:
+            grouped[purpose]["active"] = p
+        else:
+            grouped[purpose]["available"].append(p)
+
+    return {"providers": grouped}
+
+
+@router.post("/config")
+def update_provider(
+    body: ProviderUpdateRequest,
+    admin: dict = Depends(require_admin),
+):
+    """
+    Switch active provider for a purpose.
+    Deactivates current active provider, activates the selected one.
+    No restart required — LLM router reads DB on every call.
+    """
+    supabase = get_supabase()
+
+    # Verify target provider exists
+    res = (
+        supabase.table("providers")
+        .select("id")
+        .eq("purpose", body.purpose)
+        .eq("provider_name", body.provider_name)
+        .eq("model_name", body.model_name)
+        .single()
+        .execute()
+    )
+    if not res.data:
+        raise HTTPException(status_code=404, detail="Provider not found")
+
+    # Deactivate all providers for this purpose
+    supabase.table("providers").update({"active": False}).eq("purpose", body.purpose).execute()
+
+    # Activate the selected one
+    supabase.table("providers").update({"active": True}).eq("id", res.data["id"]).execute()
+
+    return {
+        "switched": True,
+        "purpose":  body.purpose,
+        "active":   f"{body.provider_name} / {body.model_name}",
+        "message":  "Provider switched. Takes effect immediately — no restart needed.",
+    }
+
+
+# =============================================================================
+# USAGE & COST
+# =============================================================================
+
+@router.get("/usage-summary")
+def get_usage_summary(admin: dict = Depends(require_admin)):
+    """Aggregated cost data via v_cost_summary view (last 30 days)."""
+    supabase = get_supabase()
+    res = supabase.table("v_cost_summary").select("*").execute()
+
+    # Also fetch projection
+    proj = supabase.table("v_cost_projection").select("*").execute()
+
+    return {
+        "summary":    res.data,
+        "projection": proj.data[0] if proj.data else {},
+    }
+
+
+@router.get("/usage-logs")
+def get_usage_logs(
+    admin: dict = Depends(require_admin),
+    from_date: Optional[date] = Query(None),
+    to_date:   Optional[date] = Query(None),
+    call_type: Optional[str]  = Query(None),
+    provider:  Optional[str]  = Query(None),
+    success:   Optional[bool] = Query(None),
+    limit:     int            = Query(100, le=500),
+    offset:    int            = Query(0),
+):
+    """Filterable API call log for admin dashboard."""
+    supabase = get_supabase()
+    query = (
+        supabase.table("api_calls")
+        .select("*")
+        .order("timestamp", desc=True)
+        .limit(limit)
+        .offset(offset)
+    )
+
+    if from_date:
+        query = query.gte("timestamp", from_date.isoformat())
+    if to_date:
+        query = query.lte("timestamp", f"{to_date.isoformat()}T23:59:59")
+    if call_type:
+        query = query.eq("call_type", call_type)
+    if provider:
+        query = query.eq("provider", provider)
+    if success is not None:
+        query = query.eq("success", success)
+
+    res = query.execute()
+    return {"logs": res.data, "count": len(res.data)}
+
+
+@router.delete("/logs")
+def clear_logs(admin: dict = Depends(require_admin)):
+    """Clear all API call logs (admin only)."""
+    supabase = get_supabase()
+    supabase.table("api_calls").delete().neq("id", 0).execute()
+    return {"cleared": True}
+
+
+# =============================================================================
+# CONTENT MANAGEMENT
+# =============================================================================
+
+@router.get("/chapters")
+def get_chapters_admin(admin: dict = Depends(require_admin)):
+    """All chapters with question counts (from v_curriculum view)."""
+    supabase = get_supabase()
+    res = supabase.table("v_curriculum").select("*").execute()
+    return {"chapters": res.data}
+
+
+@router.get("/chapter-stats")
+def get_chapter_stats(admin: dict = Depends(require_admin)):
+    """Performance analytics per chapter."""
+    supabase = get_supabase()
+    res = (
+        supabase.table("chapter_stats")
+        .select(
+            "*, chapters!inner(name_bn, chapter_number, "
+            "books!inner(title_bn, book_id_code))"
+        )
+        .order("total_attempts", desc=True)
+        .execute()
+    )
+    return {"stats": res.data}
+
+
+@router.post("/questions/import")
+def trigger_import(admin: dict = Depends(require_admin)):
+    """
+    Trigger seed_questions.py to reimport from question_bank/ folder.
+    Runs as a subprocess — safe to call when new JSON files are added.
+    """
+    try:
+        result = subprocess.run(
+            [sys.executable, "seed_questions.py"],
+            capture_output=True,
+            text=True,
+            timeout=120,
+        )
+        return {
+            "success":  result.returncode == 0,
+            "stdout":   result.stdout,
+            "stderr":   result.stderr,
+        }
+    except subprocess.TimeoutExpired:
+        raise HTTPException(status_code=504, detail="Import timed out after 120 seconds")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
