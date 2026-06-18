@@ -13,3 +13,4 @@ frontend/dist/
 # General
 .DS_Store
 *.log
+.env
