@@ -128,17 +128,30 @@ def validate_question_file(data: dict, filepath: Path) -> list[str]:
 # =============================================================================
 
 def get_chapter_id(supabase: Client, book_id_code: str, chapter_number: int) -> int | None:
-    """Look up chapter.id by book_id_code + chapter_number."""
-    res = (
+    """Look up chapter.id by book_id_code + chapter_number (two-step lookup)."""
+    # Step 1: get book.id from book_id_code
+    book_res = (
+        supabase.table("books")
+        .select("id")
+        .eq("book_id_code", book_id_code)
+        .single()
+        .execute()
+    )
+    if not book_res.data:
+        return None
+    book_id = book_res.data["id"]
+
+    # Step 2: get chapter.id from book_id + chapter_number
+    ch_res = (
         supabase.table("chapters")
-        .select("id, books!inner(book_id_code)")
-        .eq("books.book_id_code", book_id_code)
+        .select("id")
+        .eq("book_id", book_id)
         .eq("chapter_number", chapter_number)
         .single()
         .execute()
     )
-    if res.data:
-        return res.data["id"]
+    if ch_res.data:
+        return ch_res.data["id"]
     return None
 
 
