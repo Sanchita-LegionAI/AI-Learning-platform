@@ -1,5 +1,6 @@
 // pages/PaperPage.jsx
 import { useLocation, useNavigate } from 'react-router-dom'
+import { useAuth } from '../context/AuthContext'
 import ProgressBar from '../components/ProgressBar'
 
 const MARKS_COLOR = {
@@ -11,6 +12,7 @@ const MARKS_COLOR = {
 export default function PaperPage() {
   const { state } = useLocation()
   const navigate  = useNavigate()
+  const { signOut } = useAuth()
 
   if (!state?.examData) {
     navigate('/exam/select')
@@ -20,11 +22,26 @@ export default function PaperPage() {
   const { examData } = state
   const { session_id, chapter_name, subject, generated_questions, total_marks } = examData
 
+  const handleBack = () => navigate('/exam/select')
+  const handleLogout = async () => { await signOut(); navigate('/login') }
+
   return (
     <div className="min-h-screen bg-cream flex flex-col">
       <ProgressBar currentStep="paper" />
 
       <div className="flex-1 max-w-app mx-auto w-full px-4 py-5 page-enter">
+
+        {/* Nav row */}
+        <div className="flex items-center justify-between mb-4">
+          <button onClick={handleBack}
+            className="font-ui text-sm text-ink-light hover:text-ink transition-colors">
+            ← বিষয় বেছে নিন
+          </button>
+          <button onClick={handleLogout}
+            className="font-ui text-sm text-ink-light hover:text-red-500 transition-colors">
+            লগআউট
+          </button>
+        </div>
 
         {/* Paper header */}
         <div className="card mb-5 text-center bg-ink text-white border-ink">

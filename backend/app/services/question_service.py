@@ -86,6 +86,7 @@ You receive a set of question stems as a scaffold. Your job is to:
 - Always maintain the total marks allocation
 - Keep language appropriate for the class level
 - Output ONLY valid JSON — no markdown, no explanation, no preamble
+- CRITICAL: Every question must be written in pure Bengali script only. Do NOT mix English words, letters, or transliteration into Bengali sentences. If a term has no Bengali equivalent, write it in Bengali script (e.g. হেমু, আকবর). Never write Bengali and English mixed in the same sentence.
 
 Output format:
 [
