@@ -242,11 +242,13 @@ def trigger_import(admin: dict = Depends(require_admin)):
             # Step 4: insert new questions in batches
             rows = []
             for q in questions:
-                if q["id"] in existing_codes:
+                # Prefix with book_id to ensure uniqueness across books
+                unique_code = f"{book_id_code}__{q['id']}"
+                if unique_code in existing_codes:
                     stats["skipped"] += 1
                     continue
                 rows.append({
-                    "question_code": q["id"],
+                    "question_code": unique_code,
                     "chapter_id": chapter_id,
                     "question_bn": q["question"].strip(),
                     "marks": q["marks"],
