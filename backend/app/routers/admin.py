@@ -191,26 +191,88 @@ def get_chapter_stats(admin: dict = Depends(require_admin)):
 @router.post("/questions/import")
 def trigger_import(admin: dict = Depends(require_admin)):
     """
-    Trigger seed_questions.py to reimport from question_bank/ folder.
-    Runs as a subprocess — safe to call when new JSON files are added.
+    Import questions directly from question_bank/ folder (inline, no subprocess).
     """
-    try:
-        # backend/ directory — seed_questions.py lives here
-        backend_dir = Path(__file__).parent.parent.parent
-        seed_script = backend_dir / "seed_questions.py"
-        result = subprocess.run(
-            [sys.executable, str(seed_script)],
-            capture_output=True,
-            text=True,
-            timeout=120,
-            cwd=str(backend_dir),  # run from backend/ so .env and question_bank/ are found
-        )
-        return {
-            "success":  result.returncode == 0,
-            "stdout":   result.stdout,
-            "stderr":   result.stderr,
-        }
-    except subprocess.TimeoutExpired:
-        raise HTTPException(status_code=504, detail="Import timed out after 120 seconds")
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+    import json
+
+    supabase = get_supabase()
+    backend_dir = Path(__file__).parent.parent.parent
+    bank_path = backend_dir / "question_bank"
+
+    stats = {"files": 0, "inserted": 0, "skipped": 0, "errors": 0}
+    log = []
+
+    if not bank_path.exists():
+        raise HTTPException(status_code=500, detail=f"question_bank not found at {bank_path}")
+
+    files = sorted(bank_path.rglob("*_questions.json"))
+    log.append(f"Found {len(files)} JSON files under {bank_path}")
+
+    for filepath in files:
+        try:
+            with open(filepath, encoding="utf-8") as f:
+                data = json.load(f)
+
+            book_id_code = data["book_id"]
+            chapter_number = data["chapter_no"]
+            questions = data["questions"]
+
+            # Step 1: find book
+            book_res = supabase.table("books").select("id").eq("book_id_code", book_id_code).single().execute()
+            if not book_res.data:
+                log.append(f"SKIP {filepath.name}: book {book_id_code} not found")
+                stats["errors"] += 1
+                continue
+
+            book_id = book_res.data["id"]
+
+            # Step 2: find chapter
+            ch_res = supabase.table("chapters").select("id").eq("book_id", book_id).eq("chapter_number", chapter_number).single().execute()
+            if not ch_res.data:
+                log.append(f"SKIP {filepath.name}: chapter {chapter_number} not found")
+                stats["errors"] += 1
+                continue
+
+            chapter_id = ch_res.data["id"]
+
+            # Step 3: get existing codes
+            existing = supabase.table("questions").select("question_code").eq("chapter_id", chapter_id).execute()
+            existing_codes = {r["question_code"] for r in existing.data}
+
+            # Step 4: insert new questions in batches
+            rows = []
+            for q in questions:
+                if q["id"] in existing_codes:
+                    stats["skipped"] += 1
+                    continue
+                rows.append({
+                    "question_code": q["id"],
+                    "chapter_id": chapter_id,
+                    "question_bn": q["question"].strip(),
+                    "marks": q["marks"],
+                    "difficulty": q.get("difficulty", "Medium"),
+                    "topic_tag": q.get("topic", "").strip() or None,
+                    "expected_lines": q.get("expected_lines", "").strip() or None,
+                    "active": True,
+                })
+
+            inserted = 0
+            for i in range(0, len(rows), 50):
+                batch = rows[i:i+50]
+                res = supabase.table("questions").insert(batch).execute()
+                inserted += len(res.data)
+
+            log.append(f"OK {filepath.name}: inserted={inserted} skipped={len(existing_codes)}")
+            stats["inserted"] += inserted
+            stats["files"] += 1
+
+        except Exception as e:
+            log.append(f"ERROR {filepath.name}: {e}")
+            stats["errors"] += 1
+
+    return {
+        "success": stats["errors"] == 0,
+        "stdout": "\n".join(log),
+        "stderr": "",
+        "stats": stats,
+    }
