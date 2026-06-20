@@ -7,7 +7,6 @@ const AuthContext = createContext(null)
 async function fetchUserRole(userId, accessToken) {
   try {
     const url = `${import.meta.env.VITE_SUPABASE_URL}/rest/v1/users?id=eq.${userId}&select=role&limit=1`
-    console.log('[AuthContext] fetchUserRole URL:', url)
     const res = await fetch(url, {
       headers: {
         'apikey': import.meta.env.VITE_SUPABASE_ANON_KEY,
@@ -15,76 +14,57 @@ async function fetchUserRole(userId, accessToken) {
         'Accept': 'application/json',
       }
     })
+    if (!res.ok) return 'student'
     const rows = await res.json()
-    console.log('[AuthContext] role rows:', rows)
     return rows?.[0]?.role || 'student'
-  } catch (e) {
-    console.error('[AuthContext] fetchUserRole error:', e)
+  } catch {
     return 'student'
   }
 }
 
 export function AuthProvider({ children }) {
-  const [user, setUser]               = useState(null)
-  const [token, setToken]             = useState(null)
-  const [role, setRole]               = useState('student')
-  const [loading, setLoading]         = useState(true)
-  const [roleLoading, setRoleLoading] = useState(true)
-
-  async function applySession(session) {
-    console.log('[AuthContext] applySession called, session:', session?.user?.email)
-    if (!session) {
-      setUser(null)
-      setToken(null)
-      setRole('student')
-      setRoleLoading(false)
-      return
-    }
-    setUser(session.user)
-    setToken(session.access_token)
-    setRoleLoading(true)
-    const r = await fetchUserRole(session.user.id, session.access_token)
-    console.log('[AuthContext] setting role to:', r)
-    setRole(r)
-    setRoleLoading(false)
-  }
+  const [user, setUser]     = useState(null)
+  const [token, setToken]   = useState(null)
+  const [role, setRole]     = useState('student')
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    const timeout = setTimeout(() => {
-      console.log('[AuthContext] timeout fallback triggered')
-      setLoading(false)
-      setRoleLoading(false)
-    }, 5000)
-
-    supabase.auth.getSession().then(async ({ data: { session }, error }) => {
-      clearTimeout(timeout)
-      console.log('[AuthContext] getSession result:', session?.user?.email, error)
-      if (error) {
-        await supabase.auth.signOut()
-        setLoading(false)
-        setRoleLoading(false)
-        return
+    // Single source of truth: getSession only
+    // onAuthStateChange handles subsequent changes (login/logout)
+    supabase.auth.getSession().then(async ({ data: { session } }) => {
+      if (session) {
+        setUser(session.user)
+        setToken(session.access_token)
+        const r = await fetchUserRole(session.user.id, session.access_token)
+        setRole(r)
       }
-      await applySession(session)
+      // Only set loading=false AFTER role is resolved
       setLoading(false)
     })
 
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
       async (event, session) => {
-        console.log('[AuthContext] onAuthStateChange event:', event, session?.user?.email)
-        await applySession(session)
+        // Skip INITIAL_SESSION — handled by getSession above
+        if (event === 'INITIAL_SESSION') return
+        if (session) {
+          setUser(session.user)
+          setToken(session.access_token)
+          const r = await fetchUserRole(session.user.id, session.access_token)
+          setRole(r)
+        } else {
+          setUser(null)
+          setToken(null)
+          setRole('student')
+        }
       }
     )
-    return () => {
-      clearTimeout(timeout)
-      subscription.unsubscribe()
-    }
+    return () => subscription.unsubscribe()
   }, [])
 
   const signOut = () => supabase.auth.signOut()
 
   return (
-    <AuthContext.Provider value={{ user, token, role, loading, roleLoading, signOut }}>
+    <AuthContext.Provider value={{ user, token, role, loading, signOut }}>
       {children}
     </AuthContext.Provider>
   )
