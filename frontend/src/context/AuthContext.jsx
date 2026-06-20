@@ -6,19 +6,17 @@ const AuthContext = createContext(null)
 
 async function fetchUserRole(userId, accessToken) {
   try {
-    // Use the access token explicitly so RLS sees the authenticated user
-    const { data, error } = await supabase
-      .from('users')
-      .select('role')
-      .eq('id', userId)
-      .single()
-      .setHeader?.('Authorization', `Bearer ${accessToken}`)
-
-    if (error || !data) {
-      // Fallback: determine role from email pattern
-      return 'student'
-    }
-    return data.role
+    const url = `${import.meta.env.VITE_SUPABASE_URL}/rest/v1/users?id=eq.${userId}&select=role&limit=1`
+    const res = await fetch(url, {
+      headers: {
+        'apikey': import.meta.env.VITE_SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${accessToken}`,
+        'Accept': 'application/json',
+      }
+    })
+    if (!res.ok) return 'student'
+    const rows = await res.json()
+    return rows?.[0]?.role || 'student'
   } catch {
     return 'student'
   }
@@ -39,29 +37,24 @@ export function AuthProvider({ children }) {
     }
     setUser(session.user)
     setToken(session.access_token)
-
-    // Fetch role directly using service-level supabase with explicit auth header
-    try {
-      const res = await fetch(
-        `${import.meta.env.VITE_SUPABASE_URL}/rest/v1/users?id=eq.${session.user.id}&select=role`,
-        {
-          headers: {
-            'apikey': import.meta.env.VITE_SUPABASE_ANON_KEY,
-            'Authorization': `Bearer ${session.access_token}`,
-            'Content-Type': 'application/json',
-          }
-        }
-      )
-      const rows = await res.json()
-      const fetchedRole = rows?.[0]?.role || 'student'
-      setRole(fetchedRole)
-    } catch {
-      setRole('student')
-    }
+    const r = await fetchUserRole(session.user.id, session.access_token)
+    setRole(r)
   }
 
   useEffect(() => {
-    supabase.auth.getSession().then(async ({ data: { session } }) => {
+    // Timeout fallback — if getSession hangs (stale cache), clear after 5s
+    const timeout = setTimeout(() => {
+      setLoading(false)
+    }, 5000)
+
+    supabase.auth.getSession().then(async ({ data: { session }, error }) => {
+      clearTimeout(timeout)
+      if (error) {
+        // Stale/broken session — clear it
+        await supabase.auth.signOut()
+        setLoading(false)
+        return
+      }
       await applySession(session)
       setLoading(false)
     })
@@ -71,7 +64,10 @@ export function AuthProvider({ children }) {
         await applySession(session)
       }
     )
-    return () => subscription.unsubscribe()
+    return () => {
+      clearTimeout(timeout)
+      subscription.unsubscribe()
+    }
   }, [])
 
   const signOut = () => supabase.auth.signOut()
