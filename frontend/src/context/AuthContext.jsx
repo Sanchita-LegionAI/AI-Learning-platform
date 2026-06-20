@@ -7,6 +7,7 @@ const AuthContext = createContext(null)
 async function fetchUserRole(userId, accessToken) {
   try {
     const url = `${import.meta.env.VITE_SUPABASE_URL}/rest/v1/users?id=eq.${userId}&select=role&limit=1`
+    console.log('[AuthContext] fetchUserRole URL:', url)
     const res = await fetch(url, {
       headers: {
         'apikey': import.meta.env.VITE_SUPABASE_ANON_KEY,
@@ -14,22 +15,24 @@ async function fetchUserRole(userId, accessToken) {
         'Accept': 'application/json',
       }
     })
-    if (!res.ok) return 'student'
     const rows = await res.json()
+    console.log('[AuthContext] role rows:', rows)
     return rows?.[0]?.role || 'student'
-  } catch {
+  } catch (e) {
+    console.error('[AuthContext] fetchUserRole error:', e)
     return 'student'
   }
 }
 
 export function AuthProvider({ children }) {
-  const [user, setUser]             = useState(null)
-  const [token, setToken]           = useState(null)
-  const [role, setRole]             = useState('student')
-  const [loading, setLoading]       = useState(true)   // session loading
-  const [roleLoading, setRoleLoading] = useState(true) // role fetch loading
+  const [user, setUser]               = useState(null)
+  const [token, setToken]             = useState(null)
+  const [role, setRole]               = useState('student')
+  const [loading, setLoading]         = useState(true)
+  const [roleLoading, setRoleLoading] = useState(true)
 
   async function applySession(session) {
+    console.log('[AuthContext] applySession called, session:', session?.user?.email)
     if (!session) {
       setUser(null)
       setToken(null)
@@ -41,18 +44,21 @@ export function AuthProvider({ children }) {
     setToken(session.access_token)
     setRoleLoading(true)
     const r = await fetchUserRole(session.user.id, session.access_token)
+    console.log('[AuthContext] setting role to:', r)
     setRole(r)
     setRoleLoading(false)
   }
 
   useEffect(() => {
     const timeout = setTimeout(() => {
+      console.log('[AuthContext] timeout fallback triggered')
       setLoading(false)
       setRoleLoading(false)
     }, 5000)
 
     supabase.auth.getSession().then(async ({ data: { session }, error }) => {
       clearTimeout(timeout)
+      console.log('[AuthContext] getSession result:', session?.user?.email, error)
       if (error) {
         await supabase.auth.signOut()
         setLoading(false)
@@ -64,7 +70,8 @@ export function AuthProvider({ children }) {
     })
 
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
-      async (_event, session) => {
+      async (event, session) => {
+        console.log('[AuthContext] onAuthStateChange event:', event, session?.user?.email)
         await applySession(session)
       }
     )
