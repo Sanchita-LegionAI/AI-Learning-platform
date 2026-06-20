@@ -11,6 +11,8 @@ POST /api/admin/questions/import — trigger reimport from question_bank/ folder
 """
 import subprocess
 import sys
+import os
+from pathlib import Path
 from datetime import date
 from fastapi import APIRouter, Depends, HTTPException, Query
 from pydantic import BaseModel
@@ -193,11 +195,15 @@ def trigger_import(admin: dict = Depends(require_admin)):
     Runs as a subprocess — safe to call when new JSON files are added.
     """
     try:
+        # backend/ directory — seed_questions.py lives here
+        backend_dir = Path(__file__).parent.parent.parent
+        seed_script = backend_dir / "seed_questions.py"
         result = subprocess.run(
-            [sys.executable, "seed_questions.py"],
+            [sys.executable, str(seed_script)],
             capture_output=True,
             text=True,
             timeout=120,
+            cwd=str(backend_dir),  # run from backend/ so .env and question_bank/ are found
         )
         return {
             "success":  result.returncode == 0,
