@@ -23,36 +23,40 @@ async function fetchUserRole(userId, accessToken) {
 }
 
 export function AuthProvider({ children }) {
-  const [user, setUser]       = useState(null)
-  const [token, setToken]     = useState(null)
-  const [role, setRole]       = useState('student')
-  const [loading, setLoading] = useState(true)
+  const [user, setUser]             = useState(null)
+  const [token, setToken]           = useState(null)
+  const [role, setRole]             = useState('student')
+  const [loading, setLoading]       = useState(true)   // session loading
+  const [roleLoading, setRoleLoading] = useState(true) // role fetch loading
 
   async function applySession(session) {
     if (!session) {
       setUser(null)
       setToken(null)
       setRole('student')
+      setRoleLoading(false)
       return
     }
     setUser(session.user)
     setToken(session.access_token)
+    setRoleLoading(true)
     const r = await fetchUserRole(session.user.id, session.access_token)
     setRole(r)
+    setRoleLoading(false)
   }
 
   useEffect(() => {
-    // Timeout fallback — if getSession hangs (stale cache), clear after 5s
     const timeout = setTimeout(() => {
       setLoading(false)
+      setRoleLoading(false)
     }, 5000)
 
     supabase.auth.getSession().then(async ({ data: { session }, error }) => {
       clearTimeout(timeout)
       if (error) {
-        // Stale/broken session — clear it
         await supabase.auth.signOut()
         setLoading(false)
+        setRoleLoading(false)
         return
       }
       await applySession(session)
@@ -73,7 +77,7 @@ export function AuthProvider({ children }) {
   const signOut = () => supabase.auth.signOut()
 
   return (
-    <AuthContext.Provider value={{ user, token, role, loading, signOut }}>
+    <AuthContext.Provider value={{ user, token, role, loading, roleLoading, signOut }}>
       {children}
     </AuthContext.Provider>
   )

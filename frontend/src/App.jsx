@@ -17,23 +17,23 @@ import AdminDashboard from './pages/admin/AdminDashboard'
 // ── Guards ────────────────────────────────────────────────────────────────────
 
 function RequireAuth({ children }) {
-  const { user, loading } = useAuth()
-  if (loading) return <LoadingMessage message="লোড হচ্ছে..." />
-  if (!user)   return <Navigate to="/login" replace />
+  const { user, loading, roleLoading } = useAuth()
+  if (loading || roleLoading) return <LoadingMessage message="লোড হচ্ছে..." />
+  if (!user) return <Navigate to="/login" replace />
   return children
 }
 
 function RequireAdmin({ children }) {
-  const { user, role, loading } = useAuth()
-  if (loading)          return <LoadingMessage message="Loading..." />
+  const { user, role, loading, roleLoading } = useAuth()
+  if (loading || roleLoading) return <LoadingMessage message="Loading..." />
   if (!user)            return <Navigate to="/admin/login" replace />
   if (role !== 'admin') return <Navigate to="/exam/select" replace />
   return children
 }
 
 function RedirectIfAuth({ children }) {
-  const { user, role, loading } = useAuth()
-  if (loading) return <LoadingMessage message="লোড হচ্ছে..." />
+  const { user, role, loading, roleLoading } = useAuth()
+  if (loading || roleLoading) return <LoadingMessage message="লোড হচ্ছে..." />
   if (user) return <Navigate to={role === 'admin' ? '/admin' : '/exam/select'} replace />
   return children
 }
