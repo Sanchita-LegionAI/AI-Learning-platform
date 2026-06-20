@@ -1,5 +1,6 @@
 // pages/admin/AdminLogin.jsx
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { supabase } from '../../lib/supabase'
 
 export default function AdminLogin() {
@@ -7,6 +8,7 @@ export default function AdminLogin() {
   const [password, setPassword] = useState('')
   const [loading,  setLoading]  = useState(false)
   const [error,    setError]    = useState('')
+  const navigate = useNavigate()
 
   const signIn = async () => {
     setError('')
@@ -14,6 +16,7 @@ export default function AdminLogin() {
     try {
       const { error } = await supabase.auth.signInWithPassword({ email, password })
       if (error) throw error
+      navigate('/admin', { replace: true })
     } catch (e) {
       setError(e.message || 'লগইন ব্যর্থ হয়েছে')
     } finally {
