@@ -4,30 +4,46 @@ import { supabase } from '../lib/supabase'
 
 const AuthContext = createContext(null)
 
+async function fetchUserRole(userId) {
+  try {
+    const { data, error } = await supabase
+      .from('users')
+      .select('role')
+      .eq('id', userId)
+      .single()
+    if (error || !data) return 'student'
+    return data.role
+  } catch {
+    return 'student'
+  }
+}
+
 export function AuthProvider({ children }) {
-  const [user, setUser]     = useState(null)
-  const [token, setToken]   = useState(null)
-  const [role, setRole]     = useState('student')
+  const [user, setUser]       = useState(null)
+  const [token, setToken]     = useState(null)
+  const [role, setRole]       = useState('student')
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     // Get initial session
-    supabase.auth.getSession().then(({ data: { session } }) => {
+    supabase.auth.getSession().then(async ({ data: { session } }) => {
       if (session) {
         setUser(session.user)
         setToken(session.access_token)
-        setRole(session.user.app_metadata?.role || 'student')
+        const r = await fetchUserRole(session.user.id)
+        setRole(r)
       }
       setLoading(false)
     })
 
     // Listen for auth changes
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
-      (_event, session) => {
+      async (_event, session) => {
         if (session) {
           setUser(session.user)
           setToken(session.access_token)
-          setRole(session.user.app_metadata?.role || 'student')
+          const r = await fetchUserRole(session.user.id)
+          setRole(r)
         } else {
           setUser(null)
           setToken(null)
