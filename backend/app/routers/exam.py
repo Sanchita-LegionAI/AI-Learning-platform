@@ -37,7 +37,12 @@ def check_daily_limit(user_id: str) -> bool:
         "increment_daily_usage",
         {"p_user_id": user_id, "p_limit": settings.DAILY_EXAM_LIMIT}
     ).execute()
-    return res.data is True
+    # Supabase RPC can return bool directly or wrap in list
+    raw = res.data
+    if isinstance(raw, list): raw = raw[0] if raw else False
+    allowed = raw is True or raw == True
+    print(f"[daily_limit] user={user_id} data={res.data!r} allowed={allowed}")
+    return allowed
 
 
 def get_chapter_context(chapter_id: int) -> dict:
