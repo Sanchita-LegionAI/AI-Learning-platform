@@ -76,27 +76,26 @@ export default function SelectPage() {
       <div className="flex-1 max-w-app mx-auto w-full px-4 py-6 space-y-5 page-enter">
 
         {/* Header */}
-        <div className="flex items-center justify-between">
-          <div>
+        <div className="flex items-start justify-between gap-2">
+          <div className="min-w-0 flex-1">
             <h1 className="bn text-xl font-bold text-ink">পরীক্ষা শুরু করুন</h1>
             {displayName && (
-              <p className="text-xs text-ink-light font-ui mt-0.5 truncate max-w-[180px]">
+              <p className="text-xs text-ink-light font-ui mt-0.5 truncate">
                 স্বাগতম, {displayName}
               </p>
             )}
           </div>
-          <div className="flex items-center gap-3">
+          <div className="flex flex-col items-end gap-2 flex-shrink-0">
             <button
               onClick={() => navigate('/exam/my-exams')}
-              className="relative text-xs font-ui text-ink-light hover:text-saffron transition-colors flex items-center gap-1"
+              className="relative flex items-center gap-1.5 bg-saffron-light border border-saffron/30 text-saffron-dark text-xs font-ui font-medium px-3 py-1.5 rounded-xl hover:bg-saffron hover:text-white transition-all"
             >
-              📋
+              📋 আমার পরীক্ষা
               {activeExamCount > 0 && (
-                <span className="absolute -top-1 -right-1 w-4 h-4 bg-saffron text-white text-[10px] rounded-full flex items-center justify-center">
+                <span className="w-4 h-4 bg-saffron text-white text-[10px] rounded-full flex items-center justify-center font-bold">
                   {activeExamCount}
                 </span>
               )}
-              <span className="ml-1">আমার পরীক্ষা</span>
             </button>
             <button
               onClick={signOut}
