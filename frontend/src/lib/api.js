@@ -54,6 +54,13 @@ export const api = {
   getSession: (sessionId, token) =>
     request(`/api/exam/session/${sessionId}`, {}, token),
 
+  // My sessions (student)
+  getMySessions: (token) =>
+    request('/api/exam/my-sessions', {}, token),
+
+  deleteSession: (sessionId, token) =>
+    request(`/api/exam/session/${sessionId}`, { method: 'DELETE' }, token),
+
   // Admin
   getAdminConfig: (token) =>
     request('/api/admin/config', {}, token),
@@ -83,4 +90,13 @@ export const api = {
 
   triggerImport: (token) =>
     request('/api/admin/questions/import', { method: 'POST' }, token),
+
+  // Admin exam logs
+  getAdminExamLogs: (token, params = {}) => {
+    const qs = new URLSearchParams(params).toString()
+    return request(`/api/admin/exam-logs${qs ? '?' + qs : ''}`, {}, token)
+  },
+
+  deleteAdminExam: (sessionId, token) =>
+    request(`/api/admin/exam/${sessionId}`, { method: 'DELETE' }, token),
 }

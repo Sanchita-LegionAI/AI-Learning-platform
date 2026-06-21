@@ -1,14 +1,19 @@
 // pages/LoginPage.jsx
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
+import { useAuth } from '../context/AuthContext'
 import ProgressBar from '../components/ProgressBar'
 
 export default function LoginPage() {
-  const [phone, setPhone]       = useState('')
-  const [otp, setOtp]           = useState('')
-  const [step, setStep]         = useState('phone') // phone | otp
-  const [loading, setLoading]   = useState(false)
-  const [error, setError]       = useState('')
+  const { user, signOut } = useAuth()
+  const navigate = useNavigate()
+
+  const [phone, setPhone]     = useState('')
+  const [otp, setOtp]         = useState('')
+  const [step, setStep]       = useState('phone') // phone | otp
+  const [loading, setLoading] = useState(false)
+  const [error, setError]     = useState('')
 
   // Format phone: ensure +91 prefix for India
   const formatPhone = (raw) => {
@@ -44,7 +49,8 @@ export default function LoginPage() {
         type: 'sms',
       })
       if (error) throw error
-      // Auth state change triggers redirect via AuthContext
+      // Auth state change triggers redirect via AuthContext → navigate to select
+      navigate('/exam/select', { replace: true })
     } catch (e) {
       setError(e.message || 'OTP ভুল হয়েছে। আবার চেষ্টা করুন।')
     } finally {
@@ -60,6 +66,85 @@ export default function LoginPage() {
     })
   }
 
+  const handleSignOut = async () => {
+    await signOut()
+  }
+
+  // ── If already logged in, show "Continue as" panel ──────────────────────
+  if (user) {
+    const displayName = user.user_metadata?.full_name || user.email || user.phone || 'ব্যবহারকারী'
+    const avatar = user.user_metadata?.avatar_url
+
+    return (
+      <div className="min-h-screen bg-cream flex flex-col">
+        <ProgressBar currentStep="login" />
+        <div className="flex-1 flex flex-col items-center justify-center px-4 pb-10">
+
+          {/* Logo */}
+          <div className="text-center mb-8">
+            <div className="w-16 h-16 bg-saffron rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-card">
+              <span className="text-white text-3xl">📚</span>
+            </div>
+            <h1 className="bn text-2xl font-bold text-ink mb-1">বাংলা AI টিউটর</h1>
+            <p className="text-sm text-ink-light font-ui">
+              পশ্চিমবঙ্গ বোর্ড · বাংলা মাধ্যম
+            </p>
+          </div>
+
+          <div className="card w-full max-w-sm page-enter">
+            <p className="bn text-sm text-ink-light mb-4 text-center">আপনি আগে লগইন করেছেন</p>
+
+            {/* User avatar + name */}
+            <div className="flex items-center gap-3 bg-saffron-light border border-saffron/30 rounded-xl px-4 py-3 mb-5">
+              {avatar
+                ? <img src={avatar} alt="avatar" className="w-10 h-10 rounded-full object-cover border-2 border-saffron/40" />
+                : <div className="w-10 h-10 rounded-full bg-saffron flex items-center justify-center text-white text-lg font-bold">
+                    {displayName[0]?.toUpperCase()}
+                  </div>
+              }
+              <div className="flex-1 min-w-0">
+                <p className="bn text-sm font-semibold text-ink truncate">{displayName}</p>
+                <p className="text-xs text-ink-light font-ui truncate">{user.email || user.phone}</p>
+              </div>
+            </div>
+
+            {/* Continue */}
+            <button
+              onClick={() => navigate('/exam/select', { replace: true })}
+              className="btn-primary mb-3"
+            >
+              চালিয়ে যান →
+            </button>
+
+            {/* My Exams shortcut */}
+            <button
+              onClick={() => navigate('/exam/my-exams')}
+              className="btn-secondary mb-4"
+            >
+              📋 আমার পরীক্ষাগুলো
+            </button>
+
+            {/* Divider */}
+            <div className="relative flex items-center gap-3 mb-4">
+              <div className="flex-1 h-px bg-border" />
+              <span className="text-xs text-ink-light font-ui">অথবা</span>
+              <div className="flex-1 h-px bg-border" />
+            </div>
+
+            {/* Switch account */}
+            <button
+              onClick={handleSignOut}
+              className="w-full text-sm font-ui text-ink-light hover:text-red-500 transition-colors text-center"
+            >
+              অন্য অ্যাকাউন্টে লগইন করুন
+            </button>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  // ── Normal login form ────────────────────────────────────────────────────
   return (
     <div className="min-h-screen bg-cream flex flex-col">
       <ProgressBar currentStep="login" />
@@ -70,7 +155,7 @@ export default function LoginPage() {
           <div className="w-16 h-16 bg-saffron rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-card">
             <span className="text-white text-3xl">📚</span>
           </div>
-          <h1 className="bn text-2xl font-bold text-ink mb-1">পরীক্ষা টিউটর</h1>
+          <h1 className="bn text-2xl font-bold text-ink mb-1">বাংলা AI টিউটর</h1>
           <p className="text-sm text-ink-light font-ui">
             পশ্চিমবঙ্গ বোর্ড · বাংলা মাধ্যম
           </p>

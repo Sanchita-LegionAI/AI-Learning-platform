@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { useAuth } from '../../context/AuthContext'
 import { api } from '../../lib/api'
 
-const TABS = ['Overview', 'Models', 'Logs', 'Content']
+const TABS = ['Overview', 'Models', 'Logs', 'Exams', 'Content']
 
 function StatCard({ label, value, sub, accent }) {
   return (
@@ -15,18 +15,28 @@ function StatCard({ label, value, sub, accent }) {
   )
 }
 
+function formatDT(iso) {
+  if (!iso) return '—'
+  const d = new Date(iso)
+  return d.toLocaleDateString('en-GB', { day:'2-digit', month:'short' }) + ' ' +
+         d.toLocaleTimeString('en-GB', { hour:'2-digit', minute:'2-digit' })
+}
+
 export default function AdminDashboard() {
   const { token, signOut } = useAuth()
   const [tab, setTab]       = useState('Overview')
 
-  // Overview state
   const [summary,   setSummary]   = useState(null)
   const [providers, setProviders] = useState(null)
   const [logs,      setLogs]      = useState([])
+  const [examLogs,  setExamLogs]  = useState([])
   const [chapters,  setChapters]  = useState([])
   const [stats,     setStats]     = useState([])
   const [loading,   setLoading]   = useState(false)
   const [msg,       setMsg]       = useState('')
+
+  // Exam logs filter
+  const [examFilter, setExamFilter] = useState('all') // all | active | completed
 
   useEffect(() => {
     if (tab === 'Overview') {
@@ -38,11 +48,21 @@ export default function AdminDashboard() {
     if (tab === 'Logs') {
       api.getUsageLogs(token, { limit: 50 }).then(d => setLogs(d.logs)).catch(() => {})
     }
+    if (tab === 'Exams') {
+      loadExamLogs()
+    }
     if (tab === 'Content') {
       api.getAdminChapters(token).then(d => setChapters(d.chapters)).catch(() => {})
       api.getChapterStats(token).then(d => setStats(d.stats)).catch(() => {})
     }
   }, [tab, token])
+
+  const loadExamLogs = (filter = examFilter) => {
+    const params = { limit: 100 }
+    if (filter === 'active')    params.completed = false
+    if (filter === 'completed') params.completed = true
+    api.getAdminExamLogs(token, params).then(d => setExamLogs(d.exam_logs || [])).catch(() => {})
+  }
 
   const switchProvider = async (purpose, providerName, modelName) => {
     setMsg('')
@@ -76,13 +96,27 @@ export default function AdminDashboard() {
     setMsg('✓ Logs cleared')
   }
 
+  const deleteExam = async (sessionId) => {
+    if (!confirm('Delete this exam session? This will also delete the uploaded image reference.')) return
+    try {
+      await api.deleteAdminExam(sessionId, token)
+      setExamLogs(prev => prev.filter(e => e.id !== sessionId))
+      setMsg('✓ Exam session deleted')
+    } catch (e) {
+      setMsg(`✗ ${e.message}`)
+    }
+  }
+
+  const activeCount    = examLogs.filter(e => !e.completed).length
+  const completedCount = examLogs.filter(e => e.completed).length
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Top bar */}
       <div className="bg-ink text-white px-6 py-3 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <span className="text-saffron font-bold text-lg">📚</span>
-          <span className="font-ui font-semibold">Admin Dashboard</span>
+          <span className="font-ui font-semibold">বাংলা AI টিউটর — Admin</span>
         </div>
         <button onClick={signOut} className="text-xs text-white/60 hover:text-white font-ui transition-colors">
           Sign out
@@ -90,12 +124,17 @@ export default function AdminDashboard() {
       </div>
 
       {/* Tabs */}
-      <div className="bg-white border-b border-border px-6 flex gap-1">
+      <div className="bg-white border-b border-border px-6 flex gap-1 overflow-x-auto">
         {TABS.map(t => (
           <button key={t} onClick={() => setTab(t)}
-            className={`py-3 px-4 text-sm font-ui font-medium border-b-2 transition-colors
+            className={`py-3 px-4 text-sm font-ui font-medium border-b-2 transition-colors whitespace-nowrap
               ${tab === t ? 'border-saffron text-saffron' : 'border-transparent text-ink-light hover:text-ink'}`}>
             {t}
+            {t === 'Exams' && examLogs.filter(e => !e.completed).length > 0 && (
+              <span className="ml-1.5 text-xs bg-amber-100 text-amber-700 px-1.5 py-0.5 rounded-full">
+                {examLogs.filter(e => !e.completed).length}
+              </span>
+            )}
           </button>
         ))}
       </div>
@@ -169,7 +208,6 @@ export default function AdminDashboard() {
                   {purpose.replace('_', ' ')}
                 </h3>
                 <div className="space-y-2">
-                  {/* Active */}
                   {data.active && (
                     <div className="flex items-center justify-between bg-forest-light border border-forest/30 rounded-xl px-4 py-3">
                       <div>
@@ -185,7 +223,6 @@ export default function AdminDashboard() {
                       <span className="text-green-500 text-xl">●</span>
                     </div>
                   )}
-                  {/* Available */}
                   {data.available?.map(p => (
                     <div key={p.id} className="flex items-center justify-between border border-border rounded-xl px-4 py-3">
                       <div>
@@ -244,6 +281,101 @@ export default function AdminDashboard() {
                         <span className={log.success ? 'text-green-600' : 'text-red-600'}>
                           {log.success ? '✓' : '✗'}
                         </span>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        )}
+
+        {/* ── Exams ── */}
+        {tab === 'Exams' && (
+          <div className="space-y-4">
+            <div className="flex items-center justify-between flex-wrap gap-3">
+              <div>
+                <h2 className="text-base font-ui font-semibold text-ink">Student Exam Sessions</h2>
+                <p className="text-xs text-ink-light font-ui mt-0.5">
+                  {activeCount} active · {completedCount} completed
+                </p>
+              </div>
+              <div className="flex gap-2">
+                {['all','active','completed'].map(f => (
+                  <button
+                    key={f}
+                    onClick={() => {
+                      setExamFilter(f)
+                      loadExamLogs(f)
+                    }}
+                    className={`text-xs font-ui px-3 py-1.5 rounded-lg border transition-all ${
+                      examFilter === f
+                        ? 'bg-saffron text-white border-saffron'
+                        : 'border-border text-ink-light hover:text-ink'
+                    }`}
+                  >
+                    {f === 'all' ? 'All' : f === 'active' ? 'Active' : 'Completed'}
+                  </button>
+                ))}
+                <button
+                  onClick={() => loadExamLogs(examFilter)}
+                  className="text-xs font-ui text-ink-light border border-border px-3 py-1.5 rounded-lg hover:text-ink transition-colors"
+                >
+                  ↻ Refresh
+                </button>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl border border-border overflow-x-auto">
+              <table className="w-full text-xs font-ui min-w-[800px]">
+                <thead className="bg-gray-50 text-ink-light">
+                  <tr>
+                    {['Student','Chapter','Subject','Started','Submitted','Score','Grade','Status',''].map(h => (
+                      <th key={h} className="text-left px-3 py-2">{h}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {examLogs.length === 0 && (
+                    <tr><td colSpan={9} className="text-center py-6 text-ink-light">No exam sessions found</td></tr>
+                  )}
+                  {examLogs.map((e, i) => (
+                    <tr key={i} className={`border-t border-border hover:bg-gray-50 ${!e.completed ? 'bg-amber-50/30' : ''}`}>
+                      <td className="px-3 py-2">
+                        <p className="font-medium text-ink">{e.student_name || '—'}</p>
+                        <p className="text-ink-light">{e.student_phone || e.user_id?.slice(0,8)}</p>
+                      </td>
+                      <td className="px-3 py-2 max-w-[120px]">
+                        <span className="bn">{e.chapter_name || '—'}</span>
+                      </td>
+                      <td className="px-3 py-2">
+                        <span className="bn">{e.subject_name || '—'}</span>
+                      </td>
+                      <td className="px-3 py-2 whitespace-nowrap">{formatDT(e.started_at)}</td>
+                      <td className="px-3 py-2 whitespace-nowrap">{formatDT(e.submitted_at)}</td>
+                      <td className="px-3 py-2 font-semibold">
+                        {e.score_awarded != null ? `${e.score_awarded}/${e.score_max}` : '—'}
+                      </td>
+                      <td className="px-3 py-2 font-bold text-saffron-dark">{e.grade || '—'}</td>
+                      <td className="px-3 py-2">
+                        <span className={`px-2 py-0.5 rounded-full text-[10px] font-semibold ${
+                          e.completed
+                            ? 'bg-emerald-100 text-emerald-700'
+                            : e.answer_image_key
+                              ? 'bg-amber-100 text-amber-700'
+                              : 'bg-blue-100 text-blue-700'
+                        }`}>
+                          {e.completed ? 'Done' : e.answer_image_key ? 'Uploaded' : 'Pending'}
+                        </span>
+                      </td>
+                      <td className="px-3 py-2">
+                        <button
+                          onClick={() => deleteExam(e.id)}
+                          className="text-red-400 hover:text-red-600 transition-colors"
+                          title="Delete session"
+                        >
+                          🗑
+                        </button>
                       </td>
                     </tr>
                   ))}

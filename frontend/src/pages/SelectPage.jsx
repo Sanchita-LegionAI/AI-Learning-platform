@@ -7,6 +7,8 @@ import ProgressBar from '../components/ProgressBar'
 import LoadingMessage from '../components/LoadingMessage'
 import ErrorMessage from '../components/ErrorMessage'
 
+const MAX_ACTIVE_EXAMS = 5
+
 export default function SelectPage() {
   const { token, user, signOut } = useAuth()
   const navigate = useNavigate()
@@ -21,20 +23,35 @@ export default function SelectPage() {
   const [selectedChapter, setSelectedChapter] = useState(null)
   const [starting, setStarting]               = useState(false)
 
+  const [activeExamCount, setActiveExamCount] = useState(0)
+
+  const displayName = user?.user_metadata?.full_name || user?.email || user?.phone || ''
+
   useEffect(() => {
     api.getCurriculum(token)
       .then(d => setCurriculum(d.curriculum))
       .catch(e => setError(e.message))
       .finally(() => setLoading(false))
+
+    // Check active exam count
+    api.getMySessions(token)
+      .then(d => {
+        const active = (d.sessions || []).filter(s => !s.completed)
+        setActiveExamCount(active.length)
+      })
+      .catch(() => {})
   }, [token])
 
   const subjects  = selectedClass?.subjects || []
   const books     = selectedSubject?.books || []
   const chapters  = selectedBook?.chapters || []
-
-  const canStart = selectedChapter !== null
+  const canStart  = selectedChapter !== null
 
   const startExam = async () => {
+    if (activeExamCount >= MAX_ACTIVE_EXAMS) {
+      setError(`আপনার ${MAX_ACTIVE_EXAMS}টি পরীক্ষা চলছে। নতুন পরীক্ষা শুরু করতে আগে একটি শেষ করুন বা বাতিল করুন।`)
+      return
+    }
     setStarting(true)
     try {
       const data = await api.generateExam(selectedChapter.id, token)
@@ -62,17 +79,54 @@ export default function SelectPage() {
         <div className="flex items-center justify-between">
           <div>
             <h1 className="bn text-xl font-bold text-ink">পরীক্ষা শুরু করুন</h1>
-            <p className="text-sm text-ink-light font-ui">বিষয় ও অধ্যায় বেছে নিন</p>
+            {displayName && (
+              <p className="text-xs text-ink-light font-ui mt-0.5 truncate max-w-[180px]">
+                স্বাগতম, {displayName}
+              </p>
+            )}
           </div>
-          <button
-            onClick={signOut}
-            className="text-xs text-ink-light font-ui hover:text-saffron transition-colors"
-          >
-            লগআউট
-          </button>
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => navigate('/exam/my-exams')}
+              className="relative text-xs font-ui text-ink-light hover:text-saffron transition-colors flex items-center gap-1"
+            >
+              📋
+              {activeExamCount > 0 && (
+                <span className="absolute -top-1 -right-1 w-4 h-4 bg-saffron text-white text-[10px] rounded-full flex items-center justify-center">
+                  {activeExamCount}
+                </span>
+              )}
+              <span className="ml-1">আমার পরীক্ষা</span>
+            </button>
+            <button
+              onClick={signOut}
+              className="text-xs text-ink-light font-ui hover:text-saffron transition-colors"
+            >
+              লগআউট
+            </button>
+          </div>
         </div>
 
         {error && <ErrorMessage message={error} onRetry={() => setError('')} />}
+
+        {/* Active exam warning */}
+        {activeExamCount >= MAX_ACTIVE_EXAMS && (
+          <div className="bg-red-50 border border-red-200 rounded-xl px-4 py-3">
+            <p className="bn text-sm text-red-700 font-medium mb-1">
+              ⚠️ সর্বোচ্চ পরীক্ষার সীমায় পৌঁছেছেন
+            </p>
+            <p className="bn text-xs text-red-600">
+              নতুন পরীক্ষা শুরু করতে{' '}
+              <button
+                onClick={() => navigate('/exam/my-exams')}
+                className="underline font-medium"
+              >
+                আমার পরীক্ষায়
+              </button>
+              {' '}গিয়ে একটি বাতিল করুন।
+            </p>
+          </div>
+        )}
 
         {starting && <LoadingMessage message="প্রশ্ন তৈরি হচ্ছে..." />}
 
@@ -147,9 +201,7 @@ export default function SelectPage() {
                       <span className={`text-xs font-ui mr-2 ${selectedChapter?.id === ch.id ? 'text-saffron-dark' : 'text-ink-light'}`}>
                         অধ্যায় {ch.chapter_number}
                       </span>
-                      <span className={`bn text-sm font-medium ${selectedChapter?.id === ch.id ? 'text-ink' : 'text-ink'}`}>
-                        {ch.name_bn}
-                      </span>
+                      <span className="bn text-sm font-medium text-ink">{ch.name_bn}</span>
                       {ch.subtitle_bn && (
                         <p className={`bn text-xs mt-0.5 ${selectedChapter?.id === ch.id ? 'text-ink-light' : 'text-ink-light/70'}`}>
                           {ch.subtitle_bn}
@@ -171,9 +223,18 @@ export default function SelectPage() {
                     {selectedSubject?.display_name_bn} · {selectedClass?.display_name_bn}
                   </p>
                 </div>
-                <button onClick={startExam} className="btn-primary">
+                <button
+                  onClick={startExam}
+                  disabled={activeExamCount >= MAX_ACTIVE_EXAMS}
+                  className={`btn-primary ${activeExamCount >= MAX_ACTIVE_EXAMS ? 'opacity-50 cursor-not-allowed' : ''}`}
+                >
                   পরীক্ষা শুরু করুন →
                 </button>
+                {activeExamCount > 0 && activeExamCount < MAX_ACTIVE_EXAMS && (
+                  <p className="text-xs text-ink-light font-ui text-center mt-2">
+                    {MAX_ACTIVE_EXAMS - activeExamCount}টি পরীক্ষা আর শুরু করা যাবে
+                  </p>
+                )}
               </div>
             )}
           </>

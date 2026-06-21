@@ -278,3 +278,67 @@ def trigger_import(admin: dict = Depends(require_admin)):
         "stderr": "",
         "stats": stats,
     }
+
+
+# =============================================================================
+# ADMIN EXAM LOGS — view all student sessions, delete to free space
+# =============================================================================
+
+@router.get("/exam-logs")
+def get_exam_logs(
+    limit:  int = Query(50, le=200),
+    offset: int = Query(0),
+    completed: Optional[bool] = Query(None),
+    admin: dict = Depends(require_admin),
+):
+    """
+    All exam sessions across all students.
+    Filterable by completed status. Ordered newest first.
+    """
+    supabase = get_supabase()
+
+    query = (
+        supabase.table("exam_sessions")
+        .select(
+            "id, user_id, started_at, submitted_at, completed, "
+            "score_awarded, score_max, grade, answer_image_key, "
+            "chapters!inner(name_bn, books!inner(subjects!inner(display_name_bn))), "
+            "users!inner(display_name, phone)"
+        )
+        .order("started_at", desc=True)
+        .range(offset, offset + limit - 1)
+    )
+    if completed is not None:
+        query = query.eq("completed", completed)
+
+    res = query.execute()
+
+    rows = []
+    for s in (res.data or []):
+        chapter = s.pop("chapters", {}) or {}
+        book    = chapter.get("books", {}) or {}
+        subject = book.get("subjects", {}) or {}
+        usr     = s.pop("users", {}) or {}
+        rows.append({
+            **s,
+            "chapter_name": chapter.get("name_bn", ""),
+            "subject_name": subject.get("display_name_bn", ""),
+            "student_name": usr.get("display_name", ""),
+            "student_phone": usr.get("phone", ""),
+        })
+
+    return {"exam_logs": rows, "total": len(rows)}
+
+
+@router.delete("/exam/{session_id}")
+def delete_exam_session(
+    session_id: str,
+    admin: dict = Depends(require_admin),
+):
+    """Delete any exam session (admin only). Frees R2 image reference."""
+    supabase = get_supabase()
+    res = supabase.table("exam_sessions").select("id").eq("id", session_id).single().execute()
+    if not res.data:
+        raise HTTPException(status_code=404, detail="Session not found")
+    supabase.table("exam_sessions").delete().eq("id", session_id).execute()
+    return {"deleted": True, "session_id": session_id}

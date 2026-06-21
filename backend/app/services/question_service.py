@@ -16,17 +16,23 @@ from app.services.llm_router import call_llm
 # =============================================================================
 
 def get_exam_config(config_id: Optional[int] = None) -> dict:
-    """Fetch active exam config (marks distribution)."""
+    """
+    Fetch exam config (marks distribution).
+    If config_id given: use that specific config.
+    Otherwise: randomly pick from ALL active configs
+    (supports multiple active configs for variety — e.g. 4q/5q rotation).
+    """
     supabase = get_supabase()
-    query = supabase.table("exam_config").select("*")
     if config_id:
-        query = query.eq("id", config_id)
+        res = supabase.table("exam_config").select("*").eq("id", config_id).limit(1).execute()
     else:
-        query = query.eq("active", True)
-    res = query.limit(1).execute()
+        res = supabase.table("exam_config").select("*").eq("active", True).execute()
+
     if not res.data:
         raise RuntimeError("No active exam config found")
-    return res.data[0]
+
+    # Randomly pick from all active configs (supports 4q vs 5q variety)
+    return random.choice(res.data)
 
 
 def select_questions_from_bank(chapter_id: int, distribution: list[dict]) -> tuple[list[dict], list[int]]:

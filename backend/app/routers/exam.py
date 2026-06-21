@@ -316,3 +316,74 @@ def get_session(
         "session":     session,
         "evaluations": evaluations,
     }
+
+
+@router.get("/my-sessions")
+def get_my_sessions(user: dict = Depends(require_student)):
+    """
+    Return all exam sessions for the current user,
+    enriched with chapter/subject names for display.
+    """
+    user_id = user["user_id"]
+    supabase = get_supabase()
+
+    res = (
+        supabase.table("exam_sessions")
+        .select(
+            "id, started_at, submitted_at, completed, "
+            "generated_questions, answer_image_key, "
+            "score_awarded, score_max, grade, "
+            "chapters!inner(name_bn, chapter_number, "
+            "books!inner(subjects!inner(display_name_bn)))"
+        )
+        .eq("user_id", user_id)
+        .order("started_at", desc=True)
+        .execute()
+    )
+
+    sessions = []
+    for s in (res.data or []):
+        chapter = s.pop("chapters", {}) or {}
+        book    = chapter.get("books", {}) or {}
+        subject = book.get("subjects", {}) or {}
+        sessions.append({
+            **s,
+            "chapter_name":  chapter.get("name_bn", ""),
+            "chapter_number": chapter.get("chapter_number"),
+            "subject_name":  subject.get("display_name_bn", ""),
+        })
+
+    return {"sessions": sessions}
+
+
+@router.delete("/session/{session_id}")
+def delete_session(
+    session_id: str,
+    user: dict = Depends(require_student),
+):
+    """
+    Delete a pending (non-completed) exam session.
+    Completed (evaluated) sessions cannot be deleted by students.
+    """
+    user_id = user["user_id"]
+    supabase = get_supabase()
+
+    # Verify ownership and non-completed
+    res = (
+        supabase.table("exam_sessions")
+        .select("id, completed")
+        .eq("id", session_id)
+        .eq("user_id", user_id)
+        .single()
+        .execute()
+    )
+    if not res.data:
+        raise HTTPException(status_code=404, detail="Session not found")
+    if res.data["completed"]:
+        raise HTTPException(
+            status_code=400,
+            detail="Completed sessions cannot be deleted"
+        )
+
+    supabase.table("exam_sessions").delete().eq("id", session_id).execute()
+    return {"deleted": True, "session_id": session_id}
