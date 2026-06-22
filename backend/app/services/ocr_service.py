@@ -154,8 +154,17 @@ def ocr_session(
 
     answers = ocr_data.get("answers", [])
 
-    # Build lookup: question_number → text
-    answer_map = {a["question_number"]: a.get("text", "") for a in answers}
+    # Build lookup: question_number → text (handle both int and string keys)
+    answer_map = {}
+    for a in answers:
+        key = a.get("question_number")
+        text = a.get("text", "").strip()
+        if key is not None:
+            answer_map[int(key)] = text
+
+    # Log what Gemini returned for debugging
+    print(f"[ocr] Gemini returned {len(answers)} answers: {list(answer_map.keys())}")
+    print(f"[ocr] Expected {len(generated_questions)} questions with ids: {[q['id'] for q in generated_questions]}")
 
     # ── Save evaluation rows (one per question, answer text only) ─────────────
     source_ids = session.get("source_question_ids", [])
@@ -168,7 +177,18 @@ def ocr_session(
 
     for i, q in enumerate(generated_questions):
         q_num = q["id"]  # 1-based
-        student_text = answer_map.get(q_num, "কোনো উত্তর লেখা হয়নি")
+
+        # Try to match by question number, fallback to positional
+        student_text = answer_map.get(q_num)
+        if student_text is None and i < len(answers):
+            # Positional fallback — use i-th answer regardless of number
+            student_text = answers[i].get("text", "").strip()
+            print(f"[ocr] Q{q_num}: using positional fallback, got: {student_text[:50] if student_text else 'empty'}")
+        if not student_text:
+            student_text = "কোনো উত্তর লেখা হয়নি"
+            print(f"[ocr] Q{q_num}: no answer found")
+        else:
+            print(f"[ocr] Q{q_num}: found answer: {student_text[:60]}")
 
         eval_rows.append({
             "session_id":           session_id,

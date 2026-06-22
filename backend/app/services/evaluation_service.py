@@ -23,10 +23,12 @@ EVAL_SYSTEM_PROMPT = """You are a Bengali exam evaluator for West Bengal Board s
 You will be given the exam questions and the student's transcribed answers (from OCR).
 Evaluate each answer and provide marks, feedback, and model answer.
 
-Rules:
-- Award marks strictly based on correctness and completeness
-- If the student answer is "কোনো উত্তর লেখা হয়নি" or blank → awarded = 0
+STRICT Rules — follow these exactly:
+- MANDATORY: If student_answer is "কোনো উত্তর লেখা হয়নি" or empty → awarded MUST be 0, no exceptions
+- MANDATORY: If student_answer is "পাঠযোগ্য নয়" → awarded MUST be 0
+- Award marks strictly based on correctness and completeness of what is written
 - If the answer is completely off-topic or wrong subject → awarded = 0, explain clearly
+- Partial credit only if partial knowledge is demonstrated in the written answer
 - Be encouraging and constructive — these are school students
 - Write feedback and model answers in simple Bengali appropriate for the class level
 - Never use double quotes inside Bengali text — use single quotes or Bengali punctuation (।)
@@ -184,12 +186,23 @@ def evaluate_session(
         q_index = result["id"] - 1  # LLM uses 1-based IDs
         if q_index < len(ocr_answers):
             row = ocr_answers[q_index]
+            student_ans = row.get("student_answer_text", "")
+
+            # Hard enforce: zero marks if student wrote nothing
+            awarded = result.get("awarded", 0)
+            if not student_ans or student_ans in ("কোনো উত্তর লেখা হয়নি", "পাঠযোগ্য নয়"):
+                awarded = 0
+
             supabase.table("evaluations").update({
-                "marks_awarded": result.get("awarded", 0),
+                "marks_awarded": awarded,
                 "marks_max":     result.get("max", row.get("marks_max", 0)),
                 "feedback":      result.get("feedback", ""),
                 "model_answer":  result.get("model_answer", ""),
             }).eq("id", row["id"]).execute()
+
+            # Patch result for return value too
+            result["awarded"] = awarded
+            result["student_answer"] = student_ans
 
     # ── Update session ────────────────────────────────────────────────────────
     supabase.table("exam_sessions").update({

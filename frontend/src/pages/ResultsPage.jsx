@@ -135,15 +135,21 @@ export default function ResultsPage() {
     if (state?.result) {
       // result has: score_awarded, score_max, grade, overall_feedback, generated_questions, results
       const r = state.result
-      // Merge results (has student_answer) with generated_questions
-      const merged = (r.results || []).map((res, i) => ({
-        generated_question:  r.generated_questions?.[i]?.question || res.generated_question || '',
-        marks_awarded:       res.awarded ?? res.marks_awarded,
-        marks_max:           res.max ?? res.marks_max,
-        feedback:            res.feedback,
-        model_answer:        res.model_answer,
-        student_answer_text: res.student_answer || res.student_answer_text || '',
-      }))
+      // Merge results with OCR answers and generated questions
+      // ocr_answers from backend has student_answer_text per question
+      const ocrAnswers = r.ocr_answers || []
+      const merged = (r.results || []).map((res, i) => {
+        const ocrRow = ocrAnswers[i] || {}
+        return {
+          generated_question:  r.generated_questions?.[i]?.question || res.generated_question || '',
+          marks_awarded:       res.awarded ?? res.marks_awarded ?? 0,
+          marks_max:           res.max ?? res.marks_max ?? 0,
+          feedback:            res.feedback || '',
+          model_answer:        res.model_answer || '',
+          // student_answer comes from OCR row, fallback to result field
+          student_answer_text: ocrRow.student_answer_text || res.student_answer || res.student_answer_text || '',
+        }
+      })
       setSessionData({
         score_awarded:    r.score_awarded,
         score_max:        r.score_max,
