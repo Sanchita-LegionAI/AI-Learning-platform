@@ -15,6 +15,7 @@ from app.core.supabase import get_supabase
 from app.core.config import get_settings
 from app.services.question_service import generate_exam_paper
 from app.services.evaluation_service import evaluate_session
+from app.services.ocr_service import ocr_session
 from app.services.r2_service import upload_answer_image
 
 router = APIRouter(prefix="/api/exam", tags=["exam"])
@@ -392,3 +393,43 @@ def delete_session(
 
     supabase.table("exam_sessions").delete().eq("id", session_id).execute()
     return {"deleted": True, "session_id": session_id}
+
+
+# =============================================================================
+# OCR ENDPOINT — Step 4a (new two-step flow)
+# =============================================================================
+
+class OcrRequest(BaseModel):
+    session_id: str
+
+
+@router.post("/ocr")
+def run_ocr(
+    body: OcrRequest,
+    request: Request,
+    user: dict = Depends(require_student),
+):
+    """
+    Step 4a: OCR the uploaded answer image using Gemini vision.
+    Extracts student's handwritten answers per question.
+    Saves to evaluations table (student_answer_text).
+    Sets session.ocr_completed = True.
+
+    Returns list of {question_number, question_text, marks, student_answer}
+    for display on the OCR review screen.
+    """
+    user_id = user["user_id"]
+    ip = get_client_ip(request)
+
+    try:
+        ocr_results = ocr_session(
+            session_id=body.session_id,
+            user_id=user_id,
+            ip_address=ip,
+        )
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    except RuntimeError as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+    return {"session_id": body.session_id, "ocr_results": ocr_results}

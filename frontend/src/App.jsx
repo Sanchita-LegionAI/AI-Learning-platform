@@ -8,6 +8,7 @@ import SelectPage   from './pages/SelectPage'
 import PaperPage    from './pages/PaperPage'
 import UploadPage   from './pages/UploadPage'
 import ResultsPage  from './pages/ResultsPage'
+import OcrReviewPage  from './pages/OcrReviewPage'
 import MyExamsPage  from './pages/MyExamsPage'
 import AdminLogin     from './pages/admin/AdminLogin'
 import AdminDashboard from './pages/admin/AdminDashboard'
@@ -47,6 +48,7 @@ export default function App() {
           <Route path="/login"         element={<MaybeRedirectAdmin><LoginPage /></MaybeRedirectAdmin>} />
           <Route path="/exam/select"   element={<RequireAuth><SelectPage /></RequireAuth>} />
           <Route path="/exam/paper"    element={<RequireAuth><PaperPage /></RequireAuth>} />
+          <Route path="/exam/ocr-review" element={<RequireAuth><OcrReviewPage /></RequireAuth>} />
           <Route path="/exam/upload"   element={<RequireAuth><UploadPage /></RequireAuth>} />
           <Route path="/exam/results"  element={<RequireAuth><ResultsPage /></RequireAuth>} />
           <Route path="/exam/my-exams" element={<RequireAuth><MyExamsPage /></RequireAuth>} />

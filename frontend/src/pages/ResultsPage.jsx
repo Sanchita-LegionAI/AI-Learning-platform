@@ -1,7 +1,13 @@
 // pages/ResultsPage.jsx
-import { useState } from 'react'
+// Shows full result: question → student's answer (OCR) → feedback → model answer
+// Works both from fresh evaluation (state.result) and from history (state.session_id)
+
+import { useEffect, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
+import { useAuth } from '../context/AuthContext'
+import { api } from '../lib/api'
 import ProgressBar from '../components/ProgressBar'
+import LoadingMessage from '../components/LoadingMessage'
 
 const GRADE_COLORS = {
   'A+': { ring: 'border-forest', text: 'text-forest', bg: 'bg-forest-light' },
@@ -13,11 +19,12 @@ const GRADE_COLORS = {
 }
 
 function ScoreCircle({ awarded, max, grade }) {
-  const pct     = max > 0 ? Math.round((awarded / max) * 100) : 0
-  const colors  = GRADE_COLORS[grade] || GRADE_COLORS['B']
-  const radius  = 40
-  const circ    = 2 * Math.PI * radius
-  const dash    = (pct / 100) * circ
+  const pct    = max > 0 ? Math.round((awarded / max) * 100) : 0
+  const colors = GRADE_COLORS[grade] || GRADE_COLORS['B']
+  const radius = 40
+  const circ   = 2 * Math.PI * radius
+  const dash   = (pct / 100) * circ
+  const strokeColor = grade?.startsWith('A') ? '#2D7A4F' : grade === 'B+' || grade === 'B' ? '#E8871E' : '#EF4444'
 
   return (
     <div className="flex flex-col items-center">
@@ -27,7 +34,7 @@ function ScoreCircle({ awarded, max, grade }) {
           <circle
             cx="50" cy="50" r={radius} fill="none"
             strokeWidth="8"
-            stroke={grade?.startsWith('A') ? '#2D7A4F' : grade === 'B+' || grade === 'B' ? '#E8871E' : '#EF4444'}
+            stroke={strokeColor}
             strokeDasharray={`${dash} ${circ - dash}`}
             strokeLinecap="round"
             style={{ transition: 'stroke-dasharray 1s ease' }}
@@ -45,68 +52,161 @@ function ScoreCircle({ awarded, max, grade }) {
   )
 }
 
-function QuestionResult({ result, index, question }) {
-  const [showAnswer, setShowAnswer] = useState(false)
-  const pct = result.max > 0 ? Math.round((result.awarded / result.max) * 100) : 0
-  const full = result.awarded === result.max
+function QuestionResult({ result, index }) {
+  const [showModel, setShowModel] = useState(false)
+  const pct  = result.marks_max > 0 ? Math.round((result.marks_awarded / result.marks_max) * 100) : 0
+  const full = result.marks_awarded === result.marks_max
+  const blank = result.student_answer_text === 'কোনো উত্তর লেখা হয়নি' || !result.student_answer_text
 
   return (
-    <div className="card">
-      <div className="flex items-start justify-between gap-3 mb-3">
+    <div className="card space-y-3">
+
+      {/* Question */}
+      <div className="flex items-start justify-between gap-3">
         <div className="flex-1">
           <p className="font-ui text-xs text-ink-light mb-1">প্রশ্ন {index + 1}</p>
-          <p className="bn text-sm text-ink leading-relaxed">{question?.question || result.generated_question}</p>
+          <p className="bn text-sm text-ink leading-relaxed font-medium">
+            {result.generated_question}
+          </p>
         </div>
-        <div className="flex-shrink-0 text-center">
-          <div className={`
-            text-sm font-bold font-ui px-2.5 py-1 rounded-lg
-            ${full ? 'bg-forest-light text-forest' : pct >= 50 ? 'bg-saffron-light text-saffron-dark' : 'bg-red-50 text-red-600'}
-          `}>
-            {result.awarded}/{result.max}
-          </div>
+        <div className={`flex-shrink-0 text-sm font-bold font-ui px-2.5 py-1 rounded-lg ${
+          full ? 'bg-forest-light text-forest' :
+          pct >= 50 ? 'bg-saffron-light text-saffron-dark' :
+          'bg-red-50 text-red-600'
+        }`}>
+          {result.marks_awarded}/{result.marks_max}
         </div>
+      </div>
+
+      {/* Student's answer (OCR) */}
+      <div className={`rounded-xl px-3 py-2.5 border ${
+        blank
+          ? 'bg-gray-50 border-gray-200'
+          : 'bg-blue-50 border-blue-200'
+      }`}>
+        <p className="font-ui text-xs text-ink-light mb-1">তোমার উত্তর</p>
+        <p className={`bn text-sm leading-relaxed ${blank ? 'text-ink-light italic' : 'text-ink'}`}>
+          {result.student_answer_text || 'কোনো উত্তর লেখা হয়নি'}
+        </p>
       </div>
 
       {/* Feedback */}
       {result.feedback && (
-        <div className="bg-cream border border-border rounded-xl px-3 py-2.5 mb-3">
-          <p className="font-ui text-xs text-ink-light mb-1">মতামত</p>
+        <div className="bg-cream border border-border rounded-xl px-3 py-2.5">
+          <p className="font-ui text-xs text-ink-light mb-1">শিক্ষকের মতামত</p>
           <p className="bn text-sm text-ink leading-relaxed">{result.feedback}</p>
         </div>
       )}
 
       {/* Model answer toggle */}
-      <button
-        onClick={() => setShowAnswer(!showAnswer)}
-        className={`
-          text-sm font-ui font-medium w-full text-left px-3 py-2 rounded-lg transition-colors
-          ${showAnswer ? 'text-saffron' : 'text-ink-light hover:text-saffron'}
-        `}
-      >
-        {showAnswer ? '▲ আদর্শ উত্তর লুকান' : '▼ আদর্শ উত্তর দেখুন'}
-      </button>
-
-      {showAnswer && result.model_answer && (
-        <div className="mt-2 bg-saffron-light border border-saffron/30 rounded-xl px-3 py-2.5">
-          <p className="font-ui text-xs text-saffron-dark mb-1">আদর্শ উত্তর</p>
-          <p className="bn text-sm text-ink leading-relaxed">{result.model_answer}</p>
-        </div>
+      {result.model_answer && (
+        <>
+          <button
+            onClick={() => setShowModel(!showModel)}
+            className={`text-sm font-ui font-medium w-full text-left px-3 py-2 rounded-lg transition-colors
+              ${showModel ? 'text-saffron' : 'text-ink-light hover:text-saffron'}`}
+          >
+            {showModel ? '▲ আদর্শ উত্তর লুকান' : '▼ আদর্শ উত্তর দেখুন'}
+          </button>
+          {showModel && (
+            <div className="bg-saffron-light border border-saffron/30 rounded-xl px-3 py-2.5">
+              <p className="font-ui text-xs text-saffron-dark mb-1">আদর্শ উত্তর</p>
+              <p className="bn text-sm text-ink leading-relaxed">{result.model_answer}</p>
+            </div>
+          )}
+        </>
       )}
     </div>
   )
 }
 
 export default function ResultsPage() {
-  const { state } = useLocation()
-  const navigate  = useNavigate()
+  const { state }    = useLocation()
+  const navigate     = useNavigate()
+  const { token }    = useAuth()
 
-  if (!state?.result) {
-    navigate('/exam/select')
-    return null
-  }
+  const [loading,     setLoading]     = useState(false)
+  const [sessionData, setSessionData] = useState(null)
+  const [evaluations, setEvaluations] = useState([])
+  const [error,       setError]       = useState('')
 
-  const { result } = state
-  const { score_awarded, score_max, percentage, grade, overall_feedback, results } = result
+  useEffect(() => {
+    // Case 1: fresh evaluation result passed directly (from UploadPage)
+    if (state?.result) {
+      // result has: score_awarded, score_max, grade, overall_feedback, generated_questions, results
+      const r = state.result
+      // Merge results (has student_answer) with generated_questions
+      const merged = (r.results || []).map((res, i) => ({
+        generated_question:  r.generated_questions?.[i]?.question || res.generated_question || '',
+        marks_awarded:       res.awarded ?? res.marks_awarded,
+        marks_max:           res.max ?? res.marks_max,
+        feedback:            res.feedback,
+        model_answer:        res.model_answer,
+        student_answer_text: res.student_answer || res.student_answer_text || '',
+      }))
+      setSessionData({
+        score_awarded:    r.score_awarded,
+        score_max:        r.score_max,
+        grade:            r.grade,
+        overall_feedback: r.overall_feedback,
+        percentage:       r.percentage,
+      })
+      setEvaluations(merged)
+      return
+    }
+
+    // Case 2: viewing from history (session_id passed)
+    if (state?.session_id) {
+      setLoading(true)
+      api.getSession(state.session_id, token)
+        .then(data => {
+          const s = data.session
+          const evals = data.evaluations || []
+          setSessionData({
+            score_awarded:    s.score_awarded,
+            score_max:        s.score_max,
+            grade:            s.grade,
+            overall_feedback: s.overall_feedback,
+            percentage:       s.score_max ? Math.round((s.score_awarded / s.score_max) * 100) : 0,
+            chapter_name:     s.chapter_name,
+            subject_name:     s.subject_name,
+          })
+          // Evaluations from DB already have generated_question + student_answer_text
+          setEvaluations(evals.sort((a, b) => a.question_index - b.question_index))
+        })
+        .catch(e => setError(e.message))
+        .finally(() => setLoading(false))
+      return
+    }
+
+    // No state at all
+    navigate('/exam/select', { replace: true })
+  }, [])
+
+  if (loading) return (
+    <div className="min-h-screen bg-cream flex flex-col">
+      <ProgressBar currentStep="results" />
+      <LoadingMessage message="ফলাফল লোড হচ্ছে..." />
+    </div>
+  )
+
+  if (error) return (
+    <div className="min-h-screen bg-cream flex flex-col">
+      <ProgressBar currentStep="results" />
+      <div className="flex-1 flex items-center justify-center px-4">
+        <div className="card text-center">
+          <p className="bn text-red-500 mb-4">{error}</p>
+          <button onClick={() => navigate('/exam/my-exams')} className="btn-secondary">
+            ← আমার পরীক্ষা
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+
+  if (!sessionData) return null
+
+  const fromHistory = !!state?.session_id
 
   return (
     <div className="min-h-screen bg-cream flex flex-col">
@@ -116,11 +216,18 @@ export default function ResultsPage() {
 
         {/* Score card */}
         <div className="card mb-5 text-center">
+          {fromHistory && sessionData.chapter_name && (
+            <p className="bn text-xs text-ink-light mb-2">{sessionData.chapter_name} · {sessionData.subject_name}</p>
+          )}
           <h1 className="bn text-lg font-bold text-ink mb-4">ফলাফল</h1>
-          <ScoreCircle awarded={score_awarded} max={score_max} grade={grade} />
-          {overall_feedback && (
+          <ScoreCircle
+            awarded={sessionData.score_awarded}
+            max={sessionData.score_max}
+            grade={sessionData.grade}
+          />
+          {sessionData.overall_feedback && (
             <p className="bn text-sm text-ink-light mt-4 leading-relaxed px-2">
-              {overall_feedback}
+              {sessionData.overall_feedback}
             </p>
           )}
         </div>
@@ -128,30 +235,30 @@ export default function ResultsPage() {
         {/* Per-question results */}
         <h2 className="bn text-base font-bold text-ink mb-3">প্রশ্নওয়ারি ফলাফল</h2>
         <div className="space-y-3 mb-8">
-          {results.map((r, i) => (
-            <QuestionResult
-              key={i}
-              result={r}
-              index={i}
-              question={null}
-            />
+          {evaluations.map((r, i) => (
+            <QuestionResult key={i} result={r} index={i} />
           ))}
         </div>
 
         {/* Actions */}
         <div className="pb-8 space-y-3">
-          <button
-            onClick={() => navigate('/exam/select')}
-            className="btn-primary"
-          >
-            আবার পরীক্ষা দিন
-          </button>
-          <button
-            onClick={() => navigate('/exam/select')}
-            className="btn-secondary"
-          >
-            অন্য অধ্যায় বেছে নিন
-          </button>
+          {fromHistory ? (
+            <button
+              onClick={() => navigate('/exam/my-exams')}
+              className="btn-secondary"
+            >
+              ← আমার পরীক্ষা
+            </button>
+          ) : (
+            <>
+              <button onClick={() => navigate('/exam/select')} className="btn-primary">
+                আবার পরীক্ষা দিন
+              </button>
+              <button onClick={() => navigate('/exam/my-exams')} className="btn-secondary">
+                আমার পরীক্ষার ইতিহাস
+              </button>
+            </>
+          )}
         </div>
       </div>
     </div>

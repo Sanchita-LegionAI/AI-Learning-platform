@@ -1,14 +1,20 @@
 """
 services/question_service.py
 ============================
-Step 2: Program randomly selects questions from bank by marks distribution.
-Step 3: Selected stems sent to LLM to rephrase/merge into fresh exam paper.
+Step 2: Randomly select questions from bank by marks distribution.
+Step 3: Either rephrase via LLM OR pass through directly (no LLM, 'none' provider).
+
+When active question_generation provider is 'none':
+  - Questions are fetched from the bank as-is
+  - question_bn is used directly (no rephrasing)
+  - Formatted into the same generated_questions schema
+  - Zero LLM cost
 """
 import json
 import random
 from typing import Optional
 from app.core.supabase import get_supabase
-from app.services.llm_router import call_llm
+from app.services.llm_router import call_llm, NoneProviderSignal
 
 
 # =============================================================================
@@ -17,10 +23,8 @@ from app.services.llm_router import call_llm
 
 def get_exam_config(config_id: Optional[int] = None) -> dict:
     """
-    Fetch exam config (marks distribution).
-    If config_id given: use that specific config.
-    Otherwise: randomly pick from ALL active configs
-    (supports multiple active configs for variety — e.g. 4q/5q rotation).
+    Fetch exam config. If no config_id, randomly pick from all active configs
+    (supports multiple active configs for 4q/5q variety).
     """
     supabase = get_supabase()
     if config_id:
@@ -31,18 +35,17 @@ def get_exam_config(config_id: Optional[int] = None) -> dict:
     if not res.data:
         raise RuntimeError("No active exam config found")
 
-    # Randomly pick from all active configs (supports 4q vs 5q variety)
     return random.choice(res.data)
 
 
 def select_questions_from_bank(chapter_id: int, distribution: list[dict]) -> tuple[list[dict], list[int]]:
     """
     Randomly select questions from the question bank per marks distribution.
-    distribution = [{"marks": 2, "count": 3}, {"marks": 3, "count": 2}, {"marks": 5, "count": 2}]
+    distribution = [{"marks": 2, "count": 1}, {"marks": 5, "count": 2}]
 
     Returns:
-        selected_questions: list of question rows (for LLM prompt)
-        source_ids: list of question.id integers (stored in exam_sessions)
+        selected_questions: list of question rows
+        source_ids: list of question.id integers
     """
     supabase = get_supabase()
     selected_questions = []
@@ -52,7 +55,6 @@ def select_questions_from_bank(chapter_id: int, distribution: list[dict]) -> tup
         marks = slot["marks"]
         count = slot["count"]
 
-        # Fetch all active questions of this marks type for the chapter
         res = (
             supabase.table("questions")
             .select("id, question_code, question_bn, marks, difficulty, topic_tag, expected_lines")
@@ -66,18 +68,39 @@ def select_questions_from_bank(chapter_id: int, distribution: list[dict]) -> tup
         if len(pool) < count:
             raise RuntimeError(
                 f"Not enough {marks}-mark questions for chapter {chapter_id}. "
-                f"Need {count}, found {len(pool)}. "
-                f"Run seed_questions.py to import more questions."
+                f"Need {count}, found {len(pool)}."
             )
 
-        # Random sample without replacement
         chosen = random.sample(pool, count)
         selected_questions.extend(chosen)
         source_ids.extend([q["id"] for q in chosen])
 
-    # Shuffle final list so marks aren't grouped predictably
     random.shuffle(selected_questions)
     return selected_questions, source_ids
+
+
+# =============================================================================
+# PASSTHROUGH — format bank questions directly (no LLM)
+# =============================================================================
+
+def format_passthrough_questions(
+    selected_questions: list[dict],
+    distribution: list[dict],
+) -> list[dict]:
+    """
+    Format bank questions directly into the generated_questions schema,
+    without any LLM rephrasing. Used when provider is 'none'.
+    """
+    generated = []
+    for i, q in enumerate(selected_questions):
+        generated.append({
+            "id":         i + 1,
+            "question":   q["question_bn"],
+            "marks":      q["marks"],
+            "topic":      q.get("topic_tag") or "",
+            "source_ids": [q["question_code"]],
+        })
+    return generated
 
 
 # =============================================================================
@@ -113,14 +136,9 @@ def build_rephrase_prompt(
     selected_questions: list[dict],
     distribution: list[dict],
 ) -> str:
-    """Build the user prompt for question rephrasing."""
-    # Summarise the distribution
-    dist_text = " + ".join(
-        f"{slot['count']}×{slot['marks']}m" for slot in distribution
-    )
+    dist_text = " + ".join(f"{slot['count']}×{slot['marks']}m" for slot in distribution)
     total_marks = sum(slot["marks"] * slot["count"] for slot in distribution)
 
-    # Format question stems
     stems = "\n".join(
         f"[{q['question_code']}] ({q['marks']} marks, {q['difficulty']}, topic: {q['topic_tag'] or 'general'})\n"
         f"{q['question_bn']}"
@@ -143,7 +161,6 @@ Output valid JSON array only."""
 
 
 def clean_llm_json(raw: str) -> str:
-    """Strip markdown fences if LLM adds them despite instructions."""
     raw = raw.strip()
     if raw.startswith("```"):
         lines = raw.split("\n")
@@ -152,6 +169,10 @@ def clean_llm_json(raw: str) -> str:
         raw = raw[: raw.rfind("```")]
     return raw.strip()
 
+
+# =============================================================================
+# MAIN PIPELINE
+# =============================================================================
 
 def generate_exam_paper(
     chapter_id: int,
@@ -167,43 +188,42 @@ def generate_exam_paper(
     Full exam paper generation pipeline.
 
     Returns:
-        generated_questions: list of LLM-rephrased question dicts
+        generated_questions: list of question dicts (LLM-rephrased OR passthrough)
         source_ids: original bank question IDs used as scaffold
         exam_config_id: config used
     """
-    # Load distribution config
     config = get_exam_config(config_id)
-    distribution = config["distribution"]  # list of {"marks": int, "count": int}
+    distribution = config["distribution"]
 
-    # Step 2: Program randomly selects from bank
     selected_questions, source_ids = select_questions_from_bank(chapter_id, distribution)
 
-    # Step 3: LLM rephrases
-    system = SYSTEM_PROMPT
-    user = build_rephrase_prompt(
-        chapter_name=chapter_name,
-        subject_name=subject_name,
-        class_number=class_number,
-        selected_questions=selected_questions,
-        distribution=distribution,
-    )
-
-    raw_response = call_llm(
-        purpose="question_generation",
-        system_prompt=system,
-        user_prompt=user,
-        session_id=session_id,
-        user_id=user_id,
-        ip_address=ip_address,
-    )
-
-    # Parse JSON response
+    # Try LLM rephrasing — fall back to passthrough if provider is 'none'
     try:
+        raw_response = call_llm(
+            purpose="question_generation",
+            system_prompt=SYSTEM_PROMPT,
+            user_prompt=build_rephrase_prompt(
+                chapter_name=chapter_name,
+                subject_name=subject_name,
+                class_number=class_number,
+                selected_questions=selected_questions,
+                distribution=distribution,
+            ),
+            session_id=session_id,
+            user_id=user_id,
+            ip_address=ip_address,
+        )
+
         cleaned = clean_llm_json(raw_response)
         generated_questions = json.loads(cleaned)
         if not isinstance(generated_questions, list):
             raise ValueError("LLM response is not a JSON array")
+
+    except NoneProviderSignal:
+        # 'none' provider active — use bank questions directly
+        generated_questions = format_passthrough_questions(selected_questions, distribution)
+
     except (json.JSONDecodeError, ValueError) as e:
-        raise RuntimeError(f"LLM returned invalid JSON: {e}\nRaw: {raw_response[:300]}")
+        raise RuntimeError(f"LLM returned invalid JSON: {e}")
 
     return generated_questions, source_ids, config["id"]

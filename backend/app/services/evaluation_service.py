@@ -1,27 +1,33 @@
 """
 services/evaluation_service.py
 ================================
-Step 5: Sends generated questions + R2 image URL to vision LLM.
-Parses per-question scores, Bengali feedback, and model answers.
-Stores results in evaluations table and updates exam_session.
+Step 4b: Evaluate answers using the OCR'd text stored in evaluations table.
+
+NO image is sent to the LLM — only the questions and the student's transcribed text.
+This is more accurate, cheaper, and faster than vision evaluation.
+
+Flow:
+  [OCR text in evaluations table] + [questions] → GPT-4.1 Nano → scores + feedback
 """
 import json
 from datetime import datetime, timezone
 from app.core.supabase import get_supabase
 from app.services.llm_router import call_llm
-from app.services.r2_service import get_fresh_url_if_expired
 
 
 # =============================================================================
-# PROMPT
+# PROMPTS
 # =============================================================================
 
 EVAL_SYSTEM_PROMPT = """You are a Bengali exam evaluator for West Bengal Board students.
-Evaluate the handwritten answer sheet shown in the image against the questions provided.
+You will be given the exam questions and the student's transcribed answers (from OCR).
+Evaluate each answer and provide marks, feedback, and model answer.
 
 Rules:
-- Evaluate ALL questions, even if the answer is blank (awarded = 0 for blank)
-- Be encouraging and constructive in feedback — these are school students
+- Award marks strictly based on correctness and completeness
+- If the student answer is "কোনো উত্তর লেখা হয়নি" or blank → awarded = 0
+- If the answer is completely off-topic or wrong subject → awarded = 0, explain clearly
+- Be encouraging and constructive — these are school students
 - Write feedback and model answers in simple Bengali appropriate for the class level
 - Never use double quotes inside Bengali text — use single quotes or Bengali punctuation (।)
 - Output ONLY valid JSON — no markdown fences, no explanation
@@ -38,7 +44,7 @@ Output format:
     }
   ],
   "total_awarded": 8,
-  "total_max": 20,
+  "total_max": 17,
   "overall_feedback": "Bengali overall feedback (2-3 sentences)",
   "grade": "B+"
 }
@@ -46,18 +52,26 @@ Output format:
 Grade scale: A+ (90-100%), A (80-89%), B+ (70-79%), B (60-69%), C (50-59%), D (below 50%)"""
 
 
-def build_eval_prompt(generated_questions: list[dict], class_number: int) -> str:
-    questions_text = "\n\n".join(
-        f"Question {q['id']} ({q['marks']} marks):\n{q['question']}"
-        for q in generated_questions
-    )
-    return f"""Evaluate the handwritten answers in the image for Class {class_number} students.
+def build_eval_prompt(generated_questions: list[dict], ocr_answers: list[dict], class_number: int) -> str:
+    """Build prompt with questions paired with student's OCR'd answers."""
+    lines = [f"Evaluate these {len(generated_questions)} answers for Class {class_number}:\n"]
 
-Questions:
-{questions_text}
+    for i, q in enumerate(generated_questions):
+        q_num = q["id"]
+        student_text = ""
+        # Match by question index
+        if i < len(ocr_answers):
+            student_text = ocr_answers[i].get("student_answer_text", "কোনো উত্তর লেখা হয়নি")
 
-Provide marks awarded, Bengali feedback, and model answer for each question.
-Output valid JSON only."""
+        lines.append(
+            f"Question {q_num} ({q['marks']} marks):\n"
+            f"  Q: {q['question']}\n"
+            f"  Student answer: {student_text or 'কোনো উত্তর লেখা হয়নি'}\n"
+        )
+
+    lines.append("\nProvide marks awarded, Bengali feedback, and model answer for each question.")
+    lines.append("Output valid JSON only.")
+    return "\n".join(lines)
 
 
 def clean_llm_json(raw: str) -> str:
@@ -90,17 +104,14 @@ def evaluate_session(
     ip_address: str | None = None,
 ) -> dict:
     """
-    Full evaluation pipeline for a submitted exam session.
+    Evaluate a session using the OCR'd answers already stored in evaluations table.
 
-    1. Load session + generated questions from DB
-    2. Get fresh R2 signed URL for the answer image
-    3. Call vision LLM with questions + image
-    4. Parse results
-    5. Store per-question evaluations
-    6. Update exam_session with score + grade
-    7. Return full result dict
-
-    Returns the complete evaluation result.
+    1. Load session + generated questions
+    2. Load OCR'd answers from evaluations table
+    3. Call text-only LLM with questions + answers
+    4. Update each evaluation row with marks + feedback
+    5. Update exam_session with score + grade
+    6. Return full result dict
     """
     supabase = get_supabase()
 
@@ -121,43 +132,34 @@ def evaluate_session(
     if session["completed"]:
         raise ValueError("Session already evaluated")
 
-    if not session.get("answer_image_key"):
-        raise ValueError("No answer image uploaded for this session")
+    if not session.get("ocr_completed"):
+        raise ValueError("OCR not completed for this session — run /ocr first")
 
     if not session.get("generated_questions"):
         raise ValueError("No generated questions found for this session")
 
     generated_questions = session["generated_questions"]
 
-    # ── Refresh signed URL if needed ──────────────────────────────────────────
-    expires_at = None
-    if session.get("answer_image_expires_at"):
-        expires_at = datetime.fromisoformat(
-            session["answer_image_expires_at"].replace("Z", "+00:00")
-        )
-
-    image_url, new_expires_at = get_fresh_url_if_expired(
-        object_key=session["answer_image_key"],
-        current_url=session.get("answer_image_url", ""),
-        expires_at=expires_at or datetime.now(timezone.utc),
+    # ── Load OCR'd answers from evaluations ───────────────────────────────────
+    eval_res = (
+        supabase.table("evaluations")
+        .select("*")
+        .eq("session_id", session_id)
+        .order("question_index")
+        .execute()
     )
 
-    # Update URL in DB if it was refreshed
-    if image_url != session.get("answer_image_url"):
-        supabase.table("exam_sessions").update({
-            "answer_image_url": image_url,
-            "answer_image_expires_at": new_expires_at.isoformat(),
-        }).eq("id", session_id).execute()
+    ocr_answers = eval_res.data or []
 
-    # ── Call vision LLM ───────────────────────────────────────────────────────
-    system_prompt = EVAL_SYSTEM_PROMPT
-    user_prompt = build_eval_prompt(generated_questions, class_number)
+    if not ocr_answers:
+        raise ValueError("No OCR answers found — run /ocr first")
 
+    # ── Call text-only LLM (no image) ─────────────────────────────────────────
     raw_response = call_llm(
         purpose="evaluation",
-        system_prompt=system_prompt,
-        user_prompt=user_prompt,
-        image_url=image_url,
+        system_prompt=EVAL_SYSTEM_PROMPT,
+        user_prompt=build_eval_prompt(generated_questions, ocr_answers, class_number),
+        image_url=None,  # text-only — no image needed
         session_id=session_id,
         user_id=user_id,
         ip_address=ip_address,
@@ -165,41 +167,29 @@ def evaluate_session(
 
     # ── Parse response ────────────────────────────────────────────────────────
     try:
-        cleaned = clean_llm_json(raw_response)
+        cleaned   = clean_llm_json(raw_response)
         eval_data = json.loads(cleaned)
     except json.JSONDecodeError as e:
         raise RuntimeError(f"LLM evaluation returned invalid JSON: {e}\nRaw: {raw_response[:400]}")
 
-    results = eval_data.get("results", [])
-    total_awarded = eval_data.get("total_awarded", sum(r.get("awarded", 0) for r in results))
-    total_max = eval_data.get("total_max", sum(r.get("max", 0) for r in results))
+    results        = eval_data.get("results", [])
+    total_awarded  = eval_data.get("total_awarded", sum(r.get("awarded", 0) for r in results))
+    total_max      = eval_data.get("total_max",     sum(r.get("max", 0)     for r in results))
     overall_feedback = eval_data.get("overall_feedback", "")
-    pct = (total_awarded / total_max * 100) if total_max > 0 else 0
+    pct   = (total_awarded / total_max * 100) if total_max > 0 else 0
     grade = eval_data.get("grade") or assign_grade(pct)
 
-    # ── Store per-question evaluations ────────────────────────────────────────
-    # Build source_question lookup: position index → source question id
-    source_ids = session.get("source_question_ids", [])
-
-    eval_rows = []
-    for i, result in enumerate(results):
+    # ── Update evaluation rows with marks + feedback ──────────────────────────
+    for result in results:
         q_index = result["id"] - 1  # LLM uses 1-based IDs
-        gen_q = generated_questions[q_index] if q_index < len(generated_questions) else {}
-
-        eval_rows.append({
-            "session_id":         session_id,
-            "question_index":     q_index,
-            "generated_question": gen_q.get("question", ""),
-            "source_question_id": source_ids[q_index] if q_index < len(source_ids) else None,
-            "marks_awarded":      result.get("awarded", 0),
-            "marks_max":          result.get("max", gen_q.get("marks", 0)),
-            "feedback":           result.get("feedback", ""),
-            "model_answer":       result.get("model_answer", ""),
-            "show_answer_requested": False,
-        })
-
-    if eval_rows:
-        supabase.table("evaluations").insert(eval_rows).execute()
+        if q_index < len(ocr_answers):
+            row = ocr_answers[q_index]
+            supabase.table("evaluations").update({
+                "marks_awarded": result.get("awarded", 0),
+                "marks_max":     result.get("max", row.get("marks_max", 0)),
+                "feedback":      result.get("feedback", ""),
+                "model_answer":  result.get("model_answer", ""),
+            }).eq("id", row["id"]).execute()
 
     # ── Update session ────────────────────────────────────────────────────────
     supabase.table("exam_sessions").update({
@@ -208,15 +198,17 @@ def evaluate_session(
         "grade":            grade,
         "overall_feedback": overall_feedback,
         "submitted_at":     datetime.now(timezone.utc).isoformat(),
-        "completed":        True,    # triggers chapter_stats update
+        "completed":        True,
     }).eq("id", session_id).execute()
 
     return {
-        "session_id":       session_id,
-        "score_awarded":    total_awarded,
-        "score_max":        total_max,
-        "percentage":       round(pct, 1),
-        "grade":            grade,
-        "overall_feedback": overall_feedback,
-        "results":          results,
+        "session_id":          session_id,
+        "score_awarded":       total_awarded,
+        "score_max":           total_max,
+        "percentage":          round(pct, 1),
+        "grade":               grade,
+        "overall_feedback":    overall_feedback,
+        "results":             results,
+        "generated_questions": generated_questions,
+        "ocr_answers":         ocr_answers,
     }

@@ -45,6 +45,12 @@ export const api = {
       body: JSON.stringify({ session_id: sessionId, image_base64: imageBase64, content_type: contentType }),
     }, token),
 
+  runOcr: (sessionId, token) =>
+    request('/api/exam/ocr', {
+      method: 'POST',
+      body: JSON.stringify({ session_id: sessionId }),
+    }, token),
+
   evaluateExam: (sessionId, token) =>
     request('/api/exam/evaluate', {
       method: 'POST',
