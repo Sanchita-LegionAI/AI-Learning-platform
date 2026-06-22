@@ -21,42 +21,39 @@ from app.services.r2_service import get_fresh_url_if_expired
 # PROMPTS
 # =============================================================================
 
-OCR_SYSTEM_PROMPT = """You are an OCR engine for Bengali handwritten student answer sheets.
-Your ONLY job is to transcribe exactly what the student wrote — do NOT evaluate, correct, or judge.
+OCR_SYSTEM_PROMPT = """You are an OCR engine. Your ONLY job is to read handwritten Bengali text from an image.
 
-Rules:
-- Read the answer sheet image carefully
-- Match each answer to the corresponding question number
-- Transcribe the Bengali handwriting as accurately as possible
-- If an answer area is blank, write exactly: "কোনো উত্তর লেখা হয়নি"
-- If handwriting is unreadable, write: "পাঠযোগ্য নয়"
-- Do NOT add, remove, or correct any content
-- Do NOT evaluate correctness
-- Output ONLY valid JSON — no markdown fences, no explanation
+CRITICAL RULES:
+- Read ONLY what is physically written in the image — do NOT use any other knowledge
+- Do NOT guess, invent, or use context to fill gaps
+- Do NOT look at any questions provided — ignore them completely for transcription
+- Transcribe Bengali handwriting exactly as written, character by character
+- If an answer section is blank, write: "কোনো উত্তর লেখা হয়নি"
+- If handwriting is too messy to read, write: "পাঠযোগ্য নয়"
+- Output ONLY valid JSON — no markdown, no explanation
+
+Look for numbered sections (1, 2, 3...) in the image and transcribe each one.
 
 Output format:
 {
   "answers": [
-    {"question_number": 1, "text": "Exact transcription of student's answer for question 1"},
-    {"question_number": 2, "text": "Exact transcription of student's answer for question 2"}
+    {"question_number": 1, "text": "ONLY what is physically written in the image for section 1"},
+    {"question_number": 2, "text": "ONLY what is physically written in the image for section 2"}
   ],
   "total_questions_found": 2,
-  "notes": "Any relevant observation (e.g. some answers missing, messy handwriting)"
+  "notes": "observation about handwriting quality"
 }"""
 
 
 def build_ocr_prompt(generated_questions: list[dict]) -> str:
-    question_list = "\n".join(
-        f"Question {q['id']} ({q['marks']} marks): {q['question']}"
-        for q in generated_questions
-    )
-    return f"""Transcribe the student's handwritten answers from this answer sheet.
+    n = len(generated_questions)
+    return f"""Read the handwritten Bengali text in this image.
 
-The exam has {len(generated_questions)} questions:
-{question_list}
+The answer sheet has {n} numbered sections (1 to {n}).
+Transcribe EXACTLY what is written in each numbered section.
+Do NOT use the questions below to guess answers — read ONLY what is in the image.
 
-Find and transcribe each answer in order.
-Output valid JSON only."""
+Output valid JSON only with the transcribed text for each section."""
 
 
 def clean_llm_json(raw: str) -> str:
