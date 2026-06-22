@@ -233,8 +233,21 @@ def _call_gemini(
         },
     }
 
-    resp = httpx.post(url, json=payload, timeout=60)
-    resp.raise_for_status()
+    # Retry up to 3 times on 429 (rate limit) — free tier throttling
+    # 429 means Gemini rejected the call (no charge), so retrying is free
+    import time
+    max_retries = 3
+    retry_delay = 5  # seconds between retries
+
+    for attempt in range(max_retries):
+        resp = httpx.post(url, json=payload, timeout=60)
+        if resp.status_code == 429 and attempt < max_retries - 1:
+            print(f"[gemini] 429 rate limit on attempt {attempt + 1}, retrying in {retry_delay}s...")
+            time.sleep(retry_delay)
+            continue
+        resp.raise_for_status()
+        break
+
     data = resp.json()
 
     # Parse response
