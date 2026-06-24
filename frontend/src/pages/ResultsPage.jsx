@@ -1,6 +1,5 @@
 // pages/ResultsPage.jsx
-// Shows full result: question → student's answer (OCR) → feedback → model answer
-// Works both from fresh evaluation (state.result) and from history (state.session_id)
+// Shows combined Part 1 + Part 2 results with per-question breakdown.
 
 import { useEffect, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
@@ -24,17 +23,15 @@ function ScoreCircle({ awarded, max, grade }) {
   const radius = 40
   const circ   = 2 * Math.PI * radius
   const dash   = (pct / 100) * circ
-  const strokeColor = grade?.startsWith('A') ? '#2D7A4F' : grade === 'B+' || grade === 'B' ? '#E8871E' : '#EF4444'
+  const stroke = grade?.startsWith('A') ? '#2D7A4F' : grade === 'B+' || grade === 'B' ? '#E8871E' : '#EF4444'
 
   return (
     <div className="flex flex-col items-center">
       <div className="relative w-32 h-32">
         <svg className="w-full h-full -rotate-90" viewBox="0 0 100 100">
           <circle cx="50" cy="50" r={radius} fill="none" stroke="#E8E0D0" strokeWidth="8" />
-          <circle
-            cx="50" cy="50" r={radius} fill="none"
-            strokeWidth="8"
-            stroke={strokeColor}
+          <circle cx="50" cy="50" r={radius} fill="none" strokeWidth="8"
+            stroke={stroke}
             strokeDasharray={`${dash} ${circ - dash}`}
             strokeLinecap="round"
             style={{ transition: 'stroke-dasharray 1s ease' }}
@@ -52,140 +49,155 @@ function ScoreCircle({ awarded, max, grade }) {
   )
 }
 
-function QuestionResult({ result, index }) {
-  const [showModel, setShowModel] = useState(false)
+// Part 1 question result (machine evaluated)
+function Part1Result({ result, index }) {
+  const full = result.is_correct
   const pct  = result.marks_max > 0 ? Math.round((result.marks_awarded / result.marks_max) * 100) : 0
-  const full = result.marks_awarded === result.marks_max
-  const blank = result.student_answer_text === 'কোনো উত্তর লেখা হয়নি' || !result.student_answer_text
+
+  const TYPE_LABEL = {
+    mcq: 'MCQ', true_false: 'সত্য/মিথ্যা',
+    match_pairs: 'মেলাও', tap_sequence: 'ক্রম', categorize: 'দলভাগ',
+  }
 
   return (
-    <div className="card space-y-3">
-
-      {/* Question */}
+    <div className="card space-y-2">
       <div className="flex items-start justify-between gap-3">
         <div className="flex-1">
-          <p className="font-ui text-xs text-ink-light mb-1">প্রশ্ন {index + 1}</p>
-          <p className="bn text-sm text-ink leading-relaxed font-medium">
-            {result.generated_question}
-          </p>
+          <div className="flex items-center gap-2 mb-1">
+            <span className="text-[10px] font-ui text-ink-light bg-cream px-2 py-0.5 rounded-full border border-border">
+              {TYPE_LABEL[result.q_type] || result.q_type}
+            </span>
+          </div>
+          <p className="bn text-sm text-ink leading-relaxed">{result.question_bn}</p>
         </div>
         <div className={`flex-shrink-0 text-sm font-bold font-ui px-2.5 py-1 rounded-lg ${
-          full ? 'bg-forest-light text-forest' :
-          pct >= 50 ? 'bg-saffron-light text-saffron-dark' :
-          'bg-red-50 text-red-600'
+          full ? 'bg-forest-light text-forest' : pct >= 50 ? 'bg-saffron-light text-saffron-dark' : 'bg-red-50 text-red-600'
         }`}>
           {result.marks_awarded}/{result.marks_max}
         </div>
       </div>
 
-      {/* Student's answer (OCR) */}
+      {!full && result.correct_answer !== undefined && result.correct_answer !== null && (
+        <div className="bg-forest-light border border-forest/30 rounded-xl px-3 py-2">
+          <p className="text-xs font-ui text-forest mb-0.5">সঠিক উত্তর</p>
+          <p className="bn text-sm text-ink">
+            {typeof result.correct_answer === 'object'
+              ? JSON.stringify(result.correct_answer)
+              : String(result.correct_answer)}
+          </p>
+        </div>
+      )}
+    </div>
+  )
+}
+
+// Part 2 question result (LLM evaluated)
+function Part2Result({ result, index }) {
+  const [showModel, setShowModel] = useState(false)
+  const full = result.is_correct
+
+  return (
+    <div className="card space-y-3">
+      <div className="flex items-start justify-between gap-3">
+        <div className="flex-1">
+          <span className="text-[10px] font-ui text-ink-light bg-pink-50 border border-pink-200 px-2 py-0.5 rounded-full">
+            লেখার উত্তর
+          </span>
+          <p className="bn text-sm text-ink leading-relaxed mt-1">{result.question_bn}</p>
+        </div>
+        <div className={`flex-shrink-0 text-sm font-bold font-ui px-2.5 py-1 rounded-lg ${
+          full ? 'bg-forest-light text-forest' : 'bg-red-50 text-red-600'
+        }`}>
+          {result.marks_awarded}/{result.marks_max}
+        </div>
+      </div>
+
+      {/* Student's answer */}
       <div className={`rounded-xl px-3 py-2.5 border ${
-        blank
+        result.student_answer === 'কোনো উত্তর লেখা হয়নি' || !result.student_answer
           ? 'bg-gray-50 border-gray-200'
           : 'bg-blue-50 border-blue-200'
       }`}>
-        <p className="font-ui text-xs text-ink-light mb-1">তোমার উত্তর</p>
-        <p className={`bn text-sm leading-relaxed ${blank ? 'text-ink-light italic' : 'text-ink'}`}>
-          {result.student_answer_text || 'কোনো উত্তর লেখা হয়নি'}
-        </p>
+        <p className="font-ui text-xs text-ink-light mb-0.5">তোমার উত্তর</p>
+        <p className="bn text-sm text-ink">{result.student_answer || 'কোনো উত্তর লেখা হয়নি'}</p>
       </div>
 
-      {/* Feedback */}
-      {result.feedback && (
-        <div className="bg-cream border border-border rounded-xl px-3 py-2.5">
-          <p className="font-ui text-xs text-ink-light mb-1">শিক্ষকের মতামত</p>
-          <p className="bn text-sm text-ink leading-relaxed">{result.feedback}</p>
+      {/* Correct answer */}
+      {result.correct_answer && (
+        <div className="bg-forest-light border border-forest/30 rounded-xl px-3 py-2">
+          <p className="text-xs font-ui text-forest mb-0.5">সঠিক উত্তর</p>
+          <p className="bn text-sm text-ink">{result.correct_answer}</p>
         </div>
       )}
 
-      {/* Model answer toggle */}
-      {result.model_answer && (
-        <>
-          <button
-            onClick={() => setShowModel(!showModel)}
-            className={`text-sm font-ui font-medium w-full text-left px-3 py-2 rounded-lg transition-colors
-              ${showModel ? 'text-saffron' : 'text-ink-light hover:text-saffron'}`}
-          >
-            {showModel ? '▲ আদর্শ উত্তর লুকান' : '▼ আদর্শ উত্তর দেখুন'}
-          </button>
-          {showModel && (
-            <div className="bg-saffron-light border border-saffron/30 rounded-xl px-3 py-2.5">
-              <p className="font-ui text-xs text-saffron-dark mb-1">আদর্শ উত্তর</p>
-              <p className="bn text-sm text-ink leading-relaxed">{result.model_answer}</p>
-            </div>
-          )}
-        </>
+      {/* Feedback */}
+      {result.feedback_bn && (
+        <div className="bg-cream border border-border rounded-xl px-3 py-2.5">
+          <p className="font-ui text-xs text-ink-light mb-1">মতামত</p>
+          <p className="bn text-sm text-ink leading-relaxed">{result.feedback_bn}</p>
+        </div>
       )}
     </div>
   )
 }
 
 export default function ResultsPage() {
-  const { state }    = useLocation()
-  const navigate     = useNavigate()
-  const { token }    = useAuth()
+  const { state }  = useLocation()
+  const navigate   = useNavigate()
+  const { token }  = useAuth()
 
   const [loading,     setLoading]     = useState(false)
   const [sessionData, setSessionData] = useState(null)
-  const [evaluations, setEvaluations] = useState([])
+  const [part1Evals,  setPart1Evals]  = useState([])
+  const [part2Evals,  setPart2Evals]  = useState([])
   const [error,       setError]       = useState('')
 
   useEffect(() => {
-    // Case 1: fresh evaluation result passed directly (from UploadPage)
+    // Fresh evaluation result passed from OcrReviewPage
     if (state?.result) {
-      // result has: score_awarded, score_max, grade, overall_feedback, generated_questions, results
       const r = state.result
-      // Merge results with OCR answers and generated questions
-      // ocr_answers from backend has student_answer_text per question
-      const ocrAnswers = r.ocr_answers || []
-      const merged = (r.results || []).map((res, i) => {
-        const ocrRow = ocrAnswers[i] || {}
-        return {
-          generated_question:  r.generated_questions?.[i]?.question || res.generated_question || '',
-          marks_awarded:       res.awarded ?? res.marks_awarded ?? 0,
-          marks_max:           res.max ?? res.marks_max ?? 0,
-          feedback:            res.feedback || '',
-          model_answer:        res.model_answer || '',
-          // student_answer comes from OCR row, fallback to result field
-          student_answer_text: ocrRow.student_answer_text || res.student_answer || res.student_answer_text || '',
-        }
-      })
       setSessionData({
-        score_awarded:    r.score_awarded,
-        score_max:        r.score_max,
+        score_awarded:    r.total_score_awarded,
+        score_max:        r.total_score_max,
         grade:            r.grade,
-        overall_feedback: r.overall_feedback,
         percentage:       r.percentage,
+        overall_feedback: r.overall_feedback_bn,
+        p1_awarded:       state.part1_result?.score_awarded,
+        p1_max:           state.part1_result?.score_max,
+        p2_awarded:       r.part2_score_awarded,
+        p2_max:           r.part2_score_max,
       })
-      setEvaluations(merged)
+      setPart1Evals(state.part1_result?.results || [])
+      setPart2Evals(r.results || [])
       return
     }
 
-    // Case 2: viewing from history (session_id passed)
+    // Viewing from history
     if (state?.session_id) {
       setLoading(true)
       api.getSession(state.session_id, token)
         .then(data => {
           const s = data.session
-          const evals = data.evaluations || []
           setSessionData({
             score_awarded:    s.score_awarded,
             score_max:        s.score_max,
             grade:            s.grade,
-            overall_feedback: s.overall_feedback,
             percentage:       s.score_max ? Math.round((s.score_awarded / s.score_max) * 100) : 0,
+            p1_awarded:       s.part1_score_awarded,
+            p1_max:           s.part1_score_max,
+            p2_awarded:       s.part2_score_awarded,
+            p2_max:           s.part2_score_max,
             chapter_name:     s.chapter_name,
             subject_name:     s.subject_name,
           })
-          // Evaluations from DB already have generated_question + student_answer_text
-          setEvaluations(evals.sort((a, b) => a.question_index - b.question_index))
+          setPart1Evals((data.part1_evals || []).sort((a,b) => a.question_index - b.question_index))
+          setPart2Evals((data.part2_evals || []).sort((a,b) => a.question_index - b.question_index))
         })
         .catch(e => setError(e.message))
         .finally(() => setLoading(false))
       return
     }
 
-    // No state at all
     navigate('/exam/select', { replace: true })
   }, [])
 
@@ -202,9 +214,7 @@ export default function ResultsPage() {
       <div className="flex-1 flex items-center justify-center px-4">
         <div className="card text-center">
           <p className="bn text-red-500 mb-4">{error}</p>
-          <button onClick={() => navigate('/exam/my-exams')} className="btn-secondary">
-            ← আমার পরীক্ষা
-          </button>
+          <button onClick={() => navigate('/exam/my-exams')} className="btn-secondary">← আমার পরীক্ষা</button>
         </div>
       </div>
     </div>
@@ -220,12 +230,12 @@ export default function ResultsPage() {
 
       <div className="flex-1 max-w-app mx-auto w-full px-4 py-5 page-enter">
 
-        {/* Score card */}
-        <div className="card mb-5 text-center">
+        {/* Overall score card */}
+        <div className="card mb-4 text-center">
           {fromHistory && sessionData.chapter_name && (
             <p className="bn text-xs text-ink-light mb-2">{sessionData.chapter_name} · {sessionData.subject_name}</p>
           )}
-          <h1 className="bn text-lg font-bold text-ink mb-4">ফলাফল</h1>
+          <h1 className="bn text-lg font-bold text-ink mb-4">চূড়ান্ত ফলাফল</h1>
           <ScoreCircle
             awarded={sessionData.score_awarded}
             max={sessionData.score_max}
@@ -238,27 +248,58 @@ export default function ResultsPage() {
           )}
         </div>
 
-        {/* Per-question results */}
-        <h2 className="bn text-base font-bold text-ink mb-3">প্রশ্নওয়ারি ফলাফল</h2>
-        <div className="space-y-3 mb-8">
-          {evaluations.map((r, i) => (
-            <QuestionResult key={i} result={r} index={i} />
-          ))}
+        {/* Part score breakdown */}
+        <div className="grid grid-cols-2 gap-3 mb-5">
+          <div className="card text-center bg-blue-50 border-blue-200">
+            <p className="text-xs font-ui text-blue-600 mb-1">প্রথম অংশ</p>
+            <p className="text-xl font-bold font-ui text-blue-800">
+              {sessionData.p1_awarded ?? '—'}/{sessionData.p1_max ?? '—'}
+            </p>
+            <p className="text-xs font-ui text-blue-500 mt-0.5">ট্যাপ করে উত্তর</p>
+          </div>
+          <div className="card text-center bg-pink-50 border-pink-200">
+            <p className="text-xs font-ui text-pink-600 mb-1">দ্বিতীয় অংশ</p>
+            <p className="text-xl font-bold font-ui text-pink-800">
+              {sessionData.p2_awarded ?? '—'}/{sessionData.p2_max ?? '—'}
+            </p>
+            <p className="text-xs font-ui text-pink-500 mt-0.5">লেখার উত্তর</p>
+          </div>
         </div>
+
+        {/* Part 1 results */}
+        {part1Evals.length > 0 && (
+          <>
+            <h2 className="bn text-base font-bold text-ink mb-3">প্রথম অংশ — বিস্তারিত</h2>
+            <div className="space-y-3 mb-5">
+              {part1Evals.map((r, i) => (
+                <Part1Result key={i} result={r} index={i} />
+              ))}
+            </div>
+          </>
+        )}
+
+        {/* Part 2 results */}
+        {part2Evals.length > 0 && (
+          <>
+            <h2 className="bn text-base font-bold text-ink mb-3">দ্বিতীয় অংশ — বিস্তারিত</h2>
+            <div className="space-y-3 mb-5">
+              {part2Evals.map((r, i) => (
+                <Part2Result key={i} result={r} index={i} />
+              ))}
+            </div>
+          </>
+        )}
 
         {/* Actions */}
         <div className="pb-8 space-y-3">
           {fromHistory ? (
-            <button
-              onClick={() => navigate('/exam/my-exams')}
-              className="btn-secondary"
-            >
+            <button onClick={() => navigate('/exam/my-exams')} className="btn-secondary">
               ← আমার পরীক্ষা
             </button>
           ) : (
             <>
               <button onClick={() => navigate('/exam/select')} className="btn-primary">
-                আবার পরীক্ষা দিন
+                আবার পরীক্ষা দাও
               </button>
               <button onClick={() => navigate('/exam/my-exams')} className="btn-secondary">
                 আমার পরীক্ষার ইতিহাস

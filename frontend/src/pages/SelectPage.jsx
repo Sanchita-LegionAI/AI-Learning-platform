@@ -22,7 +22,6 @@ export default function SelectPage() {
   const [selectedBook,    setSelectedBook]    = useState(null)
   const [selectedChapter, setSelectedChapter] = useState(null)
   const [starting, setStarting]               = useState(false)
-
   const [activeExamCount, setActiveExamCount] = useState(0)
 
   const displayName = user?.user_metadata?.full_name || user?.email || user?.phone || ''
@@ -33,7 +32,6 @@ export default function SelectPage() {
       .catch(e => setError(e.message))
       .finally(() => setLoading(false))
 
-    // Check active exam count
     api.getMySessions(token)
       .then(d => {
         const active = (d.sessions || []).filter(s => !s.completed)
@@ -42,20 +40,22 @@ export default function SelectPage() {
       .catch(() => {})
   }, [token])
 
-  const subjects  = selectedClass?.subjects || []
-  const books     = selectedSubject?.books || []
-  const chapters  = selectedBook?.chapters || []
-  const canStart  = selectedChapter !== null
+  const subjects = selectedClass?.subjects  || []
+  const books    = selectedSubject?.books   || []
+  const chapters = selectedBook?.chapters   || []
+  const canStart = selectedChapter !== null
 
   const startExam = async () => {
     if (activeExamCount >= MAX_ACTIVE_EXAMS) {
-      setError(`আপনার ${MAX_ACTIVE_EXAMS}টি পরীক্ষা চলছে। নতুন পরীক্ষা শুরু করতে আগে একটি শেষ করুন বা বাতিল করুন।`)
+      setError(`আপনার ${MAX_ACTIVE_EXAMS}টি পরীক্ষা চলছে। নতুন পরীক্ষা শুরু করতে আগে একটি শেষ করুন।`)
       return
     }
     setStarting(true)
+    setError('')
     try {
       const data = await api.generateExam(selectedChapter.id, token)
-      navigate('/exam/paper', { state: { examData: data } })
+      // Navigate to Part 1 — interactive touch questions
+      navigate('/exam/part1', { state: { examData: data } })
     } catch (e) {
       setError(e.message)
       setStarting(false)
@@ -97,10 +97,7 @@ export default function SelectPage() {
                 </span>
               )}
             </button>
-            <button
-              onClick={signOut}
-              className="text-xs text-ink-light font-ui hover:text-saffron transition-colors"
-            >
+            <button onClick={signOut} className="text-xs text-ink-light font-ui hover:text-saffron transition-colors">
               লগআউট
             </button>
           </div>
@@ -108,18 +105,12 @@ export default function SelectPage() {
 
         {error && <ErrorMessage message={error} onRetry={() => setError('')} />}
 
-        {/* Active exam warning */}
         {activeExamCount >= MAX_ACTIVE_EXAMS && (
           <div className="bg-red-50 border border-red-200 rounded-xl px-4 py-3">
-            <p className="bn text-sm text-red-700 font-medium mb-1">
-              ⚠️ সর্বোচ্চ পরীক্ষার সীমায় পৌঁছেছেন
-            </p>
+            <p className="bn text-sm text-red-700 font-medium mb-1">⚠️ সর্বোচ্চ পরীক্ষার সীমায় পৌঁছেছেন</p>
             <p className="bn text-xs text-red-600">
               নতুন পরীক্ষা শুরু করতে{' '}
-              <button
-                onClick={() => navigate('/exam/my-exams')}
-                className="underline font-medium"
-              >
+              <button onClick={() => navigate('/exam/my-exams')} className="underline font-medium">
                 আমার পরীক্ষায়
               </button>
               {' '}গিয়ে একটি বাতিল করুন।
@@ -138,17 +129,11 @@ export default function SelectPage() {
                 {curriculum.map(cls => (
                   <button
                     key={cls.id}
-                    onClick={() => {
-                      setSelectedClass(cls)
-                      setSelectedSubject(null)
-                      setSelectedBook(null)
-                      setSelectedChapter(null)
-                    }}
+                    onClick={() => { setSelectedClass(cls); setSelectedSubject(null); setSelectedBook(null); setSelectedChapter(null) }}
                     className={`py-2.5 rounded-xl text-sm font-ui font-medium border transition-all
                       ${selectedClass?.id === cls.id
                         ? 'bg-saffron text-white border-saffron'
-                        : 'bg-white text-ink border-border hover:border-saffron hover:text-saffron'
-                      }`}
+                        : 'bg-white text-ink border-border hover:border-saffron hover:text-saffron'}`}
                   >
                     {cls.display_name_bn}
                   </button>
@@ -164,16 +149,11 @@ export default function SelectPage() {
                   {subjects.map(sub => (
                     <button
                       key={sub.id}
-                      onClick={() => {
-                        setSelectedSubject(sub)
-                        setSelectedBook(sub.books[0] || null)
-                        setSelectedChapter(null)
-                      }}
+                      onClick={() => { setSelectedSubject(sub); setSelectedBook(sub.books[0] || null); setSelectedChapter(null) }}
                       className={`py-2.5 rounded-xl text-sm font-ui font-medium border transition-all
                         ${selectedSubject?.id === sub.id
                           ? 'bg-saffron text-white border-saffron'
-                          : 'bg-white text-ink border-border hover:border-saffron hover:text-saffron'
-                        }`}
+                          : 'bg-white text-ink border-border hover:border-saffron hover:text-saffron'}`}
                     >
                       {sub.display_name_bn}
                     </button>
@@ -194,8 +174,7 @@ export default function SelectPage() {
                       className={`w-full text-left px-4 py-3 rounded-xl border transition-all
                         ${selectedChapter?.id === ch.id
                           ? 'bg-saffron-light border-saffron'
-                          : 'bg-white border-border hover:border-saffron'
-                        }`}
+                          : 'bg-white border-border hover:border-saffron'}`}
                     >
                       <span className={`text-xs font-ui mr-2 ${selectedChapter?.id === ch.id ? 'text-saffron-dark' : 'text-ink-light'}`}>
                         অধ্যায় {ch.chapter_number}
@@ -222,6 +201,21 @@ export default function SelectPage() {
                     {selectedSubject?.display_name_bn} · {selectedClass?.display_name_bn}
                   </p>
                 </div>
+
+                {/* Exam format info */}
+                <div className="grid grid-cols-2 gap-2 mb-4">
+                  <div className="bg-blue-50 border border-blue-200 rounded-xl px-3 py-2.5 text-center">
+                    <p className="text-xs font-ui text-blue-600 mb-0.5">প্রথম অংশ</p>
+                    <p className="bn text-sm font-bold text-blue-800">ট্যাপ করে উত্তর</p>
+                    <p className="text-xs font-ui text-blue-500 mt-0.5">লেখার দরকার নেই</p>
+                  </div>
+                  <div className="bg-pink-50 border border-pink-200 rounded-xl px-3 py-2.5 text-center">
+                    <p className="text-xs font-ui text-pink-600 mb-0.5">দ্বিতীয় অংশ</p>
+                    <p className="bn text-sm font-bold text-pink-800">কাগজে লেখো</p>
+                    <p className="text-xs font-ui text-pink-500 mt-0.5">১-২টি শব্দ</p>
+                  </div>
+                </div>
+
                 <button
                   onClick={startExam}
                   disabled={activeExamCount >= MAX_ACTIVE_EXAMS}
@@ -229,11 +223,6 @@ export default function SelectPage() {
                 >
                   পরীক্ষা শুরু করুন →
                 </button>
-                {activeExamCount > 0 && activeExamCount < MAX_ACTIVE_EXAMS && (
-                  <p className="text-xs text-ink-light font-ui text-center mt-2">
-                    {MAX_ACTIVE_EXAMS - activeExamCount}টি পরীক্ষা আর শুরু করা যাবে
-                  </p>
-                )}
               </div>
             )}
           </>

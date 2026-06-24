@@ -7,7 +7,7 @@ async function request(path, options = {}, token = null) {
   const headers = { 'Content-Type': 'application/json', ...options.headers }
   if (token) headers['Authorization'] = `Bearer ${token}`
 
-  const res = await fetch(`${BASE}${path}`, { ...options, headers })
+  const res  = await fetch(`${BASE}${path}`, { ...options, headers })
   const data = await res.json().catch(() => ({}))
 
   if (!res.ok) {
@@ -21,53 +21,71 @@ async function request(path, options = {}, token = null) {
 }
 
 export const api = {
-  // Auth
+  // ── Auth ────────────────────────────────────────────────────────────────────
   verifyToken: (token) =>
     request('/api/auth/verify', { method: 'POST' }, token),
 
-  // Curriculum
+  // ── Curriculum ───────────────────────────────────────────────────────────────
   getCurriculum: (token) =>
     request('/api/curriculum', {}, token),
 
-  getChapters: (bookId, token) =>
-    request(`/api/chapters/${bookId}`, {}, token),
+  // ── Exam flow ────────────────────────────────────────────────────────────────
 
-  // Exam flow
+  // Step 1: generate exam (returns part1_questions + part2_questions)
   generateExam: (chapterId, token, configId = null) =>
     request('/api/exam/generate', {
       method: 'POST',
       body: JSON.stringify({ chapter_id: chapterId, config_id: configId }),
     }, token),
 
+  // Step 2: submit Part 1 answers — instant server-side evaluation, no LLM
+  // answers: { "question_db_id": answer_value }
+  submitPart1: (sessionId, answers, token) =>
+    request('/api/exam/submit-part1', {
+      method: 'POST',
+      body: JSON.stringify({ session_id: sessionId, answers }),
+    }, token),
+
+  // Step 3: upload Part 2 answer sheet photo to R2
   uploadAnswer: (sessionId, imageBase64, contentType, token) =>
     request('/api/exam/upload-answer', {
       method: 'POST',
       body: JSON.stringify({ session_id: sessionId, image_base64: imageBase64, content_type: contentType }),
     }, token),
 
+  // Step 4a: OCR — Gemini reads slot-by-slot (1-3 words per slot)
   runOcr: (sessionId, token) =>
     request('/api/exam/ocr', {
       method: 'POST',
       body: JSON.stringify({ session_id: sessionId }),
     }, token),
 
-  evaluateExam: (sessionId, token) =>
-    request('/api/exam/evaluate', {
+  // Step 4b: student confirms (or edits) OCR results
+  // confirmedAnswers: { "slot_id": "ocr_text" }
+  submitOcrAnswers: (sessionId, confirmedAnswers, token) =>
+    request('/api/exam/submit-ocr-answers', {
+      method: 'POST',
+      body: JSON.stringify({ session_id: sessionId, confirmed_answers: confirmedAnswers }),
+    }, token),
+
+  // Step 5: LLM evaluates Part 2 short-write answers
+  evaluatePart2: (sessionId, token) =>
+    request('/api/exam/evaluate-part2', {
       method: 'POST',
       body: JSON.stringify({ session_id: sessionId }),
     }, token),
 
+  // ── Session management ────────────────────────────────────────────────────────
   getSession: (sessionId, token) =>
     request(`/api/exam/session/${sessionId}`, {}, token),
 
-  // My sessions (student)
   getMySessions: (token) =>
     request('/api/exam/my-sessions', {}, token),
 
   deleteSession: (sessionId, token) =>
     request(`/api/exam/session/${sessionId}`, { method: 'DELETE' }, token),
 
-  // Admin
+  // ── Admin ─────────────────────────────────────────────────────────────────────
   getAdminConfig: (token) =>
     request('/api/admin/config', {}, token),
 
@@ -97,7 +115,12 @@ export const api = {
   triggerImport: (token) =>
     request('/api/admin/questions/import', { method: 'POST' }, token),
 
-  // Admin exam logs
+  getExamConfigs: (token) =>
+    request('/api/admin/exam-config', {}, token),
+
+  activateExamConfig: (configId, token) =>
+    request(`/api/admin/exam-config/${configId}/activate`, { method: 'PATCH' }, token),
+
   getAdminExamLogs: (token, params = {}) => {
     const qs = new URLSearchParams(params).toString()
     return request(`/api/admin/exam-logs${qs ? '?' + qs : ''}`, {}, token)

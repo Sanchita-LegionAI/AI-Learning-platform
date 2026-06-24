@@ -1,65 +1,99 @@
 // pages/OcrReviewPage.jsx
-// Shows what Gemini OCR'd from the student's answer sheet.
-// Student reviews → confirms → triggers text-only evaluation.
+// Student reviews slot-by-slot OCR results, edits if needed, then confirms for evaluation.
 
 import { useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import { api } from '../lib/api'
 import ProgressBar from '../components/ProgressBar'
-import LoadingMessage from '../components/LoadingMessage'
+
+function FullScreenLoader({ message, subMessage }) {
+  return (
+    <div className="min-h-screen bg-cream flex flex-col">
+      <ProgressBar currentStep="upload" />
+      <div className="flex-1 flex flex-col items-center justify-center px-4">
+        <div className="flex gap-2 mb-4">
+          {[0,150,300].map(d => (
+            <span key={d} className="w-3 h-3 rounded-full bg-saffron animate-bounce" style={{animationDelay:`${d}ms`}} />
+          ))}
+        </div>
+        <p className="bn text-base font-medium text-ink mb-1">{message}</p>
+        {subMessage && <p className="text-xs font-ui text-ink-light">{subMessage}</p>}
+      </div>
+    </div>
+  )
+}
 
 export default function OcrReviewPage() {
   const { state }  = useLocation()
   const navigate   = useNavigate()
   const { token }  = useAuth()
 
-  const [evaluating, setEvaluating] = useState(false)
-  const [error,      setError]      = useState('')
-
   if (!state?.session_id || !state?.ocr_results) {
     navigate('/exam/select')
     return null
   }
 
-  const { session_id, examData, ocr_results } = state
+  const { session_id, ocr_results, part2_questions = [], part1_result, examData } = state
 
-  const handleEvaluate = async () => {
+  // editedAnswers: { slot_id (string): text }
+  const [editedAnswers, setEditedAnswers] = useState(() => {
+    const init = {}
+    for (const r of ocr_results) {
+      init[String(r.slot_id)] = r.ocr_text || ''
+    }
+    return init
+  })
+
+  const [saving,      setSaving]      = useState(false)
+  const [evaluating,  setEvaluating]  = useState(false)
+  const [error,       setError]       = useState('')
+
+  const updateAnswer = (slotId, text) => {
+    // Enforce max_words limit
+    const q        = part2_questions.find(q => q.answer_slot_id === slotId)
+    const maxWords = q?.max_words || 3
+    const words    = text.trim().split(/\s+/).filter(Boolean)
+    if (words.length > maxWords) return  // block if too many words
+    setEditedAnswers(prev => ({ ...prev, [String(slotId)]: text }))
+  }
+
+  const handleConfirm = async () => {
     setError('')
+    setSaving(true)
+
+    // Convert keys to int for backend
+    const confirmed = {}
+    for (const [k, v] of Object.entries(editedAnswers)) {
+      confirmed[parseInt(k)] = v.trim() || 'কোনো উত্তর লেখা হয়নি'
+    }
+
+    try {
+      await api.submitOcrAnswers(session_id, confirmed, token)
+    } catch (e) {
+      setError(e.message || 'সংরক্ষণ করা যায়নি।')
+      setSaving(false)
+      return
+    }
+    setSaving(false)
+
+    // Now evaluate Part 2
     setEvaluating(true)
     try {
-      const result = await api.evaluateExam(session_id, token)
-      navigate('/exam/results', { state: { result } })
+      const result = await api.evaluatePart2(session_id, token)
+      navigate('/exam/results', {
+        state: { result, part1_result, fromEval: true }
+      })
     } catch (e) {
       setError(e.message || 'মূল্যায়ন করা যায়নি। আবার চেষ্টা করুন।')
       setEvaluating(false)
     }
   }
 
-  const handleRetake = () => {
-    // Go back to upload with same examData so student can retake photo
-    navigate('/exam/upload', { state: { session_id, examData } })
-  }
+  if (saving)     return <FullScreenLoader message="উত্তর সংরক্ষণ হচ্ছে..." />
+  if (evaluating) return <FullScreenLoader message="মূল্যায়ন হচ্ছে..." subMessage="GPT তোমার উত্তর দেখছে" />
 
-  if (evaluating) return (
-    <div className="min-h-screen bg-cream flex flex-col">
-      <ProgressBar currentStep="upload" />
-      <div className="flex-1 flex flex-col items-center justify-center px-4">
-        <div className="flex gap-2 mb-4">
-          <span className="w-3 h-3 rounded-full bg-saffron animate-bounce" style={{animationDelay:'0ms'}} />
-          <span className="w-3 h-3 rounded-full bg-saffron animate-bounce" style={{animationDelay:'150ms'}} />
-          <span className="w-3 h-3 rounded-full bg-saffron animate-bounce" style={{animationDelay:'300ms'}} />
-        </div>
-        <p className="bn text-base font-medium text-ink mb-1">উত্তর মূল্যায়ন হচ্ছে...</p>
-        <p className="text-xs font-ui text-ink-light">একটু অপেক্ষা করুন</p>
-      </div>
-    </div>
-  )
-
-  const totalMarks = ocr_results.reduce((s, q) => s + (q.marks || 0), 0)
-  const blankCount = ocr_results.filter(q =>
-    !q.student_answer || q.student_answer === 'কোনো উত্তর লেখা হয়নি'
-  ).length
+  const blankCount = Object.values(editedAnswers).filter(v => !v.trim()).length
 
   return (
     <div className="min-h-screen bg-cream flex flex-col">
@@ -71,10 +105,10 @@ export default function OcrReviewPage() {
         <div>
           <div className="flex items-center gap-2 mb-1">
             <span className="text-lg">🤖</span>
-            <h1 className="bn text-xl font-bold text-ink">উত্তর যাচাই করুন</h1>
+            <h1 className="bn text-xl font-bold text-ink">উত্তর যাচাই করো</h1>
           </div>
           <p className="bn text-sm text-ink-light">
-            AI আপনার হাতের লেখা পড়েছে। মূল্যায়নের আগে একবার দেখুন সব ঠিক আছে কিনা।
+            AI তোমার লেখা পড়েছে। ভুল থাকলে সংশোধন করো, তারপর নিশ্চিত করো।
           </p>
         </div>
 
@@ -84,70 +118,57 @@ export default function OcrReviewPage() {
           </div>
         )}
 
-        {/* Summary banner */}
+        {/* Summary */}
         <div className={`rounded-xl px-4 py-3 border ${
-          blankCount > 0
-            ? 'bg-amber-50 border-amber-200'
-            : 'bg-forest-light border-forest/30'
+          blankCount > 0 ? 'bg-amber-50 border-amber-200' : 'bg-forest-light border-forest/30'
         }`}>
           <p className={`bn text-sm font-medium ${blankCount > 0 ? 'text-amber-700' : 'text-forest'}`}>
             {blankCount > 0
-              ? `⚠️ ${blankCount}টি প্রশ্নের উত্তর পাওয়া যায়নি`
-              : `✓ সব ${ocr_results.length}টি উত্তর পাওয়া গেছে`
-            }
-          </p>
-          <p className="text-xs font-ui text-ink-light mt-0.5">
-            মোট নম্বর: {totalMarks} · {ocr_results.length}টি প্রশ্ন
+              ? `⚠️ ${blankCount}টি প্রশ্নের উত্তর ফাঁকা`
+              : `✓ সব ${ocr_results.length}টি উত্তর পাওয়া গেছে`}
           </p>
         </div>
 
-        {/* Per-question OCR results */}
+        {/* Per-slot review */}
         <div className="space-y-3">
-          {ocr_results.map((item, i) => {
-            const blank = !item.student_answer || item.student_answer === 'কোনো উত্তর লেখা হয়নি'
-            const unreadable = item.student_answer === 'পাঠযোগ্য নয়'
+          {ocr_results.map((item) => {
+            const q       = part2_questions.find(q => q.answer_slot_id === item.slot_id)
+            const val     = editedAnswers[String(item.slot_id)] || ''
+            const maxWords = q?.max_words || 3
+            const blank   = !val.trim()
 
             return (
-              <div key={i} className="card space-y-2">
+              <div key={item.slot_id} className="card space-y-3">
                 {/* Question */}
                 <div className="flex items-start gap-2">
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-saffron text-white text-xs font-bold font-ui flex items-center justify-center mt-0.5">
-                    {item.question_number || i + 1}
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-pink-400 text-white text-xs font-bold font-ui flex items-center justify-center mt-0.5">
+                    {item.slot_id}
                   </span>
                   <div className="flex-1">
-                    <p className="bn text-sm text-ink leading-relaxed">{item.question_text}</p>
-                    <span className="inline-block mt-1 text-xs font-ui text-saffron-dark bg-saffron-light px-2 py-0.5 rounded-full">
-                      {item.marks} নম্বর
+                    <p className="bn text-sm text-ink leading-relaxed">{item.question_bn}</p>
+                    <span className="text-xs font-ui text-pink-600 mt-0.5 inline-block">
+                      সর্বোচ্চ {maxWords} শব্দ
                     </span>
                   </div>
                 </div>
 
-                {/* Divider */}
                 <div className="h-px bg-border" />
 
-                {/* OCR'd answer */}
+                {/* Editable OCR answer */}
                 <div>
-                  <p className="text-xs font-ui text-ink-light mb-1.5">
-                    🤖 AI যা পড়েছে:
-                  </p>
-                  <div className={`rounded-xl px-3 py-2.5 ${
-                    blank || unreadable
-                      ? 'bg-red-50 border border-red-200'
-                      : 'bg-blue-50 border border-blue-200'
-                  }`}>
-                    <p className={`bn text-sm leading-relaxed ${
-                      blank || unreadable ? 'text-red-500 italic' : 'text-ink'
-                    }`}>
-                      {item.student_answer || 'কোনো উত্তর লেখা হয়নি'}
-                    </p>
-                  </div>
-                  {(blank || unreadable) && (
-                    <p className="bn text-xs text-amber-600 mt-1">
-                      {unreadable
-                        ? '⚠️ হাতের লেখা পড়া যায়নি — স্পষ্ট করে লিখলে ভালো হয়'
-                        : '⚠️ এই প্রশ্নের কোনো উত্তর পাওয়া যায়নি'
-                      }
-                    </p>
+                  <p className="text-xs font-ui text-ink-light mb-1.5">🤖 AI যা পড়েছে (সংশোধন করতে পারো):</p>
+                  <input
+                    type="text"
+                    value={val}
+                    onChange={e => updateAnswer(item.slot_id, e.target.value)}
+                    placeholder="উত্তর লেখা হয়নি"
+                    className={`w-full bn text-sm px-3 py-2.5 rounded-xl border-2 outline-none transition-all
+                      ${blank
+                        ? 'bg-red-50 border-red-200 text-red-500 placeholder-red-300 focus:border-red-400'
+                        : 'bg-blue-50 border-blue-300 text-ink focus:border-saffron'}`}
+                  />
+                  {blank && (
+                    <p className="bn text-xs text-amber-600 mt-1">⚠️ ফাঁকা থাকলে ০ নম্বর পাবে</p>
                   )}
                 </div>
               </div>
@@ -155,25 +176,18 @@ export default function OcrReviewPage() {
           })}
         </div>
 
-        {/* Action note */}
-        <div className="bg-saffron-light border border-saffron/30 rounded-xl px-4 py-3">
-          <p className="bn text-sm font-medium text-saffron-dark mb-1">মনে রাখুন</p>
-          <p className="bn text-xs text-ink-light leading-relaxed">
-            যদি AI ভুল পড়ে থাকে বা কোনো উত্তর মিস হয়ে থাকে, আবার ছবি তুলুন।
-            সব ঠিক থাকলে মূল্যায়ন করুন।
-          </p>
-        </div>
-
         {/* Actions */}
         <div className="pb-8 space-y-3">
-          <button onClick={handleEvaluate} className="btn-primary">
-            মূল্যায়ন করুন →
+          <button onClick={handleConfirm} className="btn-primary">
+            নিশ্চিত করো ও মূল্যায়ন করো →
           </button>
-          <button onClick={handleRetake} className="btn-secondary">
-            ← আবার ছবি তুলুন
+          <button
+            onClick={() => navigate('/exam/upload', { state: { session_id, part2_questions, part1_result, examData } })}
+            className="btn-secondary"
+          >
+            ← আবার ছবি তোলো
           </button>
         </div>
-
       </div>
     </div>
   )
