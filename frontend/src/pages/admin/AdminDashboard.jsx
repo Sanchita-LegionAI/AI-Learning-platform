@@ -80,7 +80,10 @@ export default function AdminDashboard() {
     setMsg('')
     try {
       const res = await api.triggerImport(token)
-      setMsg(res.success ? `✓ Import complete\n${res.stdout}` : `✗ Import failed\n${res.stderr}`)
+      const detail = res.log || res.stdout || ''
+      const s = res.stats || {}
+      const summary = s.inserted !== undefined ? `inserted=${s.inserted} skipped=${s.skipped} errors=${s.errors}` : ''
+      setMsg(res.success ? `✓ Import complete — ${summary}\n${detail}` : `✗ Import failed — ${summary}\n${detail}`)
       api.getAdminChapters(token).then(d => setChapters(d.chapters))
     } catch (e) {
       setMsg(`✗ ${e.message}`)
