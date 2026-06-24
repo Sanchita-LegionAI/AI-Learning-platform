@@ -1,14 +1,13 @@
 """
 services/ocr_service.py
 ========================
-Step 4a: OCR the uploaded answer image using Gemini 1.5 Flash vision.
+Part 2 OCR — extracts short written answers (1-3 words) from the answer sheet image.
 
-Extracts what the student wrote per question, saves to evaluations table.
-This is intentionally separate from evaluation — the student can review
-their OCR'd text before committing to evaluation.
-
-Flow:
-  [Image in R2] → Gemini 1.5 Flash → per-question text → saved to evaluations
+Key differences from old OCR:
+  - Knows exactly how many slots and what each slot's question is
+  - Expects 1-3 Bengali words per slot (not paragraphs)
+  - Single-word OCR accuracy is much higher than paragraph OCR
+  - Student reviews and can correct each slot before evaluation
 """
 import json
 from datetime import datetime, timezone
@@ -21,46 +20,45 @@ from app.services.r2_service import get_fresh_url_if_expired
 # PROMPTS
 # =============================================================================
 
-OCR_SYSTEM_PROMPT = """You are an OCR engine. Your ONLY job is to read handwritten Bengali text from an image.
+OCR_SYSTEM_PROMPT = """You are an OCR engine reading a student's handwritten Bengali answer sheet.
+The sheet has numbered boxes/lines. Each box contains a SHORT answer — typically 1 to 3 Bengali words.
 
-CRITICAL RULES:
-- Read ONLY what is physically written in the image — do NOT use any other knowledge
-- Do NOT guess, invent, or use context to fill gaps
-- Do NOT look at any questions provided — ignore them completely for transcription
-- Transcribe Bengali handwriting exactly as written, character by character
-- If an answer section is blank, write: "কোনো উত্তর লেখা হয়নি"
-- If handwriting is too messy to read, write: "পাঠযোগ্য নয়"
+STRICT RULES:
+- Read ONLY what is physically written — never guess or invent
+- Transcribe Bengali characters exactly as written
+- If a box is blank → set text to ""
+- If handwriting is completely illegible → set text to "পাঠযোগ্য নয়"
 - Output ONLY valid JSON — no markdown, no explanation
-
-Look for numbered sections (1, 2, 3...) in the image and transcribe each one.
 
 Output format:
 {
   "answers": [
-    {"question_number": 1, "text": "ONLY what is physically written in the image for section 1"},
-    {"question_number": 2, "text": "ONLY what is physically written in the image for section 2"}
-  ],
-  "total_questions_found": 2,
-  "notes": "observation about handwriting quality"
+    {"slot_id": 1, "text": "থার্মোমিটার"},
+    {"slot_id": 2, "text": "জুল"},
+    {"slot_id": 3, "text": ""}
+  ]
 }"""
 
 
-def build_ocr_prompt(generated_questions: list[dict]) -> str:
-    n = len(generated_questions)
-    return f"""Read the handwritten Bengali text in this image.
+def _build_ocr_prompt(part2_questions: list[dict]) -> str:
+    """Tell Gemini exactly how many slots to look for."""
+    slot_lines = "\n".join(
+        f"  Slot {q['answer_slot_id']}: answer to '{q['question_bn']}' "
+        f"(max {q.get('max_words', 2)} word(s))"
+        for q in part2_questions
+    )
+    return (
+        f"This answer sheet has {len(part2_questions)} numbered answer boxes.\n"
+        f"Extract the handwritten Bengali text from each box:\n\n"
+        f"{slot_lines}\n\n"
+        f"Output valid JSON only."
+    )
 
-The answer sheet has {n} numbered sections (1 to {n}).
-Transcribe EXACTLY what is written in each numbered section.
-Do NOT use the questions below to guess answers — read ONLY what is in the image.
 
-Output valid JSON only with the transcribed text for each section."""
-
-
-def clean_llm_json(raw: str) -> str:
+def _clean_llm_json(raw: str) -> str:
     raw = raw.strip()
     if raw.startswith("```"):
-        lines = raw.split("\n")
-        raw = "\n".join(lines[1:])
+        raw = "\n".join(raw.split("\n")[1:])
     if raw.endswith("```"):
         raw = raw[: raw.rfind("```")]
     return raw.strip()
@@ -72,21 +70,19 @@ def clean_llm_json(raw: str) -> str:
 
 def ocr_session(
     session_id: str,
-    user_id: str,
+    user_id:    str,
     ip_address: str | None = None,
 ) -> list[dict]:
     """
-    Run OCR on the uploaded answer image for a session.
+    Run slot-based OCR on the uploaded Part 2 answer sheet image.
 
-    1. Load session (needs answer_image_key + generated_questions)
-    2. Get fresh signed URL from R2
-    3. Call Gemini vision to transcribe answers
-    4. Save one evaluation row per question (with student_answer_text)
-    5. Mark session ocr_completed = True
-    6. Return list of {question_number, question_text, marks, student_answer_text}
+    1. Load session → part2_questions + image key
+    2. Refresh R2 signed URL if needed
+    3. Call Gemini vision → extract one text per slot
+    4. Return slot results for the review screen (student confirms before eval)
 
     Returns:
-        ocr_results: list of per-question OCR dicts for the review screen
+        list of {slot_id, question_bn, max_words, ocr_text}
     """
     supabase = get_supabase()
 
@@ -94,7 +90,7 @@ def ocr_session(
     res = (
         supabase.table("exam_sessions")
         .select("*")
-        .eq("id", session_id)
+        .eq("id",      session_id)
         .eq("user_id", user_id)
         .single()
         .execute()
@@ -105,17 +101,15 @@ def ocr_session(
     session = res.data
 
     if session.get("completed"):
-        raise ValueError("Session already evaluated — cannot re-OCR")
-
+        raise ValueError("Session already completed — cannot re-OCR")
     if not session.get("answer_image_key"):
-        raise ValueError("No answer image uploaded for this session")
+        raise ValueError("No answer image uploaded — upload the Part 2 answer sheet first")
+    if not session.get("part2_questions"):
+        raise ValueError("No Part 2 questions found in session")
 
-    if not session.get("generated_questions"):
-        raise ValueError("No generated questions found for this session")
+    part2_questions = session["part2_questions"]
 
-    generated_questions = session["generated_questions"]
-
-    # ── Refresh R2 signed URL ─────────────────────────────────────────────────
+    # ── Refresh signed URL ────────────────────────────────────────────────────
     expires_at = None
     if session.get("answer_image_expires_at"):
         expires_at = datetime.fromisoformat(
@@ -123,9 +117,9 @@ def ocr_session(
         )
 
     image_url, new_expires_at = get_fresh_url_if_expired(
-        object_key=session["answer_image_key"],
-        current_url=session.get("answer_image_url", ""),
-        expires_at=expires_at or datetime.now(timezone.utc),
+        object_key  = session["answer_image_key"],
+        current_url = session.get("answer_image_url", ""),
+        expires_at  = expires_at or datetime.now(timezone.utc),
     )
 
     if image_url != session.get("answer_image_url"):
@@ -135,87 +129,43 @@ def ocr_session(
         }).eq("id", session_id).execute()
 
     # ── Call Gemini OCR ───────────────────────────────────────────────────────
-    raw_response = call_llm(
-        purpose="ocr",
-        system_prompt=OCR_SYSTEM_PROMPT,
-        user_prompt=build_ocr_prompt(generated_questions),
-        image_url=image_url,
-        session_id=session_id,
-        user_id=user_id,
-        ip_address=ip_address,
+    raw = call_llm(
+        purpose       = "ocr",
+        system_prompt = OCR_SYSTEM_PROMPT,
+        user_prompt   = _build_ocr_prompt(part2_questions),
+        image_url     = image_url,
+        session_id    = session_id,
+        user_id       = user_id,
+        ip_address    = ip_address,
     )
 
-    # ── Parse OCR response ────────────────────────────────────────────────────
+    # ── Parse ─────────────────────────────────────────────────────────────────
     try:
-        cleaned  = clean_llm_json(raw_response)
-        ocr_data = json.loads(cleaned)
+        data = json.loads(_clean_llm_json(raw))
     except json.JSONDecodeError as e:
-        raise RuntimeError(f"Gemini OCR returned invalid JSON: {e}\nRaw: {raw_response[:400]}")
+        raise RuntimeError(f"Gemini OCR returned invalid JSON: {e}\nRaw: {raw[:400]}")
 
-    answers = ocr_data.get("answers", [])
+    # Build slot_id → ocr_text lookup
+    ocr_map: dict[int, str] = {}
+    for item in (data.get("answers") or []):
+        slot = item.get("slot_id")
+        text = str(item.get("text") or "").strip()
+        if slot is not None:
+            ocr_map[int(slot)] = text
 
-    # Build lookup: question_number → text (handle both int and string keys)
-    answer_map = {}
-    for a in answers:
-        key = a.get("question_number")
-        text = a.get("text", "").strip()
-        if key is not None:
-            answer_map[int(key)] = text
-
-    # Log what Gemini returned for debugging
-    print(f"[ocr] Gemini returned {len(answers)} answers: {list(answer_map.keys())}")
-    print(f"[ocr] Expected {len(generated_questions)} questions with ids: {[q['id'] for q in generated_questions]}")
-
-    # ── Save evaluation rows (one per question, answer text only) ─────────────
-    source_ids = session.get("source_question_ids", [])
-
-    # Delete any previous incomplete OCR rows for this session
-    supabase.table("evaluations").delete().eq("session_id", session_id).execute()
-
-    eval_rows = []
+    # ── Build review results (one per Part 2 question) ─────────────────────
     ocr_results = []
-
-    for i, q in enumerate(generated_questions):
-        q_num = q["id"]  # 1-based
-
-        # Try to match by question number, fallback to positional
-        student_text = answer_map.get(q_num)
-        if student_text is None and i < len(answers):
-            # Positional fallback — use i-th answer regardless of number
-            student_text = answers[i].get("text", "").strip()
-            print(f"[ocr] Q{q_num}: using positional fallback, got: {student_text[:50] if student_text else 'empty'}")
-        if not student_text:
-            student_text = "কোনো উত্তর লেখা হয়নি"
-            print(f"[ocr] Q{q_num}: no answer found")
-        else:
-            print(f"[ocr] Q{q_num}: found answer: {student_text[:60]}")
-
-        eval_rows.append({
-            "session_id":           session_id,
-            "question_index":       i,
-            "generated_question":   q["question"],
-            "source_question_id":   source_ids[i] if i < len(source_ids) else None,
-            "marks_awarded":        0,      # filled in by evaluation step
-            "marks_max":            q["marks"],
-            "feedback":             "",     # filled in by evaluation step
-            "model_answer":         "",     # filled in by evaluation step
-            "student_answer_text":  student_text,
-            "show_answer_requested": False,
-        })
+    for q in part2_questions:
+        slot_id  = q["answer_slot_id"]
+        ocr_text = ocr_map.get(slot_id, "")   # empty string if Gemini missed it
 
         ocr_results.append({
-            "question_number": q_num,
-            "question_text":   q["question"],
-            "marks":           q["marks"],
-            "student_answer":  student_text,
+            "slot_id":     slot_id,
+            "question_bn": q["question_bn"],
+            "max_words":   q.get("max_words", 2),
+            "ocr_text":    ocr_text,
         })
 
-    if eval_rows:
-        supabase.table("evaluations").insert(eval_rows).execute()
-
-    # ── Mark OCR complete on session ──────────────────────────────────────────
-    supabase.table("exam_sessions").update({
-        "ocr_completed": True,
-    }).eq("id", session_id).execute()
+    print(f"[ocr] Session {session_id}: {len(ocr_results)} slots extracted")
 
     return ocr_results

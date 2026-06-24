@@ -1,229 +1,221 @@
 """
 services/question_service.py
 ============================
-Step 2: Randomly select questions from bank by marks distribution.
-Step 3: Either rephrase via LLM OR pass through directly (no LLM, 'none' provider).
+Selects questions from the bank by type, builds the two-part exam paper.
+No LLM involved — questions are served directly from the DB.
 
-When active question_generation provider is 'none':
-  - Questions are fetched from the bank as-is
-  - question_bn is used directly (no rephrasing)
-  - Formatted into the same generated_questions schema
-  - Zero LLM cost
+Part 1: mcq, match_pairs, true_false, tap_sequence, categorize  (machine-evaluated)
+Part 2: short_write only                                          (OCR + LLM word-match)
 """
 import json
 import random
 from typing import Optional
 from app.core.supabase import get_supabase
-from app.services.llm_router import call_llm, NoneProviderSignal
+
+
+# Marks per question type — must match DB values
+MARKS_PER_TYPE = {
+    "mcq":          1,
+    "match_pairs":  2,
+    "true_false":   1,
+    "tap_sequence": 2,
+    "categorize":   2,
+    "short_write":  2,
+}
 
 
 # =============================================================================
-# STEP 2 — RANDOM QUESTION SELECTION (no LLM)
+# CONFIG
 # =============================================================================
 
 def get_exam_config(config_id: Optional[int] = None) -> dict:
-    """
-    Fetch exam config. If no config_id, randomly pick from all active configs
-    (supports multiple active configs for 4q/5q variety).
-    """
+    """Fetch exam config. If no config_id, uses the active one."""
     supabase = get_supabase()
     if config_id:
-        res = supabase.table("exam_config").select("*").eq("id", config_id).limit(1).execute()
-    else:
-        res = supabase.table("exam_config").select("*").eq("active", True).execute()
-
-    if not res.data:
-        raise RuntimeError("No active exam config found")
-
-    return random.choice(res.data)
-
-
-def select_questions_from_bank(chapter_id: int, distribution: list[dict]) -> tuple[list[dict], list[int]]:
-    """
-    Randomly select questions from the question bank per marks distribution.
-    distribution = [{"marks": 2, "count": 1}, {"marks": 5, "count": 2}]
-
-    Returns:
-        selected_questions: list of question rows
-        source_ids: list of question.id integers
-    """
-    supabase = get_supabase()
-    selected_questions = []
-    source_ids = []
-
-    for slot in distribution:
-        marks = slot["marks"]
-        count = slot["count"]
-
         res = (
-            supabase.table("questions")
-            .select("id, question_code, question_bn, marks, difficulty, topic_tag, expected_lines")
-            .eq("chapter_id", chapter_id)
-            .eq("marks", marks)
+            supabase.table("exam_config")
+            .select("*")
+            .eq("id", config_id)
+            .single()
+            .execute()
+        )
+    else:
+        res = (
+            supabase.table("exam_config")
+            .select("*")
             .eq("active", True)
+            .limit(1)
             .execute()
         )
 
-        pool = res.data
+    if not res.data:
+        raise RuntimeError("No active exam config found — activate one in the admin panel")
+
+    # .single() returns a dict; .execute() with limit returns a list
+    return res.data if isinstance(res.data, dict) else res.data[0]
+
+
+# =============================================================================
+# QUESTION SELECTION
+# =============================================================================
+
+def _sample_with_difficulty(
+    pool: list[dict],
+    count: int,
+    easy_pct: int,
+    medium_pct: int,
+    hard_pct: int,
+) -> list[dict]:
+    """
+    Sample `count` questions from pool respecting difficulty percentages.
+    Falls back to pure random if the pool doesn't have enough of a difficulty.
+    """
+    if len(pool) <= count:
+        return pool[:]
+
+    # Split pool by difficulty
+    easy   = [q for q in pool if q["difficulty"] == "Easy"]
+    medium = [q for q in pool if q["difficulty"] == "Medium"]
+    hard   = [q for q in pool if q["difficulty"] == "Hard"]
+
+    # Target counts per difficulty
+    n_easy   = round(count * easy_pct   / 100)
+    n_medium = round(count * medium_pct / 100)
+    n_hard   = count - n_easy - n_medium   # remainder goes to hard
+
+    chosen = []
+
+    # Sample each bucket, capping at available
+    def take(bucket, n):
+        n = max(0, min(n, len(bucket)))
+        return random.sample(bucket, n) if n > 0 else []
+
+    chosen += take(easy,   n_easy)
+    chosen += take(medium, n_medium)
+    chosen += take(hard,   n_hard)
+
+    # If we're short (buckets too small), fill from remainder
+    if len(chosen) < count:
+        used_ids = {q["id"] for q in chosen}
+        remainder = [q for q in pool if q["id"] not in used_ids]
+        still_need = count - len(chosen)
+        chosen += random.sample(remainder, min(still_need, len(remainder)))
+
+    return chosen
+
+
+def select_questions_for_exam(
+    chapter_id: int,
+    config: dict,
+) -> tuple[list[dict], list[dict], list[int]]:
+    """
+    Select Part 1 and Part 2 questions from the bank for this chapter.
+
+    Returns:
+        part1_questions: list of selected P1 question dicts (shuffled)
+        part2_questions: list of selected P2 short_write dicts (numbered)
+        source_ids:      all selected question DB ids (for session logging)
+    """
+    supabase = get_supabase()
+
+    easy_pct   = config.get("difficulty_easy_pct",   40)
+    medium_pct = config.get("difficulty_medium_pct", 40)
+    hard_pct   = config.get("difficulty_hard_pct",   20)
+
+    # Part 1 type → count mapping
+    p1_type_counts = {
+        "mcq":          config["p1_mcq_count"],
+        "match_pairs":  config["p1_match_pairs_count"],
+        "true_false":   config["p1_true_false_count"],
+        "tap_sequence": config["p1_tap_sequence_count"],
+        "categorize":   config["p1_categorize_count"],
+    }
+
+    part1: list[dict] = []
+
+    for q_type, count in p1_type_counts.items():
+        if count == 0:
+            continue
+
+        res = (
+            supabase.table("questions")
+            .select(
+                "id, question_code, q_type, q_part, marks, marks_per_item, "
+                "difficulty, topic_bn, question_bn, "
+                "options, correct_answer, pairs, items, correct_order, categories"
+            )
+            .eq("chapter_id", chapter_id)
+            .eq("q_type",     q_type)
+            .eq("q_part",     "part1")
+            .eq("active",     True)
+            .execute()
+        )
+
+        pool = res.data or []
         if len(pool) < count:
             raise RuntimeError(
-                f"Not enough {marks}-mark questions for chapter {chapter_id}. "
+                f"Not enough '{q_type}' questions for chapter {chapter_id}. "
                 f"Need {count}, found {len(pool)}."
             )
 
-        chosen = random.sample(pool, count)
-        selected_questions.extend(chosen)
-        source_ids.extend([q["id"] for q in chosen])
+        chosen = _sample_with_difficulty(pool, count, easy_pct, medium_pct, hard_pct)
+        part1.extend(chosen)
 
-    random.shuffle(selected_questions)
-    return selected_questions, source_ids
-
-
-# =============================================================================
-# PASSTHROUGH — format bank questions directly (no LLM)
-# =============================================================================
-
-def format_passthrough_questions(
-    selected_questions: list[dict],
-    distribution: list[dict],
-) -> list[dict]:
-    """
-    Format bank questions directly into the generated_questions schema,
-    without any LLM rephrasing. Used when provider is 'none'.
-    """
-    generated = []
-    for i, q in enumerate(selected_questions):
-        generated.append({
-            "id":         i + 1,
-            "question":   q["question_bn"],
-            "marks":      q["marks"],
-            "topic":      q.get("topic_tag") or "",
-            "source_ids": [q["question_code"]],
-        })
-    return generated
-
-
-# =============================================================================
-# STEP 3 — LLM REPHRASING
-# =============================================================================
-
-SYSTEM_PROMPT = """You are a Bengali exam question generator for West Bengal Board students.
-You receive a set of question stems as a scaffold. Your job is to:
-- Rephrase questions naturally — never copy verbatim
-- You may merge 2-3 related questions into one richer question
-- You may split one question into two simpler parts
-- Always maintain the total marks allocation
-- Keep language appropriate for the class level
-- Output ONLY valid JSON — no markdown, no explanation, no preamble
-- CRITICAL: Every question must be written in pure Bengali script only. Do NOT mix English words, letters, or transliteration into Bengali sentences. If a term has no Bengali equivalent, write it in Bengali script (e.g. হেমু, আকবর). Never write Bengali and English mixed in the same sentence.
-
-Output format:
-[
-  {{
-    "id": 1,
-    "question": "Bengali question text here",
-    "marks": 2,
-    "topic": "topic name in Bengali",
-    "source_ids": ["CH09_Q001", "CH09_Q003"]
-  }}
-]"""
-
-
-def build_rephrase_prompt(
-    chapter_name: str,
-    subject_name: str,
-    class_number: int,
-    selected_questions: list[dict],
-    distribution: list[dict],
-) -> str:
-    dist_text = " + ".join(f"{slot['count']}×{slot['marks']}m" for slot in distribution)
-    total_marks = sum(slot["marks"] * slot["count"] for slot in distribution)
-
-    stems = "\n".join(
-        f"[{q['question_code']}] ({q['marks']} marks, {q['difficulty']}, topic: {q['topic_tag'] or 'general'})\n"
-        f"{q['question_bn']}"
-        for q in selected_questions
+    # Part 2 — short_write
+    sw_count = config["p2_short_write_count"]
+    sw_res = (
+        supabase.table("questions")
+        .select(
+            "id, question_code, q_type, q_part, marks, "
+            "difficulty, topic_bn, question_bn, "
+            "expected_answer, max_words, answer_slot_id"
+        )
+        .eq("chapter_id", chapter_id)
+        .eq("q_type",     "short_write")
+        .eq("q_part",     "part2")
+        .eq("active",     True)
+        .execute()
     )
 
-    return f"""Chapter: {chapter_name}
-Subject: {subject_name}
-Class: {class_number}
-Total marks: {total_marks} ({dist_text})
-
-Question stems to rephrase/merge (use as scaffold only):
-{stems}
-
-Generate a fresh exam paper. Maintain the same total marks ({total_marks}).
-Distribution: {dist_text}
-Mix Easy, Medium, and Hard questions.
-All questions must be in Bengali.
-Output valid JSON array only."""
-
-
-def clean_llm_json(raw: str) -> str:
-    raw = raw.strip()
-    if raw.startswith("```"):
-        lines = raw.split("\n")
-        raw = "\n".join(lines[1:])
-    if raw.endswith("```"):
-        raw = raw[: raw.rfind("```")]
-    return raw.strip()
-
-
-# =============================================================================
-# MAIN PIPELINE
-# =============================================================================
-
-def generate_exam_paper(
-    chapter_id: int,
-    chapter_name: str,
-    subject_name: str,
-    class_number: int,
-    session_id: str,
-    user_id: str,
-    ip_address: Optional[str] = None,
-    config_id: Optional[int] = None,
-) -> tuple[list[dict], list[int], int]:
-    """
-    Full exam paper generation pipeline.
-
-    Returns:
-        generated_questions: list of question dicts (LLM-rephrased OR passthrough)
-        source_ids: original bank question IDs used as scaffold
-        exam_config_id: config used
-    """
-    config = get_exam_config(config_id)
-    distribution = config["distribution"]
-
-    selected_questions, source_ids = select_questions_from_bank(chapter_id, distribution)
-
-    # Try LLM rephrasing — fall back to passthrough if provider is 'none'
-    try:
-        raw_response = call_llm(
-            purpose="question_generation",
-            system_prompt=SYSTEM_PROMPT,
-            user_prompt=build_rephrase_prompt(
-                chapter_name=chapter_name,
-                subject_name=subject_name,
-                class_number=class_number,
-                selected_questions=selected_questions,
-                distribution=distribution,
-            ),
-            session_id=session_id,
-            user_id=user_id,
-            ip_address=ip_address,
+    sw_pool = sw_res.data or []
+    if len(sw_pool) < sw_count:
+        raise RuntimeError(
+            f"Not enough 'short_write' questions for chapter {chapter_id}. "
+            f"Need {sw_count}, found {len(sw_pool)}."
         )
 
-        cleaned = clean_llm_json(raw_response)
-        generated_questions = json.loads(cleaned)
-        if not isinstance(generated_questions, list):
-            raise ValueError("LLM response is not a JSON array")
+    part2 = _sample_with_difficulty(sw_pool, sw_count, easy_pct, medium_pct, hard_pct)
 
-    except NoneProviderSignal:
-        # 'none' provider active — use bank questions directly
-        generated_questions = format_passthrough_questions(selected_questions, distribution)
+    # Renumber answer_slot_id sequentially (1..N) for this session's answer sheet
+    for i, q in enumerate(part2):
+        q["answer_slot_id"] = i + 1
 
-    except (json.JSONDecodeError, ValueError) as e:
-        raise RuntimeError(f"LLM returned invalid JSON: {e}")
+    random.shuffle(part1)
+    source_ids = [q["id"] for q in part1 + part2]
 
-    return generated_questions, source_ids, config["id"]
+    return part1, part2, source_ids
+
+
+# =============================================================================
+# SERIALISE FOR SESSION STORAGE
+# =============================================================================
+
+def serialise_questions(questions: list[dict]) -> list[dict]:
+    """
+    Ensure JSONB fields (returned as dicts/lists by supabase-py) are
+    JSON-serialisable. Supabase-py already deserialises JSONB → Python
+    objects, so this is mostly a safety pass.
+    """
+    out = []
+    for q in questions:
+        row = dict(q)
+        # These should already be Python objects from supabase-py,
+        # but guard against raw strings just in case.
+        for field in ("options", "pairs", "items", "correct_order", "categories"):
+            if isinstance(row.get(field), str):
+                try:
+                    row[field] = json.loads(row[field])
+                except (json.JSONDecodeError, TypeError):
+                    pass
+        out.append(row)
+    return out
