@@ -1,0 +1,1774 @@
+{
+  "book_id": "paribesh_o_bigyan",
+  "book_name": "Paribesh O Bigyan",
+  "book_name_bn": "পরিবেশ ও বিজ্ঞান",
+  "subject": "science",
+  "class": 7,
+  "chapter_no": 6,
+  "chapter_title_bn": "সময় ও গতি",
+  "source_file": "paribesh_o_bigyan_ch06_questions.json",
+  "questions": {
+    "mcq": [
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_001",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "গতির প্রকার",
+        "question_bn": "রুলারের ধার বরাবর পেনসিল দিয়ে সোজা দাগ কাটার সময় পেনসিলের শিসের অগ্রভাগের গতি কোন ধরনের?",
+        "options": ["বৃত্তাকার গতি", "সরলরৈখিক গতি", "ঘূর্ণন গতি", "দোলন গতি", "বক্রপথে গতি"],
+        "correct_answer": "সরলরৈখিক গতি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_002",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "গতির প্রকার",
+        "question_bn": "ঘড়ির কাঁটার অগ্রভাগের গতি কোন ধরনের?",
+        "options": ["সরলরৈখিক গতি", "দোলন গতি", "বৃত্তাকার পথে গতি", "ঘূর্ণন গতি", "বক্রপথে গতি"],
+        "correct_answer": "বৃত্তাকার পথে গতি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_003",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "গতির প্রকার",
+        "question_bn": "এক জায়গায় দাঁড়িয়ে পাক খেতে থাকা লাটুর গতি কোন ধরনের?",
+        "options": ["সরলরৈখিক গতি", "বৃত্তাকার গতি", "ঘূর্ণন গতি", "দোলন গতি", "বক্রপথে গতি"],
+        "correct_answer": "ঘূর্ণন গতি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_004",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সরণ ও দূরত্ব",
+        "question_bn": "দুটি বিন্দুর মধ্যে সরলরেখার দৈর্ঘ্য এবং একটি নির্দিষ্ট দিক একত্রে কী নামে পরিচিত?",
+        "options": ["অতিক্রান্ত দূরত্ব", "বেগ", "সরণ", "ত্বরণ", "গড় দ্রুতি"],
+        "correct_answer": "সরণ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_005",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বল",
+        "question_bn": "কোনো বস্তুর উপর ঠেলা বা ধাক্কাকে কী বলে?",
+        "options": ["শক্তি", "কাজ", "ত্বরণ", "বল", "সরণ"],
+        "correct_answer": "বল"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_006",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "কাজ",
+        "question_bn": "কাজের পরিমাণ নির্ণয়ের সূত্র কোনটি?",
+        "options": ["W = F + d", "W = F - d", "W = F × d", "W = F ÷ d", "W = F² × d"],
+        "correct_answer": "W = F × d"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_007",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "কাজের একক",
+        "question_bn": "SI পদ্ধতিতে কাজ পরিমাপের একক কী?",
+        "options": ["নিউটন", "মিটার", "জুল", "ওয়াট", "কিলোগ্রাম"],
+        "correct_answer": "জুল"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_008",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "জাড্য",
+        "question_bn": "স্থির থাকার ধর্মকে কী বলে?",
+        "options": ["গতিজাড্য", "ত্বরণ", "স্থিতিজাড্য", "মন্দন", "বেগ"],
+        "correct_answer": "স্থিতিজাড্য"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_009",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "নিউটনের সূত্র",
+        "question_bn": "নিউটন মোট কতটি গতিসূত্র বলেছেন?",
+        "options": ["একটি", "দুটি", "তিনটি", "চারটি", "পাঁচটি"],
+        "correct_answer": "তিনটি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_010",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শক্তি",
+        "question_bn": "কাজ করার সামর্থ্যকে কী বলে?",
+        "options": ["বল", "ত্বরণ", "সরণ", "শক্তি", "কাজ"],
+        "correct_answer": "শক্তি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_011",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "গতির প্রকার",
+        "question_bn": "ঘড়ির পেন্ডুলামের গতি কোন ধরনের?",
+        "options": ["সরলরৈখিক গতি", "বৃত্তাকার গতি", "ঘূর্ণন গতি", "দোলন গতি", "বক্রপথে গতি"],
+        "correct_answer": "দোলন গতি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_012",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বলের একক",
+        "question_bn": "SI পদ্ধতিতে বলের একক কী?",
+        "options": ["জুল", "ওয়াট", "নিউটন", "কিলোগ্রাম", "মিটার"],
+        "correct_answer": "নিউটন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_013",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "গড় দ্রুতি",
+        "question_bn": "প্রকৃত অতিক্রান্ত দূরত্বকে সময় দিয়ে ভাগ করলে কী পাওয়া যায়?",
+        "options": ["গড় বেগ", "ত্বরণ", "গড় দ্রুতি", "সরণ", "মন্দন"],
+        "correct_answer": "গড় দ্রুতি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_014",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সরণ",
+        "question_bn": "সরণ সবসময় কোন রেখা বরাবর হয়?",
+        "options": ["বক্ররেখা", "বৃত্তাকার রেখা", "সরলরেখা", "আঁকাবাঁকা রেখা", "ত্রিকোণাকার রেখা"],
+        "correct_answer": "সরলরেখা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_015",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "নিউটনের সূত্র",
+        "question_bn": "নিউটন কোন দেশের বিজ্ঞানী ছিলেন?",
+        "options": ["ফ্রান্স", "জার্মানি", "ইতালি", "ইংল্যান্ড", "আমেরিকা"],
+        "correct_answer": "ইংল্যান্ড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_016",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ত্বরণ",
+        "question_bn": "এক সেকেন্ডে বেগের পরিবর্তনের পরিমাণকে কী বলে?",
+        "options": ["সরণ", "দ্রুতি", "ত্বরণ", "কাজ", "বল"],
+        "correct_answer": "ত্বরণ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_017",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মন্দন",
+        "question_bn": "ঋণাত্মক ত্বরণকে কী বলে?",
+        "options": ["গতিজাড্য", "বেগ", "দ্রুতি", "মন্দন", "সরণ"],
+        "correct_answer": "মন্দন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_018",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "নিউটনের তৃতীয় সূত্র",
+        "question_bn": "নিউটনের তৃতীয় সূত্র অনুযায়ী প্রতিটি ক্রিয়ার একটি সমান ও বিপরীতমুখী কী আছে?",
+        "options": ["বেগ", "ত্বরণ", "প্রতিক্রিয়া বল", "সরণ", "কাজ"],
+        "correct_answer": "প্রতিক্রিয়া বল"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_019",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "গতির প্রকার",
+        "question_bn": "নাগরদোলার গতি কোন ধরনের?",
+        "options": ["সরলরৈখিক গতি", "দোলন গতি", "ঘূর্ণন গতি", "বৃত্তাকার পথে গতি", "বক্রপথে গতি"],
+        "correct_answer": "বৃত্তাকার পথে গতি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_020",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "জাড্য",
+        "question_bn": "সমবেগে গতিশীল থাকার ধর্মকে কী বলে?",
+        "options": ["স্থিতিজাড্য", "মন্দন", "ত্বরণ", "গতিজাড্য", "বেগ"],
+        "correct_answer": "গতিজাড্য"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_021",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ত্বরণ গণনা",
+        "question_bn": "একটি সাইকেল ৫ মি/সে বেগে চলছিল। ৩ সেকেন্ড পরে বেগ হলো ৮ মি/সে। ত্বরণ কত?",
+        "options": ["১ মি/সেকেন্ড²", "২ মি/সেকেন্ড²", "৩ মি/সেকেন্ড²", "৪ মি/সেকেন্ড²", "৫ মি/সেকেন্ড²"],
+        "correct_answer": "১ মি/সেকেন্ড²"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_022",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "কাজ",
+        "question_bn": "এক নিউটন বল প্রয়োগে একটি বস্তুকে বলের দিকে এক মিটার সরালে কত কাজ হয়?",
+        "options": ["১ ওয়াট", "১ কিলোগ্রাম", "১ নিউটন", "১ জুল", "১ মিটার"],
+        "correct_answer": "১ জুল"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_023",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "নিউটনের দ্বিতীয় সূত্র",
+        "question_bn": "F = m × a সূত্রে 'a' কী নির্দেশ করে?",
+        "options": ["ভর", "বল", "সরণ", "ত্বরণ", "কাজ"],
+        "correct_answer": "ত্বরণ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_024",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সরণ ও দূরত্ব",
+        "question_bn": "কোনো বস্তু বাঁকা পথে চলে এক বিন্দু থেকে অন্য বিন্দুতে গেলে তার অতিক্রান্ত দূরত্ব ও সরণের মাপ কেমন?",
+        "options": ["সবসময় সমান", "সরণ সবসময় বেশি", "সরণ সবসময় কম", "আলাদা হতে পারে", "কখনোই আলাদা নয়"],
+        "correct_answer": "আলাদা হতে পারে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_025",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "জাড্য",
+        "question_bn": "স্থির বাস হঠাৎ চলতে শুরু করলে দাঁড়িয়ে থাকা যাত্রী কোন দিকে হেলে পড়েন?",
+        "options": ["সামনের দিকে", "পিছনের দিকে", "ডানদিকে", "বাঁদিকে", "উপরের দিকে"],
+        "correct_answer": "পিছনের দিকে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_026",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "জাড্য",
+        "question_bn": "চলন্ত অটোরিকশা হঠাৎ ব্রেক কষে থেমে গেলে যাত্রীরা কোন দিকে ঝুঁকে পড়েন?",
+        "options": ["পিছনের দিকে", "ডানদিকে", "বাঁদিকে", "সামনের দিকে", "উপরের দিকে"],
+        "correct_answer": "সামনের দিকে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_027",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গড় বেগ",
+        "question_bn": "সরণের পরিমাণকে সময় দিয়ে ভাগ করলে কী পাওয়া যায়?",
+        "options": ["গড় দ্রুতি", "ত্বরণ", "মন্দন", "গড় বেগ", "বল"],
+        "correct_answer": "গড় বেগ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_028",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "কাজ",
+        "question_bn": "বল প্রয়োগের ফলে বস্তুর শুধু আকৃতি পরিবর্তন হলে কাজ হয় কি?",
+        "options": ["না, কাজ হয় না", "হ্যাঁ, কাজ হয়", "শুধু সরণ হলে কাজ হয়", "শুধু ভর বাড়লে কাজ হয়", "বলের উপর নির্ভর করে"],
+        "correct_answer": "হ্যাঁ, কাজ হয়"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_029",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "নিউটনের প্রথম সূত্র",
+        "question_bn": "নিউটনের প্রথম গতিসূত্র অনুযায়ী বাইরে থেকে বল প্রয়োগ না করলে গতিশীল বস্তু কীভাবে চলতে থাকে?",
+        "options": ["থেমে যায়", "গতি বাড়তে থাকে", "গতি কমতে থাকে", "সমবেগে সরলরেখায় চলতে থাকে", "বৃত্তাকার পথে চলে"],
+        "correct_answer": "সমবেগে সরলরেখায় চলতে থাকে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_030",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "নিউটনের দ্বিতীয় সূত্র",
+        "question_bn": "কোনো বস্তুর উপর প্রযুক্ত বল দ্বিগুণ হলে উৎপন্ন ত্বরণ কত হবে?",
+        "options": ["অর্ধেক হবে", "একই থাকবে", "তিনগুণ হবে", "চারগুণ হবে", "দ্বিগুণ হবে"],
+        "correct_answer": "দ্বিগুণ হবে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_031",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গতির প্রকার",
+        "question_bn": "সরলরেখা বরাবর চলন্ত সাইকেলের চাকার গতি কোন ধরনের?",
+        "options": ["শুধু সরলরৈখিক গতি", "শুধু ঘূর্ণন গতি", "ঘূর্ণন ও সরলরৈখিক গতির মিশ্রণ", "বৃত্তাকার গতি", "দোলন গতি"],
+        "correct_answer": "ঘূর্ণন ও সরলরৈখিক গতির মিশ্রণ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_032",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বলের একক",
+        "question_bn": "১ নিউটন বল সমান কী?",
+        "options": ["১ কিলোগ্রাম × ১ মিটার/সেকেন্ড", "১ কিলোগ্রাম × ১ মিটার/সেকেন্ড²", "১ গ্রাম × ১ মিটার/সেকেন্ড", "১ কিলোগ্রাম × ১ মিটার²/সেকেন্ড", "১ গ্রাম × ১ মিটার/সেকেন্ড²"],
+        "correct_answer": "১ কিলোগ্রাম × ১ মিটার/সেকেন্ড²"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_033",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ছাদ থেকে ছোঁড়া পাথর",
+        "question_bn": "ছাদ থেকে সামনের দিকে ছুড়ে দেওয়া পাথরের গতি কোন ধরনের?",
+        "options": ["সরলরৈখিক গতি", "বৃত্তাকার গতি", "দোলন গতি", "বক্রপথে গতি", "ঘূর্ণন গতি"],
+        "correct_answer": "বক্রপথে গতি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_034",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "কাজের পরিমাণ",
+        "question_bn": "কাজের পরিমাণ কোন কোন বিষয়ের উপর নির্ভর করে?",
+        "options": ["শুধু বলের উপর", "শুধু সরণের উপর", "বল ও সময়ের উপর", "প্রযুক্ত বল ও সরণের উপর", "সরণ ও সময়ের উপর"],
+        "correct_answer": "প্রযুক্ত বল ও সরণের উপর"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_035",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ত্বরণ ও বেগ",
+        "question_bn": "বেগ কমে গেলে ত্বরণ কেমন হয়?",
+        "options": ["ধনাত্মক", "শূন্য", "অপরিবর্তিত", "ঋণাত্মক", "অসীম"],
+        "correct_answer": "ঋণাত্মক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_036",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পারস্পরিক বল",
+        "question_bn": "দুটি বস্তুর উপর পরস্পর বিপরীত দিক থেকে সমমানের বল প্রয়োগ করলে সার্বিক বল কত হয়?",
+        "options": ["দ্বিগুণ", "অর্ধেক", "শূন্য", "এক", "অনির্ধারিত"],
+        "correct_answer": "শূন্য"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_037",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "নিউটনের জন্ম",
+        "question_bn": "স্যার আইজাক নিউটন কত খ্রিস্টাব্দে জন্মগ্রহণ করেন?",
+        "options": ["১৬৩২", "১৬৫৫", "১৬৪২", "১৬৬৯", "১৭২৭"],
+        "correct_answer": "১৬৪২"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_038",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বৈদ্যুতিক পাখা",
+        "question_bn": "বৈদ্যুতিক পাখার গতি কোন ধরনের?",
+        "options": ["সরলরৈখিক গতি", "বৃত্তাকার গতি", "ঘূর্ণন গতি", "দোলন গতি", "বক্রপথে গতি"],
+        "correct_answer": "ঘূর্ণন গতি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_039",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সরণ ও অভিমুখ",
+        "question_bn": "কোনো যাত্রার অভিমুখ নির্ধারণ করতে কী জানা প্রয়োজন?",
+        "options": ["শুধু অতিক্রান্ত দূরত্ব", "শুধু সময়", "সরণ", "বেগ", "ত্বরণ"],
+        "correct_answer": "সরণ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_040",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "কাজ ও শক্তি",
+        "question_bn": "শরীর থেকে শক্তি খরচ হলে কোন লক্ষণ দেখা যায়?",
+        "options": ["ঘুম পায়", "ক্লান্তি ও হৃৎস্পন্দন বৃদ্ধি পায়", "খিদে কমে যায়", "চোখ জ্বলে", "মাথা ব্যথা হয়"],
+        "correct_answer": "ক্লান্তি ও হৃৎস্পন্দন বৃদ্ধি পায়"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_041",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মন্দন গণনা",
+        "question_bn": "একটি সাইকেল ৮ মি/সে বেগে চলছিল। ব্রেক কষায় ২ সেকেন্ডে থেমে গেল। ত্বরণ কত?",
+        "options": ["-৪ মি/সেকেন্ড²", "+৪ মি/সেকেন্ড²", "-৮ মি/সেকেন্ড²", "+৮ মি/সেকেন্ড²", "-২ মি/সেকেন্ড²"],
+        "correct_answer": "-৪ মি/সেকেন্ড²"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_042",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "কাজ গণনা",
+        "question_bn": "৫ নিউটন বল প্রয়োগ করে একটি বস্তুকে ৩ মিটার সরানো হলো। মোট কত কাজ হলো?",
+        "options": ["৮ জুল", "২ জুল", "১৫ জুল", "১৫ নিউটন", "৮ নিউটন"],
+        "correct_answer": "১৫ জুল"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_043",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "নিউটনের দ্বিতীয় সূত্র প্রয়োগ",
+        "question_bn": "২ কিলোগ্রাম ভরের একটি বস্তুতে ৩ মি/সেকেন্ড² ত্বরণ সৃষ্টি করতে কত বল লাগবে?",
+        "options": ["১ নিউটন", "৫ নিউটন", "৬ নিউটন", "১০ নিউটন", "১.৫ নিউটন"],
+        "correct_answer": "৬ নিউটন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_044",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "গড় দ্রুতি গণনা",
+        "question_bn": "একটি পিঁপড়ে ১৫ সেকেন্ডে ১৫ সেমি প্রকৃত দূরত্ব অতিক্রম করলে গড় দ্রুতি কত?",
+        "options": ["০.৫ সেমি/সেকেন্ড", "১.৫ সেমি/সেকেন্ড", "২ সেমি/সেকেন্ড", "১ সেমি/সেকেন্ড", "৩ সেমি/সেকেন্ড"],
+        "correct_answer": "১ সেমি/সেকেন্ড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_045",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "স্প্রিং ও কাজ",
+        "question_bn": "স্প্রিংয়ের দুই দিক থেকে টান দিলে স্প্রিংয়ের সামগ্রিক সরণ না হলেও কাজ হয় কারণ—",
+        "options": ["বল প্রয়োগ হয়েছে বলে", "সময় ব্যয় হয়েছে বলে", "স্প্রিংয়ের ভেতরকার ছোটো ছোটো অংশের স্থান পরিবর্তন হয়", "তাপ উৎপন্ন হয় বলে", "শক্তি সঞ্চিত হয় বলে"],
+        "correct_answer": "স্প্রিংয়ের ভেতরকার ছোটো ছোটো অংশের স্থান পরিবর্তন হয়"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_046",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "পেশি ও কাজ",
+        "question_bn": "শ্বাস নেওয়ার সময় ফুসফুসের সামগ্রিক সরণ না হলেও কাজ হয়। এর কারণ কী?",
+        "options": ["হৃদপিণ্ড সংকুচিত হয়", "বায়ু প্রবেশ করে", "পেশির সংকোচন-প্রসারণে ছোটো ছোটো সরণ ঘটে", "তাপ উৎপন্ন হয়", "শক্তি নষ্ট হয়"],
+        "correct_answer": "পেশির সংকোচন-প্রসারণে ছোটো ছোটো সরণ ঘটে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_047",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "নিউটনের তৃতীয় সূত্র প্রয়োগ",
+        "question_bn": "নৌকা থেকে লাফিয়ে নামার সময় নৌকা পিছনে সরে যায় কারণ—",
+        "options": ["নৌকার ওজন বেশি", "জলের স্রোত আছে", "নিউটনের তৃতীয় সূত্র অনুযায়ী নৌকা প্রতিক্রিয়া বল প্রয়োগ করে", "বাতাসের চাপে", "মাধ্যাকর্ষণের কারণে"],
+        "correct_answer": "নিউটনের তৃতীয় সূত্র অনুযায়ী নৌকা প্রতিক্রিয়া বল প্রয়োগ করে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_048",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ল্যাকটিক অ্যাসিড",
+        "question_bn": "অতিরিক্ত পরিশ্রমে পেশিতে ব্যথার কারণ কী?",
+        "options": ["অক্সিজেন বেশি জমা", "গ্লুকোজ জমা", "ল্যাকটিক অ্যাসিড জমা", "জল জমা", "কার্বন ডাই অক্সাইড জমা"],
+        "correct_answer": "ল্যাকটিক অ্যাসিড জমা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_049",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "গড় হিসেব",
+        "question_bn": "গড় দ্রুতি ও গড় বেগকে 'গড়' বলার কারণ কী?",
+        "options": ["এটি সঠিক নয় বলে", "নির্দিষ্ট মুহূর্তের হিসেব নয়, একটি সময়ের ব্যবধানের হিসেব বলে", "শুধু প্রকৃত দূরত্বের হিসেব বলে", "শুধু সরণের হিসেব বলে", "অনুমানের উপর নির্ভর করে বলে"],
+        "correct_answer": "নির্দিষ্ট মুহূর্তের হিসেব নয়, একটি সময়ের ব্যবধানের হিসেব বলে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_mcq_050",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "দেয়ালে বল প্রয়োগ",
+        "question_bn": "চক মাখানো দেয়ালে ঠেলা দিলে হাতে চকের দাগ লাগে। এটি প্রমাণ করে যে—",
+        "options": ["দেয়াল নরম হয়ে যায়", "দেয়ালেও সামান্য সরণ হয়", "চক আলোয় ওঠে", "হাতের চাপ বেশি", "দেয়াল ভেঙে যায়"],
+        "correct_answer": "দেয়ালেও সামান্য সরণ হয়"
+      }
+    ],
+    "match_pairs": [
+      {
+        "id": "paribesh_o_bigyan_ch06_match_001",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গতির প্রকার",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "লাটুর গতি", "right": "ঘূর্ণন গতি"},
+          {"left": "পেন্ডুলামের গতি", "right": "দোলন গতি"},
+          {"left": "নাগরদোলার গতি", "right": "বৃত্তাকার পথে গতি"},
+          {"left": "সোজা রাস্তায় গাড়ির গতি", "right": "সরলরৈখিক গতি"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_match_002",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বিজ্ঞানের সূত্র",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "W = F × d", "right": "কাজের সূত্র"},
+          {"left": "F = m × a", "right": "নিউটনের দ্বিতীয় সূত্র"},
+          {"left": "জুল", "right": "কাজের একক"},
+          {"left": "নিউটন", "right": "বলের একক"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_match_003",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "জাড্যের উদাহরণ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "বাস হঠাৎ চললে যাত্রী পিছনে হেলে", "right": "স্থিতিজাড্য"},
+          {"left": "সাইকেল পা থামালেও এগোয়", "right": "গতিজাড্য"},
+          {"left": "ব্রেক কষলে যাত্রী সামনে ঝোঁকে", "right": "গতিজাড্য"},
+          {"left": "কোট ঝাড়লে ধুলো পড়ে", "right": "স্থিতিজাড্য"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_match_004",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "গতি ও পরিমাপ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "প্রকৃত পথের দৈর্ঘ্য", "right": "অতিক্রান্ত দূরত্ব"},
+          {"left": "সরলরেখার দৈর্ঘ্য ও দিক", "right": "সরণ"},
+          {"left": "দূরত্ব ÷ সময়", "right": "গড় দ্রুতি"},
+          {"left": "বেগের পরিবর্তন ÷ সময়", "right": "ত্বরণ"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_match_005",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "নিউটনের সূত্র",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "স্থির বস্তু স্থির থাকে", "right": "নিউটনের প্রথম সূত্র"},
+          {"left": "F = ma", "right": "নিউটনের দ্বিতীয় সূত্র"},
+          {"left": "ক্রিয়া ও প্রতিক্রিয়া সমান", "right": "নিউটনের তৃতীয় সূত্র"},
+          {"left": "জাড্য ধর্ম", "right": "নিউটনের প্রথম সূত্র"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_match_006",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গতির উদাহরণ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "স্ক্রু-ড্রাইভারের গতি", "right": "ঘূর্ণন গতি"},
+          {"left": "বৈদ্যুতিক পাখার গতি", "right": "ঘূর্ণন গতি"},
+          {"left": "পাথর ছুড়ে দেওয়ার গতি", "right": "বক্রপথে গতি"},
+          {"left": "রুলার বরাবর পেনসিলের গতি", "right": "সরলরৈখিক গতি"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_match_007",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "কাজ ও শক্তি",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "কাজ করার সামর্থ্য", "right": "শক্তি"},
+          {"left": "বল × সরণ", "right": "কাজ"},
+          {"left": "ঋণাত্মক ত্বরণ", "right": "মন্দন"},
+          {"left": "ভর × ত্বরণ", "right": "বল"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_match_008",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "নিউটনের জীবন",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "নিউটনের জন্মসাল", "right": "১৬৪২"},
+          {"left": "নিউটনের বিখ্যাত গ্রন্থ", "right": "Principia"},
+          {"left": "নিউটনের মৃত্যুসাল", "right": "১৭২৭"},
+          {"left": "কেমব্রিজে অধ্যাপক হওয়ার বয়স", "right": "২৭ বছর"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_match_009",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বলের প্রভাব",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "স্প্রিংয়ে বল প্রয়োগ", "right": "আকৃতির পরিবর্তন"},
+          {"left": "পিচকিরিতে বল প্রয়োগ", "right": "বেলুন ফোলা"},
+          {"left": "দেয়ালে বল প্রয়োগ", "right": "সামান্য সরণ"},
+          {"left": "বইয়ে বল প্রয়োগ", "right": "স্থান পরিবর্তন"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_match_010",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "শরীরবিদ্যা ও শক্তি",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "পেশিতে ব্যথার কারণ", "right": "ল্যাকটিক অ্যাসিড"},
+          {"left": "শক্তির উৎস", "right": "খাবার"},
+          {"left": "শরীর গরম হওয়ার কারণ", "right": "শ্বসনের হার বৃদ্ধি"},
+          {"left": "শক্তি খরচের লক্ষণ", "right": "হৃৎস্পন্দন বৃদ্ধি"}
+        ]
+      }
+    ],
+    "true_false": [
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_001",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সরলরৈখিক গতি",
+        "question_bn": "সোজা রাস্তায় চলন্ত গাড়ির গতি সরলরৈখিক গতি।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_002",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সরণ",
+        "question_bn": "সরণ সবসময় বক্ররেখা বরাবর হয়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_003",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "কাজের একক",
+        "question_bn": "SI পদ্ধতিতে কাজের একক জুল।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_004",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বলের একক",
+        "question_bn": "SI পদ্ধতিতে বলের একক কিলোগ্রাম।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_005",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শক্তি",
+        "question_bn": "কাজ করার সামর্থ্যকে শক্তি বলে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_006",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "জাড্য",
+        "question_bn": "সমবেগে গতিশীল থাকার ধর্মকে স্থিতিজাড্য বলে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_007",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "নিউটন",
+        "question_bn": "নিউটন একজন ইংরেজ বিজ্ঞানী ছিলেন।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_008",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মন্দন",
+        "question_bn": "ধনাত্মক ত্বরণকে মন্দন বলে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_009",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ঘূর্ণন গতি",
+        "question_bn": "বৈদ্যুতিক পাখার গতি ঘূর্ণন গতি।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_010",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "দূরত্ব ও সরণ",
+        "question_bn": "বাঁকা পথে চললে অতিক্রান্ত দূরত্ব ও সরণের মাপ সবসময় সমান।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_011",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "নিউটনের প্রথম সূত্র",
+        "question_bn": "বাইরে থেকে বল প্রয়োগ না করলে গতিশীল বস্তু সমবেগে সরলরেখায় চলতে থাকে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_012",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বল প্রয়োগ",
+        "question_bn": "পরস্পর বিপরীত দিক থেকে সমমানের বল প্রয়োগ করলে সার্বিক বল শূন্য হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_013",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ত্বরণ ও বল",
+        "question_bn": "প্রযুক্ত বলের দিকেই বস্তুর বেগ বৃদ্ধি পায়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_014",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "কাজ ও সরণ",
+        "question_bn": "বল প্রয়োগে বস্তুর শুধু আকৃতি পরিবর্তন হলে কোনো কাজ হয় না।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_015",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "নিউটনের তৃতীয় সূত্র",
+        "question_bn": "ক্রিয়া ও প্রতিক্রিয়া সবসময় একসঙ্গে ঘটে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_016",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গড় হিসেব",
+        "question_bn": "গড় বেগ নির্দিষ্ট মুহূর্তের হিসেব।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_017",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "জাড্য",
+        "question_bn": "স্থির বাস হঠাৎ চলতে শুরু করলে যাত্রী পিছনে হেলে পড়েন কারণ স্থিতিজাড্য।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_018",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "নিউটনের দ্বিতীয় সূত্র",
+        "question_bn": "একটি নির্দিষ্ট ভরের বস্তুর ওপর প্রযুক্ত বল বাড়লে ত্বরণ কমে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_019",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "শ্বসন ও শক্তি",
+        "question_bn": "অতিরিক্ত পরিশ্রমে পেশিকোশে ল্যাকটিক অ্যাসিড জমে পেশিতে ব্যথা হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_tf_020",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "সরলরেখায় চলা ও সরণ",
+        "question_bn": "সরলরেখা বরাবর চললে অতিক্রান্ত দূরত্ব ও সরণের মাপ সমান হয়।",
+        "correct_answer": "true"
+      }
+    ],
+    "tap_sequence": [
+      {
+        "id": "paribesh_o_bigyan_ch06_seq_001",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "নিউটনের গতিসূত্র",
+        "question_bn": "নিউটনের গতিসূত্রগুলি সঠিক ক্রমে সাজাও",
+        "items": ["তৃতীয় সূত্র", "প্রথম সূত্র", "দ্বিতীয় সূত্র", "চতুর্থ সূত্র"],
+        "correct_order": ["প্রথম সূত্র", "দ্বিতীয় সূত্র", "তৃতীয় সূত্র", "চতুর্থ সূত্র"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_seq_002",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সাইকেলের বেগ বৃদ্ধি",
+        "question_bn": "সাইকেলের বেগ বাড়ার ঘটনাক্রম সঠিক ক্রমে সাজাও",
+        "items": ["বেগ ৮ মি/সে হলো", "বৃষ্টি আসছে দেখল", "বেগ ৫ মি/সে ছিল", "৩ সেকেন্ড সময় লাগল"],
+        "correct_order": ["বেগ ৫ মি/সে ছিল", "বৃষ্টি আসছে দেখল", "৩ সেকেন্ড সময় লাগল", "বেগ ৮ মি/সে হলো"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_seq_003",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বাসের যাত্রী ও জাড্য",
+        "question_bn": "স্থির বাস চলতে শুরু করলে যাত্রীর অভিজ্ঞতা সঠিক ক্রমে সাজাও",
+        "items": ["যাত্রীর বাকি শরীর স্থির থাকে", "বাস চলতে শুরু করে", "পা এগিয়ে যায়", "যাত্রী পিছনে হেলে পড়েন"],
+        "correct_order": ["বাস চলতে শুরু করে", "পা এগিয়ে যায়", "যাত্রীর বাকি শরীর স্থির থাকে", "যাত্রী পিছনে হেলে পড়েন"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_seq_004",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "নৌকা থেকে লাফ",
+        "question_bn": "নৌকা থেকে লাফ দিয়ে নামার ঘটনাক্রম সঠিক ক্রমে সাজাও",
+        "items": ["নৌকা পিছিয়ে যায়", "রেশমা লাফ দেয়", "নৌকায় প্রতিক্রিয়া বল তৈরি হয়", "রেশমা সামনে আসে"],
+        "correct_order": ["রেশমা লাফ দেয়", "নৌকায় প্রতিক্রিয়া বল তৈরি হয়", "রেশমা সামনে আসে", "নৌকা পিছিয়ে যায়"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_seq_005",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "কাজের পরীক্ষা",
+        "question_bn": "একই উচ্চতায় বেশি ভার তোলার পরীক্ষার ধাপগুলি সঠিক ক্রমে সাজাও",
+        "items": ["তুলনা করো কোথায় বেশি কাজ হলো", "বিভিন্ন ওজনের বাটখারা নাও", "একই উচ্চতায় তোলো", "বল পরিমাপ করো"],
+        "correct_order": ["বিভিন্ন ওজনের বাটখারা নাও", "একই উচ্চতায় তোলো", "বল পরিমাপ করো", "তুলনা করো কোথায় বেশি কাজ হলো"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_seq_006",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "সাইকেলের ব্রেক",
+        "question_bn": "সাইকেলের ব্রেক কষার ঘটনাক্রম সঠিক ক্রমে সাজাও",
+        "items": ["সাইকেল থেমে যায়", "বেগ ছিল ৮ মি/সে", "ব্রেক কষা হলো", "২ সেকেন্ড পরে বেগ শূন্য"],
+        "correct_order": ["বেগ ছিল ৮ মি/সে", "ব্রেক কষা হলো", "২ সেকেন্ড পরে বেগ শূন্য", "সাইকেল থেমে যায়"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_seq_007",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "পেশির কাজ ও শক্তি",
+        "question_bn": "অতিরিক্ত পরিশ্রমে শরীরে যা ঘটে তা সঠিক ক্রমে সাজাও",
+        "items": ["পেশিতে ব্যথা হয়", "শ্বসন বেড়ে যায়", "ল্যাকটিক অ্যাসিড জমে", "অক্সিজেনের চাহিদা বাড়ে"],
+        "correct_order": ["শ্বসন বেড়ে যায়", "অক্সিজেনের চাহিদা বাড়ে", "ল্যাকটিক অ্যাসিড জমে", "পেশিতে ব্যথা হয়"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_seq_008",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "পিচকিরি ও বেলুন",
+        "question_bn": "পিচকিরি দিয়ে বেলুন ফোলানোর ঘটনাক্রম সঠিক ক্রমে সাজাও",
+        "items": ["বেলুন ফুলে ওঠে", "পিচকিরিতে বল প্রয়োগ হয়", "বায়ু সংকুচিত হয়", "বায়ু বেলুনে প্রবেশ করে"],
+        "correct_order": ["পিচকিরিতে বল প্রয়োগ হয়", "বায়ু সংকুচিত হয়", "বায়ু বেলুনে প্রবেশ করে", "বেলুন ফুলে ওঠে"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_seq_009",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পিঁপড়ের যাত্রা",
+        "question_bn": "পিঁপড়ের যাত্রার পর্যায়গুলি সঠিক সময়ক্রমে সাজাও",
+        "items": ["AR = ৪ সেমি, সময় ১৫ সেকেন্ড", "AP = ২ সেমি, সময় ৫ সেকেন্ড", "AQ = ৩ সেমি, সময় ১০ সেকেন্ড", "A বিন্দু থেকে যাত্রা শুরু"],
+        "correct_order": ["A বিন্দু থেকে যাত্রা শুরু", "AP = ২ সেমি, সময় ৫ সেকেন্ড", "AQ = ৩ সেমি, সময় ১০ সেকেন্ড", "AR = ৪ সেমি, সময় ১৫ সেকেন্ড"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_seq_010",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "নিউটনের জীবনক্রম",
+        "question_bn": "নিউটনের জীবনের ঘটনাগুলি সঠিক সময়ক্রমে সাজাও",
+        "items": ["কেমব্রিজে অধ্যাপক হলেন", "জন্ম হলো", "বি.এ. ডিগ্রি পেলেন", "মৃত্যু হলো"],
+        "correct_order": ["জন্ম হলো", "বি.এ. ডিগ্রি পেলেন", "কেমব্রিজে অধ্যাপক হলেন", "মৃত্যু হলো"]
+      }
+    ],
+    "categorize": [
+      {
+        "id": "paribesh_o_bigyan_ch06_cat_001",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "গতির প্রকার",
+        "question_bn": "নিচের গতিগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "সরলরৈখিক গতি": ["রুলার বরাবর পেনসিলের গতি", "সোজা রাস্তায় গাড়ির গতি", "সরলরেখায় ছুটে যাওয়া বলের গতি", "সোজা পথে হাঁটার গতি"],
+          "ঘূর্ণন গতি": ["লাটুর গতি", "বৈদ্যুতিক পাখার গতি", "স্ক্রু-ড্রাইভারের গতি", "চাকার অক্ষের গতি"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_cat_002",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "গতির প্রকার",
+        "question_bn": "নিচের গতিগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "বৃত্তাকার পথে গতি": ["নাগরদোলার গতি", "ঘড়ির কাঁটার অগ্রভাগের গতি", "মেরি-গো-রাউন্ডের যাত্রীর গতি", "পৃথিবীর চারদিকে চাঁদের গতি"],
+          "দোলন গতি": ["ঘড়ির পেন্ডুলামের গতি", "দোলনায় দোলানোর গতি", "হিন্দোলায় দোলার গতি", "ঘণ্টার কাঁটার দোলার গতি"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_cat_003",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "জাড্যের উদাহরণ",
+        "question_bn": "নিচের উদাহরণগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "স্থিতিজাড্যের উদাহরণ": ["স্থির বাস চলতে শুরু করলে যাত্রী পিছনে হেলে", "কোট ঝাড়লে ধুলো পড়ে", "কাগজ সরালে পেনসিল বাক্স জায়গায় থাকে", "কুলো দিয়ে চাল ঝাড়লে তুষ আলাদা হয়"],
+          "গতিজাড্যের উদাহরণ": ["ব্রেক কষলে যাত্রী সামনে ঝোঁকে", "পা থামালেও সাইকেল এগোয়", "পাখি ডানা থামালেও ভাসে", "লং জাম্পে দৌড়ে এসে লাফ দেয়"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_cat_004",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "দূরত্ব ও সরণ",
+        "question_bn": "নিচের ক্ষেত্রে দূরত্ব ও সরণ সমান কিনা, সঠিক দলে ভাগ করো",
+        "categories": {
+          "দূরত্ব ও সরণ সমান": ["সরলরেখায় চলা পিঁপড়ে", "সোজা রাস্তায় গাড়ি চলা", "সরলরেখায় ছুটে যাওয়া বল", "পাতার মোটা শিরা বরাবর যাওয়া"],
+          "দূরত্ব ও সরণ আলাদা": ["পাতার ধার বরাবর বাঁকা পথে পিঁপড়ে", "আঁকাবাঁকা রাস্তায় গাড়ি", "নদীর ধার বরাবর নৌকা", "পাহাড়ের গা বেয়ে চলা পথ"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_cat_005",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "কাজ হয় কি না",
+        "question_bn": "নিচের ঘটনাগুলিতে কাজ হয় কি না, সঠিক দলে ভাগ করো",
+        "categories": {
+          "কাজ হয়": ["স্প্রিং টানা হলে", "বেলুন ফোলানো হলে", "বাটখারা তোলা হলে", "ফুসফুসের সংকোচন-প্রসারণ"],
+          "কাজ হয় না (সরণ ও আকৃতি পরিবর্তন নেই)": ["দেয়াল স্থির থাকলে এবং আকৃতি না বদলালে", "বল ধরে রাখলে কিন্তু না সরালে", "শুধু বল প্রয়োগ করলে কিন্তু সরণ না হলে", "স্থির বস্তুর উপর শুধু ওজন রাখলে"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_cat_006",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "ত্বরণ ও মন্দন",
+        "question_bn": "নিচের ঘটনাগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "ত্বরণ (বেগ বাড়ছে)": ["ট্রেন স্টেশন ছাড়ার পরে", "সাইকেল চালু করার পরে", "বল নিচে পড়তে শুরু করলে", "মোটরবাইক এক্সিলারেটর চাপলে"],
+          "মন্দন (বেগ কমছে)": ["ট্রেন স্টেশনে থামার আগে", "সাইকেলে ব্রেক কষলে", "মাঠে গড়িয়ে যাওয়া বল থামার আগে", "গাড়ি লাল বাতিতে থামার সময়"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_cat_007",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "নিউটনের সূত্র প্রয়োগ",
+        "question_bn": "নিচের উদাহরণগুলিকে সঠিক নিউটনের সূত্র অনুযায়ী ভাগ করো",
+        "categories": {
+          "নিউটনের প্রথম সূত্র": ["পাখি ডানা থামালেও ভাসে", "ব্রেক কষলে যাত্রী সামনে ঝোঁকে", "বাস চলতে শুরু করলে যাত্রী পিছনে হেলে", "কাগজ টানলে পেনসিল বাক্স থাকে"],
+          "নিউটনের তৃতীয় সূত্র": ["নৌকা থেকে লাফ দিলে নৌকা পিছায়", "হাঁটার সময় পা ঠেলে মাটি", "মাছ পানি ঠেলে সাঁতারে", "রকেট গ্যাস ছেড়ে উপরে ওঠে"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_cat_008",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "বল ও কাজ",
+        "question_bn": "নিচের পরিমাণগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "ভেক্টর রাশি (দিক ও মাপ দুটোই আছে)": ["সরণ", "বেগ", "বল", "ত্বরণ"],
+          "স্কেলার রাশি (শুধু মাপ আছে, দিক নেই)": ["দূরত্ব", "দ্রুতি", "কাজ", "শক্তি"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_cat_009",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "শক্তি ও কাজের লক্ষণ",
+        "question_bn": "নিচের লক্ষণগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "শরীরে শক্তি খরচ হচ্ছে": ["হৃৎস্পন্দন বৃদ্ধি", "নিঃশ্বাস-প্রশ্বাসের হার বৃদ্ধি", "শরীর গরম হওয়া", "ক্লান্তি অনুভব"],
+          "বল প্রয়োগে বস্তুতে কাজ হয়": ["বাটখারা উপরে উঠে যাওয়া", "স্প্রিং টেনে লম্বা হওয়া", "বেলুন ফুলে ওঠা", "সাইকেল এগিয়ে যাওয়া"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_cat_010",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "গতির প্রকার মিশ্রণ",
+        "question_bn": "নিচের গতিগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "মিশ্র গতি (দুই ধরনের গতির মিলন)": ["সরলরেখায় চলন্ত সাইকেলের চাকা", "সামনে এগোনো লাটু", "গড়িয়ে যাওয়া ক্রিকেট বল", "সামনে যাওয়া গাড়ির চাকা"],
+          "একক গতি (একটিমাত্র ধরনের গতি)": ["স্থির লাটু পাক খাওয়া", "পেন্ডুলামের দোলা", "নাগরদোলার যাত্রী", "ঘড়ির কাঁটার মাথা"]
+        }
+      }
+    ],
+    "short_write": [
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_001",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গতির প্রকার",
+        "question_bn": "লাটুর গতি কোন ধরনের গতি?",
+        "expected_answer": "ঘূর্ণন গতি",
+        "max_words": 2,
+        "answer_slot_id": 1
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_002",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সরণ",
+        "question_bn": "দুটি বিন্দুর মধ্যে সরলরেখার দৈর্ঘ্য ও দিককে একত্রে কী বলে?",
+        "expected_answer": "সরণ",
+        "max_words": 1,
+        "answer_slot_id": 2
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_003",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "কাজের একক",
+        "question_bn": "কাজ পরিমাপের SI একক কী?",
+        "expected_answer": "জুল",
+        "max_words": 1,
+        "answer_slot_id": 3
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_004",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বলের একক",
+        "question_bn": "বল পরিমাপের SI একক কী?",
+        "expected_answer": "নিউটন",
+        "max_words": 1,
+        "answer_slot_id": 4
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_005",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "শক্তি",
+        "question_bn": "কাজ করার সামর্থ্যকে কী বলে?",
+        "expected_answer": "শক্তি",
+        "max_words": 1,
+        "answer_slot_id": 5
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_006",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ত্বরণ",
+        "question_bn": "এক সেকেন্ডে বেগের পরিবর্তনের পরিমাণকে কী বলে?",
+        "expected_answer": "ত্বরণ",
+        "max_words": 1,
+        "answer_slot_id": 6
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_007",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মন্দন",
+        "question_bn": "ঋণাত্মক ত্বরণকে কী বলে?",
+        "expected_answer": "মন্দন",
+        "max_words": 1,
+        "answer_slot_id": 7
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_008",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "জাড্য",
+        "question_bn": "স্থির থাকার ধর্মকে কী বলে?",
+        "expected_answer": "স্থিতিজাড্য",
+        "max_words": 1,
+        "answer_slot_id": 8
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_009",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গতিজাড্য",
+        "question_bn": "সমবেগে গতিশীল থাকার ধর্মকে কী বলে?",
+        "expected_answer": "গতিজাড্য",
+        "max_words": 1,
+        "answer_slot_id": 9
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_010",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গতির প্রকার",
+        "question_bn": "ঘড়ির পেন্ডুলামের গতি কোন ধরনের?",
+        "expected_answer": "দোলন গতি",
+        "max_words": 2,
+        "answer_slot_id": 10
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_011",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গতির প্রকার",
+        "question_bn": "নাগরদোলার গতি কোন ধরনের?",
+        "expected_answer": "বৃত্তাকার গতি",
+        "max_words": 2,
+        "answer_slot_id": 11
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_012",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "নিউটন",
+        "question_bn": "নিউটন কোন দেশের বিজ্ঞানী?",
+        "expected_answer": "ইংল্যান্ড",
+        "max_words": 1,
+        "answer_slot_id": 12
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_013",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "নিউটনের জন্ম",
+        "question_bn": "নিউটন কত সালে জন্মগ্রহণ করেন?",
+        "expected_answer": "১৬৪২",
+        "max_words": 1,
+        "answer_slot_id": 13
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_014",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "নিউটনের গ্রন্থ",
+        "question_bn": "নিউটনের বিশ্ববিখ্যাত গ্রন্থের নাম কী?",
+        "expected_answer": "Principia",
+        "max_words": 1,
+        "answer_slot_id": 14
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_015",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "নিউটনের মৃত্যু",
+        "question_bn": "নিউটন কত সালে মৃত্যুবরণ করেন?",
+        "expected_answer": "১৭২৭",
+        "max_words": 1,
+        "answer_slot_id": 15
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_016",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "কাজের সূত্র",
+        "question_bn": "কাজের পরিমাণ নির্ণয়ের সূত্রটি W = F × কী?",
+        "expected_answer": "d",
+        "max_words": 1,
+        "answer_slot_id": 16
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_017",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বলের সূত্র",
+        "question_bn": "F = m × a সূত্রে m কী নির্দেশ করে?",
+        "expected_answer": "ভর",
+        "max_words": 1,
+        "answer_slot_id": 17
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_018",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গড় দ্রুতি",
+        "question_bn": "প্রকৃত অতিক্রান্ত দূরত্বকে সময় দিয়ে ভাগ করলে কী পাওয়া যায়?",
+        "expected_answer": "গড় দ্রুতি",
+        "max_words": 2,
+        "answer_slot_id": 18
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_019",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গড় বেগ",
+        "question_bn": "সরণকে সময় দিয়ে ভাগ করলে কী পাওয়া যায়?",
+        "expected_answer": "গড় বেগ",
+        "max_words": 2,
+        "answer_slot_id": 19
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_020",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গতির প্রকার",
+        "question_bn": "বৈদ্যুতিক পাখার গতি কোন ধরনের?",
+        "expected_answer": "ঘূর্ণন গতি",
+        "max_words": 2,
+        "answer_slot_id": 20
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_021",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "নিউটনের সূত্র সংখ্যা",
+        "question_bn": "নিউটন মোট কতটি গতিসূত্র প্রদান করেছেন?",
+        "expected_answer": "তিনটি",
+        "max_words": 1,
+        "answer_slot_id": 21
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_022",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "স্থান পরিবর্তন",
+        "question_bn": "বস্তুর এক স্থান থেকে অন্য স্থানে যাওয়াকে কী বলে?",
+        "expected_answer": "স্থান পরিবর্তন",
+        "max_words": 2,
+        "answer_slot_id": 22
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_023",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পেশিতে ব্যথা",
+        "question_bn": "অতিরিক্ত পরিশ্রমে পেশিতে কী জমে ব্যথা হয়?",
+        "expected_answer": "ল্যাকটিক অ্যাসিড",
+        "max_words": 2,
+        "answer_slot_id": 23
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_024",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সার্বিক বল",
+        "question_bn": "পরস্পর বিপরীত দিক থেকে সমমানের বল প্রয়োগ করলে সার্বিক বল কত হয়?",
+        "expected_answer": "শূন্য",
+        "max_words": 1,
+        "answer_slot_id": 24
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_025",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "নিউটনের কলেজ",
+        "question_bn": "নিউটন কোন বিশ্ববিদ্যালয়ে পড়েছিলেন?",
+        "expected_answer": "কেমব্রিজ",
+        "max_words": 1,
+        "answer_slot_id": 25
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_026",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "নিউটনের কলেজ",
+        "question_bn": "নিউটন কেমব্রিজের কোন কলেজে পড়েছিলেন?",
+        "expected_answer": "ট্রিনিটি কলেজ",
+        "max_words": 2,
+        "answer_slot_id": 26
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_027",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "গড় হিসেব",
+        "question_bn": "কোনো সময়ের ব্যবধানে দূরত্বের হিসেবকে কী হিসেব বলে?",
+        "expected_answer": "গড় হিসেব",
+        "max_words": 2,
+        "answer_slot_id": 27
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_028",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বাস ও জাড্য",
+        "question_bn": "স্থির বাস হঠাৎ চলতে শুরু করলে যাত্রী কোন দিকে হেলে পড়েন?",
+        "expected_answer": "পিছনদিকে",
+        "max_words": 1,
+        "answer_slot_id": 28
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_029",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ক্রিয়া ও প্রতিক্রিয়া",
+        "question_bn": "নিউটনের তৃতীয় সূত্র অনুযায়ী প্রতিটি ক্রিয়ার একটি সমান ও বিপরীতমুখী কী আছে?",
+        "expected_answer": "প্রতিক্রিয়া",
+        "max_words": 1,
+        "answer_slot_id": 29
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_030",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ত্বরণ ও বল",
+        "question_bn": "প্রযুক্ত বলের দিকে কী বৃদ্ধি পায়?",
+        "expected_answer": "বেগ",
+        "max_words": 1,
+        "answer_slot_id": 30
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_031",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সরণের দিক",
+        "question_bn": "সরণ সবসময় কোন রেখা বরাবর হয়?",
+        "expected_answer": "সরলরেখা",
+        "max_words": 1,
+        "answer_slot_id": 31
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_032",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বলের সূত্র",
+        "question_bn": "নিউটনের দ্বিতীয় সূত্রে F = m × কী?",
+        "expected_answer": "a",
+        "max_words": 1,
+        "answer_slot_id": 32
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_033",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "কাজের সূত্র প্রয়োগ",
+        "question_bn": "৫ নিউটন বল প্রয়োগে ৩ মিটার সরলে কত জুল কাজ হয়?",
+        "expected_answer": "১৫ জুল",
+        "max_words": 2,
+        "answer_slot_id": 33
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_034",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শক্তির উৎস",
+        "question_bn": "আমাদের শরীরে কাজ করার শক্তি কোথা থেকে আসে?",
+        "expected_answer": "খাবার",
+        "max_words": 1,
+        "answer_slot_id": 34
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_035",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "নিউটনের অধ্যাপনা",
+        "question_bn": "নিউটন কত বছর বয়সে কেমব্রিজে অধ্যাপক হন?",
+        "expected_answer": "২৭ বছর",
+        "max_words": 2,
+        "answer_slot_id": 35
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_036",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "গড় বেগ গণনা",
+        "question_bn": "৫ সেকেন্ডে ২ সেমি সরণ হলে গড় বেগ কত?",
+        "expected_answer": "০.৪ সেমি/সেকেন্ড",
+        "max_words": 2,
+        "answer_slot_id": 36
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_037",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ত্বরণ গণনা",
+        "question_bn": "৩ সেকেন্ডে বেগ ৫ থেকে ৮ মি/সে হলে ত্বরণ কত?",
+        "expected_answer": "১ মি/সেকেন্ড²",
+        "max_words": 2,
+        "answer_slot_id": 37
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_038",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মন্দন গণনা",
+        "question_bn": "২ সেকেন্ডে বেগ ৮ থেকে ০ মি/সে হলে মন্দন কত?",
+        "expected_answer": "-৪ মি/সেকেন্ড²",
+        "max_words": 2,
+        "answer_slot_id": 38
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_039",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "F = ma প্রয়োগ",
+        "question_bn": "২ কেজি ভরের বস্তুতে ৩ মি/সেকেন্ড² ত্বরণ সৃষ্টিতে কত বল লাগে?",
+        "expected_answer": "৬ নিউটন",
+        "max_words": 2,
+        "answer_slot_id": 39
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_040",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "রয়্যাল সোসাইটি",
+        "question_bn": "নিউটন রয়্যাল সোসাইটির সভাপতি পদ কত বছর ধরে পালন করেন?",
+        "expected_answer": "২৫ বছর",
+        "max_words": 2,
+        "answer_slot_id": 40
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_041",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "দোলন গতির উদাহরণ",
+        "question_bn": "কোন বস্তুর গতি দোলন গতির উদাহরণ — পেন্ডুলাম নাকি লাটু?",
+        "expected_answer": "পেন্ডুলাম",
+        "max_words": 1,
+        "answer_slot_id": 41
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_042",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বেগ পরিবর্তন ও ত্বরণ",
+        "question_bn": "১ সেকেন্ডে বেগের পরিবর্তনকে কী বলে?",
+        "expected_answer": "ত্বরণ",
+        "max_words": 1,
+        "answer_slot_id": 42
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_043",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "শক্তি ও শ্বসন",
+        "question_bn": "শরীরে অতিরিক্ত শক্তি খরচ হলে কোন ধরনের শ্বসন বেড়ে যায়?",
+        "expected_answer": "কোষীয় শ্বসন",
+        "max_words": 2,
+        "answer_slot_id": 43
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_044",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "কাজ ও আকৃতি পরিবর্তন",
+        "question_bn": "বল প্রয়োগে আকৃতি পরিবর্তন হলে কাজ হয় — হ্যাঁ না না?",
+        "expected_answer": "হ্যাঁ",
+        "max_words": 1,
+        "answer_slot_id": 44
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_045",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "প্রকৃত দূরত্ব",
+        "question_bn": "বক্র পথের প্রকৃত দৈর্ঘ্যকে কী বলে?",
+        "expected_answer": "অতিক্রান্ত দূরত্ব",
+        "max_words": 2,
+        "answer_slot_id": 45
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_046",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "নিউটনের বি.এ.",
+        "question_bn": "নিউটন কত সালে বি.এ. ডিগ্রি পান?",
+        "expected_answer": "১৬৬৫",
+        "max_words": 1,
+        "answer_slot_id": 46
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_047",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "নিউটনের অধ্যাপনা সাল",
+        "question_bn": "নিউটন কত সালে কেমব্রিজে অধ্যাপক হন?",
+        "expected_answer": "১৬৬৯",
+        "max_words": 1,
+        "answer_slot_id": 47
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_048",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ক্রিয়া ও প্রতিক্রিয়ার সময়",
+        "question_bn": "ক্রিয়া ও প্রতিক্রিয়া কখন ঘটে?",
+        "expected_answer": "একসঙ্গে",
+        "max_words": 1,
+        "answer_slot_id": 48
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_049",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "স্ক্রু-ড্রাইভারের গতি",
+        "question_bn": "স্ক্রু-ড্রাইভারের গতি কোন ধরনের?",
+        "expected_answer": "ঘূর্ণন গতি",
+        "max_words": 2,
+        "answer_slot_id": 49
+      },
+      {
+        "id": "paribesh_o_bigyan_ch06_sw_050",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "গড় দ্রুতি গণনা",
+        "question_bn": "১৫ সেকেন্ডে ১৫ সেমি দূরত্ব গেলে গড় দ্রুতি কত?",
+        "expected_answer": "১ সেমি/সেকেন্ড",
+        "max_words": 2,
+        "answer_slot_id": 50
+      }
+    ]
+  }
+}

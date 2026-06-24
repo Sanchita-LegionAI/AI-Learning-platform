@@ -1,0 +1,2394 @@
+{
+  "book_id": "paribesh_o_bigyan",
+  "book_name": "Paribesh O Bigyan",
+  "book_name_bn": "পরিবেশ ও বিজ্ঞান",
+  "subject": "science",
+  "class": 7,
+  "chapter_no": 3,
+  "chapter_title_bn": "চুম্বক",
+  "source_file": "paribesh_o_bigyan_ch03_questions.json",
+  "questions": {
+    "mcq": [
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_001",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চৌষক পদার্থ",
+        "question_bn": "নিচের কোনটি চৌষক পদার্থ?",
+        "options": [
+          "প্লাস্টিক",
+          "রবার",
+          "লোহা",
+          "কাঠ",
+          "কাগজ"
+        ],
+        "correct_answer": "লোহা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_002",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "অচৌষক পদার্থ",
+        "question_bn": "নিচের কোনটি অচৌষক পদার্থ?",
+        "options": [
+          "লোহা",
+          "নিকেল",
+          "কোবাল্ট",
+          "কাঠ",
+          "ইস্পাত"
+        ],
+        "correct_answer": "কাঠ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_003",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের প্রকার",
+        "question_bn": "প্রকৃতিতে পাওয়া যায় এমন চুম্বককে কী বলে?",
+        "options": [
+          "কৃত্রিম চুম্বক",
+          "তড়িৎ চুম্বক",
+          "প্রাকৃতিক চুম্বক",
+          "দণ্ড চুম্বক",
+          "চুম্বক শলাকা"
+        ],
+        "correct_answer": "প্রাকৃতিক চুম্বক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_004",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ম্যাগনেটাইট",
+        "question_bn": "প্রাকৃতিক চুম্বকের নাম কী?",
+        "options": [
+          "ম্যাগনেসিয়াম",
+          "ম্যাগনেটাইট",
+          "ম্যাগনেসাইট",
+          "ম্যাগনেট স্টোন",
+          "ফেরাইট"
+        ],
+        "correct_answer": "ম্যাগনেটাইট"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_005",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের মেরু",
+        "question_bn": "একটি চুম্বকে কতটি মেরু থাকে?",
+        "options": [
+          "এক",
+          "তিন",
+          "চার",
+          "পাঁচ",
+          "দুই"
+        ],
+        "correct_answer": "দুই"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_006",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের আকর্ষণ",
+        "question_bn": "চুম্বকের কোন জায়গায় আকর্ষণ ক্ষমতা সবচেয়ে বেশি?",
+        "options": [
+          "মাঝখানে",
+          "উদাসীন অঞ্চলে",
+          "মেরুতে",
+          "পার্শ্বে",
+          "সর্বত্র সমান"
+        ],
+        "correct_answer": "মেরুতে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_007",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "দিক-নির্দেশক ধর্ম",
+        "question_bn": "মুক্তভাবে ঝুলন্ত চুম্বক কোন দিকে মুখ করে থাকে?",
+        "options": [
+          "পূর্ব-পশ্চিম",
+          "উত্তর-দক্ষিণ",
+          "উত্তর-পূর্ব",
+          "দক্ষিণ-পশ্চিম",
+          "যেকোনো দিক"
+        ],
+        "correct_answer": "উত্তর-দক্ষিণ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_008",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের ব্যবহার",
+        "question_bn": "নাবিকরা দিক নির্ণয়ের জন্য কী ব্যবহার করেন?",
+        "options": [
+          "থার্মোমিটার",
+          "ব্যারোমিটার",
+          "নৌকম্পাস",
+          "স্টেথোস্কোপ",
+          "মাইক্রোস্কোপ"
+        ],
+        "correct_answer": "নৌকম্পাস"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_009",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের নামকরণ",
+        "question_bn": "চুম্বকের ইংরেজি নাম Magnet কোথা থেকে এসেছে?",
+        "options": [
+          "ম্যাগনেসিয়াম ধাতু",
+          "ম্যাগনেস নামক মেষপালক",
+          "ম্যাগনেলি নামক বিজ্ঞানী",
+          "ম্যাগনেটাইট পাথর",
+          "ম্যাগনেশিয়া শহর"
+        ],
+        "correct_answer": "ম্যাগনেস নামক মেষপালক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_010",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "তড়িৎ চুম্বক",
+        "question_bn": "তারের মধ্য দিয়ে তড়িৎ প্রবাহিত হলে লোহার দণ্ড কীসে পরিণত হয়?",
+        "options": [
+          "প্রাকৃতিক চুম্বক",
+          "ম্যাগনেটাইট",
+          "তড়িৎ চুম্বক",
+          "কৃত্রিম চুম্বক",
+          "চুম্বক শলাকা"
+        ],
+        "correct_answer": "তড়িৎ চুম্বক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_011",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের উদাসীন অঞ্চল",
+        "question_bn": "চুম্বকের ঠিক মাঝখানের অঞ্চলকে কী বলে?",
+        "options": [
+          "মেরু অঞ্চল",
+          "চৌষক অঞ্চল",
+          "উদাসীন অঞ্চল",
+          "সক্রিয় অঞ্চল",
+          "নিষ্ক্রিয় অঞ্চল"
+        ],
+        "correct_answer": "উদাসীন অঞ্চল"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_012",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বক শলাকা",
+        "question_bn": "চুম্বক শলাকা কীসের তৈরি?",
+        "options": [
+          "লোহার পাত",
+          "তামার পাত",
+          "চুম্বকিত ইস্পাতের পাত",
+          "অ্যালুমিনিয়ামের পাত",
+          "নিকেলের পাত"
+        ],
+        "correct_answer": "চুম্বকিত ইস্পাতের পাত"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_013",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের মেরু",
+        "question_bn": "উত্তর দিকে মুখ করে থাকা চুম্বকের মেরুকে কী বলে?",
+        "options": [
+          "দক্ষিণ মেরু",
+          "উদাসীন মেরু",
+          "উত্তর মেরু (N)",
+          "পশ্চিম মেরু",
+          "পূর্ব মেরু"
+        ],
+        "correct_answer": "উত্তর মেরু (N)"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_014",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের বিকর্ষণ",
+        "question_bn": "দুটি চুম্বকের একই মেরু কাছে আনলে কী হয়?",
+        "options": [
+          "আকর্ষণ করে",
+          "বিকর্ষণ করে",
+          "কোনো প্রতিক্রিয়া হয় না",
+          "একে অপরকে ঘোরায়",
+          "স্থির থাকে"
+        ],
+        "correct_answer": "বিকর্ষণ করে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_015",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের আকর্ষণ",
+        "question_bn": "দুটি চুম্বকের বিপরীত মেরু কাছে আনলে কী হয়?",
+        "options": [
+          "বিকর্ষণ করে",
+          "কোনো প্রতিক্রিয়া হয় না",
+          "আকর্ষণ করে",
+          "স্থির থাকে",
+          "ঘুরতে থাকে"
+        ],
+        "correct_answer": "আকর্ষণ করে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_016",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চৌষক দূরত্ব",
+        "question_bn": "চৌষক দূরত্ব = চুম্বকের জ্যামিতিক দৈর্ঘ্যের কত গুণ?",
+        "options": [
+          "০.৫ গুণ",
+          "০.৭৫ গুণ",
+          "০.৮৬ গুণ",
+          "১ গুণ",
+          "১.২ গুণ"
+        ],
+        "correct_answer": "০.৮৬ গুণ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_017",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বক আবেশ",
+        "question_bn": "চুম্বকের প্রভাবে কোনো চৌষক পদার্থ সাময়িকভাবে চুম্বকে পরিণত হওয়াকে কী বলে?",
+        "options": [
+          "চুম্বক ধর্ম",
+          "তড়িৎ প্রবাহ",
+          "চুম্বক আবেশ",
+          "দিক-নির্দেশক ধর্ম",
+          "চৌষক ক্ষেত্র"
+        ],
+        "correct_answer": "চুম্বক আবেশ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_018",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "একক মেরু",
+        "question_bn": "চুম্বককে দুই টুকরো করলে কী হয়?",
+        "options": [
+          "একটি উত্তর মেরু ও একটি দক্ষিণ মেরু আলাদা হয়",
+          "প্রতিটি টুকরোতে নতুন N ও S মেরু তৈরি হয়",
+          "চুম্বকত্ব নষ্ট হয়",
+          "শুধু একটিতে মেরু থাকে",
+          "কোনো পরিবর্তন হয় না"
+        ],
+        "correct_answer": "প্রতিটি টুকরোতে নতুন N ও S মেরু তৈরি হয়"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_019",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চৌষক ক্ষেত্র",
+        "question_bn": "চুম্বকের চারদিকে যে স্থানে আকর্ষণ বা বিকর্ষণ ধর্ম কাজ করে তাকে কী বলে?",
+        "options": [
+          "চুম্বক মেরু",
+          "উদাসীন অঞ্চল",
+          "চৌষক ক্ষেত্র",
+          "চৌষক অক্ষ",
+          "চুম্বক শলাকা"
+        ],
+        "correct_answer": "চৌষক ক্ষেত্র"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_020",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পৃথিবী চুম্বক",
+        "question_bn": "পৃথিবী নিজেই একটি বিশাল কী?",
+        "options": [
+          "তড়িৎ উৎস",
+          "চুম্বক",
+          "মহাকর্ষ কেন্দ্র",
+          "বায়ু চাপ কেন্দ্র",
+          "তাপ উৎস"
+        ],
+        "correct_answer": "চুম্বক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_021",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের ব্যবহার",
+        "question_bn": "ATM কার্ডে চুম্বকের কোন অংশ ব্যবহার হয়?",
+        "options": [
+          "চুম্বক শলাকা",
+          "দণ্ড চুম্বক",
+          "চুম্বকিত স্ট্রিপ",
+          "তড়িৎ চুম্বক",
+          "ঘোড়ার নাল চুম্বক"
+        ],
+        "correct_answer": "চুম্বকিত স্ট্রিপ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_022",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের ব্যবহার",
+        "question_bn": "কম্পিউটারের হার্ডডিস্কে চুম্বকের কোন ব্যবহার আছে?",
+        "options": [
+          "দিক নির্ণয়",
+          "চুম্বকিত পদার্থের কোটিং",
+          "তড়িৎ উৎপাদন",
+          "তাপ নিয়ন্ত্রণ",
+          "শব্দ তৈরি"
+        ],
+        "correct_answer": "চুম্বকিত পদার্থের কোটিং"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_023",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মেরুজ্যোতি",
+        "question_bn": "মহাজাগতিক রশ্মি ও ভূচুম্বক ক্ষেত্রের মিলনে কী তৈরি হয়?",
+        "options": [
+          "বজ্রপাত",
+          "মেরুজ্যোতি",
+          "রংধনু",
+          "সূর্যালোক",
+          "চন্দ্রালোক"
+        ],
+        "correct_answer": "মেরুজ্যোতি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_024",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পরিযায়ী পাখি",
+        "question_bn": "পরিযায়ী পাখিরা পথ চেনার জন্য কোন ক্ষেত্র অনুসরণ করে?",
+        "options": [
+          "সৌরশক্তি ক্ষেত্র",
+          "মহাকর্ষ ক্ষেত্র",
+          "পৃথিবীর চৌষক ক্ষেত্র",
+          "বায়ু ক্ষেত্র",
+          "তাপ ক্ষেত্র"
+        ],
+        "correct_answer": "পৃথিবীর চৌষক ক্ষেত্র"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_025",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের ব্যবহার",
+        "question_bn": "ইলেকট্রিক মোটরে কোন ধরনের চুম্বক ব্যবহার হয়?",
+        "options": [
+          "প্রাকৃতিক চুম্বক",
+          "ম্যাগনেটাইট",
+          "তড়িৎ চুম্বক",
+          "স্থায়ী দণ্ড চুম্বক",
+          "চুম্বক শলাকা"
+        ],
+        "correct_answer": "তড়িৎ চুম্বক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_026",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বক আবেশ",
+        "question_bn": "আকর্ষণের পূর্বে কী হয়?",
+        "options": [
+          "বিকর্ষণ",
+          "তড়িৎ প্রবাহ",
+          "আবেশ",
+          "মেরু বিপর্যয়",
+          "চৌষক ক্ষেত্র নষ্ট"
+        ],
+        "correct_answer": "আবেশ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_027",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের ব্যবহার",
+        "question_bn": "চোখের ভেতর থেকে লোহার চূর্ণ বের করতে ডাক্তাররা কী ব্যবহার করেন?",
+        "options": [
+          "চুম্বক শলাকা",
+          "বিশেষ তড়িৎ চুম্বক যন্ত্র",
+          "দণ্ড চুম্বক",
+          "নৌকম্পাস",
+          "ঘোড়ার নাল চুম্বক"
+        ],
+        "correct_answer": "বিশেষ তড়িৎ চুম্বক যন্ত্র"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_028",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "চৌষক অক্ষ",
+        "question_bn": "চুম্বকের উত্তর ও দক্ষিণ মেরু যোগ করলে যে সরলরেখাংশ পাওয়া যায় তাকে কী বলে?",
+        "options": [
+          "চৌষক দূরত্ব",
+          "চৌষক ক্ষেত্র",
+          "চৌষক অক্ষ",
+          "চৌষক বলরেখা",
+          "মেরু অক্ষ"
+        ],
+        "correct_answer": "চৌষক অক্ষ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_029",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ভূচুম্বক",
+        "question_bn": "ভূচুম্বকের বলরেখা কোথা থেকে কোথায় বিস্তৃত?",
+        "options": [
+          "পূর্ব মেরু থেকে পশ্চিম মেরু",
+          "উত্তর মেরু থেকে দক্ষিণ মেরু",
+          "বিষুবরেখা থেকে মেরু",
+          "উত্তর মেরু থেকে বিষুবরেখা",
+          "দক্ষিণ মেরু থেকে বিষুবরেখা"
+        ],
+        "correct_answer": "উত্তর মেরু থেকে দক্ষিণ মেরু"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_030",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "পায়রার দিক জ্ঞান",
+        "question_bn": "পায়রার মাথায় কোন পদার্থের অস্তিত্ব পাওয়া গেছে যা দিক চেনায় সাহায্য করে?",
+        "options": [
+          "লোহার চুর্ণ",
+          "ম্যাগনেটাইট",
+          "ক্যালসিয়াম",
+          "সিলিকা",
+          "কার্বন"
+        ],
+        "correct_answer": "ম্যাগনেটাইট"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_031",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চৌষক পদার্থ",
+        "question_bn": "নিচের কোনটি চৌষক পদার্থ নয়?",
+        "options": [
+          "লোহা",
+          "নিকেল",
+          "কোবাল্ট",
+          "রবার",
+          "ইস্পাত"
+        ],
+        "correct_answer": "রবার"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_032",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের প্রকার",
+        "question_bn": "দণ্ড চুম্বক কোন ধরনের চুম্বক?",
+        "options": [
+          "প্রাকৃতিক চুম্বক",
+          "তড়িৎ চুম্বক",
+          "কৃত্রিম চুম্বক",
+          "ম্যাগনেটাইট",
+          "চুম্বকীয় শিলা"
+        ],
+        "correct_answer": "কৃত্রিম চুম্বক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_033",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের ব্যবহার",
+        "question_bn": "ফ্রিজারের দরজায় চুম্বক কেন ব্যবহার হয়?",
+        "options": [
+          "দিক নির্ণয়ের জন্য",
+          "দরজা বন্ধ রাখতে",
+          "তাপমাত্রা মাপতে",
+          "শব্দ কমাতে",
+          "বিদ্যুৎ সাশ্রয়ে"
+        ],
+        "correct_answer": "দরজা বন্ধ রাখতে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_034",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের মেরু",
+        "question_bn": "চুম্বকের মেরুবিন্দু দুটি চুম্বকের কোথায় অবস্থান করে?",
+        "options": [
+          "ঠিক দুই প্রান্তে",
+          "দুই প্রান্তদেশের কাছাকাছি ভেতরে",
+          "মাঝখানে",
+          "পার্শ্বে",
+          "উদাসীন অঞ্চলে"
+        ],
+        "correct_answer": "দুই প্রান্তদেশের কাছাকাছি ভেতরে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_035",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "লাউড স্পিকার",
+        "question_bn": "লাউড স্পিকারে কোন ধর্মের ব্যবহার আছে?",
+        "options": [
+          "তাপীয় ধর্ম",
+          "চুম্বকীয় ধর্ম",
+          "আলোকীয় ধর্ম",
+          "রাসায়নিক ধর্ম",
+          "যান্ত্রিক ধর্ম"
+        ],
+        "correct_answer": "চুম্বকীয় ধর্ম"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_036",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের ব্যবহার",
+        "question_bn": "সাইকেলের ডায়নামোতে কীসের ব্যবহার আছে?",
+        "options": [
+          "তড়িৎ কোষ",
+          "প্রাকৃতিক চুম্বক",
+          "কৃত্রিম চুম্বক",
+          "তড়িৎ চুম্বক",
+          "চুম্বক শলাকা"
+        ],
+        "correct_answer": "কৃত্রিম চুম্বক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_037",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "চুম্বক সংরক্ষণ",
+        "question_bn": "চুম্বক ব্যবহৃত বস্তু অতিরিক্ত উত্তপ্ত হলে কী হয়?",
+        "options": [
+          "চুম্বকত্ব বাড়ে",
+          "চুম্বকত্ব নষ্ট হতে পারে",
+          "মেরু বদলায়",
+          "আকর্ষণ বাড়ে",
+          "বিকর্ষণ বাড়ে"
+        ],
+        "correct_answer": "চুম্বকত্ব নষ্ট হতে পারে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_038",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ইলেকট্রিক কলিংবেল",
+        "question_bn": "ইলেকট্রিক কলিংবেলে কোন ধরনের চুম্বক ব্যবহার হয়?",
+        "options": [
+          "প্রাকৃতিক চুম্বক",
+          "ম্যাগনেটাইট",
+          "তড়িৎ চুম্বক",
+          "দণ্ড চুম্বক",
+          "ঘোড়ার নাল চুম্বক"
+        ],
+        "correct_answer": "তড়িৎ চুম্বক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_039",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "অডিও ক্যাসেট",
+        "question_bn": "অডিও বা ভিডিও ক্যাসেটের টেপে কীসের আস্তরণ থাকে?",
+        "options": [
+          "প্লাস্টিক",
+          "চুম্বকিত পদার্থ",
+          "ধাতব পাত",
+          "সিলিকন",
+          "কার্বন"
+        ],
+        "correct_answer": "চুম্বকিত পদার্থ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_040",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চৌষক বলরেখা",
+        "question_bn": "ভূচুম্বকের বলরেখা কীভাবে বিস্তৃত?",
+        "options": [
+          "বৃত্তাকারে",
+          "সরলরেখায়",
+          "উত্তর মেরু থেকে দক্ষিণ মেরু পর্যন্ত",
+          "পূর্ব থেকে পশ্চিমে",
+          "বিষুবরেখা বরাবর"
+        ],
+        "correct_answer": "উত্তর মেরু থেকে দক্ষিণ মেরু পর্যন্ত"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_041",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের আকর্ষণ",
+        "question_bn": "চুম্বক কোন ধাতুকে আকর্ষণ করে?",
+        "options": [
+          "সোনা",
+          "রুপা",
+          "তামা",
+          "লোহা",
+          "অ্যালুমিনিয়াম"
+        ],
+        "correct_answer": "লোহা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_042",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকীয় ধর্ম",
+        "question_bn": "একটি বস্তু চুম্বক কিনা তা নির্ধারণে কোনটি বেশি নির্ভরযোগ্য?",
+        "options": [
+          "আকর্ষণ পরীক্ষা",
+          "বিকর্ষণ পরীক্ষা",
+          "রঙ দেখে",
+          "ওজন মেপে",
+          "আকার দেখে"
+        ],
+        "correct_answer": "বিকর্ষণ পরীক্ষা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_043",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "চুম্বক সংরক্ষণ",
+        "question_bn": "ATM কার্ডের চুম্বক স্ট্রিপ নষ্ট হওয়া থেকে বাঁচাতে কী করা উচিত?",
+        "options": [
+          "পানিতে ডোবানো",
+          "শক্তিশালী চুম্বকের কাছে রাখা",
+          "শক্তিশালী চুম্বক থেকে দূরে রাখা",
+          "রোদে রাখা",
+          "বরফে রাখা"
+        ],
+        "correct_answer": "শক্তিশালী চুম্বক থেকে দূরে রাখা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_044",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "কসমিক রশ্মি",
+        "question_bn": "মহাবিশ্ব থেকে ক্রমাগত পৃথিবীর দিকে ধেয়ে আসা রশ্মিকে কী বলে?",
+        "options": [
+          "গামা রশ্মি",
+          "অবলোহিত রশ্মি",
+          "মহাজাগতিক রশ্মি",
+          "অতিবেগুনি রশ্মি",
+          "বিটা রশ্মি"
+        ],
+        "correct_answer": "মহাজাগতিক রশ্মি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_045",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের প্রকার",
+        "question_bn": "চৌষক পদার্থকে বিশেষ উপায়ে চুম্বকে পরিণত করে যে চুম্বক তৈরি হয় তাকে কী বলে?",
+        "options": [
+          "প্রাকৃতিক চুম্বক",
+          "ম্যাগনেটাইট",
+          "তড়িৎ চুম্বক",
+          "কৃত্রিম চুম্বক",
+          "চুম্বক শলাকা"
+        ],
+        "correct_answer": "কৃত্রিম চুম্বক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_046",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ইলেকট্রিক মিটার",
+        "question_bn": "ইলেকট্রিক মিটারে চুম্বক ব্যবহৃত হয় কেন?",
+        "options": [
+          "দিক নির্ণয়ে",
+          "বিদ্যুৎ পরিমাপে",
+          "তাপমাত্রা মাপতে",
+          "শব্দ নিয়ন্ত্রণে",
+          "আলো উৎপাদনে"
+        ],
+        "correct_answer": "বিদ্যুৎ পরিমাপে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_047",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের ধর্ম",
+        "question_bn": "চুম্বকের সর্বদা দুটি কী থাকে?",
+        "options": [
+          "একক মেরু",
+          "বিপরীত মেরু",
+          "সমান মেরু",
+          "উদাসীন মেরু",
+          "কোনো মেরু নেই"
+        ],
+        "correct_answer": "বিপরীত মেরু"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_048",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "চুম্বক শলাকা",
+        "question_bn": "চুম্বক শলাকা পরীক্ষার সময় কাছে কোনটি না থাকা উচিত?",
+        "options": [
+          "সাদা কাগজ",
+          "কাঠের টেবিল",
+          "অন্য চুম্বক বা তড়িৎ প্রবাহিত বস্তু",
+          "প্লাস্টিক বাক্স",
+          "রবারের চাদর"
+        ],
+        "correct_answer": "অন্য চুম্বক বা তড়িৎ প্রবাহিত বস্তু"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_049",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "চুম্বকের ধর্ম",
+        "question_bn": "চুম্বকের দিক-নির্দেশক ধর্ম কোন পরিস্থিতিতে দেখা যায়?",
+        "options": [
+          "চুম্বককে স্থির রাখলে",
+          "চুম্বককে স্বাধীনভাবে ঝুলিয়ে বা ভাসমান রাখলে",
+          "চুম্বককে মাটিতে রাখলে",
+          "চুম্বককে পানিতে ডোবালে",
+          "চুম্বককে তাপ দিলে"
+        ],
+        "correct_answer": "চুম্বককে স্বাধীনভাবে ঝুলিয়ে বা ভাসমান রাখলে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_mcq_050",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "চৌষক পদার্থ",
+        "question_bn": "কোন ধাতু চুম্বকে পরিণত করা যায়?",
+        "options": [
+          "সোনা",
+          "তামা",
+          "লোহা, নিকেল, কোবাল্ট",
+          "অ্যালুমিনিয়াম",
+          "রুপা"
+        ],
+        "correct_answer": "লোহা, নিকেল, কোবাল্ট"
+      }
+    ],
+    "match_pairs": [
+      {
+        "id": "paribesh_o_bigyan_ch03_match_001",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের প্রকার",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "প্রাকৃতিক চুম্বক",
+            "right": "ম্যাগনেটাইট"
+          },
+          {
+            "left": "কৃত্রিম চুম্বক",
+            "right": "দণ্ড চুম্বক"
+          },
+          {
+            "left": "তড়িৎ চুম্বক",
+            "right": "তারে তড়িৎ প্রবাহে তৈরি"
+          },
+          {
+            "left": "চুম্বক শলাকা",
+            "right": "চুম্বকিত ইস্পাতের পাত"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_match_002",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চৌষক ও অচৌষক পদার্থ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "লোহা",
+            "right": "চৌষক পদার্থ"
+          },
+          {
+            "left": "রবার",
+            "right": "অচৌষক পদার্থ"
+          },
+          {
+            "left": "কোবাল্ট",
+            "right": "চৌষক পদার্থ"
+          },
+          {
+            "left": "কাগজ",
+            "right": "অচৌষক পদার্থ"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_match_003",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের ব্যবহার",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "নৌকম্পাস",
+            "right": "দিক নির্ণয়"
+          },
+          {
+            "left": "হার্ডডিস্ক",
+            "right": "তথ্য সংরক্ষণ"
+          },
+          {
+            "left": "লাউড স্পিকার",
+            "right": "শব্দ উৎপাদন"
+          },
+          {
+            "left": "ইলেকট্রিক মিটার",
+            "right": "বিদ্যুৎ পরিমাপ"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_match_004",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের বিভিন্ন অংশ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "উত্তর মেরু (N)",
+            "right": "উত্তর দিকে মুখ করে"
+          },
+          {
+            "left": "দক্ষিণ মেরু (S)",
+            "right": "দক্ষিণ দিকে মুখ করে"
+          },
+          {
+            "left": "উদাসীন অঞ্চল",
+            "right": "আকর্ষণ ক্ষমতা নেই"
+          },
+          {
+            "left": "চৌষক অক্ষ",
+            "right": "N ও S মেরু যোগকারী রেখা"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_match_005",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের ধর্ম",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "আকর্ষণ ধর্ম",
+            "right": "চুম্বক লোহাকে টানে"
+          },
+          {
+            "left": "দিক-নির্দেশক ধর্ম",
+            "right": "উত্তর-দক্ষিণ মুখ করে"
+          },
+          {
+            "left": "আবেশী ধর্ম",
+            "right": "চুম্বকের প্রভাবে চুম্বকে পরিণত"
+          },
+          {
+            "left": "একক মেরু নেই",
+            "right": "সবসময় দুটি মেরু"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_match_006",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের বিকর্ষণ ও আকর্ষণ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "N মেরু ও N মেরু",
+            "right": "বিকর্ষণ করে"
+          },
+          {
+            "left": "S মেরু ও S মেরু",
+            "right": "বিকর্ষণ করে"
+          },
+          {
+            "left": "N মেরু ও S মেরু",
+            "right": "আকর্ষণ করে"
+          },
+          {
+            "left": "S মেরু ও N মেরু",
+            "right": "আকর্ষণ করে"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_match_007",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "পৃথিবী ও চুম্বক",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "ভৌগোলিক উত্তর মেরু",
+            "right": "চুম্বকীয় দক্ষিণ মেরু কাছে"
+          },
+          {
+            "left": "ভৌগোলিক দক্ষিণ মেরু",
+            "right": "চুম্বকীয় উত্তর মেরু কাছে"
+          },
+          {
+            "left": "মেরুজ্যোতি",
+            "right": "মহাজাগতিক রশ্মি ও চৌষক ক্ষেত্র"
+          },
+          {
+            "left": "পরিযায়ী পাখি",
+            "right": "চৌষক বলরেখা অনুসরণ"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_match_008",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "চুম্বকের পরিমাপ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "জ্যামিতিক দৈর্ঘ্য",
+            "right": "চুম্বকের মোট দৈর্ঘ্য"
+          },
+          {
+            "left": "চৌষক দৈর্ঘ্য",
+            "right": "জ্যামিতিক দৈর্ঘ্যের ০.৮৬ গুণ"
+          },
+          {
+            "left": "চৌষক দূরত্ব",
+            "right": "দুই মেরুর মধ্যবর্তী দূরত্ব"
+          },
+          {
+            "left": "মেরুবিন্দু",
+            "right": "প্রান্তদেশের কাছাকাছি ভেতরে"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_match_009",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের ব্যবহার ২",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "ফ্রিজারের দরজা",
+            "right": "স্থায়ী চুম্বক"
+          },
+          {
+            "left": "ইলেকট্রিক কলিংবেল",
+            "right": "তড়িৎ চুম্বক"
+          },
+          {
+            "left": "ATM কার্ড",
+            "right": "চুম্বকিত স্ট্রিপ"
+          },
+          {
+            "left": "অডিও ক্যাসেট",
+            "right": "চুম্বকিত পদার্থের আস্তরণ"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_match_010",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বক সংক্রান্ত গল্প",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "ম্যাগনেস",
+            "right": "মেষপালকের নাম"
+          },
+          {
+            "left": "ম্যাগনেসিয়া",
+            "right": "অঞ্চলের নাম"
+          },
+          {
+            "left": "ম্যাগনেটাইট",
+            "right": "পাথরের নাম"
+          },
+          {
+            "left": "ম্যাগনেট",
+            "right": "চুম্বকের ইংরেজি নাম"
+          }
+        ]
+      }
+    ],
+    "true_false": [
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_001",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চৌষক পদার্থ",
+        "question_bn": "লোহা একটি চৌষক পদার্থ।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_002",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "অচৌষক পদার্থ",
+        "question_bn": "প্লাস্টিক একটি চৌষক পদার্থ।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_003",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের মেরু",
+        "question_bn": "একটি চুম্বকে দুটি মেরু থাকে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_004",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "একক মেরু",
+        "question_bn": "চুম্বকের একটি মাত্র মেরু আলাদা করা সম্ভব।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_005",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "দিক-নির্দেশক ধর্ম",
+        "question_bn": "মুক্তভাবে ঝুলন্ত চুম্বক সর্বদা উত্তর-দক্ষিণ মুখ করে থাকে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_006",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের আকর্ষণ",
+        "question_bn": "চুম্বক কাঠকে আকর্ষণ করে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_007",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পৃথিবী চুম্বক",
+        "question_bn": "পৃথিবী নিজেই একটি বিশাল চুম্বক।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_008",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের বিকর্ষণ",
+        "question_bn": "দুটি চুম্বকের বিপরীত মেরু পরস্পরকে বিকর্ষণ করে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_009",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বক আবেশ",
+        "question_bn": "চুম্বক কোনো চৌষক পদার্থকে আকর্ষণ করার আগে সেটিকে আবেশিত করে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_010",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চৌষক দৈর্ঘ্য",
+        "question_bn": "চুম্বকের চৌষক দৈর্ঘ্য জ্যামিতিক দৈর্ঘ্যের চেয়ে বেশি।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_011",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের উদাসীন অঞ্চল",
+        "question_bn": "চুম্বকের মাঝখানে আকর্ষণ ক্ষমতা প্রায় নেই।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_012",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "তড়িৎ চুম্বক",
+        "question_bn": "তড়িৎ প্রবাহ বন্ধ করলেও তড়িৎ চুম্বক চুম্বকত্ব বজায় রাখে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_013",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের ধর্ম",
+        "question_bn": "সমেরু পরস্পরকে বিকর্ষণ করে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_014",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বক শলাকা",
+        "question_bn": "চুম্বক শলাকা সবসময় পূর্ব-পশ্চিম দিকে স্থির হয়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_015",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "নৌকম্পাস",
+        "question_bn": "নৌকম্পাসে চুম্বক শলাকা ব্যবহার করা হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_016",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বক সংরক্ষণ",
+        "question_bn": "চুম্বক ব্যবহৃত বস্তু অতিরিক্ত উত্তপ্ত করলে চুম্বকত্ব নষ্ট হতে পারে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_017",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "পায়রার দিক জ্ঞান",
+        "question_bn": "পায়রার মস্তিষ্কে ম্যাগনেটাইট পাওয়া গেছে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_018",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মেরুজ্যোতি",
+        "question_bn": "মেরুজ্যোতি শুধুমাত্র দিনের বেলায় দেখা যায়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_019",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "চুম্বকের মেরুবিন্দু",
+        "question_bn": "চুম্বকের মেরুবিন্দু চুম্বকের একদম প্রান্তে নয়, বরং প্রান্তের কাছে ভেতরে থাকে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_tf_020",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "চুম্বকীয় ক্ষেত্র",
+        "question_bn": "লাউড স্পিকার, টিভি ও কম্পিউটারের হার্ডডিস্কের কাছে শক্তিশালী চুম্বক রাখা উচিত।",
+        "correct_answer": "false"
+      }
+    ],
+    "tap_sequence": [
+      {
+        "id": "paribesh_o_bigyan_ch03_seq_001",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বক আবেশ প্রক্রিয়া",
+        "question_bn": "চুম্বক আবেশের সঠিক ধাপগুলো ক্রমানুসারে সাজাও",
+        "items": [
+          "চুম্বক সরিয়ে নেওয়া",
+          "লোহার পেরেক চুম্বকত্ব হারায়",
+          "চুম্বক পেরেকের কাছে আনা",
+          "পেরেক সাময়িক চুম্বকে পরিণত হয়"
+        ],
+        "correct_order": [
+          "চুম্বক পেরেকের কাছে আনা",
+          "পেরেক সাময়িক চুম্বকে পরিণত হয়",
+          "চুম্বক সরিয়ে নেওয়া",
+          "লোহার পেরেক চুম্বকত্ব হারায়"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_seq_002",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের মেরু",
+        "question_bn": "দণ্ড চুম্বকের অংশগুলো বাম থেকে ডানে সঠিক ক্রমে সাজাও",
+        "items": [
+          "উদাসীন অঞ্চল",
+          "উত্তর মেরু",
+          "দক্ষিণ মেরু",
+          "মেরু অঞ্চল"
+        ],
+        "correct_order": [
+          "উত্তর মেরু",
+          "মেরু অঞ্চল",
+          "উদাসীন অঞ্চল",
+          "দক্ষিণ মেরু"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_seq_003",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পেরেকের চেন তৈরি",
+        "question_bn": "পেরেকের চেন তৈরির ধাপগুলো ক্রমানুসারে সাজাও",
+        "items": [
+          "তৃতীয় পেরেক আবেশিত হয়",
+          "প্রথম পেরেক চুম্বকিত হয়",
+          "দণ্ড চুম্বক প্রথম পেরেকের কাছে আনা",
+          "দ্বিতীয় পেরেক প্রথমটির নিচে আটকে"
+        ],
+        "correct_order": [
+          "দণ্ড চুম্বক প্রথম পেরেকের কাছে আনা",
+          "প্রথম পেরেক চুম্বকিত হয়",
+          "দ্বিতীয় পেরেক প্রথমটির নিচে আটকে",
+          "তৃতীয় পেরেক আবেশিত হয়"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_seq_004",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "তড়িৎ চুম্বক পরীক্ষা",
+        "question_bn": "তড়িৎ চুম্বক পরীক্ষার ধাপগুলো ক্রমানুসারে সাজাও",
+        "items": [
+          "সুইচ অফ করা",
+          "লোহার দণ্ডে তামার তার জড়ানো",
+          "চুম্বক শলাকার বিক্ষেপ লক্ষ করা",
+          "ব্যাটারি যুক্ত করে সুইচ অন করা"
+        ],
+        "correct_order": [
+          "লোহার দণ্ডে তামার তার জড়ানো",
+          "ব্যাটারি যুক্ত করে সুইচ অন করা",
+          "চুম্বক শলাকার বিক্ষেপ লক্ষ করা",
+          "সুইচ অফ করা"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_seq_005",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের ধর্মের ক্রম",
+        "question_bn": "চুম্বকের বিভিন্ন ধর্মগুলো গুরুত্ব অনুযায়ী ক্রমানুসারে রাখো (সবচেয়ে মৌলিক প্রথমে)",
+        "items": [
+          "আবেশী ধর্ম",
+          "দিক-নির্দেশক ধর্ম",
+          "আকর্ষণ ধর্ম",
+          "একক মেরুর অনস্তিত্ব"
+        ],
+        "correct_order": [
+          "আকর্ষণ ধর্ম",
+          "দিক-নির্দেশক ধর্ম",
+          "আবেশী ধর্ম",
+          "একক মেরুর অনস্তিত্ব"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_seq_006",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের আবিষ্কারের ইতিহাস",
+        "question_bn": "চুম্বকের আবিষ্কারের ঘটনাগুলো সঠিক ক্রমে সাজাও",
+        "items": [
+          "ম্যাগনেটাইট পাথরের বৈশিষ্ট্য জানা গেল",
+          "চুম্বককে ম্যাগনেট নামকরণ",
+          "ম্যাগনেস মেষ পালন করছিল",
+          "জুতায় লোহার পেরেক টান অনুভব করল"
+        ],
+        "correct_order": [
+          "ম্যাগনেস মেষ পালন করছিল",
+          "জুতায় লোহার পেরেক টান অনুভব করল",
+          "ম্যাগনেটাইট পাথরের বৈশিষ্ট্য জানা গেল",
+          "চুম্বককে ম্যাগনেট নামকরণ"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_seq_007",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "চুম্বক ভাঙা পরীক্ষা",
+        "question_bn": "চুম্বককে ক্রমশ ছোট করার ধাপগুলো সঠিক ক্রমে সাজাও",
+        "items": [
+          "প্রতিটি টুকরোতে নতুন N ও S মেরু তৈরি",
+          "চুম্বককে দুই টুকরো করা",
+          "আবারও দুই টুকরো করা",
+          "চুম্বক শলাকা দিয়ে পরীক্ষা"
+        ],
+        "correct_order": [
+          "চুম্বককে দুই টুকরো করা",
+          "প্রতিটি টুকরোতে নতুন N ও S মেরু তৈরি",
+          "আবারও দুই টুকরো করা",
+          "চুম্বক শলাকা দিয়ে পরীক্ষা"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_seq_008",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পরিযায়ী পাখির যাত্রা",
+        "question_bn": "পরিযায়ী পাখির যাত্রার ধাপগুলো ক্রমানুসারে সাজাও",
+        "items": [
+          "শীতের শেষে উৎসে ফেরা",
+          "আদি বাসভূমি থেকে যাত্রা",
+          "গরম অঞ্চলে পৌঁছানো",
+          "চৌষক বলরেখা অনুসরণ"
+        ],
+        "correct_order": [
+          "আদি বাসভূমি থেকে যাত্রা",
+          "চৌষক বলরেখা অনুসরণ",
+          "গরম অঞ্চলে পৌঁছানো",
+          "শীতের শেষে উৎসে ফেরা"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_seq_009",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের আকর্ষণ ক্ষমতার বিন্যাস",
+        "question_bn": "চুম্বকের আকর্ষণ ক্ষমতা কম থেকে বেশি ক্রমে সাজাও",
+        "items": [
+          "মেরু অঞ্চল",
+          "উদাসীন অঞ্চল",
+          "মেরুর কাছাকাছি",
+          "মেরুবিন্দু"
+        ],
+        "correct_order": [
+          "উদাসীন অঞ্চল",
+          "মেরু অঞ্চল",
+          "মেরুর কাছাকাছি",
+          "মেরুবিন্দু"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_seq_010",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মেরুজ্যোতি তৈরির প্রক্রিয়া",
+        "question_bn": "মেরুজ্যোতি তৈরির ধাপগুলো ক্রমানুসারে সাজাও",
+        "items": [
+          "ভ্যান-অ্যালেন বিকরণ বলয় তৈরি",
+          "মেরুজ্যোতি উৎপন্ন",
+          "মহাজাগতিক রশ্মি পৃথিবীর দিকে আসে",
+          "ভূচৌষক ক্ষেত্রের সঙ্গে ক্রিয়া-প্রতিক্রিয়া"
+        ],
+        "correct_order": [
+          "মহাজাগতিক রশ্মি পৃথিবীর দিকে আসে",
+          "ভূচৌষক ক্ষেত্রের সঙ্গে ক্রিয়া-প্রতিক্রিয়া",
+          "ভ্যান-অ্যালেন বিকরণ বলয় তৈরি",
+          "মেরুজ্যোতি উৎপন্ন"
+        ]
+      }
+    ],
+    "categorize": [
+      {
+        "id": "paribesh_o_bigyan_ch03_cat_001",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "চৌষক ও অচৌষক পদার্থ",
+        "question_bn": "নিচের পদার্থগুলোকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "চৌষক পদার্থ": [
+            "লোহা",
+            "নিকেল",
+            "কোবাল্ট",
+            "ইস্পাত"
+          ],
+          "অচৌষক পদার্থ": [
+            "প্লাস্টিক",
+            "রবার",
+            "কাঠ",
+            "কাগজ"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_cat_002",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের প্রকার",
+        "question_bn": "নিচের চুম্বকগুলোকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "প্রাকৃতিক চুম্বক": [
+            "ম্যাগনেটাইট",
+            "লোডস্টোন",
+            "প্রকৃতিতে পাওয়া চুম্বকীয় শিলা",
+            "খনি থেকে পাওয়া চুম্বক"
+          ],
+          "কৃত্রিম চুম্বক": [
+            "দণ্ড চুম্বক",
+            "চুম্বক শলাকা",
+            "ঘোড়ার নাল চুম্বক",
+            "তড়িৎ চুম্বক"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_cat_003",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের ব্যবহার",
+        "question_bn": "নিচের যন্ত্রগুলোকে চুম্বকের ব্যবহার অনুযায়ী ভাগ করো",
+        "categories": {
+          "স্থায়ী চুম্বক ব্যবহার": [
+            "নৌকম্পাস",
+            "ফ্রিজারের দরজা",
+            "ATM কার্ড",
+            "অডিও ক্যাসেট"
+          ],
+          "তড়িৎ চুম্বক ব্যবহার": [
+            "ইলেকট্রিক কলিংবেল",
+            "ইলেকট্রিক মোটর",
+            "ইলেকট্রিক মিটার",
+            "চোখের চিকিৎসার যন্ত্র"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_cat_004",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের মেরুর ক্রিয়া",
+        "question_bn": "নিচের মেরু জোড়গুলোকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "আকর্ষণ করে": [
+            "N ও S",
+            "S ও N",
+            "উত্তর মেরু ও দক্ষিণ মেরু",
+            "বিপরীত মেরু"
+          ],
+          "বিকর্ষণ করে": [
+            "N ও N",
+            "S ও S",
+            "উত্তর মেরু ও উত্তর মেরু",
+            "দক্ষিণ মেরু ও দক্ষিণ মেরু"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_cat_005",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের ধর্ম",
+        "question_bn": "নিচের বিষয়গুলো চুম্বকের কোন ধর্মের উদাহরণ তা ভাগ করো",
+        "categories": {
+          "আকর্ষণ ধর্ম": [
+            "লোহার পেরেক চুম্বকে আটকে",
+            "চুম্বক লোহাচুর আকর্ষণ",
+            "স্টিলের চামচ চুম্বকে লাগে",
+            "নিকেলের মুদ্রা চুম্বকে আটকে"
+          ],
+          "দিক-নির্দেশক ধর্ম": [
+            "ঝুলন্ত চুম্বক উত্তর-দক্ষিণ",
+            "নৌকম্পাসের সূঁচ",
+            "ভাসমান চুম্বকের দিক",
+            "চুম্বক শলাকার অবস্থান"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_cat_006",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "জীবের শারীরবৃত্তীয় চৌষক ক্ষেত্র",
+        "question_bn": "নিচের জীবগুলোকে চৌষক ক্ষেত্র ব্যবহারের ধরন অনুযায়ী ভাগ করো",
+        "categories": {
+          "চৌষক বলরেখা অনুসরণ করে": [
+            "পরিযায়ী পাখি",
+            "পরিযায়ী কচ্ছপ",
+            "গৃহে ফেরা পায়রা",
+            "মৌমাছি"
+          ],
+          "ম্যাগনেটাইট দেহে আছে": [
+            "পায়রার মস্তিষ্ক",
+            "কিছু শামুক",
+            "কিছু মৌমাছিদের দেহ",
+            "কিছু মাছের দেহ"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_cat_007",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের অংশ",
+        "question_bn": "নিচের বিষয়গুলো চুম্বকের কোন অংশের বৈশিষ্ট্য তা ভাগ করো",
+        "categories": {
+          "মেরু অঞ্চলের বৈশিষ্ট্য": [
+            "আকর্ষণ সবচেয়ে বেশি",
+            "লোহাচুর সবচেয়ে বেশি লাগে",
+            "N ও S চিহ্নিত",
+            "চৌষক অক্ষের প্রান্তে"
+          ],
+          "উদাসীন অঞ্চলের বৈশিষ্ট্য": [
+            "আকর্ষণ প্রায় নেই",
+            "লোহাচুর সবচেয়ে কম",
+            "চুম্বকের মাঝখান",
+            "কোনো চৌষক ক্রিয়া নেই"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_cat_008",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "ভূচুম্বকের মেরু",
+        "question_bn": "নিচের বিষয়গুলো ভৌগোলিক ও চুম্বকীয় মেরু অনুযায়ী ভাগ করো",
+        "categories": {
+          "ভৌগোলিক মেরু": [
+            "মানচিত্রে উত্তর",
+            "ভৌগোলিক উত্তর মেরু",
+            "ভৌগোলিক দক্ষিণ মেরু",
+            "পৃথিবীর অক্ষের প্রান্ত"
+          ],
+          "চুম্বকীয় মেরু": [
+            "চুম্বকীয় উত্তর মেরু",
+            "চুম্বকীয় দক্ষিণ মেরু",
+            "কম্পাসের সূঁচ যেদিকে",
+            "চৌষক বলরেখার উৎস"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_cat_009",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের ধর্মের তালিকা",
+        "question_bn": "নিচের বিষয়গুলো চুম্বকের আকর্ষণ ও বিকর্ষণ ধর্মে ভাগ করো",
+        "categories": {
+          "আকর্ষণ ধর্ম": [
+            "বিপরীত মেরু কাছে আনলে",
+            "N কাছে S",
+            "লোহা চুম্বকে লাগা",
+            "চৌষক পদার্থ টানা"
+          ],
+          "বিকর্ষণ ধর্ম": [
+            "সমেরু কাছে আনলে",
+            "N কাছে N",
+            "S কাছে S",
+            "ঝুলন্ত চুম্বক সরে যাওয়া"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_cat_010",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বক সংরক্ষণ",
+        "question_bn": "নিচের কাজগুলো চুম্বকের জন্য উপকারী না ক্ষতিকর তা ভাগ করো",
+        "categories": {
+          "চুম্বকের জন্য ক্ষতিকর": [
+            "অতিরিক্ত তাপ দেওয়া",
+            "শক্তিশালী চুম্বকের কাছে রাখা",
+            "ATM কার্ড মুখোমুখি রাখা",
+            "জোরে আঘাত করা"
+          ],
+          "চুম্বকের সংরক্ষণে সঠিক": [
+            "শীতল জায়গায় রাখা",
+            "চুম্বক থেকে দূরে রাখা",
+            "সাবধানে ব্যবহার করা",
+            "বিপরীত মেরু মুখোমুখি রেখে সংরক্ষণ"
+          ]
+        }
+      }
+    ],
+    "short_write": [
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_001",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চৌষক পদার্থ",
+        "question_bn": "চুম্বক যে পদার্থকে আকর্ষণ করে তাকে কী বলে?",
+        "expected_answer": "চৌষক পদার্থ",
+        "max_words": 2,
+        "answer_slot_id": 1
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_002",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "অচৌষক পদার্থ",
+        "question_bn": "চুম্বক যে পদার্থকে আকর্ষণ করতে পারে না তাকে কী বলে?",
+        "expected_answer": "অচৌষক পদার্থ",
+        "max_words": 2,
+        "answer_slot_id": 2
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_003",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "প্রাকৃতিক চুম্বক",
+        "question_bn": "প্রকৃতিতে পাওয়া চুম্বকীয় পাথরের নাম কী?",
+        "expected_answer": "ম্যাগনেটাইট",
+        "max_words": 1,
+        "answer_slot_id": 3
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_004",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের ইংরেজি নাম",
+        "question_bn": "চুম্বকের ইংরেজি নাম কী?",
+        "expected_answer": "ম্যাগনেট",
+        "max_words": 1,
+        "answer_slot_id": 4
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_005",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের মেরু",
+        "question_bn": "একটি চুম্বকে কতটি মেরু থাকে?",
+        "expected_answer": "দুটি",
+        "max_words": 1,
+        "answer_slot_id": 5
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_006",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "উত্তর মেরু",
+        "question_bn": "চুম্বকের উত্তর মেরুকে কোন অক্ষর দিয়ে চিহ্নিত করা হয়?",
+        "expected_answer": "N",
+        "max_words": 1,
+        "answer_slot_id": 6
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_007",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "দক্ষিণ মেরু",
+        "question_bn": "চুম্বকের দক্ষিণ মেরুকে কোন অক্ষর দিয়ে চিহ্নিত করা হয়?",
+        "expected_answer": "S",
+        "max_words": 1,
+        "answer_slot_id": 7
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_008",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "উদাসীন অঞ্চল",
+        "question_bn": "চুম্বকের মাঝখানের অঞ্চলটির নাম কী?",
+        "expected_answer": "উদাসীন অঞ্চল",
+        "max_words": 2,
+        "answer_slot_id": 8
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_009",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "দিক-নির্দেশক ধর্ম",
+        "question_bn": "মুক্তভাবে ঝুলন্ত চুম্বকের কোন দিক নির্দেশক থাকার ধর্মকে কী বলে?",
+        "expected_answer": "দিক-নির্দেশক ধর্ম",
+        "max_words": 2,
+        "answer_slot_id": 9
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_010",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "নৌকম্পাস",
+        "question_bn": "সমুদ্রে দিক নির্ণয়ের জন্য কোন যন্ত্র ব্যবহার হয়?",
+        "expected_answer": "নৌকম্পাস",
+        "max_words": 1,
+        "answer_slot_id": 10
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_011",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বক শলাকা",
+        "question_bn": "ছোট হালকা চুম্বকিত ইস্পাতের পাতকে কী বলে?",
+        "expected_answer": "চুম্বক শলাকা",
+        "max_words": 2,
+        "answer_slot_id": 11
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_012",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বক আবেশ",
+        "question_bn": "চুম্বকের প্রভাবে চৌষক পদার্থ সাময়িক চুম্বকে পরিণত হওয়াকে কী বলে?",
+        "expected_answer": "চুম্বক আবেশ",
+        "max_words": 2,
+        "answer_slot_id": 12
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_013",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চৌষক ক্ষেত্র",
+        "question_bn": "চুম্বকের চারদিকে যে স্থানে আকর্ষণ বা বিকর্ষণ ধর্ম কাজ করে তাকে কী বলে?",
+        "expected_answer": "চৌষক ক্ষেত্র",
+        "max_words": 2,
+        "answer_slot_id": 13
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_014",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "তড়িৎ চুম্বক",
+        "question_bn": "তারে তড়িৎ প্রবাহিত হলে লোহার দণ্ড কোন ধরনের চুম্বকে পরিণত হয়?",
+        "expected_answer": "তড়িৎ চুম্বক",
+        "max_words": 2,
+        "answer_slot_id": 14
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_015",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চৌষক অক্ষ",
+        "question_bn": "চুম্বকের N ও S মেরু যোগ করলে যে রেখাংশ পাওয়া যায় তাকে কী বলে?",
+        "expected_answer": "চৌষক অক্ষ",
+        "max_words": 2,
+        "answer_slot_id": 15
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_016",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের মেরু",
+        "question_bn": "চুম্বকের দুই প্রান্তের আকর্ষণক্ষম অঞ্চলকে কী বলে?",
+        "expected_answer": "মেরু",
+        "max_words": 1,
+        "answer_slot_id": 16
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_017",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চৌষক দৈর্ঘ্য",
+        "question_bn": "NS দ্বারা চিহ্নিত চুম্বকের দৈর্ঘ্যকে কী বলে?",
+        "expected_answer": "চৌষক দৈর্ঘ্য",
+        "max_words": 2,
+        "answer_slot_id": 17
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_018",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মেরুজ্যোতি",
+        "question_bn": "মেরু অঞ্চলে দেখতে পাওয়া আলোকিত ঘটনাটির নাম কী?",
+        "expected_answer": "মেরুজ্যোতি",
+        "max_words": 1,
+        "answer_slot_id": 18
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_019",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ভূচুম্বক",
+        "question_bn": "পৃথিবীর চুম্বকীয় ক্ষেত্রকে কী বলে?",
+        "expected_answer": "ভূচৌষক ক্ষেত্র",
+        "max_words": 2,
+        "answer_slot_id": 19
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_020",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের ধর্ম",
+        "question_bn": "সমেরু পরস্পরকে কী করে?",
+        "expected_answer": "বিকর্ষণ",
+        "max_words": 1,
+        "answer_slot_id": 20
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_021",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের ধর্ম",
+        "question_bn": "বিপরীত মেরু পরস্পরকে কী করে?",
+        "expected_answer": "আকর্ষণ",
+        "max_words": 1,
+        "answer_slot_id": 21
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_022",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "কৃত্রিম চুম্বক",
+        "question_bn": "মানুষের তৈরি চুম্বককে কী বলে?",
+        "expected_answer": "কৃত্রিম চুম্বক",
+        "max_words": 2,
+        "answer_slot_id": 22
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_023",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ম্যাগনেস",
+        "question_bn": "চুম্বকের গল্পে কত বছর আগে ম্যাগনেস মেষ পালন করছিল?",
+        "expected_answer": "২৫০০ বছর",
+        "max_words": 2,
+        "answer_slot_id": 23
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_024",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মহাজাগতিক রশ্মি",
+        "question_bn": "মহাবিশ্ব থেকে পৃথিবীর দিকে ধেয়ে আসা রশ্মিকে কী বলে?",
+        "expected_answer": "মহাজাগতিক রশ্মি",
+        "max_words": 2,
+        "answer_slot_id": 24
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_025",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের ব্যবহার",
+        "question_bn": "কম্পিউটারে তথ্য সংরক্ষণের যন্ত্রের নাম কী?",
+        "expected_answer": "হার্ডডিস্ক",
+        "max_words": 1,
+        "answer_slot_id": 25
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_026",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বক আবেশ",
+        "question_bn": "আকর্ষণের পূর্বে চুম্বক চৌষক পদার্থকে কীভাবে পরিণত করে?",
+        "expected_answer": "আবেশিত",
+        "max_words": 1,
+        "answer_slot_id": 26
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_027",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের ব্যবহার",
+        "question_bn": "কোন যন্ত্রে চুম্বকিত পদার্থের আস্তরণ ব্যবহার হয় শব্দ ধারণে?",
+        "expected_answer": "অডিও ক্যাসেট",
+        "max_words": 2,
+        "answer_slot_id": 27
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_028",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পায়রার দিক জ্ঞান",
+        "question_bn": "পায়রার মস্তিষ্কে কোন পদার্থ দিক চিনতে সাহায্য করে?",
+        "expected_answer": "ম্যাগনেটাইট",
+        "max_words": 1,
+        "answer_slot_id": 28
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_029",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের ব্যবহার",
+        "question_bn": "সাইকেলে বিদ্যুৎ তৈরির যন্ত্রটির নাম কী?",
+        "expected_answer": "ডায়নামো",
+        "max_words": 1,
+        "answer_slot_id": 29
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_030",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের ধর্ম",
+        "question_bn": "চুম্বকীয় পরিচয় নিশ্চিতে আকর্ষণ না বিকর্ষণ কোনটি বেশি নির্ভরযোগ্য?",
+        "expected_answer": "বিকর্ষণ",
+        "max_words": 1,
+        "answer_slot_id": 30
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_031",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "দণ্ড চুম্বক",
+        "question_bn": "আয়তঘনাকার চুম্বকিত ইস্পাতের দণ্ডকে কী বলে?",
+        "expected_answer": "দণ্ড চুম্বক",
+        "max_words": 2,
+        "answer_slot_id": 31
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_032",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের ব্যবহার",
+        "question_bn": "শব্দ বিস্তারের কোন যন্ত্রে চুম্বকের ব্যবহার আছে?",
+        "expected_answer": "লাউড স্পিকার",
+        "max_words": 2,
+        "answer_slot_id": 32
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_033",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের ব্যবহার",
+        "question_bn": "কোন দরজায় চুম্বক ব্যবহার হয় দরজা বন্ধ রাখতে?",
+        "expected_answer": "ফ্রিজারের দরজা",
+        "max_words": 2,
+        "answer_slot_id": 33
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_034",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "চুম্বকীয় দৈর্ঘ্য",
+        "question_bn": "চৌষক দৈর্ঘ্য জ্যামিতিক দৈর্ঘ্যের কত গুণ?",
+        "expected_answer": "০.৮৬",
+        "max_words": 1,
+        "answer_slot_id": 34
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_035",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ভ্যান-অ্যালেন বলয়",
+        "question_bn": "মেরু অঞ্চল ঘিরে তৈরি হওয়া বিকরণ বলয়কে কী বলে?",
+        "expected_answer": "ভ্যান-অ্যালেন বিকরণ বলয়",
+        "max_words": 2,
+        "answer_slot_id": 35
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_036",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "চুম্বকীয় মেরু",
+        "question_bn": "উত্তর সন্ধানী মেরু (N) আসলে পৃথিবীর কোন ধরনের মেরুর কাছে আকৃষ্ট?",
+        "expected_answer": "চুম্বকীয় দক্ষিণ মেরু",
+        "max_words": 2,
+        "answer_slot_id": 36
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_037",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "চুম্বক সংরক্ষণ",
+        "question_bn": "তাপের প্রভাবে চুম্বকের কী নষ্ট হয়?",
+        "expected_answer": "চুম্বকত্ব",
+        "max_words": 1,
+        "answer_slot_id": 37
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_038",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "পরিযায়ী প্রাণী",
+        "question_bn": "কোন ধরনের প্রাণী পৃথিবীর চৌষক ক্ষেত্র অনুসরণ করে যাত্রা করে?",
+        "expected_answer": "পরিযায়ী পাখি",
+        "max_words": 2,
+        "answer_slot_id": 38
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_039",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকীয় ধর্ম",
+        "question_bn": "চুম্বকের কোন ধর্মের কারণে পেরেকের চেন তৈরি হয়?",
+        "expected_answer": "আবেশী ধর্ম",
+        "max_words": 2,
+        "answer_slot_id": 39
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_040",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের ব্যবহার",
+        "question_bn": "কোন যন্ত্রে তড়িৎ চুম্বক ব্যবহার হয় বিদ্যুৎ উৎপাদনে?",
+        "expected_answer": "ডায়নামো",
+        "max_words": 1,
+        "answer_slot_id": 40
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_041",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চৌষক পদার্থ",
+        "question_bn": "নিকেল কোন ধরনের পদার্থ?",
+        "expected_answer": "চৌষক পদার্থ",
+        "max_words": 2,
+        "answer_slot_id": 41
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_042",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "অচৌষক পদার্থ",
+        "question_bn": "কাগজ কোন ধরনের পদার্থ?",
+        "expected_answer": "অচৌষক পদার্থ",
+        "max_words": 2,
+        "answer_slot_id": 42
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_043",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের ধর্ম",
+        "question_bn": "চুম্বকের কোন ধর্মের কারণে একক মেরু সম্ভব নয়?",
+        "expected_answer": "দ্বিমেরু ধর্ম",
+        "max_words": 2,
+        "answer_slot_id": 43
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_044",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "চৌষক ক্ষেত্র",
+        "question_bn": "ভূচৌষক ক্ষেত্রের কারণে মেরু অঞ্চলে কী দেখা যায়?",
+        "expected_answer": "মেরুজ্যোতি",
+        "max_words": 1,
+        "answer_slot_id": 44
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_045",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের উপাদান",
+        "question_bn": "ইস্পাত কোন ধাতুর সংকর?",
+        "expected_answer": "লোহার সংকর",
+        "max_words": 2,
+        "answer_slot_id": 45
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_046",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের প্রকার",
+        "question_bn": "চুম্বক মোট কত প্রকার?",
+        "expected_answer": "দুই প্রকার",
+        "max_words": 2,
+        "answer_slot_id": 46
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_047",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চুম্বকের উৎস",
+        "question_bn": "ম্যাগনেটাইট কোন ধরনের চুম্বক?",
+        "expected_answer": "প্রাকৃতিক চুম্বক",
+        "max_words": 2,
+        "answer_slot_id": 47
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_048",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চুম্বকের ব্যবহার",
+        "question_bn": "ATM বা ক্রেডিট কার্ডের যে অংশে চুম্বক থাকে তাকে কী বলে?",
+        "expected_answer": "চুম্বকিত স্ট্রিপ",
+        "max_words": 2,
+        "answer_slot_id": 48
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_049",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "চুম্বকের আবেশ ধর্ম",
+        "question_bn": "চুম্বক সরিয়ে নেওয়ার সঙ্গে সঙ্গে আবেশিত পেরেকের আকর্ষণ ক্ষমতা কী হয়?",
+        "expected_answer": "চলে যায়",
+        "max_words": 2,
+        "answer_slot_id": 49
+      },
+      {
+        "id": "paribesh_o_bigyan_ch03_sw_050",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "চুম্বকের মেরু অঞ্চল",
+        "question_bn": "চুম্বকের যে দুটি অঞ্চলে আকর্ষণ ক্ষমতা সবচেয়ে বেশি, সেই দুই অঞ্চলকে কী বলে?",
+        "expected_answer": "মেরু",
+        "max_words": 1,
+        "answer_slot_id": 50
+      }
+    ]
+  }
+}

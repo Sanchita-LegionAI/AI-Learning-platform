@@ -1,0 +1,2394 @@
+{
+  "book_id": "paribesh_o_bigyan",
+  "book_name": "Paribesh O Bigyan",
+  "book_name_bn": "পরিবেশ ও বিজ্ঞান",
+  "subject": "science",
+  "class": 7,
+  "chapter_no": 2,
+  "chapter_title_bn": "ভৌত পরিবেশ - আলো",
+  "source_file": "paribesh_o_bigyan_ch02_questions.json",
+  "questions": {
+    "mcq": [
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_001",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "স্বপ্রভ বস্তু",
+        "question_bn": "নিচের কোনটি স্বপ্রভ বস্তু?",
+        "options": [
+          "চাঁদ",
+          "পাথর",
+          "সূর্য",
+          "কাঠ",
+          "ইট"
+        ],
+        "correct_answer": "সূর্য"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_002",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "অপ্রভ বস্তু",
+        "question_bn": "নিচের কোনটি অপ্রভ বস্তু?",
+        "options": [
+          "সূর্য",
+          "জোনাকি",
+          "তারা",
+          "চাঁদ",
+          "জ্বলন্ত মোমবাতি"
+        ],
+        "correct_answer": "চাঁদ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_003",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আলোর গতি",
+        "question_bn": "আলো কীভাবে চলাচল করে?",
+        "options": [
+          "বক্ররেখায়",
+          "সরলরেখায়",
+          "বৃত্তাকার পথে",
+          "জিগজাগ পথে",
+          "ঊর্ধ্বমুখী পথে"
+        ],
+        "correct_answer": "সরলরেখায়"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_004",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "স্বচ্ছ বস্তু",
+        "question_bn": "নিচের কোনটি স্বচ্ছ বস্তু?",
+        "options": [
+          "কাঠ",
+          "লোহা",
+          "বায়ু",
+          "পাথর",
+          "মাটি"
+        ],
+        "correct_answer": "বায়ু"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_005",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "অস্বচ্ছ বস্তু",
+        "question_bn": "নিচের কোনটি অস্বচ্ছ বস্তু?",
+        "options": [
+          "কাচ",
+          "বায়ু",
+          "জল",
+          "কাঠ",
+          "স্বচ্ছ প্লাস্টিক"
+        ],
+        "correct_answer": "কাঠ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_006",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ছায়া",
+        "question_bn": "আলোর পথে অস্বচ্ছ বস্তু রাখলে বস্তুর পেছনে কী গঠিত হয়?",
+        "options": [
+          "প্রতিবিম্ব",
+          "বর্ণালি",
+          "ছায়া",
+          "প্রতিসরণ",
+          "বিচ্ছুরণ"
+        ],
+        "correct_answer": "ছায়া"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_007",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "প্রতিফলন",
+        "question_bn": "আয়নায় আলোর ফিরে আসার ঘটনাকে কী বলে?",
+        "options": [
+          "প্রতিসরণ",
+          "বিচ্ছুরণ",
+          "প্রতিফলন",
+          "শোষণ",
+          "বিক্ষেপণ"
+        ],
+        "correct_answer": "প্রতিফলন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_008",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বর্ণালি",
+        "question_bn": "সূর্যের আলো প্রিজমের মধ্য দিয়ে গেলে কতটি রঙে ভাগ হয়?",
+        "options": [
+          "পাঁচটি",
+          "ছয়টি",
+          "সাতটি",
+          "আটটি",
+          "নয়টি"
+        ],
+        "correct_answer": "সাতটি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_009",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আলোক রশ্মি",
+        "question_bn": "আলোর চলার পথকে কাল্পনিক সরলরেখা দিয়ে বোঝানো হয় তাকে কী বলে?",
+        "options": [
+          "আলোক রশ্মিগুচ্ছ",
+          "আলোক উৎস",
+          "আলোক রশ্মি",
+          "আলোক তরঙ্গ",
+          "আলোক কণা"
+        ],
+        "correct_answer": "আলোক রশ্মি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_010",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "রংধনু",
+        "question_bn": "রংধনু তৈরি হয় কোন ঘটনার ফলে?",
+        "options": [
+          "প্রতিফলন",
+          "প্রতিসরণ",
+          "বিচ্ছুরণ",
+          "শোষণ",
+          "বিক্ষেপণ"
+        ],
+        "correct_answer": "বিচ্ছুরণ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_011",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "প্রতিবিম্ব",
+        "question_bn": "আয়নায় বস্তুর যে প্রতিকৃতি দেখা যায় তাকে কী বলে?",
+        "options": [
+          "ছায়া",
+          "প্রচ্ছায়া",
+          "উপচ্ছায়া",
+          "প্রতিবিম্ব",
+          "বর্ণালি"
+        ],
+        "correct_answer": "প্রতিবিম্ব"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_012",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "প্রচ্ছায়া",
+        "question_bn": "ছায়ার মধ্যে গাঢ় অন্ধকার অংশকে কী বলে?",
+        "options": [
+          "উপচ্ছায়া",
+          "প্রচ্ছায়া",
+          "বর্ণালি",
+          "প্রতিবিম্ব",
+          "আলোক রশ্মি"
+        ],
+        "correct_answer": "প্রচ্ছায়া"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_013",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "উপচ্ছায়া",
+        "question_bn": "প্রচ্ছায়াকে ঘিরে থাকা আবছা অন্ধকার অংশকে কী বলে?",
+        "options": [
+          "প্রচ্ছায়া",
+          "বর্ণালি",
+          "উপচ্ছায়া",
+          "প্রতিসরণ",
+          "ছায়া"
+        ],
+        "correct_answer": "উপচ্ছায়া"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_014",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বিন্দু আলোক উৎস",
+        "question_bn": "আকারে খুব ছোটো আলোক উৎসকে কী বলে?",
+        "options": [
+          "বিস্তৃত আলোক উৎস",
+          "বিন্দু আলোক উৎস",
+          "সমান্তরাল আলোক রশ্মিগুচ্ছ",
+          "অপসারী রশ্মিগুচ্ছ",
+          "অভিসারী রশ্মিগুচ্ছ"
+        ],
+        "correct_answer": "বিন্দু আলোক উৎস"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_015",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আলোর প্রতিসরণ",
+        "question_bn": "আলো এক মাধ্যম থেকে অন্য মাধ্যমে প্রবেশ করলে গতিপথের পরিবর্তন ঘটে। এই ঘটনাকে কী বলে?",
+        "options": [
+          "প্রতিফলন",
+          "বিচ্ছুরণ",
+          "প্রতিসরণ",
+          "শোষণ",
+          "বিক্ষেপণ"
+        ],
+        "correct_answer": "প্রতিসরণ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_016",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "অভিলম্ব",
+        "question_bn": "প্রতিফলকের উপর আপতন বিন্দুতে আঁকা লম্বকে কী বলে?",
+        "options": [
+          "আপতন কোণ",
+          "প্রতিফলন কোণ",
+          "অভিলম্ব",
+          "প্রতিসরণ কোণ",
+          "বিভেদতল"
+        ],
+        "correct_answer": "অভিলম্ব"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_017",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আপতন কোণ",
+        "question_bn": "অভিলম্ব ও আপতিত রশ্মির মাঝের কোণকে কী বলে?",
+        "options": [
+          "প্রতিফলন কোণ",
+          "প্রতিসরণ কোণ",
+          "আপতন কোণ",
+          "বিচ্যুতি কোণ",
+          "ক্রান্তি কোণ"
+        ],
+        "correct_answer": "আপতন কোণ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_018",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "প্রতিফলনের নিয়ম",
+        "question_bn": "প্রতিফলনের নিয়ম অনুযায়ী আপতন কোণ ও প্রতিফলন কোণের সম্পর্ক কী?",
+        "options": [
+          "আপতন কোণ বড়",
+          "প্রতিফলন কোণ বড়",
+          "দুটি কোণ সমান",
+          "দুটি কোণের যোগফল ৯০°",
+          "দুটি কোণের যোগফল ১৮০°"
+        ],
+        "correct_answer": "দুটি কোণ সমান"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_019",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "নিয়মিত প্রতিফলন",
+        "question_bn": "মসৃণ তলে আলোর প্রতিফলনকে কী বলে?",
+        "options": [
+          "বিক্ষিপ্ত প্রতিফলন",
+          "নিয়মিত প্রতিফলন",
+          "বিচ্ছুরণ",
+          "প্রতিসরণ",
+          "শোষণ"
+        ],
+        "correct_answer": "নিয়মিত প্রতিফলন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_020",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বিক্ষিপ্ত প্রতিফলন",
+        "question_bn": "অমসৃণ তলে আলোর প্রতিফলনকে কী বলে?",
+        "options": [
+          "নিয়মিত প্রতিফলন",
+          "বিক্ষিপ্ত প্রতিফলন",
+          "বিচ্ছুরণ",
+          "প্রতিসরণ",
+          "পূর্ণ অভ্যন্তরীণ প্রতিফলন"
+        ],
+        "correct_answer": "বিক্ষিপ্ত প্রতিফলন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_021",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সুচিছিদ্র ক্যামেরা",
+        "question_bn": "সুচিছিদ্র ক্যামেরায় বস্তুর প্রতিকৃতি কেমন হয়?",
+        "options": [
+          "সোজা",
+          "উলটো",
+          "একই রকম",
+          "রঙিন",
+          "বড়"
+        ],
+        "correct_answer": "উলটো"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_022",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সুচিছিদ্র ক্যামেরা",
+        "question_bn": "সুচিছিদ্র ক্যামেরায় বস্তু ছিদ্রের কাছে আনলে প্রতিকৃতির আকার কেমন হয়?",
+        "options": [
+          "ছোটো হয়",
+          "বড় হয়",
+          "একই থাকে",
+          "অদৃশ্য হয়",
+          "সোজা হয়"
+        ],
+        "correct_answer": "বড় হয়"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_023",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আলোর বিচ্ছুরণ",
+        "question_bn": "১৬৬৬ সালে বিচ্ছুরণ আবিষ্কার করেন কোন বিজ্ঞানী?",
+        "options": [
+          "গ্যালিলিও",
+          "আইনস্টাইন",
+          "আইজ্যাক নিউটন",
+          "মাইকেল ফ্যারাডে",
+          "থমাস এডিসন"
+        ],
+        "correct_answer": "আইজ্যাক নিউটন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_024",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "অতিবেগুনি রশ্মি",
+        "question_bn": "অতিবেগুনি রশ্মি থেকে পৃথিবীকে রক্ষা করে কোন স্তর?",
+        "options": [
+          "নাইট্রোজেন স্তর",
+          "অক্সিজেন স্তর",
+          "ওজোন স্তর",
+          "আর্গন স্তর",
+          "কার্বন ডাইঅক্সাইড স্তর"
+        ],
+        "correct_answer": "ওজোন স্তর"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_025",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আলোর প্রতিসরণ",
+        "question_bn": "লঘুতর মাধ্যম থেকে ঘনতর মাধ্যমে প্রবেশ করলে আলোক রশ্মি অভিলম্বের কোন দিকে সরে?",
+        "options": [
+          "দূরে সরে",
+          "কাছে সরে",
+          "একই থাকে",
+          "সম্পূর্ণ প্রতিফলিত হয়",
+          "বিচ্ছুরিত হয়"
+        ],
+        "correct_answer": "কাছে সরে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_026",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ঈষৎ স্বচ্ছ বস্তু",
+        "question_bn": "ঘষা কাচ, কুয়াশা, ট্রেসিং পেপার — এগুলো কোন ধরনের বস্তু?",
+        "options": [
+          "স্বচ্ছ বস্তু",
+          "অস্বচ্ছ বস্তু",
+          "ঈষৎ স্বচ্ছ বস্তু",
+          "স্বপ্রভ বস্তু",
+          "অপ্রভ বস্তু"
+        ],
+        "correct_answer": "ঈষৎ স্বচ্ছ বস্তু"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_027",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বিস্তৃত আলোক উৎস",
+        "question_bn": "টর্চ, সূর্য, বৈদ্যুতিক বাল্ব — এগুলো কোন ধরনের আলোক উৎস?",
+        "options": [
+          "বিন্দু আলোক উৎস",
+          "বিস্তৃত আলোক উৎস",
+          "অপ্রভ বস্তু",
+          "ঈষৎ স্বচ্ছ বস্তু",
+          "অস্বচ্ছ বস্তু"
+        ],
+        "correct_answer": "বিস্তৃত আলোক উৎস"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_028",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আলোক রশ্মিগুচ্ছ",
+        "question_bn": "একসঙ্গে অসংখ্য আলোক রশ্মিকে কী বলে?",
+        "options": [
+          "আলোক রশ্মি",
+          "আলোক উৎস",
+          "আলোক রশ্মিগুচ্ছ",
+          "আলোক বিন্দু",
+          "আলোক তরঙ্গ"
+        ],
+        "correct_answer": "আলোক রশ্মিগুচ্ছ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_029",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আলোর প্রতিসরণ",
+        "question_bn": "দুটি ভিন্ন মাধ্যমের সংযোগস্থলকে কী বলে?",
+        "options": [
+          "অভিলম্ব",
+          "আপতন বিন্দু",
+          "বিভেদতল",
+          "প্রতিফলক",
+          "আলোক রশ্মি"
+        ],
+        "correct_answer": "বিভেদতল"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_030",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "প্রতিবিম্বের বৈশিষ্ট্য",
+        "question_bn": "সমতল দর্পণে প্রতিবিম্বের আকার বস্তুর আকারের তুলনায় কেমন?",
+        "options": [
+          "বড়",
+          "ছোটো",
+          "সমান",
+          "দ্বিগুণ",
+          "অর্ধেক"
+        ],
+        "correct_answer": "সমান"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_031",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "প্রতিবিম্বের দূরত্ব",
+        "question_bn": "বস্তু থেকে আয়না ও আয়না থেকে প্রতিবিম্বের দূরত্ব কেমন?",
+        "options": [
+          "প্রতিবিম্ব বেশি দূরে",
+          "বস্তু বেশি দূরে",
+          "দুটি দূরত্ব সমান",
+          "প্রতিবিম্ব দ্বিগুণ দূরে",
+          "প্রতিবিম্ব অর্ধেক দূরে"
+        ],
+        "correct_answer": "দুটি দূরত্ব সমান"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_032",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পার্শ্ব পরিবর্তন",
+        "question_bn": "আয়নায় বস্তুর প্রতিবিম্বে কোন পরিবর্তন হয়?",
+        "options": [
+          "উপর-নিচ পরিবর্তন",
+          "পার্শ্ব পরিবর্তন",
+          "আকার পরিবর্তন",
+          "রং পরিবর্তন",
+          "কোনো পরিবর্তন নেই"
+        ],
+        "correct_answer": "পার্শ্ব পরিবর্তন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_033",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "আলোক রশ্মিগুচ্ছের প্রকার",
+        "question_bn": "সমান্তরাল আলোক রশ্মিগুচ্ছে রশ্মিগুলো পরস্পরের সঙ্গে কেমন থাকে?",
+        "options": [
+          "অভিসারী",
+          "অপসারী",
+          "সমান্তরাল",
+          "লম্ব",
+          "বিচ্ছিন্ন"
+        ],
+        "correct_answer": "সমান্তরাল"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_034",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "বিচ্ছুরণ",
+        "question_bn": "বর্ণালির সাতটি রং-এর আলোগুলো একসঙ্গে মিলিত হলে কোন রঙের আলো পাওয়া যায়?",
+        "options": [
+          "লাল",
+          "নীল",
+          "সাদা",
+          "হলুদ",
+          "বেগুনি"
+        ],
+        "correct_answer": "সাদা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_035",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "অতিবেগুনি রশ্মি",
+        "question_bn": "অতিবেগুনি রশ্মি সরাসরি চোখে পড়লে কী ক্ষতি হয়?",
+        "options": [
+          "চোখের রং বদলায়",
+          "চোখের লেন্সের ক্ষতি হয়",
+          "চোখ বড় হয়",
+          "দৃষ্টিশক্তি বাড়ে",
+          "কোনো ক্ষতি নেই"
+        ],
+        "correct_answer": "চোখের লেন্সের ক্ষতি হয়"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_036",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "এক্স রশ্মি",
+        "question_bn": "এক্স-রশ্মি কোন ধরনের আলো?",
+        "options": [
+          "দৃশ্যমান আলো",
+          "অতিবেগুনি আলো",
+          "অদৃশ্য আলো",
+          "অবলোহিত আলো",
+          "সাদা আলো"
+        ],
+        "correct_answer": "অদৃশ্য আলো"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_037",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "সালোকসংশ্লেষণ",
+        "question_bn": "উদ্ভিদের সবুজ অঙ্গগুলো আলোকশক্তি শোষণ করে কীসে পরিণত করে?",
+        "options": [
+          "তাপশক্তিতে",
+          "বিদ্যুৎশক্তিতে",
+          "খাদ্যের শক্তিতে",
+          "শব্দশক্তিতে",
+          "গতিশক্তিতে"
+        ],
+        "correct_answer": "খাদ্যের শক্তিতে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_038",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ফটোট্রপিজম",
+        "question_bn": "চারা গাছ আলোর দিকে বেঁকে যায় — এই ঘটনাকে কী বলে?",
+        "options": [
+          "ফটোট্রপিজম",
+          "জিওট্রপিজম",
+          "থার্মোট্রপিজম",
+          "হাইড্রোট্রপিজম",
+          "কেমোট্রপিজম"
+        ],
+        "correct_answer": "ফটোট্রপিজম"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_039",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মেলানিন",
+        "question_bn": "চামড়ায় অতিবেগুনি রশ্মি এলে কোন পদার্থ তৈরি হয়?",
+        "options": [
+          "হিমোগ্লোবিন",
+          "ক্লোরোফিল",
+          "মেলানিন",
+          "ক্যারোটিন",
+          "অ্যালবুমিন"
+        ],
+        "correct_answer": "মেলানিন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_040",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "প্রতিসরণের কারণ",
+        "question_bn": "জলে রাখা লাঠি বাঁকা দেখায় কেন?",
+        "options": [
+          "প্রতিফলনের কারণে",
+          "বিচ্ছুরণের কারণে",
+          "প্রতিসরণের কারণে",
+          "শোষণের কারণে",
+          "বিক্ষেপণের কারণে"
+        ],
+        "correct_answer": "প্রতিসরণের কারণে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_041",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আলোক উৎস",
+        "question_bn": "জোনাকি পোকা কোন ধরনের বস্তু?",
+        "options": [
+          "অপ্রভ বস্তু",
+          "স্বপ্রভ বস্তু",
+          "স্বচ্ছ বস্তু",
+          "অস্বচ্ছ বস্তু",
+          "ঈষৎ স্বচ্ছ বস্তু"
+        ],
+        "correct_answer": "স্বপ্রভ বস্তু"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_042",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "স্বচ্ছ মাধ্যম",
+        "question_bn": "নিচের কোন মাধ্যমে আলো সহজে যাতায়াত করতে পারে?",
+        "options": [
+          "কাঠ",
+          "লোহা",
+          "স্বচ্ছ কাচ",
+          "ইট",
+          "মাটি"
+        ],
+        "correct_answer": "স্বচ্ছ কাচ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_043",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বিন্দু উৎস ও ছায়া",
+        "question_bn": "বিন্দু আলোক উৎস ব্যবহার করলে কোনটি গঠিত হয় না?",
+        "options": [
+          "প্রচ্ছায়া",
+          "উপচ্ছায়া",
+          "ছায়া",
+          "বর্ণালি",
+          "প্রতিবিম্ব"
+        ],
+        "correct_answer": "উপচ্ছায়া"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_044",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আলোর মাধ্যম",
+        "question_bn": "আলো মাধ্যম ছাড়াও চলাচল করতে পারে — এর প্রমাণ কোনটি?",
+        "options": [
+          "জলের মধ্যে আলো",
+          "কাচের মধ্যে আলো",
+          "সূর্য থেকে পৃথিবীতে আলো আসা",
+          "মোমবাতির আলো",
+          "টর্চের আলো"
+        ],
+        "correct_answer": "সূর্য থেকে পৃথিবীতে আলো আসা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_045",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আলোর প্রতিফলন",
+        "question_bn": "পুকুরের জলে গাছের ছবি পড়ে — এটি কোন ঘটনার উদাহরণ?",
+        "options": [
+          "প্রতিসরণ",
+          "বিচ্ছুরণ",
+          "প্রতিফলন",
+          "শোষণ",
+          "বিক্ষেপণ"
+        ],
+        "correct_answer": "প্রতিফলন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_046",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সুচিছিদ্র ক্যামেরা",
+        "question_bn": "সুচিছিদ্র ক্যামেরায় ছিদ্র থেকে পর্দার দূরত্ব বাড়ালে প্রতিকৃতি কেমন হয়?",
+        "options": [
+          "ছোটো হয়",
+          "বড় হয়",
+          "একই থাকে",
+          "অদৃশ্য হয়",
+          "সোজা হয়"
+        ],
+        "correct_answer": "বড় হয়"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_047",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "DNA ক্ষতি",
+        "question_bn": "অতিবেগুনি রশ্মির প্রভাবে কোষের কোন অঙু ক্ষতিগ্রস্ত হয়?",
+        "options": [
+          "RNA",
+          "ATP",
+          "DNA",
+          "প্রোটিন",
+          "লিপিড"
+        ],
+        "correct_answer": "DNA"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_048",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "আলোর প্রভাব — প্রাণী",
+        "question_bn": "আলো কম পেলে স্যামন মাছের কী হয়?",
+        "options": [
+          "বাচ্চা বড় হয়",
+          "বাচ্চা মরে যায়",
+          "বাচ্চা বেশি হয়",
+          "রং বদলায়",
+          "শীতঘুমে যায়"
+        ],
+        "correct_answer": "বাচ্চা মরে যায়"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_049",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "প্রতিফলনের নিয়ম",
+        "question_bn": "আপতিত রশ্মি, প্রতিফলিত রশ্মি ও অভিলম্ব একই সমতলে থাকে — এটি প্রতিফলনের কোন নিয়ম?",
+        "options": [
+          "প্রথম নিয়ম",
+          "দ্বিতীয় নিয়ম",
+          "তৃতীয় নিয়ম",
+          "চতুর্থ নিয়ম",
+          "কোনো নিয়ম নয়"
+        ],
+        "correct_answer": "দ্বিতীয় নিয়ম"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_mcq_050",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বর্ণালির রং",
+        "question_bn": "বর্ণালিতে বেগুনি রঙের পরেই কোন রং আসে?",
+        "options": [
+          "লাল",
+          "হলুদ",
+          "নীল",
+          "সবুজ",
+          "কমলা"
+        ],
+        "correct_answer": "নীল"
+      }
+    ],
+    "match_pairs": [
+      {
+        "id": "paribesh_o_bigyan_ch02_match_001",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বস্তুর শ্রেণিবিভাগ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "স্বপ্রভ বস্তু",
+            "right": "সূর্য"
+          },
+          {
+            "left": "অপ্রভ বস্তু",
+            "right": "চাঁদ"
+          },
+          {
+            "left": "স্বচ্ছ বস্তু",
+            "right": "কাচ"
+          },
+          {
+            "left": "অস্বচ্ছ বস্তু",
+            "right": "কাঠ"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_match_002",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "আলোর ঘটনা",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "প্রতিফলন",
+            "right": "আয়নায় ছবি দেখা"
+          },
+          {
+            "left": "প্রতিসরণ",
+            "right": "জলে লাঠি বাঁকা দেখা"
+          },
+          {
+            "left": "বিচ্ছুরণ",
+            "right": "রংধনু তৈরি"
+          },
+          {
+            "left": "ছায়া",
+            "right": "অস্বচ্ছ বস্তুর পেছনে অন্ধকার"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_match_003",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "আলোক রশ্মিগুচ্ছ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "সমান্তরাল রশ্মিগুচ্ছ",
+            "right": "রশ্মি পরস্পর সমান্তরাল"
+          },
+          {
+            "left": "অপসারী রশ্মিগুচ্ছ",
+            "right": "রশ্মি দূরে ছড়িয়ে পড়ে"
+          },
+          {
+            "left": "অভিসারী রশ্মিগুচ্ছ",
+            "right": "রশ্মি এক বিন্দুতে মেলে"
+          },
+          {
+            "left": "বিন্দু উৎস",
+            "right": "আকারে খুব ছোটো উৎস"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_match_004",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ছায়ার অংশ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "প্রচ্ছায়া",
+            "right": "গাঢ় অন্ধকার অংশ"
+          },
+          {
+            "left": "উপচ্ছায়া",
+            "right": "আবছা অন্ধকার অংশ"
+          },
+          {
+            "left": "বিস্তৃত উৎস",
+            "right": "প্রচ্ছায়া ও উপচ্ছায়া দুটোই"
+          },
+          {
+            "left": "বিন্দু উৎস",
+            "right": "শুধু প্রচ্ছায়া"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_match_005",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "প্রতিফলনের পরিভাষা",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "আপতিত রশ্মি",
+            "right": "আয়নায় আসা রশ্মি"
+          },
+          {
+            "left": "প্রতিফলিত রশ্মি",
+            "right": "আয়না থেকে ফিরে যাওয়া রশ্মি"
+          },
+          {
+            "left": "আপতন বিন্দু",
+            "right": "রশ্মি আয়নায় পড়ার বিন্দু"
+          },
+          {
+            "left": "অভিলম্ব",
+            "right": "আপতন বিন্দুতে আঁকা লম্ব"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_match_006",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "আলোর উৎস উদাহরণ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "প্রাকৃতিক স্বপ্রভ বস্তু",
+            "right": "সূর্য"
+          },
+          {
+            "left": "কৃত্রিম স্বপ্রভ বস্তু",
+            "right": "বৈদ্যুতিক বাল্ব"
+          },
+          {
+            "left": "জীবজগতের স্বপ্রভ বস্তু",
+            "right": "জোনাকি"
+          },
+          {
+            "left": "অপ্রভ বস্তুর উদাহরণ",
+            "right": "পাথর"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_match_007",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বর্ণালির রং",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "VIBGYOR-এর প্রথম রং",
+            "right": "বেগুনি"
+          },
+          {
+            "left": "VIBGYOR-এর শেষ রং",
+            "right": "লাল"
+          },
+          {
+            "left": "বর্ণালির মধ্যবর্তী রং",
+            "right": "সবুজ"
+          },
+          {
+            "left": "বর্ণালির পঞ্চম রং",
+            "right": "হলুদ"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_match_008",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "আলোর প্রভাব",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "অতিবেগুনি রশ্মি",
+            "right": "চামড়ার ক্যান্সার"
+          },
+          {
+            "left": "এক্স রশ্মি",
+            "right": "হাড়ের ছবি তোলা"
+          },
+          {
+            "left": "সালোকসংশ্লেষণ",
+            "right": "উদ্ভিদের খাদ্য তৈরি"
+          },
+          {
+            "left": "মেলানিন",
+            "right": "চামড়ার রঙ্গক পদার্থ"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_match_009",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "প্রতিসরণের পরিভাষা",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "লঘুতর মাধ্যম",
+            "right": "বায়ু"
+          },
+          {
+            "left": "ঘনতর মাধ্যম",
+            "right": "জল"
+          },
+          {
+            "left": "প্রতিসৃত রশ্মি",
+            "right": "বিভেদতলের পরের রশ্মি"
+          },
+          {
+            "left": "প্রতিসরণ কোণ",
+            "right": "অভিলম্ব ও প্রতিসৃত রশ্মির কোণ"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_match_010",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "প্রতিফলনের প্রকার",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "নিয়মিত প্রতিফলন",
+            "right": "আয়নায় প্রতিফলন"
+          },
+          {
+            "left": "বিক্ষিপ্ত প্রতিফলন",
+            "right": "দেয়ালে প্রতিফলন"
+          },
+          {
+            "left": "মসৃণ তল",
+            "right": "নিয়মিত প্রতিফলন দেয়"
+          },
+          {
+            "left": "অমসৃণ তল",
+            "right": "বিক্ষিপ্ত প্রতিফলন দেয়"
+          }
+        ]
+      }
+    ],
+    "true_false": [
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_001",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আলোর গতি",
+        "question_bn": "আলো সরলরেখায় চলাচল করে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_002",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "স্বপ্রভ বস্তু",
+        "question_bn": "চাঁদ একটি স্বপ্রভ বস্তু।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_003",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "স্বচ্ছ বস্তু",
+        "question_bn": "কাচের মধ্য দিয়ে আলো যেতে পারে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_004",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "অস্বচ্ছ বস্তু",
+        "question_bn": "কাঠের মধ্য দিয়ে আলো যেতে পারে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_005",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বিচ্ছুরণ",
+        "question_bn": "সূর্যের আলো আসলে অনেক রঙের আলোর সমষ্টি।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_006",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "রংধনু",
+        "question_bn": "রংধনুতে পাঁচটি রং থাকে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_007",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "প্রতিফলন",
+        "question_bn": "আপতন কোণ ও প্রতিফলন কোণ সমান হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_008",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "প্রতিবিম্ব",
+        "question_bn": "আয়নায় প্রতিবিম্ব বস্তুর চেয়ে বড় হয়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_009",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আলোক উৎস",
+        "question_bn": "সূর্য একটি প্রাকৃতিক আলোক উৎস।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_010",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "উপচ্ছায়া",
+        "question_bn": "বিন্দু আলোক উৎস থেকে উপচ্ছায়া গঠিত হয়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_011",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সুচিছিদ্র ক্যামেরা",
+        "question_bn": "সুচিছিদ্র ক্যামেরায় বস্তুর উলটো প্রতিকৃতি তৈরি হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_012",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "প্রতিসরণ",
+        "question_bn": "আলো সব মাধ্যমে একই গতিতে চলে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_013",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "নিয়মিত প্রতিফলন",
+        "question_bn": "আয়নায় প্রতিফলন নিয়মিত প্রতিফলনের উদাহরণ।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_014",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বিক্ষিপ্ত প্রতিফলন",
+        "question_bn": "সিনেমার পর্দায় বিক্ষিপ্ত প্রতিফলন হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_015",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ওজোন স্তর",
+        "question_bn": "ওজোন স্তর সূর্যের দৃশ্যমান আলোকে বাধা দেয়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_016",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পার্শ্ব পরিবর্তন",
+        "question_bn": "আয়নায় প্রতিবিম্বে পার্শ্ব পরিবর্তন হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_017",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আলোর প্রভাব",
+        "question_bn": "আলো ছাড়া গাছ বেঁচে থাকতে পারে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_018",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "এক্স রশ্মি",
+        "question_bn": "এক্স-রশ্মি দীর্ঘকাল ব্যবহারে ক্যান্সার সৃষ্টি করতে পারে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_019",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "বিচ্ছুরণ আবিষ্কার",
+        "question_bn": "আইজ্যাক নিউটন ১৭৬৬ সালে বিচ্ছুরণ আবিষ্কার করেন।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_tf_020",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "প্রতিসরণ",
+        "question_bn": "আলো লঘুতর মাধ্যম থেকে ঘনতর মাধ্যমে প্রবেশ করলে অভিলম্বের দিকে সরে আসে।",
+        "correct_answer": "true"
+      }
+    ],
+    "tap_sequence": [
+      {
+        "id": "paribesh_o_bigyan_ch02_seq_001",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বর্ণালির রং",
+        "question_bn": "বর্ণালির রংগুলো সঠিক ক্রমে সাজাও (বেগুনি থেকে শুরু করে)",
+        "items": [
+          "সবুজ",
+          "বেগুনি",
+          "হলুদ",
+          "নীল"
+        ],
+        "correct_order": [
+          "বেগুনি",
+          "নীল",
+          "সবুজ",
+          "হলুদ"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_seq_002",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সুচিছিদ্র ক্যামেরা",
+        "question_bn": "সুচিছিদ্র ক্যামেরায় আলোক রশ্মির পথ সঠিক ক্রমে সাজাও",
+        "items": [
+          "পর্দায় প্রতিকৃতি",
+          "বস্তু থেকে আলো নির্গত",
+          "ছিদ্র দিয়ে আলো প্রবেশ",
+          "ক্যামেরার ভেতরে রশ্মি যায়"
+        ],
+        "correct_order": [
+          "বস্তু থেকে আলো নির্গত",
+          "ছিদ্র দিয়ে আলো প্রবেশ",
+          "ক্যামেরার ভেতরে রশ্মি যায়",
+          "পর্দায় প্রতিকৃতি"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_seq_003",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "প্রতিফলনের ধাপ",
+        "question_bn": "আলোর প্রতিফলনের ধাপগুলো সঠিক ক্রমে সাজাও",
+        "items": [
+          "প্রতিফলিত রশ্মি ফিরে আসে",
+          "আপতিত রশ্মি আয়নায় আসে",
+          "আপতন বিন্দুতে পড়ে",
+          "অভিলম্ব অনুযায়ী রশ্মি ফেরে"
+        ],
+        "correct_order": [
+          "আপতিত রশ্মি আয়নায় আসে",
+          "আপতন বিন্দুতে পড়ে",
+          "অভিলম্ব অনুযায়ী রশ্মি ফেরে",
+          "প্রতিফলিত রশ্মি ফিরে আসে"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_seq_004",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "রংধনু তৈরির প্রক্রিয়া",
+        "question_bn": "রংধনু তৈরির ধাপগুলো সঠিক ক্রমে সাজাও",
+        "items": [
+          "সাত রঙের বর্ণালি তৈরি",
+          "আকাশে জলকণা ভাসে",
+          "রংধনু দেখা যায়",
+          "সূর্যের আলো জলকণায় পড়ে"
+        ],
+        "correct_order": [
+          "আকাশে জলকণা ভাসে",
+          "সূর্যের আলো জলকণায় পড়ে",
+          "সাত রঙের বর্ণালি তৈরি",
+          "রংধনু দেখা যায়"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_seq_005",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ছায়ার আকার",
+        "question_bn": "হাত দেয়ালের কাছে নিলে ছায়া ছোটো হয় — ধাপগুলো সঠিক ক্রমে সাজাও",
+        "items": [
+          "হাত দেয়ালে স্পর্শ করে",
+          "হাত দেয়াল থেকে দূরে",
+          "হাত দেয়ালের মাঝপথে",
+          "হাত দেয়ালের একটু কাছে"
+        ],
+        "correct_order": [
+          "হাত দেয়াল থেকে দূরে",
+          "হাত দেয়ালের মাঝপথে",
+          "হাত দেয়ালের একটু কাছে",
+          "হাত দেয়ালে স্পর্শ করে"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_seq_006",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "প্রতিসরণের ধাপ",
+        "question_bn": "আলোর প্রতিসরণের ধাপগুলো সঠিক ক্রমে সাজাও",
+        "items": [
+          "দ্বিতীয় মাধ্যমে নতুন পথে চলে",
+          "আলো প্রথম মাধ্যমে চলে",
+          "গতিপথ পরিবর্তন হয়",
+          "বিভেদতলে পৌঁছায়"
+        ],
+        "correct_order": [
+          "আলো প্রথম মাধ্যমে চলে",
+          "বিভেদতলে পৌঁছায়",
+          "গতিপথ পরিবর্তন হয়",
+          "দ্বিতীয় মাধ্যমে নতুন পথে চলে"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_seq_007",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বর্ণালির রং — তরঙ্গদৈর্ঘ্য",
+        "question_bn": "বর্ণালির রংগুলো তরঙ্গদৈর্ঘ্য অনুযায়ী বড় থেকে ছোটো ক্রমে সাজাও",
+        "items": [
+          "নীল",
+          "লাল",
+          "সবুজ",
+          "বেগুনি"
+        ],
+        "correct_order": [
+          "লাল",
+          "সবুজ",
+          "নীল",
+          "বেগুনি"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_seq_008",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সালোকসংশ্লেষণ",
+        "question_bn": "সালোকসংশ্লেষণের ধাপগুলো সঠিক ক্রমে সাজাও",
+        "items": [
+          "উদ্ভিদ খাদ্য তৈরি করে",
+          "ক্লোরোফিল আলো শোষণ করে",
+          "আলো গাছের পাতায় পড়ে",
+          "শক্তি খাদ্যে পরিণত হয়"
+        ],
+        "correct_order": [
+          "আলো গাছের পাতায় পড়ে",
+          "ক্লোরোফিল আলো শোষণ করে",
+          "শক্তি খাদ্যে পরিণত হয়",
+          "উদ্ভিদ খাদ্য তৈরি করে"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_seq_009",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "প্রতিবিম্ব পর্যবেক্ষণ",
+        "question_bn": "আয়নায় প্রতিবিম্ব দেখার ধাপগুলো সঠিক ক্রমে সাজাও",
+        "items": [
+          "প্রতিফলিত আলো চোখে আসে",
+          "বস্তু থেকে আলো নির্গত হয়",
+          "প্রতিবিম্ব দেখা যায়",
+          "আলো আয়নায় পড়ে"
+        ],
+        "correct_order": [
+          "বস্তু থেকে আলো নির্গত হয়",
+          "আলো আয়নায় পড়ে",
+          "প্রতিফলিত আলো চোখে আসে",
+          "প্রতিবিম্ব দেখা যায়"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_seq_010",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "অতিবেগুনি রশ্মির ক্ষতি",
+        "question_bn": "অতিবেগুনি রশ্মির ক্ষতির ধাপগুলো সঠিক ক্রমে সাজাও",
+        "items": [
+          "ক্যান্সার কোষ তৈরি হয়",
+          "ওজোন স্তর ক্ষয় পায়",
+          "DNA ক্ষতিগ্রস্ত হয়",
+          "অতিবেগুনি রশ্মি পৃথিবীতে আসে"
+        ],
+        "correct_order": [
+          "ওজোন স্তর ক্ষয় পায়",
+          "অতিবেগুনি রশ্মি পৃথিবীতে আসে",
+          "DNA ক্ষতিগ্রস্ত হয়",
+          "ক্যান্সার কোষ তৈরি হয়"
+        ]
+      }
+    ],
+    "categorize": [
+      {
+        "id": "paribesh_o_bigyan_ch02_cat_001",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "বস্তুর শ্রেণিবিভাগ",
+        "question_bn": "নিচের বস্তুগুলিকে স্বপ্রভ ও অপ্রভ দলে ভাগ করো",
+        "categories": {
+          "স্বপ্রভ বস্তু": [
+            "সূর্য",
+            "জোনাকি",
+            "জ্বলন্ত মোমবাতি",
+            "বৈদ্যুতিক বাল্ব"
+          ],
+          "অপ্রভ বস্তু": [
+            "চাঁদ",
+            "পৃথিবী",
+            "কাঠ",
+            "পাথর"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_cat_002",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "স্বচ্ছতার শ্রেণিবিভাগ",
+        "question_bn": "নিচের বস্তুগুলিকে স্বচ্ছ ও অস্বচ্ছ দলে ভাগ করো",
+        "categories": {
+          "স্বচ্ছ বস্তু": [
+            "কাচ",
+            "বায়ু",
+            "জল",
+            "স্বচ্ছ প্লাস্টিক"
+          ],
+          "অস্বচ্ছ বস্তু": [
+            "কাঠ",
+            "লোহা",
+            "পাথর",
+            "ইট"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_cat_003",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "প্রতিফলনের প্রকার",
+        "question_bn": "নিচের উদাহরণগুলিকে নিয়মিত ও বিক্ষিপ্ত প্রতিফলনে ভাগ করো",
+        "categories": {
+          "নিয়মিত প্রতিফলন": [
+            "আয়নায় প্রতিফলন",
+            "পুকুরের জলে ছবি",
+            "চকচকে স্টিলে প্রতিফলন",
+            "মসৃণ বাটিতে প্রতিফলন"
+          ],
+          "বিক্ষিপ্ত প্রতিফলন": [
+            "দেয়ালে প্রতিফলন",
+            "গাছপালায় প্রতিফলন",
+            "সিনেমার পর্দায় প্রতিফলন",
+            "মাটিতে প্রতিফলন"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_cat_004",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "আলোক উৎসের প্রকার",
+        "question_bn": "নিচের উদাহরণগুলিকে বিন্দু উৎস ও বিস্তৃত উৎসে ভাগ করো",
+        "categories": {
+          "বিন্দু উৎস": [
+            "সুচিছিদ্র দিয়ে আসা আলো",
+            "দূরের তারা",
+            "খুব ছোটো বাল্ব",
+            "দূরের আলো"
+          ],
+          "বিস্তৃত উৎস": [
+            "সূর্য",
+            "টর্চলাইট",
+            "বৈদ্যুতিক বাল্ব",
+            "টিউবলাইট"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_cat_005",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "ছায়ার শ্রেণিবিভাগ",
+        "question_bn": "নিচের বস্তুগুলি আলোর সামনে রাখলে কোন ছায়া গঠিত হবে তা ভাগ করো",
+        "categories": {
+          "শুধু প্রচ্ছায়া গঠিত হয়": [
+            "বিন্দু উৎসের সামনে হাত",
+            "মোমবাতির সামনে বল",
+            "ছোটো বাল্বের সামনে বস্তু",
+            "লেজার আলোর সামনে বস্তু"
+          ],
+          "প্রচ্ছায়া ও উপচ্ছায়া দুটোই": [
+            "সূর্যের সামনে হাত",
+            "টিউবলাইটের সামনে বস্তু",
+            "বড় বাল্বের সামনে বস্তু",
+            "বিস্তৃত উৎসের সামনে বস্তু"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_cat_006",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "দৃশ্য ও অদৃশ্য আলো",
+        "question_bn": "নিচের আলোগুলিকে দৃশ্যমান ও অদৃশ্য দলে ভাগ করো",
+        "categories": {
+          "দৃশ্যমান আলো": [
+            "লাল আলো",
+            "সবুজ আলো",
+            "নীল আলো",
+            "হলুদ আলো"
+          ],
+          "অদৃশ্য আলো": [
+            "অতিবেগুনি রশ্মি",
+            "এক্স রশ্মি",
+            "অবলোহিত রশ্মি",
+            "গামা রশ্মি"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_cat_007",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "আলোর প্রভাব — জীবজগৎ",
+        "question_bn": "নিচের ঘটনাগুলিকে উদ্ভিদ ও প্রাণীর উপর আলোর প্রভাবে ভাগ করো",
+        "categories": {
+          "উদ্ভিদে আলোর প্রভাব": [
+            "সালোকসংশ্লেষণ",
+            "ফুল ফোটা",
+            "চারা আলোর দিকে বাঁকা হওয়া",
+            "পাতার রং পরিবর্তন"
+          ],
+          "প্রাণীতে আলোর প্রভাব": [
+            "স্যামন মাছের বাচ্চা মারা যাওয়া",
+            "পাখির পরিযান",
+            "শীতঘুমে যাওয়া",
+            "চামড়ায় মেলানিন তৈরি"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_cat_008",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "ঈষৎ স্বচ্ছ ও অস্বচ্ছ",
+        "question_bn": "নিচের বস্তুগুলিকে ঈষৎ স্বচ্ছ ও অস্বচ্ছ দলে ভাগ করো",
+        "categories": {
+          "ঈষৎ স্বচ্ছ বস্তু": [
+            "ঘষা কাচ",
+            "কুয়াশা",
+            "ট্রেসিং পেপার",
+            "তেলতেলে কাগজ"
+          ],
+          "অস্বচ্ছ বস্তু": [
+            "কাঠ",
+            "লোহার পাত",
+            "পাথর",
+            "ইট"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_cat_009",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "আলোক রশ্মিগুচ্ছের প্রকার",
+        "question_bn": "নিচের বৈশিষ্ট্যগুলিকে সমান্তরাল ও অপসারী রশ্মিগুচ্ছে ভাগ করো",
+        "categories": {
+          "সমান্তরাল রশ্মিগুচ্ছ": [
+            "রশ্মি পরস্পর সমান দূরত্বে",
+            "সূর্য থেকে আসা রশ্মি",
+            "লেজার রশ্মি",
+            "রশ্মি কখনো মেলে না"
+          ],
+          "অপসারী রশ্মিগুচ্ছ": [
+            "রশ্মি দূরে ছড়িয়ে পড়ে",
+            "মোমবাতি থেকে আসা রশ্মি",
+            "বাল্ব থেকে আসা রশ্মি",
+            "রশ্মি ক্রমশ দূরে যায়"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_cat_010",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "মাধ্যমের প্রকার",
+        "question_bn": "নিচের মাধ্যমগুলিকে লঘুতর ও ঘনতর মাধ্যমে ভাগ করো",
+        "categories": {
+          "লঘুতর মাধ্যম": [
+            "বায়ু",
+            "শূন্য মাধ্যম",
+            "হিলিয়াম গ্যাস",
+            "নাইট্রোজেন গ্যাস"
+          ],
+          "ঘনতর মাধ্যম": [
+            "জল",
+            "কাচ",
+            "হীরা",
+            "কেরোসিন"
+          ]
+        }
+      }
+    ],
+    "short_write": [
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_001",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "স্বপ্রভ বস্তু",
+        "question_bn": "যে বস্তু থেকে নিজস্ব আলো নির্গত হয় তাকে কী বলে?",
+        "expected_answer": "স্বপ্রভ বস্তু",
+        "max_words": 2,
+        "answer_slot_id": 1
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_002",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "অপ্রভ বস্তু",
+        "question_bn": "যে বস্তুর নিজস্ব আলো নেই তাকে কী বলে?",
+        "expected_answer": "অপ্রভ বস্তু",
+        "max_words": 2,
+        "answer_slot_id": 2
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_003",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "আলোর গতি",
+        "question_bn": "আলো কোন ধরনের রেখায় চলাচল করে?",
+        "expected_answer": "সরলরেখায়",
+        "max_words": 1,
+        "answer_slot_id": 3
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_004",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "আলোক উৎস",
+        "question_bn": "স্বপ্রভ বস্তুকে আর কী নামে ডাকা হয়?",
+        "expected_answer": "আলোক উৎস",
+        "max_words": 2,
+        "answer_slot_id": 4
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_005",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "স্বচ্ছ বস্তু",
+        "question_bn": "বায়ু, স্বচ্ছ কাচ, জল — এগুলো কোন ধরনের বস্তু?",
+        "expected_answer": "স্বচ্ছ বস্তু",
+        "max_words": 2,
+        "answer_slot_id": 5
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_006",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "অস্বচ্ছ বস্তু",
+        "question_bn": "কাঠ, লোহা, পাথর — এগুলো কোন ধরনের বস্তু?",
+        "expected_answer": "অস্বচ্ছ বস্তু",
+        "max_words": 2,
+        "answer_slot_id": 6
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_007",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "প্রতিফলন",
+        "question_bn": "আয়নায় আলো ফিরে আসার ঘটনাকে কী বলে?",
+        "expected_answer": "প্রতিফলন",
+        "max_words": 1,
+        "answer_slot_id": 7
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_008",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "প্রতিসরণ",
+        "question_bn": "আলো এক মাধ্যম থেকে অন্য মাধ্যমে প্রবেশ করলে গতিপথ পরিবর্তনের ঘটনাকে কী বলে?",
+        "expected_answer": "প্রতিসরণ",
+        "max_words": 1,
+        "answer_slot_id": 8
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_009",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বিচ্ছুরণ",
+        "question_bn": "সাদা আলো বিভিন্ন রঙে বিভক্ত হওয়ার ঘটনাকে কী বলে?",
+        "expected_answer": "বিচ্ছুরণ",
+        "max_words": 1,
+        "answer_slot_id": 9
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_010",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বর্ণালি",
+        "question_bn": "সাত রঙের আলোর পটিকে একসঙ্গে কী বলে?",
+        "expected_answer": "বর্ণালি",
+        "max_words": 1,
+        "answer_slot_id": 10
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_011",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "প্রচ্ছায়া",
+        "question_bn": "ছায়ার গাঢ় অন্ধকার অংশকে কী বলে?",
+        "expected_answer": "প্রচ্ছায়া",
+        "max_words": 1,
+        "answer_slot_id": 11
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_012",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "উপচ্ছায়া",
+        "question_bn": "প্রচ্ছায়াকে ঘিরে থাকা আবছা অন্ধকার অংশকে কী বলে?",
+        "expected_answer": "উপচ্ছায়া",
+        "max_words": 1,
+        "answer_slot_id": 12
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_013",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "আলোক রশ্মি",
+        "question_bn": "আলোর চলার পথকে তির চিহ্নযুক্ত সরলরেখা দিয়ে বোঝানো হয়, তাকে কী বলে?",
+        "expected_answer": "আলোক রশ্মি",
+        "max_words": 2,
+        "answer_slot_id": 13
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_014",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "আলোক রশ্মিগুচ্ছ",
+        "question_bn": "একসঙ্গে অসংখ্য আলোক রশ্মিকে কী বলে?",
+        "expected_answer": "আলোক রশ্মিগুচ্ছ",
+        "max_words": 2,
+        "answer_slot_id": 14
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_015",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "প্রতিবিম্ব",
+        "question_bn": "আয়নায় বস্তুর যে প্রতিকৃতি দেখা যায় তাকে কী বলে?",
+        "expected_answer": "প্রতিবিম্ব",
+        "max_words": 1,
+        "answer_slot_id": 15
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_016",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "অভিলম্ব",
+        "question_bn": "প্রতিফলকের উপর আপতন বিন্দুতে আঁকা লম্বকে কী বলে?",
+        "expected_answer": "অভিলম্ব",
+        "max_words": 1,
+        "answer_slot_id": 16
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_017",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বিভেদতল",
+        "question_bn": "দুটি ভিন্ন মাধ্যমের সংযোগস্থলকে কী বলে?",
+        "expected_answer": "বিভেদতল",
+        "max_words": 1,
+        "answer_slot_id": 17
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_018",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "রংধনু",
+        "question_bn": "আকাশে বৃষ্টির পর যে সাত রঙের পটি দেখা যায় তাকে কী বলে?",
+        "expected_answer": "রংধনু",
+        "max_words": 1,
+        "answer_slot_id": 18
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_019",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ওজোন স্তর",
+        "question_bn": "কোন স্তর অতিবেগুনি রশ্মিকে পৃথিবীতে আসতে বাধা দেয়?",
+        "expected_answer": "ওজোন স্তর",
+        "max_words": 2,
+        "answer_slot_id": 19
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_020",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মেলানিন",
+        "question_bn": "চামড়ায় অতিবেগুনি রশ্মি পড়লে কোন রঞ্চক পদার্থ তৈরি হয়?",
+        "expected_answer": "মেলানিন",
+        "max_words": 1,
+        "answer_slot_id": 20
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_021",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "আপতন কোণ",
+        "question_bn": "অভিলম্ব ও আপতিত রশ্মির মাঝের কোণকে কী বলে?",
+        "expected_answer": "আপতন কোণ",
+        "max_words": 2,
+        "answer_slot_id": 21
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_022",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "প্রতিফলন কোণ",
+        "question_bn": "অভিলম্ব ও প্রতিফলিত রশ্মির মাঝের কোণকে কী বলে?",
+        "expected_answer": "প্রতিফলন কোণ",
+        "max_words": 2,
+        "answer_slot_id": 22
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_023",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "নিয়মিত প্রতিফলন",
+        "question_bn": "মসৃণ তলে আলোর প্রতিফলনকে কী বলে?",
+        "expected_answer": "নিয়মিত প্রতিফলন",
+        "max_words": 2,
+        "answer_slot_id": 23
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_024",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বিক্ষিপ্ত প্রতিফলন",
+        "question_bn": "অমসৃণ তলে আলোর প্রতিফলনকে কী বলে?",
+        "expected_answer": "বিক্ষিপ্ত প্রতিফলন",
+        "max_words": 2,
+        "answer_slot_id": 24
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_025",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বিন্দু আলোক উৎস",
+        "question_bn": "আকারে খুব ছোটো আলোক উৎসকে কী বলে?",
+        "expected_answer": "বিন্দু আলোক উৎস",
+        "max_words": 2,
+        "answer_slot_id": 25
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_026",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বিস্তৃত আলোক উৎস",
+        "question_bn": "টর্চ, সূর্য, বৈদ্যুতিক বাল্ব — এগুলো কোন ধরনের আলোক উৎস?",
+        "expected_answer": "বিস্তৃত আলোক উৎস",
+        "max_words": 2,
+        "answer_slot_id": 26
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_027",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সুচিছিদ্র ক্যামেরা",
+        "question_bn": "ছোটো ছিদ্রযুক্ত বাক্স দিয়ে তৈরি ক্যামেরাকে কী বলে?",
+        "expected_answer": "সুচিছিদ্র ক্যামেরা",
+        "max_words": 2,
+        "answer_slot_id": 27
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_028",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "আপতন বিন্দু",
+        "question_bn": "আয়নার উপর যে বিন্দুতে আপতিত আলো পড়ে তাকে কী বলে?",
+        "expected_answer": "আপতন বিন্দু",
+        "max_words": 2,
+        "answer_slot_id": 28
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_029",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "প্রতিফলক",
+        "question_bn": "আয়নার অবস্থান যে সরলরেখাংশ দিয়ে চিহ্নিত করা হয় তাকে কী বলে?",
+        "expected_answer": "প্রতিফলক",
+        "max_words": 1,
+        "answer_slot_id": 29
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_030",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ঈষৎ স্বচ্ছ বস্তু",
+        "question_bn": "ঘষা কাচ, কুয়াশা, ট্রেসিং পেপার — এগুলো কোন ধরনের বস্তু?",
+        "expected_answer": "ঈষৎ স্বচ্ছ বস্তু",
+        "max_words": 2,
+        "answer_slot_id": 30
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_031",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "অতিবেগুনি রশ্মি",
+        "question_bn": "সূর্যের অদৃশ্য আলোর একটি অংশ যা চামড়ার ক্যান্সার ঘটায় তাকে কী বলে?",
+        "expected_answer": "অতিবেগুনি রশ্মি",
+        "max_words": 2,
+        "answer_slot_id": 31
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_032",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "এক্স রশ্মি",
+        "question_bn": "হাড়ের ছবি তুলতে কোন রশ্মি ব্যবহার করা হয়?",
+        "expected_answer": "এক্স রশ্মি",
+        "max_words": 2,
+        "answer_slot_id": 32
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_033",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সালোকসংশ্লেষণ",
+        "question_bn": "উদ্ভিদ আলো ব্যবহার করে খাদ্য তৈরির প্রক্রিয়াকে কী বলে?",
+        "expected_answer": "সালোকসংশ্লেষণ",
+        "max_words": 1,
+        "answer_slot_id": 33
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_034",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বিচ্ছুরণ আবিষ্কার",
+        "question_bn": "১৬৬৬ সালে কোন বিজ্ঞানী বিচ্ছুরণ আবিষ্কার করেন?",
+        "expected_answer": "আইজ্যাক নিউটন",
+        "max_words": 2,
+        "answer_slot_id": 34
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_035",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "রংধনুর কারণ",
+        "question_bn": "আকাশের রংধনু কোন ঘটনার ফলে গঠিত হয়?",
+        "expected_answer": "বিচ্ছুরণ",
+        "max_words": 1,
+        "answer_slot_id": 35
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_036",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "প্রতিসরণ — মাধ্যম",
+        "question_bn": "যে মাধ্যমে প্রবেশ করলে আলোক রশ্মি অভিলম্বের দূরে সরে সেই মাধ্যমকে কী বলে?",
+        "expected_answer": "লঘুতর মাধ্যম",
+        "max_words": 2,
+        "answer_slot_id": 36
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_037",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "প্রতিসরণ — ঘনতর",
+        "question_bn": "যে মাধ্যমে প্রবেশ করলে আলোক রশ্মি অভিলম্বের দিকে সরে আসে সেই মাধ্যমকে কী বলে?",
+        "expected_answer": "ঘনতর মাধ্যম",
+        "max_words": 2,
+        "answer_slot_id": 37
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_038",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "DNA",
+        "question_bn": "অতিবেগুনি রশ্মির প্রভাবে কোষের কোন অঙু ক্ষতিগ্রস্ত হয়?",
+        "expected_answer": "DNA",
+        "max_words": 1,
+        "answer_slot_id": 38
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_039",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "পার্শ্ব পরিবর্তন",
+        "question_bn": "আয়নায় প্রতিবিম্বে কোন ধরনের পরিবর্তন হয়?",
+        "expected_answer": "পার্শ্ব পরিবর্তন",
+        "max_words": 2,
+        "answer_slot_id": 39
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_040",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "প্রতিসরণ কোণ",
+        "question_bn": "অভিলম্ব ও প্রতিসৃত রশ্মির মাঝের কোণকে কী বলে?",
+        "expected_answer": "প্রতিসরণ কোণ",
+        "max_words": 2,
+        "answer_slot_id": 40
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_041",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বর্ণালির প্রথম রং",
+        "question_bn": "বর্ণালিতে প্রথম রং কোনটি (ক্ষুদ্রতম তরঙ্গদৈর্ঘ্য)?",
+        "expected_answer": "বেগুনি",
+        "max_words": 1,
+        "answer_slot_id": 41
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_042",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বর্ণালির শেষ রং",
+        "question_bn": "বর্ণালিতে শেষ রং কোনটি (দীর্ঘতম তরঙ্গদৈর্ঘ্য)?",
+        "expected_answer": "লাল",
+        "max_words": 1,
+        "answer_slot_id": 42
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_043",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ক্লোরোফিল",
+        "question_bn": "উদ্ভিদের সবুজ অঙ্গে কোন রঞ্চক পদার্থ আলোশক্তি শোষণ করে?",
+        "expected_answer": "ক্লোরোফিল",
+        "max_words": 1,
+        "answer_slot_id": 43
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_044",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "আপতিত রশ্মি",
+        "question_bn": "যে পথ ধরে আলো আয়নায় এসে পড়ে তাকে কী বলে?",
+        "expected_answer": "আপতিত রশ্মি",
+        "max_words": 2,
+        "answer_slot_id": 44
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_045",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "প্রতিফলিত রশ্মি",
+        "question_bn": "আয়নায় পড়ে আলো যে পথ ধরে ফিরে যায় তাকে কী বলে?",
+        "expected_answer": "প্রতিফলিত রশ্মি",
+        "max_words": 2,
+        "answer_slot_id": 45
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_046",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "যৌগিক আলো",
+        "question_bn": "সূর্যের আলো যেহেতু অনেক রঙের সমষ্টি তাই এই ধরনের আলোকে কী বলে?",
+        "expected_answer": "যৌগিক আলো",
+        "max_words": 2,
+        "answer_slot_id": 46
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_047",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "পরিযান",
+        "question_bn": "আলোর তীব্রতার উপর ভিত্তি করে পাখিরা কী করে?",
+        "expected_answer": "পরিযান",
+        "max_words": 1,
+        "answer_slot_id": 47
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_048",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "প্রতিসরণ উদাহরণ",
+        "question_bn": "জলে রাখা লাঠি বাঁকা দেখায় কোন ঘটনার কারণে?",
+        "expected_answer": "প্রতিসরণ",
+        "max_words": 1,
+        "answer_slot_id": 48
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_049",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "সুচিছিদ্র ক্যামেরায় প্রতিকৃতি",
+        "question_bn": "সুচিছিদ্র ক্যামেরায় বস্তুর প্রতিকৃতি সোজা না উলটো?",
+        "expected_answer": "উলটো",
+        "max_words": 1,
+        "answer_slot_id": 49
+      },
+      {
+        "id": "paribesh_o_bigyan_ch02_sw_050",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "জোনাকি",
+        "question_bn": "জোনাকি পোকা কোন ধরনের বস্তু — স্বপ্রভ না অপ্রভ?",
+        "expected_answer": "স্বপ্রভ",
+        "max_words": 1,
+        "answer_slot_id": 50
+      }
+    ]
+  }
+}

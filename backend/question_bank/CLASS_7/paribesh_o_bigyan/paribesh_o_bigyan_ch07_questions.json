@@ -1,0 +1,2394 @@
+{
+  "book_id": "paribesh_o_bigyan",
+  "book_name": "Paribesh O Bigyan",
+  "book_name_bn": "পরিবেশ ও বিজ্ঞান",
+  "subject": "science",
+  "class": 7,
+  "chapter_no": 7,
+  "chapter_title_bn": "পরমাণু, অণু ও রাসায়নিক বিক্রিয়া",
+  "source_file": "paribesh_o_bigyan_ch07_questions.json",
+  "questions": {
+    "mcq": [
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_001",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পরমাণুর গঠন",
+        "question_bn": "পরমাণুর কেন্দ্রে অবস্থিত কণাগুলোকে কী বলে?",
+        "options": [
+          "ইলেকট্রন ও প্রোটন",
+          "প্রোটন ও নিউট্রন",
+          "নিউট্রন ও ইলেকট্রন",
+          "শুধু প্রোটন",
+          "শুধু নিউট্রন"
+        ],
+        "correct_answer": "প্রোটন ও নিউট্রন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_002",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পরমাণুর গঠন",
+        "question_bn": "পরমাণুর কেন্দ্রকে কী বলা হয়?",
+        "options": [
+          "কক্ষপথ",
+          "নিউক্লিয়াস",
+          "আয়ন",
+          "মূলক",
+          "যোজ্যতা"
+        ],
+        "correct_answer": "নিউক্লিয়াস"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_003",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পরমাণুর কণা",
+        "question_bn": "প্রোটন কোন ধরনের তড়িৎ আধানযুক্ত?",
+        "options": [
+          "ঋণাত্মক",
+          "নিরপেক্ষ",
+          "ধনাত্মক",
+          "পরিবর্তনশীল",
+          "কোনো আধান নেই"
+        ],
+        "correct_answer": "ধনাত্মক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_004",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পরমাণুর কণা",
+        "question_bn": "ইলেকট্রন কোন ধরনের তড়িৎ আধানযুক্ত?",
+        "options": [
+          "ধনাত্মক",
+          "নিরপেক্ষ",
+          "পরিবর্তনশীল",
+          "ঋণাত্মক",
+          "কোনো আধান নেই"
+        ],
+        "correct_answer": "ঋণাত্মক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_005",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পরমাণুর কণা",
+        "question_bn": "নিউট্রনের তড়িৎ আধান কেমন?",
+        "options": [
+          "ধনাত্মক",
+          "ঋণাত্মক",
+          "শূন্য বা নিরপেক্ষ",
+          "দ্বিধনাত্মক",
+          "পরিবর্তনশীল"
+        ],
+        "correct_answer": "শূন্য বা নিরপেক্ষ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_006",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পারমাণবিক সংখ্যা",
+        "question_bn": "কোনো পরমাণুর প্রোটন সংখ্যাকে কী বলা হয়?",
+        "options": [
+          "ভরসংখ্যা",
+          "ইলেকট্রন সংখ্যা",
+          "পারমাণবিক সংখ্যা",
+          "নিউট্রন সংখ্যা",
+          "যোজ্যতা"
+        ],
+        "correct_answer": "পারমাণবিক সংখ্যা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_007",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ভরসংখ্যা",
+        "question_bn": "পরমাণুর ভরসংখ্যা কীভাবে নির্ধারিত হয়?",
+        "options": [
+          "শুধু প্রোটনের সংখ্যা",
+          "শুধু নিউট্রনের সংখ্যা",
+          "প্রোটন ও নিউট্রনের মোট সংখ্যা",
+          "প্রোটন ও ইলেকট্রনের মোট সংখ্যা",
+          "নিউট্রন ও ইলেকট্রনের মোট সংখ্যা"
+        ],
+        "correct_answer": "প্রোটন ও নিউট্রনের মোট সংখ্যা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_008",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আয়ন",
+        "question_bn": "ধনাত্মক আধানযুক্ত আয়নকে কী বলে?",
+        "options": [
+          "অ্যানায়ন",
+          "মূলক",
+          "ক্যাটায়ন",
+          "যোজ্যতা",
+          "নিউক্লিয়াস"
+        ],
+        "correct_answer": "ক্যাটায়ন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_009",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আয়ন",
+        "question_bn": "ঋণাত্মক আধানযুক্ত আয়নকে কী বলে?",
+        "options": [
+          "ক্যাটায়ন",
+          "নিউট্রন",
+          "মূলক",
+          "অ্যানায়ন",
+          "প্রোটন"
+        ],
+        "correct_answer": "অ্যানায়ন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_010",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আয়ন গঠন",
+        "question_bn": "সোডিয়াম পরমাণু ১টি ইলেকট্রন ছাড়লে কোন আয়ন তৈরি হয়?",
+        "options": [
+          "Na⁻",
+          "Na²⁺",
+          "Cl⁻",
+          "Na⁺",
+          "K⁺"
+        ],
+        "correct_answer": "Na⁺"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_011",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আয়ন গঠন",
+        "question_bn": "ক্লোরিন পরমাণু ১টি ইলেকট্রন গ্রহণ করলে কোন আয়ন উৎপন্ন হয়?",
+        "options": [
+          "Cl⁺",
+          "Cl²⁻",
+          "Na⁺",
+          "Cl⁻",
+          "F⁻"
+        ],
+        "correct_answer": "Cl⁻"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_012",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মূলক",
+        "question_bn": "একাধিক পরমাণু জোটবদ্ধ অবস্থায় আয়নরূপে অবস্থান করলে তাদের কী বলা হয়?",
+        "options": [
+          "যৌগ",
+          "মৌল",
+          "কক্ষপথ",
+          "মূলক",
+          "অণু"
+        ],
+        "correct_answer": "মূলক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_013",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "যোজ্যতা",
+        "question_bn": "অ্যালুমিনিয়ামের যোজ্যতা কত?",
+        "options": [
+          "১",
+          "২",
+          "৪",
+          "৩",
+          "৫"
+        ],
+        "correct_answer": "৩"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_014",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "যোজ্যতা",
+        "question_bn": "অক্সিজেনের যোজ্যতা কত?",
+        "options": [
+          "১",
+          "৩",
+          "৪",
+          "২",
+          "৫"
+        ],
+        "correct_answer": "২"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_015",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "যৌগের সংকেত",
+        "question_bn": "অ্যালুমিনিয়াম অক্সাইডের সংকেত কোনটি?",
+        "options": [
+          "AlO",
+          "Al₂O",
+          "AlO₂",
+          "Al₂O₃",
+          "Al₃O₂"
+        ],
+        "correct_answer": "Al₂O₃"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_016",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "রাসায়নিক বিক্রিয়া",
+        "question_bn": "রাসায়নিক বিক্রিয়ায় যে পদার্থগুলো অংশ নেয় তাদের কী বলা হয়?",
+        "options": [
+          "বিক্রিয়াজাত পদার্থ",
+          "মূলক",
+          "বিক্রিয়ক",
+          "যৌগ",
+          "মৌল"
+        ],
+        "correct_answer": "বিক্রিয়ক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_017",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "রাসায়নিক বিক্রিয়া",
+        "question_bn": "রাসায়নিক বিক্রিয়ার ফলে যে নতুন পদার্থ তৈরি হয় তাকে কী বলে?",
+        "options": [
+          "বিক্রিয়ক",
+          "মূলক",
+          "প্রতিস্থাপক",
+          "বিক্রিয়াজাত পদার্থ",
+          "আয়ন"
+        ],
+        "correct_answer": "বিক্রিয়াজাত পদার্থ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_018",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "রাসায়নিক বিক্রিয়ার প্রকার",
+        "question_bn": "দুটি মৌল যুক্ত হয়ে একটি যৌগ তৈরি হলে সেই বিক্রিয়াকে কী বলে?",
+        "options": [
+          "বিয়োজন বিক্রিয়া",
+          "প্রতিস্থাপন বিক্রিয়া",
+          "বিনিময় বিক্রিয়া",
+          "প্রত্যক্ষ সংযোগ বিক্রিয়া",
+          "অবক্ষেপণ বিক্রিয়া"
+        ],
+        "correct_answer": "প্রত্যক্ষ সংযোগ বিক্রিয়া"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_019",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "রাসায়নিক বিক্রিয়ার প্রকার",
+        "question_bn": "একটি যৌগ ভেঙে গিয়ে একাধিক পদার্থ উৎপন্ন হলে সেই বিক্রিয়াকে কী বলে?",
+        "options": [
+          "প্রত্যক্ষ সংযোগ বিক্রিয়া",
+          "বিনিময় বিক্রিয়া",
+          "প্রতিস্থাপন বিক্রিয়া",
+          "বিয়োজন বিক্রিয়া",
+          "অবক্ষেপণ বিক্রিয়া"
+        ],
+        "correct_answer": "বিয়োজন বিক্রিয়া"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_020",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "রাসায়নিক বিক্রিয়ার প্রকার",
+        "question_bn": "একটি মৌল অন্য মৌলের যৌগ থেকে তাকে সরিয়ে সেই জায়গা নিলে সেই বিক্রিয়াকে কী বলে?",
+        "options": [
+          "বিয়োজন বিক্রিয়া",
+          "প্রত্যক্ষ সংযোগ বিক্রিয়া",
+          "প্রতিস্থাপন বিক্রিয়া",
+          "বিনিময় বিক্রিয়া",
+          "সমতাবিধান"
+        ],
+        "correct_answer": "প্রতিস্থাপন বিক্রিয়া"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_021",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "রাসায়নিক সমীকরণ",
+        "question_bn": "রাসায়নিক সমীকরণে দু-দিকে প্রত্যেক মৌলের পরমাণু সংখ্যা সমান করার পদ্ধতিকে কী বলে?",
+        "options": [
+          "বিয়োজন",
+          "প্রতিস্থাপন",
+          "সমতাবিধান",
+          "বিনিময়",
+          "সংযোজন"
+        ],
+        "correct_answer": "সমতাবিধান"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_022",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "রাসায়নিক বিক্রিয়া",
+        "question_bn": "পাথুরে চুন জলে মেশালে কোন যৌগ উৎপন্ন হয়?",
+        "options": [
+          "ক্যালশিয়াম কার্বনেট",
+          "ক্যালশিয়াম ক্লোরাইড",
+          "ক্যালশিয়াম অক্সাইড",
+          "ক্যালশিয়াম হাইড্রক্সাইড",
+          "ক্যালশিয়াম সালফেট"
+        ],
+        "correct_answer": "ক্যালশিয়াম হাইড্রক্সাইড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_023",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "যৌগের নাম",
+        "question_bn": "কলিচুনের রাসায়নিক নাম কী?",
+        "options": [
+          "ক্যালশিয়াম কার্বনেট",
+          "ক্যালশিয়াম অক্সাইড",
+          "ক্যালশিয়াম সালফেট",
+          "ক্যালশিয়াম হাইড্রক্সাইড",
+          "ক্যালশিয়াম ক্লোরাইড"
+        ],
+        "correct_answer": "ক্যালশিয়াম হাইড্রক্সাইড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_024",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "রাসায়নিক বিক্রিয়া",
+        "question_bn": "চুনাপাথর উত্তপ্ত করলে কোন গ্যাস উৎপন্ন হয়?",
+        "options": [
+          "হাইড্রোজেন",
+          "অক্সিজেন",
+          "নাইট্রোজেন",
+          "কার্বন ডাইঅক্সাইড",
+          "ক্লোরিন"
+        ],
+        "correct_answer": "কার্বন ডাইঅক্সাইড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_025",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "রাসায়নিক সমীকরণ",
+        "question_bn": "জল তৈরির সমতাযুক্ত সমীকরণ কোনটি?",
+        "options": [
+          "H₂ + O₂ → H₂O",
+          "2H₂ + O → 2H₂O",
+          "H₂ + O → H₂O",
+          "2H₂ + O₂ → 2H₂O",
+          "H₂ + 2O → H₂O"
+        ],
+        "correct_answer": "2H₂ + O₂ → 2H₂O"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_026",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "আয়ন গঠন",
+        "question_bn": "ক্যালশিয়াম পরমাণু ২টি ইলেকট্রন ছাড়লে কোন আয়ন উৎপন্ন হয়?",
+        "options": [
+          "Ca⁻",
+          "Ca⁺",
+          "Ca³⁺",
+          "Ca²⁺",
+          "Ca²⁻"
+        ],
+        "correct_answer": "Ca²⁺"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_027",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "যোজ্যতা",
+        "question_bn": "ক্লোরিনের যোজ্যতা কত?",
+        "options": [
+          "২",
+          "৩",
+          "৪",
+          "১",
+          "৫"
+        ],
+        "correct_answer": "১"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_028",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মূলকের যোজ্যতা",
+        "question_bn": "সালফেট মূলকের (SO₄) যোজ্যতা কত?",
+        "options": [
+          "১",
+          "৩",
+          "৪",
+          "২",
+          "৫"
+        ],
+        "correct_answer": "২"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_029",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মূলকের যোজ্যতা",
+        "question_bn": "নাইট্রেট মূলকের (NO₃) যোজ্যতা কত?",
+        "options": [
+          "২",
+          "৩",
+          "৪",
+          "১",
+          "৫"
+        ],
+        "correct_answer": "১"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_030",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "রাসায়নিক বিক্রিয়া",
+        "question_bn": "লোহার ছুরি তুঁতের দ্রবণে ডোবালে কী ধরনের বিক্রিয়া হয়?",
+        "options": [
+          "বিয়োজন বিক্রিয়া",
+          "প্রত্যক্ষ সংযোগ বিক্রিয়া",
+          "বিনিময় বিক্রিয়া",
+          "প্রতিস্থাপন বিক্রিয়া",
+          "তাপীয় বিক্রিয়া"
+        ],
+        "correct_answer": "প্রতিস্থাপন বিক্রিয়া"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_031",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মৌলের প্রতীক",
+        "question_bn": "পারদের রাসায়নিক প্রতীক কোনটি?",
+        "options": [
+          "Pb",
+          "Au",
+          "Cu",
+          "Hg",
+          "Ag"
+        ],
+        "correct_answer": "Hg"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_032",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মৌলের প্রতীক",
+        "question_bn": "সিসার রাসায়নিক প্রতীক কোনটি?",
+        "options": [
+          "Au",
+          "Hg",
+          "Ag",
+          "Pb",
+          "Ni"
+        ],
+        "correct_answer": "Pb"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_033",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পরিবর্তনশীল যোজ্যতা",
+        "question_bn": "ফেরাস ও ফেরিক যৌগে আয়রনের যোজ্যতা যথাক্রমে কত?",
+        "options": [
+          "১ ও ২",
+          "৩ ও ২",
+          "১ ও ৩",
+          "২ ও ৩",
+          "৩ ও ৪"
+        ],
+        "correct_answer": "২ ও ৩"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_034",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "যৌগের সংকেত",
+        "question_bn": "অ্যামোনিয়াম সালফেটের সংকেত কোনটি?",
+        "options": [
+          "NH₄SO₄",
+          "(NH₄)₃SO₄",
+          "(NH₄)₂SO₄",
+          "NH₄(SO₄)₂",
+          "(NH₄)₂SO₃"
+        ],
+        "correct_answer": "(NH₄)₂SO₄"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_035",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "রাসায়নিক বিক্রিয়া",
+        "question_bn": "সোডিয়াম কার্বনেট ও হাইড্রোক্লোরিক অ্যাসিড বিক্রিয়া করলে কোন গ্যাস উৎপন্ন হয়?",
+        "options": [
+          "অক্সিজেন",
+          "হাইড্রোজেন",
+          "নাইট্রোজেন",
+          "কার্বন ডাইঅক্সাইড",
+          "ক্লোরিন"
+        ],
+        "correct_answer": "কার্বন ডাইঅক্সাইড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_036",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "রাসায়নিক বিক্রিয়া",
+        "question_bn": "পাথুরে চুন জলে মেশালে জল কেমন হয়?",
+        "options": [
+          "ঠান্ডা হয়",
+          "রঙিন হয়",
+          "গরম হয়",
+          "নীল হয়",
+          "বাষ্প হয়"
+        ],
+        "correct_answer": "গরম হয়"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_037",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বিক্রিয়ার প্রকার",
+        "question_bn": "NaCl + AgNO₃ → AgCl + NaNO₃ এটি কোন ধরনের বিক্রিয়া?",
+        "options": [
+          "বিয়োজন",
+          "প্রত্যক্ষ সংযোগ",
+          "প্রতিস্থাপন",
+          "বিনিময়",
+          "তাপীয়"
+        ],
+        "correct_answer": "বিনিময়"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_038",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "সমতাযুক্ত সমীকরণ",
+        "question_bn": "N₂ + H₂ → NH₃ বিক্রিয়ার সমতাযুক্ত সমীকরণ কোনটি?",
+        "options": [
+          "N₂ + H₂ → 2NH₃",
+          "N₂ + 2H₂ → NH₃",
+          "N₂ + 3H₂ → 2NH₃",
+          "2N₂ + H₂ → NH₃",
+          "N₂ + 3H₂ → NH₃"
+        ],
+        "correct_answer": "N₂ + 3H₂ → 2NH₃"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_039",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "সমতাযুক্ত সমীকরণ",
+        "question_bn": "2HgO → Hg + O₂ সমীকরণটির সমতাযুক্ত রূপ কোনটি?",
+        "options": [
+          "HgO → Hg + O₂",
+          "2HgO → 2Hg + O",
+          "2HgO → 2Hg + O₂",
+          "HgO → 2Hg + O₂",
+          "HgO → Hg + 2O₂"
+        ],
+        "correct_answer": "2HgO → 2Hg + O₂"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_040",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মৌলের বৈশিষ্ট্য",
+        "question_bn": "কোন মৌলটির পরিবর্তনশীল যোজ্যতা আছে?",
+        "options": [
+          "সোডিয়াম",
+          "পটাশিয়াম",
+          "আয়রন",
+          "ক্লোরিন",
+          "হাইড্রোজেন"
+        ],
+        "correct_answer": "আয়রন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_041",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মৌলের প্রতীক",
+        "question_bn": "পোলোনিয়ামের রাসায়নিক প্রতীক কোনটি?",
+        "options": [
+          "Pu",
+          "Pl",
+          "Pa",
+          "Po",
+          "Pm"
+        ],
+        "correct_answer": "Po"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_042",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "যৌগের সংকেত",
+        "question_bn": "ক্যালশিয়াম ক্লোরাইডের সংকেত কোনটি?",
+        "options": [
+          "CaCl",
+          "Ca₂Cl",
+          "CaCl₃",
+          "CaCl₂",
+          "Ca₂Cl₂"
+        ],
+        "correct_answer": "CaCl₂"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_043",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "রাসায়নিক বিক্রিয়া",
+        "question_bn": "দস্তা হাইড্রোক্লোরিক অ্যাসিডের সাথে বিক্রিয়া করলে কোন গ্যাস উৎপন্ন হয়?",
+        "options": [
+          "অক্সিজেন",
+          "কার্বন ডাইঅক্সাইড",
+          "নাইট্রোজেন",
+          "ক্লোরিন",
+          "হাইড্রোজেন"
+        ],
+        "correct_answer": "হাইড্রোজেন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_044",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পরমাণুর গঠন",
+        "question_bn": "ইলেকট্রন পরমাণুর কোথায় থাকে?",
+        "options": [
+          "নিউক্লিয়াসে",
+          "প্রোটনের সাথে",
+          "নিউটনের সাথে",
+          "নিউক্লিয়াসের বাইরে কক্ষপথে",
+          "নিউক্লিয়াসের কেন্দ্রে"
+        ],
+        "correct_answer": "নিউক্লিয়াসের বাইরে কক্ষপথে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_045",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মৌলের প্রতীক",
+        "question_bn": "ইউরেনিয়ামের রাসায়নিক প্রতীক কোনটি?",
+        "options": [
+          "Ur",
+          "Un",
+          "Pu",
+          "Np",
+          "U"
+        ],
+        "correct_answer": "U"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_046",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পারমাণবিক ভর",
+        "question_bn": "একটি ইলেকট্রনের ভর একটি প্রোটনের ভরের প্রায় কত ভাগের এক ভাগ?",
+        "options": [
+          "১০০",
+          "৫০০",
+          "১০০০",
+          "২০০০",
+          "৫০০০"
+        ],
+        "correct_answer": "২০০০"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_047",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "যৌগের সংকেত",
+        "question_bn": "মিথেনের সংকেত কোনটি?",
+        "options": [
+          "CH₂",
+          "C₂H₂",
+          "C₂H₄",
+          "CH₄",
+          "C₂H₆"
+        ],
+        "correct_answer": "CH₄"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_048",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "যৌগের সংকেত",
+        "question_bn": "Fe এবং O যুক্ত হয়ে আয়রন অক্সাইড গঠন করলে এবং Fe-এর যোজ্যতা ৩ ও O-এর যোজ্যতা ২ হলে সংকেত কী হবে?",
+        "options": [
+          "FeO",
+          "Fe₂O",
+          "FeO₃",
+          "Fe₃O₂",
+          "Fe₂O₃"
+        ],
+        "correct_answer": "Fe₂O₃"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_049",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "রাসায়নিক বিক্রিয়া",
+        "question_bn": "Fe + CuSO₄ → FeSO₄ + Cu বিক্রিয়াটি কোন ধরনের?",
+        "options": [
+          "বিয়োজন",
+          "প্রত্যক্ষ সংযোগ",
+          "বিনিময়",
+          "প্রতিস্থাপন",
+          "তাপীয়"
+        ],
+        "correct_answer": "প্রতিস্থাপন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_mcq_050",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "বিয়োজন বিক্রিয়া",
+        "question_bn": "2H₂O → 2H₂ + O₂ বিক্রিয়াটি কীভাবে ঘটানো যায়?",
+        "options": [
+          "শুধু তাপ দিলে",
+          "শুধু আলো দিলে",
+          "তড়িৎ চালনা করলে",
+          "চাপ বাড়ালে",
+          "ঠান্ডা করলে"
+        ],
+        "correct_answer": "তড়িৎ চালনা করলে"
+      }
+    ],
+    "match_pairs": [
+      {
+        "id": "paribesh_o_bigyan_ch07_match_001",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পরমাণুর কণা",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "প্রোটন",
+            "right": "ধনাত্মক আধান"
+          },
+          {
+            "left": "ইলেকট্রন",
+            "right": "ঋণাত্মক আধান"
+          },
+          {
+            "left": "নিউট্রন",
+            "right": "কোনো আধান নেই"
+          },
+          {
+            "left": "নিউক্লিয়াস",
+            "right": "পরমাণুর কেন্দ্র"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_match_002",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মৌলের প্রতীক",
+        "question_bn": "মৌলের নামের সাথে প্রতীক মেলাও",
+        "pairs": [
+          {
+            "left": "পারদ",
+            "right": "Hg"
+          },
+          {
+            "left": "সিসা",
+            "right": "Pb"
+          },
+          {
+            "left": "পোলোনিয়াম",
+            "right": "Po"
+          },
+          {
+            "left": "ইউরেনিয়াম",
+            "right": "U"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_match_003",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "আয়ন",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "ক্যাটায়ন",
+            "right": "ধনাত্মক আয়ন"
+          },
+          {
+            "left": "অ্যানায়ন",
+            "right": "ঋণাত্মক আয়ন"
+          },
+          {
+            "left": "Na⁺",
+            "right": "সোডিয়াম আয়ন"
+          },
+          {
+            "left": "Cl⁻",
+            "right": "ক্লোরাইড আয়ন"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_match_004",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মূলকের সংকেত",
+        "question_bn": "মূলকের নামের সাথে সংকেত মেলাও",
+        "pairs": [
+          {
+            "left": "নাইট্রেট",
+            "right": "NO₃⁻"
+          },
+          {
+            "left": "সালফেট",
+            "right": "SO₄²⁻"
+          },
+          {
+            "left": "কার্বনেট",
+            "right": "CO₃²⁻"
+          },
+          {
+            "left": "হাইড্রক্সাইড",
+            "right": "OH⁻"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_match_005",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "রাসায়নিক বিক্রিয়া",
+        "question_bn": "বিক্রিয়ার নামের সাথে উদাহরণ মেলাও",
+        "pairs": [
+          {
+            "left": "প্রত্যক্ষ সংযোগ",
+            "right": "2H₂ + O₂ → 2H₂O"
+          },
+          {
+            "left": "বিয়োজন",
+            "right": "CaCO₃ → CaO + CO₂"
+          },
+          {
+            "left": "প্রতিস্থাপন",
+            "right": "Fe + CuSO₄ → FeSO₄ + Cu"
+          },
+          {
+            "left": "বিনিময়",
+            "right": "NaCl + AgNO₃ → AgCl + NaNO₃"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_match_006",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "যৌগের নাম",
+        "question_bn": "যৌগের নামের সাথে সংকেত মেলাও",
+        "pairs": [
+          {
+            "left": "কলিচুন",
+            "right": "Ca(OH)₂"
+          },
+          {
+            "left": "পাথুরে চুন",
+            "right": "CaO"
+          },
+          {
+            "left": "চুনাপাথর",
+            "right": "CaCO₃"
+          },
+          {
+            "left": "তুঁতে",
+            "right": "CuSO₄"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_match_007",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "পরিবর্তনশীল যোজ্যতা",
+        "question_bn": "যৌগের নামের সাথে আয়রনের যোজ্যতা মেলাও",
+        "pairs": [
+          {
+            "left": "ফেরাস ক্লোরাইড",
+            "right": "২"
+          },
+          {
+            "left": "ফেরিক ক্লোরাইড",
+            "right": "৩"
+          },
+          {
+            "left": "ফেরাস সালফেট",
+            "right": "২"
+          },
+          {
+            "left": "ফেরিক অক্সাইড",
+            "right": "৩"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_match_008",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মৌলের নামকরণ",
+        "question_bn": "মৌলের নামের সাথে নামকরণের উৎস মেলাও",
+        "pairs": [
+          {
+            "left": "আইনস্টাইনিয়াম",
+            "right": "আইনস্টাইন বিজ্ঞানীর নামে"
+          },
+          {
+            "left": "আমেরিসিয়াম",
+            "right": "আমেরিকা মহাদেশের নামে"
+          },
+          {
+            "left": "পোলোনিয়াম",
+            "right": "পোল্যান্ড দেশের নামে"
+          },
+          {
+            "left": "নেপচুনিয়াম",
+            "right": "নেপচুন গ্রহের নামে"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_match_009",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "যৌগের সংকেত",
+        "question_bn": "যৌগের নামের সাথে সংকেত মেলাও",
+        "pairs": [
+          {
+            "left": "সোডিয়াম ক্লোরাইড",
+            "right": "NaCl"
+          },
+          {
+            "left": "ক্যালশিয়াম ক্লোরাইড",
+            "right": "CaCl₂"
+          },
+          {
+            "left": "অ্যালুমিনিয়াম ক্লোরাইড",
+            "right": "AlCl₃"
+          },
+          {
+            "left": "ম্যাগনেশিয়াম ক্লোরাইড",
+            "right": "MgCl₂"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_match_010",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মূলকের যোজ্যতা",
+        "question_bn": "মূলকের সাথে যোজ্যতা মেলাও",
+        "pairs": [
+          {
+            "left": "অ্যামোনিয়াম (NH₄⁺)",
+            "right": "১"
+          },
+          {
+            "left": "সালফেট (SO₄²⁻)",
+            "right": "২"
+          },
+          {
+            "left": "ফসফেট (PO₄³⁻)",
+            "right": "৩"
+          },
+          {
+            "left": "বাইকার্বনেট (HCO₃⁻)",
+            "right": "১"
+          }
+        ]
+      }
+    ],
+    "true_false": [
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_001",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পরমাণুর গঠন",
+        "question_bn": "প্রোটন ও নিউট্রন পরমাণুর নিউক্লিয়াসে অবস্থান করে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_002",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পরমাণুর কণা",
+        "question_bn": "নিউট্রন ঋণাত্মক আধানযুক্ত কণা।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_003",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পারমাণবিক সংখ্যা",
+        "question_bn": "সাধারণ অবস্থায় পরমাণুতে প্রোটন ও ইলেকট্রনের সংখ্যা সমান থাকে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_004",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পারমাণবিক ভর",
+        "question_bn": "ইলেকট্রনের ভর প্রোটনের ভরের সমান।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_005",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আয়ন",
+        "question_bn": "পরমাণু থেকে ইলেকট্রন বেরিয়ে গেলে ক্যাটায়ন তৈরি হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_006",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আয়ন",
+        "question_bn": "পরমাণু ইলেকট্রন গ্রহণ করলে ক্যাটায়ন তৈরি হয়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_007",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "যোজ্যতা",
+        "question_bn": "অক্সিজেনের যোজ্যতা ২।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_008",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "যোজ্যতা",
+        "question_bn": "সোডিয়ামের যোজ্যতা ২।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_009",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "রাসায়নিক বিক্রিয়া",
+        "question_bn": "পাথুরে চুন জলে মেশালে কলিচুন উৎপন্ন হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_010",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "রাসায়নিক বিক্রিয়া",
+        "question_bn": "রাসায়নিক বিক্রিয়ায় সর্বদা তাপ উৎপন্ন হয়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_011",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "রাসায়নিক সমীকরণ",
+        "question_bn": "সমতাযুক্ত রাসায়নিক সমীকরণে উভয় দিকে প্রতিটি মৌলের পরমাণু সংখ্যা সমান থাকে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_012",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বিক্রিয়ার প্রকার",
+        "question_bn": "বিয়োজন বিক্রিয়ায় একাধিক পদার্থ যুক্ত হয়ে একটি যৌগ তৈরি করে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_013",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বিক্রিয়ার প্রকার",
+        "question_bn": "প্রতিস্থাপন বিক্রিয়ায় একটি মৌল অন্য মৌলের যৌগ থেকে সেই মৌলকে সরিয়ে দেয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_014",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "পরিবর্তনশীল যোজ্যতা",
+        "question_bn": "আয়রনের যোজ্যতা সর্বদা ৩।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_015",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মৌলের প্রতীক",
+        "question_bn": "পারদের রাসায়নিক প্রতীক Hg।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_016",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "যৌগের সংকেত",
+        "question_bn": "অ্যালুমিনিয়াম অক্সাইডের সংকেত AlO।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_017",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "কক্ষপথ",
+        "question_bn": "ইলেকট্রন নিউক্লিয়াসের চারদিকে কক্ষপথে ঘোরে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_018",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "সমতাযুক্ত সমীকরণ",
+        "question_bn": "N₂ + H₂ → NH₃ সমীকরণটি সমতাযুক্ত।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_019",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "রাসায়নিক বিক্রিয়া",
+        "question_bn": "তুঁতের দ্রবণে লোহার টুকরো ডোবালে তামা জমা হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_tf_020",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মূলকের যোজ্যতা",
+        "question_bn": "অ্যামোনিয়াম মূলকের (NH₄⁺) যোজ্যতা ২।",
+        "correct_answer": "false"
+      }
+    ],
+    "tap_sequence": [
+      {
+        "id": "paribesh_o_bigyan_ch07_seq_001",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পরমাণুর গঠন",
+        "question_bn": "পরমাণুর তিনটি কণাকে আধানের ক্রমানুযায়ী সাজাও (ধনাত্মক থেকে নিরপেক্ষ)",
+        "items": [
+          "নিউট্রন",
+          "ইলেকট্রন",
+          "প্রোটন",
+          "কক্ষপথ"
+        ],
+        "correct_order": [
+          "প্রোটন",
+          "ইলেকট্রন",
+          "নিউট্রন",
+          "কক্ষপথ"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_seq_002",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "রাসায়নিক বিক্রিয়া",
+        "question_bn": "চুনাপাথর থেকে কলিচুন তৈরির ধাপগুলো সঠিক ক্রমে সাজাও",
+        "items": [
+          "CaO + H₂O → Ca(OH)₂",
+          "Ca(OH)₂ তৈরি হয়",
+          "CaCO₃ উত্তপ্ত করা হয়",
+          "CaO তৈরি হয়"
+        ],
+        "correct_order": [
+          "CaCO₃ উত্তপ্ত করা হয়",
+          "CaO তৈরি হয়",
+          "CaO + H₂O → Ca(OH)₂",
+          "Ca(OH)₂ তৈরি হয়"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_seq_003",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মৌলের প্রতীক",
+        "question_bn": "নিম্নলিখিত মৌলগুলিকে পারমাণবিক সংখ্যার ক্রমানুসারে সাজাও (কম থেকে বেশি)",
+        "items": [
+          "কার্বন (C)",
+          "হাইড্রোজেন (H)",
+          "সোডিয়াম (Na)",
+          "হিলিয়াম (He)"
+        ],
+        "correct_order": [
+          "হাইড্রোজেন (H)",
+          "হিলিয়াম (He)",
+          "কার্বন (C)",
+          "সোডিয়াম (Na)"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_seq_004",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "রাসায়নিক সমীকরণ",
+        "question_bn": "রাসায়নিক সমীকরণ সমতাবিধানের ধাপগুলো সঠিক ক্রমে সাজাও",
+        "items": [
+          "উভয় দিকে পরমাণু সংখ্যা সমান করা",
+          "বিক্রিয়াজাত পদার্থের সংকেত লেখা",
+          "সমতাযুক্ত সমীকরণ পাওয়া",
+          "বিক্রিয়কের সংকেত লেখা"
+        ],
+        "correct_order": [
+          "বিক্রিয়কের সংকেত লেখা",
+          "বিক্রিয়াজাত পদার্থের সংকেত লেখা",
+          "উভয় দিকে পরমাণু সংখ্যা সমান করা",
+          "সমতাযুক্ত সমীকরণ পাওয়া"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_seq_005",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "আয়ন গঠন",
+        "question_bn": "ধাতু থেকে ক্যাটায়ন গঠনের ধাপগুলো সঠিক ক্রমে সাজাও",
+        "items": [
+          "ক্যাটায়ন তৈরি হয়",
+          "প্রোটন সংখ্যা বেশি হয়",
+          "ধাতুর পরমাণু ইলেকট্রন ছাড়ে",
+          "ধনাত্মক আধান সৃষ্টি হয়"
+        ],
+        "correct_order": [
+          "ধাতুর পরমাণু ইলেকট্রন ছাড়ে",
+          "প্রোটন সংখ্যা বেশি হয়",
+          "ধনাত্মক আধান সৃষ্টি হয়",
+          "ক্যাটায়ন তৈরি হয়"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_seq_006",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মৌলের নামকরণ",
+        "question_bn": "সৌরজগতের গ্রহের নামে নামকরণ হওয়া মৌলগুলি সৌরজগৎ থেকে দূরত্বের ক্রমানুসারে সাজাও",
+        "items": [
+          "প্লুটোনিয়াম",
+          "ইউরেনিয়াম",
+          "নেপচুনিয়াম",
+          "মার্কিউরি (পারদ)"
+        ],
+        "correct_order": [
+          "মার্কিউরি (পারদ)",
+          "ইউরেনিয়াম",
+          "নেপচুনিয়াম",
+          "প্লুটোনিয়াম"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_seq_007",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "প্রতিস্থাপন বিক্রিয়া",
+        "question_bn": "Fe + CuSO₄ বিক্রিয়ার ঘটনাগুলো সঠিক ক্রমে সাজাও",
+        "items": [
+          "লোহা দ্রবণে গুলে যায়",
+          "লালচে তামার আস্তরণ পড়ে",
+          "লোহা তুঁতের দ্রবণে ডোবানো হয়",
+          "FeSO₄ দ্রবণ উৎপন্ন হয়"
+        ],
+        "correct_order": [
+          "লোহা তুঁতের দ্রবণে ডোবানো হয়",
+          "লালচে তামার আস্তরণ পড়ে",
+          "লোহা দ্রবণে গুলে যায়",
+          "FeSO₄ দ্রবণ উৎপন্ন হয়"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_seq_008",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বিয়োজন বিক্রিয়া",
+        "question_bn": "জলের বিয়োজন বিক্রিয়ার ধাপগুলো সঠিক ক্রমে সাজাও",
+        "items": [
+          "অক্সিজেন গ্যাস পাওয়া যায়",
+          "জলে সামান্য লবণ মেশানো হয়",
+          "হাইড্রোজেন গ্যাস পাওয়া যায়",
+          "তড়িৎ চালনা করা হয়"
+        ],
+        "correct_order": [
+          "জলে সামান্য লবণ মেশানো হয়",
+          "তড়িৎ চালনা করা হয়",
+          "হাইড্রোজেন গ্যাস পাওয়া যায়",
+          "অক্সিজেন গ্যাস পাওয়া যায়"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_seq_009",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "যোজ্যতা নির্ণয়",
+        "question_bn": "ক্লোরাইড যৌগ থেকে যোজ্যতা নির্ণয়ের ক্রমানুসারে সাজাও",
+        "items": [
+          "মৌলের যোজ্যতা = ক্লোরিন সংখ্যা",
+          "যৌগের সংকেত দেখো",
+          "ক্লোরিন পরমাণুর সংখ্যা গণনা করো",
+          "NaCl, CaCl₂, AlCl₃ ইত্যাদি সংকেত নাও"
+        ],
+        "correct_order": [
+          "NaCl, CaCl₂, AlCl₃ ইত্যাদি সংকেত নাও",
+          "যৌগের সংকেত দেখো",
+          "ক্লোরিন পরমাণুর সংখ্যা গণনা করো",
+          "মৌলের যোজ্যতা = ক্লোরিন সংখ্যা"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_seq_010",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "যৌগের সংকেত লেখা",
+        "question_bn": "দুটি মৌলের যোজ্যতা থেকে যৌগের সংকেত লেখার ধাপগুলো সঠিক ক্রমে সাজাও",
+        "items": [
+          "সংকেত লেখো A_m B_n",
+          "দুটি মৌল A ও B নির্বাচন করো",
+          "A-এর যোজ্যতা m এবং B-এর যোজ্যতা n নির্ণয় করো",
+          "যোজ্যতা পরস্পরের নীচে বিপরীত স্থানে বসাও"
+        ],
+        "correct_order": [
+          "দুটি মৌল A ও B নির্বাচন করো",
+          "A-এর যোজ্যতা m এবং B-এর যোজ্যতা n নির্ণয় করো",
+          "যোজ্যতা পরস্পরের নীচে বিপরীত স্থানে বসাও",
+          "সংকেত লেখো A_m B_n"
+        ]
+      }
+    ],
+    "categorize": [
+      {
+        "id": "paribesh_o_bigyan_ch07_cat_001",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "আয়নের প্রকার",
+        "question_bn": "নিচের আয়নগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "ক্যাটায়ন": [
+            "Na⁺",
+            "K⁺",
+            "Ca²⁺",
+            "Mg²⁺"
+          ],
+          "অ্যানায়ন": [
+            "Cl⁻",
+            "F⁻",
+            "O²⁻",
+            "Br⁻"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_cat_002",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "বিক্রিয়ার প্রকার",
+        "question_bn": "নিচের বিক্রিয়াগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "প্রত্যক্ষ সংযোগ বিক্রিয়া": [
+            "2H₂+O₂→2H₂O",
+            "N₂+3H₂→2NH₃",
+            "C+O₂→CO₂",
+            "S+O₂→SO₂"
+          ],
+          "বিয়োজন বিক্রিয়া": [
+            "CaCO₃→CaO+CO₂",
+            "2H₂O→2H₂+O₂",
+            "2HgO→2Hg+O₂",
+            "2H₂O₂→2H₂O+O₂"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_cat_003",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "মৌলের শ্রেণি",
+        "question_bn": "নিচের মৌলগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "ধাতু": [
+            "সোডিয়াম",
+            "ক্যালশিয়াম",
+            "আয়রন",
+            "তামা"
+          ],
+          "অধাতু": [
+            "অক্সিজেন",
+            "ক্লোরিন",
+            "হাইড্রোজেন",
+            "কার্বন"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_cat_004",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "পরিবর্তনশীল যোজ্যতা",
+        "question_bn": "নিচের যৌগগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "ফেরাস যৌগ (Fe যোজ্যতা ২)": [
+            "FeCl₂",
+            "FeSO₄",
+            "FeO",
+            "Fe(OH)₂"
+          ],
+          "ফেরিক যৌগ (Fe যোজ্যতা ৩)": [
+            "FeCl₃",
+            "Fe₂O₃",
+            "Fe(OH)₃",
+            "Fe₂(SO₄)₃"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_cat_005",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "পরমাণুর কণা",
+        "question_bn": "নিচের কণাগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "নিউক্লিয়াসে থাকে": [
+            "প্রোটন",
+            "নিউট্রন",
+            "ধনাত্মক কণা",
+            "ভরের বেশিরভাগ অংশ"
+          ],
+          "নিউক্লিয়াসের বাইরে থাকে": [
+            "ইলেকট্রন",
+            "ঋণাত্মক কণা",
+            "কক্ষপথে ঘোরে",
+            "নিউক্লিয়াসকে ঘিরে থাকে"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_cat_006",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "মৌলের প্রতীকের উৎস",
+        "question_bn": "নিচের মৌলগুলিকে প্রতীকের উৎস অনুযায়ী দলে ভাগ করো",
+        "categories": {
+          "বিজ্ঞানীর নামে": [
+            "আইনস্টাইনিয়াম",
+            "কিউরিয়াম",
+            "নোবেলিয়াম",
+            "ফার্মিয়াম"
+          ],
+          "স্থান বা দেশের নামে": [
+            "পোলোনিয়াম",
+            "আমেরিসিয়াম",
+            "ফ্রান্সিয়াম",
+            "ক্যালিফোর্নিয়াম"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_cat_007",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "মূলকের যোজ্যতা",
+        "question_bn": "নিচের মূলকগুলিকে যোজ্যতা অনুযায়ী দলে ভাগ করো",
+        "categories": {
+          "একযোজী মূলক": [
+            "NO₃⁻",
+            "OH⁻",
+            "HCO₃⁻",
+            "CN⁻"
+          ],
+          "দ্বিযোজী মূলক": [
+            "SO₄²⁻",
+            "CO₃²⁻",
+            "S²⁻",
+            "O²⁻"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_cat_008",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "বিক্রিয়ার প্রকার",
+        "question_bn": "নিচের বিক্রিয়াগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "প্রতিস্থাপন বিক্রিয়া": [
+            "Fe+CuSO₄→FeSO₄+Cu",
+            "Zn+CuCl₂→ZnCl₂+Cu",
+            "Fe₂O₃+2Al→Al₂O₃+2Fe",
+            "Zn+H₂SO₄→ZnSO₄+H₂"
+          ],
+          "বিনিময় বিক্রিয়া": [
+            "NaCl+AgNO₃→AgCl+NaNO₃",
+            "FeSO₄+BaCl₂→FeCl₂+BaSO₄",
+            "Na₂SO₄+BaCl₂→BaSO₄+2NaCl",
+            "HCl+NaOH→NaCl+H₂O"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_cat_009",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "যৌগের নাম",
+        "question_bn": "নিচের যৌগগুলিকে ক্যালশিয়াম ও সোডিয়ামের যৌগ অনুযায়ী দলে ভাগ করো",
+        "categories": {
+          "ক্যালশিয়ামের যৌগ": [
+            "CaCO₃",
+            "CaO",
+            "Ca(OH)₂",
+            "CaCl₂"
+          ],
+          "সোডিয়ামের যৌগ": [
+            "NaCl",
+            "Na₂CO₃",
+            "NaOH",
+            "NaHCO₃"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_cat_010",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "রাসায়নিক বিক্রিয়ার ধরন",
+        "question_bn": "নিচের তথ্যগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "তাপ উৎপাদী বিক্রিয়া": [
+            "পাথুরে চুন + জল",
+            "লোহায় মরিচা পড়া",
+            "জ্বালানি পোড়ানো",
+            "দস্তা + অ্যাসিড"
+          ],
+          "তাপ শোষী বিক্রিয়া": [
+            "চুনাপাথর উত্তপ্ত করা",
+            "জলের বিয়োজন",
+            "মারকিউরিক অক্সাইডের বিয়োজন",
+            "আলোক সংশ্লেষণ"
+          ]
+        }
+      }
+    ],
+    "short_write": [
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_001",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পরমাণুর কণা",
+        "question_bn": "পরমাণুর কেন্দ্রকে কী বলে?",
+        "expected_answer": "নিউক্লিয়াস",
+        "max_words": 1,
+        "answer_slot_id": 1
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_002",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পরমাণুর কণা",
+        "question_bn": "কোন কণাটি ধনাত্মক আধানযুক্ত?",
+        "expected_answer": "প্রোটন",
+        "max_words": 1,
+        "answer_slot_id": 2
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_003",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পরমাণুর কণা",
+        "question_bn": "কোন কণার কোনো তড়িৎ আধান নেই?",
+        "expected_answer": "নিউট্রন",
+        "max_words": 1,
+        "answer_slot_id": 3
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_004",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পারমাণবিক সংখ্যা",
+        "question_bn": "পরমাণুর প্রোটন সংখ্যাকে কী বলে?",
+        "expected_answer": "পারমাণবিক সংখ্যা",
+        "max_words": 2,
+        "answer_slot_id": 4
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_005",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ভরসংখ্যা",
+        "question_bn": "প্রোটন ও নিউট্রনের মোট সংখ্যাকে কী বলে?",
+        "expected_answer": "ভরসংখ্যা",
+        "max_words": 1,
+        "answer_slot_id": 5
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_006",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "আয়ন",
+        "question_bn": "ধনাত্মক আধানযুক্ত আয়নের নাম কী?",
+        "expected_answer": "ক্যাটায়ন",
+        "max_words": 1,
+        "answer_slot_id": 6
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_007",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "আয়ন",
+        "question_bn": "ঋণাত্মক আধানযুক্ত আয়নের নাম কী?",
+        "expected_answer": "অ্যানায়ন",
+        "max_words": 1,
+        "answer_slot_id": 7
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_008",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "কক্ষপথ",
+        "question_bn": "ইলেকট্রন নিউক্লিয়াসের চারদিকে কোথায় ঘোরে?",
+        "expected_answer": "কক্ষপথে",
+        "max_words": 1,
+        "answer_slot_id": 8
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_009",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মূলক",
+        "question_bn": "জোটবদ্ধ পরমাণু যখন আয়নরূপে থাকে তখন তাদের কী বলে?",
+        "expected_answer": "মূলক",
+        "max_words": 1,
+        "answer_slot_id": 9
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_010",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "কলিচুন",
+        "question_bn": "ক্যালশিয়াম হাইড্রক্সাইডকে সাধারণভাবে কী বলা হয়?",
+        "expected_answer": "কলিচুন",
+        "max_words": 1,
+        "answer_slot_id": 10
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_011",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পাথুরে চুন",
+        "question_bn": "ক্যালশিয়াম অক্সাইডকে সাধারণভাবে কী বলা হয়?",
+        "expected_answer": "পাথুরে চুন",
+        "max_words": 2,
+        "answer_slot_id": 11
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_012",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চুনাপাথর",
+        "question_bn": "ক্যালশিয়াম কার্বনেটকে সাধারণভাবে কী বলা হয়?",
+        "expected_answer": "চুনাপাথর",
+        "max_words": 1,
+        "answer_slot_id": 12
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_013",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "রাসায়নিক বিক্রিয়া",
+        "question_bn": "বিক্রিয়ায় যে পদার্থগুলো অংশ নেয় তাদের কী বলে?",
+        "expected_answer": "বিক্রিয়ক",
+        "max_words": 1,
+        "answer_slot_id": 13
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_014",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বিক্রিয়াজাত পদার্থ",
+        "question_bn": "রাসায়নিক বিক্রিয়ার ফলে তৈরি নতুন পদার্থকে কী বলে?",
+        "expected_answer": "বিক্রিয়াজাত পদার্থ",
+        "max_words": 2,
+        "answer_slot_id": 14
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_015",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মৌলের প্রতীক",
+        "question_bn": "পারদের রাসায়নিক প্রতীক কী?",
+        "expected_answer": "Hg",
+        "max_words": 1,
+        "answer_slot_id": 15
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_016",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মৌলের প্রতীক",
+        "question_bn": "সিসার রাসায়নিক প্রতীক কী?",
+        "expected_answer": "Pb",
+        "max_words": 1,
+        "answer_slot_id": 16
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_017",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মৌলের প্রতীক",
+        "question_bn": "পোলোনিয়ামের রাসায়নিক প্রতীক কী?",
+        "expected_answer": "Po",
+        "max_words": 1,
+        "answer_slot_id": 17
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_018",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মৌলের প্রতীক",
+        "question_bn": "ইউরেনিয়ামের রাসায়নিক প্রতীক কী?",
+        "expected_answer": "U",
+        "max_words": 1,
+        "answer_slot_id": 18
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_019",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "যোজ্যতা",
+        "question_bn": "অক্সিজেনের যোজ্যতা কত?",
+        "expected_answer": "২",
+        "max_words": 1,
+        "answer_slot_id": 19
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_020",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "যোজ্যতা",
+        "question_bn": "অ্যালুমিনিয়ামের যোজ্যতা কত?",
+        "expected_answer": "৩",
+        "max_words": 1,
+        "answer_slot_id": 20
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_021",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "যৌগের সংকেত",
+        "question_bn": "অ্যালুমিনিয়াম অক্সাইডের সংকেত কী?",
+        "expected_answer": "Al₂O₃",
+        "max_words": 1,
+        "answer_slot_id": 21
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_022",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "যৌগের সংকেত",
+        "question_bn": "সোডিয়াম ক্লোরাইডের সংকেত কী?",
+        "expected_answer": "NaCl",
+        "max_words": 1,
+        "answer_slot_id": 22
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_023",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "যৌগের সংকেত",
+        "question_bn": "ক্যালশিয়াম হাইড্রক্সাইডের সংকেত কী?",
+        "expected_answer": "Ca(OH)₂",
+        "max_words": 1,
+        "answer_slot_id": 23
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_024",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "যৌগের সংকেত",
+        "question_bn": "মিথেনের সংকেত কী?",
+        "expected_answer": "CH₄",
+        "max_words": 1,
+        "answer_slot_id": 24
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_025",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "রাসায়নিক বিক্রিয়ার প্রকার",
+        "question_bn": "দুটি মৌল যুক্ত হয়ে যৌগ তৈরি হওয়াকে কী বিক্রিয়া বলে?",
+        "expected_answer": "প্রত্যক্ষ সংযোগ",
+        "max_words": 2,
+        "answer_slot_id": 25
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_026",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বিয়োজন বিক্রিয়া",
+        "question_bn": "একটি যৌগ ভেঙে একাধিক পদার্থ তৈরি হওয়াকে কী বিক্রিয়া বলে?",
+        "expected_answer": "বিয়োজন",
+        "max_words": 1,
+        "answer_slot_id": 26
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_027",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "প্রতিস্থাপন বিক্রিয়া",
+        "question_bn": "একটি মৌল অন্য মৌলকে যৌগ থেকে সরিয়ে জায়গা নিলে কী বিক্রিয়া হয়?",
+        "expected_answer": "প্রতিস্থাপন",
+        "max_words": 1,
+        "answer_slot_id": 27
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_028",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বিনিময় বিক্রিয়া",
+        "question_bn": "দুটি যৌগের আয়ন বা মূলক পরস্পর জায়গা বদল করলে কী বিক্রিয়া হয়?",
+        "expected_answer": "বিনিময়",
+        "max_words": 1,
+        "answer_slot_id": 28
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_029",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সমতাবিধান",
+        "question_bn": "রাসায়নিক সমীকরণে দু-দিকে পরমাণু সংখ্যা সমান করার পদ্ধতিকে কী বলে?",
+        "expected_answer": "সমতাবিধান",
+        "max_words": 1,
+        "answer_slot_id": 29
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_030",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মৌলের প্রতীক",
+        "question_bn": "তুঁতের রাসায়নিক নাম কী?",
+        "expected_answer": "কপার সালফেট",
+        "max_words": 2,
+        "answer_slot_id": 30
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_031",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "যৌগের সংকেত",
+        "question_bn": "অ্যামোনিয়াম সালফেটের সংকেত কী?",
+        "expected_answer": "(NH₄)₂SO₄",
+        "max_words": 1,
+        "answer_slot_id": 31
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_032",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "সমতাযুক্ত সমীকরণ",
+        "question_bn": "জল তৈরির সমতাযুক্ত সমীকরণে H₂-এর সহগ কত?",
+        "expected_answer": "২",
+        "max_words": 1,
+        "answer_slot_id": 32
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_033",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মৌলের প্রতীক",
+        "question_bn": "আমেরিসিয়ামের রাসায়নিক প্রতীক কী?",
+        "expected_answer": "Am",
+        "max_words": 1,
+        "answer_slot_id": 33
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_034",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মৌলের প্রতীক",
+        "question_bn": "নেপচুনিয়ামের রাসায়নিক প্রতীক কী?",
+        "expected_answer": "Np",
+        "max_words": 1,
+        "answer_slot_id": 34
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_035",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মৌলের প্রতীক",
+        "question_bn": "প্লুটোনিয়ামের রাসায়নিক প্রতীক কী?",
+        "expected_answer": "Pu",
+        "max_words": 1,
+        "answer_slot_id": 35
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_036",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "পরিবর্তনশীল যোজ্যতা",
+        "question_bn": "ফেরাস ক্লোরাইডে আয়রনের যোজ্যতা কত?",
+        "expected_answer": "২",
+        "max_words": 1,
+        "answer_slot_id": 36
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_037",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "পরিবর্তনশীল যোজ্যতা",
+        "question_bn": "ফেরিক ক্লোরাইডে আয়রনের যোজ্যতা কত?",
+        "expected_answer": "৩",
+        "max_words": 1,
+        "answer_slot_id": 37
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_038",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "যৌগের সংকেত",
+        "question_bn": "ক্যালশিয়াম কার্বনেটের সংকেত কী?",
+        "expected_answer": "CaCO₃",
+        "max_words": 1,
+        "answer_slot_id": 38
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_039",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "যৌগের সংকেত",
+        "question_bn": "ক্যালশিয়াম অক্সাইডের সংকেত কী?",
+        "expected_answer": "CaO",
+        "max_words": 1,
+        "answer_slot_id": 39
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_040",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মূলকের যোজ্যতা",
+        "question_bn": "ফসফেট মূলকের (PO₄) যোজ্যতা কত?",
+        "expected_answer": "৩",
+        "max_words": 1,
+        "answer_slot_id": 40
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_041",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মূলকের যোজ্যতা",
+        "question_bn": "কার্বনেট মূলকের (CO₃) যোজ্যতা কত?",
+        "expected_answer": "২",
+        "max_words": 1,
+        "answer_slot_id": 41
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_042",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পরমাণুর কণা",
+        "question_bn": "ইলেকট্রন ঋণাত্মক আধানযুক্ত কণা — এটি কোন কণার সমান আধান বহন করে?",
+        "expected_answer": "প্রোটন",
+        "max_words": 1,
+        "answer_slot_id": 42
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_043",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "যৌগের সংকেত",
+        "question_bn": "পটাশিয়াম পারম্যাঙ্গানেটের সংকেত কী?",
+        "expected_answer": "KMnO₄",
+        "max_words": 1,
+        "answer_slot_id": 43
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_044",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "যৌগের সংকেত",
+        "question_bn": "সোডিয়াম হাইড্রক্সাইডের সংকেত কী?",
+        "expected_answer": "NaOH",
+        "max_words": 1,
+        "answer_slot_id": 44
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_045",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "সমতাযুক্ত সমীকরণ",
+        "question_bn": "N₂ + 3H₂ → 2NH₃ বিক্রিয়ায় NH₃-এর সহগ কত?",
+        "expected_answer": "২",
+        "max_words": 1,
+        "answer_slot_id": 45
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_046",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "সমতাযুক্ত সমীকরণ",
+        "question_bn": "2HgO → 2Hg + O₂ বিক্রিয়ায় Hg-এর সহগ কত?",
+        "expected_answer": "২",
+        "max_words": 1,
+        "answer_slot_id": 46
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_047",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "রাসায়নিক বিক্রিয়া",
+        "question_bn": "লোহার ছুরি তুঁতের দ্রবণে ডোবালে কোন ধাতু জমা হয়?",
+        "expected_answer": "তামা",
+        "max_words": 1,
+        "answer_slot_id": 47
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_048",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "যৌগের সংকেত",
+        "question_bn": "সোডিয়াম কার্বনেটের সংকেত কী?",
+        "expected_answer": "Na₂CO₃",
+        "max_words": 1,
+        "answer_slot_id": 48
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_049",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মৌলের প্রতীক",
+        "question_bn": "আইনস্টাইনিয়ামের রাসায়নিক প্রতীক কী?",
+        "expected_answer": "Es",
+        "max_words": 1,
+        "answer_slot_id": 49
+      },
+      {
+        "id": "paribesh_o_bigyan_ch07_sw_050",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বিক্রিয়ার শর্ত",
+        "question_bn": "জলের বিয়োজন বিক্রিয়ায় কোন পদ্ধতি ব্যবহার করা হয়?",
+        "expected_answer": "তড়িৎ বিশ্লেষণ",
+        "max_words": 2,
+        "answer_slot_id": 50
+      }
+    ]
+  }
+}

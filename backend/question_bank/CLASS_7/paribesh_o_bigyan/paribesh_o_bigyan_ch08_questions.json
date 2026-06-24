@@ -1,0 +1,1774 @@
+{
+  "book_id": "paribesh_o_bigyan",
+  "book_name": "Paribesh O Bigyan",
+  "book_name_bn": "পরিবেশ ও বিজ্ঞান",
+  "subject": "science",
+  "class": 8,
+  "chapter_no": 8,
+  "chapter_title_bn": "পরিবেশ গঠনে পদার্থের ভূমিকা",
+  "source_file": "paribesh_o_bigyan_ch08_questions.json",
+  "questions": {
+    "mcq": [
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_001",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "জীবদেহে মৌল",
+        "question_bn": "মানবদেহে মোট কতটি মৌল পাওয়া যায়?",
+        "options": ["৬টি", "৯২টি", "১৬টি", "২৪টি", "৩২টি"],
+        "correct_answer": "১৬টি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_002",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "জীবদেহে জল",
+        "question_bn": "মানুষের দেহে জলের পরিমাণ প্রায় কত শতাংশ?",
+        "options": ["৫০ শতাংশ", "৬০ শতাংশ", "৭০ শতাংশ", "৮০ শতাংশ", "৯০ শতাংশ"],
+        "correct_answer": "৭০ শতাংশ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_003",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "হাড়ের উপাদান",
+        "question_bn": "হাড়ের প্রধান উপাদান কোনটি?",
+        "options": ["ক্যালশিয়াম কার্বনেট", "ক্যালশিয়াম ফসফেট", "ক্যালশিয়াম ক্লোরাইড", "সোডিয়াম ক্লোরাইড", "আয়রন অক্সাইড"],
+        "correct_answer": "ক্যালশিয়াম ফসফেট"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_004",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "অ্যাসিড",
+        "question_bn": "আ্যাসিড শব্দটি কোন ভাষার শব্দ থেকে এসেছে?",
+        "options": ["গ্রিক", "আরবি", "ল্যাটিন", "ফরাসি", "ইংরেজি"],
+        "correct_answer": "ল্যাটিন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_005",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "লিটমাস পরীক্ষা",
+        "question_bn": "আ্যাসিড নীল লিটমাস কাগজকে কোন রঙে পরিণত করে?",
+        "options": ["সবুজ", "হলুদ", "লাল", "বেগুনি", "কমলা"],
+        "correct_answer": "লাল"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_006",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "খাবার নুন",
+        "question_bn": "খাবার নুনের রাসায়নিক সংকেত কী?",
+        "options": ["NaOH", "NaCl", "KCl", "CaCl₂", "Na₂CO₃"],
+        "correct_answer": "NaCl"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_007",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "জৈব যৌগ",
+        "question_bn": "নিচের কোনটি জৈব যৌগ নয়?",
+        "options": ["গ্লুকোজ", "প্রোটিন", "লিপিড", "সোডিয়াম ক্লোরাইড", "কার্বোহাইড্রেট"],
+        "correct_answer": "সোডিয়াম ক্লোরাইড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_008",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "pH স্কেল",
+        "question_bn": "প্রশম দ্রবণের pH-এর মান কত?",
+        "options": ["০", "৫", "৭", "৯", "১৪"],
+        "correct_answer": "৭"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_009",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আয়রনের ভূমিকা",
+        "question_bn": "হিমোগ্লোবিনে কোন ধাতুর আয়ন থাকে?",
+        "options": ["ক্যালশিয়াম", "সোডিয়াম", "আয়রন", "পটাশিয়াম", "কপার"],
+        "correct_answer": "আয়রন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_010",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "নির্দেশক",
+        "question_bn": "জবা ফুলের পাপড়ির রস কী হিসেবে ব্যবহার করা হয়?",
+        "options": ["দ্রাবক", "অনুঘটক", "নির্দেশক", "বাফার", "লবণ"],
+        "correct_answer": "নির্দেশক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_011",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "জৈব অ্যাসিড",
+        "question_bn": "পাতিলেবুতে কোন অ্যাসিড থাকে?",
+        "options": ["ম্যালিক অ্যাসিড", "টারটারিক অ্যাসিড", "সাইট্রিক অ্যাসিড", "অক্সালিক অ্যাসিড", "ফরমিক অ্যাসিড"],
+        "correct_answer": "সাইট্রিক অ্যাসিড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_012",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শামুকের খোলস",
+        "question_bn": "শামুক ও ঝিনুকের খোলস কী দিয়ে তৈরি?",
+        "options": ["ক্যালশিয়াম ফসফেট", "ক্যালশিয়াম কার্বনেট", "ক্যালশিয়াম ক্লোরাইড", "ম্যাগনেশিয়াম কার্বনেট", "সিলিকন ডাইঅক্সাইড"],
+        "correct_answer": "ক্যালশিয়াম কার্বনেট"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_013",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "জৈব ভঙ্গুর পদার্থ",
+        "question_bn": "নিচের কোনটি জৈব ভঙ্গুর পদার্থ?",
+        "options": ["পলিথিন", "নাইলন", "কাঠ", "কাচ", "প্লাস্টিক"],
+        "correct_answer": "কাঠ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_014",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পাকস্থলী",
+        "question_bn": "পাকস্থলীতে খাবার হজমে কোন অ্যাসিড সাহায্য করে?",
+        "options": ["সালফিউরিক অ্যাসিড", "নাইট্রিক অ্যাসিড", "হাইড্রোক্লোরিক অ্যাসিড", "ফসফরিক অ্যাসিড", "অ্যাসিটিক অ্যাসিড"],
+        "correct_answer": "হাইড্রোক্লোরিক অ্যাসিড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_015",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "প্রোটিন",
+        "question_bn": "মানবদেহে রোগ প্রতিরোধকারী বিশেষ পদার্থ কী দিয়ে তৈরি?",
+        "options": ["লিপিড", "শর্করা", "প্রোটিন", "নিউক্লিক অ্যাসিড", "ভিটামিন"],
+        "correct_answer": "প্রোটিন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_016",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সিমেন্ট",
+        "question_bn": "সিমেন্টে কোন ধাতুর অক্সাইড প্রধানত থাকে?",
+        "options": ["সোডিয়াম", "পটাশিয়াম", "ক্যালশিয়াম", "কপার", "জিঙ্ক"],
+        "correct_answer": "ক্যালশিয়াম"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_017",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "তেঁতুলের অ্যাসিড",
+        "question_bn": "তেঁতুলে কোন অ্যাসিড থাকে?",
+        "options": ["ম্যালিক অ্যাসিড", "সাইট্রিক অ্যাসিড", "টারটারিক অ্যাসিড", "ল্যাকটিক অ্যাসিড", "ফরমিক অ্যাসিড"],
+        "correct_answer": "টারটারিক অ্যাসিড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_018",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ক্ষার",
+        "question_bn": "ক্ষারীয় পদার্থ লাল লিটমাস কাগজকে কোন রঙে পরিণত করে?",
+        "options": ["লাল", "হলুদ", "সবুজ", "নীল", "বেগুনি"],
+        "correct_answer": "নীল"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_019",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "গ্লুকোজ",
+        "question_bn": "সবুজ গাছ সালোকসংশ্লেষণে কোন জৈব যৌগ তৈরি করে?",
+        "options": ["প্রোটিন", "লিপিড", "গ্লুকোজ", "নিউক্লিক অ্যাসিড", "ভিটামিন"],
+        "correct_answer": "গ্লুকোজ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_020",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "কাচ",
+        "question_bn": "কাচ তৈরিতে প্রধানত কোনটি ব্যবহার হয়?",
+        "options": ["চুনাপাথর, সোডাভস্ম ও বালি", "বালি ও সিমেন্ট", "চুনাপাথর ও কয়লা", "মাটি ও বালি", "লোহা ও কার্বন"],
+        "correct_answer": "চুনাপাথর, সোডাভস্ম ও বালি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_021",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "প্রশমন বিক্রিয়া",
+        "question_bn": "অ্যাসিড ও ক্ষারের প্রশমন বিক্রিয়ায় কী কী উৎপন্ন হয়?",
+        "options": ["শুধু লবণ", "শুধু জল", "লবণ ও জল", "গ্যাস ও জল", "অক্সাইড ও জল"],
+        "correct_answer": "লবণ ও জল"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_022",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "pH স্কেল",
+        "question_bn": "pH-এর মান ৭-এর কম হলে দ্রবণটি কী প্রকৃতির?",
+        "options": ["ক্ষারীয়", "প্রশম", "অ্যাসিডিক", "নিরপেক্ষ", "দ্রাবক"],
+        "correct_answer": "অ্যাসিডিক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_023",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "নিউক্লিক অ্যাসিড",
+        "question_bn": "কোন জৈব যৌগ জীবের বংশগতির বৈশিষ্ট্য নির্ধারণ করে?",
+        "options": ["প্রোটিন", "লিপিড", "কার্বোহাইড্রেট", "নিউক্লিক অ্যাসিড", "ভিটামিন"],
+        "correct_answer": "নিউক্লিক অ্যাসিড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_024",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "লিপিড",
+        "question_bn": "লিপিড সম্পর্কে কোনটি সঠিক?",
+        "options": ["লিপিড জলে সহজে দ্রবীভূত হয়", "লিপিড জলে দ্রবীভূত হয় না", "লিপিড তাপে বিশ্লেষিত হয় না", "লিপিড প্রোটিনের একটি প্রকার", "লিপিড DNA-র উপাদান"],
+        "correct_answer": "লিপিড জলে দ্রবীভূত হয় না"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_025",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "স্নায়ু সংকেত",
+        "question_bn": "স্নায়ুতন্ত্রের সংকেত পরিচালনায় কোন দুটি আয়ন প্রয়োজন?",
+        "options": ["ক্যালশিয়াম ও আয়রন", "সোডিয়াম ও পটাশিয়াম", "কপার ও জিঙ্ক", "ম্যাগনেশিয়াম ও ম্যাঙ্গানিজ", "কোবাল্ট ও ক্রোমিয়াম"],
+        "correct_answer": "সোডিয়াম ও পটাশিয়াম"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_026",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "অ্যাসিড সংজ্ঞা",
+        "question_bn": "জলীয় দ্রবণে কোন আয়ন উৎপন্ন করলে কোনো পদার্থকে অ্যাসিড বলে?",
+        "options": ["OH⁻ আয়ন", "H⁺ আয়ন", "Na⁺ আয়ন", "Cl⁻ আয়ন", "Ca²⁺ আয়ন"],
+        "correct_answer": "H⁺ আয়ন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_027",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "জৈব অভঙ্গুর পদার্থ",
+        "question_bn": "নিচের কোনটি জৈব অভঙ্গুর পদার্থের উদাহরণ?",
+        "options": ["খড়", "কাগজ", "পলিথিন ব্যাগ", "পচা পাতা", "গোবর"],
+        "correct_answer": "পলিথিন ব্যাগ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_028",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সমুদ্র লবণ",
+        "question_bn": "সমুদ্র লবণে প্রায় কত ধরনের যৌগের সন্ধান পাওয়া গেছে?",
+        "options": ["১২", "২৫", "৪৭", "৬০", "৯২"],
+        "correct_answer": "৪৭"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_029",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "কীটনাশক",
+        "question_bn": "কীটনাশকের ব্যবহারে কোন উপকারী পতঙ্গ ক্ষতিগ্রস্ত হয়?",
+        "options": ["মশা ও মাছি", "মৌমাছি ও রেশম মথ", "তেলাপোকা ও উঁই", "ফড়িং ও ঘাসফড়িং", "প্রজাপতি ও ড্রাগনফ্লাই"],
+        "correct_answer": "মৌমাছি ও রেশম মথ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_030",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "কাচের রং",
+        "question_bn": "কাচকে নীল রং দিতে কোন যৌগ মেশানো হয়?",
+        "options": ["আয়রন অক্সাইড", "ক্রোমিয়াম অক্সাইড", "কোবাল্ট অক্সাইড", "ম্যাঙ্গানিজ অক্সাইড", "কপার অক্সাইড"],
+        "correct_answer": "কোবাল্ট অক্সাইড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_031",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মানবদেহের মৌল",
+        "question_bn": "মানবদেহের ওজনের প্রায় ৯৭ শতাংশ কতটি মৌলের মিলিত ভর?",
+        "options": ["২টি", "৩টি", "৪টি", "৫টি", "৬টি"],
+        "correct_answer": "৪টি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_032",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ক্ষার সংজ্ঞা",
+        "question_bn": "সকল ক্ষার ক্ষারক, কিন্তু সকল ক্ষারক কি ক্ষার?",
+        "options": ["হ্যাঁ", "না", "কখনো হ্যাঁ কখনো না", "শুধু তাপে", "শুধু জলে"],
+        "correct_answer": "না"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_033",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "এনজাইম",
+        "question_bn": "দেহের রাসায়নিক বিক্রিয়া ত্বরান্বিত করতে কোন ধরনের প্রোটিন কাজ করে?",
+        "options": ["হিমোগ্লোবিন", "ইন্টারফেরন", "এনজাইম", "ইনসুলিন", "ফাইব্রিন"],
+        "correct_answer": "এনজাইম"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_034",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "অ্যাসিড বৃষ্টি",
+        "question_bn": "বাতাসে কোন গ্যাসগুলো মিশলে অ্যাসিড বৃষ্টি হয়?",
+        "options": ["অক্সিজেন ও নাইট্রোজেন", "কার্বন ডাইঅক্সাইড, সালফার ডাইঅক্সাইড ও নাইট্রোজেন ডাইঅক্সাইড", "কার্বন মনোক্সাইড ও হাইড্রোজেন", "ওজোন ও ক্লোরিন", "মিথেন ও অ্যামোনিয়া"],
+        "correct_answer": "কার্বন ডাইঅক্সাইড, সালফার ডাইঅক্সাইড ও নাইট্রোজেন ডাইঅক্সাইড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_035",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "লবণের উৎস",
+        "question_bn": "প্রাচীনকালে মানুষ খাবার নুন প্রধানত কোথা থেকে সংগ্রহ করত?",
+        "options": ["নদীর জল থেকে", "পাহাড়ের মাটি থেকে", "সমুদ্র লবণ থেকে", "গাছপালা থেকে", "প্রাণীর দেহ থেকে"],
+        "correct_answer": "সমুদ্র লবণ থেকে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_036",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ক্যালশিয়াম ট্যাবলেট",
+        "question_bn": "ক্যালশিয়াম ট্যাবলেটে সাধারণত কোন যৌগ থাকে?",
+        "options": ["ক্যালশিয়াম ক্লোরাইড", "ক্যালশিয়াম ফসফেট", "ক্যালশিয়াম কার্বনেট", "ক্যালশিয়াম অক্সাইড", "ক্যালশিয়াম সালফেট"],
+        "correct_answer": "ক্যালশিয়াম কার্বনেট"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_037",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সিমেন্ট বাঁধাই",
+        "question_bn": "সিমেন্ট ঢালাইয়ের পর জল দেওয়া হয় কেন?",
+        "options": ["সিমেন্ট দ্রুত শুকাতে", "তাপ উৎপন্ন হওয়ায় ফেটে যাওয়া রোধ করতে", "সিমেন্টকে নরম রাখতে", "রঙ ঠিক রাখতে", "জলের ভার সহ্য করাতে"],
+        "correct_answer": "তাপ উৎপন্ন হওয়ায় ফেটে যাওয়া রোধ করতে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_038",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "pH ও দেহতরল",
+        "question_bn": "মানুষের রক্তের pH প্রায় কত?",
+        "options": ["৬.০–৬.৫", "৬.৫–৭.০", "৭.৩৫–৭.৪৫", "৮.০–৮.৫", "৯.০–৯.৫"],
+        "correct_answer": "৭.৩৫–৭.৪৫"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_039",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "জল — দ্রাবক ভূমিকা",
+        "question_bn": "দেহে উৎপন্ন দূষিত পদার্থ কীভাবে বেরিয়ে যায়?",
+        "options": ["রক্তের মাধ্যমে", "জলের মাধ্যমে", "বায়ুর মাধ্যমে", "চর্বির মাধ্যমে", "লবণের মাধ্যমে"],
+        "correct_answer": "জলের মাধ্যমে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_040",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পেশির ক্লান্তি",
+        "question_bn": "দীর্ঘ পরিশ্রমে পেশিকোশে কোন অ্যাসিড উৎপন্ন হয়?",
+        "options": ["সাইট্রিক অ্যাসিড", "ল্যাকটিক অ্যাসিড", "ইউরিক অ্যাসিড", "ফরমিক অ্যাসিড", "অক্সালিক অ্যাসিড"],
+        "correct_answer": "ল্যাকটিক অ্যাসিড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_041",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "অ্যাসিড আয়নায়ন",
+        "question_bn": "HCl জলীয় দ্রবণে বিয়োজিত হয়ে কোন আয়ন উৎপন্ন করে?",
+        "options": ["শুধু H⁺", "H⁺ ও Cl⁻", "OH⁻ ও Cl⁻", "Na⁺ ও Cl⁻", "H₂O ও Cl⁻"],
+        "correct_answer": "H⁺ ও Cl⁻"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_042",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "হাইড্রক্সোনিয়াম আয়ন",
+        "question_bn": "জলীয় দ্রবণে H⁺ আয়ন জলের সঙ্গে যুক্ত হয়ে কী তৈরি করে?",
+        "options": ["OH⁻", "H₂O₂", "H₃O⁺", "HO₂⁻", "H₂O"],
+        "correct_answer": "H₃O⁺"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_043",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ক্ষারের সংজ্ঞা",
+        "question_bn": "জলীয় দ্রবণে Ca(OH)₂ বিয়োজিত হয়ে কোন আয়ন উৎপন্ন করে?",
+        "options": ["H⁺ ও Ca²⁺", "OH⁻ ও Ca²⁺", "Cl⁻ ও Ca²⁺", "H₂O ও Ca²⁺", "O²⁻ ও Ca²⁺"],
+        "correct_answer": "OH⁻ ও Ca²⁺"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_044",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "pH ও স্বাস্থ্য",
+        "question_bn": "মানবদেহের কোশ সবচেয়ে ভালোভাবে কাজ করে কখন?",
+        "options": ["দ্রবণ অ্যাসিডিক হলে (pH ৬ এর নিচে)", "দ্রবণ প্রশম হলে (pH = ৭)", "দ্রবণ প্রধানত ক্ষারীয় হলে (pH ৭–৮)", "দ্রবণ তীব্র ক্ষারীয় হলে (pH ১৩–১৪)", "pH যাই হোক না কেন"],
+        "correct_answer": "দ্রবণ প্রধানত ক্ষারীয় হলে (pH ৭–৮)"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_045",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "কার্বনিক অ্যাসিড",
+        "question_bn": "রক্তে জল ও CO₂ যুক্ত হলে কী তৈরি হয়?",
+        "options": ["হাইড্রোক্লোরিক অ্যাসিড", "কার্বনিক অ্যাসিড", "সালফিউরিক অ্যাসিড", "নাইট্রিক অ্যাসিড", "ফসফরিক অ্যাসিড"],
+        "correct_answer": "কার্বনিক অ্যাসিড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_046",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "বৃক্ক ও অ্যাসিড",
+        "question_bn": "বৃক্ক ক্ষতিগ্রস্ত হলে রক্তে কোন পদার্থের পরিমাণ বাড়ে?",
+        "options": ["গ্লুকোজ ও ফ্যাটি অ্যাসিড", "ইউরিক অ্যাসিড, ইউরিয়া ও ক্রিয়েটিনিন", "ল্যাকটিক অ্যাসিড ও পাইরুভেট", "হিমোগ্লোবিন ও ফেরিটিন", "ইনসুলিন ও গ্লুকাগন"],
+        "correct_answer": "ইউরিক অ্যাসিড, ইউরিয়া ও ক্রিয়েটিনিন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_047",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "খনিজ অ্যাসিড",
+        "question_bn": "খনিজ অ্যাসিডের অপর নাম কী?",
+        "options": ["জৈব অ্যাসিড", "অজৈব অ্যাসিড", "ভেষজ অ্যাসিড", "ফলের অ্যাসিড", "সংশ্লেষিত অ্যাসিড"],
+        "correct_answer": "অজৈব অ্যাসিড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_048",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "পিঁপড়ের অ্যাসিড",
+        "question_bn": "পিঁপড়ের দেহে কোন অ্যাসিড থাকে যা সিমেন্টে দাগ ফেলে?",
+        "options": ["সাইট্রিক অ্যাসিড", "ফরমিক অ্যাসিড", "ল্যাকটিক অ্যাসিড", "অক্সালিক অ্যাসিড", "ম্যালিক অ্যাসিড"],
+        "correct_answer": "ফরমিক অ্যাসিড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_049",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "রং — দ্রাবক",
+        "question_bn": "রং-এর মধ্যে কোন দুটি প্রধান অংশ থাকে?",
+        "options": ["জল ও তেল", "দ্রাবক ও রঞ্জক পিগমেন্ট", "অ্যাসিড ও ক্ষার", "ধাতু ও অধাতু", "কার্বন ও হাইড্রোজেন"],
+        "correct_answer": "দ্রাবক ও রঞ্জক পিগমেন্ট"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_mcq_050",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "অ্যাসিড-ক্ষার ভারসাম্য",
+        "question_bn": "দেহের অ্যাসিড-ক্ষার ভারসাম্য কীসের উপর নির্ভর করে?",
+        "options": ["শুধু খাদ্যাভ্যাসের উপর", "নিশ্বাসে CO₂ নির্গমন ও দেহের রাসায়নিক বিক্রিয়ার উপর", "শুধু বৃক্কের কার্যকলাপের উপর", "শুধু হরমোনের উপর", "রক্তের তাপমাত্রার উপর"],
+        "correct_answer": "নিশ্বাসে CO₂ নির্গমন ও দেহের রাসায়নিক বিক্রিয়ার উপর"
+      }
+    ],
+    "match_pairs": [
+      {
+        "id": "paribesh_o_bigyan_ch08_match_001",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "জৈব অ্যাসিড উৎস",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "আপেল", "right": "ম্যালিক অ্যাসিড"},
+          {"left": "তেঁতুল", "right": "টারটারিক অ্যাসিড"},
+          {"left": "দই", "right": "ল্যাকটিক অ্যাসিড"},
+          {"left": "পিঁপড়ে", "right": "ফরমিক অ্যাসিড"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_match_002",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ধাতু ও দেহে ভূমিকা",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "আয়রন", "right": "হিমোগ্লোবিন তৈরি"},
+          {"left": "ক্যালশিয়াম", "right": "হাড় গঠন"},
+          {"left": "সোডিয়াম", "right": "স্নায়ু সংকেত পরিচালনা"},
+          {"left": "পটাশিয়াম", "right": "কোশের কার্যক্ষমতা রক্ষা"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_match_003",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "জৈব যৌগ ও কাজ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "কার্বোহাইড্রেট", "right": "শক্তি সরবরাহ"},
+          {"left": "প্রোটিন", "right": "দেহ গঠন ও রোগ প্রতিরোধ"},
+          {"left": "লিপিড", "right": "তাপ নিরোধক স্তর"},
+          {"left": "নিউক্লিক অ্যাসিড", "right": "বংশগতির বৈশিষ্ট্য নির্ধারণ"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_match_004",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "কাচের রং ও যৌগ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "হলুদ কাচ", "right": "আয়রন অক্সাইড"},
+          {"left": "নীল কাচ", "right": "কোবাল্ট অক্সাইড"},
+          {"left": "সবুজ কাচ", "right": "ক্রোমিয়াম অক্সাইড"},
+          {"left": "বর্ণহীন কাচ", "right": "কোনো ধাতব অক্সাইড নেই"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_match_005",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "লবণের প্রকারভেদ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "সৈন্ধব লবণ", "right": "সামুদ্রিক উৎস থেকে"},
+          {"left": "বীট লবণ", "right": "রক সল্ট নামেও পরিচিত"},
+          {"left": "টেবিল সল্ট", "right": "পরিশুদ্ধ সোডিয়াম ক্লোরাইড"},
+          {"left": "সমুদ্র লবণ", "right": "প্রায় ৪৭ ধরনের যৌগ"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_match_006",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "pH ও দ্রবণের প্রকৃতি",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "pH < ৭", "right": "অ্যাসিডিক দ্রবণ"},
+          {"left": "pH = ৭", "right": "প্রশম দ্রবণ"},
+          {"left": "pH > ৭", "right": "ক্ষারীয় দ্রবণ"},
+          {"left": "পাকস্থলীর রস", "right": "তীব্র অ্যাসিডিক"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_match_007",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পদার্থ ও জৈব ভঙ্গুরতা",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "কাগজ", "right": "জৈব ভঙ্গুর"},
+          {"left": "প্লাস্টিক ব্যাগ", "right": "জৈব অভঙ্গুর"},
+          {"left": "নাইলন জাল", "right": "পরিবেশে দীর্ঘস্থায়ী"},
+          {"left": "কাঠ", "right": "প্রাকৃতিক প্রক্রিয়ায় নষ্ট হয়"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_match_008",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ক্ষারকের ব্যবহার",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "পুকুরের জলে চুন", "right": "জলের অ্যাসিডত্ব কমানো"},
+          {"left": "মাটিতে চুন", "right": "মাটির অ্যাসিডত্ব কমানো"},
+          {"left": "অ্যান্টাসিড", "right": "পাকস্থলীর অ্যাসিড প্রশমন"},
+          {"left": "সাবান", "right": "ক্ষারীয় পরিষ্কারক"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_match_009",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "রাসায়নিক সংকেত",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "সোডিয়াম ক্লোরাইড", "right": "NaCl"},
+          {"left": "ক্যালশিয়াম কার্বনেট", "right": "CaCO₃"},
+          {"left": "হাইড্রোক্লোরিক অ্যাসিড", "right": "HCl"},
+          {"left": "ক্যালশিয়াম হাইড্রক্সাইড", "right": "Ca(OH)₂"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_match_010",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "দেহতরল ও pH",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "লালারস", "right": "pH ৬.০২–৭.০৫"},
+          {"left": "পাকস্থলীর রস", "right": "তীব্র অ্যাসিডিক"},
+          {"left": "পিত্তরস", "right": "pH ৮.০–৮.৬"},
+          {"left": "রক্ত", "right": "pH ৭.৩৫–৭.৪৫"}
+        ]
+      }
+    ],
+    "true_false": [
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_001",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "জীবদেহে মৌল",
+        "question_bn": "পৃথিবীতে প্রায় ৯২টি মৌল দিয়ে বেশিরভাগ জিনিস তৈরি হয়েছে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_002",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "জলের ভূমিকা",
+        "question_bn": "মানবদেহে জলের পরিমাণ প্রায় ৫০ শতাংশ।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_003",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "লিটমাস পরীক্ষা",
+        "question_bn": "অ্যাসিড লাল লিটমাস কাগজকে নীলে পরিবর্তন করে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_004",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সাইট্রিক অ্যাসিড",
+        "question_bn": "পাতিলেবু ও কমলালেবুতে সাইট্রিক অ্যাসিড থাকে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_005",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "গ্লুকোজ",
+        "question_bn": "সবুজ গাছ সালোকসংশ্লেষণে গ্লুকোজ তৈরি করে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_006",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "হাড় ও ক্যালশিয়াম",
+        "question_bn": "হাড়ের প্রধান উপাদান ক্যালশিয়াম ক্লোরাইড।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_007",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "প্রশম দ্রবণ",
+        "question_bn": "বিশুদ্ধ জল একটি প্রশম পদার্থ।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_008",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "জৈব ভঙ্গুর",
+        "question_bn": "প্লাস্টিক ব্যাগ একটি জৈব ভঙ্গুর পদার্থ।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_009",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "খাবার নুন",
+        "question_bn": "খাবার নুন একটি কেলাসাকার পদার্থ।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_010",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ক্ষার",
+        "question_bn": "সব ক্ষারক জলে দ্রবীভূত হয়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_011",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "হিমোগ্লোবিন",
+        "question_bn": "হিমোগ্লোবিন একটি প্রোটিন যা দেহে অক্সিজেন পরিবহন করে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_012",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "প্রশমন বিক্রিয়া",
+        "question_bn": "অ্যাসিড ও ক্ষারের প্রশমন বিক্রিয়ায় শুধু লবণ উৎপন্ন হয়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_013",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সিমেন্ট",
+        "question_bn": "সিমেন্ট একটি বিশুদ্ধ রাসায়নিক পদার্থ নয়, এটি একটি মিশ্রণ।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_014",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পেশি ও ল্যাকটিক অ্যাসিড",
+        "question_bn": "ভারী পরিশ্রমে পেশিতে গ্লুকোজ ভেঙে ল্যাকটিক অ্যাসিড উৎপন্ন হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_015",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "কাচের উপাদান",
+        "question_bn": "কাচ একটি বিশুদ্ধ যৌগ।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_016",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "নিউক্লিক অ্যাসিড",
+        "question_bn": "নিউক্লিক অ্যাসিড জীবের আচরণ ও বংশগতির বৈশিষ্ট্য নির্ধারণ করে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_017",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "অ্যাসিড বৃষ্টি",
+        "question_bn": "বৃষ্টির জলে সালফার ডাইঅক্সাইড মিশলে বৃষ্টি অ্যাসিডিক হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_018",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "অ্যাসিড ও আয়ন",
+        "question_bn": "সব অ্যাসিড জলীয় দ্রবণে OH⁻ আয়ন উৎপন্ন করে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_019",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "pH ও দেহকোশ",
+        "question_bn": "মানবদেহের কোশ প্রধানত ক্ষারীয় (pH ৭–৮) মাধ্যমে সবচেয়ে ভালো কাজ করে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_tf_020",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "জৈব যৌগ ও পৃথিবীপৃষ্ঠ",
+        "question_bn": "পৃথিবীপৃষ্ঠেও প্রচুর পরিমাণে জৈব যৌগ পাওয়া যায়।",
+        "correct_answer": "false"
+      }
+    ],
+    "tap_sequence": [
+      {
+        "id": "paribesh_o_bigyan_ch08_seq_001",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "pH স্কেল",
+        "question_bn": "pH স্কেলকে ছোটো থেকে বড়ো ক্রমে সাজাও",
+        "items": ["৭ (প্রশম)", "০ (তীব্র অ্যাসিডিক)", "১৪ (তীব্র ক্ষারীয়)", "৪ (অ্যাসিডিক)"],
+        "correct_order": ["০ (তীব্র অ্যাসিডিক)", "৪ (অ্যাসিডিক)", "৭ (প্রশম)", "১৪ (তীব্র ক্ষারীয়)"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_seq_002",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সালোকসংশ্লেষণ প্রক্রিয়া",
+        "question_bn": "সালোকসংশ্লেষণের ধাপগুলো সঠিক ক্রমে সাজাও",
+        "items": ["গ্লুকোজ তৈরি হয়", "সূর্যের আলো শোষণ", "কার্বন ডাইঅক্সাইড গ্রহণ", "জল শোষণ"],
+        "correct_order": ["সূর্যের আলো শোষণ", "কার্বন ডাইঅক্সাইড গ্রহণ", "জল শোষণ", "গ্লুকোজ তৈরি হয়"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_seq_003",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "প্রশমন পরীক্ষা",
+        "question_bn": "জবাফুলের রস দিয়ে প্রশমন পরীক্ষার ধাপগুলো সঠিক ক্রমে সাজাও",
+        "items": ["দ্রবণ সবুজ হয়", "ভিনিগার দ্রবণে জবার রস যোগ", "দ্রবণ গোলাপি হয়", "খাবার সোডা ফোঁটা ফোঁটা যোগ"],
+        "correct_order": ["ভিনিগার দ্রবণে জবার রস যোগ", "দ্রবণ গোলাপি হয়", "খাবার সোডা ফোঁটা ফোঁটা যোগ", "দ্রবণ সবুজ হয়"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_seq_004",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চারটি মূল জৈব যৌগ",
+        "question_bn": "জীবদেহের চারটি গুরুত্বপূর্ণ জৈব যৌগকে সরলতম থেকে জটিলতম ক্রমে সাজাও",
+        "items": ["প্রোটিন", "লিপিড", "কার্বোহাইড্রেট", "নিউক্লিক অ্যাসিড"],
+        "correct_order": ["কার্বোহাইড্রেট", "লিপিড", "প্রোটিন", "নিউক্লিক অ্যাসিড"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_seq_005",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "লবণের প্রক্রিয়াকরণ",
+        "question_bn": "সমুদ্র লবণ থেকে টেবিল সল্ট তৈরির ধাপ সঠিক ক্রমে সাজাও",
+        "items": ["খাবার নুনে রূপান্তর", "সমুদ্র জল সংগ্রহ", "শতকরা ৯৯.৯ ভাগ NaCl", "রাসায়নিক পরিশুদ্ধি"],
+        "correct_order": ["সমুদ্র জল সংগ্রহ", "সমুদ্র লবণ সংগ্রহ", "রাসায়নিক পরিশুদ্ধি", "খাবার নুনে রূপান্তর"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_seq_006",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "লবণের প্রক্রিয়াকরণ",
+        "question_bn": "খাদ্যের হজম ও পুষ্টি বিতরণের ধাপগুলো সঠিক ক্রমে সাজাও",
+        "items": ["সারাদেহে পুষ্টি ছড়িয়ে পড়া", "কার্বোহাইড্রেট গ্রহণ", "পাচনতন্ত্রে হজম", "জলের মাধ্যমে শোষণ"],
+        "correct_order": ["কার্বোহাইড্রেট গ্রহণ", "পাচনতন্ত্রে হজম", "জলের মাধ্যমে শোষণ", "সারাদেহে পুষ্টি ছড়িয়ে পড়া"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_seq_007",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "সিমেন্ট রাসায়নিক বিক্রিয়া",
+        "question_bn": "সিমেন্টে জল দেওয়ার পর যে ঘটনাগুলো ঘটে সেগুলো সঠিক ক্রমে সাজাও",
+        "items": ["তাপ উৎপন্ন হয়", "CaO, হাইড্রক্সাইডে পরিণত হয়", "জল মেশানো হয়", "সিমেন্ট ফেটে যাওয়ার আশঙ্কা"],
+        "correct_order": ["জল মেশানো হয়", "CaO, হাইড্রক্সাইডে পরিণত হয়", "তাপ উৎপন্ন হয়", "সিমেন্ট ফেটে যাওয়ার আশঙ্কা"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_seq_008",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "দেহের অ্যাসিড-ক্ষার ভারসাম্য",
+        "question_bn": "রক্ত অতিরিক্ত অ্যাসিডিক হলে দেহ যেভাবে সাড়া দেয় সেটি সঠিক ক্রমে সাজাও",
+        "items": ["হাড় থেকে ক্যালশিয়াম নেওয়া", "রক্তে অ্যাসিড বৃদ্ধি", "প্রথমে চুল-ত্বক-নখ থেকে ধাতু নেওয়া", "রক্তে ক্যালশিয়াম সরবরাহ"],
+        "correct_order": ["রক্তে অ্যাসিড বৃদ্ধি", "প্রথমে চুল-ত্বক-নখ থেকে ধাতু নেওয়া", "রক্তে ক্যালশিয়াম সরবরাহ", "হাড় থেকে ক্যালশিয়াম নেওয়া"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_seq_009",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শামুকের খোলস তৈরি",
+        "question_bn": "শামুকের খোলস তৈরির প্রক্রিয়া সঠিক ক্রমে সাজাও",
+        "items": ["ক্যালশিয়াম কার্বনেট গঠিত হয়", "জলে দ্রবীভূত Ca²⁺ আয়ন শোষণ", "CO₂ ব্যবহার", "খোলস তৈরি হয়"],
+        "correct_order": ["জলে দ্রবীভূত Ca²⁺ আয়ন শোষণ", "CO₂ ব্যবহার", "ক্যালশিয়াম কার্বনেট গঠিত হয়", "খোলস তৈরি হয়"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_seq_010",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "জীব ও জড় জগতের তফাত",
+        "question_bn": "অজৈব পদার্থ থেকে জৈব যৌগ তৈরির ধাপ সঠিক ক্রমে সাজাও",
+        "items": ["গ্লুকোজ তৈরি", "CO₂ ও H₂O শোষণ", "আরও জৈব যৌগে রূপান্তর", "সূর্যালোক কাজে লাগানো"],
+        "correct_order": ["CO₂ ও H₂O শোষণ", "সূর্যালোক কাজে লাগানো", "গ্লুকোজ তৈরি", "আরও জৈব যৌগে রূপান্তর"]
+      }
+    ],
+    "categorize": [
+      {
+        "id": "paribesh_o_bigyan_ch08_cat_001",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "অ্যাসিড ও ক্ষারক",
+        "question_bn": "নিচের পদার্থগুলোকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "অ্যাসিড": ["ভিনিগার", "লেবুর রস", "দই", "হাইড্রোক্লোরিক অ্যাসিড"],
+          "ক্ষারক": ["চুনজল", "খাবার সোডার দ্রবণ", "সাবান জল", "অ্যান্টাসিড"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_cat_002",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "জৈব ভঙ্গুর ও অভঙ্গুর",
+        "question_bn": "নিচের পদার্থগুলোকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "জৈব ভঙ্গুর": ["কাগজ", "কাঠ", "পচা পাতা", "শাকসবজির অংশ"],
+          "জৈব অভঙ্গুর": ["পলিথিন ব্যাগ", "নাইলন জাল", "কাচের বোতল", "প্লাস্টিকের বালতি"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_cat_003",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "জৈব ও অজৈব যৌগ",
+        "question_bn": "নিচের যৌগগুলোকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "জৈব যৌগ": ["গ্লুকোজ", "প্রোটিন", "লিপিড", "নিউক্লিক অ্যাসিড"],
+          "অজৈব যৌগ": ["ক্যালশিয়াম ফসফেট", "সোডিয়াম ক্লোরাইড", "ক্যালশিয়াম কার্বনেট", "হাইড্রোক্লোরিক অ্যাসিড"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_cat_004",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "ধাতু ও অধাতু মৌল",
+        "question_bn": "নিচের মৌলগুলোকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "ধাতু": ["সোডিয়াম", "ক্যালশিয়াম", "আয়রন", "পটাশিয়াম"],
+          "অধাতু": ["অক্সিজেন", "হাইড্রোজেন", "নাইট্রোজেন", "কার্বন"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_cat_005",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "অ্যাসিড উৎপাদনকারী ও ক্ষার উৎপাদনকারী খাদ্য",
+        "question_bn": "নিচের খাদ্যগুলোকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "দেহে অ্যাসিড তৈরি করে": ["মাছ", "মাংস", "ডিম", "পনির"],
+          "দেহে ক্ষার তৈরি করে": ["আম", "কলা", "শাকসবজি", "ফল"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_cat_006",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "জৈব ও খনিজ অ্যাসিড",
+        "question_bn": "নিচের অ্যাসিডগুলোকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "জৈব অ্যাসিড": ["সাইট্রিক অ্যাসিড", "ম্যালিক অ্যাসিড", "ল্যাকটিক অ্যাসিড", "ফরমিক অ্যাসিড"],
+          "খনিজ অ্যাসিড": ["হাইড্রোক্লোরিক অ্যাসিড", "সালফিউরিক অ্যাসিড", "নাইট্রিক অ্যাসিড", "ফসফরিক অ্যাসিড"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_cat_007",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "সংশ্লেষিত ও প্রাকৃতিক পদার্থ",
+        "question_bn": "নিচের পদার্থগুলোকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "সংশ্লেষিত পদার্থ": ["নাইলন", "পলিথিন", "প্লাস্টিক", "সংশ্লেষিত রং"],
+          "প্রাকৃতিক পদার্থ": ["তুলো", "রেশম", "পাট", "উল"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_cat_008",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "কেলাসাকার ও অকেলাসাকার পদার্থ",
+        "question_bn": "নিচের পদার্থগুলোকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "কেলাসাকার পদার্থ": ["খাবার নুন", "চিনি", "ফটকিরি", "তুঁতে"],
+          "অকেলাসাকার পদার্থ": ["কাচ", "রাবার", "প্লাস্টিক", "মোম"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_cat_009",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "উদ্ভিজ্জ ও প্রাণীজ উৎসের খাদ্য",
+        "question_bn": "নিচের খাদ্যগুলোকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "উদ্ভিজ্জ উৎস": ["চাল", "ডাল", "সবজি", "ফল"],
+          "প্রাণীজ উৎস": ["মাছ", "মাংস", "ডিম", "দুধ"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_cat_010",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "নির্দেশক পদার্থ",
+        "question_bn": "নিচের পদার্থগুলোকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "প্রাকৃতিক নির্দেশক": ["জবাফুলের রস", "হলুদের রস", "বিটের রস", "কালোজামের রস"],
+          "কৃত্রিম নির্দেশক": ["লিটমাস কাগজ", "ফেনলথ্যালিন", "মিথাইল অরেঞ্জ", "pH কাগজ"]
+        }
+      }
+    ],
+    "short_write": [
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_001",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "জীবদেহে মৌল",
+        "question_bn": "মানবদেহে মোট কতটি মৌল পাওয়া যায়?",
+        "expected_answer": "১৬টি",
+        "max_words": 1,
+        "answer_slot_id": 1
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_002",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "জলের পরিমাণ",
+        "question_bn": "মানবদেহে জলের পরিমাণ কত শতাংশ?",
+        "expected_answer": "৭০ শতাংশ",
+        "max_words": 2,
+        "answer_slot_id": 2
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_003",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "হাড়ের উপাদান",
+        "question_bn": "হাড়ের প্রধান উপাদান কী?",
+        "expected_answer": "ক্যালশিয়াম ফসফেট",
+        "max_words": 2,
+        "answer_slot_id": 3
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_004",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "অ্যাসিড শব্দের উৎস",
+        "question_bn": "অ্যাসিড শব্দটি কোন ভাষা থেকে এসেছে?",
+        "expected_answer": "ল্যাটিন",
+        "max_words": 1,
+        "answer_slot_id": 4
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_005",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "প্রশম দ্রবণ",
+        "question_bn": "প্রশম দ্রবণের pH কত?",
+        "expected_answer": "৭",
+        "max_words": 1,
+        "answer_slot_id": 5
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_006",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "খাবার নুনের সংকেত",
+        "question_bn": "খাবার নুনের রাসায়নিক সংকেত কী?",
+        "expected_answer": "NaCl",
+        "max_words": 1,
+        "answer_slot_id": 6
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_007",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "হিমোগ্লোবিনের ধাতু",
+        "question_bn": "হিমোগ্লোবিনে কোন ধাতুর আয়ন থাকে?",
+        "expected_answer": "আয়রন",
+        "max_words": 1,
+        "answer_slot_id": 7
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_008",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পাতিলেবুর অ্যাসিড",
+        "question_bn": "পাতিলেবুতে কোন অ্যাসিড থাকে?",
+        "expected_answer": "সাইট্রিক অ্যাসিড",
+        "max_words": 2,
+        "answer_slot_id": 8
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_009",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "তেঁতুলের অ্যাসিড",
+        "question_bn": "তেঁতুলে কোন অ্যাসিড থাকে?",
+        "expected_answer": "টারটারিক অ্যাসিড",
+        "max_words": 2,
+        "answer_slot_id": 9
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_010",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "শামুকের খোলস",
+        "question_bn": "শামুকের খোলস কী দিয়ে তৈরি?",
+        "expected_answer": "ক্যালশিয়াম কার্বনেট",
+        "max_words": 2,
+        "answer_slot_id": 10
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_011",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পাকস্থলীর অ্যাসিড",
+        "question_bn": "পাকস্থলীতে হজমে সাহায্যকারী অ্যাসিডের নাম কী?",
+        "expected_answer": "হাইড্রোক্লোরিক অ্যাসিড",
+        "max_words": 2,
+        "answer_slot_id": 11
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_012",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "জবাফুলের ভূমিকা",
+        "question_bn": "জবাফুলের পাপড়ির রস অ্যাসিড-ক্ষার পরীক্ষায় কী হিসেবে ব্যবহার হয়?",
+        "expected_answer": "নির্দেশক",
+        "max_words": 1,
+        "answer_slot_id": 12
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_013",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "প্রশমন বিক্রিয়ার উৎপাদ",
+        "question_bn": "অ্যাসিড-ক্ষারের প্রশমন বিক্রিয়ায় কী কী উৎপন্ন হয়?",
+        "expected_answer": "লবণ ও জল",
+        "max_words": 2,
+        "answer_slot_id": 13
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_014",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "কাচের উপাদান",
+        "question_bn": "কাচ তৈরিতে বালির রাসায়নিক নাম কী?",
+        "expected_answer": "সিলিকা",
+        "max_words": 1,
+        "answer_slot_id": 14
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_015",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "নীল কাচের যৌগ",
+        "question_bn": "কাচকে নীল রং দিতে কোন যৌগ ব্যবহার হয়?",
+        "expected_answer": "কোবাল্ট অক্সাইড",
+        "max_words": 2,
+        "answer_slot_id": 15
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_016",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সমুদ্র লবণে যৌগ",
+        "question_bn": "সমুদ্র লবণে প্রায় কত ধরনের যৌগ পাওয়া গেছে?",
+        "expected_answer": "৪৭",
+        "max_words": 1,
+        "answer_slot_id": 16
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_017",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "কেলাসাকার পদার্থ",
+        "question_bn": "নির্দিষ্ট আকারের দানাবিশিষ্ট পদার্থকে কী বলে?",
+        "expected_answer": "কেলাসাকার পদার্থ",
+        "max_words": 2,
+        "answer_slot_id": 17
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_018",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "অ্যাপেলের অ্যাসিড",
+        "question_bn": "আপেলে কোন অ্যাসিড থাকে?",
+        "expected_answer": "ম্যালিক অ্যাসিড",
+        "max_words": 2,
+        "answer_slot_id": 18
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_019",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ধাতুর আয়রনের যৌগ",
+        "question_bn": "ছোটো মাছের হাড়ে কোন ক্যালশিয়াম যৌগ থাকে?",
+        "expected_answer": "ক্যালশিয়াম ফসফেট",
+        "max_words": 2,
+        "answer_slot_id": 19
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_020",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "স্নায়ু আয়ন",
+        "question_bn": "স্নায়ু সংকেত পরিচালনায় সোডিয়ামের পাশাপাশি আর কোন আয়ন প্রয়োজন?",
+        "expected_answer": "পটাশিয়াম",
+        "max_words": 1,
+        "answer_slot_id": 20
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_021",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ক্ষার সংজ্ঞা",
+        "question_bn": "যে সকল ক্ষারক জলে দ্রবীভূত হয় তাদের কী বলে?",
+        "expected_answer": "ক্ষার",
+        "max_words": 1,
+        "answer_slot_id": 21
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_022",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "অ্যাসিড সংজ্ঞা",
+        "question_bn": "জলীয় দ্রবণে H⁺ আয়ন উৎপন্নকারী পদার্থকে কী বলে?",
+        "expected_answer": "অ্যাসিড",
+        "max_words": 1,
+        "answer_slot_id": 22
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_023",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "গ্লুকোজ প্রক্রিয়া",
+        "question_bn": "সবুজ গাছ কোন প্রক্রিয়ায় গ্লুকোজ তৈরি করে?",
+        "expected_answer": "সালোকসংশ্লেষণ",
+        "max_words": 1,
+        "answer_slot_id": 23
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_024",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বংশগতি",
+        "question_bn": "জীবের বংশগতির বৈশিষ্ট্য কোন যৌগ নির্ধারণ করে?",
+        "expected_answer": "নিউক্লিক অ্যাসিড",
+        "max_words": 2,
+        "answer_slot_id": 24
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_025",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "রক্তের pH",
+        "question_bn": "স্বাভাবিক মানুষের রক্তের pH কত?",
+        "expected_answer": "৭.৩৫–৭.৪৫",
+        "max_words": 1,
+        "answer_slot_id": 25
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_026",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পেশির অ্যাসিড",
+        "question_bn": "ভারী পরিশ্রমে পেশিতে কোন অ্যাসিড বাড়ে?",
+        "expected_answer": "ল্যাকটিক অ্যাসিড",
+        "max_words": 2,
+        "answer_slot_id": 26
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_027",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "জৈব অভঙ্গুর",
+        "question_bn": "যে পদার্থ প্রাকৃতিক প্রক্রিয়ায় নষ্ট হয় না তাকে কী বলে?",
+        "expected_answer": "জৈব অভঙ্গুর",
+        "max_words": 2,
+        "answer_slot_id": 27
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_028",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সিমেন্টের উপাদান",
+        "question_bn": "সিমেন্টে কোন প্রাকৃতিক উপাদান থেকে ক্যালশিয়াম অক্সাইড পাওয়া যায়?",
+        "expected_answer": "চুনাপাথর",
+        "max_words": 1,
+        "answer_slot_id": 28
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_029",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "হলুদ কাচ",
+        "question_bn": "কাচকে হলুদ রং দিতে কোন যৌগ ব্যবহার হয়?",
+        "expected_answer": "আয়রন অক্সাইড",
+        "max_words": 2,
+        "answer_slot_id": 29
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_030",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "দই-এর অ্যাসিড",
+        "question_bn": "দইয়ে কোন অ্যাসিড থাকে?",
+        "expected_answer": "ল্যাকটিক অ্যাসিড",
+        "max_words": 2,
+        "answer_slot_id": 30
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_031",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "কার্বনিক অ্যাসিড",
+        "question_bn": "রক্তে জল ও CO₂ মিলে কোন অ্যাসিড তৈরি হয়?",
+        "expected_answer": "কার্বনিক অ্যাসিড",
+        "max_words": 2,
+        "answer_slot_id": 31
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_032",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "pH পরিমাপ",
+        "question_bn": "সহজে pH মাপার জন্য লিটমাসের বিকল্প হিসেবে কী ব্যবহার করা হয়?",
+        "expected_answer": "pH কাগজ",
+        "max_words": 2,
+        "answer_slot_id": 32
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_033",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "এনজাইম",
+        "question_bn": "দেহের রাসায়নিক বিক্রিয়া দ্রুত করতে কোন ধরনের প্রোটিন সাহায্য করে?",
+        "expected_answer": "এনজাইম",
+        "max_words": 1,
+        "answer_slot_id": 33
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_034",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "রং-এর অংশ",
+        "question_bn": "রং-এর রঙিন অংশকে কী বলে?",
+        "expected_answer": "রঞ্জক বা পিগমেন্ট",
+        "max_words": 2,
+        "answer_slot_id": 34
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_035",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বৃক্ক ও ইউরিয়া",
+        "question_bn": "বৃক্ক ক্ষতিগ্রস্ত হলে রক্তে কোন অ্যাসিড বাড়ে?",
+        "expected_answer": "ইউরিক অ্যাসিড",
+        "max_words": 2,
+        "answer_slot_id": 35
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_036",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শর্করার ভূমিকা",
+        "question_bn": "শর্করাকে কী খাদ্য বলা হয় কারণ এটি শক্তি সরবরাহ করে?",
+        "expected_answer": "জ্বালানি খাদ্য",
+        "max_words": 2,
+        "answer_slot_id": 36
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_037",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "হাইড্রক্সোনিয়াম আয়ন",
+        "question_bn": "জলীয় দ্রবণে H⁺ ও H₂O মিলে কোন আয়ন তৈরি হয়?",
+        "expected_answer": "H₃O⁺",
+        "max_words": 1,
+        "answer_slot_id": 37
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_038",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "লবণের শতাংশ",
+        "question_bn": "পরিশুদ্ধ টেবিল সল্টে NaCl-এর পরিমাণ শতকরা কত ভাগ?",
+        "expected_answer": "৯৯.৯ ভাগ",
+        "max_words": 2,
+        "answer_slot_id": 38
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_039",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ক্ষারের আয়ন",
+        "question_bn": "জলীয় দ্রবণে ক্ষার কোন আয়ন উৎপন্ন করে?",
+        "expected_answer": "OH⁻",
+        "max_words": 1,
+        "answer_slot_id": 39
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_040",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "রক্তের অ্যাসিডত্ব",
+        "question_bn": "রক্তে অতিরিক্ত অ্যাসিড জমলে প্রথমে কোথা থেকে ক্যালশিয়াম নেওয়া শুরু হয়?",
+        "expected_answer": "চুল ও ত্বক",
+        "max_words": 2,
+        "answer_slot_id": 40
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_041",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "কীটনাশকের প্রভাব",
+        "question_bn": "কীটনাশকের প্রভাবে কোন উপকারী পতঙ্গ ক্ষতিগ্রস্ত হয়?",
+        "expected_answer": "মৌমাছি",
+        "max_words": 1,
+        "answer_slot_id": 41
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_042",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "সালফিউরিক অ্যাসিড সংকেত",
+        "question_bn": "সালফিউরিক অ্যাসিডের রাসায়নিক সংকেত কী?",
+        "expected_answer": "H₂SO₄",
+        "max_words": 1,
+        "answer_slot_id": 42
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_043",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ফেরাস আয়ন",
+        "question_bn": "হিমোগ্লোবিনে আয়রনের কোন আয়ন থাকে?",
+        "expected_answer": "Fe²⁺",
+        "max_words": 1,
+        "answer_slot_id": 43
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_044",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "সিমেন্ট ও চুনাপাথর",
+        "question_bn": "সিমেন্টে চুনাপাথর থেকে কোন যৌগ পাওয়া যায়?",
+        "expected_answer": "ক্যালশিয়াম অক্সাইড",
+        "max_words": 2,
+        "answer_slot_id": 44
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_045",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "অ্যাসিড বৃষ্টি",
+        "question_bn": "বায়ুদূষণকারী কোন গ্যাস বৃষ্টির সঙ্গে মিশে মাটির অ্যাসিডত্ব বাড়ায়?",
+        "expected_answer": "সালফার ডাইঅক্সাইড",
+        "max_words": 2,
+        "answer_slot_id": 45
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_046",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "লালারসের pH",
+        "question_bn": "মানুষের লালারসের pH কত (নিম্ন মান)?",
+        "expected_answer": "৬.০২",
+        "max_words": 1,
+        "answer_slot_id": 46
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_047",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "Ca(OH)₂ সংকেত",
+        "question_bn": "কলিচুন বা ক্যালশিয়াম হাইড্রক্সাইডের সংকেত কী?",
+        "expected_answer": "Ca(OH)₂",
+        "max_words": 1,
+        "answer_slot_id": 47
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_048",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "অপটিক্যাল ফাইবার",
+        "question_bn": "অপটিক্যাল ফাইবার কী দিয়ে তৈরি?",
+        "expected_answer": "কাচ",
+        "max_words": 1,
+        "answer_slot_id": 48
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_049",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "লিপিড ও তাপ",
+        "question_bn": "কোশে লিপিড ভেঙে কী উৎপন্ন হয়?",
+        "expected_answer": "তাপশক্তি",
+        "max_words": 1,
+        "answer_slot_id": 49
+      },
+      {
+        "id": "paribesh_o_bigyan_ch08_sw_050",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "পিত্তরসের pH",
+        "question_bn": "মানুষের পিত্তরসের pH-এর মান কত (উচ্চ মান)?",
+        "expected_answer": "৮.৬",
+        "max_words": 1,
+        "answer_slot_id": 50
+      }
+    ]
+  }
+}

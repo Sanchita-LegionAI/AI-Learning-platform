@@ -1,0 +1,2394 @@
+{
+  "book_id": "paribesh_o_bigyan",
+  "book_name": "Paribesh O Bigyan",
+  "book_name_bn": "পরিবেশ ও বিজ্ঞান",
+  "subject": "science",
+  "class": 7,
+  "chapter_no": 11,
+  "chapter_title_bn": "পরিবেশের সংকট, উদ্ভিদ ও পরিবেশের সংরক্ষণ",
+  "source_file": "paribesh_o_bigyan_ch11_questions.json",
+  "questions": {
+    "mcq": [
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_001",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আবহাওয়া",
+        "question_bn": "আবহাওয়া হলো বায়ুমণ্ডলের কেমন অবস্থা?",
+        "options": [
+          "দীর্ঘমেয়াদি গড় অবস্থা",
+          "প্রতিদিন বদলানো স্বল্পমেয়াদি অবস্থা",
+          "একটি অঞ্চলের স্থায়ী অবস্থা",
+          "মহাসাগরের তাপমাত্রার অবস্থা",
+          "পর্বতের বায়ুর অবস্থা"
+        ],
+        "correct_answer": "প্রতিদিন বদলানো স্বল্পমেয়াদি অবস্থা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_002",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "জলবায়ু",
+        "question_bn": "জলবায়ু হলো আবহাওয়ার কোন অবস্থা?",
+        "options": [
+          "একদিনের অবস্থা",
+          "এক ঘণ্টার অবস্থা",
+          "দীর্ঘ সময়ের গড় অবস্থা",
+          "শুধু বৃষ্টিপাতের তথ্য",
+          "শুধু তাপমাত্রার তথ্য"
+        ],
+        "correct_answer": "দীর্ঘ সময়ের গড় অবস্থা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_003",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "গ্রিনহাউস গ্যাস",
+        "question_bn": "নিচের কোনটি গ্রিনহাউস গ্যাস?",
+        "options": [
+          "অক্সিজেন",
+          "নাইট্রোজেন",
+          "কার্বন ডাইঅক্সাইড",
+          "হাইড্রোজেন",
+          "হিলিয়াম"
+        ],
+        "correct_answer": "কার্বন ডাইঅক্সাইড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_004",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বিশ্ব উষ্ণায়ন",
+        "question_bn": "গত ১০০ বছরে পৃথিবীর গড় তাপমাত্রা কতটা বেড়েছে?",
+        "options": [
+          "০.৫°সে",
+          "১°সে",
+          "২°সে",
+          "৩°সে",
+          "৫°সে"
+        ],
+        "correct_answer": "১°সে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_005",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "হিমবাহ",
+        "question_bn": "গঙ্গা নদীর উৎস কোন হিমবাহ?",
+        "options": [
+          "যমুনোত্রী",
+          "জেমু",
+          "গঙ্গোত্রী",
+          "সিয়াচেন",
+          "জাস্কার"
+        ],
+        "correct_answer": "গঙ্গোত্রী"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_006",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "প্রবাল",
+        "question_bn": "প্রবাল প্রাণীরা কোন পর্বভুক্ত?",
+        "options": [
+          "পরিফেরা",
+          "নিডারিয়া",
+          "অ্যানেলিডা",
+          "মোলাস্কা",
+          "একাইনোডারমাটা"
+        ],
+        "correct_answer": "নিডারিয়া"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_007",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "জীববৈচিত্র্য",
+        "question_bn": "পৃথিবীর মোট জীবের মধ্যে উদ্ভিদের শতকরা পরিমাণ কত?",
+        "options": [
+          "১%",
+          "৫%",
+          "৯৯%",
+          "৫০%",
+          "৭৫%"
+        ],
+        "correct_answer": "৯৯%"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_008",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বায়োডাইভারসিটি হটস্পট",
+        "question_bn": "পূর্ব হিমালয় বায়োডাইভারসিটি হটস্পটের অন্তর্গত কোন অঞ্চল?",
+        "options": [
+          "কেরালা",
+          "রাজস্থান",
+          "সিকিম ও দার্জিলিং",
+          "মুম্বই",
+          "দিল্লি"
+        ],
+        "correct_answer": "সিকিম ও দার্জিলিং"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_009",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সালোকসংশ্লেষ",
+        "question_bn": "গাছ সালোকসংশ্লেষের সময় বায়ু থেকে কোন গ্যাস শোষণ করে?",
+        "options": [
+          "অক্সিজেন",
+          "নাইট্রোজেন",
+          "কার্বন ডাইঅক্সাইড",
+          "মিথেন",
+          "হাইড্রোজেন"
+        ],
+        "correct_answer": "কার্বন ডাইঅক্সাইড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_010",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ম্যানগ্রোভ",
+        "question_bn": "সুন্দরবন কোন ধরনের বন?",
+        "options": [
+          "সরলবর্গীয় বন",
+          "পর্ণমোচী বন",
+          "ম্যানগ্রোভ বন",
+          "শুষ্ক বন",
+          "আলপাইন বন"
+        ],
+        "correct_answer": "ম্যানগ্রোভ বন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_011",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গ্রিনহাউস গ্যাস",
+        "question_bn": "১৯৭০ থেকে ২০০৪ সালের মধ্যে পরিবেশে কার্বন ডাইঅক্সাইড মেশার বার্ষিক হার কত বেড়েছে?",
+        "options": [
+          "৫%",
+          "৮%",
+          "৭০%",
+          "৮০%",
+          "৯০%"
+        ],
+        "correct_answer": "৭০%"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_012",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সমুদ্রজলতল",
+        "question_bn": "১৯৯৩ থেকে ২০০৫ সালের মধ্যে সমুদ্রের জলতল প্রতি বছর গড়ে কতটা বেড়েছে?",
+        "options": [
+          "১ মিমি",
+          "৩ মিমি",
+          "৫ মিমি",
+          "১০ মিমি",
+          "১৫ মিমি"
+        ],
+        "correct_answer": "৩ মিমি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_013",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "প্রবাল প্রাচীর",
+        "question_bn": "প্রবাল প্রাচীর সমুদ্রতলের কত শতাংশ দখল করে?",
+        "options": [
+          "০.১%",
+          "১%",
+          "৫%",
+          "১০%",
+          "২৫%"
+        ],
+        "correct_answer": "০.১%"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_014",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "প্রবাল প্রাচীর",
+        "question_bn": "প্রবাল প্রাচীর সামুদ্রিক প্রজাতির কত শতাংশের আশ্রয়স্থল?",
+        "options": [
+          "৫%",
+          "১০%",
+          "২৫%",
+          "৫০%",
+          "৭৫%"
+        ],
+        "correct_answer": "২৫%"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_015",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "হিমবাহ",
+        "question_bn": "হিমালয় এশিয়ার কতটি বড়ো নদীকে পুষ্ট করে?",
+        "options": [
+          "৫টি",
+          "৭টি",
+          "৯টি",
+          "১২টি",
+          "১৫টি"
+        ],
+        "correct_answer": "৯টি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_016",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "হিমবাহ",
+        "question_bn": "হিমবাহ প্রায় কত শতাংশ সূর্যরশ্মি প্রতিফলিত করে?",
+        "options": [
+          "২০%",
+          "৪০%",
+          "৬০%",
+          "৮০%",
+          "৯০%"
+        ],
+        "correct_answer": "৮০%"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_017",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "জীববৈচিত্র্য হ্রাস",
+        "question_bn": "গত ৫০০ বছরে পৃথিবীর বুক থেকে কতটি প্রজাতি নিশ্চিহ্ন হয়ে গেছে?",
+        "options": [
+          "৩৮৪টি",
+          "৫০০টি",
+          "৭৮৪টি",
+          "১০০০টি",
+          "১২০০টি"
+        ],
+        "correct_answer": "৭৮৪টি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_018",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ভারতের জীববৈচিত্র্য",
+        "question_bn": "ভারতীয় ভূখণ্ডের কত শতাংশ এলাকা অরণ্যে ঢাকা?",
+        "options": [
+          "৫%",
+          "১০%",
+          "১৯.৭%",
+          "৩০%",
+          "৪০%"
+        ],
+        "correct_answer": "১৯.৭%"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_019",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মৃগনাভি",
+        "question_bn": "কোন প্রাণী থেকে মৃগনাভি পাওয়া যায়?",
+        "options": [
+          "বাঘ",
+          "হাতি",
+          "কস্তুরী মৃগ",
+          "গন্ডার",
+          "হরিণ"
+        ],
+        "correct_answer": "কস্তুরী মৃগ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_020",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "প্রবাল",
+        "question_bn": "প্রবালের বহিঃকঙ্কাল কী দিয়ে তৈরি?",
+        "options": [
+          "সিলিকা",
+          "ক্যালশিয়াম কার্বনেট",
+          "ম্যাগনেশিয়াম অক্সাইড",
+          "আয়রন অক্সাইড",
+          "সোডিয়াম ক্লোরাইড"
+        ],
+        "correct_answer": "ক্যালশিয়াম কার্বনেট"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_021",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বায়োডাইভারসিটি হটস্পট",
+        "question_bn": "সুন্দাল্যান্ড বায়োডাইভারসিটি হটস্পটের অন্তর্গত কোন ভারতীয় অঞ্চল?",
+        "options": [
+          "কেরালা উপকূল",
+          "আন্দামান-নিকোবর",
+          "লাক্ষাদ্বীপ",
+          "গোয়া উপকূল",
+          "ওড়িশা উপকূল"
+        ],
+        "correct_answer": "আন্দামান-নিকোবর"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_022",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গাছ ও দূষণ",
+        "question_bn": "কোন গাছের পাতা ধূলিকণাকে ছাঁকনির মতো আটকে রাখে?",
+        "options": [
+          "নিম, বট, আম",
+          "কদম, বেল, শিরীষ",
+          "পলাশ, শিমুল, কৃষ্ণচূড়া",
+          "তেঁতুল, জাম, কাঁঠাল",
+          "বাঁশ, বেত, খেজুর"
+        ],
+        "correct_answer": "কদম, বেল, শিরীষ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_023",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ওষধি উদ্ভিদ",
+        "question_bn": "সিঙ্কোনা গাছ থেকে কোন ওষুধ তৈরি হয়?",
+        "options": [
+          "পেনিসিলিন",
+          "রেসারপিন",
+          "কুইনাইন",
+          "স্ট্রেপটোমাইসিন",
+          "টেট্রাসাইক্লিন"
+        ],
+        "correct_answer": "কুইনাইন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_024",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "খাদ্যশৃঙ্খল",
+        "question_bn": "অরণ্যে উদ্ভিদরা কী ভূমিকা পালন করে?",
+        "options": [
+          "খাদক",
+          "উৎপাদক",
+          "বিয়োজক",
+          "পরজীবী",
+          "সহজীবী"
+        ],
+        "correct_answer": "উৎপাদক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_025",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গঙ্গার শুশুক",
+        "question_bn": "গঙ্গার শুশুকের বৈজ্ঞানিক শ্রেণিবিভাগে এটি কী?",
+        "options": [
+          "সামুদ্রিক মাছ",
+          "মিষ্টিজলের ডলফিন",
+          "মিষ্টিজলের কুমির",
+          "সামুদ্রিক কচ্ছপ",
+          "জলজ সাপ"
+        ],
+        "correct_answer": "মিষ্টিজলের ডলফিন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_026",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মেগাডাইভারসিটি",
+        "question_bn": "ভারতকে কী বলা হয়?",
+        "options": [
+          "বায়োডাইভারসিটি হটস্পট",
+          "মেগাডাইভারসিটি নেশন",
+          "এনডেমিক জোন",
+          "বায়োস্ফিয়ার রিজার্ভ",
+          "ইকো-রিজিওন"
+        ],
+        "correct_answer": "মেগাডাইভারসিটি নেশন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_027",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "সমুদ্রজলতল",
+        "question_bn": "২১০০ সালের মধ্যে সমুদ্রের জলতল কতটা বাড়তে পারে বলে গবেষণায় জানা গেছে?",
+        "options": [
+          "২০ সেমি",
+          "৪০ সেমি",
+          "৭০ সেমি",
+          "১০০ সেমি",
+          "১৫০ সেমি"
+        ],
+        "correct_answer": "৭০ সেমি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_028",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "উত্তরমেরু",
+        "question_bn": "আলাস্কা উপকূলের বরফের স্তর গত ৩০ বছরে কত শতাংশ কমে গেছে?",
+        "options": [
+          "১০%",
+          "২০%",
+          "৩০%",
+          "৪০%",
+          "৫০%"
+        ],
+        "correct_answer": "৪০%"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_029",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "প্রবাল",
+        "question_bn": "১৯৮৮ সালে পৃথিবীর কত শতাংশ প্রবাল সম্পদ ধ্বংস হয়েছিল?",
+        "options": [
+          "৫%",
+          "১০%",
+          "১৬%",
+          "২৫%",
+          "৩০%"
+        ],
+        "correct_answer": "১৬%"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_030",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ভারতের জীববৈচিত্র্য",
+        "question_bn": "ভারতে এখন পর্যন্ত কত প্রজাতির বন্যপ্রাণী ও পোকামাকড়ের খোঁজ পাওয়া গেছে?",
+        "options": [
+          "৫০,০০০",
+          "৭০,০০০",
+          "৯১,২১২",
+          "১,০০,০০০",
+          "১,২০,০০০"
+        ],
+        "correct_answer": "৯১,২১২"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_031",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "গ্রিনহাউস গ্যাস",
+        "question_bn": "মিথেনের রাসায়নিক সূত্র কী?",
+        "options": [
+          "CO₂",
+          "CH₄",
+          "N₂O",
+          "SO₂",
+          "O₃"
+        ],
+        "correct_answer": "CH₄"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_032",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সুন্দরবন",
+        "question_bn": "সুন্দরবনে প্রায় কত লক্ষ মানুষ বাস করে?",
+        "options": [
+          "দশ লক্ষ",
+          "বিশ লক্ষ",
+          "চল্লিশ লক্ষ",
+          "পঞ্চাশ লক্ষ",
+          "এক কোটি"
+        ],
+        "correct_answer": "চল্লিশ লক্ষ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_033",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "গাছ ও মাটি",
+        "question_bn": "মাটির ক্ষয় রোধে গাছের কোন অংশ সবচেয়ে বেশি সাহায্য করে?",
+        "options": [
+          "ফুল",
+          "ফল",
+          "শিকড়",
+          "ছাল",
+          "পাতা"
+        ],
+        "correct_answer": "শিকড়"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_034",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পেনিসিলিন",
+        "question_bn": "পেনিসিলিন কোন জীব থেকে তৈরি হয়?",
+        "options": [
+          "সর্পগন্ধা",
+          "সিঙ্কোনা",
+          "পেনিসিলিয়াম",
+          "নিম",
+          "তুলসী"
+        ],
+        "correct_answer": "পেনিসিলিয়াম"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_035",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "রেসারপিন",
+        "question_bn": "সর্পগন্ধা গাছ থেকে কোন ওষুধ তৈরি হয়?",
+        "options": [
+          "কুইনাইন",
+          "পেনিসিলিন",
+          "রেসারপিন",
+          "অ্যাসপিরিন",
+          "মরফিন"
+        ],
+        "correct_answer": "রেসারপিন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_036",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ভারতের অরণ্য",
+        "question_bn": "ভারতীয় ভূখণ্ডের মোট আয়তন কত বর্গ কিলোমিটার?",
+        "options": [
+          "১০ লক্ষ",
+          "২০ লক্ষ",
+          "৩৩ লক্ষ",
+          "৫০ লক্ষ",
+          "৭০ লক্ষ"
+        ],
+        "correct_answer": "৩৩ লক্ষ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_037",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ইন্দো-বার্মা হটস্পট",
+        "question_bn": "ইন্দো-বার্মা বায়োডাইভারসিটি হটস্পটের অন্তর্গত কোন রাজ্য?",
+        "options": [
+          "কেরালা",
+          "গুজরাট",
+          "মেঘালয়",
+          "রাজস্থান",
+          "হরিয়ানা"
+        ],
+        "correct_answer": "মেঘালয়"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_038",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "খাদ্যজাল",
+        "question_bn": "একটি খাদ্যশৃঙ্খল অন্যান্য খাদ্যশৃঙ্খলের সঙ্গে জুড়ে কী তৈরি করে?",
+        "options": [
+          "খাদ্যচক্র",
+          "খাদ্যজাল",
+          "খাদ্যপিরামিড",
+          "শক্তিপ্রবাহ",
+          "পুষ্টিচক্র"
+        ],
+        "correct_answer": "খাদ্যজাল"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_039",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "হিমবাহ",
+        "question_bn": "পৃথিবীর মিষ্টিজলের বৃহত্তম ভাণ্ডার কোনটি?",
+        "options": [
+          "নদী",
+          "হ্রদ",
+          "হিমবাহ",
+          "ভূগর্ভস্থ জল",
+          "মেঘ"
+        ],
+        "correct_answer": "হিমবাহ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_040",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "কোয়ালা",
+        "question_bn": "CO₂ বৃদ্ধির ফলে ইউক্যালিপটাস পাতার খাদ্যগুণ কমায় কোন প্রাণী বিপদে পড়েছে?",
+        "options": [
+          "ক্যাঙারু",
+          "কোয়ালা",
+          "ওয়ালাবি",
+          "তাসমানিয়ান ডেভিল",
+          "প্লাটিপাস"
+        ],
+        "correct_answer": "কোয়ালা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_041",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "তাপপ্রবাহ",
+        "question_bn": "১৯৮০-৮৮ সালের মধ্যে ভারতে কতটি তাপপ্রবাহের ঘটনা ঘটেছিল?",
+        "options": [
+          "৮টি",
+          "১৮টি",
+          "২৮টি",
+          "৩৮টি",
+          "৪৮টি"
+        ],
+        "correct_answer": "১৮টি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_042",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "অমরনাথ",
+        "question_bn": "গত ৫ হাজার বছর ধরে মে-আগস্টে অমরনাথ গুহায় বরফের উচ্চতা কত ছিল?",
+        "options": [
+          "৬ ফুট",
+          "৮ ফুট",
+          "১০ ফুট",
+          "১২ ফুট",
+          "১৫ ফুট"
+        ],
+        "correct_answer": "১২ ফুট"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_043",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "জীববৈচিত্র্য হ্রাস",
+        "question_bn": "গত ২০ বছরে পৃথিবীর বুক থেকে কতটি প্রজাতি নিশ্চিহ্ন হয়েছে?",
+        "options": [
+          "১০টি",
+          "১৫টি",
+          "২৭টি",
+          "৫০টি",
+          "১০০টি"
+        ],
+        "correct_answer": "২৭টি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_044",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ম্যানগ্রোভ পুষ্টি",
+        "question_bn": "একটি পরিণত ম্যানগ্রোভ গাছ বছরে প্রতি হেক্টরে কত কেজি নাইট্রোজেন সরবরাহ করে?",
+        "options": [
+          "২৬ কেজি",
+          "৩২ কেজি",
+          "৩৪ কেজি",
+          "৪৭ কেজি",
+          "৯৯ কেজি"
+        ],
+        "correct_answer": "৪৭ কেজি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_045",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "হিমালয় ও মানুষ",
+        "question_bn": "হিমালয়ের হিমবাহ-পুষ্ট নদীগুলো থেকে প্রায় কত কোটি মানুষের জলের ব্যবস্থা হয়?",
+        "options": [
+          "৫০ কোটি",
+          "৮০ কোটি",
+          "১২০ কোটি",
+          "১৫০ কোটি",
+          "২০০ কোটি"
+        ],
+        "correct_answer": "১২০ কোটি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_046",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "গ্রিনহাউস প্রভাব",
+        "question_bn": "বায়ুমণ্ডলে জলীয় বাষ্প ও CO₂ না থাকলে পৃথিবীর গড় তাপমাত্রা কত হত?",
+        "options": [
+          "-৫°সে",
+          "-১৮°সে",
+          "-৩০°সে",
+          "-৪৫°সে",
+          "-৬০°সে"
+        ],
+        "correct_answer": "-১৮°সে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_047",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "জীববৈচিত্র্য হটস্পট",
+        "question_bn": "পশ্চিমঘাট পর্বতমালা ভারতের কোন উপকূলে অবস্থিত?",
+        "options": [
+          "পূর্ব উপকূল",
+          "পশ্চিম উপকূল",
+          "উত্তর উপকূল",
+          "দক্ষিণ উপকূল",
+          "মধ্য উপকূল"
+        ],
+        "correct_answer": "পশ্চিম উপকূল"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_048",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "NASA",
+        "question_bn": "কোন মার্কিন সংস্থা জানিয়েছে যে ২০০৫ সাল গত এক শতাব্দীর উষ্ণতম বছর ছিল?",
+        "options": [
+          "NOAA",
+          "NASA",
+          "NSF",
+          "EPA",
+          "USGS"
+        ],
+        "correct_answer": "NASA"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_049",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চোরাশিকার",
+        "question_bn": "চোরাশিকারের কারণে কোন প্রাণীর অস্তিত্ব সবচেয়ে বেশি বিপন্ন?",
+        "options": [
+          "ময়ূর",
+          "বাঘ, হাতি ও গন্ডার",
+          "ময়না",
+          "শকুন",
+          "ডলফিন"
+        ],
+        "correct_answer": "বাঘ, হাতি ও গন্ডার"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_mcq_050",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "বর্তমান বিপন্ন প্রজাতি",
+        "question_bn": "বর্তমানে সারা পৃথিবীতে প্রায় কতটি প্রজাতি ধ্বংসের মুখে?",
+        "options": [
+          "৫,০০০",
+          "১০,০০০",
+          "১৫,৫০০",
+          "২০,০০০",
+          "২৫,০০০"
+        ],
+        "correct_answer": "১৫,৫০০"
+      }
+    ],
+    "match_pairs": [
+      {
+        "id": "paribesh_o_bigyan_ch11_match_001",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গ্রিনহাউস গ্যাস",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "কার্বন ডাইঅক্সাইড",
+            "right": "CO₂"
+          },
+          {
+            "left": "মিথেন",
+            "right": "CH₄"
+          },
+          {
+            "left": "নাইট্রাস অক্সাইড",
+            "right": "N₂O"
+          },
+          {
+            "left": "ওজোন",
+            "right": "O₃"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_match_002",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "হিমবাহ ও নদী",
+        "question_bn": "হিমবাহের সঙ্গে তার পুষ্ট নদী মেলাও",
+        "pairs": [
+          {
+            "left": "গঙ্গোত্রী",
+            "right": "গঙ্গা নদী"
+          },
+          {
+            "left": "যমুনোত্রী",
+            "right": "যমুনা নদী"
+          },
+          {
+            "left": "জেমু",
+            "right": "তিস্তা নদী"
+          },
+          {
+            "left": "মিলাম",
+            "right": "রামগঙ্গা নদী"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_match_003",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ওষধি উদ্ভিদ ও ওষুধ",
+        "question_bn": "উদ্ভিদের সঙ্গে তার থেকে তৈরি ওষুধ মেলাও",
+        "pairs": [
+          {
+            "left": "সিঙ্কোনা",
+            "right": "কুইনাইন"
+          },
+          {
+            "left": "সর্পগন্ধা",
+            "right": "রেসারপিন"
+          },
+          {
+            "left": "পেনিসিলিয়াম",
+            "right": "পেনিসিলিন"
+          },
+          {
+            "left": "নিম",
+            "right": "অ্যান্টিসেপটিক যৌগ"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_match_004",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বায়োডাইভারসিটি হটস্পট",
+        "question_bn": "বায়োডাইভারসিটি হটস্পটের সঙ্গে তার অবস্থান মেলাও",
+        "pairs": [
+          {
+            "left": "পূর্ব হিমালয়",
+            "right": "সিকিম, দার্জিলিং"
+          },
+          {
+            "left": "ইন্দো-বার্মা",
+            "right": "মেঘালয়, অরুণাচল"
+          },
+          {
+            "left": "সুন্দাল্যান্ড",
+            "right": "আন্দামান-নিকোবর"
+          },
+          {
+            "left": "পশ্চিমঘাট",
+            "right": "ভারতের পশ্চিম উপকূল"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_match_005",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "প্রবাল প্রাচীর",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "প্রবাল",
+            "right": "নিডারিয়া পর্ব"
+          },
+          {
+            "left": "প্রবাল প্রাচীর",
+            "right": "ক্যালশিয়াম কার্বনেটের গঠন"
+          },
+          {
+            "left": "প্রবাল দ্বীপ",
+            "right": "মৃত প্রবাল ও জৈব বস্তু দিয়ে গঠিত"
+          },
+          {
+            "left": "প্রবাল ধ্বংস",
+            "right": "বিশ্ব উষ্ণায়ন"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_match_006",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বিপন্ন প্রাণী ও কারণ",
+        "question_bn": "প্রাণীর সঙ্গে বিপন্নতার কারণ মেলাও",
+        "pairs": [
+          {
+            "left": "মেরু ভালুক",
+            "right": "বরফ গলে যাওয়া"
+          },
+          {
+            "left": "কোয়ালা",
+            "right": "ইউক্যালিপটাস পাতার গুণমান হ্রাস"
+          },
+          {
+            "left": "গঙ্গার শুশুক",
+            "right": "বিষাক্ত রাসায়নিক পদার্থ"
+          },
+          {
+            "left": "কস্তুরী মৃগ",
+            "right": "অতিরিক্ত অর্থনৈতিক ব্যবহার"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_match_007",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "গাছ ও পরিবেশ ভূমিকা",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "সালোকসংশ্লেষ",
+            "right": "অক্সিজেন উৎপাদন"
+          },
+          {
+            "left": "গাছের শিকড়",
+            "right": "মাটির ক্ষয় রোধ"
+          },
+          {
+            "left": "গাছের পাতা",
+            "right": "ধূলিকণা ফিল্টার"
+          },
+          {
+            "left": "বৃক্ষের সারি",
+            "right": "শব্দদূষণ হ্রাস"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_match_008",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ম্যানগ্রোভ পুষ্টি",
+        "question_bn": "ম্যানগ্রোভ সরবরাহকৃত পুষ্টি উপাদানের সঙ্গে পরিমাণ মেলাও",
+        "pairs": [
+          {
+            "left": "নাইট্রোজেন",
+            "right": "৪৭ কেজি/হেক্টর/বছর"
+          },
+          {
+            "left": "পটাশিয়াম",
+            "right": "২৬ কেজি/হেক্টর/বছর"
+          },
+          {
+            "left": "ক্যালশিয়াম",
+            "right": "৯৯ কেজি/হেক্টর/বছর"
+          },
+          {
+            "left": "ম্যাগনেশিয়াম",
+            "right": "৩৪ কেজি/হেক্টর/বছর"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_match_009",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "প্রাণী ও তাদের খাদ্য",
+        "question_bn": "প্রাণীর সঙ্গে তাদের প্রধান খাদ্য উৎস মেলাও",
+        "pairs": [
+          {
+            "left": "রেশম কীট",
+            "right": "তুঁত পাতা"
+          },
+          {
+            "left": "হরিণ",
+            "right": "ঘাস ও গাছের পাতা"
+          },
+          {
+            "left": "ধনেশপাখি",
+            "right": "গাছের ফল"
+          },
+          {
+            "left": "গন্ডার",
+            "right": "ঘাস ও গুল্ম"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_match_010",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "জলবায়ু পরিবর্তনের ঘটনা",
+        "question_bn": "বছরের সঙ্গে জলবায়ু পরিবর্তনের ঘটনা মেলাও",
+        "pairs": [
+          {
+            "left": "২০০৫",
+            "right": "রাজস্থানে বন্যা"
+          },
+          {
+            "left": "২০০৭",
+            "right": "৪ বার মৌসুমি নিম্নচাপ"
+          },
+          {
+            "left": "২০১৩",
+            "right": "উত্তরাখণ্ডে বিধ্বংসী বন্যা"
+          },
+          {
+            "left": "১৯৮৮",
+            "right": "১৬% প্রবাল সম্পদ ধ্বংস"
+          }
+        ]
+      }
+    ],
+    "true_false": [
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_001",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আবহাওয়া",
+        "question_bn": "আবহাওয়া প্রতিদিন বদলায়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_002",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "জলবায়ু",
+        "question_bn": "জলবায়ু হলো আবহাওয়ার দীর্ঘ সময়ের গড় অবস্থা।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_003",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "গ্রিনহাউস গ্যাস",
+        "question_bn": "কার্বন ডাইঅক্সাইড একটি গ্রিনহাউস গ্যাস।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_004",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "অক্সিজেন",
+        "question_bn": "অক্সিজেন একটি গ্রিনহাউস গ্যাস।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_005",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "হিমবাহ",
+        "question_bn": "পৃথিবীর প্রায় ৯৯% হিমবাহ উত্তর ও দক্ষিণমেরুতে আছে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_006",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "গঙ্গোত্রী",
+        "question_bn": "গঙ্গোত্রী হিমবাহ প্রতি বছর বড়ো হচ্ছে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_007",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "প্রবাল",
+        "question_bn": "প্রবাল একটি সামুদ্রিক প্রাণী।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_008",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সুন্দরবন",
+        "question_bn": "সুন্দরবন শুধুমাত্র ভারতে অবস্থিত।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_009",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সালোকসংশ্লেষ",
+        "question_bn": "গাছ সালোকসংশ্লেষের সময় অক্সিজেন ছাড়ে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_010",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "জীববৈচিত্র্য",
+        "question_bn": "পৃথিবীতে মোট জীবের প্রায় ৯৯% হলো উদ্ভিদ।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_011",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বিশ্ব উষ্ণায়ন",
+        "question_bn": "গত ১০০ বছরে পৃথিবীর গড় তাপমাত্রা ৫°সে বেড়েছে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_012",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "প্রবাল প্রাচীর",
+        "question_bn": "প্রবাল প্রাচীর প্রায় ২৫% সামুদ্রিক প্রজাতির আশ্রয়স্থল।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_013",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "হিমবাহ ও সূর্যরশ্মি",
+        "question_bn": "হিমবাহ প্রায় ২০% সূর্যরশ্মি প্রতিফলিত করে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_014",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ভারতের জীববৈচিত্র্য",
+        "question_bn": "ভারত একটি মেগাডাইভারসিটি নেশন।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_015",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বায়োডাইভারসিটি হটস্পট",
+        "question_bn": "ভারতে মোট ৪টি বায়োডাইভারসিটি হটস্পট আছে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_016",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বর্জ্য ও রোগ",
+        "question_bn": "হেপাটাইটিস হাসপাতালের পরিত্যক্ত উপকরণ থেকে ছড়াতে পারে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_017",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গাছ ও মাটি",
+        "question_bn": "গাছ মাটির ক্ষয় রোধ করতে সাহায্য করে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_018",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "সমুদ্রজলতল",
+        "question_bn": "১৯৯৩-২০০৫ সালের মধ্যে সমুদ্রের জলতল প্রতি বছর ৫ মিমি করে বেড়েছে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_019",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "জীববৈচিত্র্য হ্রাস",
+        "question_bn": "গত ৫০০ বছরে পৃথিবী থেকে ৭৮৪টি প্রজাতি বিলুপ্ত হয়েছে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_tf_020",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "গ্যালাপাগোস",
+        "question_bn": "গ্যালাপাগোস দ্বীপে আনা ছাগল কচ্ছপের খাবার নষ্ট করেছিল।",
+        "correct_answer": "true"
+      }
+    ],
+    "tap_sequence": [
+      {
+        "id": "paribesh_o_bigyan_ch11_seq_001",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বিশ্ব উষ্ণায়নের প্রভাব",
+        "question_bn": "বিশ্ব উষ্ণায়নের কারণে পরিবেশ পরিবর্তনের সঠিক ধারাবাহিক ক্রম সাজাও",
+        "items": [
+          "সমুদ্রের জলতল বৃদ্ধি",
+          "গ্রিনহাউস গ্যাস বৃদ্ধি",
+          "উপকূলীয় বন্যা",
+          "হিমবাহ গলন"
+        ],
+        "correct_order": [
+          "গ্রিনহাউস গ্যাস বৃদ্ধি",
+          "হিমবাহ গলন",
+          "সমুদ্রের জলতল বৃদ্ধি",
+          "উপকূলীয় বন্যা"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_seq_002",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "খাদ্যশৃঙ্খল",
+        "question_bn": "নিচের জীবগুলো দিয়ে সঠিক খাদ্যশৃঙ্খল সাজাও",
+        "items": [
+          "বাজ",
+          "ঘাস",
+          "ইঁদুর",
+          "সাপ"
+        ],
+        "correct_order": [
+          "ঘাস",
+          "ইঁদুর",
+          "সাপ",
+          "বাজ"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_seq_003",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মাটি ক্ষয়ের প্রক্রিয়া",
+        "question_bn": "মাটি ক্ষয়ের ধারাবাহিক প্রক্রিয়াটি সঠিক ক্রমে সাজাও",
+        "items": [
+          "নদীতে পলি জমা",
+          "বৃষ্টির জলে আলগা মাটি ধুয়ে যাওয়া",
+          "মাটির কণা আলগা হওয়া",
+          "নদীর জলধারণ ক্ষমতা হ্রাস"
+        ],
+        "correct_order": [
+          "মাটির কণা আলগা হওয়া",
+          "বৃষ্টির জলে আলগা মাটি ধুয়ে যাওয়া",
+          "নদীতে পলি জমা",
+          "নদীর জলধারণ ক্ষমতা হ্রাস"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_seq_004",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "অক্সিজেনের ইতিহাস",
+        "question_bn": "পৃথিবীতে অক্সিজেন তৈরির ধারাবাহিক ইতিহাস সঠিক ক্রমে সাজাও",
+        "items": [
+          "গাছ প্রচুর O₂ ছাড়ে",
+          "বায়ুর উপাদান বদলে যায়",
+          "অণুজীব প্রথম সালোকসংশ্লেষ শুরু করে",
+          "বাতাসে O₂ খুব কম ছিল"
+        ],
+        "correct_order": [
+          "বাতাসে O₂ খুব কম ছিল",
+          "অণুজীব প্রথম সালোকসংশ্লেষ শুরু করে",
+          "গাছ প্রচুর O₂ ছাড়ে",
+          "বায়ুর উপাদান বদলে যায়"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_seq_005",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "জীববৈচিত্র্য হ্রাসের কারণ",
+        "question_bn": "চোরাশিকারের ফলে বাস্তুতন্ত্রের ক্ষতির ধারাবাহিক প্রক্রিয়া সাজাও",
+        "items": [
+          "খাদ্যশৃঙ্খল ভেঙে পড়া",
+          "তৃণভোজী প্রাণীর সংখ্যা বৃদ্ধি",
+          "বাঘের সংখ্যা হ্রাস",
+          "উদ্ভিদ ধ্বংস"
+        ],
+        "correct_order": [
+          "বাঘের সংখ্যা হ্রাস",
+          "তৃণভোজী প্রাণীর সংখ্যা বৃদ্ধি",
+          "উদ্ভিদ ধ্বংস",
+          "খাদ্যশৃঙ্খল ভেঙে পড়া"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_seq_006",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "হিমবাহ ও বন্যা",
+        "question_bn": "হিমবাহ গলার পরে নদীর অবস্থা পরিবর্তনের ক্রম সাজাও",
+        "items": [
+          "তীব্র জলসংকট",
+          "প্রথমে নদীতে জল বৃদ্ধি",
+          "হিমবাহ সম্পূর্ণ গলে যাওয়া",
+          "বন্যা"
+        ],
+        "correct_order": [
+          "হিমবাহ সম্পূর্ণ গলে যাওয়া",
+          "প্রথমে নদীতে জল বৃদ্ধি",
+          "বন্যা",
+          "তীব্র জলসংকট"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_seq_007",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "খাদ্যশৃঙ্খল",
+        "question_bn": "নিচের জীবগুলো দিয়ে সঠিক খাদ্যশৃঙ্খল সাজাও",
+        "items": [
+          "ব্যাঙ",
+          "ধানগাছ",
+          "মাজরা পোকা",
+          "সাপ"
+        ],
+        "correct_order": [
+          "ধানগাছ",
+          "মাজরা পোকা",
+          "ব্যাঙ",
+          "সাপ"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_seq_008",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "প্রবাল দ্বীপ গঠন",
+        "question_bn": "প্রবাল দ্বীপ গঠনের ধারাবাহিক প্রক্রিয়া সঠিক ক্রমে সাজাও",
+        "items": [
+          "প্রবাল দ্বীপ তৈরি",
+          "প্রবাল মারা যায়",
+          "প্রবাল কলোনি গড়ে ওঠে",
+          "মৃত কঙ্কাল ও জৈব বস্তু জমে"
+        ],
+        "correct_order": [
+          "প্রবাল কলোনি গড়ে ওঠে",
+          "প্রবাল মারা যায়",
+          "মৃত কঙ্কাল ও জৈব বস্তু জমে",
+          "প্রবাল দ্বীপ তৈরি"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_seq_009",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বায়ুমণ্ডল রক্ষায় CO₂",
+        "question_bn": "বায়ুতে CO₂ ঘনত্ব বৃদ্ধির প্রতিক্রিয়া ক্রমে সাজাও",
+        "items": [
+          "অরণ্য বেশিদিন CO₂ শোষণ করে",
+          "শেষ পাতা ঝরতে দেরি হয়",
+          "বায়ুতে CO₂ বাড়ে",
+          "গাছে নতুন পাতা আগে আসে"
+        ],
+        "correct_order": [
+          "বায়ুতে CO₂ বাড়ে",
+          "গাছে নতুন পাতা আগে আসে",
+          "শেষ পাতা ঝরতে দেরি হয়",
+          "অরণ্য বেশিদিন CO₂ শোষণ করে"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_seq_010",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বর্জ্য ও রোগ",
+        "question_bn": "দূষিত জল থেকে রোগ ছড়ানোর প্রক্রিয়া সঠিক ক্রমে সাজাও",
+        "items": [
+          "সুস্থ মানুষ অসুস্থ হয়",
+          "মলমূত্রে জীবাণু থাকে",
+          "পানীয়জলে জীবাণু মেশে",
+          "দূষিত জল পান করা"
+        ],
+        "correct_order": [
+          "মলমূত্রে জীবাণু থাকে",
+          "পানীয়জলে জীবাণু মেশে",
+          "দূষিত জল পান করা",
+          "সুস্থ মানুষ অসুস্থ হয়"
+        ]
+      }
+    ],
+    "categorize": [
+      {
+        "id": "paribesh_o_bigyan_ch11_cat_001",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "গ্রিনহাউস গ্যাস",
+        "question_bn": "নিচের পদার্থগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "গ্রিনহাউস গ্যাস": [
+            "কার্বন ডাইঅক্সাইড",
+            "মিথেন",
+            "নাইট্রাস অক্সাইড",
+            "জলীয় বাষ্প"
+          ],
+          "গ্রিনহাউস গ্যাস নয়": [
+            "অক্সিজেন",
+            "নাইট্রোজেন",
+            "হাইড্রোজেন",
+            "হিলিয়াম"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_cat_002",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "বিপন্ন প্রাণী",
+        "question_bn": "নিচের প্রাণীগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "বিশ্ব উষ্ণায়নে বিপন্ন": [
+            "মেরু ভালুক",
+            "এম্পারার পেঙ্গুইন",
+            "প্রবাল",
+            "কোয়ালা"
+          ],
+          "চোরাশিকারে বিপন্ন": [
+            "বাংলার বাঘ",
+            "একশৃঙ্গ গন্ডার",
+            "হাতি",
+            "কস্তুরী মৃগ"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_cat_003",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "ওষধি উদ্ভিদ ও অণুজীব",
+        "question_bn": "নিচের জীবগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "ওষুধের উৎস উদ্ভিদ": [
+            "সিঙ্কোনা",
+            "সর্পগন্ধা",
+            "নিম",
+            "তুলসী"
+          ],
+          "ওষুধের উৎস অণুজীব": [
+            "পেনিসিলিয়াম",
+            "স্ট্রেপটোমাইসেস",
+            "অ্যাসপারজিলাস",
+            "ব্যাসিলাস"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_cat_004",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "বায়োডাইভারসিটি হটস্পট",
+        "question_bn": "নিচের অঞ্চলগুলিকে সঠিক বায়োডাইভারসিটি হটস্পটের দলে ভাগ করো",
+        "categories": {
+          "পূর্ব হিমালয় হটস্পট": [
+            "সিকিম",
+            "দার্জিলিং",
+            "ডুয়ার্স",
+            "তরাই অঞ্চল"
+          ],
+          "ইন্দো-বার্মা হটস্পট": [
+            "মেঘালয়",
+            "অরুণাচল প্রদেশ",
+            "মণিপুর",
+            "মিজোরাম"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_cat_005",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "বর্জ্যের প্রকৃতি",
+        "question_bn": "নিচের বর্জ্য পদার্থগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "কঠিন বর্জ্য": [
+            "প্লাস্টিক",
+            "কাগজ",
+            "কাচের বোতল",
+            "ধাতব টিন"
+          ],
+          "গ্যাসীয় বর্জ্য": [
+            "কার্বন মনোক্সাইড",
+            "সালফার ডাইঅক্সাইড",
+            "নাইট্রোজেন অক্সাইড",
+            "ধোঁয়ার কণা"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_cat_006",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "খাদ্যশৃঙ্খল",
+        "question_bn": "নিচের জীবগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "উৎপাদক": [
+            "ধানগাছ",
+            "ঘাস",
+            "বটগাছ",
+            "শেওলা"
+          ],
+          "প্রথম শ্রেণির খাদক": [
+            "ইঁদুর",
+            "হরিণ",
+            "ছাগল",
+            "খরগোশ"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_cat_007",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "হিমালয়ের হিমবাহ",
+        "question_bn": "নিচের নদীগুলিকে তাদের হিমবাহ উৎস অনুযায়ী দলে ভাগ করো",
+        "categories": {
+          "গঙ্গোত্রী হিমবাহ থেকে পুষ্ট": [
+            "গঙ্গা",
+            "ভাগীরথী",
+            "অলকানন্দা",
+            "মন্দাকিনী"
+          ],
+          "যমুনোত্রী হিমবাহ থেকে পুষ্ট": [
+            "যমুনা",
+            "টোন্স",
+            "হনুমান গঙ্গা",
+            "বান্নাগাড়"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_cat_008",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "বাস্তুতন্ত্র ও প্রাণী",
+        "question_bn": "নিচের প্রাণীগুলিকে তাদের বাসস্থান অনুযায়ী দলে ভাগ করো",
+        "categories": {
+          "জলাভূমি সংলগ্ন অরণ্যের প্রাণী": [
+            "বেজি",
+            "ভোঁদড়",
+            "মেছো বেড়াল",
+            "জলজ সাপ"
+          ],
+          "ঘাস জাতীয় উদ্ভিদের অরণ্যের প্রাণী": [
+            "একশৃঙ্গ গন্ডার",
+            "হরিণ",
+            "শেয়াল",
+            "খরগোশ"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_cat_009",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "বাহকবাহিত রোগ",
+        "question_bn": "নিচের রোগগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "মশাবাহিত রোগ": [
+            "ম্যালেরিয়া",
+            "ফাইলেরিয়া",
+            "ডেঙ্গু",
+            "চিকুনগুনিয়া"
+          ],
+          "দূষিত জলবাহিত রোগ": [
+            "হেপাটাইটিস",
+            "কলেরা",
+            "টাইফয়েড",
+            "ডায়ারিয়া"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_cat_010",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "জীববৈচিত্র্য হ্রাসের কারণ",
+        "question_bn": "নিচের কারণগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "মানবসৃষ্ট কারণ": [
+            "চোরাশিকার",
+            "বাসস্থান ধ্বংস",
+            "অতিরিক্ত অর্থনৈতিক ব্যবহার",
+            "পরিবেশ দূষণ"
+          ],
+          "প্রাকৃতিক কারণ": [
+            "জলবায়ু পরিবর্তন",
+            "মহামারী",
+            "ভূমিকম্প",
+            "আগ্নেয়গিরির অগ্ন্যুৎপাত"
+          ]
+        }
+      }
+    ],
+    "short_write": [
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_001",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "আবহাওয়া",
+        "question_bn": "বায়ুমণ্ডলের দৈনন্দিন পরিবর্তনশীল অবস্থাকে কী বলে?",
+        "expected_answer": "আবহাওয়া",
+        "max_words": 1,
+        "answer_slot_id": 1
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_002",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "জলবায়ু",
+        "question_bn": "আবহাওয়ার দীর্ঘমেয়াদি গড় অবস্থাকে কী বলে?",
+        "expected_answer": "জলবায়ু",
+        "max_words": 1,
+        "answer_slot_id": 2
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_003",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বিশ্ব উষ্ণায়ন",
+        "question_bn": "পৃথিবীর তাপমাত্রা ক্রমাগত বেড়ে যাওয়াকে কী বলে?",
+        "expected_answer": "বিশ্ব উষ্ণায়ন",
+        "max_words": 2,
+        "answer_slot_id": 3
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_004",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গঙ্গোত্রী",
+        "question_bn": "গঙ্গা নদীর উৎস কোন হিমবাহ?",
+        "expected_answer": "গঙ্গোত্রী হিমবাহ",
+        "max_words": 2,
+        "answer_slot_id": 4
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_005",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "প্রবাল",
+        "question_bn": "প্রবাল প্রাণী কোন পর্বভুক্ত?",
+        "expected_answer": "নিডারিয়া",
+        "max_words": 1,
+        "answer_slot_id": 5
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_006",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "জীববৈচিত্র্য হটস্পট",
+        "question_bn": "যে অঞ্চলে বহু বিচিত্র প্রজাতির জীব পাওয়া যায় তাকে ইংরেজিতে কী বলে?",
+        "expected_answer": "বায়োডাইভারসিটি হটস্পট",
+        "max_words": 2,
+        "answer_slot_id": 6
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_007",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "কুইনাইন",
+        "question_bn": "সিঙ্কোনা গাছ থেকে কোন ওষুধ তৈরি হয়?",
+        "expected_answer": "কুইনাইন",
+        "max_words": 1,
+        "answer_slot_id": 7
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_008",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পেনিসিলিন",
+        "question_bn": "পেনিসিলিয়াম থেকে কোন ওষুধ তৈরি হয়?",
+        "expected_answer": "পেনিসিলিন",
+        "max_words": 1,
+        "answer_slot_id": 8
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_009",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "রেসারপিন",
+        "question_bn": "সর্পগন্ধা থেকে কোন ওষুধ তৈরি হয়?",
+        "expected_answer": "রেসারপিন",
+        "max_words": 1,
+        "answer_slot_id": 9
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_010",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "খাদ্যজাল",
+        "question_bn": "একাধিক খাদ্যশৃঙ্খল মিলে কী তৈরি হয়?",
+        "expected_answer": "খাদ্যজাল",
+        "max_words": 1,
+        "answer_slot_id": 10
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_011",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "উৎপাদক",
+        "question_bn": "অরণ্যে সূর্যালোক ব্যবহার করে খাদ্য তৈরি করা উদ্ভিদদের কী বলে?",
+        "expected_answer": "উৎপাদক",
+        "max_words": 1,
+        "answer_slot_id": 11
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_012",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মেগাডাইভারসিটি",
+        "question_bn": "ভারতকে কী ধরনের নেশন বলা হয়?",
+        "expected_answer": "মেগাডাইভারসিটি নেশন",
+        "max_words": 2,
+        "answer_slot_id": 12
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_013",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গঙ্গার শুশুক",
+        "question_bn": "গঙ্গায় বসবাসকারী বিপন্ন জলজ স্তন্যপায়ী প্রাণীর নাম কী?",
+        "expected_answer": "গঙ্গার শুশুক",
+        "max_words": 2,
+        "answer_slot_id": 13
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_014",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মৃগনাভি",
+        "question_bn": "কস্তুরী মৃগ থেকে কী পাওয়া যায়?",
+        "expected_answer": "মৃগনাভি",
+        "max_words": 1,
+        "answer_slot_id": 14
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_015",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ম্যানগ্রোভ",
+        "question_bn": "সুন্দরবন কোন ধরনের অরণ্য?",
+        "expected_answer": "ম্যানগ্রোভ অরণ্য",
+        "max_words": 2,
+        "answer_slot_id": 15
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_016",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সমুদ্রজলতল",
+        "question_bn": "১৯৯৩-২০০৫ সালে সমুদ্রের জলতল বার্ষিক কতটা বেড়েছিল?",
+        "expected_answer": "৩ মিমি",
+        "max_words": 2,
+        "answer_slot_id": 16
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_017",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "হিমবাহ ও সূর্যরশ্মি",
+        "question_bn": "হিমবাহ প্রায় কত শতাংশ সূর্যরশ্মি প্রতিফলিত করে?",
+        "expected_answer": "৮০ শতাংশ",
+        "max_words": 2,
+        "answer_slot_id": 17
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_018",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "প্রবাল প্রাচীর",
+        "question_bn": "প্রবাল প্রাচীর সমুদ্রতলের কত শতাংশ দখল করে?",
+        "expected_answer": "০.১ শতাংশ",
+        "max_words": 2,
+        "answer_slot_id": 18
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_019",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ভারতীয় অরণ্য",
+        "question_bn": "ভারতের কত শতাংশ ভূখণ্ড অরণ্যে ঢাকা?",
+        "expected_answer": "১৯.৭ শতাংশ",
+        "max_words": 2,
+        "answer_slot_id": 19
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_020",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "হিমালয় ও মানুষ",
+        "question_bn": "হিমালয়ের নদীগুলো থেকে জল পায় প্রায় কত কোটি মানুষ?",
+        "expected_answer": "১২০ কোটি",
+        "max_words": 2,
+        "answer_slot_id": 20
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_021",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "তাপমাত্রা বৃদ্ধি",
+        "question_bn": "গত ১০০ বছরে পৃথিবীর গড় তাপমাত্রা কত ডিগ্রি বেড়েছে?",
+        "expected_answer": "১ ডিগ্রি",
+        "max_words": 2,
+        "answer_slot_id": 21
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_022",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "প্রবাল ধ্বংস",
+        "question_bn": "১৯৮৮ সালে পৃথিবীর কত শতাংশ প্রবাল সম্পদ ধ্বংস হয়েছিল?",
+        "expected_answer": "১৬ শতাংশ",
+        "max_words": 2,
+        "answer_slot_id": 22
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_023",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "হিমবাহের অবস্থান",
+        "question_bn": "পৃথিবীর প্রায় ৯৯% হিমবাহ কোথায় আছে?",
+        "expected_answer": "উত্তর ও দক্ষিণমেরু",
+        "max_words": 2,
+        "answer_slot_id": 23
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_024",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বিলুপ্ত প্রজাতি",
+        "question_bn": "গত ৫০০ বছরে কতটি প্রজাতি পৃথিবী থেকে বিলুপ্ত হয়েছে?",
+        "expected_answer": "৭৮৪টি",
+        "max_words": 1,
+        "answer_slot_id": 24
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_025",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ভারতীয় বন্যপ্রাণী",
+        "question_bn": "ভারতে এখন পর্যন্ত কত প্রজাতির বন্যপ্রাণী আবিষ্কৃত হয়েছে?",
+        "expected_answer": "৯১,২১২ প্রজাতি",
+        "max_words": 2,
+        "answer_slot_id": 25
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_026",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ম্যানগ্রোভ নাইট্রোজেন",
+        "question_bn": "একটি পরিণত ম্যানগ্রোভ বছরে প্রতি হেক্টরে কত কেজি নাইট্রোজেন যোগ করে?",
+        "expected_answer": "৪৭ কেজি",
+        "max_words": 2,
+        "answer_slot_id": 26
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_027",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সুন্দরবনের মানুষ",
+        "question_bn": "সুন্দরবনে প্রায় কত লক্ষ মানুষ বাস করে?",
+        "expected_answer": "চল্লিশ লক্ষ",
+        "max_words": 2,
+        "answer_slot_id": 27
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_028",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "প্রবাল ও সামুদ্রিক প্রজাতি",
+        "question_bn": "প্রবাল প্রাচীর সামুদ্রিক প্রজাতির কত শতাংশের আশ্রয়স্থল?",
+        "expected_answer": "২৫ শতাংশ",
+        "max_words": 2,
+        "answer_slot_id": 28
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_029",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ভারতে হটস্পট সংখ্যা",
+        "question_bn": "ভারতে মোট কতটি বায়োডাইভারসিটি হটস্পট আছে?",
+        "expected_answer": "চারটি",
+        "max_words": 1,
+        "answer_slot_id": 29
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_030",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "উদ্ভিদের শতাংশ",
+        "question_bn": "পৃথিবীর মোট জীবের কত শতাংশ উদ্ভিদ?",
+        "expected_answer": "৯৯ শতাংশ",
+        "max_words": 2,
+        "answer_slot_id": 30
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_031",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "তাপপ্রবাহ",
+        "question_bn": "১৯৮০-৮৮ সালের মধ্যে ভারতে কতটি তাপপ্রবাহের ঘটনা ঘটেছিল?",
+        "expected_answer": "১৮টি",
+        "max_words": 1,
+        "answer_slot_id": 31
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_032",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "অমরনাথ বরফ",
+        "question_bn": "স্বাভাবিক অবস্থায় অমরনাথ গুহায় বরফের উচ্চতা কত ফুট ছিল?",
+        "expected_answer": "১২ ফুট",
+        "max_words": 2,
+        "answer_slot_id": 32
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_033",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বর্তমান বিপন্ন প্রজাতি",
+        "question_bn": "বর্তমানে সারা পৃথিবীতে কতটি প্রজাতি ধ্বংসের মুখে?",
+        "expected_answer": "১৫,৫০০টি",
+        "max_words": 1,
+        "answer_slot_id": 33
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_034",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "আলাস্কা বরফ",
+        "question_bn": "গত ৩০ বছরে আলাস্কা উপকূলের বরফের স্তর কত শতাংশ কমে গেছে?",
+        "expected_answer": "৪০ শতাংশ",
+        "max_words": 2,
+        "answer_slot_id": 34
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_035",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "CO₂ বৃদ্ধির হার",
+        "question_bn": "১৯৭০-২০০৪ সালে CO₂ মেশার বার্ষিক হার কত শতাংশ বেড়েছিল?",
+        "expected_answer": "৭০ শতাংশ",
+        "max_words": 2,
+        "answer_slot_id": 35
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_036",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ভারতের আয়তন",
+        "question_bn": "ভারতীয় ভূখণ্ডের মোট আয়তন কত বর্গ কিলোমিটার?",
+        "expected_answer": "৩৩ লক্ষ",
+        "max_words": 2,
+        "answer_slot_id": 36
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_037",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "২১০০ সালে সমুদ্র",
+        "question_bn": "২১০০ সালের মধ্যে সমুদ্রের জলতল কতটা বাড়তে পারে?",
+        "expected_answer": "৭০ সেমি",
+        "max_words": 2,
+        "answer_slot_id": 37
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_038",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "হিমালয় নদী",
+        "question_bn": "হিমালয় এশিয়ার কতটি বড়ো নদীকে পুষ্ট করে?",
+        "expected_answer": "নয়টি",
+        "max_words": 1,
+        "answer_slot_id": 38
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_039",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "যমুনা নদী",
+        "question_bn": "যমুনা নদীর উৎস কোন হিমবাহ?",
+        "expected_answer": "যমুনোত্রী হিমবাহ",
+        "max_words": 2,
+        "answer_slot_id": 39
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_040",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সিকিম হটস্পট",
+        "question_bn": "কোন হটস্পটে সিকিম ও দার্জিলিং অন্তর্ভুক্ত?",
+        "expected_answer": "পূর্ব হিমালয়",
+        "max_words": 2,
+        "answer_slot_id": 40
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_041",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গ্রিনহাউস প্রভাব ছাড়া তাপমাত্রা",
+        "question_bn": "বায়ুমণ্ডলে CO₂ না থাকলে পৃথিবীর গড় তাপমাত্রা কত হত?",
+        "expected_answer": "-১৮°সে",
+        "max_words": 1,
+        "answer_slot_id": 41
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_042",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "নাসা উষ্ণতম বছর",
+        "question_bn": "NASA-র মতে গত এক শতাব্দীর উষ্ণতম বছর কোনটি?",
+        "expected_answer": "২০০৫ সাল",
+        "max_words": 2,
+        "answer_slot_id": 42
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_043",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শব্দদূষণ",
+        "question_bn": "শব্দদূষণ কমাতে কী ব্যবহার করা হয়?",
+        "expected_answer": "গাছের সারি",
+        "max_words": 2,
+        "answer_slot_id": 43
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_044",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "প্রবাল কঙ্কাল",
+        "question_bn": "প্রবালের বহিঃকঙ্কাল কী দিয়ে তৈরি?",
+        "expected_answer": "ক্যালশিয়াম কার্বনেট",
+        "max_words": 2,
+        "answer_slot_id": 44
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_045",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ডেঙ্গু",
+        "question_bn": "ডেঙ্গু রোগ কোন বাহকের মাধ্যমে ছড়ায়?",
+        "expected_answer": "মশা",
+        "max_words": 1,
+        "answer_slot_id": 45
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_046",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "খাদক",
+        "question_bn": "অরণ্যে যে প্রাণীরা উদ্ভিদ খায় তাদের কী বলে?",
+        "expected_answer": "খাদক",
+        "max_words": 1,
+        "answer_slot_id": 46
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_047",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বিলুপ্ত মেরুদণ্ডী",
+        "question_bn": "গত ৫০০ বছরে কতটি মেরুদণ্ডী প্রজাতি বিলুপ্ত হয়েছে?",
+        "expected_answer": "৩৩৮টি",
+        "max_words": 1,
+        "answer_slot_id": 47
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_048",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বিলুপ্ত উদ্ভিদ",
+        "question_bn": "গত ৫০০ বছরে কতটি উদ্ভিদ প্রজাতি বিলুপ্ত হয়েছে?",
+        "expected_answer": "৮৭টি",
+        "max_words": 1,
+        "answer_slot_id": 48
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_049",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ম্যানগ্রোভ ক্যালশিয়াম",
+        "question_bn": "একটি পরিণত ম্যানগ্রোভ বছরে প্রতি হেক্টরে কত কেজি ক্যালশিয়াম যোগ করে?",
+        "expected_answer": "৯৯ কেজি",
+        "max_words": 2,
+        "answer_slot_id": 49
+      },
+      {
+        "id": "paribesh_o_bigyan_ch11_sw_050",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "প্রবাল প্রাচীর ও সমুদ্রতল",
+        "question_bn": "প্রবাল প্রাচীর সমুদ্রতলের মাত্র কত শতাংশ দখল করে?",
+        "expected_answer": "০.১ শতাংশ",
+        "max_words": 2,
+        "answer_slot_id": 50
+      }
+    ]
+  }
+}

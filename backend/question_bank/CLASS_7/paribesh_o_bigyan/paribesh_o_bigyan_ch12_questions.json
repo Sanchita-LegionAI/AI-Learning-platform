@@ -1,0 +1,1781 @@
+{
+  "book_id": "paribesh_o_bigyan",
+  "book_name": "Paribesh O Bigyan",
+  "book_name_bn": "পরিবেশ ও বিজ্ঞান",
+  "subject": "science",
+  "class": 7,
+  "chapter_no": 12,
+  "chapter_title_bn": "পরিবেশ ও জনস্বাস্থ্য",
+  "source_file": "paribesh_o_bigyan_ch12_questions.json",
+  "questions": {
+
+    "mcq": [
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_001",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পারদ দূষণ",
+        "question_bn": "থার্মোমিটারে কোন তরল ধাতু ব্যবহার করা হয়?",
+        "options": ["তামা", "লোহা", "পারদ", "জিঙ্ক", "অ্যালুমিনিয়াম"],
+        "correct_answer": "পারদ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_002",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মিনামাতা রোগ",
+        "question_bn": "মিনামাতা শহরটি কোন দেশে অবস্থিত?",
+        "options": ["চিন", "জাপান", "কোরিয়া", "ভারত", "থাইল্যান্ড"],
+        "correct_answer": "জাপান"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_003",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আর্সেনিক দূষণ",
+        "question_bn": "পশ্চিমবঙ্গের কোন জেলায় আর্সেনিক দূষণ দেখা যায়?",
+        "options": ["দার্জিলিং", "বাঁকুড়া", "মালদহ", "পুরুলিয়া", "জলপাইগুড়ি"],
+        "correct_answer": "মালদহ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_004",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "জলবাহিত রোগ",
+        "question_bn": "কলেরা রোগ কীভাবে ছড়ায়?",
+        "options": ["বায়ুর মাধ্যমে", "মশার মাধ্যমে", "জলের মাধ্যমে", "মাছির মাধ্যমে", "সরাসরি স্পর্শে"],
+        "correct_answer": "জলের মাধ্যমে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_005",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ম্যালেরিয়া",
+        "question_bn": "ম্যালেরিয়া রোগ কোন মশার মাধ্যমে ছড়ায়?",
+        "options": ["কিউলেক্স", "এডিস", "আনোফিলিস", "কালো মাছি", "বালি মাছি"],
+        "correct_answer": "আনোফিলিস"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_006",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ডেঙ্গু",
+        "question_bn": "ডেঙ্গু রোগ কোন মশার মাধ্যমে ছড়ায়?",
+        "options": ["আনোফিলিস", "কিউলেক্স", "এডিস", "কালো মশা", "সাদা মশা"],
+        "correct_answer": "এডিস"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_007",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "স্বাস্থ্যের সংজ্ঞা",
+        "question_bn": "স্বাস্থ্য বলতে কী বোঝায়?",
+        "options": ["শুধু শরীর সুস্থ থাকা", "শুধু মন সুস্থ থাকা", "দৈহিক মানসিক ও সামাজিক সুস্থতা", "রোগ না থাকা", "ডাক্তার দেখানো"],
+        "correct_answer": "দৈহিক মানসিক ও সামাজিক সুস্থতা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_008",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বায়ুবাহিত রোগ",
+        "question_bn": "যক্ষ্মা রোগ কীভাবে ছড়ায়?",
+        "options": ["জলের মাধ্যমে", "মশার মাধ্যমে", "বায়ুর মাধ্যমে", "খাদ্যের মাধ্যমে", "মাছির মাধ্যমে"],
+        "correct_answer": "বায়ুর মাধ্যমে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_009",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "প্লেগ",
+        "question_bn": "প্লেগ রোগ ছড়ায় কীসের মাধ্যমে?",
+        "options": ["মশার কামড়ে", "ইঁদুরের উকুনের কামড়ে", "জলের মাধ্যমে", "বায়ুর মাধ্যমে", "মাছির মাধ্যমে"],
+        "correct_answer": "ইঁদুরের উকুনের কামড়ে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_010",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "খাদ্যে ভেজাল",
+        "question_bn": "চাউমিন ও চিলি চিকেনে কোন রাসায়নিক পদার্থ মেশানো হয়?",
+        "options": ["ফর্মালিন", "আজিনোমোটো", "মেটানিল ইয়োলো", "সালফার ডাই অক্সাইড", "ক্লোরিন"],
+        "correct_answer": "আজিনোমোটো"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_011",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পাস্তুরাইজেশন",
+        "question_bn": "দুধ পাস্তুরাইজ করার পদ্ধতি কে আবিষ্কার করেন?",
+        "options": ["রোনাল্ড রস", "লুই পাস্তুর", "চার্লস ডারউইন", "আইজ্যাক নিউটন", "লাভেরী"],
+        "correct_answer": "লুই পাস্তুর"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_012",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পোলিও",
+        "question_bn": "পোলিও রোগ কীভাবে ছড়ায়?",
+        "options": ["বায়ুর মাধ্যমে", "মশার মাধ্যমে", "জলের মাধ্যমে", "স্পর্শের মাধ্যমে", "খাদ্যের মাধ্যমে"],
+        "correct_answer": "জলের মাধ্যমে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_013",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "টিকাকরণ",
+        "question_bn": "টিকাদানের মাধ্যমে কোন রোগ পৃথিবী থেকে নির্মূল করা সম্ভব হয়েছে?",
+        "options": ["ম্যালেরিয়া", "যক্ষ্মা", "কলেরা", "গুটিবসন্ত", "প্লেগ"],
+        "correct_answer": "গুটিবসন্ত"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_014",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মাছি ও রোগ",
+        "question_bn": "সাধারণ মাছি কোন রোগ ছড়ায়?",
+        "options": ["ম্যালেরিয়া", "ডেঙ্গু", "টাইফয়েড", "যক্ষ্মা", "ডিপথেরিয়া"],
+        "correct_answer": "টাইফয়েড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_015",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "WHO",
+        "question_bn": "WHO-এর সদর দপ্তর কোথায়?",
+        "options": ["নিউ ইয়র্ক", "লন্ডন", "জেনিভা", "প্যারিস", "বার্লিন"],
+        "correct_answer": "জেনিভা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_016",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ম্যালেরিয়া আবিষ্কার",
+        "question_bn": "মশার পাকস্থলীতে ম্যালেরিয়া জীবাণু আবিষ্কার করেন কে?",
+        "options": ["লুই পাস্তুর", "চার্লস লাভেরী", "রোনাল্ড রস", "আলেকজান্ডার ফ্লেমিং", "এডওয়ার্ড জেনার"],
+        "correct_answer": "রোনাল্ড রস"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_017",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আর্সেনিক",
+        "question_bn": "এক লিটার জলে আর্সেনিকের নিরাপদ সীমা কত মিলিগ্রাম?",
+        "options": ["০.০১", "০.০৫", "০.১", "০.৫", "১.০"],
+        "correct_answer": "০.০৫"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_018",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "কলেরা",
+        "question_bn": "কলেরার আরেক নাম কী?",
+        "options": ["ডায়ারিয়া", "বিসুচিকা", "টাইফয়েড", "আমাশয়", "পোলিও"],
+        "correct_answer": "বিসুচিকা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_019",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ম্যালেরিয়া জীবাণু",
+        "question_bn": "মানুষের লোহিত রক্তকণিকায় কোন ম্যালেরিয়া জীবাণু পাওয়া যায়?",
+        "options": ["প্লাসমোডিয়াম ফ্যালসিপেরাম", "প্লাসমোডিয়াম ভাইভ্যাক্স", "ব্যাকটেরিয়াম", "ভাইরাস", "অ্যামিবা"],
+        "correct_answer": "প্লাসমোডিয়াম ভাইভ্যাক্স"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_020",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "খাদ্যে ভেজাল",
+        "question_bn": "দুধে স্টার্চ মেশানো আছে কিনা বোঝার জন্য কী ব্যবহার করা হয়?",
+        "options": ["লেবুর রস", "টিংচার আয়োডিন", "সোডা", "ভিনেগার", "হাইড্রোক্লোরিক অ্যাসিড"],
+        "correct_answer": "টিংচার আয়োডিন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_021",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মিনামাতা রোগ",
+        "question_bn": "মিনামাতায় পারদ দূষণের ফলে কোন উপসর্গ দেখা গিয়েছিল?",
+        "options": ["জ্বর ও সর্দি", "পেশির খিঁচুনি ও অসাড়তা", "চোখ লাল হওয়া", "পেটে ব্যথা", "মাথায় যন্ত্রণা"],
+        "correct_answer": "পেশির খিঁচুনি ও অসাড়তা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_022",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পেশাগত রোগ",
+        "question_bn": "খনিতে কাজ করলে কোন পেশাগত রোগ হওয়ার সম্ভাবনা থাকে?",
+        "options": ["ডায়াবেটিস", "ফুসফুসে কয়লার গুঁড়ো জমা", "হৃদরোগ", "কিডনির সমস্যা", "দাঁতের রোগ"],
+        "correct_answer": "ফুসফুসে কয়লার গুঁড়ো জমা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_023",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মানসিক স্বাস্থ্য",
+        "question_bn": "ডিসলেক্সিয়া কী ধরনের সমস্যা?",
+        "options": ["শারীরিক", "পড়তে ও লিখতে অসুবিধা", "কানে কম শোনা", "চোখের সমস্যা", "হাঁটার সমস্যা"],
+        "correct_answer": "পড়তে ও লিখতে অসুবিধা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_024",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বায়ুবাহিত রোগ সংক্রমণ",
+        "question_bn": "হাঁচি-কাশির সময় বেরোনো ছোট তরল কণার মাধ্যমে রোগ ছড়ানোকে কী বলে?",
+        "options": ["ধুলো সংক্রমণ", "কণা সংক্রমণ", "সরাসরি সংক্রমণ", "পরোক্ষ সংক্রমণ", "বায়ু সংক্রমণ"],
+        "correct_answer": "কণা সংক্রমণ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_025",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "প্লেগ",
+        "question_bn": "প্লেগকে ব্ল্যাক ডেথ বলা হয় কেন?",
+        "options": ["রাতে ছড়ায় বলে", "আক্রান্তের গায়ে কালো ছোপ দেখা যায় বলে", "কালো ইঁদুর থেকে ছড়ায় বলে", "কালো মাছি থেকে ছড়ায় বলে", "অন্ধকারে ছড়ায় বলে"],
+        "correct_answer": "আক্রান্তের গায়ে কালো ছোপ দেখা যায় বলে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_026",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মশার রোগ সংক্রমণ",
+        "question_bn": "মশা রক্ত পান করার সময় কী প্রাণীর দেহে প্রবেশ করায়?",
+        "options": ["জল", "লালা", "বিষ", "রক্ত", "অক্সিজেন"],
+        "correct_answer": "লালা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_027",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "কিউলেক্স মশা",
+        "question_bn": "কিউলেক্স মশা কোন রোগ ছড়ায়?",
+        "options": ["ম্যালেরিয়া", "ডেঙ্গু", "গোদ ও এনকেফালাইটিস", "প্লেগ", "কলেরা"],
+        "correct_answer": "গোদ ও এনকেফালাইটিস"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_028",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ল্যাথিরিজম",
+        "question_bn": "ল্যাথিরিজম রোগ কোন ডাল খেলে হয়?",
+        "options": ["মুসুর ডাল", "মুগ ডাল", "খেসারি ডাল", "ছোলার ডাল", "অড়হর ডাল"],
+        "correct_answer": "খেসারি ডাল"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_029",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "রোনাল্ড রস",
+        "question_bn": "রোনাল্ড রস কত সালে নোবেল পুরস্কার পান?",
+        "options": ["১৮৯৭", "১৯০০", "১৯০২", "১৯১০", "১৮৮০"],
+        "correct_answer": "১৯০২"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_030",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মাছির রোগ সংক্রমণ",
+        "question_bn": "মাছি কঠিন খাবারের উপর কী করে খাবার তরল করে?",
+        "options": ["প্রস্রাব করে", "বমি করে", "লালা ছাড়ে", "কামড়ায়", "পানি ছাড়ে"],
+        "correct_answer": "বমি করে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_031",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পাস্তুরাইজেশন",
+        "question_bn": "দুধ পাস্তুরাইজ করার জন্য কত সেকেন্ড ৭২-৭৫ ডিগ্রি সেলসিয়াসে গরম করা হয়?",
+        "options": ["৫-১০ সেকেন্ড", "১৫-৪০ সেকেন্ড", "৬০-৯০ সেকেন্ড", "২-৩ মিনিট", "৫-৬ মিনিট"],
+        "correct_answer": "১৫-৪০ সেকেন্ড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_032",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মানসিক স্বাস্থ্য",
+        "question_bn": "UNICEF কত সালে প্রতিষ্ঠিত হয়?",
+        "options": ["১৯৪৪", "১৯৪৬", "১৯৪৮", "১৯৫০", "১৯৫২"],
+        "correct_answer": "১৯৪৬"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_033",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "এক্স রশ্মি",
+        "question_bn": "এক্স রশ্মি বারবার শরীরে লাগলে কী হতে পারে?",
+        "options": ["জ্বর হয়", "কোশ ধ্বংস হয় ও ক্যানসার হতে পারে", "হাড় শক্ত হয়", "দৃষ্টিশক্তি বাড়ে", "রক্তচাপ কমে"],
+        "correct_answer": "কোশ ধ্বংস হয় ও ক্যানসার হতে পারে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_034",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আর্সেনিক দূষণ",
+        "question_bn": "নলকূপের মধ্য দিয়ে বায়ুর কোন উপাদান আর্সেনিককে দ্রাব্য করে?",
+        "options": ["নাইট্রোজেন", "হাইড্রোজেন", "অক্সিজেন", "কার্বন ডাই অক্সাইড", "ক্লোরিন"],
+        "correct_answer": "অক্সিজেন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_035",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "খাদ্যে বিষক্রিয়া",
+        "question_bn": "জীবাণু-সংক্রামিত খাবার খাওয়ার কত সময়ের মধ্যে রোগলক্ষণ প্রকাশ পায়?",
+        "options": ["৩০ মিনিট", "১ ঘন্টা", "২-৩ ঘন্টা", "৬-৮ ঘন্টা", "২৪ ঘন্টা"],
+        "correct_answer": "২-৩ ঘন্টা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_036",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "অ্যালার্জি",
+        "question_bn": "খাবার থেকে অ্যালার্জি হলে কোন তন্ত্র প্রতিক্রিয়া দেখায়?",
+        "options": ["পাচনতন্ত্র", "ইমিউন তন্ত্র", "স্নায়ুতন্ত্র", "রক্তসংবহন তন্ত্র", "শ্বাসতন্ত্র"],
+        "correct_answer": "ইমিউন তন্ত্র"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_037",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ম্যালেরিয়া পোষক",
+        "question_bn": "ম্যালেরিয়া জীবাণুর মুখ্য পোষক কে?",
+        "options": ["মানুষ", "মশা", "ইঁদুর", "পাখি", "সাপ"],
+        "correct_answer": "মশা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_038",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ORS",
+        "question_bn": "কলেরায় শরীর থেকে বেরিয়ে যাওয়া জলের ঘাটতি পূরণের জন্য কী দেওয়া হয়?",
+        "options": ["স্যালাইন ড্রিপ শুধু", "ORS পানীয়", "অ্যান্টিবায়োটিক", "প্যারাসিটামল", "গ্লুকোজ ইনজেকশন"],
+        "correct_answer": "ORS পানীয়"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_039",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গুটিবসন্ত নির্মূল",
+        "question_bn": "গুটিবসন্ত পৃথিবী থেকে নির্মূল হয় কত সালে?",
+        "options": ["১৯৬৭", "১৯৭২", "১৯৭৭", "১৯৮০", "১৯৮৫"],
+        "correct_answer": "১৯৭৭"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_040",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পেশাগত রোগ",
+        "question_bn": "দীর্ঘদিন কম্পিউটারের সামনে বসে কাজ করলে কোন রোগের সম্ভাবনা বাড়ে?",
+        "options": ["যক্ষ্মা", "ম্যালেরিয়া", "ডায়াবেটিস", "ডেঙ্গু", "কলেরা"],
+        "correct_answer": "ডায়াবেটিস"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_041",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মিনামাতা রোগ",
+        "question_bn": "মিনামাতায় চিসো কর্পোরেশনের কারখানা কত সালে খোলা হয়েছিল?",
+        "options": ["১৮৯৮", "১৯০৮", "১৯১৮", "১৯২৮", "১৯৩৮"],
+        "correct_answer": "১৯০৮"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_042",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ম্যালেরিয়া আবিষ্কার",
+        "question_bn": "ম্যালেরিয়া জীবাণু মানুষের রক্তে প্রথম কে এবং কোথায় দেখেন?",
+        "options": ["রোনাল্ড রস, সেকেন্দ্রাবাদে", "লাভেরী, আলজেরিয়ায়", "পাস্তুর, প্যারিসে", "রস, কলকাতায়", "ফ্লেমিং, লন্ডনে"],
+        "correct_answer": "লাভেরী, আলজেরিয়ায়"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_043",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "প্লেগ মহামারি",
+        "question_bn": "৫৪১-৫৪২ খ্রিস্টাব্দের প্লেগ মহামারিতে কতজন মানুষ মারা যায়?",
+        "options": ["১ কোটি", "৫ কোটি", "১০ কোটি", "২০ কোটি", "৫০ কোটি"],
+        "correct_answer": "১০ কোটি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_044",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ড্রপসি রোগ",
+        "question_bn": "ড্রপসি রোগ কোন কারণে হয়?",
+        "options": ["সরষের তেলে ভেজাল মেশানোর ফলে", "দূষিত জল পানের ফলে", "মশার কামড়ে", "পারদ বিষক্রিয়ায়", "আর্সেনিক বিষক্রিয়ায়"],
+        "correct_answer": "সরষের তেলে ভেজাল মেশানোর ফলে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_045",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ম্যালেরিয়ার ওষুধ",
+        "question_bn": "ম্যালেরিয়া জ্বরের ওষুধ কোন গাছের ছাল থেকে তৈরি হয়েছিল?",
+        "options": ["নিম", "তুলসী", "সিঙ্কোনা", "পেপে", "আম"],
+        "correct_answer": "সিঙ্কোনা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_046",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ভগিনী নিবেদিতা",
+        "question_bn": "১৮৯৯ সালে কলকাতায় প্লেগের বিরুদ্ধে কমিটি গঠন করেন কে?",
+        "options": ["রবীন্দ্রনাথ ঠাকুর", "ভগিনী নিবেদিতা", "মহাত্মা গান্ধী", "রোনাল্ড রস", "বিবেকানন্দ"],
+        "correct_answer": "ভগিনী নিবেদিতা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_047",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "রোনাল্ড রস",
+        "question_bn": "রোনাল্ড রস কত সালের কত তারিখে মশার পাকস্থলীতে ম্যালেরিয়া জীবাণু আবিষ্কার করেন?",
+        "options": ["১৮৮০ সালের ২৪ ডিসেম্বর", "১৮৯৭ সালের ২০ আগস্ট", "১৯০২ সালের ১ জানুয়ারি", "১৮৯৫ সালের ১৫ মার্চ", "১৯০০ সালের ১ জুলাই"],
+        "correct_answer": "১৮৯৭ সালের ২০ আগস্ট"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_048",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মেটানিল ইয়োলো",
+        "question_bn": "মেটানিল ইয়োলো কী ধরনের ক্ষতি করে?",
+        "options": ["হাড় দুর্বল করে", "ক্যানসার হতে পারে", "চোখের ক্ষতি করে", "কানে কম শোনায়", "স্মৃতিশক্তি কমায়"],
+        "correct_answer": "ক্যানসার হতে পারে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_049",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ল্যাথিরিজম",
+        "question_bn": "ল্যাথিরিজমে কী ধরনের পক্ষাঘাত দেখা দেয়?",
+        "options": ["অ্যাকিউট প্যারালাইসিস", "ফ্ল্যাসিড প্যারালাইসিস", "প্রোগ্রেসিভ স্প্যাসটিক প্যারালাইসিস", "মৃদু অসাড়তা", "সম্পূর্ণ পক্ষাঘাত"],
+        "correct_answer": "প্রোগ্রেসিভ স্প্যাসটিক প্যারালাইসিস"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_mcq_050",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মশার অঙ্গ",
+        "question_bn": "মশার রক্ত পান করার অঙ্গকে কী বলে?",
+        "options": ["অ্যান্টেনা", "প্রোবোসিস", "ম্যাক্সিলা", "লেবিয়াম", "ম্যান্ডিবল"],
+        "correct_answer": "প্রোবোসিস"
+      }
+    ],
+
+    "match_pairs": [
+      {
+        "id": "paribesh_o_bigyan_ch12_match_001",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মশা ও রোগ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "আনোফিলিস", "right": "ম্যালেরিয়া"},
+          {"left": "কিউলেক্স", "right": "গোদ রোগ"},
+          {"left": "এডিস", "right": "ডেঙ্গু"},
+          {"left": "বালি মাছি", "right": "বালিমাছি জ্বর"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_match_002",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ধাতু ও রোগ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "পারদ", "right": "মিনামাতা রোগ"},
+          {"left": "আর্সেনিক", "right": "চামড়ায় ক্ষত"},
+          {"left": "ফ্লুওরাইড", "right": "দাঁত ও হাড়ের ক্ষতি"},
+          {"left": "সিসা", "right": "মস্তিষ্কের ক্ষতি"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_match_003",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "রোগ সংক্রমণের পথ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "কলেরা", "right": "জলের মাধ্যমে"},
+          {"left": "যক্ষ্মা", "right": "বায়ুর মাধ্যমে"},
+          {"left": "ম্যালেরিয়া", "right": "মশার কামড়ে"},
+          {"left": "প্লেগ", "right": "ইঁদুরের উকুনের কামড়ে"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_match_004",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পেশা ও রোগ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "খনিতে কাজ", "right": "ফুসফুসে কয়লার গুঁড়ো"},
+          {"left": "ল্যাবরেটরি কাজ", "right": "ক্যানসার"},
+          {"left": "ফুটবল খেলা", "right": "কার্টিলেজ ছিড়ে যাওয়া"},
+          {"left": "মাটি কাটা", "right": "পিঠে ও ঘাড়ে ব্যথা"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_match_005",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বিজ্ঞানী ও আবিষ্কার",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "রোনাল্ড রস", "right": "মশায় ম্যালেরিয়া জীবাণু আবিষ্কার"},
+          {"left": "লাভেরী", "right": "রক্তে ম্যালেরিয়া জীবাণু আবিষ্কার"},
+          {"left": "লুই পাস্তুর", "right": "পাস্তুরাইজেশন পদ্ধতি"},
+          {"left": "জুয়ান লোপেজ", "right": "সিঙ্কোনা ছাল থেকে ওষুধ"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_match_006",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "জলবাহিত রোগের লক্ষণ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "কলেরা", "right": "চাল ধোয়া জলের মতো মল"},
+          {"left": "পোলিও", "right": "পেশির অস্বাভাবিক শিথিলতা"},
+          {"left": "সাধারণ ডায়ারিয়া", "right": "বারবার পাতলা মলত্যাগ"},
+          {"left": "টাইফয়েড", "right": "দীর্ঘস্থায়ী জ্বর"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_match_007",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "খাদ্যে ভেজাল",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "দুধে স্টার্চ", "right": "টিংচার আয়োডিনে নীল রং"},
+          {"left": "আজিনোমোটো", "right": "চাউমিনে মাংসের মতো স্বাদ"},
+          {"left": "মেটানিল ইয়োলো", "right": "ঘুগনিতে হলদে রং"},
+          {"left": "খেসারি ডাল", "right": "ল্যাথিরিজম রোগ"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_match_008",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মশার অঙ্গ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "লেবিয়াম", "right": "বাকি দংশক অঙ্গ ঢেকে রাখে"},
+          {"left": "ম্যান্ডিবল", "right": "ছুরির মতো চামড়া ভেদ করে"},
+          {"left": "ম্যাক্সিলা", "right": "বাকি দংশক অঙ্গকে অবলম্বন দেয়"},
+          {"left": "হাইপোফ্যারিংস", "right": "রক্ত জমাট না বাঁধার জন্য লালা প্রবেশ করায়"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_match_009",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "প্লেগের ইতিহাস",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "৫৪১-৫৪২ খ্রিস্টাব্দ", "right": "১০ কোটি মানুষের মৃত্যু"},
+          {"left": "চতুর্দশ শতাব্দী", "right": "লন্ডনে ব্ল্যাক ডেথ মহামারি"},
+          {"left": "১৮৯৯ সাল", "right": "কলকাতায় প্লেগ মহামারি"},
+          {"left": "ভগিনী নিবেদিতা", "right": "প্লেগ বিরোধী কমিটি গঠন"}
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_match_010",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "আর্সেনিক দূষণের জেলা",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "মালদহ", "right": "আর্সেনিক দূষিত জেলা"},
+          {"left": "মুর্শিদাবাদ", "right": "আর্সেনিক দূষিত জেলা"},
+          {"left": "দক্ষিণ ২৪ পরগণা", "right": "আর্সেনিক দূষিত জেলা"},
+          {"left": "উত্তর ২৪ পরগণা", "right": "আর্সেনিক দূষিত জেলা"}
+        ]
+      }
+    ],
+
+    "true_false": [
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_001",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পারদ",
+        "question_bn": "পারদ একটি তরল ধাতু।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_002",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "কলেরা",
+        "question_bn": "কলেরা রোগ বায়ুর মাধ্যমে ছড়ায়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_003",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ম্যালেরিয়া",
+        "question_bn": "ম্যালেরিয়া রোগ আনোফিলিস মশার মাধ্যমে ছড়ায়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_004",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "স্বাস্থ্য",
+        "question_bn": "শুধু শরীর সুস্থ থাকলেই সম্পূর্ণ স্বাস্থ্য অর্জন হয়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_005",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "গুটিবসন্ত",
+        "question_bn": "টিকাদানের মাধ্যমে গুটিবসন্ত পৃথিবী থেকে নির্মূল হয়েছে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_006",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ডেঙ্গু",
+        "question_bn": "এডিস মশা দিনের বেলায় বাইরে বের হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_007",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "যক্ষ্মা",
+        "question_bn": "যক্ষ্মা একটি অসংক্রামক রোগ।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_008",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পোলিও",
+        "question_bn": "পোলিও একটি জলবাহিত রোগ।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_009",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মাছি",
+        "question_bn": "সাধারণ মাছি টাইফয়েড রোগ ছড়ায়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_010",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পারদ",
+        "question_bn": "ফ্লুওরেসেন্ট বাল্ব তৈরিতে পারদ ব্যবহার করা হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_011",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আর্সেনিক",
+        "question_bn": "১ লিটার জলে ০.১ মিলিগ্রাম আর্সেনিক থাকলে সেই জল পান করা উচিত।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_012",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পাস্তুরাইজেশন",
+        "question_bn": "পাস্তুরাইজেশনে খাদ্যকে গরম করার পরে ঠান্ডা করা হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_013",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "প্লেগ",
+        "question_bn": "প্লেগ রোগকে হোয়াইট ডেথ বলা হয়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_014",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ম্যালেরিয়া",
+        "question_bn": "পুরুষ মশা মানুষের রক্ত পান করে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_015",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "WHO",
+        "question_bn": "WHO ১৯৪৯ সালের ৯ই এপ্রিল স্থাপিত হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_016",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "খাদ্যে বিষক্রিয়া",
+        "question_bn": "জীবাণু-সংক্রামিত খাবার খাওয়ার ৩০ মিনিটের মধ্যেই রোগলক্ষণ প্রকাশ পায়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_017",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ম্যালেরিয়া পোষক",
+        "question_bn": "মশা হলো ম্যালেরিয়া জীবাণুর গৌণ পোষক।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_018",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "অ্যালার্জি",
+        "question_bn": "একই খাবারে সবার অ্যালার্জি হয় না।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_019",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ম্যালেরিয়ার ইতিহাস",
+        "question_bn": "ম্যালেরিয়া জীবাণুর সঙ্গে মশার পরিচয় আজ থেকে প্রায় ৩০ কোটি বছর আগে হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_tf_020",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ল্যাথিরিজম",
+        "question_bn": "একটানা ২-৩ মাস খেসারি ডাল খেলে ল্যাথিরিজম রোগ হতে পারে।",
+        "correct_answer": "true"
+      }
+    ],
+
+    "tap_sequence": [
+      {
+        "id": "paribesh_o_bigyan_ch12_seq_001",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "কলেরার বিস্তার",
+        "question_bn": "১৮২৭ সালে কলেরা মহামারি কোন ক্রমে ছড়িয়েছিল তা সঠিকভাবে সাজাও",
+        "items": ["পারস্য ও মধ্য এশিয়া", "গাঙ্গেয় উপত্যকা ও কলকাতা", "আমেরিকা ও ইউরোপ", "ভূমধ্যসাগরীয় অঞ্চল"],
+        "correct_order": ["গাঙ্গেয় উপত্যকা ও কলকাতা", "পারস্য ও মধ্য এশিয়া", "ভূমধ্যসাগরীয় অঞ্চল", "আমেরিকা ও ইউরোপ"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_seq_002",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মশার রোগ সংক্রমণ",
+        "question_bn": "মশার মাধ্যমে রোগ সংক্রমণের ধাপগুলি সঠিক ক্রমে সাজাও",
+        "items": ["জীবাণু প্রাণীর দেহে প্রবেশ করে", "মশা লালা প্রবেশ করায়", "মশা আক্রান্ত প্রাণীর রক্ত পান করে", "মশার দেহে জীবাণু জমে"],
+        "correct_order": ["আক্রান্ত প্রাণীর রক্ত পান করে", "মশার দেহে জীবাণু জমে", "মশা লালা প্রবেশ করায়", "জীবাণু প্রাণীর দেহে প্রবেশ করে"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_seq_003",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ম্যালেরিয়ার আবিষ্কারের ইতিহাস",
+        "question_bn": "ম্যালেরিয়া সংক্রান্ত আবিষ্কারের ঘটনাগুলি কালানুক্রমে সাজাও",
+        "items": ["রস নোবেল পুরস্কার পান", "সিঙ্কোনা গাছের ছাল থেকে ওষুধ আবিষ্কার", "লাভেরী রক্তে জীবাণু আবিষ্কার করেন", "রস মশার পাকস্থলীতে জীবাণু আবিষ্কার করেন"],
+        "correct_order": ["সিঙ্কোনা গাছের ছাল থেকে ওষুধ আবিষ্কার", "লাভেরী রক্তে জীবাণু আবিষ্কার করেন", "রস মশার পাকস্থলীতে জীবাণু আবিষ্কার করেন", "রস নোবেল পুরস্কার পান"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_seq_004",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "রোগ প্রতিরোধের ধাপ",
+        "question_bn": "রোগ প্রতিরোধের ধাপগুলি সঠিক ক্রমে সাজাও",
+        "items": ["ভিন্ন দক্ষতাসম্পন্ন মানুষের পুনর্বাসন", "টিকাকরণ কর্মসূচি", "জীবনকুশলতা শিক্ষা", "রোগ নির্ণয় ও চিকিৎসা"],
+        "correct_order": ["টিকাকরণ কর্মসূচি", "রোগ নির্ণয় ও চিকিৎসা", "ভিন্ন দক্ষতাসম্পন্ন মানুষের পুনর্বাসন", "জীবনকুশলতা শিক্ষা"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_seq_005",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মাছির রোগ সংক্রমণ",
+        "question_bn": "মাছির মাধ্যমে খাদ্যে রোগজীবাণু মেশার ধাপগুলি সঠিক ক্রমে সাজাও",
+        "items": ["মাছি রান্না করা খাবারে বসে", "রোগজীবাণু মাছির পায়ে লাগে", "মাছি মল বা পুঁজে বসে", "খাবারে জীবাণু সংক্রমণ ঘটে"],
+        "correct_order": ["মাছি মল বা পুঁজে বসে", "রোগজীবাণু মাছির পায়ে লাগে", "মাছি রান্না করা খাবারে বসে", "খাবারে জীবাণু সংক্রমণ ঘটে"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_seq_006",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "পাস্তুরাইজেশন প্রক্রিয়া",
+        "question_bn": "পাস্তুরাইজেশনের ধাপগুলি সঠিক ক্রমে সাজাও",
+        "items": ["দুধ ৩ ডিগ্রির নীচে নামানো হয়", "দুধ ৭২-৭৫ ডিগ্রিতে গরম করা হয়", "প্যাকেজিং করা হয়", "নির্দিষ্ট তাপমাত্রায় পৌঁছানো হয়"],
+        "correct_order": ["দুধ ৭২-৭৫ ডিগ্রিতে গরম করা হয়", "নির্দিষ্ট তাপমাত্রায় পৌঁছানো হয়", "দুধ ৩ ডিগ্রির নীচে নামানো হয়", "প্যাকেজিং করা হয়"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_seq_007",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "আর্সেনিক দূষণের প্রক্রিয়া",
+        "question_bn": "ভূগর্ভস্থ জলে আর্সেনিক দূষণের ধাপগুলি সঠিক ক্রমে সাজাও",
+        "items": ["দ্রাব্য আর্সেনিক যৌগ জলে মেশে", "মাটির নীচে আর্সেনিকের খনিজ স্তর আছে", "নলকূপের মধ্য দিয়ে অক্সিজেন ঢোকে", "অক্সিজেন আর্সেনিকের সঙ্গে বিক্রিয়া করে"],
+        "correct_order": ["মাটির নীচে আর্সেনিকের খনিজ স্তর আছে", "নলকূপের মধ্য দিয়ে অক্সিজেন ঢোকে", "অক্সিজেন আর্সেনিকের সঙ্গে বিক্রিয়া করে", "দ্রাব্য আর্সেনিক যৌগ জলে মেশে"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_seq_008",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বায়ুবাহিত রোগ সংক্রমণ",
+        "question_bn": "ধুলো সংক্রমণের ধাপগুলি সঠিক ক্রমে সাজাও",
+        "items": ["ধুলোর সঙ্গে জীবাণু নাকে প্রবেশ করে", "বড়ো তরল কণা মাটিতে পড়ে শুকায়", "হাঁচি-কাশিতে বড়ো কণা বেরোয়", "রোগজীবাণু ধুলোর সঙ্গে মেশে"],
+        "correct_order": ["হাঁচি-কাশিতে বড়ো কণা বেরোয়", "বড়ো তরল কণা মাটিতে পড়ে শুকায়", "রোগজীবাণু ধুলোর সঙ্গে মেশে", "ধুলোর সঙ্গে জীবাণু নাকে প্রবেশ করে"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_seq_009",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "প্লেগ সংক্রমণের ধাপ",
+        "question_bn": "ইঁদুর থেকে মানুষে প্লেগ সংক্রমণের ধাপগুলি সঠিক ক্রমে সাজাও",
+        "items": ["উকুন মানুষকে কামড়ায়", "উকুনের পাকস্থলীতে জীবাণু বাড়ে", "ইঁদুরের উকুনে প্লেগ জীবাণু থাকে", "ক্ষতস্থানে জীবাণু বমি করে"],
+        "correct_order": ["ইঁদুরের উকুনে প্লেগ জীবাণু থাকে", "উকুনের পাকস্থলীতে জীবাণু বাড়ে", "উকুন মানুষকে কামড়ায়", "ক্ষতস্থানে জীবাণু বমি করে"]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_seq_010",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "জীবনকুশলতা",
+        "question_bn": "WHO-UNICEF পরিকল্পিত জীবনকুশলতার নিচের চারটি ধাপ সঠিক ক্রমে সাজাও (১ থেকে ৪ নম্বর অনুযায়ী)",
+        "items": ["সমস্যা দূর করা", "আত্মসচেতনতা", "সিদ্ধান্ত নেওয়া", "বিশ্লেষণধর্মী চিন্তা"],
+        "correct_order": ["আত্মসচেতনতা", "বিশ্লেষণধর্মী চিন্তা", "সিদ্ধান্ত নেওয়া", "সমস্যা দূর করা"]
+      }
+    ],
+
+    "categorize": [
+      {
+        "id": "paribesh_o_bigyan_ch12_cat_001",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "রোগের বাহক",
+        "question_bn": "নিচের রোগগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "জলবাহিত রোগ": ["কলেরা", "পোলিও", "ডায়ারিয়া", "টাইফয়েড"],
+          "বায়ুবাহিত রোগ": ["যক্ষ্মা", "গুটিবসন্ত", "সাধারণ সর্দিকাশি", "ডিপথেরিয়া"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_cat_002",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "মশার প্রকার",
+        "question_bn": "নিচের মশাগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "ডেঙ্গু বহনকারী মশা": ["এডিস এজিপ্টি", "এডিস অ্যালবোপিকটাস", "টাইগার মশা", "দিনের বেলায় কামড়ানো মশা"],
+          "ম্যালেরিয়া বহনকারী মশা": ["আনোফিলিস গ্যাম্বিয়া", "আনোফিলিস স্টিফেনসি", "আনোফিলিস কুলিসিফেসিস", "রাতে কামড়ানো মশা"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_cat_003",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "পেশাগত রোগের কারণ",
+        "question_bn": "নিচের কারণগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "ভৌত পরিবেশের কারণ": ["অতিরিক্ত আলো বা অন্ধকার", "এক্স রশ্মির প্রভাব", "অতিরিক্ত শব্দ", "বৈদ্যুতিক শক"],
+          "রাসায়নিক পরিবেশের কারণ": ["পারদের সংস্পর্শ", "আর্সেনিকের সংস্পর্শ", "কয়লার গুঁড়ো শ্বাসে নেওয়া", "সংশ্লেষিত রঞ্জক পদার্থ"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_cat_004",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "খাদ্যে ভেজাল",
+        "question_bn": "নিচের পদার্থগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "খাবারে ক্ষতিকর রং": ["মেটানিল ইয়োলো", "ম্যালাকাইট গ্রিন", "আলকাতরা থেকে তৈরি রং", "অনুমোদনহীন কৃত্রিম রং"],
+          "খাবারে ক্ষতিকর স্বাদবর্ধক": ["আজিনোমোটো", "অনুমোদনহীন রাসায়নিক", "কৃত্রিম সুগন্ধি", "ক্ষতিকর প্রিজারভেটিভ"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_cat_005",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "রোগ ও বাহক",
+        "question_bn": "নিচের রোগগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "মশাবাহিত রোগ": ["ম্যালেরিয়া", "ডেঙ্গু", "গোদ রোগ", "এনকেফালাইটিস"],
+          "মাছিবাহিত রোগ": ["টাইফয়েড", "ডায়ারিয়া", "বালিমাছি জ্বর", "ওনকোসারকিয়াসিস"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_cat_006",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "ধাতু দূষণ",
+        "question_bn": "নিচের ধাতুগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "জলে দ্রবীভূত দূষক ধাতু": ["আর্সেনিক", "ফ্লুওরাইড", "সিসা", "পারদ যৌগ"],
+          "বায়ুবাহিত দূষক ধাতু": ["সিলিকা গুঁড়ো", "অ্যাসবেস্টস তন্তু", "কয়লার ধুলো", "ক্রোমিয়াম ধুলো"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_cat_007",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "মানসিক সমস্যার প্রকার",
+        "question_bn": "নিচের মানসিক সমস্যাগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "শেখার সমস্যা": ["ডিসলেক্সিয়া", "অক্ষর চিনতে অসুবিধা", "বানান মনে না রাখা", "অঙ্ক বুঝতে সমস্যা"],
+          "আচরণগত সমস্যা": ["মনোযোগহীনতা", "ক্রমাগত উদ্বেগ", "মানসিক অবসাদ", "অতিরিক্ত রাগ"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_cat_008",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "খাদ্য অ্যালার্জির লক্ষণ",
+        "question_bn": "নিচের লক্ষণগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "বাহ্যিক অ্যালার্জির লক্ষণ": ["গায়ে লাল চাকা চাকা দাগ", "গা-হাত-পা চুলকানো", "মুখ ও ঠোঁট ফুলে যাওয়া", "চোখ-মুখ লাল হওয়া"],
+          "অভ্যন্তরীণ অ্যালার্জির লক্ষণ": ["বমি", "পেটে ব্যথা", "ডায়ারিয়া", "শ্বাসকষ্ট"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_cat_009",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "বিজ্ঞানী ও দেশ",
+        "question_bn": "নিচের বিজ্ঞানী ও ব্যক্তিত্বদের সঠিক দলে ভাগ করো",
+        "categories": {
+          "ভারতীয় প্রসঙ্গে কাজ করেছেন": ["রোনাল্ড রস", "ভগিনী নিবেদিতা", "চার্লস লাভেরী", "জুয়ান লোপেজ"],
+          "আন্তর্জাতিক স্বাস্থ্য সংস্থা": ["WHO", "UNICEF", "রাষ্ট্রসংঘ", "বিশ্ব স্বাস্থ্য সংস্থা"]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_cat_010",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "খাদ্যে ভেজাল শনাক্তকরণ",
+        "question_bn": "নিচের পরীক্ষাগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "দুধ পরীক্ষা": ["টিংচার আয়োডিন মেশানো", "নীল রং দেখা", "স্টার্চ শনাক্তকরণ", "দুধের রং পরিবর্তন"],
+          "নুন পরীক্ষা": ["কাটা আলুতে নুন মাখানো", "লেবুর রস দেওয়া", "নীল রং দেখা", "আয়োডিনযুক্ত নুন শনাক্তকরণ"]
+        }
+      }
+    ],
+
+    "short_write": [
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_001",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পারদ",
+        "question_bn": "থার্মোমিটারে কোন তরল ধাতু ব্যবহার করা হয়?",
+        "expected_answer": "পারদ",
+        "max_words": 1,
+        "answer_slot_id": 1
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_002",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মিনামাতা",
+        "question_bn": "মিনামাতা শহরটি কোন দেশে?",
+        "expected_answer": "জাপান",
+        "max_words": 1,
+        "answer_slot_id": 2
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_003",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "কলেরা",
+        "question_bn": "কলেরার বাংলা নাম কী?",
+        "expected_answer": "বিসুচিকা",
+        "max_words": 1,
+        "answer_slot_id": 3
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_004",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ম্যালেরিয়া মশা",
+        "question_bn": "ম্যালেরিয়া কোন মশার মাধ্যমে ছড়ায়?",
+        "expected_answer": "আনোফিলিস",
+        "max_words": 1,
+        "answer_slot_id": 4
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_005",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ডেঙ্গু মশা",
+        "question_bn": "ডেঙ্গু কোন মশার মাধ্যমে ছড়ায়?",
+        "expected_answer": "এডিস",
+        "max_words": 1,
+        "answer_slot_id": 5
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_006",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "WHO সদর দপ্তর",
+        "question_bn": "WHO-এর সদর দপ্তর কোন শহরে?",
+        "expected_answer": "জেনিভা",
+        "max_words": 1,
+        "answer_slot_id": 6
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_007",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গুটিবসন্ত নির্মূল",
+        "question_bn": "গুটিবসন্ত নির্মূলে কোন পদ্ধতি ব্যবহৃত হয়েছিল?",
+        "expected_answer": "টিকাদান",
+        "max_words": 1,
+        "answer_slot_id": 7
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_008",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "প্লেগ রোগ",
+        "question_bn": "প্লেগ কোন প্রাণীর মাধ্যমে ছড়ায়?",
+        "expected_answer": "ইঁদুর",
+        "max_words": 1,
+        "answer_slot_id": 8
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_009",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পাস্তুরাইজেশন",
+        "question_bn": "পাস্তুরাইজেশন পদ্ধতি কে আবিষ্কার করেন?",
+        "expected_answer": "লুই পাস্তুর",
+        "max_words": 2,
+        "answer_slot_id": 9
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_010",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ম্যালেরিয়া জীবাণু",
+        "question_bn": "ম্যালেরিয়া জীবাণুর একটি প্রজাতির নাম কী?",
+        "expected_answer": "প্লাসমোডিয়াম ভাইভ্যাক্স",
+        "max_words": 2,
+        "answer_slot_id": 10
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_011",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "টাইফয়েড",
+        "question_bn": "সাধারণ মাছি কোন রোগ ছড়ায়?",
+        "expected_answer": "টাইফয়েড",
+        "max_words": 1,
+        "answer_slot_id": 11
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_012",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "আর্সেনিক জেলা",
+        "question_bn": "পশ্চিমবঙ্গের কোন জেলায় আর্সেনিক দূষণ আছে? (একটির নাম লেখো)",
+        "expected_answer": "মালদহ",
+        "max_words": 1,
+        "answer_slot_id": 12
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_013",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মশার অঙ্গ",
+        "question_bn": "মশার রক্ত পান করার অঙ্গকে কী বলে?",
+        "expected_answer": "প্রোবোসিস",
+        "max_words": 1,
+        "answer_slot_id": 13
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_014",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ORS",
+        "question_bn": "ORS-এর পুরো কথা কী? (ইংরেজিতে)",
+        "expected_answer": "Oral Rehydration Solution",
+        "max_words": 2,
+        "answer_slot_id": 14
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_015",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ল্যাথিরিজম",
+        "question_bn": "কোন ডাল খেলে ল্যাথিরিজম হতে পারে?",
+        "expected_answer": "খেসারি ডাল",
+        "max_words": 2,
+        "answer_slot_id": 15
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_016",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "যক্ষ্মা",
+        "question_bn": "যক্ষ্মার ইংরেজি সংক্ষেপ কী?",
+        "expected_answer": "TB",
+        "max_words": 1,
+        "answer_slot_id": 16
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_017",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পারদের রাসায়নিক চিহ্ন",
+        "question_bn": "পারদের রাসায়নিক চিহ্ন কী?",
+        "expected_answer": "Hg",
+        "max_words": 1,
+        "answer_slot_id": 17
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_018",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মিনামাতা কারখানা",
+        "question_bn": "মিনামাতায় কোন কর্পোরেশনের কারখানা ছিল?",
+        "expected_answer": "চিসো কর্পোরেশন",
+        "max_words": 2,
+        "answer_slot_id": 18
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_019",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গোদ রোগ",
+        "question_bn": "গোদ রোগ কোন মশার মাধ্যমে ছড়ায়?",
+        "expected_answer": "কিউলেক্স",
+        "max_words": 1,
+        "answer_slot_id": 19
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_020",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "প্লেগের নাম",
+        "question_bn": "প্লেগকে কী নামে ডাকা হয়?",
+        "expected_answer": "ব্ল্যাক ডেথ",
+        "max_words": 2,
+        "answer_slot_id": 20
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_021",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "রোনাল্ড রস পুরস্কার",
+        "question_bn": "রোনাল্ড রস কত সালে নোবেল পুরস্কার পান?",
+        "expected_answer": "১৯০২",
+        "max_words": 1,
+        "answer_slot_id": 21
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_022",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "গুটিবসন্ত নির্মূল সাল",
+        "question_bn": "গুটিবসন্ত পৃথিবী থেকে নির্মূল হয় কত সালে?",
+        "expected_answer": "১৯৭৭",
+        "max_words": 1,
+        "answer_slot_id": 22
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_023",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "আজিনোমোটো",
+        "question_bn": "চাউমিনে কোন রাসায়নিক পদার্থ মেশানো হয়?",
+        "expected_answer": "আজিনোমোটো",
+        "max_words": 1,
+        "answer_slot_id": 23
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_024",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মেটানিল ইয়োলো",
+        "question_bn": "ঘুগনিতে হলদে রং আনতে কোন রাসায়নিক পদার্থ ব্যবহার করা হয়?",
+        "expected_answer": "মেটানিল ইয়োলো",
+        "max_words": 2,
+        "answer_slot_id": 24
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_025",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ম্যালেরিয়া আবিষ্কার সাল",
+        "question_bn": "রোনাল্ড রস কত সালে মশায় ম্যালেরিয়া জীবাণু আবিষ্কার করেন?",
+        "expected_answer": "১৮৯৭",
+        "max_words": 1,
+        "answer_slot_id": 25
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_026",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "UNICEF প্রতিষ্ঠা",
+        "question_bn": "UNICEF কত সালে প্রতিষ্ঠিত হয়?",
+        "expected_answer": "১৯৪৬",
+        "max_words": 1,
+        "answer_slot_id": 26
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_027",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "লাভেরী আবিষ্কার",
+        "question_bn": "লাভেরী কোথায় মানুষের রক্তে ম্যালেরিয়া জীবাণু আবিষ্কার করেন?",
+        "expected_answer": "আলজেরিয়া",
+        "max_words": 1,
+        "answer_slot_id": 27
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_028",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সিঙ্কোনা",
+        "question_bn": "ম্যালেরিয়ার ওষুধ কোন গাছ থেকে তৈরি হয়েছিল?",
+        "expected_answer": "সিঙ্কোনা",
+        "max_words": 1,
+        "answer_slot_id": 28
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_029",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "WHO প্রতিষ্ঠা",
+        "question_bn": "WHO কত সালে প্রতিষ্ঠিত হয়?",
+        "expected_answer": "১৯৪৯",
+        "max_words": 1,
+        "answer_slot_id": 29
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_030",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "কলেরার প্রাচীনতা",
+        "question_bn": "ভারতে কলেরার পরিচয় কত বছরের পুরানো?",
+        "expected_answer": "২৫০০ বছর",
+        "max_words": 2,
+        "answer_slot_id": 30
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_031",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পারদ আবিষ্কার সাল",
+        "question_bn": "মিনামাতায় প্রথম কত সালে মানুষের দেহে বিষক্রিয়ার উপসর্গ দেখা যায়?",
+        "expected_answer": "১৯৫৬",
+        "max_words": 1,
+        "answer_slot_id": 31
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_032",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "আর্সেনিক সীমা",
+        "question_bn": "১ লিটার জলে আর্সেনিকের অনুমোদিত সীমা কত মিলিগ্রাম?",
+        "expected_answer": "০.০৫ মিলিগ্রাম",
+        "max_words": 2,
+        "answer_slot_id": 32
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_033",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পাস্তুরাইজেশন তাপমাত্রা",
+        "question_bn": "দুধ পাস্তুরাইজে সর্বোচ্চ তাপমাত্রায় কত সেকেন্ড গরম করা হয়?",
+        "expected_answer": "২ সেকেন্ড",
+        "max_words": 2,
+        "answer_slot_id": 33
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_034",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ম্যালেরিয়া প্রজাতি",
+        "question_bn": "মানুষকে ম্যালেরিয়ায় আক্রান্ত করে এমন প্লাসমোডিয়ামের কটি প্রজাতি আছে?",
+        "expected_answer": "চারটি",
+        "max_words": 1,
+        "answer_slot_id": 34
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_035",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মাছির মলত্যাগ",
+        "question_bn": "মাছি প্রায় কতক্ষণ অন্তর মলত্যাগ করে?",
+        "expected_answer": "৫ মিনিট",
+        "max_words": 2,
+        "answer_slot_id": 35
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_036",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "রোনাল্ড রস",
+        "question_bn": "রোনাল্ড রস কোন হাসপাতালে ম্যালেরিয়া গবেষণার কাজ শেষ করেন?",
+        "expected_answer": "প্রেসিডেন্সি জেনারেল",
+        "max_words": 2,
+        "answer_slot_id": 36
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_037",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মিনামাতা কারখানা সাল",
+        "question_bn": "মিনামাতায় চিসো কর্পোরেশনের কারখানা কত সালে খোলা হয়?",
+        "expected_answer": "১৯০৮",
+        "max_words": 1,
+        "answer_slot_id": 37
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_038",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "লাভেরী আবিষ্কার সাল",
+        "question_bn": "লাভেরী কত সালে রক্তে ম্যালেরিয়া জীবাণু আবিষ্কার করেন?",
+        "expected_answer": "১৮৮০",
+        "max_words": 1,
+        "answer_slot_id": 38
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_039",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "প্লেগ ইউরোপ",
+        "question_bn": "৫৪১-৭০০ খ্রিস্টাব্দে ইউরোপের জনসংখ্যা কত শতাংশ কমেছিল?",
+        "expected_answer": "৫০ শতাংশ",
+        "max_words": 2,
+        "answer_slot_id": 39
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_040",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ম্যালেরিয়া ও মানুষ",
+        "question_bn": "মানুষ আজ থেকে কত বছর আগে কৃষিজীবনে প্রবেশ করে?",
+        "expected_answer": "দশ হাজার",
+        "max_words": 2,
+        "answer_slot_id": 40
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_041",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "সিঙ্কোনা ওষুধ সাল",
+        "question_bn": "কত সালে সিঙ্কোনা গাছ থেকে ম্যালেরিয়ার ওষুধ আবিষ্কার হয়?",
+        "expected_answer": "১৬০০",
+        "max_words": 1,
+        "answer_slot_id": 41
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_042",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "কলকাতায় প্লেগ",
+        "question_bn": "কলকাতায় প্লেগ মহামারি কত সালে দেখা দেয়?",
+        "expected_answer": "১৮৯৯",
+        "max_words": 1,
+        "answer_slot_id": 42
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_043",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মশা-মানুষ পরিচয়",
+        "question_bn": "ম্যালেরিয়া জীবাণুর সঙ্গে মশার পরিচয় কত বছর আগে?",
+        "expected_answer": "৩০ কোটি",
+        "max_words": 2,
+        "answer_slot_id": 43
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_044",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "পাস্তুরাইজেশনের তাপমাত্রা",
+        "question_bn": "দুধ পাস্তুরাইজের পর কত ডিগ্রি সেলসিয়াসের নীচে নামানো হয়?",
+        "expected_answer": "৩ ডিগ্রি",
+        "max_words": 2,
+        "answer_slot_id": 44
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_045",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ড্রপসি রোগ দিল্লি",
+        "question_bn": "ড্রপসি রোগের কারণে দিল্লিতে বড়ো মহামারি কত সালে হয়েছিল?",
+        "expected_answer": "১৯৯৮",
+        "max_words": 1,
+        "answer_slot_id": 45
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_046",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ইমিউন তন্ত্র",
+        "question_bn": "অ্যালার্জির ক্ষেত্রে শরীরের কোন তন্ত্র প্রতিক্রিয়া দেখায়?",
+        "expected_answer": "ইমিউন তন্ত্র",
+        "max_words": 2,
+        "answer_slot_id": 46
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_047",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "এনকেফালাইটিস",
+        "question_bn": "এনকেফালাইটিস কোন মশার মাধ্যমে ছড়ায়?",
+        "expected_answer": "কিউলেক্স",
+        "max_words": 1,
+        "answer_slot_id": 47
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_048",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ভগিনী নিবেদিতা",
+        "question_bn": "প্লেগের বিরুদ্ধে কমিটি গঠন করেছিলেন কে?",
+        "expected_answer": "ভগিনী নিবেদিতা",
+        "max_words": 2,
+        "answer_slot_id": 48
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_049",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সিঙ্কোনা আবিষ্কারক",
+        "question_bn": "সিঙ্কোনা গাছ থেকে ম্যালেরিয়ার ওষুধ আবিষ্কার করেন কে?",
+        "expected_answer": "জুয়ান লোপেজ",
+        "max_words": 2,
+        "answer_slot_id": 49
+      },
+      {
+        "id": "paribesh_o_bigyan_ch12_sw_050",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "রোনাল্ড রস হাসপাতাল",
+        "question_bn": "প্রেসিডেন্সি জেনারেল হাসপাতালের বর্তমান নাম কী?",
+        "expected_answer": "SSKM হাসপাতাল",
+        "max_words": 2,
+        "answer_slot_id": 50
+      }
+    ]
+
+  }
+}

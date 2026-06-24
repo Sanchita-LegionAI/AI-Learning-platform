@@ -1,0 +1,2394 @@
+{
+  "book_id": "paribesh_o_bigyan",
+  "book_name": "Paribesh O Bigyan",
+  "book_name_bn": "পরিবেশ ও বিজ্ঞান",
+  "subject": "science",
+  "class": 8,
+  "chapter_no": 10,
+  "chapter_title_bn": "পরিবেশের সজীব উপাদানের গঠনগত বৈচিত্র্য ও কার্যগত প্রক্রিয়া",
+  "source_file": "paribesh_o_bigyan_ch10_questions.json",
+  "questions": {
+    "mcq": [
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_001",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মূলের অংশ",
+        "question_bn": "মূলের একেবারে ডগায় যে টুপির মতো অংশ থাকে তাকে কী বলে?",
+        "options": [
+          "মূলরোম অঞ্চল",
+          "মূলত্র",
+          "বর্ধনশীল অঞ্চল",
+          "স্থায়ী অঞ্চল",
+          "পর্বমধ্য"
+        ],
+        "correct_answer": "মূলত্র"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_002",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মূলের কাজ",
+        "question_bn": "মাটি থেকে জল ও খনিজ পদার্থ শোষণ করে মূলের কোন অঞ্চল?",
+        "options": [
+          "মূলত্র অঞ্চল",
+          "বর্ধনশীল অঞ্চল",
+          "মূলরোম অঞ্চল",
+          "স্থায়ী অঞ্চল",
+          "পর্বমধ্য অঞ্চল"
+        ],
+        "correct_answer": "মূলরোম অঞ্চল"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_003",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মূলের অঞ্চল",
+        "question_bn": "মাটির সঙ্গে গাছকে আটকে রাখা কোন অঞ্চলের কাজ?",
+        "options": [
+          "মূলত্র অঞ্চল",
+          "বর্ধনশীল অঞ্চল",
+          "মূলরোম অঞ্চল",
+          "স্থায়ী অঞ্চল",
+          "মূলরোম ও স্থায়ী উভয় অঞ্চল"
+        ],
+        "correct_answer": "স্থায়ী অঞ্চল"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_004",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "কাণ্ডের অংশ",
+        "question_bn": "কাণ্ডে যেখানে পাতা, ফুল বা ডাল যুক্ত থাকে তাকে কী বলে?",
+        "options": [
+          "পর্বমধ্য",
+          "পর্ব",
+          "মূলরোম",
+          "বর্ধনশীল অঞ্চল",
+          "ফলক"
+        ],
+        "correct_answer": "পর্ব"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_005",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পাতার অংশ",
+        "question_bn": "পাতার চওড়া প্রসারিত অংশটিকে কী বলে?",
+        "options": [
+          "পত্রমূল",
+          "পত্রবৃত্ত",
+          "পত্রফলক",
+          "পর্বমধ্য",
+          "পত্রকক্ষ"
+        ],
+        "correct_answer": "পত্রফলক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_006",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ফুলের অংশ",
+        "question_bn": "ফুলের সবুজ ঘন্টার মতো অংশটিকে কী বলে?",
+        "options": [
+          "দলমণ্ডল",
+          "পুংকেশর",
+          "গর্ভকেশর",
+          "বৃতি",
+          "পরাগধানী"
+        ],
+        "correct_answer": "বৃতি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_007",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পরাগরেণু",
+        "question_bn": "পরাগধানীর মধ্যে থাকা হলুদ পাউডারের মতো অংশটিকে কী বলে?",
+        "options": [
+          "গর্ভমুণ্ড",
+          "পুংদণ্ড",
+          "পরাগরেণু",
+          "ডিম্বক",
+          "গর্ভদণ্ড"
+        ],
+        "correct_answer": "পরাগরেণু"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_008",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ব্যাপন",
+        "question_bn": "অধিক ঘনত্বের স্থান থেকে কম ঘনত্বের স্থানে অণুর ছড়িয়ে পড়াকে কী বলে?",
+        "options": [
+          "অভিত্রবণ",
+          "পরিবহণ",
+          "রেচন",
+          "ব্যাপন",
+          "শোষণ"
+        ],
+        "correct_answer": "ব্যাপন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_009",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "অঙ্কুরোদগম",
+        "question_bn": "বীজ থেকে চারাগাছ তৈরির প্রক্রিয়াকে কী বলে?",
+        "options": [
+          "পরাগযোগ",
+          "পরিস্রবণ",
+          "অঙ্কুরোদগম",
+          "নিষেক",
+          "বাষ্পমোচন"
+        ],
+        "correct_answer": "অঙ্কুরোদগম"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_010",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ফলের অংশ",
+        "question_bn": "আমের যে রসালো অংশটি আমরা খাই সেটি ফলত্বকের কোন স্তর?",
+        "options": [
+          "বহিঃত্বক",
+          "অন্তঃত্বক",
+          "মধ্যত্বক",
+          "বীজপত্র",
+          "ভ্রূণমূল"
+        ],
+        "correct_answer": "মধ্যত্বক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_011",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বীজের অংশ",
+        "question_bn": "বীজের মধ্যে ছোটো গাছটিকে কী বলে?",
+        "options": [
+          "বীজপত্র",
+          "বীজত্বক",
+          "ভ্রূণ",
+          "শস্য",
+          "মাইক্রোপাইল"
+        ],
+        "correct_answer": "ভ্রূণ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_012",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পাতার শিরাবিন্যাস",
+        "question_bn": "জবা পাতায় যে শিরাবিন্যাস দেখা যায় তা কোন ধরনের?",
+        "options": [
+          "সমান্তরাল শিরাবিন্যাস",
+          "জালিকা শিরাবিন্যাস",
+          "বিচ্ছিন্ন শিরাবিন্যাস",
+          "অরীয় শিরাবিন্যাস",
+          "বৃত্তাকার শিরাবিন্যাস"
+        ],
+        "correct_answer": "জালিকা শিরাবিন্যাস"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_013",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "স্বপরাগযোগ",
+        "question_bn": "কোনো ফুলের পরাগরেণু যখন ওই ফুলের গর্ভমুণ্ডে পড়ে তাকে কী বলে?",
+        "options": [
+          "ইতরপরাগযোগ",
+          "পরনিষেক",
+          "স্বপরাগযোগ",
+          "কৃত্রিম পরাগযোগ",
+          "বায়ুপরাগযোগ"
+        ],
+        "correct_answer": "স্বপরাগযোগ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_014",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ফলের উৎস",
+        "question_bn": "ফুলের কোন অংশ থেকে ফল তৈরি হয়?",
+        "options": [
+          "বৃতি",
+          "পাপড়ি",
+          "পুংকেশর",
+          "গর্ভাশয়",
+          "পরাগধানী"
+        ],
+        "correct_answer": "গর্ভাশয়"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_015",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মূলের উৎস",
+        "question_bn": "বীজের কোন অংশ থেকে মূল তৈরি হয়?",
+        "options": [
+          "বীজপত্র",
+          "ভ্রূণমূল",
+          "ভ্রূণকাণ্ড",
+          "বীজত্বক",
+          "শস্য"
+        ],
+        "correct_answer": "ভ্রূণমূল"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_016",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মটর বীজ",
+        "question_bn": "মটর বীজে কতটি বীজপত্র থাকে?",
+        "options": [
+          "একটি",
+          "দুটি",
+          "তিনটি",
+          "চারটি",
+          "পাঁচটি"
+        ],
+        "correct_answer": "দুটি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_017",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ভুট্টা বীজ",
+        "question_bn": "ভুট্টা বীজে কতটি বীজপত্র থাকে?",
+        "options": [
+          "একটি",
+          "দুটি",
+          "তিনটি",
+          "চারটি",
+          "পাঁচটি"
+        ],
+        "correct_answer": "একটি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_018",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পরিবর্তিত কাণ্ড",
+        "question_bn": "আলু গাছের কোন অংশ খাদ্য সঞ্চয় করে রাখে?",
+        "options": [
+          "মূল",
+          "পাতা",
+          "ফুল",
+          "পরিবর্তিত কাণ্ড",
+          "ফল"
+        ],
+        "correct_answer": "পরিবর্তিত কাণ্ড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_019",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পাতার কাজ",
+        "question_bn": "সালোকসংশ্লেষণ প্রক্রিয়ায় গাছের কোন অঙ্গ খাদ্য তৈরি করে?",
+        "options": [
+          "মূল",
+          "কাণ্ড",
+          "পাতা",
+          "ফুল",
+          "বীজ"
+        ],
+        "correct_answer": "পাতা"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_020",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "অভিত্রবণ",
+        "question_bn": "অর্ধভেদ্য পর্দার মধ্য দিয়ে দ্রাবকের অণু চলাচলের ঘটনাকে কী বলে?",
+        "options": [
+          "ব্যাপন",
+          "পরিবহণ",
+          "অভিত্রবণ",
+          "বাষ্পমোচন",
+          "শোষণ"
+        ],
+        "correct_answer": "অভিত্রবণ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_021",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মূলের কাজ",
+        "question_bn": "মটর গাছের মূলে কোন অণুজীব বাস করে যা মাটিতে নাইট্রোজেন সংযোজন করে?",
+        "options": [
+          "মাইকোরাইজা",
+          "অ্যাজোটোব্যাকটর",
+          "রাইজোবিয়াম",
+          "ক্লস্ট্রিডিয়াম",
+          "নাইট্রোসোমোনাস"
+        ],
+        "correct_answer": "রাইজোবিয়াম"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_022",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পাইন গাছের মূল",
+        "question_bn": "পাইন জাতীয় গাছের মূলে কোন ধরনের জীব বসবাস করে?",
+        "options": [
+          "ব্যাকটেরিয়া",
+          "ছত্রাক (মাইকোরাইজা)",
+          "শৈবাল",
+          "ভাইরাস",
+          "প্রোটোজোয়া"
+        ],
+        "correct_answer": "ছত্রাক (মাইকোরাইজা)"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_023",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ফুলের অংশ",
+        "question_bn": "পুংকেশরের কোন অংশে পরাগরেণু থাকে?",
+        "options": [
+          "পুংদণ্ড",
+          "গর্ভদণ্ড",
+          "পরাগধানী",
+          "গর্ভমুণ্ড",
+          "ডিম্বাশয়"
+        ],
+        "correct_answer": "পরাগধানী"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_024",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গর্ভকেশর",
+        "question_bn": "গর্ভকেশরের কোন অংশে পরাগরেণু পড়ে নিষেক ঘটে?",
+        "options": [
+          "গর্ভাশয়",
+          "গর্ভদণ্ড",
+          "গর্ভমুণ্ড",
+          "ডিম্বক",
+          "পুংদণ্ড"
+        ],
+        "correct_answer": "গর্ভমুণ্ড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_025",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ইতরপরাগযোগ",
+        "question_bn": "কোনো ফুলের পরাগরেণু একই ধরনের ভিন্ন গাছের ফুলের গর্ভমুণ্ডে পড়লে তাকে কী বলে?",
+        "options": [
+          "স্বপরাগযোগ",
+          "মুক্তপরাগযোগ",
+          "ইতরপরাগযোগ",
+          "কৃত্রিম পরাগযোগ",
+          "সংকরায়ণ"
+        ],
+        "correct_answer": "ইতরপরাগযোগ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_026",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ব্যাপনের বৈশিষ্ট্য",
+        "question_bn": "তাপমাত্রা বাড়লে ব্যাপনের হার কেমন হয়?",
+        "options": [
+          "কমে যায়",
+          "একই থাকে",
+          "বেড়ে যায়",
+          "প্রথমে বাড়ে তারপর কমে",
+          "শূন্য হয়ে যায়"
+        ],
+        "correct_answer": "বেড়ে যায়"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_027",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "অভিত্রবণ চাপ",
+        "question_bn": "কোনো কোশের বাইরের দ্রবণের অভিত্রবণ চাপ কোশের ভেতরের চেয়ে বেশি হলে সেই দ্রবণকে কী বলে?",
+        "options": [
+          "হাইপোটনিক",
+          "আইসোটনিক",
+          "হাইপারটনিক",
+          "অ্যাটনিক",
+          "নিউট্রাল"
+        ],
+        "correct_answer": "হাইপারটনিক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_028",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "অভিত্রবণ",
+        "question_bn": "গাছের মূলরোমের মাধ্যমে মাটি থেকে জল শোষণ কোন প্রক্রিয়ায় হয়?",
+        "options": [
+          "ব্যাপন",
+          "পরিবহণ",
+          "অভিত্রবণ",
+          "বাষ্পমোচন",
+          "ছাঁকন"
+        ],
+        "correct_answer": "অভিত্রবণ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_029",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মৃদভেদী অঙ্কুরোদগম",
+        "question_bn": "কুমড়োর বীজের অঙ্কুরোদগমের সময় বীজপত্র মাটির ওপরে উঠে আসে — এই ধরনের অঙ্কুরোদগমকে কী বলে?",
+        "options": [
+          "মৃদবর্তী অঙ্কুরোদগম",
+          "অন্ধকার অঙ্কুরোদগম",
+          "মৃদভেদী অঙ্কুরোদগম",
+          "বায়বীয় অঙ্কুরোদগম",
+          "জলীয় অঙ্কুরোদগম"
+        ],
+        "correct_answer": "মৃদভেদী অঙ্কুরোদগম"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_030",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মৃদবর্তী অঙ্কুরোদগম",
+        "question_bn": "মটর ও ছোলার বীজের অঙ্কুরোদগমে বীজপত্র মাটির নিচে থাকে — এই ধরনের অঙ্কুরোদগমকে কী বলে?",
+        "options": [
+          "মৃদভেদী অঙ্কুরোদগম",
+          "বায়বীয় অঙ্কুরোদগম",
+          "মৃদবর্তী অঙ্কুরোদগম",
+          "আলোক অঙ্কুরোদগম",
+          "উপরিস্থ অঙ্কুরোদগম"
+        ],
+        "correct_answer": "মৃদবর্তী অঙ্কুরোদগম"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_031",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ফলত্বক",
+        "question_bn": "আমের ফলত্বকের কোন স্তরটি কাঁচা অবস্থায় সবুজ ও পাকলে হলুদ হয়?",
+        "options": [
+          "অন্তঃত্বক",
+          "মধ্যত্বক",
+          "বহিঃত্বক",
+          "বীজত্বক",
+          "পেরিকার্প"
+        ],
+        "correct_answer": "বহিঃত্বক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_032",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বীজের উৎস",
+        "question_bn": "ফুলের কোন অংশ থেকে বীজ তৈরি হয়?",
+        "options": [
+          "গর্ভাশয়",
+          "ডিম্বক",
+          "পুংকেশর",
+          "বৃতি",
+          "পাপড়ি"
+        ],
+        "correct_answer": "ডিম্বক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_033",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পাতার শিরাবিন্যাস",
+        "question_bn": "কলা পাতায় কোন ধরনের শিরাবিন্যাস দেখা যায়?",
+        "options": [
+          "জালিকা শিরাবিন্যাস",
+          "বিচ্ছিন্ন শিরাবিন্যাস",
+          "অরীয় শিরাবিন্যাস",
+          "সমান্তরাল শিরাবিন্যাস",
+          "বৃত্তাকার শিরাবিন্যাস"
+        ],
+        "correct_answer": "সমান্তরাল শিরাবিন্যাস"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_034",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "যৌগিক পত্র",
+        "question_bn": "যে পাতার ফলক অনেকগুলো খণ্ডে ভাগ হয়ে যায় তাকে কী বলে?",
+        "options": [
+          "একক পত্র",
+          "সরল পত্র",
+          "যৌগিক পত্র",
+          "রূপান্তরিত পত্র",
+          "বৃহৎ পত্র"
+        ],
+        "correct_answer": "যৌগিক পত্র"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_035",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পরাগযোগের বাধা",
+        "question_bn": "কীটনাশকের অতিরিক্ত ব্যবহারে কোন উপকারী পতঙ্গের সংখ্যা কমে পরাগযোগ ব্যাহত হয়?",
+        "options": [
+          "প্রজাপতি",
+          "মৌমাছি",
+          "গুবরেপোকা",
+          "ফড়িং",
+          "ঘাসফড়িং"
+        ],
+        "correct_answer": "মৌমাছি"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_036",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ফেরোমোন",
+        "question_bn": "পোকামাকড় ও প্রাণীদের প্রজননে গুরুত্বপূর্ণ উদ্বায়ী রাসায়নিক পদার্থকে কী বলে?",
+        "options": [
+          "হরমোন",
+          "এনজাইম",
+          "ফেরোমোন",
+          "ভিটামিন",
+          "অ্যান্টিবায়োটিক"
+        ],
+        "correct_answer": "ফেরোমোন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_037",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "জেকবসন অঙ্গ",
+        "question_bn": "সাপের মুখের ভেতরে তালুতে কোন বিশেষ অঙ্গ থাকে যা গন্ধ বিশ্লেষণে সাহায্য করে?",
+        "options": [
+          "ঘ্রাণেন্দ্রিয়",
+          "জেকবসন অঙ্গ",
+          "পিটঅর্গান",
+          "কর্ণপর্দা",
+          "লার্নক্স"
+        ],
+        "correct_answer": "জেকবসন অঙ্গ"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_038",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "অ্যান্টিবায়োটিক",
+        "question_bn": "পেনিসিলিন কীভাবে ব্যাকটেরিয়াকে মারে?",
+        "options": [
+          "কোশপর্দা ভেঙে",
+          "ব্যাকটেরিয়ার ডিএনএ নষ্ট করে",
+          "কোশপ্রাচীর তৈরিতে বাধা দিয়ে",
+          "শ্বাসক্রিয়া বন্ধ করে",
+          "খাদ্য শোষণে বাধা দিয়ে"
+        ],
+        "correct_answer": "কোশপ্রাচীর তৈরিতে বাধা দিয়ে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_039",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "জল শোষণ",
+        "question_bn": "গাছের মূল থেকে পাতায় শোষিত জল কোন নলগুলো দিয়ে বাহিত হয়?",
+        "options": [
+          "ফ্লোয়েম নল",
+          "জাইলেম নল",
+          "লিম্ফ নল",
+          "গ্রীবানল",
+          "বায়ুনল"
+        ],
+        "correct_answer": "জাইলেম নল"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_040",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ওআরএস",
+        "question_bn": "ডায়ারিয়ায় জল ও লবণের অভাব পূরণে কোন দ্রবণ ব্যবহার করা হয়?",
+        "options": [
+          "গ্লুকোজ দ্রবণ",
+          "স্যালাইন দ্রবণ",
+          "ওরাল রিহাইড্রেশন সলিউশন (ওআরএস)",
+          "ভিনেগার দ্রবণ",
+          "বরিক অ্যাসিড দ্রবণ"
+        ],
+        "correct_answer": "ওরাল রিহাইড্রেশন সলিউশন (ওআরএস)"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_041",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "আইসোটনিক দ্রবণ",
+        "question_bn": "দুটি দ্রবণের অভিত্রবণ চাপ সমান হলে তাদের পরস্পরের সাপেক্ষে কী বলে?",
+        "options": [
+          "হাইপারটনিক",
+          "হাইপোটনিক",
+          "আইসোটনিক",
+          "হাইপোথার্মিক",
+          "অ্যাটনিক"
+        ],
+        "correct_answer": "আইসোটনিক"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_042",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ব্যাপনের হার",
+        "question_bn": "একই উষ্ণতায় কোন অবস্থায় ব্যাপন দ্রুততর হয়?",
+        "options": [
+          "কঠিন অবস্থায়",
+          "তরল অবস্থায়",
+          "গ্যাসীয় অবস্থায়",
+          "প্লাজমা অবস্থায়",
+          "সকল অবস্থায় সমান"
+        ],
+        "correct_answer": "গ্যাসীয় অবস্থায়"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_043",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "হাইপারটনিক",
+        "question_bn": "কলেরা রোগীর শিরায় গাঢ় নুনজল দিলে লোহিত রক্তকণিকার কী হবে?",
+        "options": [
+          "কণিকা ফুলে যাবে",
+          "কণিকা অপরিবর্তিত থাকবে",
+          "কণিকা কুঁচকে যাবে",
+          "কণিকা বিভাজিত হবে",
+          "কণিকার রং পরিবর্তন হবে"
+        ],
+        "correct_answer": "কণিকা কুঁচকে যাবে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_044",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ব্যাপনের হার",
+        "question_bn": "একই উষ্ণতায় হালকা অণুর তুলনায় ভারী অণুর ব্যাপন কেমন?",
+        "options": [
+          "দ্রুততর",
+          "একই হারে",
+          "ধীরে",
+          "অনেক দ্রুত",
+          "বন্ধ হয়ে যায়"
+        ],
+        "correct_answer": "ধীরে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_045",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মিষ্টি জলের মাছ",
+        "question_bn": "পুকুরের মাছ নিজের দেহে জলের পরিমাণ স্বাভাবিক রাখতে কী করে?",
+        "options": [
+          "একেবারে জল পান করে না",
+          "অত্যন্ত অল্প মূত্র ত্যাগ করে",
+          "সারা দিন অনেকটা জল মূত্রের মাধ্যমে বের করে",
+          "দেহ থেকে অনেকটা লবণ বের করে",
+          "বেশি খাবার খায়"
+        ],
+        "correct_answer": "সারা দিন অনেকটা জল মূত্রের মাধ্যমে বের করে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_046",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "সমুদ্রের মাছ",
+        "question_bn": "সমুদ্রের মাছ নিজের দেহে জলের পরিমাণ স্বাভাবিক রাখতে কী করে?",
+        "options": [
+          "সারাদিন অনেকটা জল মূত্রের মাধ্যমে বের করে",
+          "অত্যন্ত অল্প মূত্র ত্যাগ করে",
+          "দেহে অতিরিক্ত জল সঞ্চয় করে",
+          "বেশি খাবার খায়",
+          "শ্বাসক্রিয়া কমিয়ে দেয়"
+        ],
+        "correct_answer": "অত্যন্ত অল্প মূত্র ত্যাগ করে"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_047",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "হাইড্রোজেন সালফাইড",
+        "question_bn": "বন্ধ নর্দমায় কোন বিষাক্ত গ্যাস জমে থাকে যা মানুষের মৃত্যু ঘটাতে পারে?",
+        "options": [
+          "কার্বন ডাইঅক্সাইড",
+          "নাইট্রোজেন",
+          "হাইড্রোজেন সালফাইড",
+          "অ্যামোনিয়া",
+          "মিথেন"
+        ],
+        "correct_answer": "হাইড্রোজেন সালফাইড"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_048",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "সেফালোস্পোরিন",
+        "question_bn": "ব্যাকটেরিয়াঘটিত রোগের চিকিৎসায় পেনিসিলিনের সঙ্গে কোন অ্যান্টিবায়োটিক ব্যবহৃত হয়?",
+        "options": [
+          "টেট্রাসাইক্লিন",
+          "সেফালোস্পোরিন",
+          "এরিথ্রোমাইসিন",
+          "স্ট্রেপ্টোমাইসিন",
+          "ক্লোরামফেনিকল"
+        ],
+        "correct_answer": "সেফালোস্পোরিন"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_049",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মূলের বৃদ্ধি",
+        "question_bn": "মূলের কোন অঞ্চলে কোশ বিভাজনের ফলে মূল লম্বায় বাড়ে?",
+        "options": [
+          "মূলত্র অঞ্চল",
+          "স্থায়ী অঞ্চল",
+          "মূলরোম অঞ্চল",
+          "বর্ধনশীল অঞ্চল",
+          "সংবহন অঞ্চল"
+        ],
+        "correct_answer": "বর্ধনশীল অঞ্চল"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_mcq_050",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "পরাগমিলনে বাধা",
+        "question_bn": "উষ্ণতার তারতম্যের কারণে পরাগযোগ ব্যাহত হওয়ার মূল কারণ কোনটি?",
+        "options": [
+          "পতঙ্গের সংখ্যা বাড়ে",
+          "ফুল ফোটার সময় পরিবর্তিত হয়",
+          "পরাগরেণু নষ্ট হয়ে যায়",
+          "গর্ভমুণ্ড শুকিয়ে যায়",
+          "মাটিতে পুষ্টির অভাব হয়"
+        ],
+        "correct_answer": "ফুল ফোটার সময় পরিবর্তিত হয়"
+      }
+    ],
+    "match_pairs": [
+      {
+        "id": "paribesh_o_bigyan_ch10_match_001",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মূলের অঞ্চল",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "মূলত্র",
+            "right": "মাটিতে ঢোকার সময় নরম অংশকে রক্ষা করে"
+          },
+          {
+            "left": "বর্ধনশীল অঞ্চল",
+            "right": "কোশ বিভাজনে মূল লম্বা হয়"
+          },
+          {
+            "left": "মূলরোম অঞ্চল",
+            "right": "মাটি থেকে জল শোষণ করে"
+          },
+          {
+            "left": "স্থায়ী অঞ্চল",
+            "right": "গাছকে মাটিতে আটকে রাখে"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_match_002",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ফুলের অংশ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "বৃতি",
+            "right": "সবুজ ঘন্টার মতো অংশ"
+          },
+          {
+            "left": "পাপড়ি",
+            "right": "রঙিন দলমণ্ডল গঠন করে"
+          },
+          {
+            "left": "পুংকেশর",
+            "right": "পুংদণ্ড ও পরাগধানী নিয়ে গঠিত"
+          },
+          {
+            "left": "গর্ভকেশর",
+            "right": "গর্ভাশয়, গর্ভদণ্ড ও গর্ভমুণ্ড নিয়ে গঠিত"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_match_003",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পরিবর্তিত কাণ্ড",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "আলু",
+            "right": "রূপান্তরিত মৃদগত কাণ্ড"
+          },
+          {
+            "left": "আদা",
+            "right": "রাইজোম"
+          },
+          {
+            "left": "পেঁয়াজ",
+            "right": "বৃপাস্তরিত মৃদগত কাণ্ড"
+          },
+          {
+            "left": "ক্যাকটাস",
+            "right": "পর্ণকাণ্ড"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_match_004",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ফলের অংশ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "বহিঃত্বক",
+            "right": "আমের খোসা"
+          },
+          {
+            "left": "মধ্যত্বক",
+            "right": "রসালো শাঁস"
+          },
+          {
+            "left": "অন্তঃত্বক",
+            "right": "শক্ত আঁটি"
+          },
+          {
+            "left": "ডিম্বক",
+            "right": "বীজে পরিণত হয়"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_match_005",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বীজের অংশ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "বীজত্বক",
+            "right": "বীজের বাইরের আবরণ"
+          },
+          {
+            "left": "বীজপত্র",
+            "right": "খাদ্য সঞ্চয় করে রাখে"
+          },
+          {
+            "left": "ভ্রূণমূল",
+            "right": "চারাগাছের মূল তৈরি করে"
+          },
+          {
+            "left": "ভ্রূণকাণ্ড",
+            "right": "চারাগাছের কাণ্ড তৈরি করে"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_match_006",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পরাগযোগ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "স্বপরাগযোগ",
+            "right": "একই ফুলের পরাগরেণু সেই ফুলের গর্ভমুণ্ডে"
+          },
+          {
+            "left": "ইতরপরাগযোগ",
+            "right": "ভিন্ন গাছের ফুলের গর্ভমুণ্ডে পরাগরেণু"
+          },
+          {
+            "left": "মৌমাছি",
+            "right": "পতঙ্গ-পরাগী পরাগযোগ ঘটায়"
+          },
+          {
+            "left": "বায়ু",
+            "right": "বায়ুপরাগী পরাগযোগ ঘটায়"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_match_007",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "অভিত্রবণ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "হাইপারটনিক দ্রবণ",
+            "right": "কোশ থেকে জল বেরিয়ে যায়"
+          },
+          {
+            "left": "হাইপোটনিক দ্রবণ",
+            "right": "কোশের ভেতরে জল ঢোকে"
+          },
+          {
+            "left": "আইসোটনিক দ্রবণ",
+            "right": "অভিত্রবণ চাপ সমান থাকে"
+          },
+          {
+            "left": "অর্ধভেদ্য পর্দা",
+            "right": "জলের অণু পারে, চিনির অণু পারে না"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_match_008",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "অঙ্কুরোদগম",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "মৃদভেদী অঙ্কুরোদগম",
+            "right": "বীজপত্র মাটির ওপরে ওঠে (কুমড়ো)"
+          },
+          {
+            "left": "মৃদবর্তী অঙ্কুরোদগম",
+            "right": "বীজপত্র মাটিতেই থাকে (মটর)"
+          },
+          {
+            "left": "অঙ্কুরোদগমে জলের ভূমিকা",
+            "right": "শোষণের মাধ্যমে ভ্রূণকে সক্রিয় করে"
+          },
+          {
+            "left": "অঙ্কুরোদগমে বায়ুর ভূমিকা",
+            "right": "শ্বাসক্রিয়ায় শক্তি জোগায়"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_match_009",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ব্যাপন",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "ধূপের গন্ধ ছড়ানো",
+            "right": "গ্যাসীয় ব্যাপনের উদাহরণ"
+          },
+          {
+            "left": "জলে কালি ছড়ানো",
+            "right": "তরলে ব্যাপনের উদাহরণ"
+          },
+          {
+            "left": "তাপমাত্রা বৃদ্ধি",
+            "right": "ব্যাপনের হার বাড়ায়"
+          },
+          {
+            "left": "ভারী অণু",
+            "right": "ব্যাপনের হার কম হয়"
+          }
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_match_010",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মাছের অভিত্রবণ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "মিষ্টি জলের মাছ",
+            "right": "প্রচুর তরল মূত্র ত্যাগ করে"
+          },
+          {
+            "left": "নোনা জলের মাছ",
+            "right": "অত্যন্ত কম মূত্র ত্যাগ করে"
+          },
+          {
+            "left": "নোনা জলে ভেজানো কিশমিশ",
+            "right": "কুঁচকে ছোটো হয়"
+          },
+          {
+            "left": "সাধারণ জলে ভেজানো কিশমিশ",
+            "right": "ফুলে বড়ো হয়"
+          }
+        ]
+      }
+    ],
+    "true_false": [
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_001",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মূলের গঠন",
+        "question_bn": "মূলে কোনো পর্ব বা নোড থাকে না।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_002",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মূলের কাজ",
+        "question_bn": "মূলরোম অঞ্চল দিয়ে গাছ মাটি থেকে জল শোষণ করে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_003",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পাতার অংশ",
+        "question_bn": "সব গাছের পাতায় পত্রবৃত্ত থাকে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_004",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ফুলের অংশ",
+        "question_bn": "জবাফুলে পুংকেশর ও গর্ভকেশর উভয়ই থাকে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_005",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ফলের গঠন",
+        "question_bn": "আম একটি যৌগিক ফল।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_006",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বীজের গঠন",
+        "question_bn": "মটর বীজে দুটি বীজপত্র থাকে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_007",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ব্যাপন",
+        "question_bn": "ব্যাপনে অণু কম ঘনত্ব থেকে বেশি ঘনত্বের দিকে যায়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_008",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "অঙ্কুরোদগম",
+        "question_bn": "অঙ্কুরোদগমের জন্য জল একটি অপরিহার্য শর্ত।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_009",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পরাগযোগ",
+        "question_bn": "স্বপরাগযোগে ভিন্ন গাছের পরাগরেণু একটি ফুলের গর্ভমুণ্ডে পড়ে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_010",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "অভিত্রবণ",
+        "question_bn": "অভিত্রবণে দ্রাবকের অণু অর্ধভেদ্য পর্দার মধ্য দিয়ে যেতে পারে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_011",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পরিবর্তিত কাণ্ড",
+        "question_bn": "আলু আসলে গাছের পরিবর্তিত মূল।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_012",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পরাগযোগ",
+        "question_bn": "মৌমাছি পরাগযোগে সাহায্য করে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_013",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ব্যাপনের হার",
+        "question_bn": "তাপমাত্রা কমলে ব্যাপনের হার বেড়ে যায়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_014",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মৃদভেদী অঙ্কুরোদগম",
+        "question_bn": "কুমড়োর বীজের অঙ্কুরোদগমে বীজপত্র মাটির ওপরে উঠে আসে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_015",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মৃদবর্তী অঙ্কুরোদগম",
+        "question_bn": "আমের বীজের অঙ্কুরোদগমে বীজপত্র মাটির ওপরে উঠে আসে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_016",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "রাইজোবিয়াম",
+        "question_bn": "মটর গাছের মূলে রাইজোবিয়াম অণুজীব মাটিতে নাইট্রোজেন সংযোজন করে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_017",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "অভিত্রবণ চাপ",
+        "question_bn": "গাঢ় চিনির দ্রবণের অভিত্রবণ চাপ পাতলা দ্রবণের চেয়ে কম।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_018",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "হাইপারটনিক",
+        "question_bn": "হাইপারটনিক দ্রবণে রাখলে কোশ থেকে জল বেরিয়ে যায়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_019",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "পেনিসিলিন",
+        "question_bn": "পেনিসিলিন ব্যাকটেরিয়ার ডিএনএ নষ্ট করে কোশ মারে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_tf_020",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "H2S গ্যাস",
+        "question_bn": "হাইড্রোজেন সালফাইড গ্যাস বাতাসের চেয়ে ভারী বলে বন্ধ নর্দমায় জমে থাকে।",
+        "correct_answer": "true"
+      }
+    ],
+    "tap_sequence": [
+      {
+        "id": "paribesh_o_bigyan_ch10_seq_001",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মূলের অঞ্চল",
+        "question_bn": "মূলের অঞ্চলগুলি ডগা থেকে ওপরের দিকে সঠিক ক্রমে সাজাও",
+        "items": [
+          "মূলরোম অঞ্চল",
+          "স্থায়ী অঞ্চল",
+          "বর্ধনশীল অঞ্চল",
+          "মূলত্র অঞ্চল"
+        ],
+        "correct_order": [
+          "মূলত্র অঞ্চল",
+          "বর্ধনশীল অঞ্চল",
+          "মূলরোম অঞ্চল",
+          "স্থায়ী অঞ্চল"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_seq_002",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ফুলের অংশ",
+        "question_bn": "ফুলের অংশগুলি বাইরে থেকে ভেতরের দিকে সঠিক ক্রমে সাজাও",
+        "items": [
+          "পুংকেশর",
+          "গর্ভকেশর",
+          "বৃতি",
+          "পাপড়ি"
+        ],
+        "correct_order": [
+          "বৃতি",
+          "পাপড়ি",
+          "পুংকেশর",
+          "গর্ভকেশর"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_seq_003",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "আমের ফলত্বক",
+        "question_bn": "আমের ফলত্বকের স্তরগুলি বাইরে থেকে ভেতরের দিকে সঠিক ক্রমে সাজাও",
+        "items": [
+          "অন্তঃত্বক",
+          "মধ্যত্বক",
+          "বীজ",
+          "বহিঃত্বক"
+        ],
+        "correct_order": [
+          "বহিঃত্বক",
+          "মধ্যত্বক",
+          "অন্তঃত্বক",
+          "বীজ"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_seq_004",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পরাগযোগ থেকে ফল",
+        "question_bn": "ফল তৈরির ধাপগুলি সঠিক ক্রমে সাজাও",
+        "items": [
+          "ডিম্বক বীজে পরিণত হয়",
+          "পরাগরেণু গর্ভমুণ্ডে পড়ে",
+          "গর্ভাশয় ফলে পরিণত হয়",
+          "ডিম্বকের সঙ্গে মিলন ঘটে"
+        ],
+        "correct_order": [
+          "পরাগরেণু গর্ভমুণ্ডে পড়ে",
+          "ডিম্বকের সঙ্গে মিলন ঘটে",
+          "গর্ভাশয় ফলে পরিণত হয়",
+          "ডিম্বক বীজে পরিণত হয়"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_seq_005",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "অঙ্কুরোদগম",
+        "question_bn": "বীজ থেকে চারাগাছ তৈরির ধাপগুলি সঠিক ক্রমে সাজাও",
+        "items": [
+          "বীজপত্র থেকে খাদ্য সরবরাহ",
+          "বীজত্বক ফেটে যায়",
+          "চারাগাছ মাটি ভেদ করে বের হয়",
+          "বীজ জল শোষণ করে ফুলে ওঠে"
+        ],
+        "correct_order": [
+          "বীজ জল শোষণ করে ফুলে ওঠে",
+          "বীজত্বক ফেটে যায়",
+          "বীজপত্র থেকে খাদ্য সরবরাহ",
+          "চারাগাছ মাটি ভেদ করে বের হয়"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_seq_006",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ব্যাপন",
+        "question_bn": "জলে কালির ব্যাপনের ধাপগুলি সঠিক ক্রমে সাজাও",
+        "items": [
+          "অণুরা সমানভাবে সর্বত্র ছড়িয়ে পড়ে",
+          "কালির ফোঁটা জলে পড়ে",
+          "কালির অণুরা কম ঘনত্বের দিকে ছড়াতে থাকে",
+          "ঘনত্বের পার্থক্য তৈরি হয়"
+        ],
+        "correct_order": [
+          "কালির ফোঁটা জলে পড়ে",
+          "ঘনত্বের পার্থক্য তৈরি হয়",
+          "কালির অণুরা কম ঘনত্বের দিকে ছড়াতে থাকে",
+          "অণুরা সমানভাবে সর্বত্র ছড়িয়ে পড়ে"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_seq_007",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "গাছে জল পরিবহণ",
+        "question_bn": "গাছে জল পরিবহণের ধাপগুলি সঠিক ক্রমে সাজাও",
+        "items": [
+          "পাতায় পৌঁছোয়",
+          "মূলরোম মাটি থেকে জল শোষণ করে",
+          "জাইলেম নলে জল প্রবেশ করে",
+          "কাণ্ড হয়ে ওপরে ওঠে"
+        ],
+        "correct_order": [
+          "মূলরোম মাটি থেকে জল শোষণ করে",
+          "জাইলেম নলে জল প্রবেশ করে",
+          "কাণ্ড হয়ে ওপরে ওঠে",
+          "পাতায় পৌঁছোয়"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_seq_008",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "পেনিসিলিনের কাজ",
+        "question_bn": "পেনিসিলিন ব্যাকটেরিয়া মারার ধাপগুলি সঠিক ক্রমে সাজাও",
+        "items": [
+          "অভিত্রবণ চাপে কোশপ্রাচীর ফেটে যায়",
+          "ব্যাকটেরিয়ার কোশপ্রাচীর সঠিকভাবে তৈরি হতে পারে না",
+          "পেনিসিলিন কোশপ্রাচীর তৈরিতে বাধা দেয়",
+          "ব্যাকটেরিয়া কোশ মরে যায়"
+        ],
+        "correct_order": [
+          "পেনিসিলিন কোশপ্রাচীর তৈরিতে বাধা দেয়",
+          "ব্যাকটেরিয়ার কোশপ্রাচীর সঠিকভাবে তৈরি হতে পারে না",
+          "অভিত্রবণ চাপে কোশপ্রাচীর ফেটে যায়",
+          "ব্যাকটেরিয়া কোশ মরে যায়"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_seq_009",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "সাপের গন্ধ গ্রহণ",
+        "question_bn": "সাপ কীভাবে গন্ধ পায় তার ধাপগুলি সঠিক ক্রমে সাজাও",
+        "items": [
+          "জেকবসন অঙ্গে গন্ধ বিশ্লেষণ হয়",
+          "সাপ জিভ বের করে গন্ধের অণু সংগ্রহ করে",
+          "মস্তিষ্কে উদ্দীপনা তৈরি হয়",
+          "জিভ তালুতে ঠেকায়"
+        ],
+        "correct_order": [
+          "সাপ জিভ বের করে গন্ধের অণু সংগ্রহ করে",
+          "জিভ তালুতে ঠেকায়",
+          "জেকবসন অঙ্গে গন্ধ বিশ্লেষণ হয়",
+          "মস্তিষ্কে উদ্দীপনা তৈরি হয়"
+        ]
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_seq_010",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "নোনা জলের মাছের অভিত্রবণ",
+        "question_bn": "নোনা জলের মাছ দেহে জলের পরিমাণ বজায় রাখার ধাপগুলি সঠিক ক্রমে সাজাও",
+        "items": [
+          "অত্যন্ত কম মূত্র ত্যাগ করে",
+          "সমুদ্রের জলে নুনের পরিমাণ বেশি",
+          "দেহ থেকে জল বেরিয়ে যেতে চায়",
+          "বেশি জল পান করে"
+        ],
+        "correct_order": [
+          "সমুদ্রের জলে নুনের পরিমাণ বেশি",
+          "দেহ থেকে জল বেরিয়ে যেতে চায়",
+          "বেশি জল পান করে",
+          "অত্যন্ত কম মূত্র ত্যাগ করে"
+        ]
+      }
+    ],
+    "categorize": [
+      {
+        "id": "paribesh_o_bigyan_ch10_cat_001",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "উদ্ভিদের অঙ্গ",
+        "question_bn": "নিচের জিনিসগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "মূলের উদাহরণ": [
+            "গাজর",
+            "মুলো",
+            "বীট",
+            "শালগম"
+          ],
+          "কাণ্ডের উদাহরণ": [
+            "আলু",
+            "আদা",
+            "পেঁয়াজ",
+            "রসুন"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_cat_002",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "পাতার শিরাবিন্যাস",
+        "question_bn": "নিচের গাছগুলিকে শিরাবিন্যাসের ভিত্তিতে সঠিক দলে ভাগ করো",
+        "categories": {
+          "জালিকা শিরাবিন্যাস": [
+            "জবা",
+            "আম",
+            "তুলসী",
+            "পেয়ারা"
+          ],
+          "সমান্তরাল শিরাবিন্যাস": [
+            "কলা",
+            "ধান",
+            "ভুট্টা",
+            "গম"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_cat_003",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "পাতার ধরন",
+        "question_bn": "নিচের পাতাগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "একক পত্র": [
+            "আম",
+            "জবা",
+            "অশ্বত্থ",
+            "পেয়ারা"
+          ],
+          "যৌগিক পত্র": [
+            "নিম",
+            "তেঁতুল",
+            "গোলাপ",
+            "বাবলা"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_cat_004",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "অঙ্কুরোদগম",
+        "question_bn": "নিচের বীজগুলিকে অঙ্কুরোদগমের ধরন অনুযায়ী সঠিক দলে ভাগ করো",
+        "categories": {
+          "মৃদভেদী অঙ্কুরোদগম": [
+            "কুমড়ো",
+            "তেঁতুল",
+            "পেঁপে",
+            "শিম"
+          ],
+          "মৃদবর্তী অঙ্কুরোদগম": [
+            "মটর",
+            "ছোলা",
+            "আম",
+            "ভুট্টা"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_cat_005",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "পরাগযোগের ধরন",
+        "question_bn": "নিচের ফুলগুলিকে পরাগযোগের ধরন অনুযায়ী সঠিক দলে ভাগ করো",
+        "categories": {
+          "স্বপরাগযোগ": [
+            "দোপাটি",
+            "সূর্যমুখী",
+            "শিয়ালকাঁটা",
+            "চাপা"
+          ],
+          "ইতরপরাগযোগ": [
+            "কুমড়ো",
+            "পদ্ম",
+            "আকন্দ",
+            "জুঁই"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_cat_006",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "ব্যাপনের উদাহরণ",
+        "question_bn": "নিচের ঘটনাগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "ব্যাপনের উদাহরণ": [
+            "ধূপের গন্ধ ছড়ানো",
+            "জলে কালি ছড়ানো",
+            "ফুলের সুগন্ধ ছড়ানো",
+            "গ্যাস লিক হওয়া"
+          ],
+          "অভিত্রবণের উদাহরণ": [
+            "মূলরোমে জল শোষণ",
+            "কিশমিশ জলে ফোলা",
+            "লবণজলে সবজি কুঁচকানো",
+            "নুনে মাছের জল বের হওয়া"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_cat_007",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "বীজের ধরন",
+        "question_bn": "নিচের বীজগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "দ্বিবীজপত্রী": [
+            "মটর",
+            "ছোলা",
+            "আম",
+            "সিম"
+          ],
+          "একবীজপত্রী": [
+            "ধান",
+            "গম",
+            "ভুট্টা",
+            "ডাব"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_cat_008",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "অভিত্রবণ চাপ",
+        "question_bn": "নিচের পরিস্থিতিগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "কোশ ফুলে যাবে (হাইপোটনিক)": [
+            "পুকুরের মাছকে নোনা জলে রাখা",
+            "কিশমিশ সাদা জলে রাখা",
+            "কোশকে পাতলা দ্রবণে রাখা",
+            "লোহিত কণিকাকে বিশুদ্ধ জলে রাখা"
+          ],
+          "কোশ কুঁচকে যাবে (হাইপারটনিক)": [
+            "মাছে নুন মাখানো",
+            "সবজিতে নুন দিলে জল বের হওয়া",
+            "রসগোল্লা গাঢ় রসে রাখা",
+            "ব্যাকটেরিয়াকে গাঢ় নুনজলে রাখা"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_cat_009",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "গাছের কাণ্ড",
+        "question_bn": "নিচের গাছগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "বৃক্ষ": [
+            "আম",
+            "বট",
+            "শিমুল",
+            "সেগুন"
+          ],
+          "গুল্ম": [
+            "জবা",
+            "গোলাপ",
+            "বেলি",
+            "হাসনাহানা"
+          ]
+        }
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_cat_010",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "ফলের ধরন",
+        "question_bn": "নিচের ফলগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "রসালো ফল": [
+            "আম",
+            "কলা",
+            "আঙুর",
+            "তরমুজ"
+          ],
+          "নীরস ফল": [
+            "নারকেল",
+            "বাদাম",
+            "শিম",
+            "মটর"
+          ]
+        }
+      }
+    ],
+    "short_write": [
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_001",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মূলের অংশ",
+        "question_bn": "মূলের ডগায় টুপির মতো যে অংশ থাকে তাকে কী বলে?",
+        "expected_answer": "মূলত্র",
+        "max_words": 1,
+        "answer_slot_id": 1
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_002",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মূলরোম",
+        "question_bn": "মাটি থেকে জল ও খনিজ পদার্থ শোষণ করে মূলের কোন অঞ্চল?",
+        "expected_answer": "মূলরোম অঞ্চল",
+        "max_words": 2,
+        "answer_slot_id": 2
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_003",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "কাণ্ডের অংশ",
+        "question_bn": "কাণ্ডে যেখানে পাতা ও ডাল যুক্ত থাকে তাকে কী বলে?",
+        "expected_answer": "পর্ব",
+        "max_words": 1,
+        "answer_slot_id": 3
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_004",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পাতার ফলক",
+        "question_bn": "পাতার চওড়া প্রসারিত অংশটিকে কী বলে?",
+        "expected_answer": "পত্রফলক",
+        "max_words": 1,
+        "answer_slot_id": 4
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_005",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পত্রবৃত্ত",
+        "question_bn": "পাতার গোড়ায় সরু ডাটির মতো যে অংশ থাকে তাকে কী বলে?",
+        "expected_answer": "পত্রবৃত্ত",
+        "max_words": 1,
+        "answer_slot_id": 5
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_006",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বৃতি",
+        "question_bn": "ফুলের বোটার ঠিক ওপরে সবুজ ঘন্টার মতো অংশটিকে কী বলে?",
+        "expected_answer": "বৃতি",
+        "max_words": 1,
+        "answer_slot_id": 6
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_007",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পরাগরেণু",
+        "question_bn": "পরাগধানীর মধ্যে থাকা হলুদ পাউডারের মতো অংশকে কী বলে?",
+        "expected_answer": "পরাগরেণু",
+        "max_words": 1,
+        "answer_slot_id": 7
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_008",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গর্ভাশয়",
+        "question_bn": "ফুলের গর্ভকেশরের ফুলে ওঠা নিচের অংশটিকে কী বলে?",
+        "expected_answer": "গর্ভাশয়",
+        "max_words": 1,
+        "answer_slot_id": 8
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_009",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ব্যাপন",
+        "question_bn": "বেশি ঘনত্বের স্থান থেকে কম ঘনত্বের স্থানে অণুর ছড়িয়ে পড়াকে কী বলে?",
+        "expected_answer": "ব্যাপন",
+        "max_words": 1,
+        "answer_slot_id": 9
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_010",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "অভিত্রবণ",
+        "question_bn": "অর্ধভেদ্য পর্দার মধ্য দিয়ে দ্রাবকের অণু চলাচলকে কী বলে?",
+        "expected_answer": "অভিত্রবণ",
+        "max_words": 1,
+        "answer_slot_id": 10
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_011",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "অঙ্কুরোদগম",
+        "question_bn": "বীজ থেকে চারাগাছ তৈরির প্রক্রিয়াকে কী বলে?",
+        "expected_answer": "অঙ্কুরোদগম",
+        "max_words": 1,
+        "answer_slot_id": 11
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_012",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মূল সম্পর্কে",
+        "question_bn": "গাছের মূল প্রধানত কোথায় থাকে?",
+        "expected_answer": "মাটির নিচে",
+        "max_words": 2,
+        "answer_slot_id": 12
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_013",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "দলমণ্ডল",
+        "question_bn": "ফুলের সমস্ত পাপড়ি মিলে কী তৈরি হয়?",
+        "expected_answer": "দলমণ্ডল",
+        "max_words": 1,
+        "answer_slot_id": 13
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_014",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ডিম্বক",
+        "question_bn": "গর্ভাশয়ের ভেতরে ছোটো দানার মতো অংশগুলিকে কী বলে?",
+        "expected_answer": "ডিম্বক",
+        "max_words": 1,
+        "answer_slot_id": 14
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_015",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "স্বপরাগযোগ",
+        "question_bn": "একই ফুলের পরাগরেণু সেই ফুলের গর্ভমুণ্ডে পড়লে কী ঘটনা বলে?",
+        "expected_answer": "স্বপরাগযোগ",
+        "max_words": 1,
+        "answer_slot_id": 15
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_016",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ইতরপরাগযোগ",
+        "question_bn": "ভিন্ন গাছের ফুলের গর্ভমুণ্ডে পরাগরেণু স্থানান্তরকে কী বলে?",
+        "expected_answer": "ইতরপরাগযোগ",
+        "max_words": 1,
+        "answer_slot_id": 16
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_017",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পুংকেশর",
+        "question_bn": "পুংদণ্ড ও পরাগধানী মিলে কী তৈরি হয়?",
+        "expected_answer": "পুংকেশর",
+        "max_words": 1,
+        "answer_slot_id": 17
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_018",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গর্ভকেশর",
+        "question_bn": "গর্ভাশয়, গর্ভদণ্ড ও গর্ভমুণ্ড মিলে কী তৈরি হয়?",
+        "expected_answer": "গর্ভকেশর",
+        "max_words": 1,
+        "answer_slot_id": 18
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_019",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মধ্যত্বক",
+        "question_bn": "আমের রসালো যে অংশ আমরা খাই সেটি ফলত্বকের কোন স্তর?",
+        "expected_answer": "মধ্যত্বক",
+        "max_words": 1,
+        "answer_slot_id": 19
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_020",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বহিঃত্বক",
+        "question_bn": "আমের খোসাকে ফলত্বকের কোন স্তর বলে?",
+        "expected_answer": "বহিঃত্বক",
+        "max_words": 1,
+        "answer_slot_id": 20
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_021",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ভ্রূণমূল",
+        "question_bn": "বীজের ভ্রূণের কোন অংশ থেকে চারাগাছের মূল তৈরি হয়?",
+        "expected_answer": "ভ্রূণমূল",
+        "max_words": 1,
+        "answer_slot_id": 21
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_022",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মটর বীজ",
+        "question_bn": "মটর বীজে কতটি বীজপত্র থাকে?",
+        "expected_answer": "দুটি",
+        "max_words": 1,
+        "answer_slot_id": 22
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_023",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ভুট্টা বীজ",
+        "question_bn": "ভুট্টা বীজে কতটি বীজপত্র থাকে?",
+        "expected_answer": "একটি",
+        "max_words": 1,
+        "answer_slot_id": 23
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_024",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "রাইজোবিয়াম",
+        "question_bn": "মটর গাছের মূলে কোন অণুজীব বাস করে?",
+        "expected_answer": "রাইজোবিয়াম",
+        "max_words": 1,
+        "answer_slot_id": 24
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_025",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মাইকোরাইজা",
+        "question_bn": "পাইন গাছের মূলে যে ছত্রাক বাস করে তার নাম কী?",
+        "expected_answer": "মাইকোরাইজা",
+        "max_words": 1,
+        "answer_slot_id": 25
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_026",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মৃদভেদী অঙ্কুরোদগম",
+        "question_bn": "কুমড়োর বীজের যে অঙ্কুরোদগমে বীজপত্র মাটির ওপরে ওঠে তাকে কী বলে?",
+        "expected_answer": "মৃদভেদী অঙ্কুরোদগম",
+        "max_words": 2,
+        "answer_slot_id": 26
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_027",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মৃদবর্তী অঙ্কুরোদগম",
+        "question_bn": "মটর বীজের যে অঙ্কুরোদগমে বীজপত্র মাটিতেই থাকে তাকে কী বলে?",
+        "expected_answer": "মৃদবর্তী অঙ্কুরোদগম",
+        "max_words": 2,
+        "answer_slot_id": 27
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_028",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "জাইলেম",
+        "question_bn": "মূল থেকে পাতায় জল বহনকারী নলগুলিকে কী বলে?",
+        "expected_answer": "জাইলেম নল",
+        "max_words": 2,
+        "answer_slot_id": 28
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_029",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পরিবর্তিত কাণ্ড",
+        "question_bn": "আলু গাছের কোন অংশ পরিবর্তিত হয়ে কন্দ তৈরি করে?",
+        "expected_answer": "পরিবর্তিত কাণ্ড",
+        "max_words": 2,
+        "answer_slot_id": 29
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_030",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "গর্ভমুণ্ড",
+        "question_bn": "গর্ভদণ্ডের মাথায় যে অংশে পরাগরেণু পড়ে তাকে কী বলে?",
+        "expected_answer": "গর্ভমুণ্ড",
+        "max_words": 1,
+        "answer_slot_id": 30
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_031",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ওআরএস",
+        "question_bn": "ডায়ারিয়ায় জল ও লবণের অভাব পূরণে কোন দ্রবণ ব্যবহার করা হয়?",
+        "expected_answer": "ওরাল রিহাইড্রেশন",
+        "max_words": 2,
+        "answer_slot_id": 31
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_032",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ফেরোমোন",
+        "question_bn": "পোকামাকড়ের প্রজননে ব্যবহৃত উদ্বায়ী রাসায়নিক পদার্থকে কী বলে?",
+        "expected_answer": "ফেরোমোন",
+        "max_words": 1,
+        "answer_slot_id": 32
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_033",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "একক পত্র",
+        "question_bn": "যে পাতার ফলক একটিমাত্র অবিভক্ত অংশ নিয়ে গঠিত তাকে কী বলে?",
+        "expected_answer": "একক পত্র",
+        "max_words": 2,
+        "answer_slot_id": 33
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_034",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "যৌগিক পত্র",
+        "question_bn": "যে পাতার ফলক অনেকগুলো খণ্ডে ভাগ হয়ে যায় তাকে কী বলে?",
+        "expected_answer": "যৌগিক পত্র",
+        "max_words": 2,
+        "answer_slot_id": 34
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_035",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পত্রমূল",
+        "question_bn": "পত্রবৃত্তকে কাণ্ডের পর্বের সঙ্গে যুক্তকারী গঠনটির নাম কী?",
+        "expected_answer": "পত্রমূল",
+        "max_words": 1,
+        "answer_slot_id": 35
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_036",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সরল ফল",
+        "question_bn": "একটি ফুল থেকে যে একটিমাত্র ফল গঠিত হয় তাকে কী বলে?",
+        "expected_answer": "সরল ফল",
+        "max_words": 2,
+        "answer_slot_id": 36
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_037",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বৃদ্ধিশীল অঞ্চল",
+        "question_bn": "মূলের কোন অঞ্চলে কোশ বিভাজন হয়ে মূল বাড়ে?",
+        "expected_answer": "বর্ধনশীল অঞ্চল",
+        "max_words": 2,
+        "answer_slot_id": 37
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_038",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পুংকেশরচক্র",
+        "question_bn": "ফুলের সমস্ত পুংকেশর একসঙ্গে কী নামে পরিচিত?",
+        "expected_answer": "পুংকেশরচক্র",
+        "max_words": 1,
+        "answer_slot_id": 38
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_039",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "গর্ভকেশরচক্র",
+        "question_bn": "ফুলের সমস্ত গর্ভকেশর একসঙ্গে কী নামে পরিচিত?",
+        "expected_answer": "গর্ভকেশরচক্র",
+        "max_words": 1,
+        "answer_slot_id": 39
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_040",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "অন্তঃত্বক",
+        "question_bn": "আমের কঠিন আঁটিকে ফলত্বকের কোন স্তর বলে?",
+        "expected_answer": "অন্তঃত্বক",
+        "max_words": 1,
+        "answer_slot_id": 40
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_041",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "আইসোটনিক",
+        "question_bn": "দুটি দ্রবণের অভিত্রবণ চাপ সমান হলে তাদের পরস্পরের সাপেক্ষে কী বলে?",
+        "expected_answer": "আইসোটনিক",
+        "max_words": 1,
+        "answer_slot_id": 41
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_042",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "হাইপারটনিক",
+        "question_bn": "যে দ্রবণের অভিত্রবণ চাপ কোশের চেয়ে বেশি তাকে কী বলে?",
+        "expected_answer": "হাইপারটনিক",
+        "max_words": 1,
+        "answer_slot_id": 42
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_043",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "হাইপোটনিক",
+        "question_bn": "যে দ্রবণের অভিত্রবণ চাপ কোশের চেয়ে কম তাকে কী বলে?",
+        "expected_answer": "হাইপোটনিক",
+        "max_words": 1,
+        "answer_slot_id": 43
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_044",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "জেকবসন অঙ্গ",
+        "question_bn": "সাপের মুখের তালুতে গন্ধ বিশ্লেষণকারী বিশেষ অঙ্গটির নাম কী?",
+        "expected_answer": "জেকবসন অঙ্গ",
+        "max_words": 2,
+        "answer_slot_id": 44
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_045",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "পেনিসিলিন",
+        "question_bn": "কোন অ্যান্টিবায়োটিক ব্যাকটেরিয়ার কোশপ্রাচীর তৈরিতে বাধা দেয়?",
+        "expected_answer": "পেনিসিলিন",
+        "max_words": 1,
+        "answer_slot_id": 45
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_046",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "H2S গ্যাস",
+        "question_bn": "বন্ধ নর্দমায় যে বিষাক্ত গ্যাস জমে থাকে তার রাসায়নিক সংকেত কী?",
+        "expected_answer": "H₂S",
+        "max_words": 1,
+        "answer_slot_id": 46
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_047",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "সেফালোস্পোরিন",
+        "question_bn": "পেনিসিলিনের মতো কোন অ্যান্টিবায়োটিক ব্যাকটেরিয়ার কোশপ্রাচীর তৈরিতে বাধা দেয়?",
+        "expected_answer": "সেফালোস্পোরিন",
+        "max_words": 1,
+        "answer_slot_id": 47
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_048",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "অভিত্রবণ চাপ",
+        "question_bn": "কোনো দ্রবণের ঘনত্ব বাড়লে তার অভিত্রবণ চাপ কেমন হয়?",
+        "expected_answer": "বেড়ে যায়",
+        "max_words": 2,
+        "answer_slot_id": 48
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_049",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মিষ্টি জলের মাছ",
+        "question_bn": "পুকুরের মাছ দেহে জল বেশি হলে তা বের করে কোন প্রক্রিয়ায়?",
+        "expected_answer": "মূত্রের মাধ্যমে",
+        "max_words": 2,
+        "answer_slot_id": 49
+      },
+      {
+        "id": "paribesh_o_bigyan_ch10_sw_050",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "সান স্ট্রোক",
+        "question_bn": "চড়া রোদে দেহে জল ও নুনের অভাবে অজ্ঞান হওয়াকে কী বলে?",
+        "expected_answer": "সান স্ট্রোক",
+        "max_words": 2,
+        "answer_slot_id": 50
+      }
+    ]
+  }
+}
