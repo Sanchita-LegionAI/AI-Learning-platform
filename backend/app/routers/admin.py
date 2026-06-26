@@ -42,7 +42,7 @@ class SeedClassRequest(BaseModel):
     display_name_bn: str   # e.g. "নবম শ্রেণী"
 
 
-
+class SeedBookRequest(BaseModel):
     """
     Chapters JSON format:
     {
