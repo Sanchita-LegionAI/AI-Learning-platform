@@ -1,11 +1,33 @@
 // pages/admin/AdminDashboard.jsx
-import { useEffect, useState, useRef } from 'react'
+import { useEffect, useState, useRef, useCallback } from 'react'
 import { useAuth } from '../../context/AuthContext'
 import { api } from '../../lib/api'
 
 const TABS = ['Overview', 'Curriculum', 'Models', 'Logs']
 
-// ─── tiny helpers ────────────────────────────────────────────────────────────
+const BASE = () => import.meta.env.VITE_API_URL || 'http://localhost:8000'
+
+async function apiFetch(method, path, body, token) {
+  const res = await fetch(`${BASE()}${path}`, {
+    method,
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+    ...(body ? { body: JSON.stringify(body) } : {}),
+  })
+  const data = await res.json().catch(() => ({}))
+  if (!res.ok) throw new Error(data?.detail || `HTTP ${res.status}`)
+  return data
+}
+
+function readJson(file) {
+  return new Promise((resolve, reject) => {
+    const r = new FileReader()
+    r.onload  = e => { try { resolve(JSON.parse(e.target.result)) } catch { reject(new Error('Invalid JSON')) } }
+    r.onerror = () => reject(new Error('Could not read file'))
+    r.readAsText(file)
+  })
+}
+
+// ─── Shared UI atoms ──────────────────────────────────────────────────────────
 
 function StatCard({ label, value, sub, accent }) {
   return (
@@ -17,130 +39,55 @@ function StatCard({ label, value, sub, accent }) {
   )
 }
 
-function Badge({ children, color = 'gray' }) {
-  const colors = {
-    green:  'bg-green-50 text-green-700 border-green-200',
-    red:    'bg-red-50 text-red-600 border-red-200',
-    yellow: 'bg-yellow-50 text-yellow-700 border-yellow-200',
-    gray:   'bg-gray-50 text-gray-500 border-gray-200',
-  }
+function Toast({ msg, onClose }) {
+  if (!msg) return null
+  const ok = msg.startsWith('✓')
   return (
-    <span className={`inline-flex items-center px-2 py-0.5 rounded-md border text-xs font-ui font-medium ${colors[color]}`}>
+    <div className={`flex gap-2 items-start p-3 rounded-lg border text-xs font-ui mb-3
+      ${ok ? 'bg-green-50 border-green-200 text-green-800' : 'bg-red-50 border-red-200 text-red-700'}`}>
+      <span className="shrink-0 font-bold">{ok ? '✓' : '✗'}</span>
+      <pre className="whitespace-pre-wrap flex-1">{msg.slice(2).trim()}</pre>
+      <button onClick={onClose} className="shrink-0 opacity-40 hover:opacity-100 text-sm leading-none">×</button>
+    </div>
+  )
+}
+
+function Badge({ children, color = 'gray' }) {
+  const c = {
+    green:  'bg-green-50 text-green-700 border-green-200',
+    yellow: 'bg-yellow-50 text-yellow-700 border-yellow-200',
+    red:    'bg-red-50 text-red-500 border-red-200',
+    gray:   'bg-gray-100 text-gray-500 border-gray-200',
+    blue:   'bg-blue-50 text-blue-600 border-blue-200',
+  }[color]
+  return (
+    <span className={`inline-flex items-center px-1.5 py-0.5 rounded border text-xs font-ui font-medium ${c}`}>
       {children}
     </span>
   )
 }
 
-function Msg({ text, onClose }) {
-  if (!text) return null
-  const ok = text.startsWith('✓')
-  return (
-    <div className={`flex items-start gap-3 p-3 rounded-xl border text-sm font-ui mb-4
-      ${ok ? 'bg-green-50 border-green-200 text-green-800' : 'bg-red-50 border-red-200 text-red-700'}`}>
-      <span className="text-lg leading-none mt-0.5">{ok ? '✓' : '✗'}</span>
-      <pre className="whitespace-pre-wrap flex-1 text-xs">{text.slice(2).trim()}</pre>
-      <button onClick={onClose} className="text-current opacity-50 hover:opacity-100 leading-none text-lg">×</button>
-    </div>
-  )
-}
-
-// Read a JSON file from an <input type="file"> and return parsed object
-function readJsonFile(file) {
-  return new Promise((resolve, reject) => {
-    const reader = new FileReader()
-    reader.onload  = e => { try { resolve(JSON.parse(e.target.result)) } catch { reject(new Error('Invalid JSON file')) } }
-    reader.onerror = () => reject(new Error('Could not read file'))
-    reader.readAsText(file)
-  })
-}
-
-// ─── new api calls (will add to api.js below) ────────────────────────────────
-// These call the new backend endpoints directly so no api.js edit is needed
-// until you copy this file; the inline fetch keeps everything self-contained.
-
-async function apiPost(path, body, token) {
-  const BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000'
-  const res  = await fetch(`${BASE}${path}`, {
-    method:  'POST',
-    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
-    body:    JSON.stringify(body),
-  })
-  const data = await res.json().catch(() => ({}))
-  if (!res.ok) throw new Error(data?.detail || `HTTP ${res.status}`)
-  return data
-}
-
-async function apiGet(path, token) {
-  const BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000'
-  const res  = await fetch(`${BASE}${path}`, {
-    headers: { Authorization: `Bearer ${token}` },
-  })
-  const data = await res.json().catch(() => ({}))
-  if (!res.ok) throw new Error(data?.detail || `HTTP ${res.status}`)
-  return data
-}
-
-async function apiDelete(path, token) {
-  const BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000'
-  const res  = await fetch(`${BASE}${path}`, {
-    method:  'DELETE',
-    headers: { Authorization: `Bearer ${token}` },
-  })
-  const data = await res.json().catch(() => ({}))
-  if (!res.ok) throw new Error(data?.detail || `HTTP ${res.status}`)
-  return data
+function Spinner() {
+  return <span className="inline-block w-3 h-3 border-2 border-current border-t-transparent rounded-full animate-spin" />
 }
 
 // ─── Curriculum tab ───────────────────────────────────────────────────────────
 
-function FileDropZone({ label, accept, onFile, busy }) {
-  const ref = useRef()
-  const [dragging, setDragging] = useState(false)
+const PANEL_NONE          = null
+const PANEL_ADD_BOOK      = 'add_book'
+const PANEL_ADD_CHAPTERS  = 'add_chapters'
+const PANEL_ADD_QUESTIONS = 'add_questions'
 
-  const handle = async (file) => {
-    if (!file) return
-    try { onFile(await readJsonFile(file), file.name) }
-    catch (e) { onFile(null, null, e.message) }
-  }
-
-  return (
-    <div
-      onClick={() => !busy && ref.current?.click()}
-      onDragOver={e => { e.preventDefault(); setDragging(true) }}
-      onDragLeave={() => setDragging(false)}
-      onDrop={e => { e.preventDefault(); setDragging(false); handle(e.dataTransfer.files[0]) }}
-      className={`relative flex flex-col items-center justify-center gap-2 rounded-xl border-2 border-dashed
-        py-8 px-4 cursor-pointer transition-all select-none
-        ${busy ? 'opacity-50 cursor-not-allowed' : ''}
-        ${dragging ? 'border-saffron bg-saffron/5' : 'border-border hover:border-saffron/50 hover:bg-gray-50'}`}
-    >
-      <input ref={ref} type="file" accept={accept} className="sr-only"
-        onChange={e => handle(e.target.files[0])} disabled={busy} />
-      <span className="text-2xl">📄</span>
-      <p className="text-sm font-ui font-medium text-ink">{label}</p>
-      <p className="text-xs font-ui text-ink-light">drag & drop or click to browse</p>
-    </div>
-  )
-}
-
-function ChapterRow({ ch }) {
+// Tree: chapter count row
+function QuestionCountRow({ ch }) {
   const total = ch.total_questions
-  const ready = ch.ready_for_exam
   return (
-    <tr className="border-t border-border hover:bg-gray-50 text-sm font-ui">
-      <td className="px-3 py-2 text-ink-light tabular-nums">{ch.chapter_number}</td>
-      <td className="px-3 py-2 bn text-xs leading-snug">{ch.name_bn}</td>
-      <td className={`px-3 py-2 font-semibold tabular-nums ${total === 0 ? 'text-red-400' : 'text-ink'}`}>
-        {total}
-      </td>
-      <td className="px-3 py-2 text-ink-light tabular-nums text-xs">{ch.q_mcq}</td>
-      <td className="px-3 py-2 text-ink-light tabular-nums text-xs">{ch.q_match_pairs}</td>
-      <td className="px-3 py-2 text-ink-light tabular-nums text-xs">{ch.q_true_false}</td>
-      <td className="px-3 py-2 text-ink-light tabular-nums text-xs">{ch.q_tap_sequence}</td>
-      <td className="px-3 py-2 text-ink-light tabular-nums text-xs">{ch.q_categorize}</td>
-      <td className="px-3 py-2 text-ink-light tabular-nums text-xs">{ch.q_short_write}</td>
-      <td className="px-3 py-2">
-        {ready
+    <tr className="border-t border-border/50 text-xs font-ui hover:bg-gray-50/50">
+      <td className="pl-4 pr-2 py-1.5 text-ink-light tabular-nums w-6 shrink-0">{ch.chapter_number}</td>
+      <td className="px-2 py-1.5 bn text-xs leading-snug text-ink max-w-[160px] truncate" title={ch.name_bn}>{ch.name_bn}</td>
+      <td className={`px-2 py-1.5 tabular-nums font-semibold ${total === 0 ? 'text-red-400' : 'text-ink'}`}>{total}</td>
+      <td className="px-2 py-1.5">
+        {ch.ready_for_exam
           ? <Badge color="green">Ready</Badge>
           : total === 0
             ? <Badge color="red">Empty</Badge>
@@ -150,414 +97,656 @@ function ChapterRow({ ch }) {
   )
 }
 
-function BookCard({ book, onDelete, token }) {
-  const [open,    setOpen]    = useState(false)
-  const [delBusy, setDelBusy] = useState(false)
-
-  const totalQ = book.chapters.reduce((s, c) => s + (c.total_questions || 0), 0)
-  const ready  = book.chapters.filter(c => c.ready_for_exam).length
+// Tree: one book card
+function BookNode({ book, subj, cls, isActive, onSelect, onAction, token, onDeleted }) {
+  const [open, setOpen] = useState(false)
+  const ready = book.chapters.filter(c => c.ready_for_exam).length
+  const total = book.chapters.length
 
   const handleDelete = async () => {
-    if (!confirm(`Delete "${book.title_bn}" and ALL its chapters and questions?\n\nThis cannot be undone.`)) return
-    setDelBusy(true)
+    if (!confirm(`Delete "${book.title_bn}" and ALL chapters + questions?\n\nCannot be undone.`)) return
     try {
-      await apiDelete(`/api/admin/curriculum/book/${book.book_id_code}`, token)
-      onDelete(book.book_id_code)
-    } catch (e) {
-      alert(`Error: ${e.message}`)
-    } finally {
-      setDelBusy(false)
-    }
+      await apiFetch('DELETE', `/api/admin/curriculum/book/${book.book_id_code}`, null, token)
+      onDeleted(book.book_id_code)
+    } catch (e) { alert(e.message) }
   }
 
   return (
-    <div className="bg-white rounded-xl border border-border overflow-hidden">
-      {/* Book header */}
-      <div className="flex items-center justify-between px-4 py-3 bg-gray-50 border-b border-border">
-        <div className="flex items-center gap-3 min-w-0">
-          <button onClick={() => setOpen(o => !o)} className="text-ink-light hover:text-ink transition-colors">
-            <span className={`inline-block transition-transform text-xs ${open ? 'rotate-90' : ''}`}>▶</span>
-          </button>
-          <div className="min-w-0">
-            <p className="text-sm font-ui font-semibold text-ink bn leading-tight">{book.title_bn}</p>
-            <p className="text-xs font-ui text-ink-light font-mono">{book.book_id_code}</p>
-          </div>
-        </div>
-        <div className="flex items-center gap-3 shrink-0 ml-3">
-          <div className="text-right hidden sm:block">
-            <p className="text-xs font-ui text-ink-light">{book.chapters.length} chapters</p>
-            <p className="text-xs font-ui text-ink-light">{totalQ.toLocaleString()} questions</p>
-          </div>
-          <Badge color={ready === book.chapters.length ? 'green' : ready > 0 ? 'yellow' : 'red'}>
-            {ready}/{book.chapters.length} ready
-          </Badge>
-          <button
-            onClick={handleDelete}
-            disabled={delBusy}
-            className="text-xs font-ui text-red-400 hover:text-red-600 border border-red-200 hover:border-red-400
-              px-2 py-1 rounded-lg transition-all disabled:opacity-40"
-          >
-            {delBusy ? '…' : 'Delete'}
-          </button>
-        </div>
+    <div className={`mb-1.5 rounded-lg border transition-all
+      ${isActive ? 'border-saffron/40 bg-saffron/5' : 'border-border bg-white hover:border-gray-300'}`}>
+
+      {/* Book header row */}
+      <div className="flex items-center gap-1 px-2 py-2">
+        <button onClick={() => setOpen(o => !o)}
+          className="text-ink-light hover:text-ink w-4 text-[10px] text-center transition-colors shrink-0">
+          {open ? '▼' : '▶'}
+        </button>
+        <button onClick={() => onSelect(book, subj, cls)} className="flex-1 text-left min-w-0">
+          <p className={`text-xs font-ui font-semibold bn leading-tight truncate
+            ${isActive ? 'text-saffron-dark' : 'text-ink'}`}>
+            {book.title_bn}
+          </p>
+          <p className="text-[10px] font-mono text-ink-light/70 truncate">{book.book_id_code}</p>
+        </button>
+        <Badge color={ready === total && total > 0 ? 'green' : ready > 0 ? 'yellow' : 'red'}>
+          {ready}/{total}
+        </Badge>
       </div>
 
-      {/* Chapter table */}
+      {/* Expanded: chapter table + action buttons */}
       {open && (
-        <div className="overflow-x-auto">
-          <table className="w-full text-sm font-ui min-w-[640px]">
-            <thead className="bg-gray-50/50 text-xs text-ink-light">
-              <tr>
-                {['#', 'Chapter', 'Total', 'MCQ', 'Match', 'T/F', 'Seq', 'Cat', 'SW', 'Status'].map(h => (
-                  <th key={h} className="text-left px-3 py-1.5">{h}</th>
-                ))}
-              </tr>
-            </thead>
+        <div className="border-t border-border/50">
+          <table className="w-full">
             <tbody>
-              {book.chapters.map(ch => <ChapterRow key={ch.chapter_id} ch={ch} />)}
+              {book.chapters.map(ch => <QuestionCountRow key={ch.chapter_id} ch={ch} />)}
             </tbody>
           </table>
+          <div className="flex gap-1.5 px-3 py-2 border-t border-border/50 bg-gray-50/50 flex-wrap">
+            <button onClick={() => onAction(PANEL_ADD_CHAPTERS, book, subj, cls)}
+              className="text-[11px] font-ui text-blue-600 hover:text-blue-800 border border-blue-200
+                hover:border-blue-400 px-2 py-1 rounded-md transition-all bg-white">
+              + Add Chapters
+            </button>
+            <button onClick={() => onAction(PANEL_ADD_QUESTIONS, book, subj, cls)}
+              className="text-[11px] font-ui text-saffron hover:text-saffron-dark border border-saffron/30
+                hover:border-saffron px-2 py-1 rounded-md transition-all bg-white font-medium">
+              ↑ Import Questions
+            </button>
+            <button onClick={handleDelete}
+              className="ml-auto text-[11px] font-ui text-red-400 hover:text-red-600 border border-red-100
+                hover:border-red-300 px-2 py-1 rounded-md transition-all bg-white">
+              Delete
+            </button>
+          </div>
         </div>
       )}
     </div>
   )
 }
 
-function CurriculumTab({ token }) {
-  const [tree,      setTree]      = useState([])
-  const [treeLoad,  setTreeLoad]  = useState(true)
-  const [msg,       setMsg]       = useState('')
+// Tree: full class › subject › book hierarchy
+function CurriculumTree({ tree, activeBook, onSelect, onAction, token, onDeleted, loading, onRefresh, onAddBook }) {
+  return (
+    <div className="w-72 shrink-0 flex flex-col gap-2">
+      {/* Tree header */}
+      <div className="flex items-center justify-between">
+        <p className="text-xs font-ui font-semibold text-ink">Curriculum</p>
+        <div className="flex items-center gap-2">
+          <button onClick={onAddBook}
+            className="text-[11px] font-ui px-2.5 py-1 rounded-lg border transition-all border-border text-ink hover:border-saffron/50">
+            + New Book
+          </button>
+          <button onClick={onRefresh} disabled={loading}
+            className="text-[11px] font-ui text-ink-light hover:text-ink disabled:opacity-40 transition-colors">
+            {loading ? <Spinner /> : '↻'}
+          </button>
+        </div>
+      </div>
 
-  // Book seeder state
-  const [bookFile,  setBookFile]  = useState(null)
-  const [bookName,  setBookName]  = useState('')
-  const [bookBusy,  setBookBusy]  = useState(false)
+      {/* Tree body */}
+      <div className="bg-white rounded-xl border border-border p-3 overflow-y-auto flex-1 max-h-[620px]">
+        {loading ? (
+          <div className="flex items-center justify-center py-12 text-ink-light"><Spinner /></div>
+        ) : tree.length === 0 ? (
+          <div className="text-center py-10">
+            <p className="text-xs font-ui text-ink-light">No books yet.</p>
+            <button onClick={onAddBook}
+              className="text-xs font-ui text-saffron hover:text-saffron-dark mt-1 font-medium">
+              Add your first book →
+            </button>
+          </div>
+        ) : (
+          tree.map(cls => (
+            <div key={cls.class_id} className="mb-4">
+              {/* Class label */}
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-[9px] font-ui font-bold uppercase tracking-widest text-ink-light/50">Class</span>
+                <span className="text-xs font-ui font-bold text-ink bn">{cls.class_name}</span>
+              </div>
 
-  // Question seeder state
-  const [qFiles,    setQFiles]    = useState([])   // [{name, data}]
-  const [qBusy,     setQBusy]     = useState(false)
-  const [qProgress, setQProgress] = useState(null) // { done, total, current }
+              {cls.subjects.map(subj => (
+                <div key={subj.subject_id} className="mb-3">
+                  {/* Subject label */}
+                  <div className="flex items-center gap-1.5 mb-1.5 pl-1">
+                    <span className="w-1 h-1 rounded-full bg-saffron/50 shrink-0" />
+                    <span className="text-[11px] font-ui text-ink-light bn">{subj.subject_bn}</span>
+                  </div>
 
-  const loadTree = async () => {
-    setTreeLoad(true)
-    try {
-      const d = await apiGet('/api/admin/curriculum/tree', token)
-      setTree(d.tree)
-    } catch (e) {
-      setMsg(`✗ Could not load curriculum: ${e.message}`)
-    } finally {
-      setTreeLoad(false)
+                  {subj.books.map(book => (
+                    <BookNode
+                      key={book.book_id}
+                      book={book} subj={subj} cls={cls}
+                      isActive={activeBook?.book_id === book.book_id}
+                      onSelect={onSelect}
+                      onAction={onAction}
+                      token={token}
+                      onDeleted={onDeleted}
+                    />
+                  ))}
+                </div>
+              ))}
+            </div>
+          ))
+        )}
+      </div>
+    </div>
+  )
+}
+
+// ─── Right panels ─────────────────────────────────────────────────────────────
+
+// Context banner shown at top of every action panel
+function ContextBanner({ cls, subj, book }) {
+  return (
+    <div className="bg-gray-50 rounded-lg px-3 py-2.5 border border-border mb-4">
+      <p className="text-[10px] font-ui text-ink-light uppercase tracking-wide">
+        {cls.class_name} › <span className="bn">{subj.subject_bn}</span>
+      </p>
+      <p className="text-sm font-ui font-semibold text-ink bn mt-0.5">{book.title_bn}</p>
+      <p className="text-[10px] font-mono text-ink-light">{book.book_id_code} · {book.chapters.length} chapters</p>
+    </div>
+  )
+}
+
+function PanelAddBook({ token, tree, onDone }) {
+  const [busy, setBusy] = useState(false)
+  const [msg,  setMsg]  = useState('')
+  const [form, setForm] = useState({
+    class_name: '', subject_name: '', subject_display_bn: '', book_id_code: '', title_bn: '',
+  })
+  const [chapters, setChapters] = useState([
+    { chapter_number: 1, name_bn: '', subtitle_bn: '' },
+  ])
+
+  const set = (k, v) => setForm(p => ({ ...p, [k]: v }))
+  const addCh    = () => setChapters(p => [...p, { chapter_number: p.length + 1, name_bn: '', subtitle_bn: '' }])
+  const removeCh = i  => setChapters(p => p.filter((_, j) => j !== i).map((c, j) => ({ ...c, chapter_number: j + 1 })))
+  const setCh    = (i, k, v) => setChapters(p => p.map((c, j) => j === i ? { ...c, [k]: v } : c))
+
+  const classOptions   = tree.map(c => c.class_name)
+  const subjectOptions = form.class_name
+    ? (tree.find(c => c.class_name === form.class_name)?.subjects || [])
+    : []
+
+  const submit = async () => {
+    if (!form.class_name || !form.subject_name || !form.book_id_code || !form.title_bn) {
+      setMsg('✗ Class, subject, book ID and title are required'); return
     }
-  }
-
-  useEffect(() => { loadTree() }, [])
-
-  // ── Book JSON upload ────────────────────────────────────────────────────────
-  const onBookFile = (data, name, err) => {
-    if (err) { setMsg(`✗ ${err}`); return }
-    setBookFile(data)
-    setBookName(name)
-    setMsg('')
-  }
-
-  const seedBook = async () => {
-    if (!bookFile) return
-    setBookBusy(true)
-    setMsg('')
+    if (chapters.some(c => !c.name_bn.trim())) {
+      setMsg('✗ All chapters need a name'); return
+    }
+    setBusy(true); setMsg('')
     try {
-      const res = await apiPost('/api/admin/curriculum/seed-book', bookFile, token)
+      const res = await apiFetch('POST', '/api/admin/curriculum/seed-book', {
+        ...form, total_chapters: chapters.length, chapters,
+      }, token)
       setMsg(
-        `✓ Book seeded: ${res.book_id_code}\n` +
+        `✓ Done\n` +
         `${res.book_created ? '• Book created' : '• Book already existed'}\n` +
         `${res.subject_created ? '• Subject created' : '• Subject already existed'}\n` +
-        `• ${res.chapters_inserted} chapters inserted, ${res.chapters_skipped} skipped`
+        `• ${res.chapters_inserted} chapters added, ${res.chapters_skipped} skipped`
       )
-      setBookFile(null)
-      setBookName('')
-      loadTree()
-    } catch (e) {
-      setMsg(`✗ ${e.message}`)
-    } finally {
-      setBookBusy(false)
-    }
-  }
-
-  // ── Questions JSON upload ───────────────────────────────────────────────────
-  const onQFiles = async (file) => {
-    if (!file) return
-    try {
-      const data = await readJsonFile(file)
-      setQFiles(prev => {
-        // replace if same chapter already queued
-        const key = `${data.book_id}_ch${data.chapter_no}`
-        const exists = prev.findIndex(f => `${f.data.book_id}_ch${f.data.chapter_no}` === key)
-        const updated = [...prev]
-        if (exists >= 0) updated[exists] = { name: file.name, data }
-        else updated.push({ name: file.name, data })
-        return updated
-      })
-      setMsg('')
-    } catch (e) {
-      setMsg(`✗ ${e.message}`)
-    }
-  }
-
-  const removeQFile = (idx) => setQFiles(prev => prev.filter((_, i) => i !== idx))
-
-  const seedQuestions = async () => {
-    if (qFiles.length === 0) return
-    setQBusy(true)
-    setMsg('')
-    const results = []
-    for (let i = 0; i < qFiles.length; i++) {
-      const { name, data } = qFiles[i]
-      setQProgress({ done: i, total: qFiles.length, current: name })
-      try {
-        const res = await apiPost('/api/admin/curriculum/seed-questions', data, token)
-        results.push(`ch${data.chapter_no}: ${res.inserted} inserted, ${res.skipped} skipped${res.errors?.length ? ` ⚠ ${res.errors[0]}` : ''}`)
-      } catch (e) {
-        results.push(`ch${data.chapter_no}: ✗ ${e.message}`)
-      }
-    }
-    setQProgress(null)
-    setQBusy(false)
-    setQFiles([])
-    setMsg('✓ Questions import complete\n' + results.join('\n'))
-    loadTree()
-  }
-
-  // ── Delete a book from the tree ─────────────────────────────────────────────
-  const onBookDeleted = (code) => {
-    setTree(prev => prev.map(cls => ({
-      ...cls,
-      subjects: cls.subjects.map(subj => ({
-        ...subj,
-        books: subj.books.filter(b => b.book_id_code !== code),
-      })).filter(subj => subj.books.length > 0),
-    })).filter(cls => cls.subjects.length > 0))
-    setMsg(`✓ Book deleted`)
+      onDone()
+    } catch (e) { setMsg(`✗ ${e.message}`) }
+    finally { setBusy(false) }
   }
 
   return (
-    <div className="space-y-6">
-      <Msg text={msg} onClose={() => setMsg('')} />
-
-      {/* ── Step 1: Add a Book ───────────────────────────────────────────────── */}
-      <div className="bg-white rounded-xl border border-border p-5 space-y-4">
-        <div>
-          <h3 className="text-sm font-ui font-semibold text-ink">Step 1 — Add a Book &amp; Chapters</h3>
-          <p className="text-xs font-ui text-ink-light mt-0.5">
-            Upload a <span className="font-mono">chapters.json</span> file to create a new subject, book, and all its chapters.
-            Safe to re-upload — existing chapters are skipped.
-          </p>
-        </div>
-
-        {/* JSON format hint */}
-        <details className="text-xs font-ui">
-          <summary className="cursor-pointer text-saffron hover:text-saffron-dark font-medium select-none">
-            View expected JSON format
-          </summary>
-          <pre className="mt-2 bg-gray-50 rounded-lg p-3 text-xs font-mono text-ink-light overflow-x-auto">{`{
-  "book_id_code": "otit_o_oitijhyo",
-  "title_bn": "অতীত ও ঐতিহ্য",
-  "subject_name": "History",
-  "subject_display_bn": "ইতিহাস",
-  "class_name": "Class 7",
-  "total_chapters": 9,
-  "chapters": [
-    { "chapter_number": 1, "name_bn": "ইতিহাসের ধারণা", "subtitle_bn": "..." },
-    { "chapter_number": 2, "name_bn": "...", "subtitle_bn": "..." }
-  ]
-}`}</pre>
-        </details>
-
-        {bookFile ? (
-          <div className="flex items-center justify-between bg-saffron/5 border border-saffron/20 rounded-xl px-4 py-3">
-            <div>
-              <p className="text-sm font-ui font-medium text-ink">{bookName}</p>
-              <p className="text-xs font-ui text-ink-light mt-0.5">
-                <span className="font-semibold text-ink">{bookFile.book_id_code}</span>
-                {' · '}{bookFile.chapters?.length ?? 0} chapters
-                {' · '}<span className="bn">{bookFile.title_bn}</span>
-              </p>
-            </div>
-            <div className="flex gap-2">
-              <button
-                onClick={() => { setBookFile(null); setBookName('') }}
-                className="text-xs font-ui text-ink-light hover:text-ink px-2 py-1 rounded-lg border border-border transition-all"
-              >
-                Remove
-              </button>
-              <button
-                onClick={seedBook}
-                disabled={bookBusy}
-                className="text-xs font-ui font-semibold bg-saffron text-white px-4 py-1.5 rounded-lg
-                  hover:bg-saffron-dark disabled:opacity-50 transition-all"
-              >
-                {bookBusy ? 'Adding…' : 'Add Book'}
-              </button>
-            </div>
-          </div>
-        ) : (
-          <FileDropZone
-            label="Drop chapters JSON here"
-            accept=".json,application/json"
-            onFile={onBookFile}
-            busy={bookBusy}
-          />
-        )}
-      </div>
-
-      {/* ── Step 2: Import Questions ─────────────────────────────────────────── */}
-      <div className="bg-white rounded-xl border border-border p-5 space-y-4">
-        <div>
-          <h3 className="text-sm font-ui font-semibold text-ink">Step 2 — Import Questions</h3>
-          <p className="text-xs font-ui text-ink-light mt-0.5">
-            Upload one or more chapter question JSON files.
-            You can drop multiple files at once. Each file is processed independently — already-imported questions are skipped.
-          </p>
-        </div>
-
-        <details className="text-xs font-ui">
-          <summary className="cursor-pointer text-saffron hover:text-saffron-dark font-medium select-none">
-            View expected JSON format
-          </summary>
-          <pre className="mt-2 bg-gray-50 rounded-lg p-3 text-xs font-mono text-ink-light overflow-x-auto">{`{
-  "book_id": "otit_o_oitijhyo",
-  "chapter_no": 1,
-  "chapter_title_bn": "ইতিহাসের ধারণা",
-  "questions": {
-    "mcq":          [{ "id": "..._ch01_mcq_001", "type": "mcq", "part": 1, ... }],
-    "match_pairs":  [...],
-    "true_false":   [...],
-    "tap_sequence": [...],
-    "categorize":   [...],
-    "short_write":  [{ "id": "..._ch01_sw_001", "part": 2, "answer_slot_id": 1, ... }]
-  }
-}`}</pre>
-        </details>
-
-        {/* Drop zone — supports multiple files */}
-        <div
-          onDragOver={e => e.preventDefault()}
-          onDrop={async e => {
-            e.preventDefault()
-            for (const file of Array.from(e.dataTransfer.files)) await onQFiles(file)
-          }}
-          onClick={() => {
-            const inp = document.createElement('input')
-            inp.type = 'file'; inp.accept = '.json'; inp.multiple = true
-            inp.onchange = async e => { for (const f of e.target.files) await onQFiles(f) }
-            inp.click()
-          }}
-          className={`flex flex-col items-center justify-center gap-2 rounded-xl border-2 border-dashed
-            py-6 px-4 cursor-pointer transition-all
-            ${qBusy ? 'opacity-50 cursor-not-allowed pointer-events-none' : 'border-border hover:border-saffron/50 hover:bg-gray-50'}`}
-        >
-          <span className="text-2xl">📦</span>
-          <p className="text-sm font-ui font-medium text-ink">Drop chapter JSON files here</p>
-          <p className="text-xs font-ui text-ink-light">multiple files supported</p>
-        </div>
-
-        {/* Queued files list */}
-        {qFiles.length > 0 && (
-          <div className="space-y-1.5">
-            {qFiles.map((f, i) => (
-              <div key={i} className="flex items-center justify-between bg-gray-50 rounded-lg px-3 py-2">
-                <div>
-                  <p className="text-xs font-ui font-medium text-ink">{f.name}</p>
-                  <p className="text-xs font-ui text-ink-light font-mono">
-                    {f.data.book_id} · ch{f.data.chapter_no}
-                    {' · '}{Object.values(f.data.questions || {}).reduce((s, a) => s + a.length, 0)} questions
-                  </p>
-                </div>
-                <button
-                  onClick={() => removeQFile(i)}
-                  disabled={qBusy}
-                  className="text-xs text-ink-light hover:text-red-500 transition-colors ml-3"
-                >
-                  ×
-                </button>
-              </div>
-            ))}
-
-            {/* Progress or action */}
-            {qProgress ? (
-              <div className="text-xs font-ui text-ink-light px-1 py-2">
-                Processing {qProgress.done + 1}/{qProgress.total}: {qProgress.current}…
-                <div className="mt-1.5 h-1.5 bg-gray-100 rounded-full overflow-hidden">
-                  <div
-                    className="h-full bg-saffron rounded-full transition-all"
-                    style={{ width: `${((qProgress.done) / qProgress.total) * 100}%` }}
-                  />
-                </div>
-              </div>
-            ) : (
-              <div className="flex items-center justify-between pt-1">
-                <p className="text-xs font-ui text-ink-light">
-                  {qFiles.length} file{qFiles.length > 1 ? 's' : ''} queued
-                </p>
-                <button
-                  onClick={seedQuestions}
-                  disabled={qBusy}
-                  className="text-sm font-ui font-semibold bg-saffron text-white px-5 py-2 rounded-xl
-                    hover:bg-saffron-dark disabled:opacity-50 transition-all"
-                >
-                  Import {qFiles.length} File{qFiles.length > 1 ? 's' : ''}
-                </button>
-              </div>
-            )}
-          </div>
-        )}
-      </div>
-
-      {/* ── Curriculum tree ──────────────────────────────────────────────────── */}
+    <div className="space-y-4">
       <div>
-        <div className="flex items-center justify-between mb-3">
-          <h3 className="text-sm font-ui font-semibold text-ink">Current Curriculum</h3>
-          <button
-            onClick={loadTree}
-            disabled={treeLoad}
-            className="text-xs font-ui text-saffron hover:text-saffron-dark font-medium disabled:opacity-40 transition-colors"
-          >
-            {treeLoad ? 'Loading…' : '↻ Refresh'}
+        <h3 className="text-sm font-ui font-semibold text-ink">Add New Book</h3>
+        <p className="text-xs font-ui text-ink-light mt-0.5">
+          Creates a new subject (if needed), then the book and its chapters.
+        </p>
+      </div>
+      <Toast msg={msg} onClose={() => setMsg('')} />
+
+      {/* Class */}
+      <div>
+        <label className="text-xs font-ui font-medium text-ink-light block mb-1.5">Class *</label>
+        <div className="flex gap-2 flex-wrap items-center">
+          {classOptions.map(cn => (
+            <button key={cn} onClick={() => set('class_name', cn)}
+              className={`text-xs font-ui px-3 py-1.5 rounded-lg border transition-all bn
+                ${form.class_name === cn
+                  ? 'bg-saffron text-white border-saffron'
+                  : 'border-border hover:border-saffron/50 text-ink bg-white'}`}>
+              {cn}
+            </button>
+          ))}
+          <input
+            placeholder="or type new, e.g. Class 9"
+            value={classOptions.includes(form.class_name) ? '' : form.class_name}
+            onChange={e => set('class_name', e.target.value)}
+            className="text-xs font-ui border border-border rounded-lg px-3 py-1.5 flex-1 min-w-[140px]
+              focus:outline-none focus:border-saffron/60 placeholder:text-ink-light/40"
+          />
+        </div>
+      </div>
+
+      {/* Subject */}
+      <div>
+        <label className="text-xs font-ui font-medium text-ink-light block mb-1.5">Subject *</label>
+        {subjectOptions.length > 0 && (
+          <div className="flex gap-2 flex-wrap mb-2">
+            {subjectOptions.map(s => (
+              <button key={s.subject_id}
+                onClick={() => { set('subject_display_bn', s.subject_bn); set('subject_name', s.subject_bn) }}
+                className={`text-xs font-ui px-3 py-1.5 rounded-lg border transition-all bn
+                  ${form.subject_display_bn === s.subject_bn
+                    ? 'bg-saffron text-white border-saffron'
+                    : 'border-border hover:border-saffron/50 text-ink bg-white'}`}>
+                {s.subject_bn}
+              </button>
+            ))}
+            <span className="text-[11px] font-ui text-ink-light self-center">or add new:</span>
+          </div>
+        )}
+        <div className="grid grid-cols-2 gap-2">
+          <input placeholder="English name e.g. History *"
+            value={form.subject_name}
+            onChange={e => set('subject_name', e.target.value)}
+            className="text-xs font-ui border border-border rounded-lg px-3 py-1.5
+              focus:outline-none focus:border-saffron/60 placeholder:text-ink-light/40" />
+          <input placeholder="বাংলা নাম যেমন ইতিহাস *"
+            value={form.subject_display_bn}
+            onChange={e => set('subject_display_bn', e.target.value)}
+            className="text-xs font-ui border border-border rounded-lg px-3 py-1.5 bn
+              focus:outline-none focus:border-saffron/60 placeholder:text-ink-light/40" />
+        </div>
+      </div>
+
+      {/* Book ID + Title */}
+      <div className="grid grid-cols-2 gap-2">
+        <div>
+          <label className="text-xs font-ui font-medium text-ink-light block mb-1">Book ID code *</label>
+          <input placeholder="e.g. otit_o_oitijhyo"
+            value={form.book_id_code}
+            onChange={e => set('book_id_code', e.target.value.toLowerCase().replace(/\s+/g, '_'))}
+            className="w-full text-xs font-mono border border-border rounded-lg px-3 py-1.5
+              focus:outline-none focus:border-saffron/60 placeholder:text-ink-light/40" />
+          <p className="text-[10px] font-ui text-ink-light mt-0.5">lowercase, underscores</p>
+        </div>
+        <div>
+          <label className="text-xs font-ui font-medium text-ink-light block mb-1">Book title (Bengali) *</label>
+          <input placeholder="অতীত ও ঐতিহ্য"
+            value={form.title_bn}
+            onChange={e => set('title_bn', e.target.value)}
+            className="w-full text-xs font-ui border border-border rounded-lg px-3 py-1.5 bn
+              focus:outline-none focus:border-saffron/60 placeholder:text-ink-light/40" />
+        </div>
+      </div>
+
+      {/* Chapters */}
+      <div>
+        <div className="flex items-center justify-between mb-2">
+          <label className="text-xs font-ui font-medium text-ink-light">Chapters ({chapters.length})</label>
+          <button onClick={addCh}
+            className="text-xs font-ui text-saffron hover:text-saffron-dark font-medium transition-colors">
+            + Add row
           </button>
         </div>
+        <div className="space-y-1.5 max-h-48 overflow-y-auto pr-0.5">
+          {chapters.map((ch, i) => (
+            <div key={i} className="flex gap-1.5 items-center">
+              <span className="text-[10px] font-mono text-ink-light w-5 text-right shrink-0">{ch.chapter_number}</span>
+              <input placeholder="অধ্যায়ের নাম *"
+                value={ch.name_bn}
+                onChange={e => setCh(i, 'name_bn', e.target.value)}
+                className="flex-1 text-xs font-ui border border-border rounded-lg px-2 py-1 bn min-w-0
+                  focus:outline-none focus:border-saffron/60 placeholder:text-ink-light/40" />
+              <input placeholder="subtitle (optional)"
+                value={ch.subtitle_bn}
+                onChange={e => setCh(i, 'subtitle_bn', e.target.value)}
+                className="flex-1 text-xs font-ui border border-border rounded-lg px-2 py-1 bn min-w-0
+                  focus:outline-none focus:border-saffron/60 placeholder:text-ink-light/40" />
+              <button onClick={() => removeCh(i)}
+                className="text-ink-light/40 hover:text-red-400 transition-colors text-sm shrink-0">×</button>
+            </div>
+          ))}
+        </div>
+      </div>
 
-        {treeLoad ? (
-          <div className="text-xs font-ui text-ink-light py-8 text-center">Loading…</div>
-        ) : tree.length === 0 ? (
-          <div className="text-xs font-ui text-ink-light py-8 text-center bg-white rounded-xl border border-border">
-            No books seeded yet. Upload a chapters JSON above to get started.
-          </div>
-        ) : (
-          <div className="space-y-6">
-            {tree.map(cls => (
-              <div key={cls.class_id}>
-                <p className="text-xs font-ui font-semibold text-ink-light uppercase tracking-wide mb-2 bn">
-                  {cls.class_name}
-                </p>
-                <div className="space-y-4">
-                  {cls.subjects.map(subj => (
-                    <div key={subj.subject_id}>
-                      <p className="text-xs font-ui text-ink-light mb-1.5 bn">{subj.subject_bn}</p>
-                      <div className="space-y-3">
-                        {subj.books.map(book => (
-                          <BookCard
-                            key={book.book_id}
-                            book={book}
-                            onDelete={onBookDeleted}
-                            token={token}
-                          />
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
+      <button onClick={submit} disabled={busy}
+        className="w-full text-sm font-ui font-semibold bg-saffron text-white py-2.5 rounded-xl
+          hover:bg-saffron-dark disabled:opacity-50 transition-all flex items-center justify-center gap-2">
+        {busy ? <><Spinner /> Adding…</> : 'Add Book & Chapters'}
+      </button>
+    </div>
+  )
+}
+
+function PanelAddChapters({ book, subj, cls, token, onDone }) {
+  const [busy,     setBusy]     = useState(false)
+  const [msg,      setMsg]      = useState('')
+  const [chapters, setChapters] = useState([{ chapter_number: '', name_bn: '', subtitle_bn: '' }])
+
+  const existingNums = new Set(book.chapters.map(c => c.chapter_number))
+
+  const addRow    = () => setChapters(p => [...p, { chapter_number: '', name_bn: '', subtitle_bn: '' }])
+  const removeRow = i  => setChapters(p => p.filter((_, j) => j !== i))
+  const setRow    = (i, k, v) => setChapters(p => p.map((c, j) => j === i ? { ...c, [k]: v } : c))
+
+  const submit = async () => {
+    if (chapters.some(c => !c.name_bn.trim() || !c.chapter_number)) {
+      setMsg('✗ All rows need a chapter number and name'); return
+    }
+    setBusy(true); setMsg('')
+    try {
+      const res = await apiFetch('POST', '/api/admin/curriculum/seed-book', {
+        book_id_code:       book.book_id_code,
+        title_bn:           book.title_bn,
+        subject_name:       subj.subject_name || subj.subject_bn,
+        subject_display_bn: subj.subject_bn,
+        class_name:         cls.class_name,
+        total_chapters:     book.chapters.length + chapters.length,
+        chapters: chapters.map(c => ({ ...c, chapter_number: Number(c.chapter_number) })),
+      }, token)
+      setMsg(`✓ ${res.chapters_inserted} chapters added, ${res.chapters_skipped} already existed`)
+      onDone()
+    } catch (e) { setMsg(`✗ ${e.message}`) }
+    finally { setBusy(false) }
+  }
+
+  return (
+    <div className="space-y-4">
+      <h3 className="text-sm font-ui font-semibold text-ink">Add Chapters</h3>
+      <ContextBanner cls={cls} subj={subj} book={book} />
+      <Toast msg={msg} onClose={() => setMsg('')} />
+
+      <div>
+        <div className="flex items-center justify-between mb-2">
+          <label className="text-xs font-ui font-medium text-ink-light">
+            New chapters &mdash; existing ch numbers are skipped
+          </label>
+          <button onClick={addRow}
+            className="text-xs font-ui text-saffron hover:text-saffron-dark font-medium">+ Add row</button>
+        </div>
+        <div className="space-y-1.5">
+          {chapters.map((ch, i) => {
+            const conflict = existingNums.has(Number(ch.chapter_number))
+            return (
+              <div key={i} className="flex gap-1.5 items-center">
+                <input type="number" placeholder="Ch#"
+                  value={ch.chapter_number}
+                  onChange={e => setRow(i, 'chapter_number', e.target.value)}
+                  className={`w-12 text-xs font-mono border rounded-lg px-2 py-1 text-center
+                    focus:outline-none focus:border-saffron/60
+                    ${conflict ? 'border-yellow-300 bg-yellow-50' : 'border-border'}`}
+                />
+                <input placeholder="অধ্যায়ের নাম *"
+                  value={ch.name_bn}
+                  onChange={e => setRow(i, 'name_bn', e.target.value)}
+                  className="flex-1 text-xs font-ui border border-border rounded-lg px-2 py-1 bn min-w-0
+                    focus:outline-none focus:border-saffron/60 placeholder:text-ink-light/40" />
+                <input placeholder="subtitle (optional)"
+                  value={ch.subtitle_bn}
+                  onChange={e => setRow(i, 'subtitle_bn', e.target.value)}
+                  className="flex-1 text-xs font-ui border border-border rounded-lg px-2 py-1 bn min-w-0
+                    focus:outline-none focus:border-saffron/60 placeholder:text-ink-light/40" />
+                <button onClick={() => removeRow(i)}
+                  className="text-ink-light/40 hover:text-red-400 transition-colors text-sm shrink-0">×</button>
               </div>
-            ))}
-          </div>
+            )
+          })}
+        </div>
+        {chapters.some(c => existingNums.has(Number(c.chapter_number))) && (
+          <p className="text-[11px] font-ui text-yellow-600 mt-1.5">
+            ⚠ Yellow rows already exist and will be skipped.
+          </p>
         )}
+      </div>
+
+      <button onClick={submit} disabled={busy}
+        className="w-full text-sm font-ui font-semibold bg-saffron text-white py-2.5 rounded-xl
+          hover:bg-saffron-dark disabled:opacity-50 transition-all flex items-center justify-center gap-2">
+        {busy ? <><Spinner /> Saving…</> : 'Save Chapters'}
+      </button>
+    </div>
+  )
+}
+
+function PanelImportQuestions({ book, subj, cls, token, onDone }) {
+  const [busy,     setBusy]     = useState(false)
+  const [msg,      setMsg]      = useState('')
+  const [qFiles,   setQFiles]   = useState([])
+  const [progress, setProgress] = useState(null)
+
+  const bookChapterNums = new Set(book.chapters.map(c => c.chapter_number))
+
+  const onDrop = async (files) => {
+    for (const file of files) {
+      try {
+        const data = await readJson(file)
+        // Validate it's for this book
+        if (data.book_id && data.book_id !== book.book_id_code) {
+          setMsg(`✗ ${file.name}: book_id "${data.book_id}" doesn't match "${book.book_id_code}"`)
+          continue
+        }
+        setQFiles(prev => {
+          const key = `ch${data.chapter_no}`
+          const idx = prev.findIndex(f => `ch${f.data.chapter_no}` === key)
+          const next = [...prev]
+          if (idx >= 0) next[idx] = { name: file.name, data }
+          else next.push({ name: file.name, data })
+          return next.sort((a, b) => a.data.chapter_no - b.data.chapter_no)
+        })
+      } catch (e) { setMsg(`✗ ${file.name}: ${e.message}`) }
+    }
+  }
+
+  const submit = async () => {
+    if (!qFiles.length) return
+    setBusy(true); setMsg('')
+    const results = []
+    for (let i = 0; i < qFiles.length; i++) {
+      const { name, data } = qFiles[i]
+      setProgress({ done: i, total: qFiles.length, name })
+      try {
+        const res = await apiFetch('POST', '/api/admin/curriculum/seed-questions', data, token)
+        results.push(`Ch ${data.chapter_no}: ${res.inserted} inserted, ${res.skipped} skipped${res.errors?.length ? ` ⚠ ${res.errors[0]}` : ''}`)
+      } catch (e) { results.push(`Ch ${data.chapter_no}: ✗ ${e.message}`) }
+    }
+    setProgress(null); setBusy(false); setQFiles([])
+    setMsg('✓ Import complete\n' + results.join('\n'))
+    onDone()
+  }
+
+  return (
+    <div className="space-y-4">
+      <h3 className="text-sm font-ui font-semibold text-ink">Import Questions</h3>
+      <ContextBanner cls={cls} subj={subj} book={book} />
+      <Toast msg={msg} onClose={() => setMsg('')} />
+
+      {/* Chapter status strip */}
+      <div>
+        <p className="text-[11px] font-ui text-ink-light mb-1.5">Chapter status:</p>
+        <div className="flex flex-wrap gap-1">
+          {book.chapters.map(ch => (
+            <span key={ch.chapter_id}
+              className={`text-[10px] font-mono px-1.5 py-0.5 rounded border cursor-default
+                ${ch.ready_for_exam
+                  ? 'bg-green-50 border-green-200 text-green-700'
+                  : ch.total_questions > 0
+                    ? 'bg-yellow-50 border-yellow-200 text-yellow-700'
+                    : 'bg-gray-50 border-gray-200 text-gray-400'}`}
+              title={`Ch ${ch.chapter_number}: ${ch.total_questions} questions`}>
+              {ch.chapter_number}
+            </span>
+          ))}
+        </div>
+        <p className="text-[10px] font-ui text-ink-light mt-1">
+          <span className="text-green-600">■</span> ready &nbsp;
+          <span className="text-yellow-600">■</span> partial &nbsp;
+          <span className="text-gray-400">■</span> empty
+        </p>
+      </div>
+
+      {/* Drop zone */}
+      <div
+        onDragOver={e => e.preventDefault()}
+        onDrop={e => { e.preventDefault(); onDrop(Array.from(e.dataTransfer.files)) }}
+        onClick={() => {
+          const inp = document.createElement('input')
+          inp.type = 'file'; inp.accept = '.json'; inp.multiple = true
+          inp.onchange = e => onDrop(Array.from(e.target.files))
+          inp.click()
+        }}
+        className={`flex flex-col items-center justify-center gap-1.5 rounded-xl border-2 border-dashed
+          py-5 cursor-pointer transition-all select-none
+          ${busy ? 'opacity-40 pointer-events-none' : 'border-border hover:border-saffron/50 hover:bg-gray-50'}`}>
+        <span className="text-xl">📦</span>
+        <p className="text-xs font-ui font-medium text-ink">Drop chapter question JSON files</p>
+        <p className="text-[11px] font-ui text-ink-light">Multiple files OK — processed in chapter order</p>
+      </div>
+
+      {/* Queued file list */}
+      {qFiles.length > 0 && (
+        <div className="space-y-1">
+          {qFiles.map((f, i) => {
+            const chNum    = f.data.chapter_no
+            const chExists = bookChapterNums.has(chNum)
+            const qCount   = Object.values(f.data.questions || {}).reduce((s, a) => s + a.length, 0)
+            return (
+              <div key={i} className={`flex items-center gap-2 rounded-lg px-3 py-2 border text-xs font-ui
+                ${!chExists ? 'bg-red-50 border-red-200' : 'bg-white border-border'}`}>
+                <span className="font-mono text-ink-light w-8 shrink-0">ch{String(chNum).padStart(2,'0')}</span>
+                <span className="text-ink flex-1 truncate">{f.name}</span>
+                <span className="text-ink-light shrink-0">{qCount} Qs</span>
+                {!chExists && <Badge color="red">chapter missing</Badge>}
+                <button onClick={() => setQFiles(p => p.filter((_, j) => j !== i))}
+                  disabled={busy}
+                  className="text-ink-light/40 hover:text-red-400 transition-colors ml-1">×</button>
+              </div>
+            )
+          })}
+
+          {qFiles.some(f => !bookChapterNums.has(f.data.chapter_no)) && (
+            <p className="text-[11px] font-ui text-red-600">
+              ✗ Red files reference chapters that don't exist — add those chapters first.
+            </p>
+          )}
+
+          {progress ? (
+            <div className="pt-1">
+              <p className="text-[11px] font-ui text-ink-light mb-1">
+                Processing {progress.done + 1}/{progress.total}: {progress.name}
+              </p>
+              <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
+                <div className="h-full bg-saffron rounded-full transition-all"
+                  style={{ width: `${(progress.done / progress.total) * 100}%` }} />
+              </div>
+            </div>
+          ) : (
+            <button onClick={submit} disabled={busy || qFiles.some(f => !bookChapterNums.has(f.data.chapter_no))}
+              className="w-full text-sm font-ui font-semibold bg-saffron text-white py-2.5 rounded-xl mt-1
+                hover:bg-saffron-dark disabled:opacity-50 transition-all flex items-center justify-center gap-2">
+              {busy ? <><Spinner /> Importing…</> : `Import ${qFiles.length} file${qFiles.length > 1 ? 's' : ''}`}
+            </button>
+          )}
+        </div>
+      )}
+    </div>
+  )
+}
+
+// Empty state when nothing is selected in the right panel
+function PanelEmpty({ context, onAction }) {
+  if (!context) {
+    return (
+      <div className="flex flex-col items-center justify-center h-48 text-center">
+        <p className="text-xs font-ui text-ink-light">Select a book from the tree</p>
+        <p className="text-xs font-ui text-ink-light mt-0.5">or click <strong>+ New Book</strong> to add one</p>
+      </div>
+    )
+  }
+  const { book, subj, cls } = context
+  return (
+    <div className="flex flex-col items-center justify-center h-48 text-center">
+      <p className="text-[10px] font-ui text-ink-light uppercase tracking-wide mb-1">
+        {cls.class_name} › <span className="bn">{subj.subject_bn}</span>
+      </p>
+      <p className="text-base font-ui font-semibold text-ink bn mb-1">{book.title_bn}</p>
+      <p className="text-[10px] font-mono text-ink-light mb-4">{book.book_id_code}</p>
+      <div className="flex gap-2">
+        <button onClick={() => onAction(PANEL_ADD_CHAPTERS)}
+          className="text-xs font-ui border border-border px-4 py-2 rounded-xl hover:border-saffron/50 transition-all text-ink">
+          + Add Chapters
+        </button>
+        <button onClick={() => onAction(PANEL_ADD_QUESTIONS)}
+          className="text-xs font-ui bg-saffron text-white px-4 py-2 rounded-xl hover:bg-saffron-dark transition-all font-semibold">
+          ↑ Import Questions
+        </button>
+      </div>
+    </div>
+  )
+}
+
+// ─── Curriculum tab root ──────────────────────────────────────────────────────
+
+function CurriculumTab({ token }) {
+  const [tree,       setTree]       = useState([])
+  const [loading,    setLoading]    = useState(true)
+  const [panel,      setPanel]      = useState(PANEL_NONE)
+  const [context,    setContext]    = useState(null)   // { book, subj, cls }
+  const [activeBook, setActiveBook] = useState(null)
+
+  const loadTree = useCallback(async () => {
+    setLoading(true)
+    try {
+      const d = await apiFetch('GET', '/api/admin/curriculum/tree', null, token)
+      setTree(d.tree)
+    } catch (e) { console.error(e) }
+    finally { setLoading(false) }
+  }, [token])
+
+  useEffect(() => { loadTree() }, [loadTree])
+
+  const selectBook = (book, subj, cls) => {
+    setActiveBook(book); setContext({ book, subj, cls }); setPanel(PANEL_NONE)
+  }
+  const selectAction = (action, book, subj, cls) => {
+    setActiveBook(book); setContext({ book, subj, cls }); setPanel(action)
+  }
+  const onDeleted = code => {
+    setTree(prev => prev
+      .map(cls => ({
+        ...cls,
+        subjects: cls.subjects
+          .map(s => ({ ...s, books: s.books.filter(b => b.book_id_code !== code) }))
+          .filter(s => s.books.length > 0),
+      }))
+      .filter(c => c.subjects.length > 0))
+    setPanel(PANEL_NONE); setActiveBook(null); setContext(null)
+  }
+  const onDone = () => loadTree()
+
+  return (
+    <div className="flex gap-4 items-start min-h-[600px]">
+
+      {/* Left: tree */}
+      <CurriculumTree
+        tree={tree} loading={loading}
+        activeBook={activeBook}
+        onSelect={selectBook}
+        onAction={selectAction}
+        token={token}
+        onDeleted={onDeleted}
+        onRefresh={loadTree}
+        onAddBook={() => { setPanel(PANEL_ADD_BOOK); setActiveBook(null); setContext(null) }}
+      />
+
+      {/* Right: action panel */}
+      <div className="flex-1 min-w-0 bg-white rounded-xl border border-border p-5">
+        {panel === PANEL_ADD_BOOK &&
+          <PanelAddBook token={token} tree={tree} onDone={onDone} />}
+        {panel === PANEL_ADD_CHAPTERS && context &&
+          <PanelAddChapters {...context} token={token} onDone={onDone} />}
+        {panel === PANEL_ADD_QUESTIONS && context &&
+          <PanelImportQuestions {...context} token={token} onDone={onDone} />}
+        {panel === PANEL_NONE &&
+          <PanelEmpty context={context}
+            onAction={action => context && selectAction(action, context.book, context.subj, context.cls)} />}
       </div>
     </div>
   )
@@ -567,25 +756,16 @@ function CurriculumTab({ token }) {
 
 export default function AdminDashboard() {
   const { token, signOut } = useAuth()
-  const [tab, setTab] = useState('Curriculum')
-
-  // Other tabs state
+  const [tab,       setTab]       = useState('Curriculum')
   const [summary,   setSummary]   = useState(null)
   const [providers, setProviders] = useState(null)
   const [logs,      setLogs]      = useState([])
   const [msg,       setMsg]       = useState('')
-  const [loading,   setLoading]   = useState(false)
 
   useEffect(() => {
-    if (tab === 'Overview') {
-      api.getUsageSummary(token).then(d => setSummary(d)).catch(() => {})
-    }
-    if (tab === 'Models') {
-      api.getAdminConfig(token).then(d => setProviders(d.providers)).catch(() => {})
-    }
-    if (tab === 'Logs') {
-      api.getUsageLogs(token, { limit: 50 }).then(d => setLogs(d.logs)).catch(() => {})
-    }
+    if (tab === 'Overview') api.getUsageSummary(token).then(d => setSummary(d)).catch(() => {})
+    if (tab === 'Models')   api.getAdminConfig(token).then(d => setProviders(d.providers)).catch(() => {})
+    if (tab === 'Logs')     api.getUsageLogs(token, { limit: 50 }).then(d => setLogs(d.logs)).catch(() => {})
   }, [tab, token])
 
   const switchProvider = async (purpose, providerName, modelName) => {
@@ -594,21 +774,16 @@ export default function AdminDashboard() {
       await api.updateProvider(purpose, providerName, modelName, token)
       setMsg(`✓ Switched ${purpose} to ${providerName} / ${modelName}`)
       api.getAdminConfig(token).then(d => setProviders(d.providers))
-    } catch (e) {
-      setMsg(`✗ ${e.message}`)
-    }
+    } catch (e) { setMsg(`✗ ${e.message}`) }
   }
 
   const clearLogs = async () => {
-    if (!confirm('Clear all API logs? This cannot be undone.')) return
-    await api.clearLogs(token)
-    setLogs([])
-    setMsg('✓ Logs cleared')
+    if (!confirm('Clear all API logs?')) return
+    await api.clearLogs(token); setLogs([]); setMsg('✓ Logs cleared')
   }
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Top bar */}
       <div className="bg-ink text-white px-6 py-3 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <span className="text-saffron font-bold text-lg">📚</span>
@@ -619,7 +794,6 @@ export default function AdminDashboard() {
         </button>
       </div>
 
-      {/* Tabs */}
       <div className="bg-white border-b border-border px-6 flex gap-1">
         {TABS.map(t => (
           <button key={t} onClick={() => { setTab(t); setMsg('') }}
@@ -630,17 +804,11 @@ export default function AdminDashboard() {
         ))}
       </div>
 
-      <div className="max-w-5xl mx-auto px-6 py-6">
-        {msg && tab !== 'Curriculum' && (
-          <Msg text={msg} onClose={() => setMsg('')} />
-        )}
+      <div className="max-w-6xl mx-auto px-6 py-6">
+        {msg && tab !== 'Curriculum' && <Toast msg={msg} onClose={() => setMsg('')} />}
 
-        {/* ── Curriculum ── */}
-        {tab === 'Curriculum' && (
-          <CurriculumTab token={token} />
-        )}
+        {tab === 'Curriculum' && <CurriculumTab token={token} />}
 
-        {/* ── Overview ── */}
         {tab === 'Overview' && (
           <div className="space-y-6">
             <h2 className="text-base font-ui font-semibold text-ink">Usage Overview (last 30 days)</h2>
@@ -648,23 +816,16 @@ export default function AdminDashboard() {
               <>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                   <StatCard label="Total calls" value={summary.summary.reduce((a, r) => a + r.calls, 0)} />
-                  <StatCard label="Total cost (₹)" accent
-                    value={`₹${summary.summary.reduce((a, r) => a + r.total_cost_inr, 0).toFixed(2)}`} />
-                  <StatCard label="Projection 1k/day"
-                    value={`₹${summary.projection?.inr_1k_per_month?.toLocaleString() || '—'}`}
-                    sub="per month" />
-                  <StatCard label="Projection 5k/day"
-                    value={`₹${summary.projection?.inr_5k_per_month?.toLocaleString() || '—'}`}
-                    sub="per month" />
+                  <StatCard label="Total cost (₹)" accent value={`₹${summary.summary.reduce((a, r) => a + r.total_cost_inr, 0).toFixed(2)}`} />
+                  <StatCard label="Projection 1k/day" value={`₹${summary.projection?.inr_1k_per_month?.toLocaleString() || '—'}`} sub="per month" />
+                  <StatCard label="Projection 5k/day" value={`₹${summary.projection?.inr_5k_per_month?.toLocaleString() || '—'}`} sub="per month" />
                 </div>
                 <div className="bg-white rounded-xl border border-border overflow-hidden">
                   <table className="w-full text-sm font-ui">
                     <thead className="bg-gray-50 text-xs text-ink-light">
-                      <tr>
-                        {['Day', 'Type', 'Provider', 'Model', 'Calls', 'Input tok', 'Output tok', 'Cost (₹)'].map(h => (
-                          <th key={h} className="text-left px-3 py-2">{h}</th>
-                        ))}
-                      </tr>
+                      <tr>{['Day','Type','Provider','Model','Calls','Input tok','Output tok','Cost (₹)'].map(h => (
+                        <th key={h} className="text-left px-3 py-2">{h}</th>
+                      ))}</tr>
                     </thead>
                     <tbody>
                       {summary.summary.map((row, i) => (
@@ -687,30 +848,20 @@ export default function AdminDashboard() {
           </div>
         )}
 
-        {/* ── Models ── */}
         {tab === 'Models' && providers && (
           <div className="space-y-6">
             <h2 className="text-base font-ui font-semibold text-ink">LLM Provider Config</h2>
-            <p className="text-sm font-ui text-ink-light">
-              Switching takes effect immediately — no restart needed.
-            </p>
+            <p className="text-sm font-ui text-ink-light">Switching takes effect immediately — no restart needed.</p>
             {Object.entries(providers).map(([purpose, data]) => (
               <div key={purpose} className="bg-white rounded-xl border border-border p-5">
-                <h3 className="font-ui font-semibold text-sm text-ink mb-3 capitalize">
-                  {purpose.replace('_', ' ')}
-                </h3>
+                <h3 className="font-ui font-semibold text-sm text-ink mb-3 capitalize">{purpose.replace('_', ' ')}</h3>
                 <div className="space-y-2">
                   {data.active && (
                     <div className="flex items-center justify-between bg-forest-light border border-forest/30 rounded-xl px-4 py-3">
                       <div>
                         <span className="text-xs font-ui text-forest font-semibold">ACTIVE</span>
-                        <p className="text-sm font-ui text-ink mt-0.5">
-                          {data.active.provider_name} / {data.active.model_name}
-                        </p>
-                        <p className="text-xs text-ink-light font-ui">
-                          ${data.active.cost_input_per_m}/${data.active.cost_output_per_m} per M tokens
-                          {data.active.vision_enabled ? ' · vision ✓' : ''}
-                        </p>
+                        <p className="text-sm font-ui text-ink mt-0.5">{data.active.provider_name} / {data.active.model_name}</p>
+                        <p className="text-xs text-ink-light font-ui">${data.active.cost_input_per_m}/${data.active.cost_output_per_m} per M tokens{data.active.vision_enabled ? ' · vision ✓' : ''}</p>
                       </div>
                       <span className="text-green-500 text-xl">●</span>
                     </div>
@@ -719,15 +870,10 @@ export default function AdminDashboard() {
                     <div key={p.id} className="flex items-center justify-between border border-border rounded-xl px-4 py-3">
                       <div>
                         <p className="text-sm font-ui text-ink">{p.provider_name} / {p.model_name}</p>
-                        <p className="text-xs text-ink-light font-ui">
-                          ${p.cost_input_per_m}/${p.cost_output_per_m} per M tokens
-                          {p.vision_enabled ? ' · vision ✓' : ''}
-                        </p>
+                        <p className="text-xs text-ink-light font-ui">${p.cost_input_per_m}/${p.cost_output_per_m} per M tokens{p.vision_enabled ? ' · vision ✓' : ''}</p>
                       </div>
-                      <button
-                        onClick={() => switchProvider(purpose, p.provider_name, p.model_name)}
-                        className="text-xs font-ui font-semibold text-saffron border border-saffron/30 px-3 py-1.5 rounded-lg hover:bg-saffron hover:text-white transition-all"
-                      >
+                      <button onClick={() => switchProvider(purpose, p.provider_name, p.model_name)}
+                        className="text-xs font-ui font-semibold text-saffron border border-saffron/30 px-3 py-1.5 rounded-lg hover:bg-saffron hover:text-white transition-all">
                         Switch
                       </button>
                     </div>
@@ -738,24 +884,20 @@ export default function AdminDashboard() {
           </div>
         )}
 
-        {/* ── Logs ── */}
         {tab === 'Logs' && (
           <div className="space-y-4">
             <div className="flex items-center justify-between">
               <h2 className="text-base font-ui font-semibold text-ink">API Call Logs</h2>
-              <button onClick={clearLogs}
-                className="text-xs font-ui text-red-500 border border-red-200 px-3 py-1.5 rounded-lg hover:bg-red-50 transition-all">
+              <button onClick={clearLogs} className="text-xs font-ui text-red-500 border border-red-200 px-3 py-1.5 rounded-lg hover:bg-red-50 transition-all">
                 Clear all logs
               </button>
             </div>
             <div className="bg-white rounded-xl border border-border overflow-x-auto">
               <table className="w-full text-xs font-ui min-w-[700px]">
                 <thead className="bg-gray-50 text-ink-light">
-                  <tr>
-                    {['Time', 'Type', 'Provider', 'Model', 'In tok', 'Out tok', '₹', 'Success'].map(h => (
-                      <th key={h} className="text-left px-3 py-2">{h}</th>
-                    ))}
-                  </tr>
+                  <tr>{['Time','Type','Provider','Model','In tok','Out tok','₹','OK'].map(h => (
+                    <th key={h} className="text-left px-3 py-2">{h}</th>
+                  ))}</tr>
                 </thead>
                 <tbody>
                   {logs.map((log, i) => (
@@ -768,9 +910,7 @@ export default function AdminDashboard() {
                       <td className="px-3 py-2">{log.output_tokens}</td>
                       <td className="px-3 py-2 font-semibold">₹{log.cost_inr?.toFixed(4)}</td>
                       <td className="px-3 py-2">
-                        <span className={log.success ? 'text-green-600' : 'text-red-600'}>
-                          {log.success ? '✓' : '✗'}
-                        </span>
+                        <span className={log.success ? 'text-green-600' : 'text-red-600'}>{log.success ? '✓' : '✗'}</span>
                       </td>
                     </tr>
                   ))}
