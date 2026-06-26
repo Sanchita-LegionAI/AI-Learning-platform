@@ -350,7 +350,7 @@ function PanelAddClass({ token, onDone }) {
   )
 }
 
-
+function PanelAddBook({ token, tree, onDone }) {
   const [busy, setBusy] = useState(false)
   const [msg,  setMsg]  = useState('')
   const [form, setForm] = useState({
