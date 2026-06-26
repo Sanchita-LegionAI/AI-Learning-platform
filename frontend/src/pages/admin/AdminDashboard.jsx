@@ -74,6 +74,7 @@ function Spinner() {
 // ─── Curriculum tab ───────────────────────────────────────────────────────────
 
 const PANEL_NONE          = null
+const PANEL_ADD_CLASS     = 'add_class'
 const PANEL_ADD_BOOK      = 'add_book'
 const PANEL_ADD_CHAPTERS  = 'add_chapters'
 const PANEL_ADD_QUESTIONS = 'add_questions'
@@ -83,15 +84,19 @@ function QuestionCountRow({ ch }) {
   const total = ch.total_questions
   return (
     <tr className="border-t border-border/50 text-xs font-ui hover:bg-gray-50/50">
-      <td className="pl-4 pr-2 py-1.5 text-ink-light tabular-nums w-6 shrink-0">{ch.chapter_number}</td>
-      <td className="px-2 py-1.5 bn text-xs leading-snug text-ink max-w-[160px] truncate" title={ch.name_bn}>{ch.name_bn}</td>
-      <td className={`px-2 py-1.5 tabular-nums font-semibold ${total === 0 ? 'text-red-400' : 'text-ink'}`}>{total}</td>
-      <td className="px-2 py-1.5">
+      <td className="pl-3 pr-1 py-1.5 text-ink-light tabular-nums text-right" style={{width:'28px'}}>{ch.chapter_number}</td>
+      <td className="px-2 py-1.5 bn leading-snug text-ink" style={{width:'auto'}}>
+        <span className="block truncate" title={ch.name_bn}>{ch.name_bn}</span>
+      </td>
+      <td className="px-1 py-1.5 tabular-nums font-semibold text-right" style={{width:'36px'}}>
+        <span className={total === 0 ? 'text-red-400' : 'text-ink'}>{total}</span>
+      </td>
+      <td className="pl-1 pr-2 py-1.5 text-right" style={{width:'60px'}}>
         {ch.ready_for_exam
           ? <Badge color="green">Ready</Badge>
           : total === 0
             ? <Badge color="red">Empty</Badge>
-            : <Badge color="yellow">Partial</Badge>}
+            : <Badge color="yellow">Part.</Badge>}
       </td>
     </tr>
   )
@@ -136,7 +141,13 @@ function BookNode({ book, subj, cls, isActive, onSelect, onAction, token, onDele
       {/* Expanded: chapter table + action buttons */}
       {open && (
         <div className="border-t border-border/50">
-          <table className="w-full">
+          <table className="w-full table-fixed">
+            <colgroup>
+              <col style={{width:'28px'}} />
+              <col style={{width:'auto'}} />
+              <col style={{width:'36px'}} />
+              <col style={{width:'60px'}} />
+            </colgroup>
             <tbody>
               {book.chapters.map(ch => <QuestionCountRow key={ch.chapter_id} ch={ch} />)}
             </tbody>
@@ -165,19 +176,23 @@ function BookNode({ book, subj, cls, isActive, onSelect, onAction, token, onDele
 }
 
 // Tree: full class › subject › book hierarchy
-function CurriculumTree({ tree, activeBook, onSelect, onAction, token, onDeleted, loading, onRefresh, onAddBook }) {
+function CurriculumTree({ tree, activeBook, onSelect, onAction, token, onDeleted, loading, onRefresh, onAddBook, onAddClass }) {
   return (
-    <div className="w-72 shrink-0 flex flex-col gap-2">
+    <div className="w-80 shrink-0 flex flex-col gap-2">
       {/* Tree header */}
       <div className="flex items-center justify-between">
         <p className="text-xs font-ui font-semibold text-ink">Curriculum</p>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5">
+          <button onClick={onAddClass}
+            className="text-[11px] font-ui px-2.5 py-1 rounded-lg border transition-all border-border text-ink hover:border-blue-300 hover:text-blue-600">
+            + Class
+          </button>
           <button onClick={onAddBook}
             className="text-[11px] font-ui px-2.5 py-1 rounded-lg border transition-all border-border text-ink hover:border-saffron/50">
-            + New Book
+            + Book
           </button>
           <button onClick={onRefresh} disabled={loading}
-            className="text-[11px] font-ui text-ink-light hover:text-ink disabled:opacity-40 transition-colors">
+            className="text-[11px] font-ui text-ink-light hover:text-ink disabled:opacity-40 transition-colors px-1">
             {loading ? <Spinner /> : '↻'}
           </button>
         </div>
@@ -189,10 +204,14 @@ function CurriculumTree({ tree, activeBook, onSelect, onAction, token, onDeleted
           <div className="flex items-center justify-center py-12 text-ink-light"><Spinner /></div>
         ) : tree.length === 0 ? (
           <div className="text-center py-10">
-            <p className="text-xs font-ui text-ink-light">No books yet.</p>
+            <p className="text-xs font-ui text-ink-light mb-2">No classes or books yet.</p>
+            <button onClick={onAddClass}
+              className="text-xs font-ui text-blue-600 hover:text-blue-800 font-medium block mx-auto mb-1">
+              + Add a class first →
+            </button>
             <button onClick={onAddBook}
-              className="text-xs font-ui text-saffron hover:text-saffron-dark mt-1 font-medium">
-              Add your first book →
+              className="text-xs font-ui text-saffron hover:text-saffron-dark font-medium block mx-auto">
+              or add a book directly →
             </button>
           </div>
         ) : (
@@ -248,7 +267,90 @@ function ContextBanner({ cls, subj, book }) {
   )
 }
 
-function PanelAddBook({ token, tree, onDone }) {
+function PanelAddClass({ token, onDone }) {
+  const [busy, setBusy] = useState(false)
+  const [msg,  setMsg]  = useState('')
+  const [name,    setName]    = useState('')   // e.g. "Class 9"
+  const [nameBn,  setNameBn]  = useState('')   // e.g. "নবম শ্রেণী"
+
+  // Quick presets for common cases
+  const PRESETS = [
+    { name: 'Class 6',  bn: 'ষষ্ঠ শ্রেণী' },
+    { name: 'Class 7',  bn: 'সপ্তম শ্রেণী' },
+    { name: 'Class 8',  bn: 'অষ্টম শ্রেণী' },
+    { name: 'Class 9',  bn: 'নবম শ্রেণী' },
+    { name: 'Class 10', bn: 'দশম শ্রেণী' },
+  ]
+
+  const submit = async () => {
+    if (!name.trim() || !nameBn.trim()) { setMsg('✗ Both fields are required'); return }
+    setBusy(true); setMsg('')
+    try {
+      await apiFetch('POST', '/api/admin/curriculum/seed-class', { name: name.trim(), display_name_bn: nameBn.trim() }, token)
+      setMsg(`✓ Class "${name}" added`)
+      setName(''); setNameBn('')
+      onDone()
+    } catch (e) { setMsg(`✗ ${e.message}`) }
+    finally { setBusy(false) }
+  }
+
+  return (
+    <div className="space-y-4">
+      <div>
+        <h3 className="text-sm font-ui font-semibold text-ink">Add New Class</h3>
+        <p className="text-xs font-ui text-ink-light mt-0.5">
+          Creates a class that books can be added to. Safe to submit if it already exists — it will be skipped.
+        </p>
+      </div>
+      <Toast msg={msg} onClose={() => setMsg('')} />
+
+      {/* Quick presets */}
+      <div>
+        <label className="text-xs font-ui font-medium text-ink-light block mb-1.5">Quick select</label>
+        <div className="flex gap-2 flex-wrap">
+          {PRESETS.map(p => (
+            <button key={p.name}
+              onClick={() => { setName(p.name); setNameBn(p.bn) }}
+              className={`text-xs font-ui px-3 py-1.5 rounded-lg border transition-all
+                ${name === p.name
+                  ? 'bg-saffron text-white border-saffron'
+                  : 'border-border hover:border-saffron/50 text-ink bg-white'}`}>
+              {p.name}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Manual fields */}
+      <div className="grid grid-cols-2 gap-3">
+        <div>
+          <label className="text-xs font-ui font-medium text-ink-light block mb-1">Class name (English) *</label>
+          <input placeholder="e.g. Class 9"
+            value={name}
+            onChange={e => setName(e.target.value)}
+            className="w-full text-xs font-ui border border-border rounded-lg px-3 py-2
+              focus:outline-none focus:border-saffron/60 placeholder:text-ink-light/40" />
+        </div>
+        <div>
+          <label className="text-xs font-ui font-medium text-ink-light block mb-1">বাংলা নাম *</label>
+          <input placeholder="নবম শ্রেণী"
+            value={nameBn}
+            onChange={e => setNameBn(e.target.value)}
+            className="w-full text-xs font-ui border border-border rounded-lg px-3 py-2 bn
+              focus:outline-none focus:border-saffron/60 placeholder:text-ink-light/40" />
+        </div>
+      </div>
+
+      <button onClick={submit} disabled={busy}
+        className="w-full text-sm font-ui font-semibold bg-saffron text-white py-2.5 rounded-xl
+          hover:bg-saffron-dark disabled:opacity-50 transition-all flex items-center justify-center gap-2">
+        {busy ? <><Spinner /> Adding…</> : 'Add Class'}
+      </button>
+    </div>
+  )
+}
+
+
   const [busy, setBusy] = useState(false)
   const [msg,  setMsg]  = useState('')
   const [form, setForm] = useState({
@@ -656,7 +758,7 @@ function PanelEmpty({ context, onAction }) {
     return (
       <div className="flex flex-col items-center justify-center h-48 text-center">
         <p className="text-xs font-ui text-ink-light">Select a book from the tree</p>
-        <p className="text-xs font-ui text-ink-light mt-0.5">or click <strong>+ New Book</strong> to add one</p>
+        <p className="text-xs font-ui text-ink-light mt-0.5">or use <strong>+ Class</strong> / <strong>+ Book</strong> to add content</p>
       </div>
     )
   }
@@ -733,11 +835,14 @@ function CurriculumTab({ token }) {
         token={token}
         onDeleted={onDeleted}
         onRefresh={loadTree}
+        onAddClass={() => { setPanel(PANEL_ADD_CLASS); setActiveBook(null); setContext(null) }}
         onAddBook={() => { setPanel(PANEL_ADD_BOOK); setActiveBook(null); setContext(null) }}
       />
 
       {/* Right: action panel */}
       <div className="flex-1 min-w-0 bg-white rounded-xl border border-border p-5">
+        {panel === PANEL_ADD_CLASS &&
+          <PanelAddClass token={token} onDone={onDone} />}
         {panel === PANEL_ADD_BOOK &&
           <PanelAddBook token={token} tree={tree} onDone={onDone} />}
         {panel === PANEL_ADD_CHAPTERS && context &&

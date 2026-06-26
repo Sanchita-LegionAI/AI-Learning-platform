@@ -37,7 +37,12 @@ class ProviderUpdateRequest(BaseModel):
     model_name: str
 
 
-class SeedBookRequest(BaseModel):
+class SeedClassRequest(BaseModel):
+    name: str              # e.g. "Class 9"
+    display_name_bn: str   # e.g. "নবম শ্রেণী"
+
+
+
     """
     Chapters JSON format:
     {
@@ -247,6 +252,42 @@ def trigger_import(admin: dict = Depends(require_admin)):
 # =============================================================================
 # CURRICULUM MANAGEMENT — zero-SQL interface
 # =============================================================================
+
+@router.post("/curriculum/seed-class")
+def seed_class(body: SeedClassRequest, admin: dict = Depends(require_admin)):
+    """
+    Create a new class (e.g. Class 9 / নবম শ্রেণী).
+    Idempotent — if a class with the same name already exists it is skipped.
+    """
+    supabase = get_supabase()
+
+    existing = (
+        supabase.table("classes")
+        .select("id, name")
+        .eq("name", body.name)
+        .execute()
+    )
+    if existing.data:
+        return {
+            "ok": True,
+            "created": False,
+            "class_id": existing.data[0]["id"],
+            "message": f"Class '{body.name}' already exists — skipped.",
+        }
+
+    res = supabase.table("classes").insert({
+        "name":            body.name,
+        "display_name_bn": body.display_name_bn,
+        "active":          True,
+    }).execute()
+
+    return {
+        "ok":      True,
+        "created": True,
+        "class_id": res.data[0]["id"],
+        "message": f"Class '{body.name}' created.",
+    }
+
 
 @router.get("/curriculum/tree")
 def get_curriculum_tree(admin: dict = Depends(require_admin)):
