@@ -1,0 +1,1774 @@
+{
+  "book_id": "otit_o_oitijhyo",
+  "book_name": "Otit_O_Oitijhyo",
+  "book_name_bn": "অতীত ও ঐতিহ্য",
+  "subject": "history",
+  "class": 7,
+  "chapter_no": 6,
+  "chapter_title_bn": "নগর, বণিক ও বাণিজ্য",
+  "source_file": "otit_o_oitijhyo_ch06_questions.json",
+  "questions": {
+    "mcq": [
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_001",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "দিল্লির ভূগোল",
+        "question_bn": "দিল্লি শহর কোন নদীর তীরে অবস্থিত?",
+        "options": ["গঙ্গা", "যমুনা", "সিন্ধু", "ব্রহ্মপুত্র", "গোদাবরী"],
+        "correct_answer": "যমুনা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_002",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সুলতানি দিল্লি",
+        "question_bn": "কুতুবউদ্দিন আইবক দিল্লিতে কী প্রতিষ্ঠা করেন?",
+        "options": ["মুঘল শাসন", "সুলতানি শাসন", "রাজপুত শাসন", "মোঙ্গল শাসন", "আফগান শাসন"],
+        "correct_answer": "সুলতানি শাসন"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_003",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শাহজাহানাবাদ",
+        "question_bn": "শাহজাহানাবাদ কত খ্রিস্টাব্দে তৈরি হয়েছিল?",
+        "options": ["১৬১৫", "১৬২৫", "১৬৩৯", "১৬৪৮", "১৬৫৫"],
+        "correct_answer": "১৬৩৯"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_004",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বাণিজ্যপথ",
+        "question_bn": "মধ্যযুগে ভারতে যাতায়াতের প্রধান মাধ্যম কী ছিল?",
+        "options": ["রেলপথ", "আকাশপথ", "সড়কপথ ও জলপথ", "পাহাড়ি পথ", "মরুপথ"],
+        "correct_answer": "সড়কপথ ও জলপথ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_005",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পোর্তুগিজ আগমন",
+        "question_bn": "ভাস্কো দা গামা কত খ্রিস্টাব্দে ভারতে পৌঁছান?",
+        "options": ["১৪৭৫", "১৪৮৫", "১৪৯৮", "১৫০৫", "১৫১০"],
+        "correct_answer": "১৪৯৮"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_006",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ইস্ট ইন্ডিয়া কোম্পানি",
+        "question_bn": "ইংলিশ ইস্ট ইন্ডিয়া কোম্পানি কোথায় গড়ে উঠেছিল?",
+        "options": ["প্যারিসে", "আমস্টারডামে", "লিসবনে", "লন্ডনে", "রোমে"],
+        "correct_answer": "লন্ডনে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_007",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মুদ্রা",
+        "question_bn": "দিল্লির সুলতানরা কোন রুপোর মুদ্রা চালু করেছিলেন?",
+        "options": ["মোহর", "জিতল", "তঙকা", "দাম", "আশরফি"],
+        "correct_answer": "তঙকা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_008",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "কালিকট বন্দর",
+        "question_bn": "কালিকট বন্দর কোন সাগরের তীরে ছিল?",
+        "options": ["বঙ্গোপসাগর", "ভূমধ্যসাগর", "আরব সাগর", "ভারত মহাসাগর", "লোহিত সাগর"],
+        "correct_answer": "আরব সাগর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_009",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শাহজাহানাবাদ",
+        "question_bn": "শাহজাহানাবাদের প্রধান স্থাপত্য লালকেল্লা কোন পাথরে তৈরি?",
+        "options": ["সাদা মার্বেল", "কালো পাথর", "লাল বেলে পাথর", "গ্রানাইট", "চুনাপাথর"],
+        "correct_answer": "লাল বেলে পাথর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_010",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সুফি সাধক",
+        "question_bn": "দিল্লির সবচেয়ে বিখ্যাত সুফি সাধক কে ছিলেন?",
+        "options": ["শেখ নাসিরউদ্দিন", "গেসু দরাজ", "শেখ নিজামউদ্দিন আউলিয়া", "শেখ সেলিম চিশতি", "ফরিদুদ্দিন গঞ্জেশকর"],
+        "correct_answer": "শেখ নিজামউদ্দিন আউলিয়া"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_011",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মুঘল বাণিজ্যকেন্দ্র",
+        "question_bn": "মুঘল আমলে ভারতের প্রধান বন্দর কোনটি ছিল?",
+        "options": ["কালিকট", "মসুলিপটনম", "সুরাট", "হুগলি", "পুলিকট"],
+        "correct_answer": "সুরাট"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_012",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ফতেহপুর সিকরি",
+        "question_bn": "ফতেহপুর সিকরি শহর কোন সমস্যার কারণে ছেড়ে যেতে হয়েছিল?",
+        "options": ["মোঙ্গল আক্রমণ", "ভূমিকম্প", "জলের অভাব", "বন্যা", "আগুন"],
+        "correct_answer": "জলের অভাব"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_013",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "হুন্ডি",
+        "question_bn": "সরাফরা কাগজের মাধ্যমে কোন ব্যবস্থা চালু করেছিল?",
+        "options": ["মোহর", "তঙকা", "হুন্ডি", "জিতল", "দাম"],
+        "correct_answer": "হুন্ডি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_014",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বাণিজ্য",
+        "question_bn": "বাংলা থেকে কী রপ্তানি হতো?",
+        "options": ["মশলা ও কাচ", "সুতির কাপড়, রেশমবস্ত্র ও চিনি", "ঘোড়া ও হাতি", "সোনা ও রুপো", "নীল ও গোলমরিচ"],
+        "correct_answer": "সুতির কাপড়, রেশমবস্ত্র ও চিনি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_015",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পানিপতের যুদ্ধ",
+        "question_bn": "পানিপতের প্রথম যুদ্ধে বাবর কাকে হারিয়েছিলেন?",
+        "options": ["ইব্রাহিম লোদি", "সিকান্দর লোদি", "হুমায়ুন", "শেরশাহ", "আকবর"],
+        "correct_answer": "ইব্রাহিম লোদি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_016",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "দিল্লির সাত শহর",
+        "question_bn": "তুঘলকাবাদ শহর কে তৈরি করেন?",
+        "options": ["আলাউদ্দিন খলজি", "মহম্মদ বিন তুঘলক", "গিয়াসউদ্দিন তুঘলক", "ফিরোজ শাহ তুঘলক", "কুতুবউদ্দিন আইবক"],
+        "correct_answer": "গিয়াসউদ্দিন তুঘলক"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_017",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "দিল্লির সাত শহর",
+        "question_bn": "সিরি শহর কে তৈরি করেন?",
+        "options": ["গিয়াসউদ্দিন তুঘলক", "ফিরোজ শাহ তুঘলক", "আলাউদ্দিন খলজি", "শাহজাহান", "হুমায়ুন"],
+        "correct_answer": "আলাউদ্দিন খলজি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_018",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আলাউদ্দিন খলজির বাণিজ্যনীতি",
+        "question_bn": "আলাউদ্দিন খলজি বাজারে কীসের ওপর নিয়ন্ত্রণ রাখতেন?",
+        "options": ["ব্যবসায়ীর সংখ্যা", "জিনিসের দাম", "বাণিজ্যপথ", "মুদ্রার ওজন", "রপ্তানির পরিমাণ"],
+        "correct_answer": "জিনিসের দাম"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_019",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ইউরোপীয় বণিক",
+        "question_bn": "ওলন্দাজরা দক্ষিণ ভারতের কোন বন্দরে বাণিজ্য করত?",
+        "options": ["সুরাট", "কালিকট", "মসুলিপটনম", "হুগলি", "পুলিকট"],
+        "correct_answer": "মসুলিপটনম"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_020",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মুঘল আমলের মুদ্রা",
+        "question_bn": "মুঘল আমলে সোনার মুদ্রাকে কী বলা হতো?",
+        "options": ["তঙকা", "জিতল", "দাম", "মোহর বা আশরফি", "রুপিয়া"],
+        "correct_answer": "মোহর বা আশরফি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_021",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "দিল্লির শহর",
+        "question_bn": "ফিরোজাবাদ শহর কোথায় গড়ে উঠেছিল?",
+        "options": ["আরাবল্লির পাথুরে এলাকায়", "যমুনা নদীর পাড় বরাবর", "তুঘলকাবাদের কাছে", "সিরির পাশে", "কুতুব দিল্লির মধ্যে"],
+        "correct_answer": "যমুনা নদীর পাড় বরাবর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_022",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "টমাস রো",
+        "question_bn": "টমাস রো কোন মুঘল সম্রাটের রাজসভায় এসেছিলেন?",
+        "options": ["আকবর", "শাহজাহান", "জাহাঙ্গির", "আওরঙ্গজেব", "হুমায়ুন"],
+        "correct_answer": "জাহাঙ্গির"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_023",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বাণিজ্য পণ্য",
+        "question_bn": "পশ্চিম এশিয়া থেকে ভারতে প্রধানত কী আমদানি হতো?",
+        "options": ["চিনি ও রেশম", "ঘোড়া ও কাচের সামগ্রী", "নীল ও তুলা", "হাতি ও মশলা", "সোনা ও রুপো"],
+        "correct_answer": "ঘোড়া ও কাচের সামগ্রী"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_024",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "দিল্লির ইতিহাস",
+        "question_bn": "কোন সুলতানের আমলে আগ্রা শহরের বিকাশ শুরু হয়?",
+        "options": ["ফিরোজ শাহ তুঘলক", "মহম্মদ বিন তুঘলক", "সিকান্দর লোদি", "ইব্রাহিম লোদি", "আলাউদ্দিন খলজি"],
+        "correct_answer": "সিকান্দর লোদি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_025",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মধ্যযুগের শহর",
+        "question_bn": "মধ্যযুগে বাংলার কোন শহরগুলি গুরুত্বপূর্ণ ছিল?",
+        "options": ["দিল্লি ও আগ্রা", "লাহোর ও মুলতান", "গৌড়, নবদ্বীপ ও চট্টগ্রাম", "বুরহানপুর ও গোলকোণ্ডা", "সুরাট ও আহমেদাবাদ"],
+        "correct_answer": "গৌড়, নবদ্বীপ ও চট্টগ্রাম"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_026",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ডাচ বণিক",
+        "question_bn": "ওলন্দাজ বা ডাচরা কোন দেশের অধিবাসী?",
+        "options": ["ইংল্যান্ড", "ফ্রান্স", "পোর্তুগাল", "হল্যান্ড", "ডেনমার্ক"],
+        "correct_answer": "হল্যান্ড"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_027",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "শাহজাহানাবাদ",
+        "question_bn": "শাহজাহানাবাদের প্রাচীরে কতটি বড়ো দরজা ছিল?",
+        "options": ["পাঁচটি", "ছয়টি", "সাতটি", "আটটি", "নয়টি"],
+        "correct_answer": "সাতটি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_028",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বণিক শ্রেণি",
+        "question_bn": "দূরপাল্লার বাণিজ্যে কারা দক্ষ ছিল?",
+        "options": ["বনজারা", "করওয়ানি", "মুলতানি বা শাহ", "নায়ক", "সরাফ"],
+        "correct_answer": "মুলতানি বা শাহ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_029",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বাণিজ্য",
+        "question_bn": "মধ্য এশিয়া থেকে সড়কপথে কোন মূল্যবান জিনিস আমদানি হতো?",
+        "options": ["মশলা ও কাপড়", "সোনা, রুপো ও রত্ন", "ঘোড়া ও কাচ", "চিনি ও নীল", "রেশম ও সুতি"],
+        "correct_answer": "সোনা, রুপো ও রত্ন"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_030",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "শেরশাহ",
+        "question_bn": "শেরশাহ কোন ধাতুর মুদ্রা চালু করেন?",
+        "options": ["শুধু সোনা", "শুধু রুপো", "শুধু তামা", "সোনা, রুপো ও তামা", "সোনা ও তামা"],
+        "correct_answer": "সোনা, রুপো ও তামা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_031",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চাঁদনি চক",
+        "question_bn": "শাহজাহানাবাদের চাঁদনি চক বাজার কে তৈরি করে দিয়েছিলেন?",
+        "options": ["শাহজাহান নিজে", "জাহান আরা বেগম", "মমতাজ মহল", "ঔরঙ্গজেব", "জাহাঙ্গির"],
+        "correct_answer": "জাহান আরা বেগম"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_032",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গোয়া",
+        "question_bn": "গোয়ায় পোর্তুগিজ প্রাধান্য কার হাত ধরে প্রতিষ্ঠিত হয়?",
+        "options": ["ভাস্কো দা গামা", "ডিউক অফ আলবুকার্ক", "টমাস রো", "ফাদার মনসেরাট", "কলম্বাস"],
+        "correct_answer": "ডিউক অফ আলবুকার্ক"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_033",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ফরাসি ইস্ট ইন্ডিয়া কোম্পানি",
+        "question_bn": "ফরাসি ইস্ট ইন্ডিয়া কোম্পানি কত খ্রিস্টাব্দে প্রতিষ্ঠিত হয়?",
+        "options": ["১৬০০", "১৬০২", "১৬৪০", "১৬৬৪", "১৬৮০"],
+        "correct_answer": "১৬৬৪"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_034",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "দিল্লির ইতিহাস",
+        "question_bn": "মহাভারতে দিল্লির কী নাম পাওয়া যায়?",
+        "options": ["হস্তিনাপুর", "ইন্দ্রপ্রস্থ", "তক্ষশীলা", "পাটলিপুত্র", "কনৌজ"],
+        "correct_answer": "ইন্দ্রপ্রস্থ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_035",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মুঘল শাসন",
+        "question_bn": "আকবর জলের অভাবে কোন শহর ছেড়ে লাহোর চলে যান?",
+        "options": ["আগ্রা", "দিল্লি", "ফতেহপুর সিকরি", "এলাহাবাদ", "দৌলতাবাদ"],
+        "correct_answer": "ফতেহপুর সিকরি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_036",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ইউরোপীয় বণিক",
+        "question_bn": "ইউরোপীয় বণিকরা কোন কারণে ভারতে আসতে উৎসাহী হয়েছিল?",
+        "options": ["সোনার খোঁজে", "মশলার বাণিজ্যের জন্য", "দাস ব্যবসার জন্য", "রেশম কিনতে", "হাতি আমদানির জন্য"],
+        "correct_answer": "মশলার বাণিজ্যের জন্য"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_037",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বাণিজ্যিক শহর",
+        "question_bn": "সড়কপথে মধ্য এশিয়ার বাণিজ্যের কেন্দ্র কোনটি ছিল?",
+        "options": ["আগ্রা", "লাহোর", "মুলতান", "দিল্লি", "এলাহাবাদ"],
+        "correct_answer": "মুলতান"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_038",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বণিক সম্প্রদায়",
+        "question_bn": "সমুদ্র বাণিজ্যে অত্যন্ত ধনী বণিকদের কী বলা হতো?",
+        "options": ["বনজারা", "করওয়ানি", "সরাফ", "বণিক-সম্রাট", "মুলতানি"],
+        "correct_answer": "বণিক-সম্রাট"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_039",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "দিল্লির সুলতান",
+        "question_bn": "ইলতুৎমিশের আমলে দিল্লি শহর গড়ে ওঠার বর্ণনা কোন ঐতিহাসিক দিয়েছেন?",
+        "options": ["আলবেরুনি", "ইবন বতুতা", "ইসামি", "আবুল ফজল", "বদাউনি"],
+        "correct_answer": "ইসামি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_040",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "দিল্লির সুলতান",
+        "question_bn": "কায়কোবাদ কোথায় কিলোঘড়ি প্রাসাদ তৈরি করেন?",
+        "options": ["আরাবল্লির পাদদেশে", "যমুনার তীরে", "সিরির ভেতরে", "তুঘলকাবাদে", "ফিরোজাবাদে"],
+        "correct_answer": "যমুনার তীরে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_041",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ইলতুৎমিশের শাসনকাল",
+        "question_bn": "সুলতান ইলতুৎমিশের শাসনকাল কত খ্রিস্টাব্দ থেকে কত খ্রিস্টাব্দ পর্যন্ত ছিল?",
+        "options": ["১১৯০-১২১০", "১২১১-১২৩৬", "১২৪০-১২৬৫", "১২৬৬-১২৮৭", "১২৯০-১৩১০"],
+        "correct_answer": "১২১১-১২৩৬"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_042",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মোঙ্গল আক্রমণ",
+        "question_bn": "মোঙ্গলরা কোন শহরের ক্ষতি করেছিল যার ফলে দিল্লির গুরুত্ব বেড়েছিল?",
+        "options": ["সমরকন্দ", "তেহরান", "বাগদাদ", "কনস্টান্টিনোপল", "কাবুল"],
+        "correct_answer": "বাগদাদ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_043",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "আকবরের রাজধানী",
+        "question_bn": "শেখ সেলিম চিশতির দরগাকে কেন্দ্র করে আকবর কোন নতুন রাজধানী তৈরি করেন?",
+        "options": ["এলাহাবাদ", "আগ্রা", "ফতেহপুর সিকরি", "লাহোর", "দিল্লি"],
+        "correct_answer": "ফতেহপুর সিকরি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_044",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ডাচ ইস্ট ইন্ডিয়া কোম্পানি",
+        "question_bn": "ডাচ ইস্ট ইন্ডিয়া কোম্পানি কোথায় প্রতিষ্ঠিত হয়েছিল?",
+        "options": ["লন্ডনে", "প্যারিসে", "আমস্টারডামে", "লিসবনে", "কোপেনহেগেনে"],
+        "correct_answer": "আমস্টারডামে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_045",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মধ্যযুগের বণিক",
+        "question_bn": "মালদ্বীপ থেকে বাংলায় কী আমদানি হতো এবং মুদ্রা হিসাবে ব্যবহৃত হতো?",
+        "options": ["সোনার মুদ্রা", "রুপোর মুদ্রা", "কড়ি", "তামার মুদ্রা", "রত্নপাথর"],
+        "correct_answer": "কড়ি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_046",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "শাহজাহানাবাদের বাড়ি",
+        "question_bn": "শাহজাহানাবাদে সবচেয়ে বড়ো ও সুন্দর বাড়িগুলোকে কী বলা হতো?",
+        "options": ["মকান", "কোঠরি", "হাভেলি", "সরাই", "দেওড়ি"],
+        "correct_answer": "হাভেলি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_047",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "গেসু দরাজ",
+        "question_bn": "সুফি সাধক গেসু দরাজ কোন সম্প্রদায়ের সাধক ছিলেন?",
+        "options": ["সুহরাওয়ার্দি", "কাদিরি", "চিশতি", "নকশবন্দি", "শত্তারি"],
+        "correct_answer": "চিশতি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_048",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "শাহজাহানাবাদ",
+        "question_bn": "শাহজাহান কত খ্রিস্টাব্দে আগ্রা থেকে শাহজাহানাবাদে চলে আসেন?",
+        "options": ["১৬৩৯", "১৬৪৩", "১৬৪৮", "১৬৫২", "১৬৫৮"],
+        "correct_answer": "১৬৪৮"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_049",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "বাণিজ্যপথ",
+        "question_bn": "সুরাট থেকে উড়িষ্যা যাওয়ার গুরুত্বপূর্ণ সড়কপথ কোন শহর হয়ে যেত?",
+        "options": ["বুরহানপুর ও ঔরঙ্গাবাদ", "আগ্রা ও পাটনা", "লাহোর ও মুলতান", "বিজাপুর ও গোলকোণ্ডা", "আহমেদাবাদ ও সুরাট"],
+        "correct_answer": "বুরহানপুর ও ঔরঙ্গাবাদ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_mcq_050",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "পোর্তুগিজ বাণিজ্য",
+        "question_bn": "পোর্তুগিজরা আরব সাগরে কোন জাতিকে হঠিয়ে নিজেদের আধিপত্য বিস্তার করতে চেয়েছিল?",
+        "options": ["ভারতীয় বণিক", "আরব বণিক", "চিনা বণিক", "পার্সি বণিক", "মালয় বণিক"],
+        "correct_answer": "আরব বণিক"
+      }
+    ],
+    "match_pairs": [
+      {
+        "id": "otit_o_oitijhyo_ch06_match_001",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "দিল্লির সাত শহর",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "কিলা রাই পিথোরা", "right": "পৃথ্বীরাজ চৌহান"},
+          {"left": "সিরি", "right": "আলাউদ্দিন খলজি"},
+          {"left": "তুঘলকাবাদ", "right": "গিয়াসউদ্দিন তুঘলক"},
+          {"left": "শাহজাহানাবাদ", "right": "শাহজাহান"}
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_match_002",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বণিক ও মুদ্রা",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "তঙকা", "right": "রুপোর মুদ্রা"},
+          {"left": "জিতল", "right": "তামার মুদ্রা"},
+          {"left": "মোহর", "right": "সোনার মুদ্রা"},
+          {"left": "হুন্ডি", "right": "কাগজের বিনিময়পত্র"}
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_match_003",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ইউরোপীয় কোম্পানি",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "ইংলিশ ইস্ট ইন্ডিয়া কোম্পানি", "right": "লন্ডন"},
+          {"left": "ডাচ ইস্ট ইন্ডিয়া কোম্পানি", "right": "আমস্টারডাম"},
+          {"left": "পোর্তুগিজ বাণিজ্যকেন্দ্র", "right": "গোয়া"},
+          {"left": "ফরাসি বাণিজ্যকুঠি", "right": "চন্দননগর"}
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_match_004",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বাণিজ্যপথ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "উত্তর ভারতের প্রধান জলপথ", "right": "গঙ্গা ও যমুনা"},
+          {"left": "ভারতের পশ্চিম উপকূলের প্রধান বন্দর", "right": "সুরাট"},
+          {"left": "ভারতের প্রধান সড়ক বাণিজ্যকেন্দ্র", "right": "মুলতান"},
+          {"left": "ওলন্দাজদের দক্ষিণ ভারতের বন্দর", "right": "মসুলিপটনম"}
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_match_005",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সুলতানি দিল্লি",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "সিরি", "right": "মোঙ্গল আক্রমণ থেকে সুরক্ষা"},
+          {"left": "ফিরোজাবাদ", "right": "যমুনা নদীর পাড়ে"},
+          {"left": "জাহানপনাহ", "right": "মহম্মদ বিন তুঘলক"},
+          {"left": "হজরত-ই দিলি", "right": "সুফি সাধকদের পীঠস্থান"}
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_match_006",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শাহজাহানাবাদের বাড়ি",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "হাভেলি", "right": "সবচেয়ে বড়ো বাড়ি"},
+          {"left": "কোঠরি", "right": "সবচেয়ে ছোটো ঘর"},
+          {"left": "লালকেল্লা", "right": "শাহজাহানের দুর্গ"},
+          {"left": "জামা মসজিদ", "right": "শাহজাহানাবাদের মসজিদ"}
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_match_007",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বিদেশী বণিক ও তাদের পণ্য",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "পোর্তুগিজদের লক্ষ্য", "right": "মশলার বাণিজ্য দখল"},
+          {"left": "ওলন্দাজদের আকর্ষণ", "right": "দক্ষিণ ভারতের ছিট কাপড়"},
+          {"left": "ইংরেজদের প্রথম কুঠি", "right": "মসুলিপটনম ও সুরাট"},
+          {"left": "ভাস্কো দা গামার পথ", "right": "উত্তমাশা অন্তরীপ"}
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_match_008",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল শহর",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "ফতেহপুর সিকরি", "right": "শেখ সেলিম চিশতির দরগা"},
+          {"left": "এলাহাবাদ", "right": "গঙ্গা-যমুনার সঙ্গম"},
+          {"left": "আটক", "right": "সিন্ধু নদীর পারে"},
+          {"left": "রোহটাস", "right": "উত্তর-পশ্চিম সীমান্তে"}
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_match_009",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বণিক সম্প্রদায়",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "সরাফ", "right": "মুদ্রা বিনিময়কারী"},
+          {"left": "বনজারা", "right": "ভারবাহী পশু নিয়ে বাণিজ্য"},
+          {"left": "দিনেমার", "right": "ডেনমার্কের অধিবাসী"},
+          {"left": "করওয়ানি", "right": "দলবদ্ধ বণিক"}
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_match_010",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বাংলার বাণিজ্যকুঠি",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {"left": "হুগলি", "right": "ইংরেজ কুঠি"},
+          {"left": "চন্দননগর", "right": "ফরাসি কুঠি"},
+          {"left": "শ্রীরামপুর", "right": "ডেনমার্কের কুঠি"},
+          {"left": "বান্দেল", "right": "পোর্তুগিজ কুঠি"}
+        ]
+      }
+    ],
+    "true_false": [
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_001",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "দিল্লির ভূগোল",
+        "question_bn": "দিল্লি শহর যমুনা নদীর তীরে অবস্থিত।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_002",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শাহজাহানাবাদ",
+        "question_bn": "শাহজাহানাবাদ শহর গঙ্গা নদীর পশ্চিমে গড়ে উঠেছিল।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_003",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ইস্ট ইন্ডিয়া কোম্পানি",
+        "question_bn": "ইংলিশ ইস্ট ইন্ডিয়া কোম্পানি ১৬০০ খ্রিস্টাব্দে লন্ডনে প্রতিষ্ঠিত হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_004",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পোর্তুগিজ আগমন",
+        "question_bn": "ভাস্কো দা গামা স্থলপথে ভারতে এসেছিলেন।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_005",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মুদ্রা",
+        "question_bn": "তঙকা ছিল রুপোর মুদ্রা।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_006",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সুলতানি দিল্লি",
+        "question_bn": "কুতুবউদ্দিন আইবক দিল্লিতে মুঘল শাসন প্রতিষ্ঠা করেন।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_007",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বাণিজ্য",
+        "question_bn": "মধ্যযুগে বাংলা থেকে রেশমবস্ত্র রপ্তানি হতো।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_008",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "লালকেল্লা",
+        "question_bn": "লালকেল্লা সাদা মার্বেল পাথরে তৈরি।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_009",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মুঘল আমলের বাণিজ্য",
+        "question_bn": "মুঘল আমলে ভারতের অর্থনীতির প্রধান ভিত্তি ছিল কৃষি।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_010",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ফতেহপুর সিকরি",
+        "question_bn": "আকবর জলের অভাবে ফতেহপুর সিকরি ছেড়ে আগ্রা চলে যান।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_011",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "শাহজাহানাবাদ",
+        "question_bn": "শাহজাহানাবাদে উচ্চপদস্থ আমির ও গরিব কারিগর একই মহল্লায় থাকত।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_012",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সুফি সাধক",
+        "question_bn": "শেখ নিজামউদ্দিন আউলিয়া সুলতান গিয়াসউদ্দিনের নির্দেশে শহর ছেড়ে চলে গিয়েছিলেন।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_013",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ইউরোপীয় বাণিজ্য",
+        "question_bn": "ইউরোপীয় বণিকদের জাহাজে আগ্নেয়াস্ত্র থাকত।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_014",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বণিক সম্প্রদায়",
+        "question_bn": "মুলতানিরা বেশিরভাগই মুসলমান ছিল।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_015",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সুলতানি শাসন",
+        "question_bn": "সুলতানি শাসনের সাড়ে তিনশো বছরে দিল্লির সুলতানরা এগারোবার শাসনকেন্দ্র বদলিয়েছেন।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_016",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পোর্তুগিজ সাফল্য",
+        "question_bn": "পোর্তুগিজরা গভীর সমুদ্রে জাহাজ চলাচলের ওপর নিয়ন্ত্রণ করতে সম্পূর্ণ সফল হয়েছিল।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_017",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "শেরশাহের মুদ্রা",
+        "question_bn": "শেরশাহ যে তিন ধরনের মুদ্রা চালু করেন তা পরে মুঘল সম্রাটরাও অনুসরণ করেছিলেন।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_018",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "দিল্লির সাত শহর",
+        "question_bn": "মধ্যযুগে দিল্লিতে পাঁচটি নাগরিক বসতির চিহ্ন পাওয়া গেছে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_019",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল বাণিজ্যনীতি",
+        "question_bn": "মুঘল সম্রাটরা কারখানায় তৈরি জিনিস বাণিজ্যের স্বার্থে বিক্রি করতেন।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_tf_020",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "দেওয়ালি উৎসব",
+        "question_bn": "শাহজাহানাবাদে দেওয়ালির সময় হিন্দু ও মুসলমান একসঙ্গে শেখ নাসিরউদ্দিনের দরগায় আলোর উৎসব পালন করত।",
+        "correct_answer": "true"
+      }
+    ],
+    "tap_sequence": [
+      {
+        "id": "otit_o_oitijhyo_ch06_seq_001",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "দিল্লির সাত শহর",
+        "question_bn": "নিচের দিল্লির শহরগুলিকে তৈরির সময়কাল অনুযায়ী সঠিক ক্রমে সাজাও (পুরোনো থেকে নতুন)",
+        "items": ["শাহজাহানাবাদ", "সিরি", "কিলা রাই পিথোরা", "তুঘলকাবাদ"],
+        "correct_order": ["কিলা রাই পিথোরা", "সিরি", "তুঘলকাবাদ", "শাহজাহানাবাদ"]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_seq_002",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ইউরোপীয় কোম্পানি",
+        "question_bn": "নিচের ইউরোপীয় কোম্পানিগুলি প্রতিষ্ঠার ক্রম অনুযায়ী সাজাও (আগে থেকে পরে)",
+        "items": ["ফরাসি ইস্ট ইন্ডিয়া কোম্পানি", "ইংলিশ ইস্ট ইন্ডিয়া কোম্পানি", "ডাচ ইস্ট ইন্ডিয়া কোম্পানি", "পোর্তুগিজ ভারত আগমন"],
+        "correct_order": ["পোর্তুগিজ ভারত আগমন", "ইংলিশ ইস্ট ইন্ডিয়া কোম্পানি", "ডাচ ইস্ট ইন্ডিয়া কোম্পানি", "ফরাসি ইস্ট ইন্ডিয়া কোম্পানি"]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_seq_003",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মুঘল শাসনকেন্দ্র",
+        "question_bn": "আকবরের আমলে মুঘল রাজধানী পরিবর্তনের ক্রম সঠিকভাবে সাজাও",
+        "items": ["লাহোর", "ফতেহপুর সিকরি", "আগ্রা (প্রথম)", "আগ্রা (পুনরায়)"],
+        "correct_order": ["আগ্রা (প্রথম)", "ফতেহপুর সিকরি", "লাহোর", "আগ্রা (পুনরায়)"]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_seq_004",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "তুঘলক বংশের সুলতান",
+        "question_bn": "তুঘলক বংশের নিচের সুলতানদের শাসনকালের ক্রম সাজাও (আগে থেকে পরে)",
+        "items": ["ফিরোজ শাহ তুঘলক", "মহম্মদ বিন তুঘলক", "গিয়াসউদ্দিন তুঘলক", "নাসিরউদ্দিন মাহমুদ"],
+        "correct_order": ["গিয়াসউদ্দিন তুঘলক", "মহম্মদ বিন তুঘলক", "ফিরোজ শাহ তুঘলক", "নাসিরউদ্দিন মাহমুদ"]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_seq_005",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শাহজাহানাবাদের বাড়ির শ্রেণি",
+        "question_bn": "শাহজাহানাবাদের বাড়িগুলি বড়ো থেকে ছোটো আকারে সঠিক ক্রমে সাজাও",
+        "items": ["কোঠরি", "হাভেলি", "মকান", "কুঁড়েঘর"],
+        "correct_order": ["হাভেলি", "মকান", "কোঠরি", "কুঁড়েঘর"]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_seq_006",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "দিল্লির রাজধানী পরিবর্তন",
+        "question_bn": "নিম্নলিখিত ঘটনাগুলি ঘটার সময়কাল অনুযায়ী সঠিক ক্রমে সাজাও",
+        "items": ["শাহজাহানাবাদ প্রতিষ্ঠা", "সিকান্দর লোদির আগ্রায় রাজধানী", "পানিপতের প্রথম যুদ্ধ", "ফিরোজাবাদ নির্মাণ"],
+        "correct_order": ["ফিরোজাবাদ নির্মাণ", "সিকান্দর লোদির আগ্রায় রাজধানী", "পানিপতের প্রথম যুদ্ধ", "শাহজাহানাবাদ প্রতিষ্ঠা"]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_seq_007",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বাণিজ্যপথ",
+        "question_bn": "উত্তর ভারত থেকে গুজরাট যাওয়ার একটি পথের ধারে শহরগুলি উত্তর থেকে দক্ষিণে সাজাও",
+        "items": ["সুরাট", "আজমির", "বুরহানপুর", "দিল্লি"],
+        "correct_order": ["দিল্লি", "আজমির", "বুরহানপুর", "সুরাট"]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_seq_008",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "গঙ্গা নদীবর্তী বাণিজ্যশহর",
+        "question_bn": "গঙ্গা নদীর ধারের বাণিজ্যশহরগুলি পশ্চিম থেকে পূর্বদিকে সঠিক ক্রমে সাজাও",
+        "items": ["হুগলি", "পাটনা", "বারাণসী", "এলাহাবাদ"],
+        "correct_order": ["এলাহাবাদ", "বারাণসী", "পাটনা", "হুগলি"]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_seq_009",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সুলতানি দিল্লির বিকাশ",
+        "question_bn": "সুলতানি আমলের দিল্লির বিভিন্ন শাসক বংশগুলিকে ক্রমানুসারে সাজাও",
+        "items": ["তুঘলক বংশ", "ইলবারি তুর্কি (দাস বংশ)", "লোদি বংশ", "খলজি বংশ"],
+        "correct_order": ["ইলবারি তুর্কি (দাস বংশ)", "খলজি বংশ", "তুঘলক বংশ", "লোদি বংশ"]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_seq_010",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ভাস্কো দা গামার যাত্রাপথ",
+        "question_bn": "ভাস্কো দা গামার ভারত আসার পথে স্থানগুলি সঠিক ক্রমে সাজাও",
+        "items": ["কালিকট", "পর্তুগাল", "উত্তমাশা অন্তরীপ", "আফ্রিকার পশ্চিম উপকূল"],
+        "correct_order": ["পর্তুগাল", "আফ্রিকার পশ্চিম উপকূল", "উত্তমাশা অন্তরীপ", "কালিকট"]
+      }
+    ],
+    "categorize": [
+      {
+        "id": "otit_o_oitijhyo_ch06_cat_001",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "ভারতীয় ও ইউরোপীয় বন্দর",
+        "question_bn": "নিচের বন্দরগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "ভারতীয় বন্দর": ["সুরাট", "কালিকট", "হুগলি", "মসুলিপটনম"],
+          "পোর্তুগিজ বাণিজ্যকেন্দ্র": ["গোয়া", "দিউ", "দমন", "কোচিন"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_cat_002",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "সুলতানি ও মুঘল শহর",
+        "question_bn": "নিচের শহরগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "সুলতানি আমলের দিল্লির শহর": ["সিরি", "তুঘলকাবাদ", "জাহানপনাহ", "ফিরোজাবাদ"],
+          "মুঘল আমলের রাজধানী শহর": ["ফতেহপুর সিকরি", "শাহজাহানাবাদ", "আগ্রা", "লাহোর"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_cat_003",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "রপ্তানি ও আমদানি পণ্য",
+        "question_bn": "নিচের পণ্যগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "ভারত থেকে রপ্তানি হতো": ["সুতিবস্ত্র", "নীল", "মশলা", "রেশমবস্ত্র"],
+          "ভারতে আমদানি হতো": ["ঘোড়া", "কাচের সামগ্রী", "সাটিন কাপড়", "সোনা"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_cat_004",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "বণিক সম্প্রদায়",
+        "question_bn": "নিচের নামগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "ভারতীয় বণিক সম্প্রদায়": ["বনজারা", "মুলতানি", "করওয়ানি", "সরাফ"],
+          "ইউরোপীয় বণিক জাতি": ["পোর্তুগিজ", "ওলন্দাজ", "ইংরেজ", "ফরাসি"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_cat_005",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "মধ্যযুগের বাংলার শহর ও অন্যান্য",
+        "question_bn": "নিচের শহরগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "বাংলার মধ্যযুগীয় শহর": ["গৌড়", "নবদ্বীপ", "চট্টগ্রাম", "পাণ্ডুয়া"],
+          "দাক্ষিণাত্যের মধ্যযুগীয় শহর": ["বুরহানপুর", "গোলকোণ্ডা", "বিজাপুর", "মসুলিপটনম"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_cat_006",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "মুদ্রার ধাতু",
+        "question_bn": "নিচের মুদ্রাগুলিকে ধাতু অনুযায়ী সঠিক দলে ভাগ করো",
+        "categories": {
+          "সোনার মুদ্রা": ["মোহর", "আশরফি", "হুন", "দিনার"],
+          "তামার মুদ্রা": ["জিতল", "দাম", "পাই", "পয়সা"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_cat_007",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "শাহজাহানাবাদের বাসিন্দাদের বাড়ি",
+        "question_bn": "নিচের মানুষদের বাড়ির ধরন অনুযায়ী সঠিক দলে ভাগ করো",
+        "categories": {
+          "বাগানবাড়িতে বাস করত": ["রাজপুত্র", "উচ্চপদস্থ আমির", "মুঘল অভিজাত", "সেনাপতি"],
+          "কুঁড়েঘরে বাস করত": ["সাধারণ সৈনিক", "দাস-দাসী", "কারিগর", "মজুর"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_cat_008",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "জলপথ ও স্থলপথের বাণিজ্যকেন্দ্র",
+        "question_bn": "নিচের শহরগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "গঙ্গা-যমুনা জলপথের শহর": ["আগ্রা", "বারাণসী", "পাটনা", "হুগলি"],
+          "সমুদ্রবন্দর শহর": ["সুরাট", "কালিকট", "মসুলিপটনম", "পুলিকট"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_cat_009",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "বাংলায় ইউরোপীয় কুঠি",
+        "question_bn": "নিচের স্থানগুলিকে কোন ইউরোপীয়দের কুঠি ছিল তা অনুযায়ী ভাগ করো",
+        "categories": {
+          "ইংরেজদের কুঠি": ["হুগলি", "মসুলিপটনম", "সুরাট", "পাটনা"],
+          "ফরাসিদের কুঠি": ["চন্দননগর", "পণ্ডিচেরি", "মাহে", "কারাইকাল"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_cat_010",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "মধ্যযুগের শহর গড়ার কারণ",
+        "question_bn": "নিচের শহরগুলিকে গড়ে ওঠার প্রধান কারণ অনুযায়ী ভাগ করো",
+        "categories": {
+          "ধর্মীয় কারণে গড়ে উঠেছিল": ["অযোধ্যা", "মথুরা", "বৃন্দাবন", "কাশী"],
+          "প্রশাসনিক কারণে গড়ে উঠেছিল": ["তুঘলকাবাদ", "ফিরোজাবাদ", "শাহজাহানাবাদ", "সিরি"]
+        }
+      }
+    ],
+    "short_write": [
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_001",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "দিল্লির নদী",
+        "question_bn": "দিল্লি শহরের পূর্ব দিকের প্রাকৃতিক সীমানা কোন নদী?",
+        "expected_answer": "যমুনা",
+        "max_words": 1,
+        "answer_slot_id": 1
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_002",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সুলতানি প্রতিষ্ঠাতা",
+        "question_bn": "দিল্লিতে সুলতানি শাসন কে প্রতিষ্ঠা করেন?",
+        "expected_answer": "কুতুবউদ্দিন আইবক",
+        "max_words": 2,
+        "answer_slot_id": 2
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_003",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "শাহজাহানাবাদ",
+        "question_bn": "শাহজাহানাবাদ কোন সম্রাট তৈরি করেছিলেন?",
+        "expected_answer": "শাহজাহান",
+        "max_words": 1,
+        "answer_slot_id": 3
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_004",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "লালকেল্লা",
+        "question_bn": "শাহজাহানাবাদের বিখ্যাত দুর্গটির নাম কী?",
+        "expected_answer": "লালকেল্লা",
+        "max_words": 1,
+        "answer_slot_id": 4
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_005",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ইস্ট ইন্ডিয়া কোম্পানি",
+        "question_bn": "ইংলিশ ইস্ট ইন্ডিয়া কোম্পানি কোন শহরে প্রতিষ্ঠিত হয়?",
+        "expected_answer": "লন্ডন",
+        "max_words": 1,
+        "answer_slot_id": 5
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_006",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ভাস্কো দা গামা",
+        "question_bn": "ভাস্কো দা গামা ভারতের কোন বন্দরে এসে পৌঁছান?",
+        "expected_answer": "কালিকট",
+        "max_words": 1,
+        "answer_slot_id": 6
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_007",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "রুপোর মুদ্রা",
+        "question_bn": "দিল্লির সুলতানদের রুপোর মুদ্রার নাম কী ছিল?",
+        "expected_answer": "তঙকা",
+        "max_words": 1,
+        "answer_slot_id": 7
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_008",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মুঘল প্রধান বন্দর",
+        "question_bn": "মুঘল আমলে ভারতের প্রধান বন্দর কোনটি ছিল?",
+        "expected_answer": "সুরাট",
+        "max_words": 1,
+        "answer_slot_id": 8
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_009",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "হুন্ডি",
+        "question_bn": "সরাফরা টাকা বিনিময়ের জন্য কোন কাগজ চালু করেছিল?",
+        "expected_answer": "হুন্ডি",
+        "max_words": 1,
+        "answer_slot_id": 9
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_010",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "দিল্লির পর্বত",
+        "question_bn": "দিল্লি কোন পর্বতমালার কাছে অবস্থিত?",
+        "expected_answer": "আরাবল্লি",
+        "max_words": 1,
+        "answer_slot_id": 10
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_011",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সুফি সাধক",
+        "question_bn": "দিল্লির সবচেয়ে বিখ্যাত সুফি সাধক কে ছিলেন?",
+        "expected_answer": "নিজামউদ্দিন আউলিয়া",
+        "max_words": 2,
+        "answer_slot_id": 11
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_012",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সোনার মুদ্রা",
+        "question_bn": "মুঘল আমলের সোনার মুদ্রাকে কী বলা হতো?",
+        "expected_answer": "মোহর",
+        "max_words": 1,
+        "answer_slot_id": 12
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_013",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গোয়া",
+        "question_bn": "গোয়ায় কোন ইউরোপীয়দের প্রাধান্য ছিল?",
+        "expected_answer": "পোর্তুগিজ",
+        "max_words": 1,
+        "answer_slot_id": 13
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_014",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "তামার মুদ্রা",
+        "question_bn": "সুলতানি আমলে তামার মুদ্রার নাম কী ছিল?",
+        "expected_answer": "জিতল",
+        "max_words": 1,
+        "answer_slot_id": 14
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_015",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "দিল্লির নাম",
+        "question_bn": "সুফি সাধকদের কেন্দ্র হওয়ার কারণে দিল্লির কী নাম হয়েছিল?",
+        "expected_answer": "হজরত-ই দিলি",
+        "max_words": 2,
+        "answer_slot_id": 15
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_016",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সিরি শহর",
+        "question_bn": "মোঙ্গল আক্রমণ ঠেকাতে কোন শহর তৈরি হয়েছিল?",
+        "expected_answer": "সিরি",
+        "max_words": 1,
+        "answer_slot_id": 16
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_017",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পানিপতের যুদ্ধ",
+        "question_bn": "পানিপতের প্রথম যুদ্ধে বাবর কাকে পরাজিত করেন?",
+        "expected_answer": "ইব্রাহিম লোদি",
+        "max_words": 2,
+        "answer_slot_id": 17
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_018",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ফতেহপুর সিকরি",
+        "question_bn": "জলের অভাবে আকবর কোন শহর ছেড়ে লাহোর যান?",
+        "expected_answer": "ফতেহপুর সিকরি",
+        "max_words": 2,
+        "answer_slot_id": 18
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_019",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চাঁদনি চক",
+        "question_bn": "শাহজাহানের কন্যা কে চাঁদনি চক বাজার তৈরি করে দিয়েছিলেন?",
+        "expected_answer": "জাহান আরা",
+        "max_words": 2,
+        "answer_slot_id": 19
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_020",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মুলতান",
+        "question_bn": "সড়কপথে মধ্য এশিয়ার বাণিজ্যের প্রধান কেন্দ্র কোন শহর ছিল?",
+        "expected_answer": "মুলতান",
+        "max_words": 1,
+        "answer_slot_id": 20
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_021",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "টমাস রো",
+        "question_bn": "টমাস রো কোন মুঘল সম্রাটের দরবারে এসেছিলেন?",
+        "expected_answer": "জাহাঙ্গির",
+        "max_words": 1,
+        "answer_slot_id": 21
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_022",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ডাচ ইস্ট ইন্ডিয়া কোম্পানি",
+        "question_bn": "ডাচ ইস্ট ইন্ডিয়া কোম্পানি কোথায় প্রতিষ্ঠিত হয়?",
+        "expected_answer": "আমস্টারডাম",
+        "max_words": 1,
+        "answer_slot_id": 22
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_023",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মালদ্বীপের পণ্য",
+        "question_bn": "মালদ্বীপ থেকে বাংলায় কী আমদানি হয়ে মুদ্রা হিসাবে ব্যবহৃত হতো?",
+        "expected_answer": "কড়ি",
+        "max_words": 1,
+        "answer_slot_id": 23
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_024",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বড়ো বাড়ি",
+        "question_bn": "শাহজাহানাবাদে সবচেয়ে বড়ো ও সুন্দর বাড়িকে কী বলা হতো?",
+        "expected_answer": "হাভেলি",
+        "max_words": 1,
+        "answer_slot_id": 24
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_025",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সরাফ",
+        "question_bn": "মধ্যযুগে মুদ্রা বিনিময়ের কাজ কারা করত?",
+        "expected_answer": "সরাফ",
+        "max_words": 1,
+        "answer_slot_id": 25
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_026",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ফিরোজাবাদ",
+        "question_bn": "ফিরোজাবাদের মধ্যমণি দুর্গটিকে কী বলা হতো?",
+        "expected_answer": "ফিরোজ কোটলা",
+        "max_words": 2,
+        "answer_slot_id": 26
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_027",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "দিনেমার",
+        "question_bn": "দিনেমার কোন দেশের অধিবাসী?",
+        "expected_answer": "ডেনমার্ক",
+        "max_words": 1,
+        "answer_slot_id": 27
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_028",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বাংলার ফরাসি কুঠি",
+        "question_bn": "বাংলায় ফরাসিরা কোন জায়গায় কুঠি স্থাপন করেছিল?",
+        "expected_answer": "চন্দননগর",
+        "max_words": 1,
+        "answer_slot_id": 28
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_029",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "আগ্রা শহর",
+        "question_bn": "কোন সুলতানের আমলে আগ্রা শহরের বিকাশ শুরু হয়?",
+        "expected_answer": "সিকান্দর লোদি",
+        "max_words": 2,
+        "answer_slot_id": 29
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_030",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ভারতে ঘোড়ার উৎস",
+        "question_bn": "ভারতে প্রধানত কোন দেশ থেকে ঘোড়া আমদানি হতো?",
+        "expected_answer": "পারস্য",
+        "max_words": 1,
+        "answer_slot_id": 30
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_031",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শাহজাহানাবাদ প্রতিষ্ঠার বছর",
+        "question_bn": "শাহজাহানাবাদ কত খ্রিস্টাব্দে তৈরি হয়?",
+        "expected_answer": "১৬৩৯",
+        "max_words": 1,
+        "answer_slot_id": 31
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_032",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "কালিকট বন্দর",
+        "question_bn": "কালিকট বন্দর কোন সাগরের তীরে ছিল?",
+        "expected_answer": "আরব সাগর",
+        "max_words": 2,
+        "answer_slot_id": 32
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_033",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ইলতুৎমিশের ঐতিহাসিক",
+        "question_bn": "ইলতুৎমিশের আমলে দিল্লির বর্ণনা কোন ঐতিহাসিক দিয়েছেন?",
+        "expected_answer": "ইসামি",
+        "max_words": 1,
+        "answer_slot_id": 33
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_034",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "দিল্লির নাগরিক বসতি",
+        "question_bn": "মধ্যযুগের দিল্লিতে কতটি নাগরিক বসতির চিহ্ন পাওয়া গেছে?",
+        "expected_answer": "সাতটি",
+        "max_words": 1,
+        "answer_slot_id": 34
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_035",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ভাস্কো দা গামার আগমন",
+        "question_bn": "ভাস্কো দা গামা কত খ্রিস্টাব্দে ভারতে আসেন?",
+        "expected_answer": "১৪৯৮",
+        "max_words": 1,
+        "answer_slot_id": 35
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_036",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "শাহজাহানাবাদের বুরুজ",
+        "question_bn": "শাহজাহানাবাদের প্রাচীরে কতটি বুরুজ ছিল?",
+        "expected_answer": "সাতাশটি",
+        "max_words": 1,
+        "answer_slot_id": 36
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_037",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "কিলোঘড়ি প্রাসাদ",
+        "question_bn": "কায়কোবাদ কোথায় কিলোঘড়ি প্রাসাদ তৈরি করেন?",
+        "expected_answer": "যমুনার তীরে",
+        "max_words": 2,
+        "answer_slot_id": 37
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_038",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "আলবুকার্ক",
+        "question_bn": "গোয়ায় পোর্তুগিজ প্রাধান্য কার হাত ধরে প্রতিষ্ঠিত হয়?",
+        "expected_answer": "আলবুকার্ক",
+        "max_words": 1,
+        "answer_slot_id": 38
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_039",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "আকবরের লাহোর যাত্রা",
+        "question_bn": "আকবর কত খ্রিস্টাব্দে ফতেহপুর সিকরি ছেড়ে লাহোর যান?",
+        "expected_answer": "১৫৮৫",
+        "max_words": 1,
+        "answer_slot_id": 39
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_040",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "শাহজাহান আগ্রা ছাড়েন",
+        "question_bn": "শাহজাহান কত খ্রিস্টাব্দে আগ্রা থেকে শাহজাহানাবাদে চলে আসেন?",
+        "expected_answer": "১৬৪৮",
+        "max_words": 1,
+        "answer_slot_id": 40
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_041",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "শ্রীরামপুর",
+        "question_bn": "বাংলার শ্রীরামপুরে কোন ইউরোপীয় দেশ কুঠি বানিয়েছিল?",
+        "expected_answer": "ডেনমার্ক",
+        "max_words": 1,
+        "answer_slot_id": 41
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_042",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "গিয়াসউদ্দিনের মৃত্যু",
+        "question_bn": "গিয়াসউদ্দিন তুঘলক কীভাবে মারা যান?",
+        "expected_answer": "শামিয়ানা পড়ে",
+        "max_words": 2,
+        "answer_slot_id": 42
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_043",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ফরাসি ইস্ট ইন্ডিয়া কোম্পানি",
+        "question_bn": "ফরাসি ইস্ট ইন্ডিয়া কোম্পানি কত খ্রিস্টাব্দে প্রতিষ্ঠিত হয়?",
+        "expected_answer": "১৬৬৪",
+        "max_words": 1,
+        "answer_slot_id": 43
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_044",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "করমণ্ডলের কারিগর",
+        "question_bn": "করমণ্ডলের গ্রামগুলিতে কোন পেশার মানুষ সবচেয়ে বেশি ছিল?",
+        "expected_answer": "তাঁতি",
+        "max_words": 1,
+        "answer_slot_id": 44
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_045",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "চিরাগ-ই দিলি",
+        "question_bn": "শেখ নাসিরউদ্দিনকে কী উপাধিতে ডাকা হতো?",
+        "expected_answer": "চিরাগ-ই দিলি",
+        "max_words": 2,
+        "answer_slot_id": 45
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_046",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "গেসু দরাজের যাত্রা",
+        "question_bn": "গেসু দরাজ কত বছর দৌলতাবাদে থাকার পরে দিল্লিতে ফিরে আসেন?",
+        "expected_answer": "সাত বছর",
+        "max_words": 2,
+        "answer_slot_id": 46
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_047",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বিজয়নগরের মুদ্রা",
+        "question_bn": "বিজয়নগরে সোনার মুদ্রাকে কী বলা হতো?",
+        "expected_answer": "হুন",
+        "max_words": 1,
+        "answer_slot_id": 47
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_048",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "কুতুব দিল্লি",
+        "question_bn": "সুলতানি আমলের প্রথম দিল্লিকে কী বলা হতো?",
+        "expected_answer": "কুতুব দিল্লি",
+        "max_words": 2,
+        "answer_slot_id": 48
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_049",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল মুদ্রা",
+        "question_bn": "মুঘল আমলে রুপোর প্রধান মুদ্রার নাম কী ছিল?",
+        "expected_answer": "রুপিয়া",
+        "max_words": 1,
+        "answer_slot_id": 49
+      },
+      {
+        "id": "otit_o_oitijhyo_ch06_sw_050",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "জালালউদ্দিন খলজি",
+        "question_bn": "জালালউদ্দিন খলজির আমলে কিলোঘড়িকে কেন্দ্র করে গড়া নতুন শহরকে কী বলা হতো?",
+        "expected_answer": "শহর-ই নও",
+        "max_words": 2,
+        "answer_slot_id": 50
+      }
+    ]
+  }
+}

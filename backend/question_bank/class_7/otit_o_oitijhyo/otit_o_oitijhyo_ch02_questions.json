@@ -1,0 +1,2181 @@
+{
+  "book_id": "otit_o_oitijhyo",
+  "book_name": "Otit_o_Oitijhyo",
+  "book_name_bn": "অতীত ও ঐতিহ্য",
+  "subject": "history",
+  "class": 7,
+  "chapter_no": 2,
+  "chapter_title_bn": "প্রাচীন বাংলা ও রাজনৈতিক ইতিহাস",
+  "source_file": "otit_o_oitijhyo_ch02_questions.json",
+  "questions": {
+
+    "mcq": [
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_001",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "প্রাচীন বাংলার সীমানা",
+        "question_bn": "প্রাচীন বাংলার সীমানা কোন তিনটি নদী দিয়ে তৈরি হয়েছিল?",
+        "options": [
+          "গঙ্গা, যমুনা, সরস্বতী",
+          "ভাগীরথী, পদ্মা ও মেঘনা",
+          "তিস্তা, করতোয়া, মহানন্দা",
+          "ব্রহ্মপুত্র, সিন্ধু, কাবেরী",
+          "দামোদর, অজয়, রূপনারায়ণ"
+        ],
+        "correct_answer": "ভাগীরথী, পদ্মা ও মেঘনা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_002",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "প্রাচীন বাংলার অঞ্চল",
+        "question_bn": "প্রাচীন বাংলার অঞ্চলগুলির মধ্যে কোনটি বৃহত্তম ছিল?",
+        "options": [
+          "বঙ্গ",
+          "গৌড়",
+          "পুণ্ড্রবর্ধন",
+          "সমতট",
+          "হরিকেল"
+        ],
+        "correct_answer": "পুণ্ড্রবর্ধন"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_003",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শশাঙ্ক",
+        "question_bn": "শশাঙ্কের রাজধানী কোথায় ছিল?",
+        "options": [
+          "গৌড়",
+          "পাটলিপুত্র",
+          "কর্ণসুবর্ণ",
+          "লখনৌতি",
+          "বিক্রমপুর"
+        ],
+        "correct_answer": "কর্ণসুবর্ণ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_004",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পাল বংশ",
+        "question_bn": "পাল বংশের প্রতিষ্ঠাতা কে ছিলেন?",
+        "options": [
+          "ধর্মপাল",
+          "দেবপাল",
+          "গোপাল",
+          "রামপাল",
+          "মহীপাল"
+        ],
+        "correct_answer": "গোপাল"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_005",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মাৎস্যন্যায়",
+        "question_bn": "বাংলার ইতিহাসে মাৎস্যন্যায় বলতে কী বোঝায়?",
+        "options": [
+          "মাছ ধরার উৎসব",
+          "নদীতে বন্যা",
+          "রাজ্যে অরাজকতা বা স্থায়ী রাজার অভাব",
+          "বৌদ্ধ ধর্মের অনুষ্ঠান",
+          "কৃষিকাজের মৌসুম"
+        ],
+        "correct_answer": "রাজ্যে অরাজকতা বা স্থায়ী রাজার অভাব"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_006",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সেন বংশ",
+        "question_bn": "সেন রাজাদের আদি নিবাস কোথায় ছিল?",
+        "options": [
+          "উত্তর ভারতের কনৌজ",
+          "দক্ষিণ ভারতের কর্ণাট অঞ্চল",
+          "পূর্ববঙ্গের বিক্রমপুর",
+          "পশ্চিমবঙ্গের রাঢ় অঞ্চল",
+          "বরেন্দ্র অঞ্চল"
+        ],
+        "correct_answer": "দক্ষিণ ভারতের কর্ণাট অঞ্চল"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_007",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বখতিয়ার খলজি",
+        "question_bn": "বখতিয়ার খলজি বাংলার কোন শহর প্রথম দখল করেছিলেন?",
+        "options": [
+          "গৌড়",
+          "লখনৌতি",
+          "নদিয়া",
+          "বিক্রমপুর",
+          "কর্ণসুবর্ণ"
+        ],
+        "correct_answer": "নদিয়া"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_008",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ইসলাম ধর্ম",
+        "question_bn": "হজরত মহম্মদ কোন শহরে ইসলাম ধর্ম প্রচার শুরু করেন?",
+        "options": [
+          "মদিনা",
+          "বাগদাদ",
+          "মক্কা",
+          "জেরুজালেম",
+          "দামেস্ক"
+        ],
+        "correct_answer": "মক্কা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_009",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "গোপাল নির্বাচন",
+        "question_bn": "গোপালকে কত খ্রিস্টাব্দে রাজা নির্বাচন করা হয়েছিল?",
+        "options": [
+          "৬০৬ খ্রিস্টাব্দে",
+          "৭৫০ খ্রিস্টাব্দে",
+          "৮৫০ খ্রিস্টাব্দে",
+          "৯৭৭ খ্রিস্টাব্দে",
+          "১০৭২ খ্রিস্টাব্দে"
+        ],
+        "correct_answer": "৭৫০ খ্রিস্টাব্দে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_010",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "হরিকেল",
+        "question_bn": "প্রাচীন যুগে হরিকেল কোন অঞ্চলের নাম ছিল?",
+        "options": [
+          "আজকের কলকাতা",
+          "আজকের মুর্শিদাবাদ",
+          "আজকের বাংলাদেশের চট্টগ্রামের উপকূল",
+          "আজকের বীরভূম",
+          "আজকের পুরুলিয়া"
+        ],
+        "correct_answer": "আজকের বাংলাদেশের চট্টগ্রামের উপকূল"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_011",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বঙ্গ নামের উৎস",
+        "question_bn": "বঙ্গ নামের প্রথম উল্লেখ কোন গ্রন্থে পাওয়া যায়?",
+        "options": [
+          "মহাভারত",
+          "রামায়ণ",
+          "ঐতরেয় আরণ্যক",
+          "আইন-ই-আকবরি",
+          "কৌটিল্যের অর্থশাস্ত্র"
+        ],
+        "correct_answer": "ঐতরেয় আরণ্যক"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_012",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বরেন্দ্র অঞ্চল",
+        "question_bn": "বরেন্দ্র অঞ্চল কোন দুটি নদীর মধ্যবর্তী এলাকায় ছিল?",
+        "options": [
+          "পদ্মা ও মেঘনা",
+          "ভাগীরথী ও করতোয়া",
+          "তিস্তা ও ব্রহ্মপুত্র",
+          "অজয় ও দামোদর",
+          "মহানন্দা ও পুনর্ভবা"
+        ],
+        "correct_answer": "ভাগীরথী ও করতোয়া"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_013",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "উত্তর রাঢ় সীমানা",
+        "question_bn": "উত্তর রাঢ় ও দক্ষিণ রাঢ়ের মধ্যবর্তী সীমানা কোন নদ ছিল?",
+        "options": [
+          "দামোদর",
+          "কাঁসাই",
+          "অজয়",
+          "রূপনারায়ণ",
+          "শিলাবতী"
+        ],
+        "correct_answer": "অজয়"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_014",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "শশাঙ্ক ও ধর্ম",
+        "question_bn": "শশাঙ্ক কোন ধর্মের উপাসক ছিলেন?",
+        "options": [
+          "বৌদ্ধ",
+          "জৈন",
+          "শৈব বা শিবের উপাসক",
+          "বৈষ্ণব",
+          "ইসলাম"
+        ],
+        "correct_answer": "শৈব বা শিবের উপাসক"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_015",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "কৈবর্ত বিদ্রোহ",
+        "question_bn": "কৈবর্ত বিদ্রোহের প্রধান নেতা কে ছিলেন?",
+        "options": [
+          "রামপাল",
+          "ভীম",
+          "দিব্য",
+          "বুদোক",
+          "দ্বিতীয় মহীপাল"
+        ],
+        "correct_answer": "দিব্য"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_016",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ত্রিশক্তি সংগ্রাম",
+        "question_bn": "ত্রিশক্তি সংগ্রাম কোন শহরকে কেন্দ্র করে হয়েছিল?",
+        "options": [
+          "পাটলিপুত্র",
+          "কনৌজ",
+          "তক্ষশিলা",
+          "উজ্জয়িনী",
+          "বারাণসী"
+        ],
+        "correct_answer": "কনৌজ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_017",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চোল বংশ",
+        "question_bn": "চোল রাজ্যের রাজধানী কোন নগরী ছিল?",
+        "options": [
+          "মাদুরাই",
+          "কাঞ্চিপুরম",
+          "থাঞ্জাভুর বা তাঞ্জোর",
+          "ত্রিচুর",
+          "কোচি"
+        ],
+        "correct_answer": "থাঞ্জাভুর বা তাঞ্জোর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_018",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "হিজরত",
+        "question_bn": "হিজরত শব্দটি কোন ঘটনাকে বোঝায়?",
+        "options": [
+          "মহম্মদের জন্মগ্রহণ",
+          "মক্কা থেকে মদিনায় মহম্মদের চলে যাওয়া",
+          "ইসলামের প্রথম যুদ্ধ",
+          "কোরান গ্রন্থের রচনা",
+          "মহম্মদের পরলোকগমন"
+        ],
+        "correct_answer": "মক্কা থেকে মদিনায় মহম্মদের চলে যাওয়া"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_019",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সমতট",
+        "question_bn": "প্রাচীন সমতট অঞ্চল কোন নদীর পূর্ব দিকে ছিল?",
+        "options": [
+          "ভাগীরথী",
+          "পদ্মা",
+          "মেঘনা",
+          "করতোয়া",
+          "তিস্তা"
+        ],
+        "correct_answer": "মেঘনা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_020",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সুলতান মাহমুদ",
+        "question_bn": "সুলতান মাহমুদ ভারত আক্রমণ করেছিলেন প্রধানত কোন উদ্দেশ্যে?",
+        "options": [
+          "ভারতে স্থায়ী রাজ্য প্রতিষ্ঠা করতে",
+          "ইসলাম ধর্ম প্রচার করতে",
+          "মন্দির থেকে ধনসম্পদ লুণ্ঠন করতে",
+          "বৌদ্ধ ধর্ম ধ্বংস করতে",
+          "বাণিজ্যপথ দখল করতে"
+        ],
+        "correct_answer": "মন্দির থেকে ধনসম্পদ লুণ্ঠন করতে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_021",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "দেবপালের রাজ্যসীমা",
+        "question_bn": "দেবপালের আমলে পাল সাম্রাজ্য উত্তরে কোথা পর্যন্ত বিস্তৃত ছিল?",
+        "options": [
+          "বিন্ধ্যপর্বত",
+          "হিমালয়ের পাদদেশ",
+          "কাশ্মীর",
+          "পাঞ্জাব",
+          "রাজস্থান"
+        ],
+        "correct_answer": "হিমালয়ের পাদদেশ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_022",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "খলিফা",
+        "question_bn": "ইসলামে প্রথম খলিফা কে ছিলেন?",
+        "options": [
+          "হারুন আল রশিদ",
+          "আলি",
+          "আবু বকর",
+          "উমর",
+          "উসমান"
+        ],
+        "correct_answer": "আবু বকর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_023",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "লক্ষ্মণসেন",
+        "question_bn": "রাজা লক্ষ্মণসেনের রাজধানী কোথায় ছিল?",
+        "options": [
+          "গৌড়",
+          "নদিয়া",
+          "পূর্ববঙ্গের বিক্রমপুর",
+          "কর্ণসুবর্ণ",
+          "মুর্শিদাবাদ"
+        ],
+        "correct_answer": "পূর্ববঙ্গের বিক্রমপুর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_024",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গৌড়বহো কাব্য",
+        "question_bn": "গৌড়বহো কাব্যটি কোন ভাষায় রচিত হয়েছিল?",
+        "options": [
+          "সংস্কৃত",
+          "প্রাকৃত",
+          "পালি",
+          "বাংলা",
+          "হিন্দি"
+        ],
+        "correct_answer": "প্রাকৃত"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_025",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আরব অভিযান",
+        "question_bn": "মহম্মদ বিন কাশেম ভারতের কোন প্রদেশে অভিযান করেন?",
+        "options": [
+          "পাঞ্জাব",
+          "রাজস্থান",
+          "সিন্ধু প্রদেশ",
+          "গুজরাট",
+          "কাশ্মীর"
+        ],
+        "correct_answer": "সিন্ধু প্রদেশ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_026",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "দ্বিতীয় তরাইনের যুদ্ধ",
+        "question_bn": "দ্বিতীয় তরাইনের যুদ্ধ কত খ্রিস্টাব্দে হয়েছিল?",
+        "options": [
+          "১১৭৯ খ্রিস্টাব্দে",
+          "১১৯২ খ্রিস্টাব্দে",
+          "১২০৪ খ্রিস্টাব্দে",
+          "১২০৬ খ্রিস্টাব্দে",
+          "১০০০ খ্রিস্টাব্দে"
+        ],
+        "correct_answer": "১১৯২ খ্রিস্টাব্দে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_027",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "রাষ্ট্রকূট",
+        "question_bn": "রাষ্ট্রকূটরা কোন শক্তির অধীন ছিল?",
+        "options": [
+          "পাল বংশ",
+          "চালুক্য বংশ",
+          "চোল বংশ",
+          "পল্লব বংশ",
+          "প্রতিহার বংশ"
+        ],
+        "correct_answer": "চালুক্য বংশ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_028",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "হর্ষবর্ধন",
+        "question_bn": "হর্ষবর্ধনের উপাধি কী ছিল?",
+        "options": [
+          "গৌড়েশ্বর",
+          "সকলোত্তরপথনাথ",
+          "গঙ্গাইকোণ্ডচোল",
+          "মহারাজাধিরাজ",
+          "পরমেশ্বর"
+        ],
+        "correct_answer": "সকলোত্তরপথনাথ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_029",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "কিতাব অল-হিন্দ",
+        "question_bn": "কিতাব অল-হিন্দ গ্রন্থটি কে রচনা করেছিলেন?",
+        "options": [
+          "ফিরদৌসি",
+          "আল বিরুনি",
+          "মিনহাজ-ই সিরাজ",
+          "ইবন বতুতা",
+          "আবুল ফজল"
+        ],
+        "correct_answer": "আল বিরুনি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_030",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "বখতিয়ার খলজির মৃত্যু",
+        "question_bn": "বখতিয়ার খলজি কত খ্রিস্টাব্দে মারা যান?",
+        "options": [
+          "১১৯২ খ্রিস্টাব্দে",
+          "১২০০ খ্রিস্টাব্দে",
+          "১২০৪ খ্রিস্টাব্দে",
+          "১২০৬ খ্রিস্টাব্দে",
+          "১২১৫ খ্রিস্টাব্দে"
+        ],
+        "correct_answer": "১২০৬ খ্রিস্টাব্দে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_031",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "চোল উপাধি",
+        "question_bn": "গঙ্গাইকোণ্ডচোল উপাধি কোন রাজা গ্রহণ করেছিলেন?",
+        "options": [
+          "বিজয়ালয়",
+          "প্রথম রাজরাজ",
+          "প্রথম রাজেন্দ্র",
+          "কুলোত্তুঙ্গ",
+          "বীররাজেন্দ্র"
+        ],
+        "correct_answer": "প্রথম রাজেন্দ্র"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_032",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "কুতুবউদ্দিন আইবক",
+        "question_bn": "মহম্মদ ঘুরির মৃত্যুর পর কে দিল্লিতে সুলতানি শাসন প্রতিষ্ঠা করেন?",
+        "options": [
+          "ইখতিয়ারউদ্দিন বখতিয়ার",
+          "বিন কাশেম",
+          "কুতুবউদ্দিন আইবক",
+          "ইলতুতমিশ",
+          "বলবন"
+        ],
+        "correct_answer": "কুতুবউদ্দিন আইবক"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_033",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "হজরত মহম্মদের জন্ম",
+        "question_bn": "হজরত মহম্মদ কত খ্রিস্টাব্দে জন্মগ্রহণ করেন?",
+        "options": [
+          "৫৪০ খ্রিস্টাব্দে",
+          "৫৭০ খ্রিস্টাব্দে",
+          "৬১০ খ্রিস্টাব্দে",
+          "৬২২ খ্রিস্টাব্দে",
+          "৬৩২ খ্রিস্টাব্দে"
+        ],
+        "correct_answer": "৫৭০ খ্রিস্টাব্দে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_034",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "শশাঙ্কের মৃত্যু",
+        "question_bn": "শশাঙ্ক কত খ্রিস্টাব্দে মারা যান?",
+        "options": [
+          "৬০৬ খ্রিস্টাব্দে",
+          "৬২০ খ্রিস্টাব্দে",
+          "৬৩৭-৩৮ খ্রিস্টাব্দে",
+          "৬৫০ খ্রিস্টাব্দে",
+          "৬৭৫ খ্রিস্টাব্দে"
+        ],
+        "correct_answer": "৬৩৭-৩৮ খ্রিস্টাব্দে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_035",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "আব্বাসিয়া খিলাফৎ",
+        "question_bn": "আব্বাসিয়া খিলাফতের রাজধানী কোথায় ছিল?",
+        "options": [
+          "মক্কা",
+          "মদিনা",
+          "দামেস্ক",
+          "বাগদাদ",
+          "কায়রো"
+        ],
+        "correct_answer": "বাগদাদ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_036",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "রামপাল",
+        "question_bn": "রামপাল কৈবর্ত বিদ্রোহ দমন করে কোন অঞ্চল পুনরুদ্ধার করেন?",
+        "options": [
+          "সমতট",
+          "বঙ্গ",
+          "বরেন্দ্র",
+          "গৌড়",
+          "রাঢ়"
+        ],
+        "correct_answer": "বরেন্দ্র"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_037",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "পালদের আদি নিবাস",
+        "question_bn": "পাল রাজাদের আদি নিবাস কোথায় ছিল?",
+        "options": [
+          "গৌড় অঞ্চলে",
+          "বরেন্দ্র অঞ্চলে",
+          "সমতট অঞ্চলে",
+          "রাঢ় অঞ্চলে",
+          "বঙ্গ অঞ্চলে"
+        ],
+        "correct_answer": "বরেন্দ্র অঞ্চলে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_038",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "গুর্জর-প্রতিহার",
+        "question_bn": "গুর্জর-প্রতিহার বংশের প্রধান রাজা ভোজ কোন শহর দখল করে রাজধানী স্থাপন করেন?",
+        "options": [
+          "পাটলিপুত্র",
+          "উজ্জয়িনী",
+          "কনৌজ",
+          "বারাণসী",
+          "তক্ষশিলা"
+        ],
+        "correct_answer": "কনৌজ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_039",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "সুয়ান জাং",
+        "question_bn": "চিনা পর্যটক সুয়ান জাং কর্ণসুবর্ণে আসার আগে কোথা থেকে এসেছিলেন?",
+        "options": [
+          "পাটলিপুত্র",
+          "তাম্রলিপ্ত",
+          "গৌড়",
+          "নদিয়া",
+          "কামরূপ"
+        ],
+        "correct_answer": "তাম্রলিপ্ত"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_040",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "বিজয়সেন",
+        "question_bn": "বিজয়সেন কত খ্রিস্টাব্দ পর্যন্ত রাজত্ব করেছিলেন?",
+        "options": [
+          "১০৯৬ পর্যন্ত",
+          "১১৫৯ পর্যন্ত",
+          "১১৭৯ পর্যন্ত",
+          "১২০৪ পর্যন্ত",
+          "১২০৬ পর্যন্ত"
+        ],
+        "correct_answer": "১১৫৯ পর্যন্ত"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_041",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ইসলামের পবিত্র গ্রন্থ",
+        "question_bn": "ইসলাম ধর্মের পবিত্র গ্রন্থের নাম কী?",
+        "options": [
+          "বাইবেল",
+          "গীতা",
+          "কোরান",
+          "ত্রিপিটক",
+          "জেন্দ আবেস্তা"
+        ],
+        "correct_answer": "কোরান"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_042",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বখতিয়ার খলজির রাজধানী",
+        "question_bn": "বখতিয়ার খলজি নদিয়া দখলের পর কোথায় রাজধানী স্থাপন করেন?",
+        "options": [
+          "গৌড়",
+          "নদিয়া",
+          "লখনৌতি",
+          "বিক্রমপুর",
+          "ঢাকা"
+        ],
+        "correct_answer": "লখনৌতি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_043",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মক্কার অবস্থান",
+        "question_bn": "মক্কা ও মদিনা কোন উপদ্বীপে অবস্থিত?",
+        "options": [
+          "ভারতীয় উপদ্বীপ",
+          "আরব উপদ্বীপ",
+          "বলকান উপদ্বীপ",
+          "মালয় উপদ্বীপ",
+          "কোরিয়া উপদ্বীপ"
+        ],
+        "correct_answer": "আরব উপদ্বীপ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_044",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পাল বংশের ধর্ম",
+        "question_bn": "পাল আমলে কোন ধর্ম রাজার সমর্থন পেয়েছিল?",
+        "options": [
+          "হিন্দু ধর্ম",
+          "জৈন ধর্ম",
+          "বৌদ্ধ ধর্ম",
+          "শৈব ধর্ম",
+          "ইসলাম"
+        ],
+        "correct_answer": "বৌদ্ধ ধর্ম"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_045",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বেদুইন",
+        "question_bn": "আরব উপদ্বীপের যাযাবর মানুষদের কী বলা হতো?",
+        "options": [
+          "মুসলমান",
+          "খলিফা",
+          "বেদুইন",
+          "সুফি",
+          "জিহাদি"
+        ],
+        "correct_answer": "বেদুইন"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_046",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বল্লালসেন",
+        "question_bn": "বল্লালসেন কোন পাল রাজাকে পরাস্ত করেছিলেন?",
+        "options": [
+          "রামপাল",
+          "মহীপাল",
+          "গোবিন্দপাল",
+          "দেবপাল",
+          "ধর্মপাল"
+        ],
+        "correct_answer": "গোবিন্দপাল"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_047",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "শশাঙ্কের রাজত্ব বিস্তার",
+        "question_bn": "শশাঙ্কের রাজত্ব উত্তর-পশ্চিমে কোথা পর্যন্ত বিস্তৃত হয়েছিল?",
+        "options": [
+          "পাটলিপুত্র",
+          "বারাণসী",
+          "কনৌজ",
+          "থানেসর",
+          "দিল্লি"
+        ],
+        "correct_answer": "বারাণসী"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_048",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মাহমুদের আক্রমণ",
+        "question_bn": "সুলতান মাহমুদ কত খ্রিস্টাব্দ থেকে কত খ্রিস্টাব্দ পর্যন্ত উত্তর ভারত আক্রমণ করেন?",
+        "options": [
+          "৯৮০-১০১০ খ্রিস্টাব্দ",
+          "১০০০-১০২৭ খ্রিস্টাব্দ",
+          "১০২৭-১০৫০ খ্রিস্টাব্দ",
+          "১০৫০-১০৭৫ খ্রিস্টাব্দ",
+          "৯৫০-৯৮০ খ্রিস্টাব্দ"
+        ],
+        "correct_answer": "১০০০-১০২৭ খ্রিস্টাব্দ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_049",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "কর্ণসুবর্ণের বৌদ্ধবিহার",
+        "question_bn": "চিনা ভাষায় কর্ণসুবর্ণের বৌদ্ধবিহারের নাম কী ছিল?",
+        "options": [
+          "নালন্দা",
+          "লো-টো-মো-চিহ",
+          "বিক্রমশীলা",
+          "ওদন্তপুরী",
+          "জগদ্দল"
+        ],
+        "correct_answer": "লো-টো-মো-চিহ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_mcq_050",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মহম্মদ ঘুরির মৃত্যু",
+        "question_bn": "মহম্মদ ঘুরি কত খ্রিস্টাব্দে মারা যান?",
+        "options": [
+          "১১৯২ খ্রিস্টাব্দে",
+          "১২০০ খ্রিস্টাব্দে",
+          "১২০৬ খ্রিস্টাব্দে",
+          "১২১০ খ্রিস্টাব্দে",
+          "১২১৫ খ্রিস্টাব্দে"
+        ],
+        "correct_answer": "১২০৬ খ্রিস্টাব্দে"
+      }
+    ],
+
+    "match_pairs": [
+      {
+        "id": "otit_o_oitijhyo_ch02_match_001",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "রাজা ও রাজধানী",
+        "question_bn": "বাম স্তম্ভের রাজার সঙ্গে ডান স্তম্ভের রাজধানী মেলাও",
+        "pairs": [
+          { "left": "শশাঙ্ক", "right": "কর্ণসুবর্ণ" },
+          { "left": "বখতিয়ার খলজি", "right": "লখনৌতি" },
+          { "left": "লক্ষ্মণসেন", "right": "বিক্রমপুর" },
+          { "left": "চোল রাজারা", "right": "থাঞ্জাভুর" }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_match_002",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "অঞ্চল ও অবস্থান",
+        "question_bn": "বাম স্তম্ভের অঞ্চলের সঙ্গে ডান স্তম্ভের পরিচয় মেলাও",
+        "pairs": [
+          { "left": "পুণ্ড্রবর্ধন", "right": "প্রাচীন বাংলার বৃহত্তম অঞ্চল" },
+          { "left": "হরিকেল", "right": "চট্টগ্রামের উপকূল" },
+          { "left": "সমতট", "right": "মেঘনার পূর্ব দিক" },
+          { "left": "বরেন্দ্র", "right": "ভাগীরথী ও করতোয়ার মধ্যবর্তী" }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_match_003",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "রচনা ও রচয়িতা",
+        "question_bn": "বাম স্তম্ভের গ্রন্থের সঙ্গে ডান স্তম্ভের রচয়িতা মেলাও",
+        "pairs": [
+          { "left": "গৌড়বহো কাব্য", "right": "বাকপতিরাজ" },
+          { "left": "কিতাব অল-হিন্দ", "right": "আল বিরুনি" },
+          { "left": "হর্ষচরিত", "right": "বাণভট্ট" },
+          { "left": "তবকাত-ই-নাসিরি", "right": "মিনহাজ-ই সিরাজ" }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_match_004",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পাল রাজা ও কাল",
+        "question_bn": "বাম স্তম্ভের পাল রাজার সঙ্গে ডান স্তম্ভের আনুমানিক রাজত্বকাল মেলাও",
+        "pairs": [
+          { "left": "গোপাল", "right": "আনুমানিক ৭৫০-৭৪ খ্রিঃ" },
+          { "left": "ধর্মপাল", "right": "আনুমানিক ৭৭৪-৮০৬ খ্রিঃ" },
+          { "left": "দেবপাল", "right": "আনুমানিক ৮০৬-৪৫ খ্রিঃ" },
+          { "left": "প্রথম মহীপাল", "right": "আনুমানিক ৯৭৭-১০২৭ খ্রিঃ" }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_match_005",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ইসলাম ধর্ম",
+        "question_bn": "বাম স্তম্ভের শব্দের সঙ্গে ডান স্তম্ভের অর্থ মেলাও",
+        "pairs": [
+          { "left": "খলিফা", "right": "ইসলামীয় জগতের ধর্মীয় ও রাজনৈতিক নেতা" },
+          { "left": "হিজরত", "right": "মক্কা থেকে মদিনায় যাত্রা" },
+          { "left": "দার-উল ইসলাম", "right": "ইসলামের ক্ষমতা ছড়ানো অঞ্চল" },
+          { "left": "হিজরি", "right": "ইসলামীয় সাল গণনা" }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_match_006",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বিদ্রোহ ও নেতা",
+        "question_bn": "বাম স্তম্ভের ঘটনার সঙ্গে ডান স্তম্ভের ব্যক্তি মেলাও",
+        "pairs": [
+          { "left": "কৈবর্ত বিদ্রোহের নেতা", "right": "দিব্য" },
+          { "left": "বিদ্রোহ দমনকারী পাল রাজা", "right": "রামপাল" },
+          { "left": "দ্বিতীয় তরাইনে পরাজিত রাজপুত রাজা", "right": "পৃথ্বীরাজ চৌহান" },
+          { "left": "বাংলায় তুর্কি অভিযানের নেতা", "right": "বখতিয়ার খলজি" }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_match_007",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "রাজ্য ও বংশ",
+        "question_bn": "বাম স্তম্ভের রাজ্যের সঙ্গে ডান স্তম্ভের রাজবংশ মেলাও",
+        "pairs": [
+          { "left": "বাংলা ও বিহার", "right": "পাল বংশ" },
+          { "left": "রাজস্থান ও গুজরাট", "right": "গুর্জর-প্রতিহার" },
+          { "left": "দাক্ষিণাত্য", "right": "রাষ্ট্রকূট" },
+          { "left": "তামিলনাড়ু অঞ্চল", "right": "চোল বংশ" }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_match_008",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পরিচয় ও উপাধি",
+        "question_bn": "বাম স্তম্ভের উপাধির সঙ্গে ডান স্তম্ভের রাজার নাম মেলাও",
+        "pairs": [
+          { "left": "সকলোত্তরপথনাথ", "right": "হর্ষবর্ধন" },
+          { "left": "গঙ্গাইকোণ্ডচোল", "right": "প্রথম রাজেন্দ্র" },
+          { "left": "মহাসামন্ত", "right": "শশাঙ্ক" },
+          { "left": "গৌড়তন্ত্র প্রতিষ্ঠাতা", "right": "শশাঙ্ক" }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_match_009",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "সেন বংশ",
+        "question_bn": "বাম স্তম্ভের সেন রাজার সঙ্গে ডান স্তম্ভের পরিচয় মেলাও",
+        "pairs": [
+          { "left": "সামন্তসেন", "right": "সেন বংশের আদি পুরুষ" },
+          { "left": "বিজয়সেন", "right": "রাঢ়, গৌড় ও মিথিলা জয়" },
+          { "left": "বল্লালসেন", "right": "সমাজ-সংস্কার ও বর্ণব্যবস্থা কড়াকড়ি" },
+          { "left": "লক্ষ্মণসেন", "right": "তুর্কি আক্রমণের সময় রাজা" }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_match_010",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "খিলাফৎ ও সময়কাল",
+        "question_bn": "বাম স্তম্ভের খিলাফতের সঙ্গে ডান স্তম্ভের সময়কাল মেলাও",
+        "pairs": [
+          { "left": "উমাইয়া খিলাফৎ", "right": "৬৬১-৭৫০ খ্রিস্টাব্দ" },
+          { "left": "আব্বাসিয়া খিলাফৎ", "right": "৭৫০-১২৫৮ খ্রিস্টাব্দ" },
+          { "left": "ফাতিমিদ খিলাফৎ", "right": "৯০৯-১১৭১ খ্রিস্টাব্দ" },
+          { "left": "অটোমান খিলাফৎ", "right": "১৫১৭-১৯২৪ খ্রিস্টাব্দ" }
+        ]
+      }
+    ],
+
+    "true_false": [
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_001",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "প্রাচীন বাংলার সীমানা",
+        "question_bn": "প্রাচীন বাংলার সীমানা ভাগীরথী, পদ্মা ও মেঘনা নদী দিয়ে তৈরি হয়েছিল।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_002",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শশাঙ্ক",
+        "question_bn": "শশাঙ্ক ছিলেন একজন বৌদ্ধ ধর্মের উপাসক।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_003",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পাল বংশ",
+        "question_bn": "পাল বংশের প্রতিষ্ঠাতা ছিলেন ধর্মপাল।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_004",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মাৎস্যন্যায়",
+        "question_bn": "মাৎস্যন্যায় বলতে দেশে অরাজকতা বা স্থায়ী রাজার অভাব বোঝায়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_005",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বখতিয়ার খলজি",
+        "question_bn": "বখতিয়ার খলজি তার রাজধানী নদিয়ায় স্থাপন করেন।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_006",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ইসলাম ধর্মের উৎপত্তি",
+        "question_bn": "খ্রিস্টীয় সপ্তম শতাব্দীতে আরব উপদ্বীপে ইসলাম ধর্মের জন্ম হয়েছিল।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_007",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সেন বংশের উৎপত্তি",
+        "question_bn": "সেন রাজাদের আদি নিবাস উত্তর ভারতে ছিল।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_008",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "কর্ণসুবর্ণ",
+        "question_bn": "কর্ণসুবর্ণ মুর্শিদাবাদ জেলায় অবস্থিত ছিল।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_009",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পুণ্ড্রবর্ধন",
+        "question_bn": "পুণ্ড্রবর্ধন ছিল প্রাচীন বাংলার সবচেয়ে ছোটো অঞ্চল।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_010",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "হরিকেল",
+        "question_bn": "হরিকেল অঞ্চল ছিল সমতটের দক্ষিণ-পূর্ব দিকে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_011",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "হর্ষবর্ধন",
+        "question_bn": "হর্ষবর্ধন শশাঙ্ককে যুদ্ধে হারাতে পেরেছিলেন।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_012",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ত্রিশক্তি সংগ্রাম",
+        "question_bn": "ত্রিশক্তি সংগ্রাম প্রায় দুশো বছর ধরে চলেছিল।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_013",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "কৈবর্ত বিদ্রোহ",
+        "question_bn": "কৈবর্ত বিদ্রোহে দ্বিতীয় মহীপাল নিহত হন।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_014",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গোপাল নির্বাচন",
+        "question_bn": "গোপালকে জোর করে রাজা করা হয়েছিল।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_015",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চোল বংশ",
+        "question_bn": "চোল রাজারা দক্ষ নৌবাহিনী তৈরি করেছিলেন।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_016",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আরব অভিযান",
+        "question_bn": "আরবরা নবম শতাব্দীর শেষের দিকে ভারতে অভিযান বন্ধ করে দেয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_017",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মহম্মদ ঘুরির উদ্দেশ্য",
+        "question_bn": "মহম্মদ ঘুরি শুধু ভারত থেকে লুণ্ঠন করতে চেয়েছিলেন, শাসন করতে চাননি।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_018",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "শশাঙ্কের মুদ্রা",
+        "question_bn": "শশাঙ্কের আমলে রুপোর মুদ্রার ব্যাপক প্রচলন ছিল।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_019",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "পাল বংশের পতন",
+        "question_bn": "রামপালের মৃত্যুর পঞ্চাশ বছরের মধ্যে বাংলায় পাল রাজত্ব শেষ হয়ে যায়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_tf_020",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "বখতিয়ারের তিব্বত অভিযান",
+        "question_bn": "বখতিয়ার খলজি তিব্বত আক্রমণ করে সফলভাবে রাজ্যবিস্তার করতে পেরেছিলেন।",
+        "correct_answer": "false"
+      }
+    ],
+
+    "tap_sequence": [
+      {
+        "id": "otit_o_oitijhyo_ch02_seq_001",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পাল রাজাদের ক্রম",
+        "question_bn": "পাল রাজাদের রাজত্বকালের সঠিক ক্রম সাজাও",
+        "items": [
+          "দেবপাল",
+          "গোপাল",
+          "রামপাল",
+          "ধর্মপাল"
+        ],
+        "correct_order": [
+          "গোপাল",
+          "ধর্মপাল",
+          "দেবপাল",
+          "রামপাল"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_seq_002",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সেন রাজাদের ক্রম",
+        "question_bn": "সেন রাজাদের রাজত্বকালের সঠিক ক্রম সাজাও",
+        "items": [
+          "লক্ষ্মণসেন",
+          "হেমন্তসেন",
+          "বিজয়সেন",
+          "বল্লালসেন"
+        ],
+        "correct_order": [
+          "হেমন্তসেন",
+          "বিজয়সেন",
+          "বল্লালসেন",
+          "লক্ষ্মণসেন"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_seq_003",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ইসলামের প্রথম খলিফাদের ক্রম",
+        "question_bn": "ইসলামের প্রথম চার খলিফার সঠিক ক্রম সাজাও",
+        "items": [
+          "আলি",
+          "উমর",
+          "আবু বকর",
+          "উসমান"
+        ],
+        "correct_order": [
+          "আবু বকর",
+          "উমর",
+          "উসমান",
+          "আলি"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_seq_004",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বাংলার ঐতিহাসিক পর্যায়",
+        "question_bn": "বাংলার ঐতিহাসিক পর্যায়গুলি সঠিক কালক্রমে সাজাও",
+        "items": [
+          "পাল শাসন",
+          "তুর্কি অভিযান",
+          "শশাঙ্কের রাজত্ব",
+          "মাৎস্যন্যায়ের যুগ"
+        ],
+        "correct_order": [
+          "শশাঙ্কের রাজত্ব",
+          "মাৎস্যন্যায়ের যুগ",
+          "পাল শাসন",
+          "তুর্কি অভিযান"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_seq_005",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মহম্মদের জীবনের ঘটনাক্রম",
+        "question_bn": "হজরত মহম্মদের জীবনের ঘটনাগুলি সঠিক কালক্রমে সাজাও",
+        "items": [
+          "মক্কায় প্রভাব প্রসার",
+          "হিজরত",
+          "পরলোকগমন",
+          "আল্লাহর দূত ঘোষণা"
+        ],
+        "correct_order": [
+          "আল্লাহর দূত ঘোষণা",
+          "হিজরত",
+          "মক্কায় প্রভাব প্রসার",
+          "পরলোকগমন"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_seq_006",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বখতিয়ারের অভিযানের ক্রম",
+        "question_bn": "বখতিয়ার খলজির বাংলা অভিযানের ঘটনাগুলি সঠিক ক্রমে সাজাও",
+        "items": [
+          "তিব্বত আক্রমণের ব্যর্থ চেষ্টা",
+          "লখনৌতিতে রাজধানী স্থাপন",
+          "নদিয়া দখল",
+          "বখতিয়ারের মৃত্যু"
+        ],
+        "correct_order": [
+          "নদিয়া দখল",
+          "লখনৌতিতে রাজধানী স্থাপন",
+          "তিব্বত আক্রমণের ব্যর্থ চেষ্টা",
+          "বখতিয়ারের মৃত্যু"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_seq_007",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "কৈবর্ত বিদ্রোহের ক্রম",
+        "question_bn": "কৈবর্ত বিদ্রোহের ঘটনাগুলি সঠিক ক্রমে সাজাও",
+        "items": [
+          "রামপালের পাল্টা আক্রমণ",
+          "দিব্যের বরেন্দ্র দখল",
+          "দ্বিতীয় মহীপালের মৃত্যু",
+          "ভীম পরাজিত ও নিহত"
+        ],
+        "correct_order": [
+          "দ্বিতীয় মহীপালের মৃত্যু",
+          "দিব্যের বরেন্দ্র দখল",
+          "রামপালের পাল্টা আক্রমণ",
+          "ভীম পরাজিত ও নিহত"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_seq_008",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চোল বংশের বিস্তার",
+        "question_bn": "চোল রাজ্যের বিস্তারের ঘটনাগুলি সঠিক কালক্রমে সাজাও",
+        "items": [
+          "প্রথম রাজেন্দ্রের বাংলা অভিযান",
+          "বিজয়ালয়ের চোল রাজ্য প্রতিষ্ঠা",
+          "প্রথম রাজরাজের দক্ষিণ ভারতে আধিপত্য",
+          "পান্ড্য ও পল্লব দখল"
+        ],
+        "correct_order": [
+          "বিজয়ালয়ের চোল রাজ্য প্রতিষ্ঠা",
+          "পান্ড্য ও পল্লব দখল",
+          "প্রথম রাজরাজের দক্ষিণ ভারতে আধিপত্য",
+          "প্রথম রাজেন্দ্রের বাংলা অভিযান"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_seq_009",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ত্রিশক্তির ক্রম",
+        "question_bn": "ত্রিশক্তি সংগ্রামে সম্পৃক্ত তিন শক্তির ক্ষমতার শীর্ষ থেকে পতনের ক্রম সাজাও",
+        "items": [
+          "সেন বংশের উত্থান",
+          "পাল বংশের উত্থান",
+          "ত্রিশক্তির পারস্পরিক লড়াই",
+          "প্রতিহার ও রাষ্ট্রকূটের শক্তিহ্রাস"
+        ],
+        "correct_order": [
+          "পাল বংশের উত্থান",
+          "ত্রিশক্তির পারস্পরিক লড়াই",
+          "প্রতিহার ও রাষ্ট্রকূটের শক্তিহ্রাস",
+          "সেন বংশের উত্থান"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_seq_010",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "শশাঙ্কের রাজত্ব বিস্তার",
+        "question_bn": "শশাঙ্কের রাজত্বের ক্রমিক বিস্তারের সঠিক ক্রম সাজাও",
+        "items": [
+          "মগধ-বুদ্ধগয়া অধিকার",
+          "গৌড়ের শাসক হওয়া",
+          "ওড়িশার একাংশ দখল",
+          "উত্তরবঙ্গ থেকে বিস্তার"
+        ],
+        "correct_order": [
+          "গৌড়ের শাসক হওয়া",
+          "উত্তরবঙ্গ থেকে বিস্তার",
+          "মগধ-বুদ্ধগয়া অধিকার",
+          "ওড়িশার একাংশ দখল"
+        ]
+      }
+    ],
+
+    "categorize": [
+      {
+        "id": "otit_o_oitijhyo_ch02_cat_001",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "প্রাচীন বাংলার অঞ্চল",
+        "question_bn": "নিচের অঞ্চলগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "প্রাচীন বাংলার অঞ্চল": ["বঙ্গ", "গৌড়", "সমতট", "বরেন্দ্র"],
+          "দক্ষিণ ভারতের রাজ্য": ["তামিলনাড়ু", "কেরল", "কর্ণাটক", "থাঞ্জাভুর"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_cat_002",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "পাল ও সেন রাজা",
+        "question_bn": "নিচের রাজাদের সঠিক দলে ভাগ করো",
+        "categories": {
+          "পাল বংশের রাজা": ["গোপাল", "ধর্মপাল", "দেবপাল", "রামপাল"],
+          "সেন বংশের রাজা": ["বিজয়সেন", "বল্লালসেন", "লক্ষ্মণসেন", "হেমন্তসেন"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_cat_003",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "বাংলার নদী",
+        "question_bn": "নিচের নদীগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "প্রাচীন বাংলার সীমানার নদী": ["ভাগীরথী", "পদ্মা", "মেঘনা", "করতোয়া"],
+          "রাঢ় অঞ্চলের নদী": ["অজয়", "দামোদর", "কাঁসাই", "রূপনারায়ণ"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_cat_004",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "উত্তর ও দক্ষিণ ভারতের শক্তি",
+        "question_bn": "নিচের রাজবংশগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "উত্তর ভারতের রাজবংশ": ["পাল", "গুর্জর-প্রতিহার", "রাষ্ট্রকূট", "পুষ্যভূতি"],
+          "দক্ষিণ ভারতের রাজবংশ": ["চোল", "পল্লব", "পান্ড্য", "চালুক্য"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_cat_005",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "পার্শ্ববর্তী সমুদ্র",
+        "question_bn": "নিচের সমুদ্র ও উপসাগরগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "আরব উপদ্বীপের আশপাশের জলরাশি": ["লোহিত সাগর", "আরব সাগর", "পারস্য উপসাগর", "ভূমধ্যসাগর"],
+          "বাংলার আশপাশের জলরাশি": ["বঙ্গোপসাগর", "সুন্দরবন উপকূল", "মেঘনা মোহনা", "হুগলি নদী"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_cat_006",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "মুসলিম আক্রমণকারী",
+        "question_bn": "নিচের ব্যক্তিদের সঠিক দলে ভাগ করো",
+        "categories": {
+          "আরব আক্রমণকারী": ["মহম্মদ বিন কাশেম", "মুসা বিন নুসাইর", "তারিক বিন জিয়াদ", "হাজ্জাজ বিন ইউসুফ"],
+          "তুর্কি আক্রমণকারী": ["সুলতান মাহমুদ", "মহম্মদ ঘুরি", "বখতিয়ার খলজি", "কুতুবউদ্দিন আইবক"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_cat_007",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "সামন্ত উপাধি ও সাধারণ পরিচয়",
+        "question_bn": "নিচের শব্দগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "সামন্তদের উপাধি": ["রাজন", "সামন্ত", "মহাসামন্ত", "মহামণ্ডলেশ্বর"],
+          "ইসলামি পরিভাষা": ["খলিফা", "খিলাফৎ", "হিজরত", "দার-উল ইসলাম"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_cat_008",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "চিনা পর্যটক ও তাদের রচনা",
+        "question_bn": "নিচের নামগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "চিনা পর্যটক": ["সুয়ান জাং", "ই-ৎসিং", "ফা হিয়েন", "হিউয়েন সাং"],
+          "ভারতীয় লেখক ও কবি": ["বাণভট্ট", "বাকপতিরাজ", "কালিদাস", "বরাহমিহির"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_cat_009",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "ঐতিহাসিক গ্রন্থ",
+        "question_bn": "নিচের গ্রন্থগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "আরবি বা ফারসি গ্রন্থ": ["কিতাব অল-হিন্দ", "তবকাত-ই-নাসিরি", "আইন-ই-আকবরি", "শাহনামা"],
+          "সংস্কৃত বা প্রাকৃত গ্রন্থ": ["গৌড়বহো", "রঘুবংশম", "হর্ষচরিত", "অর্থশাস্ত্র"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_cat_010",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "শশাঙ্কের সময়কালীন অর্থনীতি",
+        "question_bn": "শশাঙ্কের আমলের অর্থনৈতিক বৈশিষ্ট্যগুলি সঠিক দলে ভাগ করো",
+        "categories": {
+          "অর্থনৈতিক অবনতির চিহ্ন": ["মন্দা", "নকল মুদ্রা", "বাণিজ্যের গুরুত্ব হ্রাস", "নগরের গুরুত্ব কমা"],
+          "সমাজের পরিবর্তন": ["কৃষিনির্ভর অর্থনীতি", "গ্রামকেন্দ্রিক সমাজ", "স্থানীয় প্রধানদের উত্থান", "জমির চাহিদা বৃদ্ধি"]
+        }
+      }
+    ],
+
+    "short_write": [
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_001",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পাল বংশের প্রতিষ্ঠাতা",
+        "question_bn": "পাল বংশের প্রতিষ্ঠাতার নাম কী?",
+        "expected_answer": "গোপাল",
+        "max_words": 1,
+        "answer_slot_id": 1
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_002",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "শশাঙ্কের রাজধানী",
+        "question_bn": "শশাঙ্কের রাজধানীর নাম কী ছিল?",
+        "expected_answer": "কর্ণসুবর্ণ",
+        "max_words": 1,
+        "answer_slot_id": 2
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_003",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বখতিয়ারের রাজধানী",
+        "question_bn": "বখতিয়ার খলজি বাংলায় কোথায় রাজধানী স্থাপন করেছিলেন?",
+        "expected_answer": "লখনৌতি",
+        "max_words": 1,
+        "answer_slot_id": 3
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_004",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ইসলামের পবিত্র গ্রন্থ",
+        "question_bn": "ইসলামের পবিত্র ধর্মগ্রন্থের নাম কী?",
+        "expected_answer": "কোরান",
+        "max_words": 1,
+        "answer_slot_id": 4
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_005",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চোলদের রাজধানী",
+        "question_bn": "চোল রাজাদের রাজধানীর নাম কী ছিল?",
+        "expected_answer": "থাঞ্জাভুর",
+        "max_words": 1,
+        "answer_slot_id": 5
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_006",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পুণ্ড্রবর্ধন",
+        "question_bn": "প্রাচীন বাংলার বৃহত্তম অঞ্চলের নাম কী?",
+        "expected_answer": "পুণ্ড্রবর্ধন",
+        "max_words": 1,
+        "answer_slot_id": 6
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_007",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মাৎস্যন্যায়",
+        "question_bn": "দেশে অরাজকতার অবস্থাকে বাংলার ইতিহাসে কী বলা হয়?",
+        "expected_answer": "মাৎস্যন্যায়",
+        "max_words": 1,
+        "answer_slot_id": 7
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_008",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "হিজরত",
+        "question_bn": "মক্কা থেকে মদিনায় মহম্মদের যাত্রাকে কী বলা হয়?",
+        "expected_answer": "হিজরত",
+        "max_words": 1,
+        "answer_slot_id": 8
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_009",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "প্রথম খলিফা",
+        "question_bn": "ইসলামের প্রথম খলিফার নাম কী?",
+        "expected_answer": "আবু বকর",
+        "max_words": 2,
+        "answer_slot_id": 9
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_010",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বরেন্দ্র",
+        "question_bn": "ভাগীরথী ও করতোয়া নদীর মধ্যবর্তী অঞ্চলের নাম কী?",
+        "expected_answer": "বরেন্দ্র",
+        "max_words": 1,
+        "answer_slot_id": 10
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_011",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "হরিকেল",
+        "question_bn": "প্রাচীন যুগে চট্টগ্রামের উপকূল অঞ্চল কী নামে পরিচিত ছিল?",
+        "expected_answer": "হরিকেল",
+        "max_words": 1,
+        "answer_slot_id": 11
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_012",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "শশাঙ্কের ধর্ম",
+        "question_bn": "শশাঙ্ক কোন দেবতার উপাসক ছিলেন?",
+        "expected_answer": "শিব",
+        "max_words": 1,
+        "answer_slot_id": 12
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_013",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "কৈবর্ত বিদ্রোহের নেতা",
+        "question_bn": "কৈবর্ত বিদ্রোহের প্রধান নেতার নাম কী ছিল?",
+        "expected_answer": "দিব্য",
+        "max_words": 1,
+        "answer_slot_id": 13
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_014",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গোপাল",
+        "question_bn": "গোপাল কত খ্রিস্টাব্দ নাগাদ রাজা নির্বাচিত হন?",
+        "expected_answer": "৭৫০ খ্রিস্টাব্দে",
+        "max_words": 2,
+        "answer_slot_id": 14
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_015",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সেনদের আদিনিবাস",
+        "question_bn": "সেন রাজাদের আদি নিবাস কোন অঞ্চলে ছিল?",
+        "expected_answer": "কর্ণাট",
+        "max_words": 1,
+        "answer_slot_id": 15
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_016",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "লক্ষ্মণসেনের রাজধানী",
+        "question_bn": "রাজা লক্ষ্মণসেনের রাজধানী কোথায় ছিল?",
+        "expected_answer": "বিক্রমপুর",
+        "max_words": 1,
+        "answer_slot_id": 16
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_017",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বেদুইন",
+        "question_bn": "আরব উপদ্বীপের যাযাবর মানুষদের কী বলা হতো?",
+        "expected_answer": "বেদুইন",
+        "max_words": 1,
+        "answer_slot_id": 17
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_018",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সমতট",
+        "question_bn": "প্রাচীন সমতট অঞ্চল কোন নদীর পূর্ব দিকে ছিল?",
+        "expected_answer": "মেঘনা",
+        "max_words": 1,
+        "answer_slot_id": 18
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_019",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ত্রিশক্তি সংগ্রামের কেন্দ্র",
+        "question_bn": "ত্রিশক্তি সংগ্রাম কোন শহরকে কেন্দ্র করে হয়েছিল?",
+        "expected_answer": "কনৌজ",
+        "max_words": 1,
+        "answer_slot_id": 19
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_020",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গৌড়বহো",
+        "question_bn": "গৌড়বহো কাব্যের রচয়িতা কে?",
+        "expected_answer": "বাকপতিরাজ",
+        "max_words": 1,
+        "answer_slot_id": 20
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_021",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "উত্তর-দক্ষিণ রাঢ়",
+        "question_bn": "উত্তর ও দক্ষিণ রাঢ়ের সীমানা হিসেবে কোন নদ ছিল?",
+        "expected_answer": "অজয়",
+        "max_words": 1,
+        "answer_slot_id": 21
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_022",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বঙ্গাল অঞ্চল",
+        "question_bn": "বঙ্গাল অঞ্চল কোন সাগরের উপকূল বরাবর ছিল?",
+        "expected_answer": "বঙ্গোপসাগর",
+        "max_words": 1,
+        "answer_slot_id": 22
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_023",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মহম্মদ ঘুরির যুদ্ধ",
+        "question_bn": "মহম্মদ ঘুরি দ্বিতীয় তরাইনে কোন রাজাকে হারিয়েছিলেন?",
+        "expected_answer": "পৃথ্বীরাজ চৌহান",
+        "max_words": 2,
+        "answer_slot_id": 23
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_024",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "হিজরি সাল",
+        "question_bn": "কোন ঘটনা থেকে হিজরি সাল গণনা শুরু হয়?",
+        "expected_answer": "হিজরত",
+        "max_words": 1,
+        "answer_slot_id": 24
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_025",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "আব্বাসিয়া খিলাফতের রাজধানী",
+        "question_bn": "আব্বাসিয়া খিলাফতের রাজধানী কোন শহর ছিল?",
+        "expected_answer": "বাগদাদ",
+        "max_words": 1,
+        "answer_slot_id": 25
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_026",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "হর্ষবর্ধনের উপাধি",
+        "question_bn": "হর্ষবর্ধনের বিখ্যাত উপাধি কী ছিল?",
+        "expected_answer": "সকলোত্তরপথনাথ",
+        "max_words": 1,
+        "answer_slot_id": 26
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_027",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চোলের উপাধি",
+        "question_bn": "পালরাজাকে হারিয়ে প্রথম রাজেন্দ্র কোন উপাধি গ্রহণ করেন?",
+        "expected_answer": "গঙ্গাইকোণ্ডচোল",
+        "max_words": 1,
+        "answer_slot_id": 27
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_028",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মহম্মদের পরিচয়",
+        "question_bn": "হজরত মহম্মদ নিজে কোন পেশায় ছিলেন?",
+        "expected_answer": "ব্যবসায়ী",
+        "max_words": 1,
+        "answer_slot_id": 28
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_029",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "কিতাব অল-হিন্দ",
+        "question_bn": "কিতাব অল-হিন্দ গ্রন্থটি কোন বিষয়ের তথ্য দেয়?",
+        "expected_answer": "ভারতের ইতিহাস",
+        "max_words": 2,
+        "answer_slot_id": 29
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_030",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "আরব অভিযানের নেতা",
+        "question_bn": "সিন্ধু প্রদেশে আরব অভিযানের নেতা কে ছিলেন?",
+        "expected_answer": "মহম্মদ বিন কাশেম",
+        "max_words": 2,
+        "answer_slot_id": 30
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_031",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "কর্ণসুবর্ণের বৌদ্ধবিহার",
+        "question_bn": "চিনা ভাষায় কর্ণসুবর্ণের বৌদ্ধবিহারের নাম কী ছিল?",
+        "expected_answer": "লো-টো-মো-চিহ",
+        "max_words": 1,
+        "answer_slot_id": 31
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_032",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পাল রাজত্বের শেষ",
+        "question_bn": "কোন সেন রাজা পাল রাজত্বে চূড়ান্ত আঘাত করেন?",
+        "expected_answer": "বল্লালসেন",
+        "max_words": 1,
+        "answer_slot_id": 32
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_033",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চোল প্রতিষ্ঠাতা",
+        "question_bn": "চোল রাজ্যের প্রতিষ্ঠাতার নাম কী?",
+        "expected_answer": "বিজয়ালয়",
+        "max_words": 1,
+        "answer_slot_id": 33
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_034",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "গৌড়তন্ত্র",
+        "question_bn": "শশাঙ্কের শাসনব্যবস্থাকে কী বলা হতো?",
+        "expected_answer": "গৌড়তন্ত্র",
+        "max_words": 1,
+        "answer_slot_id": 34
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_035",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "প্রথম মহীপাল",
+        "question_bn": "প্রথম মহীপাল কত খ্রিস্টাব্দ পর্যন্ত রাজত্ব করেছিলেন?",
+        "expected_answer": "১০২৭ খ্রিস্টাব্দ",
+        "max_words": 2,
+        "answer_slot_id": 35
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_036",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বঙ্গ নামের উৎস",
+        "question_bn": "বঙ্গ নামের প্রথম উল্লেখ কোন গ্রন্থে পাওয়া যায়?",
+        "expected_answer": "ঐতরেয় আরণ্যক",
+        "max_words": 2,
+        "answer_slot_id": 36
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_037",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মাহমুদের আক্রমণ সংখ্যা",
+        "question_bn": "সুলতান মাহমুদ উত্তর ভারতে মোট কতবার আক্রমণ করেন?",
+        "expected_answer": "সতেরোবার",
+        "max_words": 1,
+        "answer_slot_id": 37
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_038",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "তবকাত-ই-নাসিরি",
+        "question_bn": "তবকাত-ই-নাসিরি গ্রন্থের রচয়িতা কে?",
+        "expected_answer": "মিনহাজ-ই সিরাজ",
+        "max_words": 2,
+        "answer_slot_id": 38
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_039",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বিজয়সেনের রাজত্বকাল",
+        "question_bn": "বিজয়সেন কত খ্রিস্টাব্দ থেকে রাজত্ব শুরু করেন?",
+        "expected_answer": "১০৯৬ খ্রিস্টাব্দ",
+        "max_words": 2,
+        "answer_slot_id": 39
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_040",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "নদিয়া দখলের সময়",
+        "question_bn": "বখতিয়ার খলজি বাংলার নদিয়া কত খ্রিস্টাব্দে দখল করেন?",
+        "expected_answer": "১২০৪/৫ খ্রিস্টাব্দ",
+        "max_words": 2,
+        "answer_slot_id": 40
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_041",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "শশাঙ্ক পূর্ববর্তী পরিচয়",
+        "question_bn": "শশাঙ্ক গৌড়ের শাসক হওয়ার আগে কী পদে ছিলেন?",
+        "expected_answer": "মহাসামন্ত",
+        "max_words": 1,
+        "answer_slot_id": 41
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_042",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "দ্বিতীয় মহীপাল",
+        "question_bn": "কৈবর্ত বিদ্রোহের সময় বাংলার পাল রাজার নাম কী ছিল?",
+        "expected_answer": "দ্বিতীয় মহীপাল",
+        "max_words": 2,
+        "answer_slot_id": 42
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_043",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ধর্মপালের পুত্র",
+        "question_bn": "ধর্মপালের পুত্র পাল রাজার নাম কী?",
+        "expected_answer": "দেবপাল",
+        "max_words": 1,
+        "answer_slot_id": 43
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_044",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "সুয়ান জাং",
+        "question_bn": "কর্ণসুবর্ণ পরিদর্শনকারী চিনা পর্যটকের নাম কী?",
+        "expected_answer": "সুয়ান জাং",
+        "max_words": 2,
+        "answer_slot_id": 44
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_045",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "রামপালের রাজত্বকাল",
+        "question_bn": "পাল রাজা রামপাল কত খ্রিস্টাব্দ পর্যন্ত রাজত্ব করেছিলেন?",
+        "expected_answer": "১১২৬ খ্রিস্টাব্দ",
+        "max_words": 2,
+        "answer_slot_id": 45
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_046",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "প্রথম রাজরাজ",
+        "question_bn": "প্রথম রাজরাজ চোল কত খ্রিস্টাব্দে ক্ষমতায় আসেন?",
+        "expected_answer": "৯৮৫ খ্রিস্টাব্দ",
+        "max_words": 2,
+        "answer_slot_id": 46
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_047",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "হারুন আল রশিদ",
+        "question_bn": "আব্বাসিয়া খিলাফতের বিখ্যাত খলিফার নাম কী?",
+        "expected_answer": "হারুন আল রশিদ",
+        "max_words": 2,
+        "answer_slot_id": 47
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_048",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বখতিয়ারের মৃত্যুসাল",
+        "question_bn": "বখতিয়ার খলজি কত খ্রিস্টাব্দে মারা যান?",
+        "expected_answer": "১২০৬ খ্রিস্টাব্দ",
+        "max_words": 2,
+        "answer_slot_id": 48
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_049",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "কুতুবউদ্দিন",
+        "question_bn": "দিল্লিতে সুলতানি শাসন কে প্রতিষ্ঠা করেন?",
+        "expected_answer": "কুতুবউদ্দিন আইবক",
+        "max_words": 2,
+        "answer_slot_id": 49
+      },
+      {
+        "id": "otit_o_oitijhyo_ch02_sw_050",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বাকপতিরাজের ভাষা",
+        "question_bn": "বাকপতিরাজ গৌড়বহো কাব্য কোন ভাষায় রচনা করেছিলেন?",
+        "expected_answer": "প্রাকৃত",
+        "max_words": 1,
+        "answer_slot_id": 50
+      }
+    ]
+
+  }
+}

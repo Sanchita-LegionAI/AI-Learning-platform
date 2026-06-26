@@ -1,0 +1,2394 @@
+{
+  "book_id": "otit_o_oitijhyo",
+  "book_name": "Otit_O_Oitijhyo",
+  "book_name_bn": "অতীত ও ঐতিহ্য",
+  "subject": "history",
+  "class": 7,
+  "chapter_no": 9,
+  "chapter_title_bn": "আজকের ভারত: সংবিধান, গণতন্ত্র ও স্বায়ত্তশাসন",
+  "source_file": "otit_o_oitijhyo_ch09_questions.json",
+  "questions": {
+    "mcq": [
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_001",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সরকার",
+        "question_bn": "'সরকার' শব্দটি কোন ভাষা থেকে এসেছে?",
+        "options": [
+          "সংস্কৃত",
+          "ফারসি",
+          "আরবি",
+          "হিন্দি",
+          "ইংরেজি"
+        ],
+        "correct_answer": "ফারসি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_002",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "গণতন্ত্র",
+        "question_bn": "জনগণ নিজেরাই শাসক বেছে নেওয়ার পদ্ধতিকে কী বলে?",
+        "options": [
+          "রাজতন্ত্র",
+          "গণতন্ত্র",
+          "যুক্তরাষ্ট্র",
+          "সংবিধান",
+          "স্বায়ত্তশাসন"
+        ],
+        "correct_answer": "গণতন্ত্র"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_003",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সংবিধান",
+        "question_bn": "দেশ পরিচালনার নিয়মকানুনকে কী বলা হয়?",
+        "options": [
+          "গণতন্ত্র",
+          "স্বায়ত্তশাসন",
+          "সংবিধান",
+          "যুক্তরাষ্ট্র",
+          "পঞ্চায়েত"
+        ],
+        "correct_answer": "সংবিধান"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_004",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ভারতীয় সংবিধান",
+        "question_bn": "ভারতীয় সংবিধানের প্রধান রূপকার কে?",
+        "options": [
+          "জওহরলাল নেহরু",
+          "মহাত্মা গান্ধী",
+          "ড. বি. আর. আম্বেদকর",
+          "সর্দার বল্লভভাই প্যাটেল",
+          "রবীন্দ্রনাথ ঠাকুর"
+        ],
+        "correct_answer": "ড. বি. আর. আম্বেদকর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_005",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সংবিধান গৃহীত",
+        "question_bn": "ভারতের সংবিধান কবে গৃহীত হয়?",
+        "options": [
+          "১৯৪৭ খ্রিস্টাব্দের ১৫ আগস্ট",
+          "১৯৪৯ খ্রিস্টাব্দের ২৬ নভেম্বর",
+          "১৯৫০ খ্রিস্টাব্দের ২৬ জানুয়ারি",
+          "১৯৫২ খ্রিস্টাব্দের ২৬ জানুয়ারি",
+          "১৯৪৮ খ্রিস্টাব্দের ২৬ নভেম্বর"
+        ],
+        "correct_answer": "১৯৪৯ খ্রিস্টাব্দের ২৬ নভেম্বর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_006",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "প্রজাতন্ত্র দিবস",
+        "question_bn": "ভারতের সংবিধান কবে কার্যকর হয়?",
+        "options": [
+          "১৯৪৭ খ্রিস্টাব্দের ১৫ আগস্ট",
+          "১৯৪৯ খ্রিস্টাব্দের ২৬ নভেম্বর",
+          "১৯৫০ খ্রিস্টাব্দের ২৬ জানুয়ারি",
+          "১৯৫১ খ্রিস্টাব্দের ২৬ জানুয়ারি",
+          "১৯৫০ খ্রিস্টাব্দের ১৫ আগস্ট"
+        ],
+        "correct_answer": "১৯৫০ খ্রিস্টাব্দের ২৬ জানুয়ারি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_007",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "নির্বাচন",
+        "question_bn": "ভারতে কত বছর অন্তর সরকার নির্বাচন হয়?",
+        "options": [
+          "তিন বছর",
+          "চার বছর",
+          "পাঁচ বছর",
+          "ছয় বছর",
+          "সাত বছর"
+        ],
+        "correct_answer": "পাঁচ বছর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_008",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "স্বায়ত্তশাসন",
+        "question_bn": "পশ্চিমবঙ্গে গ্রামাঞ্চলে স্বায়ত্তশাসনের উদাহরণ কোনটি?",
+        "options": [
+          "পৌরসভা",
+          "জেলাপরিষদ",
+          "পঞ্চায়েত",
+          "বিধানসভা",
+          "পঞ্চায়েত সমিতি"
+        ],
+        "correct_answer": "পঞ্চায়েত"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_009",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পৌরসভা",
+        "question_bn": "শহর বা নগরে স্বায়ত্তশাসনের সংস্থার নাম কী?",
+        "options": [
+          "পঞ্চায়েত",
+          "গ্রাম পঞ্চায়েত",
+          "পৌরসভা",
+          "জেলাপরিষদ",
+          "ব্লক"
+        ],
+        "correct_answer": "পৌরসভা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_010",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পৌরসভা",
+        "question_bn": "পৌরসভার প্রধানকে কী বলে?",
+        "options": [
+          "পঞ্চায়েত প্রধান",
+          "পৌরপ্রধান",
+          "জেলাশাসক",
+          "বিধায়ক",
+          "সাংসদ"
+        ],
+        "correct_answer": "পৌরপ্রধান"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_011",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সরকারের বিভাগ",
+        "question_bn": "সরকারের কয়টি বিভাগ?",
+        "options": [
+          "দুটি",
+          "তিনটি",
+          "চারটি",
+          "পাঁচটি",
+          "ছয়টি"
+        ],
+        "correct_answer": "তিনটি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_012",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আইন বিভাগ",
+        "question_bn": "দেশ পরিচালনার আইন তৈরি করে কোন বিভাগ?",
+        "options": [
+          "শাসন বিভাগ",
+          "বিচার বিভাগ",
+          "আইন বিভাগ",
+          "পঞ্চায়েত বিভাগ",
+          "নির্বাচন বিভাগ"
+        ],
+        "correct_answer": "আইন বিভাগ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_013",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বিচার বিভাগ",
+        "question_bn": "সংবিধান অনুযায়ী দেশের শাসন হচ্ছে কিনা তা দেখার দায়িত্ব কার?",
+        "options": [
+          "আইন বিভাগ",
+          "শাসন বিভাগ",
+          "পঞ্চায়েত",
+          "বিচার বিভাগ",
+          "জেলাপরিষদ"
+        ],
+        "correct_answer": "বিচার বিভাগ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_014",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "যুক্তরাষ্ট্রীয় সরকার",
+        "question_bn": "কেন্দ্রীয় ও রাজ্য দু-রকম সরকারকে স্বীকার করা হয় যে ব্যবস্থায়, তাকে কী বলে?",
+        "options": [
+          "গণতান্ত্রিক সরকার",
+          "রাজতান্ত্রিক সরকার",
+          "যুক্তরাষ্ট্রীয় সরকার ব্যবস্থা",
+          "একনায়কতান্ত্রিক সরকার",
+          "স্বৈরতান্ত্রিক সরকার"
+        ],
+        "correct_answer": "যুক্তরাষ্ট্রীয় সরকার ব্যবস্থা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_015",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গণতন্ত্রের উৎপত্তি",
+        "question_bn": "গণতন্ত্রের ধারণা প্রথম কোথায় জন্ম নেয়?",
+        "options": [
+          "রোমে",
+          "ভারতে",
+          "চিনে",
+          "গ্রিসে",
+          "মিশরে"
+        ],
+        "correct_answer": "গ্রিসে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_016",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পঞ্চায়েত সমিতি",
+        "question_bn": "অনেকগুলি গ্রাম নিয়ে কী হয়?",
+        "options": [
+          "জেলা",
+          "পৌরসভা",
+          "ব্লক",
+          "রাজ্য",
+          "মহকুমা"
+        ],
+        "correct_answer": "ব্লক"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_017",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "জেলাপরিষদ",
+        "question_bn": "কয়েকটি ব্লক নিয়ে কী হয়?",
+        "options": [
+          "পৌরসভা",
+          "ব্লক",
+          "জেলা",
+          "রাজ্য",
+          "দেশ"
+        ],
+        "correct_answer": "জেলা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_018",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ক্ষমতা স্বতন্ত্রীকরণ",
+        "question_bn": "'ক্ষমতা স্বতন্ত্রীকরণ নীতি' প্রথম কে প্রস্তাব করেন?",
+        "options": [
+          "জন লক",
+          "রুশো",
+          "মন্টেস্কু",
+          "ভলতেয়ার",
+          "ডেকার্ত"
+        ],
+        "correct_answer": "মন্টেস্কু"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_019",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সংবিধান রচনা",
+        "question_bn": "ভারতের সংবিধান তৈরিতে কত বছর আলোচনা-বিতর্ক হয়?",
+        "options": [
+          "এক বছর",
+          "দুই বছর",
+          "প্রায় তিন বছর",
+          "চার বছর",
+          "পাঁচ বছর"
+        ],
+        "correct_answer": "প্রায় তিন বছর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_020",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পৌর",
+        "question_bn": "'পৌর' শব্দটি কোন শব্দ থেকে এসেছে?",
+        "options": [
+          "পুরী",
+          "পুর",
+          "পুরান",
+          "নগর",
+          "শহর"
+        ],
+        "correct_answer": "পুর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_021",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পৌরসভার ভোটার",
+        "question_bn": "পৌরসভায় ভোট দিতে কত বছর বা তার বেশি বয়স হতে হবে?",
+        "options": [
+          "ষোলো বছর",
+          "সতেরো বছর",
+          "আঠারো বছর",
+          "উনিশ বছর",
+          "কুড়ি বছর"
+        ],
+        "correct_answer": "আঠারো বছর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_022",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "রাজতন্ত্র",
+        "question_bn": "রাজা বা সুলতানের শাসনব্যবস্থাকে কী বলা হয়?",
+        "options": [
+          "গণতন্ত্র",
+          "যুক্তরাষ্ট্র",
+          "রাজতন্ত্র",
+          "স্বায়ত্তশাসন",
+          "সংবিধান"
+        ],
+        "correct_answer": "রাজতন্ত্র"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_023",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গণতন্ত্রের ধারণা",
+        "question_bn": "ইংরেজির 'ডেমোক্রেসি' শব্দটি গ্রিক কোন শব্দ থেকে এসেছে?",
+        "options": [
+          "ক্রেটোস",
+          "পলিস",
+          "দেমোস",
+          "আরেতে",
+          "লোগোস"
+        ],
+        "correct_answer": "দেমোস"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_024",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মন্টেস্কু",
+        "question_bn": "মন্টেস্কু কোন দেশের দার্শনিক ছিলেন?",
+        "options": [
+          "ইংল্যান্ড",
+          "জার্মানি",
+          "ফ্রান্স",
+          "ইতালি",
+          "স্পেন"
+        ],
+        "correct_answer": "ফ্রান্স"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_025",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "সংবিধান",
+        "question_bn": "পৃথিবীর মধ্যে সবচেয়ে বড়ো সংবিধান কোন দেশের?",
+        "options": [
+          "মার্কিন যুক্তরাষ্ট্র",
+          "রাশিয়া",
+          "চিন",
+          "ভারত",
+          "ব্রাজিল"
+        ],
+        "correct_answer": "ভারত"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_026",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সরকার",
+        "question_bn": "'Government' কথাটার অর্থ কী?",
+        "options": [
+          "শাসন করা",
+          "নির্বাচন করা",
+          "আইন তৈরি করা",
+          "বিচার করা",
+          "কর সংগ্রহ"
+        ],
+        "correct_answer": "শাসন করা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_027",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পঞ্চায়েত প্রধান",
+        "question_bn": "গ্রাম পঞ্চায়েতের প্রধানকে কী বলা হয়?",
+        "options": [
+          "সরপঞ্চ",
+          "পৌরপ্রধান",
+          "পঞ্চায়েত প্রধান",
+          "গ্রামপ্রধান",
+          "জেলাপ্রধান"
+        ],
+        "correct_answer": "পঞ্চায়েত প্রধান"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_028",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "কেন্দ্রীয় সরকার",
+        "question_bn": "কেন্দ্রীয় সরকারকে কারা নির্বাচন করেন?",
+        "options": [
+          "শুধু রাজ্যের বাসিন্দারা",
+          "শুধু শহরের বাসিন্দারা",
+          "দেশের সমস্ত জনগণ",
+          "শুধু ভোটার তালিকাভুক্তরা",
+          "শুধু প্রাপ্তবয়স্করা"
+        ],
+        "correct_answer": "দেশের সমস্ত জনগণ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_029",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ব্লক",
+        "question_bn": "ব্লকে কোন স্বায়ত্তশাসন সংস্থা থাকে?",
+        "options": [
+          "গ্রাম পঞ্চায়েত",
+          "জেলাপরিষদ",
+          "পৌরসভা",
+          "পঞ্চায়েত সমিতি",
+          "নগরপালিকা"
+        ],
+        "correct_answer": "পঞ্চায়েত সমিতি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_030",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "জেলাপরিষদ",
+        "question_bn": "জেলায় কোন স্বায়ত্তশাসন সংস্থা থাকে?",
+        "options": [
+          "পৌরসভা",
+          "পঞ্চায়েত সমিতি",
+          "গ্রাম পঞ্চায়েত",
+          "জেলাপরিষদ",
+          "ব্লক কমিটি"
+        ],
+        "correct_answer": "জেলাপরিষদ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_031",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "তন্ত্র",
+        "question_bn": "'তন্ত্র' শব্দের অর্থ কী?",
+        "options": [
+          "নিয়ম",
+          "শাসন",
+          "ব্যবস্থা",
+          "আইন",
+          "সরকার"
+        ],
+        "correct_answer": "ব্যবস্থা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_032",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "স্বায়ত্তশাসন",
+        "question_bn": "'স্ব' শব্দের অর্থ কী?",
+        "options": [
+          "নিজের",
+          "অধীন",
+          "শাসন",
+          "আইন",
+          "সরকার"
+        ],
+        "correct_answer": "নিজের"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_033",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পৌরসভার কাজ",
+        "question_bn": "পানীয় জল সরবরাহ করা কোন সংস্থার কাজ?",
+        "options": [
+          "কেন্দ্রীয় সরকার",
+          "রাজ্য সরকার",
+          "পৌরসভা",
+          "জেলাপরিষদ",
+          "বিধানসভা"
+        ],
+        "correct_answer": "পৌরসভা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_034",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গ্রাম পঞ্চায়েতের কাজ",
+        "question_bn": "গ্রামে বনসৃজন করা কোন সংস্থার কাজ?",
+        "options": [
+          "পৌরসভা",
+          "পঞ্চায়েত সমিতি",
+          "জেলাপরিষদ",
+          "গ্রাম পঞ্চায়েত",
+          "কেন্দ্রীয় সরকার"
+        ],
+        "correct_answer": "গ্রাম পঞ্চায়েত"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_035",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "সংবিধান",
+        "question_bn": "কোন দেশে লিখিত সংবিধান নেই?",
+        "options": [
+          "ভারত",
+          "মার্কিন যুক্তরাষ্ট্র",
+          "ইংল্যান্ড",
+          "ফ্রান্স",
+          "জার্মানি"
+        ],
+        "correct_answer": "ইংল্যান্ড"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_036",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "গণতন্ত্র",
+        "question_bn": "আড়াই হাজার বছর আগে গ্রিসের কোন শহরে গণতন্ত্রের ধারণার জন্ম হয়?",
+        "options": [
+          "স্পার্টা",
+          "এথেন্স",
+          "করিন্থ",
+          "থেবস",
+          "ম্যাসিডোনিয়া"
+        ],
+        "correct_answer": "এথেন্স"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_037",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বিধান",
+        "question_bn": "'বিধান' শব্দের অর্থ কী?",
+        "options": [
+          "শাসন",
+          "আইন",
+          "নিয়ম",
+          "ব্যবস্থা",
+          "সংগঠন"
+        ],
+        "correct_answer": "নিয়ম"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_038",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "শাসন বিভাগ",
+        "question_bn": "আইন অনুযায়ী কাজ পরিচালনা করে কোন বিভাগ?",
+        "options": [
+          "আইন বিভাগ",
+          "বিচার বিভাগ",
+          "শাসন বিভাগ",
+          "পঞ্চায়েত বিভাগ",
+          "অর্থ বিভাগ"
+        ],
+        "correct_answer": "শাসন বিভাগ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_039",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "রাজ্য সরকার",
+        "question_bn": "রাজ্য সরকারকে কারা নির্বাচন করেন?",
+        "options": [
+          "দেশের সমস্ত জনগণ",
+          "শুধু গ্রামের বাসিন্দারা",
+          "সেই রাজ্যের বাসিন্দারা",
+          "শুধু শহরের বাসিন্দারা",
+          "কেন্দ্রীয় সরকার"
+        ],
+        "correct_answer": "সেই রাজ্যের বাসিন্দারা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_040",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পৌরসভার সদস্য",
+        "question_bn": "পৌরসভার সদস্যদের কী বলা হয়?",
+        "options": [
+          "পঞ্চায়েত সদস্য",
+          "পৌরপ্রতিনিধি",
+          "গ্রামপ্রধান",
+          "জেলাপরিষদ সদস্য",
+          "বিধায়ক"
+        ],
+        "correct_answer": "পৌরপ্রতিনিধি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_041",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সরকারের কাজ",
+        "question_bn": "সরকারের কাজের মধ্যে কোনটি পড়ে না?",
+        "options": [
+          "কর সংগ্রহ করা",
+          "দেশের শান্তি বজায় রাখা",
+          "জনগণের ভালোর জন্য উদ্যোগ নেওয়া",
+          "নতুন ভাষা তৈরি করা",
+          "দেশের স্বাধীনতা বজায় রাখা"
+        ],
+        "correct_answer": "নতুন ভাষা তৈরি করা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_042",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ক্ষমতা স্বতন্ত্রীকরণ",
+        "question_bn": "বিচার বিভাগকে অন্য দুটি বিভাগ থেকে আলাদা রাখার মূল কারণ কী?",
+        "options": [
+          "খরচ কমাতে",
+          "সুবিচারের পথ যেন বন্ধ না হয়",
+          "গণতন্ত্র দুর্বল করতে",
+          "রাজতন্ত্র বজায় রাখতে",
+          "জনগণকে নিয়ন্ত্রণ করতে"
+        ],
+        "correct_answer": "সুবিচারের পথ যেন বন্ধ না হয়"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_043",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "প্রজাতন্ত্র দিবস",
+        "question_bn": "কোন দিনটি 'প্রজাতন্ত্র দিবস' হিসাবে পালিত হয়?",
+        "options": [
+          "১৫ আগস্ট",
+          "২৬ নভেম্বর",
+          "২৬ জানুয়ারি",
+          "২ অক্টোবর",
+          "১৪ নভেম্বর"
+        ],
+        "correct_answer": "২৬ জানুয়ারি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_044",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গণতন্ত্র",
+        "question_bn": "গ্রিক ভাষায় 'দেমোস' কথাটির অর্থ কী?",
+        "options": [
+          "রাজা",
+          "দেশ",
+          "সাধারণ মানুষ",
+          "সরকার",
+          "আইন"
+        ],
+        "correct_answer": "সাধারণ মানুষ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_045",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আয়ত্ত",
+        "question_bn": "'আয়ত্ত' শব্দের অর্থ কী?",
+        "options": [
+          "নিজের",
+          "অধীন",
+          "শাসন",
+          "আইন",
+          "ব্যবস্থা"
+        ],
+        "correct_answer": "অধীন"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_046",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "রাজতন্ত্র ও গণতন্ত্র",
+        "question_bn": "ইংল্যান্ড ও জাপানে রাজা-রানি থাকলেও সেখানে কেমন সরকার আছে?",
+        "options": [
+          "রাজতান্ত্রিক সরকার",
+          "একনায়কতান্ত্রিক সরকার",
+          "গণতান্ত্রিক সরকার",
+          "সামরিক সরকার",
+          "ধর্মতান্ত্রিক সরকার"
+        ],
+        "correct_answer": "গণতান্ত্রিক সরকার"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_047",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "সংবিধান",
+        "question_bn": "সংবিধান না মেনে সরকার দেশ শাসন করলে কে ব্যবস্থা নেয়?",
+        "options": [
+          "কেন্দ্রীয় সরকার",
+          "রাজ্য সরকার",
+          "পঞ্চায়েত",
+          "বিচার বিভাগ",
+          "আইন বিভাগ"
+        ],
+        "correct_answer": "বিচার বিভাগ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_048",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পঞ্চায়েত নির্বাচন",
+        "question_bn": "পঞ্চায়েত ও পৌরসভায় কত বছর অন্তর নির্বাচন হয়?",
+        "options": [
+          "তিন বছর",
+          "চার বছর",
+          "পাঁচ বছর",
+          "ছয় বছর",
+          "সাত বছর"
+        ],
+        "correct_answer": "পাঁচ বছর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_049",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সরকারের উদ্দেশ্য",
+        "question_bn": "সরকারের কাজ পরিচালনায় পথ দেখায় কোনটি?",
+        "options": [
+          "জনগণ",
+          "রাজ্য সরকার",
+          "সংবিধান",
+          "বিচার বিভাগ",
+          "পঞ্চায়েত"
+        ],
+        "correct_answer": "সংবিধান"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_mcq_050",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "যুক্তরাষ্ট্রীয়",
+        "question_bn": "ভারতের সরকার ব্যবস্থা একই সাথে গণতান্ত্রিক ও কী?",
+        "options": [
+          "রাজতান্ত্রিক",
+          "একনায়কতান্ত্রিক",
+          "যুক্তরাষ্ট্রীয়",
+          "সামরিক",
+          "ধর্মতান্ত্রিক"
+        ],
+        "correct_answer": "যুক্তরাষ্ট্রীয়"
+      }
+    ],
+    "match_pairs": [
+      {
+        "id": "otit_o_oitijhyo_ch09_match_001",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "শব্দের উৎস",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "সরকার",
+            "right": "ফারসি"
+          },
+          {
+            "left": "পুর",
+            "right": "সংস্কৃত"
+          },
+          {
+            "left": "ডেমোক্রেসি",
+            "right": "গ্রিক"
+          },
+          {
+            "left": "গভর্নমেন্ট",
+            "right": "ইংরেজি"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_match_002",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সংবিধান ও তারিখ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "সংবিধান গৃহীত",
+            "right": "২৬ নভেম্বর ১৯৪৯"
+          },
+          {
+            "left": "সংবিধান কার্যকর",
+            "right": "২৬ জানুয়ারি ১৯৫০"
+          },
+          {
+            "left": "ভারতের স্বাধীনতা",
+            "right": "১৫ আগস্ট ১৯৪৭"
+          },
+          {
+            "left": "প্রজাতন্ত্র দিবস",
+            "right": "২৬ জানুয়ারি"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_match_003",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সরকারের বিভাগ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "আইন বিভাগ",
+            "right": "আইন তৈরি করা"
+          },
+          {
+            "left": "শাসন বিভাগ",
+            "right": "আইন অনুযায়ী কাজ পরিচালনা"
+          },
+          {
+            "left": "বিচার বিভাগ",
+            "right": "সুবিচার নিশ্চিত করা"
+          },
+          {
+            "left": "সংবিধান",
+            "right": "দেশ পরিচালনার নিয়মকানুন"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_match_004",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "স্বায়ত্তশাসন সংস্থা",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "গ্রাম",
+            "right": "গ্রাম পঞ্চায়েত"
+          },
+          {
+            "left": "শহর বা নগর",
+            "right": "পৌরসভা"
+          },
+          {
+            "left": "ব্লক",
+            "right": "পঞ্চায়েত সমিতি"
+          },
+          {
+            "left": "জেলা",
+            "right": "জেলাপরিষদ"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_match_005",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ব্যক্তি ও কাজ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "ড. বি. আর. আম্বেদকর",
+            "right": "ভারতীয় সংবিধানের রূপকার"
+          },
+          {
+            "left": "মন্টেস্কু",
+            "right": "ক্ষমতা স্বতন্ত্রীকরণ নীতি"
+          },
+          {
+            "left": "পৌরপ্রধান",
+            "right": "পৌরসভার প্রধান"
+          },
+          {
+            "left": "পঞ্চায়েত প্রধান",
+            "right": "গ্রাম পঞ্চায়েতের প্রধান"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_match_006",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শব্দের অর্থ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "তন্ত্র",
+            "right": "ব্যবস্থা"
+          },
+          {
+            "left": "বিধান",
+            "right": "নিয়ম"
+          },
+          {
+            "left": "স্ব",
+            "right": "নিজের"
+          },
+          {
+            "left": "আয়ত্ত",
+            "right": "অধীন"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_match_007",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "দেশ ও সরকার বৈশিষ্ট্য",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "ভারত",
+            "right": "লিখিত সংবিধান আছে"
+          },
+          {
+            "left": "ইংল্যান্ড",
+            "right": "লিখিত সংবিধান নেই"
+          },
+          {
+            "left": "গ্রিস",
+            "right": "গণতন্ত্রের উৎপত্তিস্থল"
+          },
+          {
+            "left": "ফ্রান্স",
+            "right": "মন্টেস্কুর দেশ"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_match_008",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পৌরসভার কাজ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "পানীয় জল সরবরাহ",
+            "right": "পৌরসভার কাজ"
+          },
+          {
+            "left": "রাস্তাঘাট বানানো",
+            "right": "পৌরসভার কাজ"
+          },
+          {
+            "left": "বিদ্যালয় নির্মাণ",
+            "right": "পৌরসভার কাজ"
+          },
+          {
+            "left": "দূষণ রোধ",
+            "right": "পৌরসভার কাজ"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_match_009",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "গণতন্ত্র ও রাজতন্ত্র",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "গণতন্ত্র",
+            "right": "জনগণ শাসক বেছে নেন"
+          },
+          {
+            "left": "রাজতন্ত্র",
+            "right": "রাজা বা সুলতান শাসন করেন"
+          },
+          {
+            "left": "যুক্তরাষ্ট্র",
+            "right": "কেন্দ্র ও রাজ্য দুই সরকার"
+          },
+          {
+            "left": "স্বায়ত্তশাসন",
+            "right": "জনগণ নিজেই শাসনে অংশ নেন"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_match_010",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "প্রশাসনিক একক",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "কয়েকটি গ্রাম",
+            "right": "ব্লক"
+          },
+          {
+            "left": "কয়েকটি ব্লক",
+            "right": "জেলা"
+          },
+          {
+            "left": "কয়েকটি জেলা",
+            "right": "রাজ্য"
+          },
+          {
+            "left": "কয়েকটি রাজ্য",
+            "right": "দেশ"
+          }
+        ]
+      }
+    ],
+    "true_false": [
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_001",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সরকার শব্দ",
+        "question_bn": "'সরকার' শব্দটি ফারসি ভাষা থেকে এসেছে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_002",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "গণতন্ত্র",
+        "question_bn": "গণতন্ত্রে জনগণ নিজেরা শাসক বেছে নেন।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_003",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ভারতীয় সংবিধান",
+        "question_bn": "ভারতীয় সংবিধান পৃথিবীর সবচেয়ে ছোটো সংবিধান।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_004",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সংবিধান রূপকার",
+        "question_bn": "ড. বি. আর. আম্বেদকর ভারতীয় সংবিধানের প্রধান রূপকার।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_005",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "প্রজাতন্ত্র দিবস",
+        "question_bn": "ভারতে ১৫ আগস্ট প্রজাতন্ত্র দিবস পালন করা হয়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_006",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "নির্বাচন",
+        "question_bn": "ভারতে প্রতি পাঁচ বছর পরে সরকার নির্বাচন হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_007",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সরকারের বিভাগ",
+        "question_bn": "সরকারের চারটি বিভাগ আছে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_008",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বিচার বিভাগ",
+        "question_bn": "বিচার বিভাগকে আইন ও শাসন বিভাগ থেকে আলাদা রাখা হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_009",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মন্টেস্কু",
+        "question_bn": "মন্টেস্কু একজন ইংরেজ দার্শনিক।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_010",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "স্বায়ত্তশাসন",
+        "question_bn": "পশ্চিমবঙ্গে গ্রামে স্বায়ত্তশাসনের জন্য পঞ্চায়েত ব্যবস্থা আছে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_011",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পৌরসভা",
+        "question_bn": "পৌরসভার সদস্যরা নির্বাচিত হন না, সরকার তাদের নিয়োগ দেয়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_012",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গণতন্ত্রের উৎপত্তি",
+        "question_bn": "গণতন্ত্রের ধারণার জন্ম ভারতে হয়েছিল।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_013",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "যুক্তরাষ্ট্র",
+        "question_bn": "ভারতে কেন্দ্রীয় ও রাজ্য দু-রকমের সরকার আছে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_014",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পঞ্চায়েত",
+        "question_bn": "অনেকগুলি গ্রাম নিয়ে একটা ব্লক হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_015",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সংবিধান",
+        "question_bn": "ভারতের সংবিধান লিখিত নয়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_016",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "রাজতন্ত্র ও গণতন্ত্র",
+        "question_bn": "ইংল্যান্ডে রাজা থাকলেও সেখানে গণতান্ত্রিক সরকার আছে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_017",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "সংবিধান",
+        "question_bn": "ভারতীয় সংবিধান মাত্র এক বছরে তৈরি হয়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_018",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "পৌরসভা ভোট",
+        "question_bn": "পৌরসভায় ষোলো বছর বয়সীরা ভোট দিতে পারেন।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_019",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "গ্রাম পঞ্চায়েত",
+        "question_bn": "গ্রাম পঞ্চায়েত গ্রামের উন্নতির কাজ করে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_tf_020",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "সংবিধান কার্যকর",
+        "question_bn": "ভারতের সংবিধান ১৯৪৯ খ্রিস্টাব্দে কার্যকর হয়।",
+        "correct_answer": "false"
+      }
+    ],
+    "tap_sequence": [
+      {
+        "id": "otit_o_oitijhyo_ch09_seq_001",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সংবিধান রচনার ধাপ",
+        "question_bn": "ভারতীয় সংবিধানের ইতিহাসের ঘটনাগুলি সঠিক ক্রমে সাজাও",
+        "items": [
+          "সংবিধান কার্যকর",
+          "সংবিধান রচনা শুরু",
+          "ভারতের স্বাধীনতা",
+          "সংবিধান গৃহীত"
+        ],
+        "correct_order": [
+          "ভারতের স্বাধীনতা",
+          "সংবিধান রচনা শুরু",
+          "সংবিধান গৃহীত",
+          "সংবিধান কার্যকর"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_seq_002",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "প্রশাসনিক স্তর",
+        "question_bn": "ছোটো থেকে বড়ো প্রশাসনিক একক সঠিক ক্রমে সাজাও",
+        "items": [
+          "জেলা",
+          "ব্লক",
+          "দেশ",
+          "রাজ্য"
+        ],
+        "correct_order": [
+          "ব্লক",
+          "জেলা",
+          "রাজ্য",
+          "দেশ"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_seq_003",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পঞ্চায়েত স্তর",
+        "question_bn": "পঞ্চায়েত ব্যবস্থার স্তরগুলি নিচ থেকে উপরে সঠিক ক্রমে সাজাও",
+        "items": [
+          "পঞ্চায়েত সমিতি",
+          "জেলাপরিষদ",
+          "গ্রাম পঞ্চায়েত",
+          "কেন্দ্রীয় সরকার"
+        ],
+        "correct_order": [
+          "গ্রাম পঞ্চায়েত",
+          "পঞ্চায়েত সমিতি",
+          "জেলাপরিষদ",
+          "কেন্দ্রীয় সরকার"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_seq_004",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সরকারের বিভাগ",
+        "question_bn": "আইন তৈরি থেকে বিচার পর্যন্ত সরকারের কাজের ক্রম সঠিকভাবে সাজাও",
+        "items": [
+          "বিচার বিভাগের নজর",
+          "শাসন বিভাগ কার্যকর করে",
+          "আইন বিভাগ আইন তৈরি করে",
+          "জনগণ ভোট দেন"
+        ],
+        "correct_order": [
+          "জনগণ ভোট দেন",
+          "আইন বিভাগ আইন তৈরি করে",
+          "শাসন বিভাগ কার্যকর করে",
+          "বিচার বিভাগের নজর"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_seq_005",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গণতন্ত্রের বিকাশ",
+        "question_bn": "গণতন্ত্রের ধারণার বিকাশের ক্রম সঠিকভাবে সাজাও",
+        "items": [
+          "ভারতে গণতন্ত্র প্রতিষ্ঠা",
+          "গ্রিসে গণতন্ত্রের ধারণার জন্ম",
+          "ডেমোক্রেসি শব্দের উৎপত্তি",
+          "ভারতে সংবিধান রচনা"
+        ],
+        "correct_order": [
+          "গ্রিসে গণতন্ত্রের ধারণার জন্ম",
+          "ডেমোক্রেসি শব্দের উৎপত্তি",
+          "ভারতে সংবিধান রচনা",
+          "ভারতে গণতন্ত্র প্রতিষ্ঠা"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_seq_006",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ভারতের শাসন স্তর",
+        "question_bn": "ভারতের শাসন কাঠামোর স্তর ছোটো থেকে বড়ো ক্রমে সাজাও",
+        "items": [
+          "কেন্দ্রীয় সরকার",
+          "গ্রাম পঞ্চায়েত",
+          "রাজ্য সরকার",
+          "জেলাপরিষদ"
+        ],
+        "correct_order": [
+          "গ্রাম পঞ্চায়েত",
+          "জেলাপরিষদ",
+          "রাজ্য সরকার",
+          "কেন্দ্রীয় সরকার"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_seq_007",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পৌরসভা নির্বাচন প্রক্রিয়া",
+        "question_bn": "পৌরসভা গঠনের প্রক্রিয়া সঠিক ক্রমে সাজাও",
+        "items": [
+          "পৌরপ্রধান নির্বাচন",
+          "পৌরসভার কাজ শুরু",
+          "বাসিন্দারা ভোট দেন",
+          "পৌরপ্রতিনিধি নির্বাচিত"
+        ],
+        "correct_order": [
+          "বাসিন্দারা ভোট দেন",
+          "পৌরপ্রতিনিধি নির্বাচিত",
+          "পৌরপ্রধান নির্বাচন",
+          "পৌরসভার কাজ শুরু"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_seq_008",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "শাসনব্যবস্থার বিবর্তন",
+        "question_bn": "শাসনব্যবস্থার ইতিহাসের ক্রম সঠিকভাবে সাজাও",
+        "items": [
+          "গণতন্ত্রের প্রচলন",
+          "যুদ্ধে জয়ীর শাসন",
+          "সংবিধান রচনা",
+          "রাজতন্ত্র"
+        ],
+        "correct_order": [
+          "যুদ্ধে জয়ীর শাসন",
+          "রাজতন্ত্র",
+          "গণতন্ত্রের প্রচলন",
+          "সংবিধান রচনা"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_seq_009",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "নির্বাচন",
+        "question_bn": "ভারতে কেন্দ্রীয় সরকার নির্বাচনের ধাপগুলি সঠিক ক্রমে সাজাও",
+        "items": [
+          "সরকার গঠন",
+          "জনগণ ভোট দেন",
+          "নির্বাচনের তারিখ ঘোষণা",
+          "ফলাফল ঘোষণা"
+        ],
+        "correct_order": [
+          "নির্বাচনের তারিখ ঘোষণা",
+          "জনগণ ভোট দেন",
+          "ফলাফল ঘোষণা",
+          "সরকার গঠন"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_seq_010",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সংবিধান প্রণয়ন",
+        "question_bn": "ভারতীয় সংবিধান প্রণয়নের ধাপ সঠিক ক্রমে সাজাও",
+        "items": [
+          "আম্বেদকরের নেতৃত্বে কমিটি গঠন",
+          "সংবিধান গৃহীত হয়",
+          "বিতর্ক ও আলোচনা",
+          "সংবিধান কার্যকর"
+        ],
+        "correct_order": [
+          "আম্বেদকরের নেতৃত্বে কমিটি গঠন",
+          "বিতর্ক ও আলোচনা",
+          "সংবিধান গৃহীত হয়",
+          "সংবিধান কার্যকর"
+        ]
+      }
+    ],
+    "categorize": [
+      {
+        "id": "otit_o_oitijhyo_ch09_cat_001",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "স্বায়ত্তশাসন সংস্থা",
+        "question_bn": "নিচের সংস্থাগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "শহর বা নগরের স্বায়ত্তশাসন সংস্থা": [
+            "পৌরসভা",
+            "পৌরপ্রতিনিধি",
+            "পৌরপ্রধান",
+            "নগরপালিকা"
+          ],
+          "গ্রামের স্বায়ত্তশাসন সংস্থা": [
+            "গ্রাম পঞ্চায়েত",
+            "পঞ্চায়েত প্রধান",
+            "পঞ্চায়েত সমিতি",
+            "জেলাপরিষদ"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_cat_002",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "সরকারের বিভাগ",
+        "question_bn": "নিচের কাজগুলিকে সঠিক বিভাগে ভাগ করো",
+        "categories": {
+          "আইন বিভাগের কাজ": [
+            "আইন তৈরি করা",
+            "বাজেট পাস করা",
+            "নতুন নীতি প্রণয়ন",
+            "সংবিধান সংশোধন"
+          ],
+          "বিচার বিভাগের কাজ": [
+            "নিয়ম ভাঙলে ব্যবস্থা নেওয়া",
+            "সুবিচার নিশ্চিত করা",
+            "সংবিধান রক্ষা করা",
+            "জনগণের অধিকার রক্ষা"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_cat_003",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "পৌরসভার কাজ",
+        "question_bn": "নিচের কাজগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "পৌরসভার কাজ": [
+            "পানীয় জল সরবরাহ",
+            "রাস্তাঘাট বানানো",
+            "দূষণ রোধ",
+            "হাসপাতাল নির্মাণ"
+          ],
+          "গ্রাম পঞ্চায়েতের কাজ": [
+            "বনসৃজন",
+            "গ্রামের পরিচ্ছন্নতা",
+            "চিকিৎসা কেন্দ্র তৈরি",
+            "গ্রামের পথ নির্মাণ"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_cat_004",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "গণতন্ত্র ও রাজতন্ত্র",
+        "question_bn": "নিচের বৈশিষ্ট্যগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "গণতন্ত্রের বৈশিষ্ট্য": [
+            "জনগণ শাসক বেছে নেন",
+            "নির্বাচনের মাধ্যমে সরকার",
+            "নির্দিষ্ট সময়ে ক্ষমতা হস্তান্তর",
+            "সংবিধান মেনে চলা"
+          ],
+          "রাজতন্ত্রের বৈশিষ্ট্য": [
+            "রাজার বংশগত ক্ষমতা",
+            "যুদ্ধে জয়ী শাসক হন",
+            "জনগণের মতামত নেওয়া হয় না",
+            "একজনের হাতে সব ক্ষমতা"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_cat_005",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "সংবিধান",
+        "question_bn": "নিচের দেশগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "লিখিত সংবিধান আছে": [
+            "ভারত",
+            "মার্কিন যুক্তরাষ্ট্র",
+            "ফ্রান্স",
+            "জার্মানি"
+          ],
+          "লিখিত সংবিধান নেই": [
+            "ইংল্যান্ড",
+            "ইসরায়েল",
+            "নিউজিল্যান্ড",
+            "কানাডা"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_cat_006",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "প্রশাসনিক এককের শ্রেণি",
+        "question_bn": "নিচের প্রশাসনিক এককগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "রাজ্য স্তরের নিচের একক": [
+            "ব্লক",
+            "জেলা",
+            "গ্রাম",
+            "পঞ্চায়েত এলাকা"
+          ],
+          "রাজ্য ও কেন্দ্র স্তরের একক": [
+            "রাজ্য",
+            "কেন্দ্রশাসিত অঞ্চল",
+            "লোকসভা কেন্দ্র",
+            "রাজ্যসভা"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_cat_007",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "সংবিধান ও তারিখ",
+        "question_bn": "নিচের ঘটনাগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "১৯৪৯ খ্রিস্টাব্দের ঘটনা": [
+            "সংবিধান গৃহীত",
+            "সংবিধান চূড়ান্ত",
+            "ড্রাফট কমিটির কাজ সম্পন্ন",
+            "সংবিধান স্বাক্ষরিত"
+          ],
+          "১৯৫০ খ্রিস্টাব্দের ঘটনা": [
+            "সংবিধান কার্যকর",
+            "প্রজাতন্ত্র দিবস পালন",
+            "প্রথম রাষ্ট্রপতি শপথ",
+            "গণতান্ত্রিক সরকার গঠন"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_cat_008",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "নির্বাচিত ব্যক্তি",
+        "question_bn": "নিচের পদগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "পৌর প্রশাসনের নির্বাচিত পদ": [
+            "পৌরপ্রতিনিধি",
+            "পৌরপ্রধান",
+            "ওয়ার্ড কমিশনার",
+            "ভাইস চেয়ারম্যান"
+          ],
+          "পঞ্চায়েত প্রশাসনের নির্বাচিত পদ": [
+            "পঞ্চায়েত প্রধান",
+            "পঞ্চায়েত সদস্য",
+            "গ্রাম সভ্য",
+            "সভাপতি"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_cat_009",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "সরকার গঠন",
+        "question_bn": "নিচের বৈশিষ্ট্যগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "কেন্দ্রীয় সরকারের বৈশিষ্ট্য": [
+            "দেশের সমস্ত জনগণ নির্বাচন করেন",
+            "দেশের প্রতিরক্ষা",
+            "বিদেশ নীতি",
+            "সর্বভারতীয় কর"
+          ],
+          "রাজ্য সরকারের বৈশিষ্ট্য": [
+            "রাজ্যের জনগণ নির্বাচন করেন",
+            "রাজ্যের আইন-শৃঙ্খলা",
+            "রাজ্যের শিক্ষা নীতি",
+            "রাজ্যের কৃষি"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_cat_010",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "শব্দের উৎস",
+        "question_bn": "নিচের শব্দগুলিকে তাদের উৎস ভাষা অনুযায়ী সঠিক দলে ভাগ করো",
+        "categories": {
+          "ফারসি ও আরবি উৎসের শব্দ": [
+            "সরকার",
+            "মুলুক",
+            "দিওয়ান",
+            "ফৌজ"
+          ],
+          "গ্রিক ও ইংরেজি উৎসের শব্দ": [
+            "ডেমোক্রেসি",
+            "পলিটিক্স",
+            "গভর্নমেন্ট",
+            "কনস্টিটিউশন"
+          ]
+        }
+      }
+    ],
+    "short_write": [
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_001",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সরকার শব্দ",
+        "question_bn": "'সরকার' শব্দটি কোন ভাষা থেকে এসেছে?",
+        "expected_answer": "ফারসি",
+        "max_words": 1,
+        "answer_slot_id": 1
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_002",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গণতন্ত্র",
+        "question_bn": "জনগণ নিজেরা শাসক বেছে নেওয়ার পদ্ধতিকে কী বলে?",
+        "expected_answer": "গণতন্ত্র",
+        "max_words": 1,
+        "answer_slot_id": 2
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_003",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সংবিধান",
+        "question_bn": "দেশের নিয়মকানুনকে কী বলা হয়?",
+        "expected_answer": "সংবিধান",
+        "max_words": 1,
+        "answer_slot_id": 3
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_004",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ভারতীয় সংবিধান রূপকার",
+        "question_bn": "ভারতীয় সংবিধানের প্রধান রূপকার কে?",
+        "expected_answer": "ড. আম্বেদকর",
+        "max_words": 2,
+        "answer_slot_id": 4
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_005",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সংবিধান গৃহীত",
+        "question_bn": "ভারতের সংবিধান কোন সালে গৃহীত হয়?",
+        "expected_answer": "১৯৪৯",
+        "max_words": 1,
+        "answer_slot_id": 5
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_006",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সংবিধান কার্যকর",
+        "question_bn": "ভারতের সংবিধান কোন সালে কার্যকর হয়?",
+        "expected_answer": "১৯৫০",
+        "max_words": 1,
+        "answer_slot_id": 6
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_007",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "প্রজাতন্ত্র দিবস",
+        "question_bn": "কোন তারিখে প্রজাতন্ত্র দিবস পালিত হয়?",
+        "expected_answer": "২৬ জানুয়ারি",
+        "max_words": 2,
+        "answer_slot_id": 7
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_008",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "নির্বাচন",
+        "question_bn": "ভারতে কত বছর পরে সরকার নির্বাচন হয়?",
+        "expected_answer": "পাঁচ",
+        "max_words": 1,
+        "answer_slot_id": 8
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_009",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পৌর শব্দ",
+        "question_bn": "সংস্কৃত ভাষায় 'পুর' শব্দের অর্থ কী?",
+        "expected_answer": "নগর",
+        "max_words": 1,
+        "answer_slot_id": 9
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_010",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পৌরসভার প্রধান",
+        "question_bn": "পৌরসভার প্রধানকে কী বলে?",
+        "expected_answer": "পৌরপ্রধান",
+        "max_words": 1,
+        "answer_slot_id": 10
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_011",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পঞ্চায়েত প্রধান",
+        "question_bn": "গ্রাম পঞ্চায়েতের প্রধানকে কী বলে?",
+        "expected_answer": "পঞ্চায়েত প্রধান",
+        "max_words": 2,
+        "answer_slot_id": 11
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_012",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ব্লক",
+        "question_bn": "অনেকগুলি গ্রাম নিয়ে কী হয়?",
+        "expected_answer": "ব্লক",
+        "max_words": 1,
+        "answer_slot_id": 12
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_013",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "জেলা",
+        "question_bn": "কয়েকটি ব্লক নিয়ে কী হয়?",
+        "expected_answer": "জেলা",
+        "max_words": 1,
+        "answer_slot_id": 13
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_014",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গণতন্ত্র উৎপত্তি",
+        "question_bn": "গণতন্ত্রের ধারণার জন্ম কোথায়?",
+        "expected_answer": "গ্রিসে",
+        "max_words": 1,
+        "answer_slot_id": 14
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_015",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "তন্ত্র অর্থ",
+        "question_bn": "'তন্ত্র' শব্দের অর্থ কী?",
+        "expected_answer": "ব্যবস্থা",
+        "max_words": 1,
+        "answer_slot_id": 15
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_016",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মন্টেস্কু",
+        "question_bn": "'ক্ষমতা স্বতন্ত্রীকরণ নীতি' প্রথম কে প্রস্তাব করেন?",
+        "expected_answer": "মন্টেস্কু",
+        "max_words": 1,
+        "answer_slot_id": 16
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_017",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মন্টেস্কুর দেশ",
+        "question_bn": "মন্টেস্কু কোন দেশের দার্শনিক?",
+        "expected_answer": "ফ্রান্স",
+        "max_words": 1,
+        "answer_slot_id": 17
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_018",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সরকারের বিভাগ",
+        "question_bn": "ভারতীয় সরকারের মোট কয়টি বিভাগ আছে?",
+        "expected_answer": "তিনটি",
+        "max_words": 1,
+        "answer_slot_id": 18
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_019",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "স্বায়ত্তশাসন",
+        "question_bn": "'স্বায়ত্তশাসন' শব্দে 'আয়ত্ত' অর্থ কী?",
+        "expected_answer": "অধীন",
+        "max_words": 1,
+        "answer_slot_id": 19
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_020",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পৌরসভা ভোট বয়স",
+        "question_bn": "পৌরসভায় ভোট দিতে ন্যূনতম কত বছর বয়স লাগে?",
+        "expected_answer": "আঠারো",
+        "max_words": 1,
+        "answer_slot_id": 20
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_021",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ব্লক পঞ্চায়েত",
+        "question_bn": "ব্লকে কোন পঞ্চায়েত সংস্থা থাকে?",
+        "expected_answer": "পঞ্চায়েত সমিতি",
+        "max_words": 2,
+        "answer_slot_id": 21
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_022",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "জেলা সংস্থা",
+        "question_bn": "জেলায় কোন স্বায়ত্তশাসন সংস্থা থাকে?",
+        "expected_answer": "জেলাপরিষদ",
+        "max_words": 1,
+        "answer_slot_id": 22
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_023",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সংবিধান রচনার সময়",
+        "question_bn": "ভারতের সংবিধান তৈরিতে কত বছর লেগেছিল?",
+        "expected_answer": "তিন বছর",
+        "max_words": 2,
+        "answer_slot_id": 23
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_024",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "দেমোস",
+        "question_bn": "গ্রিক ভাষায় 'দেমোস' কথার অর্থ কী?",
+        "expected_answer": "সাধারণ মানুষ",
+        "max_words": 2,
+        "answer_slot_id": 24
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_025",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "রাজতন্ত্র",
+        "question_bn": "রাজার শাসনব্যবস্থাকে কী বলে?",
+        "expected_answer": "রাজতন্ত্র",
+        "max_words": 1,
+        "answer_slot_id": 25
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_026",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "কেন্দ্রীয় সরকার নির্বাচন",
+        "question_bn": "কেন্দ্রীয় সরকারকে কারা নির্বাচন করেন?",
+        "expected_answer": "দেশের জনগণ",
+        "max_words": 2,
+        "answer_slot_id": 26
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_027",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বিধান অর্থ",
+        "question_bn": "'বিধান' শব্দের অর্থ কী?",
+        "expected_answer": "নিয়ম",
+        "max_words": 1,
+        "answer_slot_id": 27
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_028",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "আইন বিভাগ",
+        "question_bn": "দেশের আইন তৈরি করে কোন বিভাগ?",
+        "expected_answer": "আইন বিভাগ",
+        "max_words": 2,
+        "answer_slot_id": 28
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_029",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শাসন বিভাগ",
+        "question_bn": "আইন অনুযায়ী কাজ পরিচালনা করে কোন বিভাগ?",
+        "expected_answer": "শাসন বিভাগ",
+        "max_words": 2,
+        "answer_slot_id": 29
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_030",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বিচার বিভাগ",
+        "question_bn": "সুবিচার নিশ্চিত করা কোন বিভাগের কাজ?",
+        "expected_answer": "বিচার বিভাগ",
+        "max_words": 2,
+        "answer_slot_id": 30
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_031",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "সংবিধান গৃহীত তারিখ",
+        "question_bn": "ভারতের সংবিধান কবে গৃহীত হয়?",
+        "expected_answer": "২৬ নভেম্বর",
+        "max_words": 2,
+        "answer_slot_id": 31
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_032",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ক্ষমতা স্বতন্ত্রীকরণ",
+        "question_bn": "বিচার বিভাগকে অন্য বিভাগ থেকে আলাদা রাখার নীতিকে কী বলে?",
+        "expected_answer": "ক্ষমতা স্বতন্ত্রীকরণ",
+        "max_words": 2,
+        "answer_slot_id": 32
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_033",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "যুক্তরাষ্ট্রীয়",
+        "question_bn": "কেন্দ্রীয় ও রাজ্য দু-রকম সরকারের ব্যবস্থাকে কী বলে?",
+        "expected_answer": "যুক্তরাষ্ট্রীয়",
+        "max_words": 1,
+        "answer_slot_id": 33
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_034",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পৌরসভার সদস্য",
+        "question_bn": "পৌরসভার নির্বাচিত সদস্যদের কী বলে?",
+        "expected_answer": "পৌরপ্রতিনিধি",
+        "max_words": 1,
+        "answer_slot_id": 34
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_035",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "Government অর্থ",
+        "question_bn": "ইংরেজিতে 'Govern' শব্দের অর্থ কী?",
+        "expected_answer": "শাসন করা",
+        "max_words": 2,
+        "answer_slot_id": 35
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_036",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পঞ্চায়েত নির্বাচন",
+        "question_bn": "গ্রাম পঞ্চায়েতের সদস্যদের কীভাবে নির্বাচন করা হয়?",
+        "expected_answer": "ভোটে",
+        "max_words": 1,
+        "answer_slot_id": 36
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_037",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "স্বায়ত্তশাসন অর্থ",
+        "question_bn": "'স্ব' এবং 'আয়ত্ত' মিলিয়ে কী তৈরি হয়?",
+        "expected_answer": "স্বায়ত্তশাসন",
+        "max_words": 1,
+        "answer_slot_id": 37
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_038",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "গণতন্ত্রের বয়স",
+        "question_bn": "গণতন্ত্রের ধারণার জন্ম আজ থেকে কত বছর আগে?",
+        "expected_answer": "আড়াই হাজার",
+        "max_words": 2,
+        "answer_slot_id": 38
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_039",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সরকারের কাজ",
+        "question_bn": "সরকার কী সংগ্রহ করে?",
+        "expected_answer": "কর",
+        "max_words": 1,
+        "answer_slot_id": 39
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_040",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পৌরসভার কাজ",
+        "question_bn": "পৌরসভার একটি প্রধান কাজ কী?",
+        "expected_answer": "জলসরবরাহ",
+        "max_words": 1,
+        "answer_slot_id": 40
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_041",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "রাজ্য সরকার",
+        "question_bn": "রাজ্য সরকারকে কে নির্বাচন করেন?",
+        "expected_answer": "রাজ্যের বাসিন্দারা",
+        "max_words": 2,
+        "answer_slot_id": 41
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_042",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "সংবিধান আলোচনা",
+        "question_bn": "ভারতের সংবিধান রচনায় ড্রাফট কমিটির প্রধান কে ছিলেন?",
+        "expected_answer": "ড. আম্বেদকর",
+        "max_words": 2,
+        "answer_slot_id": 42
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_043",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পঞ্চায়েত সমিতি",
+        "question_bn": "ব্লক স্তরে কোন পঞ্চায়েত সংস্থা থাকে?",
+        "expected_answer": "পঞ্চায়েত সমিতি",
+        "max_words": 2,
+        "answer_slot_id": 43
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_044",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গ্রাম পঞ্চায়েত কাজ",
+        "question_bn": "গ্রাম পঞ্চায়েত কী করে?",
+        "expected_answer": "গ্রামের উন্নতি",
+        "max_words": 2,
+        "answer_slot_id": 44
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_045",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "দেমোস ও ক্রেটোস",
+        "question_bn": "গ্রিক ভাষায় শাসন অর্থে কোন শব্দটি ব্যবহার হয়?",
+        "expected_answer": "ক্রেটোস",
+        "max_words": 1,
+        "answer_slot_id": 45
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_046",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ভারতের সরকার",
+        "question_bn": "ভারতে কত ধরনের সরকার আছে?",
+        "expected_answer": "দুই ধরনের",
+        "max_words": 2,
+        "answer_slot_id": 46
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_047",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বিচার বিভাগ আলাদা",
+        "question_bn": "বিচার বিভাগকে কোন দুটি বিভাগ থেকে আলাদা রাখা হয়?",
+        "expected_answer": "আইন ও শাসন",
+        "max_words": 2,
+        "answer_slot_id": 47
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_048",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পুর অর্থ",
+        "question_bn": "সংস্কৃতে 'পুর' শব্দের অর্থ কী?",
+        "expected_answer": "নগর",
+        "max_words": 1,
+        "answer_slot_id": 48
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_049",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পঞ্চায়েত ও পৌরসভা নির্বাচন",
+        "question_bn": "পঞ্চায়েত ও পৌরসভায় কত বছর অন্তর নির্বাচন হয়?",
+        "expected_answer": "পাঁচ বছর",
+        "max_words": 2,
+        "answer_slot_id": 49
+      },
+      {
+        "id": "otit_o_oitijhyo_ch09_sw_050",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "সংবিধান ও সরকার",
+        "question_bn": "সরকার কোনটি মেনে দেশ শাসন করে?",
+        "expected_answer": "সংবিধান",
+        "max_words": 1,
+        "answer_slot_id": 50
+      }
+    ]
+  }
+}

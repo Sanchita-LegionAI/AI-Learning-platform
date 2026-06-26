@@ -1,0 +1,2394 @@
+{
+  "book_id": "otit_o_oitijhyo",
+  "book_name": "Otit_O_Oitijhyo",
+  "book_name_bn": "অতীত ও ঐতিহ্য",
+  "subject": "history",
+  "class": 7,
+  "chapter_no": 5,
+  "chapter_title_bn": "মুঘল সাম্রাজ্য",
+  "source_file": "otit_o_oitijhyo_ch05_questions.json",
+  "questions": {
+    "mcq": [
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_001",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মুঘল বংশের উৎপত্তি",
+        "question_bn": "মুঘলরা কার বংশধর হিসাবে গর্ববোধ করত?",
+        "options": [
+          "চেঙ্গিস খান",
+          "তৈমুর লঙ",
+          "বাবর",
+          "হুমায়ুন",
+          "আকবর"
+        ],
+        "correct_answer": "তৈমুর লঙ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_002",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "প্রথম মুঘল সম্রাট",
+        "question_bn": "ভারতবর্ষের প্রথম মুঘল বাদশাহ কে ছিলেন?",
+        "options": [
+          "হুমায়ুন",
+          "আকবর",
+          "জহিরউদ্দিন মহম্মদ বাবর",
+          "জাহাঙ্গির",
+          "শাহজাহান"
+        ],
+        "correct_answer": "জহিরউদ্দিন মহম্মদ বাবর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_003",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পানিপতের প্রথম যুদ্ধ",
+        "question_bn": "পানিপতের প্রথম যুদ্ধ কত খ্রিস্টাব্দে হয়েছিল?",
+        "options": [
+          "১৫২৪",
+          "১৫২৫",
+          "১৫২৬",
+          "১৫২৭",
+          "১৫২৮"
+        ],
+        "correct_answer": "১৫২৬"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_004",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "খানুয়ার যুদ্ধ",
+        "question_bn": "খানুয়ার যুদ্ধে রাজপুতদের নেতৃত্ব কে দেন?",
+        "options": [
+          "রানা প্রতাপ সিংহ",
+          "রানা উদয় সিংহ",
+          "রানা সংগ্রাম সিংহ",
+          "অমর সিংহ",
+          "মান সিংহ"
+        ],
+        "correct_answer": "রানা সংগ্রাম সিংহ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_005",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বাদশাহ উপাধি",
+        "question_bn": "বাবর কত খ্রিস্টাব্দে পাদশাহ উপাধি গ্রহণ করেন?",
+        "options": [
+          "১৫০৩",
+          "১৫০৫",
+          "১৫০৭",
+          "১৫১০",
+          "১৫১২"
+        ],
+        "correct_answer": "১৫০৭"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_006",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শের শাহের সড়ক",
+        "question_bn": "শের শাহের তৈরি 'সড়ক-ই আজম' পরবর্তীকালে কী নামে পরিচিত হয়?",
+        "options": [
+          "রাজপথ",
+          "জাতীয় মহাসড়ক",
+          "গ্র্যান্ড ট্রাঙ্ক রোড",
+          "দিল্লি রোড",
+          "সোনারগাঁও রোড"
+        ],
+        "correct_answer": "গ্র্যান্ড ট্রাঙ্ক রোড"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_007",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আকবরের শাসনকাল",
+        "question_bn": "আকবর কত খ্রিস্টাব্দে শাসনভার গ্রহণ করেন?",
+        "options": [
+          "১৫৫০",
+          "১৫৫৩",
+          "১৫৫৬",
+          "১৫৬০",
+          "১৫৬৩"
+        ],
+        "correct_answer": "১৫৫৬"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_008",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মনসবদারি ব্যবস্থা",
+        "question_bn": "মুঘল শাসনব্যবস্থায় প্রশাসনিক পদগুলিকে কী বলা হতো?",
+        "options": [
+          "জায়গির",
+          "সুবা",
+          "মনসব",
+          "পরগনা",
+          "সরকার"
+        ],
+        "correct_answer": "মনসব"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_009",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সুবা প্রশাসন",
+        "question_bn": "আকবর তার সাম্রাজ্যকে ভাগ করা প্রদেশগুলিকে কী বলতেন?",
+        "options": [
+          "সরকার",
+          "পরগনা",
+          "সুবা",
+          "মনসব",
+          "জায়গির"
+        ],
+        "correct_answer": "সুবা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_010",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "দহসালা ব্যবস্থা",
+        "question_bn": "আকবর কত খ্রিস্টাব্দে দহসালা ব্যবস্থা চালু করেন?",
+        "options": [
+          "১৫৭৫",
+          "১৫৭৮",
+          "১৫৮০",
+          "১৫৮৫",
+          "১৫৯০"
+        ],
+        "correct_answer": "১৫৮০"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_011",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শের শাহের পাট্টা",
+        "question_bn": "শের শাহ কৃষকদের যে দলিল দিতেন তার নাম কী?",
+        "options": [
+          "কবুলিয়ত",
+          "জায়গির",
+          "পাট্টা",
+          "মনসব",
+          "সুবা"
+        ],
+        "correct_answer": "পাট্টা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_012",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "হলদিঘাটির যুদ্ধ",
+        "question_bn": "হলদিঘাটির যুদ্ধ কত খ্রিস্টাব্দে হয়েছিল?",
+        "options": [
+          "১৫৭২",
+          "১৫৭৪",
+          "১৫৭৬",
+          "১৫৭৮",
+          "১৫৮০"
+        ],
+        "correct_answer": "১৫৭৬"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_013",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বীরবল",
+        "question_bn": "আকবর মহেশ দাসকে কী উপাধি দিয়েছিলেন?",
+        "options": [
+          "আমির",
+          "রাজা",
+          "বীরবল",
+          "ওয়াজির",
+          "মনসবদার"
+        ],
+        "correct_answer": "বীরবল"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_014",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বারো ভুইয়া",
+        "question_bn": "বাংলার স্থানীয় হিন্দু জমিদার ও আফগানরা একত্রে কী নামে পরিচিত ছিলেন?",
+        "options": [
+          "পাঁচ ভুইয়া",
+          "দশ ভুইয়া",
+          "বারো ভুইয়া",
+          "পনের ভুইয়া",
+          "বিশ ভুইয়া"
+        ],
+        "correct_answer": "বারো ভুইয়া"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_015",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ওরঙ্গজেবের শাসনকাল",
+        "question_bn": "ওরঙ্গজেব কত খ্রিস্টাব্দ পর্যন্ত শাসন করেন?",
+        "options": [
+          "১৬৯৫",
+          "১৭০০",
+          "১৭০৫",
+          "১৭০৭",
+          "১৭১০"
+        ],
+        "correct_answer": "১৭০৭"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_016",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "টোডরমলের বন্দোবস্ত",
+        "question_bn": "আকবরের রাজস্বমন্ত্রী কে ছিলেন?",
+        "options": [
+          "বীরবল",
+          "আবুল ফজল",
+          "রাজা টোডরমল",
+          "মান সিংহ",
+          "বৈরাম খান"
+        ],
+        "correct_answer": "রাজা টোডরমল"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_017",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বাবরের উপাধি",
+        "question_bn": "মুঘলরা কোন উপাধি ব্যবহার করে সার্বভৌম শাসক বোঝাতেন?",
+        "options": [
+          "সুলতান",
+          "নবাব",
+          "বাদশাহ",
+          "রাজা",
+          "আমির"
+        ],
+        "correct_answer": "বাদশাহ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_018",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মুঘল সাম্রাজ্যের সময়কাল",
+        "question_bn": "মুঘলরা কোন শতক থেকে ভারতবর্ষ শাসন করতে শুরু করেন?",
+        "options": [
+          "চতুর্দশ",
+          "পঞ্চদশ",
+          "ষোড়শ",
+          "সপ্তদশ",
+          "অষ্টাদশ"
+        ],
+        "correct_answer": "ষোড়শ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_019",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "হুমায়ুনের প্রতিদ্বন্দ্বী",
+        "question_bn": "হুমায়ুনের সবচেয়ে গুরুত্বপূর্ণ রাজনৈতিক প্রতিদ্বন্দ্বী কে ছিলেন?",
+        "options": [
+          "মালিক অম্বর",
+          "বৈরাম খান",
+          "শের খান",
+          "আদিল শাহ",
+          "হিমু"
+        ],
+        "correct_answer": "শের খান"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_020",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ঘর্ঘরার যুদ্ধ",
+        "question_bn": "ঘর্ঘরার যুদ্ধে বাংলার কোন শাসক আফগানদের সঙ্গে যোগ দেন?",
+        "options": [
+          "ইব্রাহিম লোদি",
+          "রানা সঙ্গ",
+          "নসরৎ শাহ",
+          "হিমু",
+          "শের শাহ"
+        ],
+        "correct_answer": "নসরৎ শাহ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_021",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মুঘল রণকৌশল",
+        "question_bn": "পানিপত ও খানুয়ার যুদ্ধে বাবরের রণকৌশলে কোন দুটি বাহিনীর সমন্বয় ছিল?",
+        "options": [
+          "হাতি ও পদাতিক",
+          "কামান ও ঘোড়সওয়ার তিরন্দাজ",
+          "নৌসেনা ও অশ্বারোহী",
+          "তোপ ও যুদ্ধহাতি",
+          "বন্দুকধারী ও তলোয়ারধারী"
+        ],
+        "correct_answer": "কামান ও ঘোড়সওয়ার তিরন্দাজ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_022",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "তৈমুর লঙের আক্রমণ",
+        "question_bn": "তৈমুর লঙ কত খ্রিস্টাব্দে উত্তর ভারত আক্রমণ করেন?",
+        "options": [
+          "১৩৯০",
+          "১৩৯৫",
+          "১৩৯৮",
+          "১৪০০",
+          "১৪০৫"
+        ],
+        "correct_answer": "১৩৯৮"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_023",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বাবরের ফরগনা",
+        "question_bn": "বাবর কত বছর বয়সে ফরগনা প্রদেশের শাসনভার পান?",
+        "options": [
+          "দশ",
+          "বারো",
+          "চৌদ্দ",
+          "ষোল",
+          "আঠারো"
+        ],
+        "correct_answer": "বারো"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_024",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আকবরনামা",
+        "question_bn": "আকবরনামা কে রচনা করেছিলেন?",
+        "options": [
+          "বাদাউনি",
+          "টোডরমল",
+          "আবুল ফজল",
+          "বীরবল",
+          "বৈরাম খান"
+        ],
+        "correct_answer": "আবুল ফজল"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_025",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পানিপতের দ্বিতীয় যুদ্ধ",
+        "question_bn": "পানিপতের দ্বিতীয় যুদ্ধে আকবরের সহায়তা করেন কে?",
+        "options": [
+          "টোডরমল",
+          "বীরবল",
+          "মান সিংহ",
+          "বৈরাম খান",
+          "আবুল ফজল"
+        ],
+        "correct_answer": "বৈরাম খান"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_026",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সুলহ-ই-কুল",
+        "question_bn": "'সুলহ-ই-কুল' আদর্শের মূল অর্থ কী?",
+        "options": [
+          "একমাত্র ইসলামি শাসন",
+          "সকলের প্রতি সহনশীলতা ও শান্তি",
+          "হিন্দু-মুসলিম বিচ্ছেদ",
+          "যুদ্ধের মাধ্যমে শাসন",
+          "কেবল রাজপুতদের সুরক্ষা"
+        ],
+        "correct_answer": "সকলের প্রতি সহনশীলতা ও শান্তি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_027",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "শের শাহের কবুলিয়ত",
+        "question_bn": "কৃষক রাজস্ব দেওয়ার প্রতিশ্রুতিতে রাষ্ট্রকে কোন দলিল দিত?",
+        "options": [
+          "পাট্টা",
+          "জমা",
+          "কবুলিয়ত",
+          "সনদ",
+          "পরওয়ানা"
+        ],
+        "correct_answer": "কবুলিয়ত"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_028",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "রাঠোর যুদ্ধ",
+        "question_bn": "রাঠোর যুদ্ধ কত খ্রিস্টাব্দে শুরু হয়?",
+        "options": [
+          "১৬৬৫",
+          "১৬৭০",
+          "১৬৭৫",
+          "১৬৭৯",
+          "১৬৮৫"
+        ],
+        "correct_answer": "১৬৭৯"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_029",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আহমেদনগরের প্রধানমন্ত্রী",
+        "question_bn": "আহমেদনগরের প্রধানমন্ত্রী কে ছিলেন যিনি মুঘলদের বিরুদ্ধে প্রতিরোধ তৈরি করেন?",
+        "options": [
+          "টোডরমল",
+          "বৈরাম খান",
+          "মালিক অম্বর",
+          "আদিল শাহ",
+          "হিমু"
+        ],
+        "correct_answer": "মালিক অম্বর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_030",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মুঘল-রাজপুত সম্পর্ক",
+        "question_bn": "আকবর হিন্দুদের উপর থেকে কোন কোন কর তুলে নেন?",
+        "options": [
+          "জমি ও ব্যবসা কর",
+          "তীর্থ কর ও জিজিয়া কর",
+          "বাণিজ্য ও সেবা কর",
+          "কৃষি ও বন কর",
+          "পণ্য ও পরিবহন কর"
+        ],
+        "correct_answer": "তীর্থ কর ও জিজিয়া কর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_031",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মুঘল উত্তরাধিকার",
+        "question_bn": "তৈমুরীয় নীতি অনুযায়ী উত্তরসূরিদের মধ্যে কী ভাগ করা হতো?",
+        "options": [
+          "সেনাবাহিনী",
+          "রাজকোষ",
+          "অঞ্চল বা রাজ্য",
+          "অভিজাত পদ",
+          "ধর্মীয় দায়িত্ব"
+        ],
+        "correct_answer": "অঞ্চল বা রাজ্য"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_032",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "জাহাঙ্গিরের শাসনকাল",
+        "question_bn": "জাহাঙ্গিরের শাসনকাল কোন সময়ে?",
+        "options": [
+          "১৬০০-১৬২০",
+          "১৬০৫-১৬২৭",
+          "১৬১০-১৬৩০",
+          "১৬০০-১৬২৫",
+          "১৬০৮-১৬২৮"
+        ],
+        "correct_answer": "১৬০৫-১৬২৭"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_033",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চিতোর জয়",
+        "question_bn": "আকবর কত খ্রিস্টাব্দে চিতোর জয় করেন?",
+        "options": [
+          "১৫৬৪",
+          "১৫৬৬",
+          "১৫৬৮",
+          "১৫৭০",
+          "১৫৭২"
+        ],
+        "correct_answer": "১৫৬৮"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_034",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মুঘল দাক্ষিণাত্য নীতি",
+        "question_bn": "১৫৯৬ থেকে ১৬০১ খ্রিস্টাব্দের মধ্যে মুঘলরা দাক্ষিণাত্যের কোন রাজ্যগুলি জয় করে?",
+        "options": [
+          "গোলকোণ্ডা, বিজাপুর, আহমেদনগর",
+          "বেরার, আহমেদনগর ও খান্দেশ",
+          "বিদর, গোলকোণ্ডা ও বেরার",
+          "আহমেদনগর, বিদর ও বিজাপুর",
+          "খান্দেশ, গোলকোণ্ডা ও বিজাপুর"
+        ],
+        "correct_answer": "বেরার, আহমেদনগর ও খান্দেশ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_035",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ওরঙ্গজেবের জিজিয়া কর",
+        "question_bn": "ওরঙ্গজেব কত খ্রিস্টাব্দে জিজিয়া কর পুনরায় চালু করেন?",
+        "options": [
+          "১৬৬৫",
+          "১৬৭০",
+          "১৬৭৫",
+          "১৬৭৯",
+          "১৬৮৫"
+        ],
+        "correct_answer": "১৬৭৯"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_036",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "অটোমান রণকৌশল",
+        "question_bn": "অটোমান সেনাবাহিনী কত খ্রিস্টাব্দে চল্দিরানের যুদ্ধে সফাবিদের হারায়?",
+        "options": [
+          "১৫১০",
+          "১৫১২",
+          "১৫১৪",
+          "১৫১৬",
+          "১৫১৮"
+        ],
+        "correct_answer": "১৫১৪"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_037",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আকবরের অভিভাবক",
+        "question_bn": "শাসনভার পাওয়ার শুরুতে আকবরের অভিভাবক কে ছিলেন?",
+        "options": [
+          "টোডরমল",
+          "আবুল ফজল",
+          "বৈরাম খান",
+          "বীরবল",
+          "মান সিংহ"
+        ],
+        "correct_answer": "বৈরাম খান"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_038",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল প্রশাসনিক আদর্শ",
+        "question_bn": "আকবরের প্রশাসনিক আদর্শ কোন তিনটি ঐতিহ্যের সংমিশ্রণ?",
+        "options": [
+          "আরবি, ফারসি ও ভারতীয়",
+          "মোঙ্গলীয়, পারসিক ও ভারতীয়",
+          "তুর্কি, আফগান ও রাজপুত",
+          "তৈমুরীয়, পারসিক ও ভারতীয়",
+          "ইসলামি, হিন্দু ও বৌদ্ধ"
+        ],
+        "correct_answer": "মোঙ্গলীয়, পারসিক ও ভারতীয়"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_039",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "বাবরের বয়স ও ক্ষমতা",
+        "question_bn": "১৪৯৪ খ্রিস্টাব্দে বাবর কোন প্রদেশের শাসনভার পান?",
+        "options": [
+          "সমরখন্দ",
+          "কাবুল",
+          "ফরগনা",
+          "হেরাত",
+          "কান্দাহার"
+        ],
+        "correct_answer": "ফরগনা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_040",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল-মারাঠা সংঘাত",
+        "question_bn": "ওরঙ্গজেবের দাক্ষিণাত্য অভিযানে শেষ পর্যন্ত কোন মারাঠা নেতাকে স্বাধীন রাজা হিসাবে মেনে নিতে হয়?",
+        "options": [
+          "বালাজি বিশ্বনাথ",
+          "মালোজি ভোঁসলে",
+          "শিবাজি",
+          "সম্ভাজি",
+          "তানাজি"
+        ],
+        "correct_answer": "শিবাজি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_041",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল সুবা বিভাজন",
+        "question_bn": "মুঘল সুবাগুলি কীসে ভাগ করা হতো?",
+        "options": [
+          "জেলা ও উপজেলায়",
+          "সরকার ও পরগনায়",
+          "মনসব ও জায়গিরে",
+          "প্রদেশ ও বিভাগে",
+          "থানা ও মহকুমায়"
+        ],
+        "correct_answer": "সরকার ও পরগনায়"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_042",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "শের শাহের সংস্কার",
+        "question_bn": "শের শাহ সেনাবাহিনীর উপর নিয়ন্ত্রণ রাখতে কোন পদ্ধতি অনুসরণ করতেন?",
+        "options": [
+          "পাট্টা ব্যবস্থা",
+          "কবুলিয়ত ব্যবস্থা",
+          "দাগ ব্যবস্থা",
+          "মনসব ব্যবস্থা",
+          "জাবতি ব্যবস্থা"
+        ],
+        "correct_answer": "দাগ ব্যবস্থা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_043",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল-রাজপুত বৈবাহিক সম্পর্ক",
+        "question_bn": "মুঘল বাদশাহেরা রাজপুতদের সঙ্গে বৈবাহিক সম্পর্ক স্থাপনের পর তাদের কী অধিকার বজায় রাখতে দিতেন?",
+        "options": [
+          "ধর্মীয় আধিপত্য",
+          "মুঘল মনসব",
+          "ওয়াতনের অধিকার",
+          "জিজিয়া থেকে মুক্তি",
+          "সামরিক কমান্ড"
+        ],
+        "correct_answer": "ওয়াতনের অধিকার"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_044",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "হুমায়ুনের পরাজয়",
+        "question_bn": "হুমায়ুন শের খানের কাছে পর পর কতবার পরাজিত হন?",
+        "options": [
+          "একবার",
+          "দুবার",
+          "তিনবার",
+          "চারবার",
+          "পাঁচবার"
+        ],
+        "correct_answer": "দুবার"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_045",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল দাক্ষিণাত্য অভিযান",
+        "question_bn": "ওরঙ্গজেব দাক্ষিণাত্যে কত বছর যুদ্ধ করেছিলেন?",
+        "options": [
+          "দশ বছর",
+          "পনের বছর",
+          "বিশ বছর",
+          "পঁচিশ বছর",
+          "ত্রিশ বছর"
+        ],
+        "correct_answer": "পঁচিশ বছর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_046",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "আবদুল কাদির বদাউনি",
+        "question_bn": "মুঘল দরবারের কোন ইতিহাসবিদ আকবরের সমালোচনামূলক বিবরণ লিখেছিলেন?",
+        "options": [
+          "আবুল ফজল",
+          "টোডরমল",
+          "বীরবল",
+          "আবদুল কাদির বদাউনি",
+          "বৈরাম খান"
+        ],
+        "correct_answer": "আবদুল কাদির বদাউনি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_047",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ওরঙ্গজেব ও বাংলা",
+        "question_bn": "ওরঙ্গজেবের আমলে মুঘলরা কোন বন্দর দখল করে পোর্তুগিজ জলদস্যুদের হাত থেকে বাংলাকে রক্ষা করে?",
+        "options": [
+          "সোনারগাঁও",
+          "ঢাকা",
+          "চট্টগ্রাম",
+          "মুর্শিদাবাদ",
+          "কলকাতা"
+        ],
+        "correct_answer": "চট্টগ্রাম"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_048",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "শাহজাহানের উত্তরসূরি",
+        "question_bn": "শাহজাহানের কোন পুত্র তার ভাইদের সরিয়ে বাদশাহ হন?",
+        "options": [
+          "দারাশিকোহ",
+          "শাহ সুজা",
+          "মুরাদ",
+          "ওরঙ্গজেব",
+          "কাম বখশ"
+        ],
+        "correct_answer": "ওরঙ্গজেব"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_049",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল অভিজাত সংকট",
+        "question_bn": "ওরঙ্গজেবের আমলে অভিজাতদের মধ্যে প্রধান বিরোধ কী নিয়ে তৈরি হয়?",
+        "options": [
+          "ধর্মীয় আচার",
+          "জমি দখল",
+          "মনসব পাওয়া",
+          "সামরিক পদ",
+          "বাণিজ্য অধিকার"
+        ],
+        "correct_answer": "মনসব পাওয়া"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_mcq_050",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল রাজস্ব ব্যবস্থা",
+        "question_bn": "'দহসালা' শব্দে 'দহ' শব্দের অর্থ কী?",
+        "options": [
+          "পাঁচ",
+          "আট",
+          "দশ",
+          "বারো",
+          "পনের"
+        ],
+        "correct_answer": "দশ"
+      }
+    ],
+    "match_pairs": [
+      {
+        "id": "otit_o_oitijhyo_ch05_match_001",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মুঘল সম্রাট ও শাসনকাল",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "বাবর",
+            "right": "১৫২৬-৩০"
+          },
+          {
+            "left": "হুমায়ুন",
+            "right": "১৫৩০-৪০"
+          },
+          {
+            "left": "আকবর",
+            "right": "১৫৫৬-১৬০৫"
+          },
+          {
+            "left": "জাহাঙ্গির",
+            "right": "১৬০৫-১৬২৭"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_match_002",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "যুদ্ধ ও তারিখ",
+        "question_bn": "যুদ্ধের নামের সঙ্গে সঠিক তারিখ মেলাও",
+        "pairs": [
+          {
+            "left": "পানিপতের প্রথম যুদ্ধ",
+            "right": "১৫২৬"
+          },
+          {
+            "left": "খানুয়ার যুদ্ধ",
+            "right": "১৫২৭"
+          },
+          {
+            "left": "ঘর্ঘরার যুদ্ধ",
+            "right": "১৫২৯"
+          },
+          {
+            "left": "হলদিঘাটির যুদ্ধ",
+            "right": "১৫৭৬"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_match_003",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মুঘল প্রশাসনিক শব্দ",
+        "question_bn": "বাম স্তম্ভের পরিভাষার সঙ্গে ডান স্তম্ভের অর্থ মেলাও",
+        "pairs": [
+          {
+            "left": "সুবা",
+            "right": "প্রদেশ"
+          },
+          {
+            "left": "সরকার",
+            "right": "জেলা স্তরের প্রশাসনিক বিভাগ"
+          },
+          {
+            "left": "পরগনা",
+            "right": "সরকারের ছোটো বিভাগ"
+          },
+          {
+            "left": "মনসব",
+            "right": "প্রশাসনিক পদ"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_match_004",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ঐতিহাসিক ব্যক্তিত্ব ও কাজ",
+        "question_bn": "ব্যক্তিত্বের নামের সঙ্গে তাদের পরিচয় মেলাও",
+        "pairs": [
+          {
+            "left": "রাজা টোডরমল",
+            "right": "আকবরের রাজস্বমন্ত্রী"
+          },
+          {
+            "left": "বীরবল",
+            "right": "আকবরের প্রধানমন্ত্রী"
+          },
+          {
+            "left": "আবুল ফজল",
+            "right": "আকবরনামার লেখক"
+          },
+          {
+            "left": "বৈরাম খান",
+            "right": "আকবরের অভিভাবক"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_match_005",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শের শাহের সংস্কার",
+        "question_bn": "শের শাহের কার্যক্রমের সঙ্গে সঠিক বিবরণ মেলাও",
+        "pairs": [
+          {
+            "left": "পাট্টা",
+            "right": "কৃষকের অধিকার ও রাজস্বের দলিল"
+          },
+          {
+            "left": "কবুলিয়ত",
+            "right": "কৃষক কর্তৃক রাজস্ব প্রদানের প্রতিশ্রুতিপত্র"
+          },
+          {
+            "left": "সড়ক-ই আজম",
+            "right": "গ্র্যান্ড ট্রাঙ্ক রোড"
+          },
+          {
+            "left": "দাগ",
+            "right": "সেনাবাহিনী নিয়ন্ত্রণের পদ্ধতি"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_match_006",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মুঘল শাসক ও রাজনৈতিক ঘটনা",
+        "question_bn": "শাসকের নামের সঙ্গে সংশ্লিষ্ট ঘটনা মেলাও",
+        "pairs": [
+          {
+            "left": "আকবর",
+            "right": "জিজিয়া কর বাতিল"
+          },
+          {
+            "left": "ওরঙ্গজেব",
+            "right": "জিজিয়া কর পুনরায় চালু"
+          },
+          {
+            "left": "জাহাঙ্গির",
+            "right": "বারো ভুইয়াদের দমন"
+          },
+          {
+            "left": "শাহজাহান",
+            "right": "আহমেদনগর দখল ১৬৩৬"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_match_007",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "দাক্ষিণাত্যের রাজ্য",
+        "question_bn": "দাক্ষিণাত্যের রাজ্যের সঙ্গে সংশ্লিষ্ট তথ্য মেলাও",
+        "pairs": [
+          {
+            "left": "আহমেদনগর",
+            "right": "মালিক অম্বর ছিলেন প্রধানমন্ত্রী"
+          },
+          {
+            "left": "গোলকোণ্ডা",
+            "right": "ওরঙ্গজেব দখল করেন"
+          },
+          {
+            "left": "বিজাপুর",
+            "right": "শাহজাহান চুক্তিভঙ্গ করেন"
+          },
+          {
+            "left": "খান্দেশ",
+            "right": "অসিরগড় দুর্গ ছিল গুরুত্বপূর্ণ"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_match_008",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বাবরের পটভূমি",
+        "question_bn": "বাম স্তম্ভের বিষয়ের সঙ্গে ডান স্তম্ভের সঠিক তথ্য মেলাও",
+        "pairs": [
+          {
+            "left": "উজবেক",
+            "right": "মধ্য এশিয়ার তুর্কিভাষী জাতি"
+          },
+          {
+            "left": "সফাবি",
+            "right": "ইরানের রাজবংশ"
+          },
+          {
+            "left": "তৈমুর লঙ",
+            "right": "মুঘলদের পূর্বপুরুষ"
+          },
+          {
+            "left": "চেঙ্গিস খান",
+            "right": "মোঙ্গল নেতা"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_match_009",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল-রাজপুত সম্পর্ক",
+        "question_bn": "রাজপুত রাজার নামের সঙ্গে সংশ্লিষ্ট তথ্য মেলাও",
+        "pairs": [
+          {
+            "left": "রানা প্রতাপ সিংহ",
+            "right": "মুঘলদের অধীনতা অস্বীকার করেন"
+          },
+          {
+            "left": "মান সিংহ",
+            "right": "আকবরের পক্ষে রানা প্রতাপের বিরুদ্ধে যুদ্ধ"
+          },
+          {
+            "left": "অমর সিংহ",
+            "right": "জাহাঙ্গিরের আমলে উঁচু মনসব পান"
+          },
+          {
+            "left": "যশোবন্ত সিংহ",
+            "right": "মারওয়াড়ের রাঠোর রাজপুত রানা"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_match_010",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল ঐতিহাসিক ও রচনা",
+        "question_bn": "ইতিহাসবিদের নামের সঙ্গে তাদের রচনা বা পরিচয় মেলাও",
+        "pairs": [
+          {
+            "left": "আবুল ফজল",
+            "right": "আকবরনামা"
+          },
+          {
+            "left": "আবদুল কাদির বদাউনি",
+            "right": "মুন্তখাব-উত-তওয়ারিখ"
+          },
+          {
+            "left": "বদাউনি",
+            "right": "আকবরের সমালোচনামূলক বিবরণ"
+          },
+          {
+            "left": "আবুল ফজল ও বদাউনি",
+            "right": "১৫৭৫ খ্রিস্টাব্দে দরবারে যোগ দেন"
+          }
+        ]
+      }
+    ],
+    "true_false": [
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_001",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "প্রথম মুঘল সম্রাট",
+        "question_bn": "ভারতের প্রথম মুঘল বাদশাহ ছিলেন বাবর।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_002",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মুঘল বংশ",
+        "question_bn": "মুঘলরা চেঙ্গিস খানের বংশধর হিসাবে গর্ব করত।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_003",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পানিপতের প্রথম যুদ্ধ",
+        "question_bn": "পানিপতের প্রথম যুদ্ধে বাবর আফগান শক্তিকে পরাজিত করেন।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_004",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শের শাহের সড়ক",
+        "question_bn": "শের শাহের 'সড়ক-ই আজম' বাংলার সোনারগাঁও থেকে পেশোয়ার পর্যন্ত বিস্তৃত ছিল।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_005",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "দহসালা ব্যবস্থা",
+        "question_bn": "দহসালা ব্যবস্থায় 'দহ' মানে পনের।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_006",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বীরবল",
+        "question_bn": "বীরবলের আসল নাম ছিল মহেশ দাস।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_007",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আকবরের জিজিয়া কর",
+        "question_bn": "আকবর হিন্দুদের উপর থেকে জিজিয়া কর তুলে নেন।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_008",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মনসবদারি ব্যবস্থা",
+        "question_bn": "মুঘল শাসনব্যবস্থায় মনসবদারদের প্রধান কাজ ছিল বাদশাহের জন্য সৈন্য প্রস্তুত রাখা।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_009",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বাবরের উপাধি",
+        "question_bn": "বাবর কাবুলে থাকার সময় পাদশাহ উপাধি নেন।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_010",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "হুমায়ুন ও শের খান",
+        "question_bn": "হুমায়ুন শের খানের কাছে একবার পরাজিত হন।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_011",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "খানুয়ার যুদ্ধ",
+        "question_bn": "খানুয়ার যুদ্ধ একটি সম্পূর্ণ ধর্মীয় যুদ্ধ ছিল।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_012",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আকবরনামা",
+        "question_bn": "আকবরনামা রচনা করেছিলেন আবুল ফজল।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_013",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "রানা প্রতাপ",
+        "question_bn": "রানা প্রতাপ সিংহ আকবরের অধীনতা স্বীকার করেছিলেন।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_014",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বারো ভুইয়া",
+        "question_bn": "বারো ভুইয়ারা মুঘলদের বিরুদ্ধে বিদ্রোহ করেছিলেন।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_015",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সুলহ-ই-কুল",
+        "question_bn": "সুলহ-ই-কুল আদর্শে সকলের প্রতি সহনশীলতার কথা বলা হয়েছে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_016",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মুঘল সুবা বিভাগ",
+        "question_bn": "মুঘল সুবাগুলি সরাসরি পরগনায় ভাগ ছিল — সরকার বিভাগ ছিল না।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_017",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ওরঙ্গজেবের শাসনকাল",
+        "question_bn": "ওরঙ্গজেব দাক্ষিণাত্যে যুদ্ধ করতে করতেই মারা যান।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_018",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "টোডরমলের বন্দোবস্ত",
+        "question_bn": "টোডরমলের বন্দোবস্ত সমগ্র মুঘল সাম্রাজ্যে চালু ছিল।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_019",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "হুমায়ুনের উত্তরাধিকার নীতি",
+        "question_bn": "হুমায়ুন তৈমুরীয় নীতি অনুযায়ী রাজ্যকে ভাইদের মধ্যে ভাগ করে দিয়েছিলেন।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_tf_020",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "শের শাহের প্রশাসন",
+        "question_bn": "শের শাহের প্রশাসনিক ব্যবস্থা আকবর অনেকাংশে অনুসরণ করেছিলেন।",
+        "correct_answer": "true"
+      }
+    ],
+    "tap_sequence": [
+      {
+        "id": "otit_o_oitijhyo_ch05_seq_001",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মুঘল সম্রাটদের ক্রম",
+        "question_bn": "মুঘল সম্রাটদের সঠিক ক্রমে সাজাও (প্রথম থেকে)",
+        "items": [
+          "জাহাঙ্গির",
+          "হুমায়ুন",
+          "আকবর",
+          "বাবর"
+        ],
+        "correct_order": [
+          "বাবর",
+          "হুমায়ুন",
+          "আকবর",
+          "জাহাঙ্গির"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_seq_002",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বাবরের যুদ্ধ ক্রম",
+        "question_bn": "বাবরের যুদ্ধগুলিকে সঠিক কালানুক্রমে সাজাও",
+        "items": [
+          "ঘর্ঘরার যুদ্ধ",
+          "খানুয়ার যুদ্ধ",
+          "পানিপতের প্রথম যুদ্ধ",
+          "চল্দিরানের যুদ্ধ"
+        ],
+        "correct_order": [
+          "চল্দিরানের যুদ্ধ",
+          "পানিপতের প্রথম যুদ্ধ",
+          "খানুয়ার যুদ্ধ",
+          "ঘর্ঘরার যুদ্ধ"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_seq_003",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মুঘল প্রশাসনিক বিভাগ",
+        "question_bn": "মুঘল প্রশাসনিক বিভাগগুলিকে বড়ো থেকে ছোটো ক্রমে সাজাও",
+        "items": [
+          "পরগনা",
+          "সুবা",
+          "সরকার",
+          "সাম্রাজ্য"
+        ],
+        "correct_order": [
+          "সাম্রাজ্য",
+          "সুবা",
+          "সরকার",
+          "পরগনা"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_seq_004",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শাহজাহানের পরবর্তী ঘটনা",
+        "question_bn": "শাহজাহানের শাসনের শেষ থেকে ওরঙ্গজেবের শাসন পর্যন্ত ঘটনাগুলি ক্রমে সাজাও",
+        "items": [
+          "বিজাপুর দখল",
+          "দারাশিকোহ পরাজিত",
+          "শাহজাহানের পুত্রদের যুদ্ধ",
+          "ওরঙ্গজেব বাদশাহ হন"
+        ],
+        "correct_order": [
+          "শাহজাহানের পুত্রদের যুদ্ধ",
+          "দারাশিকোহ পরাজিত",
+          "ওরঙ্গজেব বাদশাহ হন",
+          "বিজাপুর দখল"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_seq_005",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "আকবরের শাসন বিস্তার",
+        "question_bn": "আকবরের গুরুত্বপূর্ণ ঘটনাগুলি ক্রমে সাজাও",
+        "items": [
+          "দহসালা ব্যবস্থা",
+          "পানিপতের দ্বিতীয় যুদ্ধ",
+          "চিতোর জয়",
+          "হলদিঘাটির যুদ্ধ"
+        ],
+        "correct_order": [
+          "পানিপতের দ্বিতীয় যুদ্ধ",
+          "চিতোর জয়",
+          "হলদিঘাটির যুদ্ধ",
+          "দহসালা ব্যবস্থা"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_seq_006",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বাবরের জীবনের ঘটনা",
+        "question_bn": "বাবরের জীবনের ঘটনাগুলি সঠিক ক্রমে সাজাও",
+        "items": [
+          "পানিপতের প্রথম যুদ্ধ",
+          "পাদশাহ উপাধি গ্রহণ",
+          "ফরগনার শাসনভার",
+          "হুমায়ুনের অসুস্থতা"
+        ],
+        "correct_order": [
+          "ফরগনার শাসনভার",
+          "পাদশাহ উপাধি গ্রহণ",
+          "পানিপতের প্রথম যুদ্ধ",
+          "হুমায়ুনের অসুস্থতা"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_seq_007",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "শের শাহের উত্থান",
+        "question_bn": "শের শাহের ক্ষমতায় আসার ঘটনাগুলি ক্রমে সাজাও",
+        "items": [
+          "ইসলাম শাহের মৃত্যু",
+          "হুমায়ুনের দেশ ছাড়া",
+          "শাহ উপাধি গ্রহণ",
+          "হুমায়ুনের পুনরায় ফেরা"
+        ],
+        "correct_order": [
+          "হুমায়ুনের দেশ ছাড়া",
+          "শাহ উপাধি গ্রহণ",
+          "ইসলাম শাহের মৃত্যু",
+          "হুমায়ুনের পুনরায় ফেরা"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_seq_008",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল-দাক্ষিণাত্য সংঘাতের ধাপ",
+        "question_bn": "দাক্ষিণাত্যে মুঘলদের সম্প্রসারণের ধাপগুলি ক্রমে সাজাও",
+        "items": [
+          "আহমেদনগর পূর্ণ দখল",
+          "বেরার খান্দেশ জয়",
+          "বিজাপুর গোলকোণ্ডা দখল",
+          "মালিক অম্বরের প্রতিরোধ"
+        ],
+        "correct_order": [
+          "বেরার খান্দেশ জয়",
+          "মালিক অম্বরের প্রতিরোধ",
+          "আহমেদনগর পূর্ণ দখল",
+          "বিজাপুর গোলকোণ্ডা দখল"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_seq_009",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মুঘল-রাজপুত সম্পর্কের ধাপ",
+        "question_bn": "মুঘল-রাজপুত সম্পর্কের ধাপগুলি কালানুক্রমে সাজাও",
+        "items": [
+          "রাঠোর যুদ্ধ",
+          "হলদিঘাটির যুদ্ধ",
+          "অমর সিংহের মনসব",
+          "চিতোর জয়"
+        ],
+        "correct_order": [
+          "চিতোর জয়",
+          "হলদিঘাটির যুদ্ধ",
+          "অমর সিংহের মনসব",
+          "রাঠোর যুদ্ধ"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_seq_010",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মুঘল সাম্রাজ্যের শাসক ক্রম",
+        "question_bn": "এই মুঘল শাসকদের সঠিক কালানুক্রমে সাজাও",
+        "items": [
+          "শাহজাহান",
+          "ওরঙ্গজেব",
+          "আকবর",
+          "জাহাঙ্গির"
+        ],
+        "correct_order": [
+          "আকবর",
+          "জাহাঙ্গির",
+          "শাহজাহান",
+          "ওরঙ্গজেব"
+        ]
+      }
+    ],
+    "categorize": [
+      {
+        "id": "otit_o_oitijhyo_ch05_cat_001",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "মুঘল ও আফগান শাসক",
+        "question_bn": "নিচের শাসকদের সঠিক দলে ভাগ করো",
+        "categories": {
+          "মুঘল শাসক": [
+            "বাবর",
+            "হুমায়ুন",
+            "আকবর",
+            "জাহাঙ্গির"
+          ],
+          "আফগান শাসক": [
+            "শের শাহ",
+            "ইসলাম শাহ",
+            "ইব্রাহিম লোদি",
+            "আদিল শাহ"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_cat_002",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "মুঘল দরবারের ব্যক্তিত্ব",
+        "question_bn": "নিচের ব্যক্তিত্বদের সঠিক দলে ভাগ করো",
+        "categories": {
+          "আকবরের দরবার": [
+            "বীরবল",
+            "রাজা টোডরমল",
+            "আবুল ফজল",
+            "বৈরাম খান"
+          ],
+          "আকবরের প্রতিপক্ষ": [
+            "রানা প্রতাপ",
+            "হিমু",
+            "আদিল শাহ",
+            "মালিক অম্বর"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_cat_003",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "মুঘল প্রশাসনিক ও রাজস্ব শব্দ",
+        "question_bn": "নিচের শব্দগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "প্রশাসনিক বিভাগ": [
+            "সুবা",
+            "সরকার",
+            "পরগনা",
+            "মনসব"
+          ],
+          "রাজস্ব ব্যবস্থা": [
+            "পাট্টা",
+            "কবুলিয়ত",
+            "দহসালা",
+            "জাবতি"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_cat_004",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "বাবরের যুদ্ধ বিশ্লেষণ",
+        "question_bn": "নিচের যুদ্ধগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "বাবর জয়ী হন": [
+            "পানিপতের প্রথম যুদ্ধ",
+            "খানুয়ার যুদ্ধ",
+            "ঘর্ঘরার যুদ্ধ",
+            "চল্দিরানের যুদ্ধ"
+          ],
+          "হুমায়ুন পরাজিত হন": [
+            "চৌসার যুদ্ধ",
+            "বিলগ্রামের যুদ্ধ",
+            "কনৌজের যুদ্ধ",
+            "দেওরার যুদ্ধ"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_cat_005",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "রাজপুত নেতা ও মুঘল সম্পর্ক",
+        "question_bn": "নিচের রাজপুত নেতাদের সঠিক দলে ভাগ করো",
+        "categories": {
+          "মুঘলদের সঙ্গে জোট বেঁধেছিলেন": [
+            "মান সিংহ",
+            "যশোবন্ত সিংহ",
+            "অমর সিংহ",
+            "রাজা ভগবান দাস"
+          ],
+          "মুঘলদের বিরুদ্ধে লড়েছিলেন": [
+            "রানা প্রতাপ সিংহ",
+            "রানা সংগ্রাম সিংহ",
+            "উদয় সিংহ",
+            "দুর্গাদাস"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_cat_006",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "দাক্ষিণাত্যের রাজ্য",
+        "question_bn": "নিচের দাক্ষিণাত্যের রাজ্যগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "আকবরের আমলে মুঘলরা জয় করেন": [
+            "বেরার",
+            "আহমেদনগর",
+            "খান্দেশ",
+            "অসিরগড়"
+          ],
+          "ওরঙ্গজেবের আমলে মুঘলরা জয় করেন": [
+            "বিজাপুর",
+            "গোলকোণ্ডা",
+            "তাঞ্জাভুর",
+            "জিঞ্জি"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_cat_007",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল আমলের বিদ্রোহ",
+        "question_bn": "নিচের বিদ্রোহীদের সঠিক অঞ্চলে ভাগ করো",
+        "categories": {
+          "বাংলার বিদ্রোহী": [
+            "প্রতাপাদিত্য",
+            "টাঁদ রায়",
+            "কেদার রায়",
+            "ইশা খান"
+          ],
+          "উত্তর ভারতের বিদ্রোহী": [
+            "জাঠ কৃষক",
+            "সৎনামি কৃষক",
+            "শিখ",
+            "মারাঠা"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_cat_008",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "মুঘল সম্রাটদের নীতি",
+        "question_bn": "নিচের নীতিগুলিকে সঠিক সম্রাটের দলে ভাগ করো",
+        "categories": {
+          "আকবরের নীতি": [
+            "জিজিয়া কর বাতিল",
+            "সুলহ-ই-কুল",
+            "মনসবদারি ব্যবস্থা",
+            "দহসালা"
+          ],
+          "ওরঙ্গজেবের নীতি": [
+            "জিজিয়া কর পুনরায় চালু",
+            "চট্টগ্রাম দখল",
+            "বিজাপুর জয়",
+            "জাঠ দমন"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_cat_009",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "মুঘল আমলের ঐতিহাসিক গ্রন্থ",
+        "question_bn": "নিচের বিষয়গুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "আবুল ফজলের সঙ্গে সম্পর্কিত": [
+            "আকবরনামা",
+            "আকবরের প্রশংসা",
+            "১৫৫১-১৬০২ খ্রিস্টাব্দ",
+            "আকবরের প্রিয় পাত্র"
+          ],
+          "বদাউনির সঙ্গে সম্পর্কিত": [
+            "মুন্তখাব-উত-তওয়ারিখ",
+            "সমালোচনামূলক বিবরণ",
+            "১৫৪০-১৬১৫ খ্রিস্টাব্দ",
+            "আকবরের বিরুদ্ধমত"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_cat_010",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল যুগের বিভিন্ন জাতি",
+        "question_bn": "নিচের জাতি ও দলগুলিকে সঠিক অঞ্চলে ভাগ করো",
+        "categories": {
+          "মধ্য এশিয়ার শক্তি": [
+            "উজবেক",
+            "সফাবি",
+            "মোঙ্গল",
+            "তৈমুরীয়"
+          ],
+          "ভারতের আঞ্চলিক শক্তি": [
+            "রাজপুত",
+            "মারাঠা",
+            "আফগান",
+            "বারো ভুইয়া"
+          ]
+        }
+      }
+    ],
+    "short_write": [
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_001",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "প্রথম মুঘল সম্রাট",
+        "question_bn": "ভারতবর্ষের প্রথম মুঘল বাদশাহ কে ছিলেন?",
+        "expected_answer": "বাবর",
+        "max_words": 1,
+        "answer_slot_id": 1
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_002",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বাদশাহ উপাধির ভাষা",
+        "question_bn": "বাদশাহ শব্দটি কোন ভাষার?",
+        "expected_answer": "ফারসি",
+        "max_words": 1,
+        "answer_slot_id": 2
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_003",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পানিপতের প্রথম যুদ্ধ",
+        "question_bn": "পানিপতের প্রথম যুদ্ধ কত সালে হয়?",
+        "expected_answer": "১৫২৬",
+        "max_words": 1,
+        "answer_slot_id": 3
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_004",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "খানুয়ার যুদ্ধ",
+        "question_bn": "খানুয়ার যুদ্ধে রাজপুতদের নেতা কে ছিলেন?",
+        "expected_answer": "রানা সংগ্রাম সিংহ",
+        "max_words": 2,
+        "answer_slot_id": 4
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_005",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ঘর্ঘরার যুদ্ধ",
+        "question_bn": "ঘর্ঘরার যুদ্ধ কত সালে হয়?",
+        "expected_answer": "১৫২৯",
+        "max_words": 1,
+        "answer_slot_id": 5
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_006",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "শের শাহের সড়ক",
+        "question_bn": "শের শাহের তৈরি বিখ্যাত সড়কের নাম কী?",
+        "expected_answer": "সড়ক-ই আজম",
+        "max_words": 2,
+        "answer_slot_id": 6
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_007",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গ্র্যান্ড ট্রাঙ্ক রোড",
+        "question_bn": "সড়ক-ই আজম পরবর্তীকালে কী নামে পরিচিত হয়?",
+        "expected_answer": "গ্র্যান্ড ট্রাঙ্ক রোড",
+        "max_words": 2,
+        "answer_slot_id": 7
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_008",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "আকবরের শাসনকাল",
+        "question_bn": "আকবর কত সালে শাসনভার পান?",
+        "expected_answer": "১৫৫৬",
+        "max_words": 1,
+        "answer_slot_id": 8
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_009",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মনসব",
+        "question_bn": "মুঘল প্রশাসনিক পদাধিকারীদের কী বলা হতো?",
+        "expected_answer": "মনসবদার",
+        "max_words": 1,
+        "answer_slot_id": 9
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_010",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "দহসালা ব্যবস্থা",
+        "question_bn": "দহসালা ব্যবস্থা কত সালে চালু হয়?",
+        "expected_answer": "১৫৮০",
+        "max_words": 1,
+        "answer_slot_id": 10
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_011",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "রাজস্বমন্ত্রী",
+        "question_bn": "আকবরের রাজস্বমন্ত্রী কে ছিলেন?",
+        "expected_answer": "রাজা টোডরমল",
+        "max_words": 2,
+        "answer_slot_id": 11
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_012",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পাট্টা",
+        "question_bn": "শের শাহ কৃষকদের কোন দলিল দিতেন?",
+        "expected_answer": "পাট্টা",
+        "max_words": 1,
+        "answer_slot_id": 12
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_013",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "কবুলিয়ত",
+        "question_bn": "কৃষক রাষ্ট্রকে রাজস্ব প্রতিশ্রুতির জন্য কোন দলিল দিত?",
+        "expected_answer": "কবুলিয়ত",
+        "max_words": 1,
+        "answer_slot_id": 13
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_014",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "হলদিঘাটির যুদ্ধ",
+        "question_bn": "হলদিঘাটির যুদ্ধ কত সালে হয়?",
+        "expected_answer": "১৫৭৬",
+        "max_words": 1,
+        "answer_slot_id": 14
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_015",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বীরবল",
+        "question_bn": "বীরবলের আসল নাম কী ছিল?",
+        "expected_answer": "মহেশ দাস",
+        "max_words": 2,
+        "answer_slot_id": 15
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_016",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বারো ভুইয়া",
+        "question_bn": "বাংলার বিদ্রোহী জমিদাররা কী নামে পরিচিত ছিলেন?",
+        "expected_answer": "বারো ভুইয়া",
+        "max_words": 2,
+        "answer_slot_id": 16
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_017",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "জাহাঙ্গিরের শাসনকাল",
+        "question_bn": "জাহাঙ্গিরের শাসনকাল কত সাল পর্যন্ত?",
+        "expected_answer": "১৬২৭",
+        "max_words": 1,
+        "answer_slot_id": 17
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_018",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ওরঙ্গজেবের শাসন সমাপ্তি",
+        "question_bn": "ওরঙ্গজেব কত সালে মারা যান?",
+        "expected_answer": "১৭০৭",
+        "max_words": 1,
+        "answer_slot_id": 18
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_019",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মুঘল প্রদেশ",
+        "question_bn": "মুঘল প্রশাসনে প্রদেশকে কী বলা হতো?",
+        "expected_answer": "সুবা",
+        "max_words": 1,
+        "answer_slot_id": 19
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_020",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "আকবরনামা",
+        "question_bn": "আকবরনামা কে লিখেছিলেন?",
+        "expected_answer": "আবুল ফজল",
+        "max_words": 2,
+        "answer_slot_id": 20
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_021",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বাবরের উপাধি গ্রহণ",
+        "question_bn": "বাবর কোথায় থাকার সময় পাদশাহ উপাধি নেন?",
+        "expected_answer": "কাবুল",
+        "max_words": 1,
+        "answer_slot_id": 21
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_022",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ফরগনা",
+        "question_bn": "বাবর কত বছর বয়সে ফরগনার শাসনভার পান?",
+        "expected_answer": "বারো",
+        "max_words": 1,
+        "answer_slot_id": 22
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_023",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "তৈমুরের ভারত আক্রমণ",
+        "question_bn": "তৈমুর লঙ কত সালে উত্তর ভারত আক্রমণ করেন?",
+        "expected_answer": "১৩৯৮",
+        "max_words": 1,
+        "answer_slot_id": 23
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_024",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সুলহ-ই-কুল",
+        "question_bn": "সকলের প্রতি সহনশীলতার মুঘল আদর্শকে কী বলা হয়?",
+        "expected_answer": "সুলহ-ই-কুল",
+        "max_words": 1,
+        "answer_slot_id": 24
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_025",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "আকবরের অভিভাবক",
+        "question_bn": "শাসন শুরুতে আকবরের অভিভাবক কে ছিলেন?",
+        "expected_answer": "বৈরাম খান",
+        "max_words": 2,
+        "answer_slot_id": 25
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_026",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পানিপতের দ্বিতীয় যুদ্ধ",
+        "question_bn": "পানিপতের দ্বিতীয় যুদ্ধ কত সালে হয়?",
+        "expected_answer": "১৫৫৬",
+        "max_words": 1,
+        "answer_slot_id": 26
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_027",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চিতোর জয়",
+        "question_bn": "আকবর কত সালে চিতোর জয় করেন?",
+        "expected_answer": "১৫৬৮",
+        "max_words": 1,
+        "answer_slot_id": 27
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_028",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "আহমেদনগরের প্রধানমন্ত্রী",
+        "question_bn": "আহমেদনগরের কোন প্রধানমন্ত্রী মুঘলদের বিরুদ্ধে প্রতিরোধ করেন?",
+        "expected_answer": "মালিক অম্বর",
+        "max_words": 2,
+        "answer_slot_id": 28
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_029",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "রাঠোর যুদ্ধ",
+        "question_bn": "রাঠোর যুদ্ধ কত সালে শুরু হয়?",
+        "expected_answer": "১৬৭৯",
+        "max_words": 1,
+        "answer_slot_id": 29
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_030",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "জিজিয়া কর",
+        "question_bn": "ওরঙ্গজেব কত সালে জিজিয়া কর পুনরায় চালু করেন?",
+        "expected_answer": "১৬৭৯",
+        "max_words": 1,
+        "answer_slot_id": 30
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_031",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মুঘল সুবা বিভাগ",
+        "question_bn": "মুঘল সুবাগুলি কীসে ভাগ ছিল?",
+        "expected_answer": "সরকার",
+        "max_words": 1,
+        "answer_slot_id": 31
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_032",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বদাউনির গ্রন্থ",
+        "question_bn": "আবদুল কাদির বদাউনির বিখ্যাত গ্রন্থের নাম কী?",
+        "expected_answer": "মুন্তখাব-উত-তওয়ারিখ",
+        "max_words": 1,
+        "answer_slot_id": 32
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_033",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চট্টগ্রাম বন্দর",
+        "question_bn": "ওরঙ্গজেব বাংলাকে পোর্তুগিজ জলদস্যুদের হাত থেকে রক্ষায় কোন বন্দর দখল করেন?",
+        "expected_answer": "চট্টগ্রাম",
+        "max_words": 1,
+        "answer_slot_id": 33
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_034",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বারো ভুইয়ার নেতা",
+        "question_bn": "বারো ভুইয়াদের মধ্যে কোন নেতার নাম উল্লেখযোগ্য?",
+        "expected_answer": "ইশা খান",
+        "max_words": 2,
+        "answer_slot_id": 34
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_035",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ওয়াতন",
+        "question_bn": "'ওয়াতন' শব্দের অর্থ কী?",
+        "expected_answer": "নিজের এলাকা",
+        "max_words": 2,
+        "answer_slot_id": 35
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_036",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "জাহাঙ্গিরের যুবরাজ নাম",
+        "question_bn": "জাহাঙ্গিরের যুবরাজকালীন নাম কী ছিল?",
+        "expected_answer": "সলিম",
+        "max_words": 1,
+        "answer_slot_id": 36
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_037",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মুঘল বংশের পূর্বপুরুষ",
+        "question_bn": "মোঙ্গল নেতা কে ছিলেন যার বংশধর মুঘলরা?",
+        "expected_answer": "চেঙ্গিস খান",
+        "max_words": 2,
+        "answer_slot_id": 37
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_038",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "আকবরের মৃত্যু সাল",
+        "question_bn": "আকবর কত সালে মারা যান?",
+        "expected_answer": "১৬০৫",
+        "max_words": 1,
+        "answer_slot_id": 38
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_039",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শাহজাহানের পুত্র",
+        "question_bn": "শাহজাহানের কোন পুত্র বাদশাহ হন?",
+        "expected_answer": "ওরঙ্গজেব",
+        "max_words": 1,
+        "answer_slot_id": 39
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_040",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চল্দিরানের যুদ্ধ",
+        "question_bn": "চল্দিরানের যুদ্ধ কত সালে হয়েছিল?",
+        "expected_answer": "১৫১৪",
+        "max_words": 1,
+        "answer_slot_id": 40
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_041",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "হুমায়ুনের পুনরাগমন",
+        "question_bn": "শের শাহের মৃত্যুর পর কার মৃত্যুর সুযোগে হুমায়ুন ফিরে আসেন?",
+        "expected_answer": "ইসলাম শাহ",
+        "max_words": 2,
+        "answer_slot_id": 41
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_042",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "অসিরগড় দুর্গ",
+        "question_bn": "খান্দেশের গুরুত্বপূর্ণ দুর্গের নাম কী?",
+        "expected_answer": "অসিরগড়",
+        "max_words": 1,
+        "answer_slot_id": 42
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_043",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "রানা প্রতাপের রাজধানী",
+        "question_bn": "রানা প্রতাপ চিতোর হারানোর পর কোথা থেকে যুদ্ধ করেছিলেন?",
+        "expected_answer": "কুম্ভলগড়",
+        "max_words": 1,
+        "answer_slot_id": 43
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_044",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ওরঙ্গজেবের শাসন শুরু",
+        "question_bn": "ওরঙ্গজেবের শাসনকাল কত সালে শুরু?",
+        "expected_answer": "১৬৫৮",
+        "max_words": 1,
+        "answer_slot_id": 44
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_045",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মারওয়াড়ের রাজধানী",
+        "question_bn": "মারওয়াড়ের রাজধানী কোথায়?",
+        "expected_answer": "যোধপুর",
+        "max_words": 1,
+        "answer_slot_id": 45
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_046",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল অভিজাতদের উচ্চ পদ",
+        "question_bn": "মনসবদারি ব্যবস্থায় সবচেয়ে উপরের পদ কাদের জন্য ছিল?",
+        "expected_answer": "রাজপরিবার",
+        "max_words": 1,
+        "answer_slot_id": 46
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_047",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল প্রশাসনের পূর্বসূরি",
+        "question_bn": "কোন শাসকের প্রশাসনিক ব্যবস্থা আকবর অনেকাংশে অনুসরণ করেছিলেন?",
+        "expected_answer": "শের শাহ",
+        "max_words": 2,
+        "answer_slot_id": 47
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_048",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মির্জা রাজা জয়সিংহ",
+        "question_bn": "অম্বরের মির্জা রাজা জয়সিংহ কোন সম্রাটের বিশ্বস্ত অভিজাত ছিলেন?",
+        "expected_answer": "ওরঙ্গজেব",
+        "max_words": 1,
+        "answer_slot_id": 48
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_049",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বাহমনি রাজ্য",
+        "question_bn": "বাহমনি রাজ্য ভাঙার পরে কোন অঞ্চলে সুলতানি রাজ্য উঠেছিল?",
+        "expected_answer": "দাক্ষিণাত্য",
+        "max_words": 1,
+        "answer_slot_id": 49
+      },
+      {
+        "id": "otit_o_oitijhyo_ch05_sw_050",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল শাসনের দুর্বলতা",
+        "question_bn": "হুমায়ুনের দুঃসময়ে তার কারা সাহায্য করেননি?",
+        "expected_answer": "ভাইয়েরা",
+        "max_words": 1,
+        "answer_slot_id": 50
+      }
+    ]
+  }
+}

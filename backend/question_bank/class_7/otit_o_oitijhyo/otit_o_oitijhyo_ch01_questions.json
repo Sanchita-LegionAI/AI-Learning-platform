@@ -1,0 +1,261 @@
+{
+  "book_id": "otit_o_oitijhyo",
+  "book_name": "Otit_O_Oitijhyo",
+  "book_name_bn": "অতীত ও ঐতিহ্য",
+  "subject": "history",
+  "class": 7,
+  "chapter_no": 1,
+  "chapter_title_bn": "ইতিহাসের ধারণা",
+  "source_file": "otit_o_oitijhyo_ch01_questions.json",
+  "questions": {
+
+    "mcq": [
+      {
+        "id": "otit_o_oitijhyo_ch01_mcq_001",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ইতিহাসের উপাদান",
+        "question_bn": "পাথর বা ধাতুর পাতে লেখা পুরোনো দিনের বিবরণকে কী বলে?",
+        "options": ["লিখিত উপাদান", "লেখ", "মুদ্রা", "স্থাপত্য", "তাম্রশাসন"],
+        "correct_answer": "লেখ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch01_mcq_002",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ইতিহাসের উপাদান",
+        "question_bn": "তামার পাতে লেখা বিবরণকে কী বলা হয়?",
+        "options": ["শিলালেখ", "তাম্রলেখ", "লিপি", "পুঁথি", "নথি"],
+        "correct_answer": "তাম্রলেখ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch01_mcq_003",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ইতিহাসের যুগবিভাগ",
+        "question_bn": "ঐতিহাসিকরা সাধারণত ইতিহাসকে কতটি যুগে ভাগ করেন?",
+        "options": ["দুটি", "তিনটি", "চারটি", "পাঁচটি", "ছয়টি"],
+        "correct_answer": "তিনটি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch01_mcq_004",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ভারতের নামকরণ",
+        "question_bn": "কোন গ্রিক ঐতিহাসিক 'ইন্ডিয়া' নামক রচনাটি লিখেছিলেন?",
+        "options": ["থুসিডিডিস", "হেরোডোটাস", "প্লুটার্ক", "স্ট্রাবো", "পলিবিউস"],
+        "correct_answer": "হেরোডোটাস"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch01_mcq_005",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ভারতের নামকরণ",
+        "question_bn": "কোন পর্তুগিজ প্রভাবে ভারতে আলু খাওয়ার প্রচলন শুরু হয়?",
+        "options": ["আরবদের হাত ধরে", "পোর্তুগিজদের হাত ধরে", "মুঘলদের হাত ধরে", "ব্রিটিশদের হাত ধরে", "ফরাসিদের হাত ধরে"],
+        "correct_answer": "পোর্তুগিজদের হাত ধরে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch01_mcq_006",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ইতিহাসের যুগবিভাগ",
+        "question_bn": "প্রাচীন যুগ ও মধ্যযুগের মধ্যবর্তী সময়কালকে ঐতিহাসিকরা কী বলেন?",
+        "options": ["উত্তর-প্রাচীন যুগ", "আদি-মধ্যযুগ", "পূর্ব-মধ্যযুগ", "প্রাক্-মধ্যযুগ", "অন্তিম প্রাচীন যুগ"],
+        "correct_answer": "আদি-মধ্যযুগ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch01_mcq_007",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ভারতের নামকরণ",
+        "question_bn": "ইরানি ভাষায় 'স' উচ্চারণ বদলে কী হয়েছিল?",
+        "options": ["শ", "ষ", "হ", "খ", "ক"],
+        "correct_answer": "হ"
+      }
+    ],
+
+    "true_false": [
+      {
+        "id": "otit_o_oitijhyo_ch01_tf_001",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ইতিহাস পাঠ",
+        "question_bn": "শুধু সাল-তারিখ ও নাম মুখস্থ থাকলেই ইতিহাস জানা হয়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch01_tf_002",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ইতিহাসের উপাদান",
+        "question_bn": "পুরোনো ঘর-বাড়ি, মন্দির-মসজিদ, মূর্তি ইতিহাসের উপাদান হিসেবে গণ্য হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch01_tf_003",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "ইতিহাসের যুগবিভাগ",
+        "question_bn": "হঠাৎ একদিন সকালে একটি ঐতিহাসিক যুগ শেষ হয়ে আরেকটি যুগ শুরু হয়।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch01_tf_004",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ভারতের নামকরণ",
+        "question_bn": "মুঘল যুগে 'পরদেশি' বলতে সবসময় ভারতের বাইরে থেকে আসা লোককে বোঝাতো।",
+        "correct_answer": "false"
+      }
+    ],
+
+    "match_pairs": [
+      {
+        "id": "otit_o_oitijhyo_ch01_match_001",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ইতিহাসের উপাদান",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          { "left": "তাম্রলেখ", "right": "তামার পাতে লেখা" },
+          { "left": "শিলালেখ", "right": "পাথরে লেখা" },
+          { "left": "লিখিত উপাদান", "right": "কাগজে লেখা" },
+          { "left": "মুদ্রা", "right": "ধাতব টাকা-পয়সা" }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch01_match_002",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ভারতের নামকরণ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          { "left": "হেরোডোটাস", "right": "গ্রিক ঐতিহাসিক" },
+          { "left": "হিদুষ", "right": "ইরানি নাম" },
+          { "left": "ইন্ডিয়া", "right": "গ্রিক বিবরণে নাম" },
+          { "left": "হিন্দুস্তান", "right": "আরবি-ফারসি নাম" }
+        ]
+      }
+    ],
+
+    "categorize": [
+      {
+        "id": "otit_o_oitijhyo_ch01_cat_001",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "ইতিহাসের উপাদান",
+        "question_bn": "নিচের বিষয়গুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "লিখিত উপাদান": ["পুঁথি", "তাম্রলেখ", "শিলালেখ", "কাগজের দলিল"],
+          "অলিখিত উপাদান": ["মন্দির", "মুদ্রা", "মূর্তি", "পুরোনো ঘর-বাড়ি"]
+        }
+      }
+    ],
+
+    "short_write": [
+      {
+        "id": "otit_o_oitijhyo_ch01_sw_001",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ইতিহাসের উপাদান",
+        "question_bn": "পাথরে খোদাই করা পুরোনো লেখাকে কী বলা হয়?",
+        "expected_answer": "শিলালেখ",
+        "max_words": 1,
+        "answer_slot_id": 1
+      },
+      {
+        "id": "otit_o_oitijhyo_ch01_sw_002",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ইতিহাসের যুগবিভাগ",
+        "question_bn": "ঐতিহাসিকরা লম্বা সময়কালকে ভাগ করতে কোন শব্দটি ব্যবহার করেন?",
+        "expected_answer": "যুগ",
+        "max_words": 1,
+        "answer_slot_id": 2
+      },
+      {
+        "id": "otit_o_oitijhyo_ch01_sw_003",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ইতিহাসের যুগবিভাগ",
+        "question_bn": "প্রাচীন ও মধ্যযুগের সন্ধিকালকে কী বলা হয়?",
+        "expected_answer": "আদি-মধ্যযুগ",
+        "max_words": 2,
+        "answer_slot_id": 3
+      },
+      {
+        "id": "otit_o_oitijhyo_ch01_sw_004",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ভারতের নামকরণ",
+        "question_bn": "'ইন্ডিয়া' নাম কোন ভাষায় প্রথম পাওয়া যায়?",
+        "expected_answer": "গ্রিক ভাষায়",
+        "max_words": 2,
+        "answer_slot_id": 4
+      },
+      {
+        "id": "otit_o_oitijhyo_ch01_sw_005",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মধ্যযুগের ইতিহাস",
+        "question_bn": "কাদের হাত ধরে ভারতে আলু খাওয়ার চল শুরু হয়?",
+        "expected_answer": "পোর্তুগিজ",
+        "max_words": 1,
+        "answer_slot_id": 5
+      },
+      {
+        "id": "otit_o_oitijhyo_ch01_sw_006",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ভারতের নামকরণ",
+        "question_bn": "সিন্ধু নদীর কাছের অঞ্চল পারসিক সাম্রাজ্যে কোন নামে পরিচিত হয়েছিল?",
+        "expected_answer": "হিদুষ",
+        "max_words": 1,
+        "answer_slot_id": 6
+      }
+    ]
+
+  }
+}

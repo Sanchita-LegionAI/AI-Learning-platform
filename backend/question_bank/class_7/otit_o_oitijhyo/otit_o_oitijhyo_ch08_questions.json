@@ -1,0 +1,1781 @@
+{
+  "book_id": "otit_o_oitijhyo",
+  "book_name": "Otit_O_Oitijhyo",
+  "book_name_bn": "অতীত ও ঐতিহ্য",
+  "subject": "history",
+  "class": 7,
+  "chapter_no": 8,
+  "chapter_title_bn": "মুঘল সাম্রাজ্যের সংকট",
+  "source_file": "otit_o_oitijhyo_ch08_questions.json",
+  "questions": {
+
+    "mcq": [
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_001",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মারাঠাদের বাসস্থান",
+        "question_bn": "যুদ্ধপটু মারাঠারা কোথায় বাস করত?",
+        "options": ["দিল্লি ও আগ্রা", "পুণে ও কোঙ্কণ অঞ্চলে", "বিজাপুর ও গোলকোন্ডা", "দাক্ষিণাত্য ও রাজস্থান", "কাশ্মীর ও পাঞ্জাব"],
+        "correct_answer": "পুণে ও কোঙ্কণ অঞ্চলে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_002",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শিবাজির জীবনকাল",
+        "question_bn": "শিবাজির জীবনকাল কত খ্রিস্টাব্দ ছিল?",
+        "options": ["১৬০০-৫০ খ্রিঃ", "১৬৩০-৮০ খ্রিঃ", "১৬৫০-৯০ খ্রিঃ", "১৬২০-৭০ খ্রিঃ", "১৬৪০-৯০ খ্রিঃ"],
+        "correct_answer": "১৬৩০-৮০ খ্রিঃ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_003",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শিবাজির পিতা",
+        "question_bn": "শিবাজির বাবার নাম কী ছিল?",
+        "options": ["দাদাজি কোণ্ডদেব", "আফজল খান", "শাহজি ভৌসলে", "মির্জা রাজা জয়সিংহ", "বাজীরাও"],
+        "correct_answer": "শাহজি ভৌসলে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_004",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শিবাজির অস্ত্র",
+        "question_bn": "শিবাজি আফজল খানকে হত্যা করতে কোন অস্ত্র ব্যবহার করেন?",
+        "options": ["তলোয়ার", "বর্শা", "বাঘনখ", "ধনুক", "কুঠার"],
+        "correct_answer": "বাঘনখ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_005",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পুরন্ধরের সন্ধি",
+        "question_bn": "পুরন্ধরের সন্ধি কত খ্রিস্টাব্দে স্বাক্ষরিত হয়?",
+        "options": ["১৬৬০ খ্রিঃ", "১৬৬৫ খ্রিঃ", "১৬৭০ খ্রিঃ", "১৬৭৪ খ্রিঃ", "১৬৫৫ খ্রিঃ"],
+        "correct_answer": "১৬৬৫ খ্রিঃ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_006",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পুরন্ধরের সন্ধি",
+        "question_bn": "পুরন্ধরের সন্ধিতে শিবাজি মুঘলদের কতটি দুর্গ ছেড়ে দেন?",
+        "options": ["১৫টি", "২০টি", "২৩টি", "২৫টি", "১০টি"],
+        "correct_answer": "২৩টি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_007",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শিবাজির অভিষেক",
+        "question_bn": "শিবাজির অভিষেক কোথায় হয়েছিল?",
+        "options": ["পুণেতে", "আগ্রায়", "রায়গড়ে", "কোঙ্কণে", "দিল্লিতে"],
+        "correct_answer": "রায়গড়ে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_008",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মারাঠা মন্ত্রিপরিষদ",
+        "question_bn": "শিবাজির আটজন মন্ত্রীকে কী বলা হতো?",
+        "options": ["নবরত্ন", "পঞ্চপ্রধান", "অষ্টপ্রধান", "সপ্তমন্ত্রী", "দশপ্রধান"],
+        "correct_answer": "অষ্টপ্রধান"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_009",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মারাঠা রাজ্যের নাম",
+        "question_bn": "মারাঠারা তাদের নিজস্ব রাজ্যকে কী নামে ডাকত?",
+        "options": ["মারাঠাভূমি", "স্বরাজ্য", "দাক্ষিণাত্য", "মহারাষ্ট্র", "পেশওয়াই"],
+        "correct_answer": "স্বরাজ্য"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_010",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পেশওয়া",
+        "question_bn": "শিবাজির অষ্টপ্রধানদের মধ্যে প্রধান কে ছিলেন?",
+        "options": ["সেনাপতি", "পেশওয়া", "রাজস্বমন্ত্রী", "দিওয়ান", "ন্যায়াধীশ"],
+        "correct_answer": "পেশওয়া"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_011",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বর্গি",
+        "question_bn": "মারাঠারা মুঘল এলাকা থেকে যে কর আদায় করত তাকে কী বলা হতো?",
+        "options": ["জিজিয়া", "বর্গি", "খাজনা", "খালিসা", "তালুক"],
+        "correct_answer": "বর্গি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_012",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "শিবাজির সেনাবাহিনী",
+        "question_bn": "শিবাজির পদাতিক সেনারা কোথা থেকে এসেছিল?",
+        "options": ["রাজপুতানা", "মাওয়াল অঞ্চল", "কাশ্মীর", "বিজাপুর", "দিল্লি"],
+        "correct_answer": "মাওয়াল অঞ্চল"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_013",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "শিবাজির মা",
+        "question_bn": "শিবাজির মায়ের নাম কী ছিল?",
+        "options": ["রাণী পদ্মাবতী", "জিজাবাঈ", "মীরাবাঈ", "তারাবাঈ", "সোয়ারাবাঈ"],
+        "correct_answer": "জিজাবাঈ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_014",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "শিবাজির শিক্ষক",
+        "question_bn": "শিবাজির শিক্ষকের নাম কী ছিল?",
+        "options": ["রামদাস", "দাদাজি কোণ্ডদেব", "হরগোবিন্দ", "তেগবাহাদুর", "বাজীরাও"],
+        "correct_answer": "দাদাজি কোণ্ডদেব"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_015",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "শিবাজির পালানো",
+        "question_bn": "শিবাজি আগ্রা দুর্গ থেকে কীভাবে পালিয়েছিলেন?",
+        "options": ["দড়ি বেয়ে", "সুড়ঙ্গ দিয়ে", "ফলের ঝুড়িতে লুকিয়ে", "ছদ্মবেশে", "রাতের অন্ধকারে"],
+        "correct_answer": "ফলের ঝুড়িতে লুকিয়ে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_016",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "শিখদের গুরু",
+        "question_bn": "শিখদের চতুর্থ গুরু কে ছিলেন?",
+        "options": ["অর্জনদেব", "রামদাস", "হরগোবিন্দ", "তেগবাহাদুর", "গোবিন্দ সিংহ"],
+        "correct_answer": "রামদাস"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_017",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গুরু অর্জনদেব",
+        "question_bn": "শিখদের গুরু অর্জনদেব কার ছেলে ছিলেন?",
+        "options": ["গুরু নানকের", "গুরু রামদাসের", "গুরু হরগোবিন্দের", "গুরু তেগবাহাদুরের", "গুরু গোবিন্দ সিংহের"],
+        "correct_answer": "গুরু রামদাসের"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_018",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গুরু হরগোবিন্দ",
+        "question_bn": "গুরু হরগোবিন্দ একসঙ্গে কতটি তলোয়ার নিতেন?",
+        "options": ["একটি", "দুটি", "তিনটি", "চারটি", "পাঁচটি"],
+        "correct_answer": "দুটি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_019",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "নবম শিখ গুরু",
+        "question_bn": "নবম শিখ গুরু কে ছিলেন?",
+        "options": ["অর্জনদেব", "হরগোবিন্দ", "রামদাস", "তেগবাহাদুর", "গোবিন্দ সিংহ"],
+        "correct_answer": "তেগবাহাদুর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_020",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "খালসা",
+        "question_bn": "গুরু গোবিন্দ সিংহ খালসা সংগঠন তৈরি করেন কোন উদ্দেশ্যে?",
+        "options": ["ব্যবসার উদ্দেশ্যে", "কৃষি উন্নয়নের জন্য", "শিখদের সংগঠিত করতে", "মুঘলদের সাথে সন্ধির জন্য", "ধর্মীয় উৎসব পালনে"],
+        "correct_answer": "শিখদের সংগঠিত করতে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_021",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পাঁচ ক",
+        "question_bn": "গুরু গোবিন্দ সিংহ শিখদের যে পাঁচটি জিনিস কাছে রাখতে বলেছিলেন, সেগুলির নাম কোন অক্ষর দিয়ে শুরু?",
+        "options": ["খ", "গ", "ক", "চ", "প"],
+        "correct_answer": "ক"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_022",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "জাঠ বিদ্রোহ",
+        "question_bn": "জাঠরা প্রধানত কোন অঞ্চলে বাস করত?",
+        "options": ["পাঞ্জাব ও কাশ্মীর", "দিল্লি-আগ্রা অঞ্চলে", "দাক্ষিণাত্যে", "বাংলায়", "রাজস্থানে"],
+        "correct_answer": "দিল্লি-আগ্রা অঞ্চলে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_023",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সৎনামি বিদ্রোহ",
+        "question_bn": "সৎনামি বিদ্রোহ কোথায় সংঘটিত হয়েছিল?",
+        "options": ["পাঞ্জাবে", "মথুরার কাছে নারনৌল অঞ্চলে", "বাংলায়", "কোঙ্কণে", "আগ্রায়"],
+        "correct_answer": "মথুরার কাছে নারনৌল অঞ্চলে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_024",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মনসবদারি সংকট",
+        "question_bn": "মনসবদারেরা বেতন না পেলে কী সমস্যা হতো?",
+        "options": ["তারা দেশ ছেড়ে যেত", "তারা বিদ্রোহ করত", "ঘোড়সওয়ারদের দেখাশোনা করা সম্ভব হতো না", "তারা রাজস্ব আদায় করত না", "তারা মারাঠাদের সঙ্গে হাত মেলাত"],
+        "correct_answer": "ঘোড়সওয়ারদের দেখাশোনা করা সম্ভব হতো না"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_025",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "খাস জমি",
+        "question_bn": "ঔরঙ্গজেব দাক্ষিণাত্যের সেরা জমিগুলি কী নামে রেখেছিলেন?",
+        "options": ["জায়গির", "জমিদারি", "খালিসা বা খাস জমি", "মনসব", "তালুক"],
+        "correct_answer": "খালিসা বা খাস জমি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_026",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "প্রথম বাজীরাও",
+        "question_bn": "প্রথম বাজীরাও কোন পরিকল্পনা করেছিলেন?",
+        "options": ["মুঘলদের সঙ্গে সন্ধি করার", "হিন্দু রাজাদের একত্রিত করে হিন্দু রাজ গড়ার", "দাক্ষিণাত্য জয় করার", "পেশওয়াতন্ত্র বিলোপের", "শিখদের সঙ্গে জোট গড়ার"],
+        "correct_answer": "হিন্দু রাজাদের একত্রিত করে হিন্দু রাজ গড়ার"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_027",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল সংকটের কারণ",
+        "question_bn": "মুঘল সাম্রাজ্যে সংকটের একটি প্রধান কারণ কী ছিল?",
+        "options": ["বৈদেশিক আক্রমণ", "প্রাকৃতিক দুর্যোগ", "মনসব নিয়ে অভিজাতদের মধ্যে প্রতিযোগিতা", "ব্যবসায়িক মন্দা", "ইউরোপীয় শক্তির আগমন"],
+        "correct_answer": "মনসব নিয়ে অভিজাতদের মধ্যে প্রতিযোগিতা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_028",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "কৃষি সংকট",
+        "question_bn": "মুঘল আমলে কৃষি সংকটের একটি কারণ কী ছিল?",
+        "options": ["বৃষ্টিপাতের অভাব", "ফসলের উৎপাদন হ্রাস", "কৃষির উপর নির্ভরশীল মানুষ বৃদ্ধি পাওয়া", "জমির অভাব", "প্রযুক্তির অনুপস্থিতি"],
+        "correct_answer": "কৃষির উপর নির্ভরশীল মানুষ বৃদ্ধি পাওয়া"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_029",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল শক্তির বিতর্ক",
+        "question_bn": "একজন ঐতিহাসিক মুঘল শাসনকে কিসের সঙ্গে তুলনা করেছেন?",
+        "options": ["নিশ্ছিদ্র গালিচার সঙ্গে", "মজবুত দেয়ালের সঙ্গে", "জোড়াতালি দেওয়া কম্বলের সঙ্গে", "বিশাল নদীর সঙ্গে", "মহাসমুদ্রের সঙ্গে"],
+        "correct_answer": "জোড়াতালি দেওয়া কম্বলের সঙ্গে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_030",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "সংঘাতের চরিত্র",
+        "question_bn": "মুঘলদের বিরুদ্ধে আঞ্চলিক প্রতিরোধ আন্দোলনগুলিকে কী বলা ঠিক নয়?",
+        "options": ["রাজনৈতিক প্রতিরোধ", "সামরিক আন্দোলন", "ধর্মীয় প্রতিরোধ", "কৃষক বিদ্রোহ", "আঞ্চলিক আন্দোলন"],
+        "correct_answer": "ধর্মীয় প্রতিরোধ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_031",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শিবাজির অভিষেকের বছর",
+        "question_bn": "শিবাজির অভিষেক কত খ্রিস্টাব্দে হয়েছিল?",
+        "options": ["১৬৬৫ খ্রিঃ", "১৬৭০ খ্রিঃ", "১৬৭৪ খ্রিঃ", "১৬৮০ খ্রিঃ", "১৬৬০ খ্রিঃ"],
+        "correct_answer": "১৬৭৪ খ্রিঃ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_032",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "তেগবাহাদুরের পরিণতি",
+        "question_bn": "নবম শিখ গুরু তেগবাহাদুরকে মুঘলরা কী করেছিল?",
+        "options": ["বন্দী করে রেখেছিল", "দেশ ছাড়তে বাধ্য করেছিল", "বন্দী করে হত্যা করেছিল", "ক্ষমা করে দিয়েছিল", "পুরস্কার দিয়েছিল"],
+        "correct_answer": "বন্দী করে হত্যা করেছিল"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_033",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "দশম শিখ গুরু",
+        "question_bn": "দশম শিখ গুরু কে ছিলেন?",
+        "options": ["তেগবাহাদুর", "অর্জনদেব", "হরগোবিন্দ", "গোবিন্দ সিংহ", "রামদাস"],
+        "correct_answer": "গোবিন্দ সিংহ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_034",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সুরাট আক্রমণ",
+        "question_bn": "শিবাজি কতবার সুরাট আক্রমণ করেছিলেন?",
+        "options": ["একবার", "দু-বার", "তিনবার", "চারবার", "পাঁচবার"],
+        "correct_answer": "দু-বার"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_035",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "শিবাজির বিরুদ্ধে মুঘল সেনাপতি",
+        "question_bn": "পুরন্ধরের সন্ধির জন্য ঔরঙ্গজেব কাকে পাঠিয়েছিলেন?",
+        "options": ["শায়েস্তা খান", "আফজল খান", "মির্জা রাজা জয়সিংহ", "মুয়াজ্জম", "আওরঙ্গজেব নিজে"],
+        "correct_answer": "মির্জা রাজা জয়সিংহ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_036",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "শিখ পাঁচ ক",
+        "question_bn": "শিখদের পাঁচ ক-এর মধ্যে কঙ্ঘা কী?",
+        "options": ["তলোয়ার", "চিরুনি", "লোহার বালা", "পাজামা", "কেশ"],
+        "correct_answer": "চিরুনি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_037",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মারাঠা চেতনা",
+        "question_bn": "শিবাজির নেতৃত্বে মারাঠাদের কী জেগে উঠেছিল?",
+        "options": ["আঞ্চলিক স্বায়ত্তশাসন", "ধর্মীয় চেতনা", "জাতীয় চেতনা", "অর্থনৈতিক উন্নতি", "সামরিক শক্তি"],
+        "correct_answer": "জাতীয় চেতনা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_038",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মূল্যবৃদ্ধির প্রভাব",
+        "question_bn": "সপ্তদশ শতকে জিনিসপত্রের দাম বাড়লে অভিজাতরা কী করলেন?",
+        "options": ["মুঘলের সঙ্গে সন্ধি করলেন", "ব্যবসায় মনোযোগ দিলেন", "জমি থেকে আয় বাড়াতে জমিদার ও কৃষকদের উপর চাপ বাড়ালেন", "নতুন জমি দখল করলেন", "বিদেশে চলে গেলেন"],
+        "correct_answer": "জমি থেকে আয় বাড়াতে জমিদার ও কৃষকদের উপর চাপ বাড়ালেন"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_039",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "জায়গিরদারি সংকট",
+        "question_bn": "জায়গিরদারি সংকটের একটি প্রত্যক্ষ কারণ কী ছিল?",
+        "options": ["বিদেশি আক্রমণ", "কৃষকদের গ্রাম ছেড়ে পালানো ও জমি পতিত থাকা", "প্রাকৃতিক দুর্যোগ", "বাণিজ্য বন্ধ হয়ে যাওয়া", "মুঘল সম্রাটের মৃত্যু"],
+        "correct_answer": "কৃষকদের গ্রাম ছেড়ে পালানো ও জমি পতিত থাকা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_040",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "দাক্ষিণাত্যে মুঘল নিয়ন্ত্রণ",
+        "question_bn": "দাক্ষিণাত্যে যুদ্ধের সময় মুঘল মনসবদাররা রাজস্ব আদায়ে কার সাহায্য নিয়েছিলেন?",
+        "options": ["জাঠ জমিদারদের", "মারাঠা সর্দারদের", "রাজপুত রাজাদের", "শিখ গুরুদের", "গোলকোন্ডার সুলতানের"],
+        "correct_answer": "মারাঠা সর্দারদের"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_041",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শিবাজির বাবার পদ",
+        "question_bn": "শিবাজির বাবা শাহজি ভৌসলে কোথাকার জায়গিরদার ছিলেন?",
+        "options": ["মুঘল সম্রাটের", "গোলকোন্ডার সুলতানের", "বিজাপুরের সুলতানের", "মারাঠা রাজার", "পেশওয়ার"],
+        "correct_answer": "বিজাপুরের সুলতানের"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_042",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আফজল খানের পরিণতি",
+        "question_bn": "আফজল খানকে কে হত্যা করেছিলেন?",
+        "options": ["ঔরঙ্গজেব", "জয়সিংহ", "শিবাজি", "শায়েস্তা খান", "বাজীরাও"],
+        "correct_answer": "শিবাজি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_043",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মারাঠাদের পূর্বের পদ",
+        "question_bn": "মারাঠারা আগে কোথাকার রাজদরবারে উচ্চপদে ছিল?",
+        "options": ["মুঘল দরবারে", "বিজাপুর ও গোলকোন্ডার দরবারে", "রাজপুত রাজার দরবারে", "দিল্লির সুলতানের দরবারে", "বাংলার নবাবের দরবারে"],
+        "correct_answer": "বিজাপুর ও গোলকোন্ডার দরবারে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_044",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বংশানুক্রমিক গুরু",
+        "question_bn": "শিখদের মধ্যে বংশানুক্রমিক গুরু নির্বাচন কোন সময় থেকে শুরু হয়?",
+        "options": ["গুরু নানকের সময় থেকে", "গুরু রামদাসের সময় থেকে", "গুরু অর্জনের সময় থেকে", "গুরু হরগোবিন্দের সময় থেকে", "গুরু তেগবাহাদুরের সময় থেকে"],
+        "correct_answer": "গুরু অর্জনের সময় থেকে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_045",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "জাঠ বিদ্রোহের কারণ",
+        "question_bn": "জাঠরা কোন সমস্যা নিয়ে মুঘলদের সঙ্গে সংঘাতে জড়াত?",
+        "options": ["ধর্মীয় বিষয়", "রাজস্ব দেওয়া নিয়ে", "সীমান্ত বিবাদ", "বাণিজ্য বিরোধ", "জলের অধিকার"],
+        "correct_answer": "রাজস্ব দেওয়া নিয়ে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_046",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "শিখদের সরে যাওয়া",
+        "question_bn": "তেগবাহাদুর হত্যার পর শিখরা কোথায় চলে যায়?",
+        "options": ["দাক্ষিণাত্যে", "পাঞ্জাবের পাহাড়ি এলাকায়", "রাজস্থানে", "বাংলায়", "মথুরায়"],
+        "correct_answer": "পাঞ্জাবের পাহাড়ি এলাকায়"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_047",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল-শিখ সংঘাতের চরিত্র",
+        "question_bn": "গোবিন্দ সিংহের সময়ে মুঘল-শিখ সংঘাতের চরিত্র মূলত কী ছিল?",
+        "options": ["ধর্মীয়", "রাজনৈতিক", "অর্থনৈতিক", "সামাজিক", "সাংস্কৃতিক"],
+        "correct_answer": "রাজনৈতিক"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_048",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "খালিসা জমির রাজস্ব",
+        "question_bn": "খাস জমি বা খালিসার রাজস্ব কোথায় জমা হতো?",
+        "options": ["মনসবদারদের কাছে", "জায়গিরদারদের কাছে", "কেন্দ্রীয় কোষাগারে", "স্থানীয় জমিদারদের কাছে", "মারাঠা সর্দারদের কাছে"],
+        "correct_answer": "কেন্দ্রীয় কোষাগারে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_049",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "শিখ ধর্মের বার্তা",
+        "question_bn": "শিখ ধর্মীয় আন্দোলন মানুষের মধ্যে কোন বিষয়টির কথা বলত?",
+        "options": ["যুদ্ধের গুরুত্ব", "ব্যবসার মূল্য", "সমতার কথা", "রাজতন্ত্রের প্রয়োজনীয়তা", "বর্ণব্যবস্থার রক্ষা"],
+        "correct_answer": "সমতার কথা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_mcq_050",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল সাম্রাজ্যের শক্তি নিয়ে বিতর্ক",
+        "question_bn": "মুঘল সাম্রাজ্য কতটা শক্তিশালী ছিল তা নিয়ে কাদের মধ্যে বিতর্ক আছে?",
+        "options": ["রাজনীতিবিদদের", "ঐতিহাসিকদের", "দার্শনিকদের", "সামরিক বিশেষজ্ঞদের", "অর্থনীতিবিদদের"],
+        "correct_answer": "ঐতিহাসিকদের"
+      }
+    ],
+
+    "match_pairs": [
+      {
+        "id": "otit_o_oitijhyo_ch08_match_001",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ঐতিহাসিক ব্যক্তিত্ব ও পরিচয়",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          { "left": "শিবাজি", "right": "মারাঠা নেতা" },
+          { "left": "তেগবাহাদুর", "right": "নবম শিখ গুরু" },
+          { "left": "গোবিন্দ সিংহ", "right": "দশম শিখ গুরু" },
+          { "left": "প্রথম বাজীরাও", "right": "পেশওয়া" }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_match_002",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সন্ধি ও ঘটনার বিবরণ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          { "left": "পুরন্ধরের সন্ধি", "right": "১৬৬৫ খ্রিঃ" },
+          { "left": "শিবাজির অভিষেক", "right": "রায়গড়ে" },
+          { "left": "শিবাজির জন্ম", "right": "১৬৩০ খ্রিঃ" },
+          { "left": "বর্গি", "right": "মুঘল এলাকা থেকে কর" }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_match_003",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পাঁচ ক ও তাদের অর্থ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          { "left": "কেশ", "right": "না কাটা চুল" },
+          { "left": "কঙ্ঘা", "right": "চিরুনি" },
+          { "left": "কৃপাণ", "right": "তলোয়ার" },
+          { "left": "কড়া", "right": "লোহার বালা" }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_match_004",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বিদ্রোহ ও অঞ্চল",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          { "left": "মারাঠা বিদ্রোহ", "right": "পুণে ও কোঙ্কণ" },
+          { "left": "শিখ আন্দোলন", "right": "পাঞ্জাব" },
+          { "left": "জাঠ বিদ্রোহ", "right": "দিল্লি-আগ্রা অঞ্চল" },
+          { "left": "সৎনামি বিদ্রোহ", "right": "নারনৌল" }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_match_005",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শিবাজির পরিবার ও সহচর",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          { "left": "শাহজি ভৌসলে", "right": "শিবাজির বাবা" },
+          { "left": "জিজাবাঈ", "right": "শিবাজির মা" },
+          { "left": "দাদাজি কোণ্ডদেব", "right": "শিবাজির শিক্ষক" },
+          { "left": "আফজল খান", "right": "বিজাপুরের সেনাপতি" }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_match_006",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল সেনাপতি ও কাজ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          { "left": "জয়সিংহ", "right": "পুরন্ধরের সন্ধি করান" },
+          { "left": "শায়েস্তা খান", "right": "শিবাজির হাতে আঘাতপ্রাপ্ত" },
+          { "left": "মুয়াজ্জম", "right": "শিবাজিকে দমনে পাঠানো হয়" },
+          { "left": "আফজল খান", "right": "শিবাজিকে হত্যার চেষ্টা করেন" }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_match_007",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "শিখ গুরু ও বৈশিষ্ট্য",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          { "left": "গুরু রামদাস", "right": "চতুর্থ শিখ গুরু" },
+          { "left": "গুরু অর্জনদেব", "right": "বংশানুক্রমিক গুরু ব্যবস্থা শুরু" },
+          { "left": "গুরু হরগোবিন্দ", "right": "দুটি তলোয়ার রাখতেন" },
+          { "left": "গুরু গোবিন্দ সিংহ", "right": "খালসা প্রতিষ্ঠা করেন" }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_match_008",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মারাঠা শাসনব্যবস্থা",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          { "left": "অষ্টপ্রধান", "right": "আটজন মন্ত্রী" },
+          { "left": "পেশওয়া", "right": "প্রধান মন্ত্রী" },
+          { "left": "স্বরাজ্য", "right": "মারাঠা নিজস্ব রাজ্য" },
+          { "left": "মাওলে", "right": "মারাঠা পদাতিক সেনা" }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_match_009",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "অর্থনৈতিক ব্যবস্থা",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          { "left": "জায়গির", "right": "মনসবদারদের দেওয়া জমি" },
+          { "left": "খালিসা", "right": "সরাসরি রাজার অধীন জমি" },
+          { "left": "মনসব", "right": "সামরিক পদমর্যাদা" },
+          { "left": "রাজস্ব", "right": "জমি থেকে আদায় করা কর" }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_match_010",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "প্রতিরোধের চরিত্র",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          { "left": "মারাঠা প্রতিরোধ", "right": "স্বরাজ্য গঠনের স্বপ্ন" },
+          { "left": "জাঠ বিদ্রোহ", "right": "কৃষক বিদ্রোহ ও গোষ্ঠীপরিচয়" },
+          { "left": "সৎনামি বিদ্রোহ", "right": "ধর্মীয় গোষ্ঠীর বিদ্রোহ" },
+          { "left": "শিখ আন্দোলন", "right": "সমতার বার্তা" }
+        ]
+      }
+    ],
+
+    "true_false": [
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_001",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "মারাঠাদের বাসস্থান",
+        "question_bn": "মারাঠারা পুণে ও কোঙ্কণ অঞ্চলে বাস করত।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_002",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শিবাজির বাবা",
+        "question_bn": "শিবাজির বাবা শাহজি ভৌসলে মুঘল সম্রাটের জায়গিরদার ছিলেন।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_003",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পুরন্ধরের সন্ধি",
+        "question_bn": "পুরন্ধরের সন্ধিতে শিবাজি মুঘলদের ২৩টি দুর্গ ছেড়ে দিতে বাধ্য হন।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_004",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শিবাজির অভিষেক",
+        "question_bn": "শিবাজির অভিষেক দিল্লিতে হয়েছিল।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_005",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "অষ্টপ্রধান",
+        "question_bn": "শিবাজির আটজন মন্ত্রীকে অষ্টপ্রধান বলা হতো।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_006",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বাঘনখ",
+        "question_bn": "শিবাজি তলোয়ার দিয়ে আফজল খানকে হত্যা করেছিলেন।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_007",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "শিবাজির পালানো",
+        "question_bn": "শিবাজি আগ্রা দুর্গ থেকে ফলের ঝুড়িতে লুকিয়ে পালিয়েছিলেন।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_008",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "স্বরাজ্য",
+        "question_bn": "মারাঠারা তাদের নিজস্ব রাজ্যকে স্বরাজ্য বলত।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_009",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "শিখ গুরু নির্বাচন",
+        "question_bn": "শিখদের মধ্যে গুরু নির্বাচন সবসময় গণতান্ত্রিক পদ্ধতিতে হতো।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_010",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "গুরু হরগোবিন্দ",
+        "question_bn": "গুরু হরগোবিন্দ দুটি তলোয়ার রাখতেন যা ধর্মীয় ও রাজনৈতিক ক্ষমতার প্রতীক ছিল।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_011",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "তেগবাহাদুরের মৃত্যু",
+        "question_bn": "নবম শিখ গুরু তেগবাহাদুর যুদ্ধে মারা গিয়েছিলেন।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_012",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "খালসা",
+        "question_bn": "গুরু গোবিন্দ সিংহ খালসা নামক একটি সংগঠন তৈরি করেছিলেন।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_013",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পাঁচ ক",
+        "question_bn": "শিখদের পাঁচ ক-এর সবকটি জিনিসের নাম 'ক' অক্ষর দিয়ে শুরু।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_014",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "জাঠ পরিচয়",
+        "question_bn": "জাঠরা প্রধানত ব্যবসায়ী সম্প্রদায় ছিল।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_015",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সৎনামি",
+        "question_bn": "সৎনামিরা একটি ধর্মীয় গোষ্ঠীর মানুষ ছিল।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_016",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "মনসবদারি সংকট",
+        "question_bn": "মনসবদারদের বেতন না পেলেও তাদের সামরিক দায়িত্বে কোনো প্রভাব পড়ত না।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_017",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "প্রতিরোধের ধর্মীয় চরিত্র",
+        "question_bn": "মুঘলদের বিরুদ্ধে আঞ্চলিক বিদ্রোহগুলিকে ধর্মীয় প্রতিরোধ বলা ঠিক নয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_018",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "খালিসা জমি",
+        "question_bn": "ঔরঙ্গজেব দাক্ষিণাত্যের সেরা জমিগুলি জায়গির হিসেবে বিলিয়ে দিয়েছিলেন।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_019",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "কৃষি সংকট",
+        "question_bn": "মুঘল যুগের শেষ দিকে ফসলের উৎপাদন বৃদ্ধি পেলেও কৃষি সংকট দেখা দিয়েছিল।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_tf_020",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল সাম্রাজ্যের শক্তি",
+        "question_bn": "সব ঐতিহাসিকই মনে করেন মুঘলরা দারুণ শক্তিশালী ছিল।",
+        "correct_answer": "false"
+      }
+    ],
+
+    "tap_sequence": [
+      {
+        "id": "otit_o_oitijhyo_ch08_seq_001",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শিবাজির জীবনের ঘটনাক্রম",
+        "question_bn": "শিবাজির জীবনের ঘটনাগুলি সঠিক কালানুক্রমে সাজাও",
+        "items": ["রায়গড়ে অভিষেক", "আগ্রায় বন্দী", "পুরন্ধরের সন্ধি", "আফজল খান হত্যা"],
+        "correct_order": ["আফজল খান হত্যা", "পুরন্ধরের সন্ধি", "আগ্রায় বন্দী", "রায়গড়ে অভিষেক"]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_seq_002",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শিখ গুরুদের ক্রম",
+        "question_bn": "শিখ গুরুদের সঠিক ক্রমে সাজাও (প্রথম থেকে শেষ)",
+        "items": ["গুরু তেগবাহাদুর", "গুরু অর্জনদেব", "গুরু রামদাস", "গুরু গোবিন্দ সিংহ"],
+        "correct_order": ["গুরু রামদাস", "গুরু অর্জনদেব", "গুরু তেগবাহাদুর", "গুরু গোবিন্দ সিংহ"]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_seq_003",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মুঘল-মারাঠা সংঘাতের ক্রম",
+        "question_bn": "মুঘল-মারাঠা সংঘর্ষের ঘটনাগুলি সঠিক ক্রমে সাজাও",
+        "items": ["শিবাজির মৃত্যু", "পুরন্ধরের সন্ধি", "আগ্রায় বন্দিত্ব", "সুরাট আক্রমণ"],
+        "correct_order": ["সুরাট আক্রমণ", "পুরন্ধরের সন্ধি", "আগ্রায় বন্দিত্ব", "শিবাজির মৃত্যু"]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_seq_004",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "জায়গিরদারি সংকটের কারণ-পরিণতি শৃঙ্খল",
+        "question_bn": "জায়গিরদারি সংকটের কারণ ও ফলাফলের ক্রম সাজাও",
+        "items": ["রাজস্ব আদায় সম্ভব নয়", "কৃষকরা গ্রাম ছেড়ে পালায়", "মনসবদাররা বেতন পায় না", "জমি পতিত থাকে"],
+        "correct_order": ["মনসবদাররা বেতন পায় না", "কৃষকরা গ্রাম ছেড়ে পালায়", "জমি পতিত থাকে", "রাজস্ব আদায় সম্ভব নয়"]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_seq_005",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল আমলের কৃষি সংকটের ধাপ",
+        "question_bn": "মুঘল আমলের কৃষি সংকটের ঘটনাপ্রবাহ সঠিক ক্রমে সাজাও",
+        "items": ["কৃষকদের উপর চাপ বৃদ্ধি", "জিনিসপত্রের মূল্যবৃদ্ধি", "কৃষক বিদ্রোহ", "অভিজাতরা আয় বাড়াতে চান"],
+        "correct_order": ["জিনিসপত্রের মূল্যবৃদ্ধি", "অভিজাতরা আয় বাড়াতে চান", "কৃষকদের উপর চাপ বৃদ্ধি", "কৃষক বিদ্রোহ"]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_seq_006",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "শিখ আন্দোলনের ক্রম",
+        "question_bn": "শিখ আন্দোলনের ঘটনাগুলি সঠিক ক্রমে সাজাও",
+        "items": ["খালসা প্রতিষ্ঠা", "গুরু অর্জনদেব গুরু হন", "তেগবাহাদুর হত্যা", "পাহাড়ে আশ্রয়"],
+        "correct_order": ["গুরু অর্জনদেব গুরু হন", "তেগবাহাদুর হত্যা", "পাহাড়ে আশ্রয়", "খালসা প্রতিষ্ঠা"]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_seq_007",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শিবাজির উত্থানের ধাপ",
+        "question_bn": "শিবাজির ক্ষমতা বৃদ্ধির ধাপগুলি সঠিক ক্রমে সাজাও",
+        "items": ["অষ্টপ্রধান নিয়োগ", "বিজাপুরের জমিদারদের নিজের দলে আনা", "স্বরাজ্য গঠন", "অভিষেক"],
+        "correct_order": ["বিজাপুরের জমিদারদের নিজের দলে আনা", "স্বরাজ্য গঠন", "অষ্টপ্রধান নিয়োগ", "অভিষেক"]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_seq_008",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল সাম্রাজ্যের দুর্বলতার ক্রম",
+        "question_bn": "মুঘল সাম্রাজ্যের দুর্বলতার কারণগুলি গুরুত্বের ক্রমে সাজাও (সবচেয়ে প্রাথমিক থেকে)",
+        "items": ["বিদ্রোহ ও স্বাধীনতা আন্দোলন", "মনসব নিয়ে প্রতিযোগিতা", "রাজস্ব আদায়ে ব্যর্থতা", "সাম্রাজ্যের অতিরিক্ত বিস্তার"],
+        "correct_order": ["সাম্রাজ্যের অতিরিক্ত বিস্তার", "মনসব নিয়ে প্রতিযোগিতা", "রাজস্ব আদায়ে ব্যর্থতা", "বিদ্রোহ ও স্বাধীনতা আন্দোলন"]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_seq_009",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "শিবাজির সেনাবাহিনী গঠন",
+        "question_bn": "শিবাজির সেনাবাহিনী গঠনের ধাপগুলি ক্রমে সাজাও",
+        "items": ["সেনাবাহিনী প্রস্তুত", "মাওয়াল পদাতিক নিয়োগ", "দুর্গ দখল", "যুদ্ধ পরিচালনা"],
+        "correct_order": ["মাওয়াল পদাতিক নিয়োগ", "সেনাবাহিনী প্রস্তুত", "দুর্গ দখল", "যুদ্ধ পরিচালনা"]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_seq_010",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মারাঠা-মুঘল সম্পর্কের বিবর্তন",
+        "question_bn": "মারাঠাদের সঙ্গে মুঘলদের সম্পর্কের পর্যায়গুলি ক্রমে সাজাও",
+        "items": ["স্বরাজ্য প্রতিষ্ঠা", "মারাঠাদের মুঘল দরবারে চাকরি", "মারাঠা সর্দারদের রাজস্ব আদায়ে নিয়োগ", "মুঘল সার্বভৌমত্ব অস্বীকার"],
+        "correct_order": ["মারাঠাদের মুঘল দরবারে চাকরি", "মুঘল সার্বভৌমত্ব অস্বীকার", "স্বরাজ্য প্রতিষ্ঠা", "মারাঠা সর্দারদের রাজস্ব আদায়ে নিয়োগ"]
+      }
+    ],
+
+    "categorize": [
+      {
+        "id": "otit_o_oitijhyo_ch08_cat_001",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "শিখ গুরু ও মুঘল সেনাপতি",
+        "question_bn": "নিচের নামগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "শিখ গুরু": ["তেগবাহাদুর", "গোবিন্দ সিংহ", "অর্জনদেব", "হরগোবিন্দ"],
+          "মুঘল সেনাপতি": ["আফজল খান", "শায়েস্তা খান", "মুয়াজ্জম", "জয়সিংহ"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_cat_002",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "মারাঠা ও শিখ বিষয়",
+        "question_bn": "নিচের বিষয়গুলিকে মারাঠা ও শিখ বিভাগে ভাগ করো",
+        "categories": {
+          "মারাঠা": ["স্বরাজ্য", "বর্গি", "অষ্টপ্রধান", "মাওলে"],
+          "শিখ": ["খালসা", "পাঁচ ক", "কৃপাণ", "কড়া"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_cat_003",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "বিদ্রোহের ধরন",
+        "question_bn": "নিচের বিদ্রোহগুলিকে তাদের প্রধান পরিচয় অনুযায়ী দলে ভাগ করো",
+        "categories": {
+          "কৃষক বিদ্রোহ": ["জাঠ বিদ্রোহ", "সৎনামি বিদ্রোহ", "নারনৌলের বিদ্রোহ", "দিল্লি-আগ্রার কৃষক আন্দোলন"],
+          "রাজনৈতিক স্বাধীনতার সংগ্রাম": ["মারাঠা আন্দোলন", "শিখ আন্দোলন", "স্বরাজ্য গঠনের প্রচেষ্টা", "খালসার সংগঠন"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_cat_004",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "ভূমি ব্যবস্থার ধরন",
+        "question_bn": "নিচের বিষয়গুলিকে জায়গিরদারি ও খালিসা জমি বিভাগে ভাগ করো",
+        "categories": {
+          "জায়গির জমি": ["মনসবদারকে দেওয়া জমি", "বেতনের বিনিময়ে জমি", "সেনা রক্ষণের দায়িত্বযুক্ত জমি", "অভিজাতদের ভোগের জমি"],
+          "খালিসা জমি": ["সরাসরি রাজার অধীন জমি", "কেন্দ্রীয় কোষাগারে রাজস্ব", "ঔরঙ্গজেব নিজে রাখা জমি", "দাক্ষিণাত্যের সেরা জমি"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_cat_005",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "শিবাজির জীবনে সহায়ক ও বিরোধী",
+        "question_bn": "নিচের ব্যক্তিদের শিবাজির সহায়ক ও বিরোধী বিভাগে ভাগ করো",
+        "categories": {
+          "শিবাজির সহায়ক": ["জিজাবাঈ", "দাদাজি কোণ্ডদেব", "মাওলে সেনারা", "মারাঠা জমিদারেরা"],
+          "শিবাজির বিরোধী": ["আফজল খান", "শায়েস্তা খান", "জয়সিংহ", "ঔরঙ্গজেব"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_cat_006",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল সংকটের কারণ",
+        "question_bn": "নিচের বিষয়গুলিকে অভ্যন্তরীণ ও বাহ্যিক সংকটের কারণ হিসেবে ভাগ করো",
+        "categories": {
+          "অভ্যন্তরীণ সংকট": ["মনসবদারি সমস্যা", "কৃষি সংকট", "মূল্যবৃদ্ধি", "দুর্নীতি"],
+          "বাহ্যিক প্রতিরোধ": ["মারাঠা বিদ্রোহ", "শিখ আন্দোলন", "জাঠ বিদ্রোহ", "সৎনামি বিদ্রোহ"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_cat_007",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "মুঘল সাম্রাজ্যের অঞ্চল",
+        "question_bn": "নিচের স্থানগুলিকে উত্তর ভারত ও দাক্ষিণাত্য বিভাগে ভাগ করো",
+        "categories": {
+          "উত্তর ভারত": ["দিল্লি", "আগ্রা", "পাঞ্জাব", "মথুরা"],
+          "দাক্ষিণাত্য": ["বিজাপুর", "গোলকোন্ডা", "পুণে", "কোঙ্কণ"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_cat_008",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "ঐতিহাসিক মতামত",
+        "question_bn": "মুঘল সাম্রাজ্য সম্পর্কে দুই ধরনের ঐতিহাসিক মতামত বিভাগে ভাগ করো",
+        "categories": {
+          "মুঘল শক্তিশালী মত": ["আসমুদ্রহিমাচল বিস্তৃত ক্ষমতা", "কেন্দ্রীয় শাসন মজবুত", "নিশ্ছিদ্র গালিচার মতো শাসন", "ভারত রাষ্ট্রের বীজ মুঘল ব্যবস্থায়"],
+          "মুঘল দুর্বল মত": ["জোড়াতালি কম্বলের মতো শাসন", "উত্তর ভারতের বাইরে ক্ষমতা সীমিত", "আঞ্চলিক নিয়ন্ত্রণ শিথিল", "বিভিন্ন বিদ্রোহে সাম্রাজ্য টালমাটাল"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_cat_009",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "পাঁচ ক শ্রেণিবিভাগ",
+        "question_bn": "শিখদের পাঁচ ক-এর জিনিসগুলিকে ধর্মীয় ও সামরিক উদ্দেশ্য বিভাগে ভাগ করো",
+        "categories": {
+          "ধর্মীয় পরিচয়ের প্রতীক": ["কেশ", "কঙ্ঘা", "কচ্ছা", "কড়া"],
+          "সামরিক শক্তির প্রতীক": ["কৃপাণ", "কড়া", "কেশ", "কঙ্ঘা"]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_cat_010",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল সংকটের প্রভাব",
+        "question_bn": "মুঘল সংকটের প্রভাবগুলিকে সামরিক ও অর্থনৈতিক বিভাগে ভাগ করো",
+        "categories": {
+          "সামরিক দুর্বলতা": ["ঘোড়সওয়ার রক্ষণে ব্যর্থতা", "দুর্গ হাতছাড়া", "আঞ্চলিক বিদ্রোহ বৃদ্ধি", "সেনাবাহিনীর মনোবল হ্রাস"],
+          "অর্থনৈতিক সংকট": ["রাজস্ব আদায় কমে যাওয়া", "কৃষি উৎপাদন ব্যাহত", "জায়গির সংকট", "কোষাগার খালি হওয়া"]
+        }
+      }
+    ],
+
+    "short_write": [
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_001",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মারাঠাদের বাসস্থান",
+        "question_bn": "মারাঠারা কোন অঞ্চলে বাস করত?",
+        "expected_answer": "পুণে কোঙ্কণ",
+        "max_words": 2,
+        "answer_slot_id": 1
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_002",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "শিবাজির অস্ত্র",
+        "question_bn": "শিবাজি আফজল খানকে হত্যা করতে কোন অস্ত্র ব্যবহার করেন?",
+        "expected_answer": "বাঘনখ",
+        "max_words": 1,
+        "answer_slot_id": 2
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_003",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পুরন্ধরের সন্ধি",
+        "question_bn": "পুরন্ধরের সন্ধি কত সালে হয়?",
+        "expected_answer": "১৬৬৫",
+        "max_words": 1,
+        "answer_slot_id": 3
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_004",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "শিবাজির অভিষেক",
+        "question_bn": "শিবাজির অভিষেক কোথায় হয়?",
+        "expected_answer": "রায়গড়",
+        "max_words": 1,
+        "answer_slot_id": 4
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_005",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "অষ্টপ্রধান",
+        "question_bn": "শিবাজির মন্ত্রিপরিষদকে কী বলা হতো?",
+        "expected_answer": "অষ্টপ্রধান",
+        "max_words": 1,
+        "answer_slot_id": 5
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_006",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পেশওয়া",
+        "question_bn": "শিবাজির অষ্টপ্রধানের মধ্যে প্রধান মন্ত্রীকে কী বলা হতো?",
+        "expected_answer": "পেশওয়া",
+        "max_words": 1,
+        "answer_slot_id": 6
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_007",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মারাঠা রাজ্য",
+        "question_bn": "মারাঠারা তাদের নিজস্ব রাজ্যকে কী বলত?",
+        "expected_answer": "স্বরাজ্য",
+        "max_words": 1,
+        "answer_slot_id": 7
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_008",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বর্গি",
+        "question_bn": "মারাঠারা মুঘল এলাকা থেকে আদায় করা করকে কী বলত?",
+        "expected_answer": "বর্গি",
+        "max_words": 1,
+        "answer_slot_id": 8
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_009",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "শিবাজির পিতা",
+        "question_bn": "শিবাজির বাবার নাম কী?",
+        "expected_answer": "শাহজি ভৌসলে",
+        "max_words": 2,
+        "answer_slot_id": 9
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_010",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "শিবাজির মাতা",
+        "question_bn": "শিবাজির মায়ের নাম কী?",
+        "expected_answer": "জিজাবাঈ",
+        "max_words": 1,
+        "answer_slot_id": 10
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_011",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "শিবাজির শিক্ষক",
+        "question_bn": "শিবাজির শিক্ষকের নাম কী ছিল?",
+        "expected_answer": "দাদাজি কোণ্ডদেব",
+        "max_words": 2,
+        "answer_slot_id": 11
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_012",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পুরন্ধরের সন্ধিতে দুর্গ",
+        "question_bn": "পুরন্ধরের সন্ধিতে শিবাজি মুঘলদের কতটি দুর্গ ছেড়ে দেন?",
+        "expected_answer": "২৩টি",
+        "max_words": 1,
+        "answer_slot_id": 12
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_013",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মাওলে সেনা",
+        "question_bn": "শিবাজির মাওয়াল থেকে আনা পদাতিক সেনাদের কী বলা হতো?",
+        "expected_answer": "মাওলে",
+        "max_words": 1,
+        "answer_slot_id": 13
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_014",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "শিবাজির আগ্রায় পালানো",
+        "question_bn": "শিবাজি আগ্রা দুর্গ থেকে কীসে লুকিয়ে পালিয়েছিলেন?",
+        "expected_answer": "ফলের ঝুড়ি",
+        "max_words": 2,
+        "answer_slot_id": 14
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_015",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চতুর্থ শিখ গুরু",
+        "question_bn": "শিখদের চতুর্থ গুরুর নাম কী?",
+        "expected_answer": "রামদাস",
+        "max_words": 1,
+        "answer_slot_id": 15
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_016",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গুরু অর্জনদেব",
+        "question_bn": "শিখদের গুরু অর্জনদেব কার ছেলে ছিলেন?",
+        "expected_answer": "রামদাস",
+        "max_words": 1,
+        "answer_slot_id": 16
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_017",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "নবম শিখ গুরু",
+        "question_bn": "নবম শিখ গুরুর নাম কী?",
+        "expected_answer": "তেগবাহাদুর",
+        "max_words": 1,
+        "answer_slot_id": 17
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_018",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "দশম শিখ গুরু",
+        "question_bn": "দশম শিখ গুরুর নাম কী?",
+        "expected_answer": "গোবিন্দ সিংহ",
+        "max_words": 2,
+        "answer_slot_id": 18
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_019",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "খালসা",
+        "question_bn": "গুরু গোবিন্দ সিংহ কোন সংগঠন তৈরি করেন?",
+        "expected_answer": "খালসা",
+        "max_words": 1,
+        "answer_slot_id": 19
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_020",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "জাঠদের পেশা",
+        "question_bn": "দিল্লি-আগ্রা অঞ্চলের জাঠরা প্রধানত কী পেশায় ছিল?",
+        "expected_answer": "কৃষক",
+        "max_words": 1,
+        "answer_slot_id": 20
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_021",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সৎনামি বিদ্রোহের স্থান",
+        "question_bn": "সৎনামি বিদ্রোহ কোন এলাকায় হয়েছিল?",
+        "expected_answer": "নারনৌল",
+        "max_words": 1,
+        "answer_slot_id": 21
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_022",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শিখদের পাহাড়ে যাওয়া",
+        "question_bn": "তেগবাহাদুর হত্যার পর শিখরা কোথায় চলে যায়?",
+        "expected_answer": "পাঞ্জাব পাহাড়",
+        "max_words": 2,
+        "answer_slot_id": 22
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_023",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "খালিসা জমি",
+        "question_bn": "ঔরঙ্গজেব দাক্ষিণাত্যের সেরা জমিগুলি কী নামে রেখেছিলেন?",
+        "expected_answer": "খালিসা",
+        "max_words": 1,
+        "answer_slot_id": 23
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_024",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শিবাজির অভিষেকের বছর",
+        "question_bn": "শিবাজির অভিষেক কত খ্রিস্টাব্দে হয়?",
+        "expected_answer": "১৬৭৪",
+        "max_words": 1,
+        "answer_slot_id": 24
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_025",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শিবাজির জন্মবছর",
+        "question_bn": "শিবাজি কত খ্রিস্টাব্দে জন্মগ্রহণ করেন?",
+        "expected_answer": "১৬৩০",
+        "max_words": 1,
+        "answer_slot_id": 25
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_026",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "হরগোবিন্দের তলোয়ার",
+        "question_bn": "গুরু হরগোবিন্দ একসঙ্গে কতটি তলোয়ার রাখতেন?",
+        "expected_answer": "দুটি",
+        "max_words": 1,
+        "answer_slot_id": 26
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_027",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পাঁচ ক-এর অক্ষর",
+        "question_bn": "শিখদের পাঁচটি বিশেষ জিনিসের নাম কোন অক্ষর দিয়ে শুরু?",
+        "expected_answer": "ক",
+        "max_words": 1,
+        "answer_slot_id": 27
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_028",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "কঙ্ঘা",
+        "question_bn": "শিখদের পাঁচ ক-এর মধ্যে কঙ্ঘা আসলে কী?",
+        "expected_answer": "চিরুনি",
+        "max_words": 1,
+        "answer_slot_id": 28
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_029",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পুরন্ধরের সন্ধি করানো মুঘল সেনাপতি",
+        "question_bn": "শিবাজিকে পুরন্ধরের সন্ধি করাতে কোন মুঘল সেনাপতি বাধ্য করেন?",
+        "expected_answer": "জয়সিংহ",
+        "max_words": 1,
+        "answer_slot_id": 29
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_030",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সুরাট আক্রমণ",
+        "question_bn": "শিবাজি কোন বন্দরনগরী আক্রমণ করে লুঠপাট করেন?",
+        "expected_answer": "সুরাট",
+        "max_words": 1,
+        "answer_slot_id": 30
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_031",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "প্রথম বাজীরাও",
+        "question_bn": "শিবাজির মৃত্যুর পঞ্চাশ বছর পর কে পেশওয়া হন?",
+        "expected_answer": "প্রথম বাজীরাও",
+        "max_words": 2,
+        "answer_slot_id": 31
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_032",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শিবাজির মৃত্যুসাল",
+        "question_bn": "শিবাজি কত খ্রিস্টাব্দে মারা যান?",
+        "expected_answer": "১৬৮০",
+        "max_words": 1,
+        "answer_slot_id": 32
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_033",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মুঘল-শিখ সংঘাতের চরিত্র",
+        "question_bn": "গোবিন্দ সিংহের সময়ে মুঘল-শিখ সংঘাতের চরিত্র মূলত কী ধরনের ছিল?",
+        "expected_answer": "রাজনৈতিক",
+        "max_words": 1,
+        "answer_slot_id": 33
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_034",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শিখ ধর্মের বার্তা",
+        "question_bn": "শিখ ধর্মীয় আন্দোলন মানুষের মধ্যে কী বার্তা ছড়িয়েছিল?",
+        "expected_answer": "সমতা",
+        "max_words": 1,
+        "answer_slot_id": 34
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_035",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মনসবদার সমস্যা",
+        "question_bn": "মনসবদাররা বেতন না পেলে কার রক্ষণাবেক্ষণ করতে পারত না?",
+        "expected_answer": "ঘোড়সওয়ার",
+        "max_words": 1,
+        "answer_slot_id": 35
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_036",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বিদ্রোহের ধর্মীয় চরিত্র",
+        "question_bn": "মুঘলবিরোধী আন্দোলনগুলিকে কী ধরনের প্রতিরোধ বলা ঠিক নয়?",
+        "expected_answer": "ধর্মীয় প্রতিরোধ",
+        "max_words": 2,
+        "answer_slot_id": 36
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_037",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "খালিসা রাজস্ব",
+        "question_bn": "খালিসা জমির রাজস্ব কোথায় জমা হতো?",
+        "expected_answer": "কেন্দ্রীয় কোষাগার",
+        "max_words": 2,
+        "answer_slot_id": 37
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_038",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল শাসনের উপমা",
+        "question_bn": "একজন ঐতিহাসিক মুঘল শাসনকে কিসের সঙ্গে তুলনা করেছেন?",
+        "expected_answer": "জোড়াতালি কম্বল",
+        "max_words": 2,
+        "answer_slot_id": 38
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_039",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মারাঠাদের পূর্ববর্তী রাজদরবার",
+        "question_bn": "মারাঠারা আগে কোন দুটি রাজ্যের দরবারে উচ্চপদে ছিল?",
+        "expected_answer": "বিজাপুর গোলকোন্ডা",
+        "max_words": 2,
+        "answer_slot_id": 39
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_040",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "দাক্ষিণাত্য সংকট",
+        "question_bn": "দাক্ষিণাত্যে যুদ্ধের সময় রাজস্ব আদায়ে মুঘল মনসবদাররা কাদের সাহায্য নিয়েছিল?",
+        "expected_answer": "মারাঠা সর্দার",
+        "max_words": 2,
+        "answer_slot_id": 40
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_041",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "শিবাজির শতকীয় পরিচয়",
+        "question_bn": "শিবাজি কোন শতকে মারাঠাদের জোটবদ্ধ করেছিলেন?",
+        "expected_answer": "সপ্তদশ",
+        "max_words": 1,
+        "answer_slot_id": 41
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_042",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "আফজল খানকে পাঠানোর কারণ",
+        "question_bn": "বিজাপুরের সুলতান কাকে শিবাজিকে দমন করতে পাঠিয়েছিলেন?",
+        "expected_answer": "আফজল খান",
+        "max_words": 2,
+        "answer_slot_id": 42
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_043",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "মুঘল-শিখ সংঘাতের শুরু",
+        "question_bn": "শিখদের সঙ্গে মুঘলদের সংঘাত কোন সম্রাটের আমল থেকে শুরু হয়?",
+        "expected_answer": "জাহাঙ্গির",
+        "max_words": 1,
+        "answer_slot_id": 43
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_044",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "শিখ পরিচয়ের নাম",
+        "question_bn": "গুরু গোবিন্দ সিংহ শিখদের কোন পথ বা রীতি ঠিক করে দেন?",
+        "expected_answer": "খালসা",
+        "max_words": 1,
+        "answer_slot_id": 44
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_045",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "কৃষি সংকটের কারণ",
+        "question_bn": "মুঘল আমলে কৃষির উপর নির্ভরশীল মানুষের সংখ্যা কেমন হয়েছিল?",
+        "expected_answer": "বৃদ্ধি পেয়েছিল",
+        "max_words": 2,
+        "answer_slot_id": 45
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_046",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল সাম্রাজ্যের শক্তি সম্পর্কে মতভেদ",
+        "question_bn": "মুঘল সাম্রাজ্যের শক্তি নিয়ে কাদের মধ্যে বিতর্ক আছে?",
+        "expected_answer": "ঐতিহাসিকদের",
+        "max_words": 1,
+        "answer_slot_id": 46
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_047",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মনসবদারি ব্যর্থতার কারণ",
+        "question_bn": "মনসবদারেরা নির্দিষ্ট পদ অনুযায়ী বেতন না পাওয়ার একটি কারণ কী ছিল?",
+        "expected_answer": "কৃষক বিদ্রোহ",
+        "max_words": 2,
+        "answer_slot_id": 47
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_048",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মুঘল সংকটের কেন্দ্রীয় চরিত্র",
+        "question_bn": "মুঘলবিরোধী বিদ্রোহগুলি কোন ধরনের শাসনের বিরুদ্ধে প্রতিরোধ ছিল?",
+        "expected_answer": "কেন্দ্রীয় স্বৈরাচার",
+        "max_words": 2,
+        "answer_slot_id": 48
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_049",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "মূল্যবৃদ্ধির প্রভাব",
+        "question_bn": "সপ্তদশ শতকে মুঘল আমলে কোন বিষয়টি ক্রমশ বেড়ে যাচ্ছিল?",
+        "expected_answer": "মূল্যবৃদ্ধি",
+        "max_words": 1,
+        "answer_slot_id": 49
+      },
+      {
+        "id": "otit_o_oitijhyo_ch08_sw_050",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "শিবাজির জাতীয় অবদান",
+        "question_bn": "শিবাজির নেতৃত্বে মারাঠাদের কী জেগে উঠেছিল?",
+        "expected_answer": "জাতীয় চেতনা",
+        "max_words": 2,
+        "answer_slot_id": 50
+      }
+    ]
+
+  }
+}

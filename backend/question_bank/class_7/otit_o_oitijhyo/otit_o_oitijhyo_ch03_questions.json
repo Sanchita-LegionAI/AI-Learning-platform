@@ -1,0 +1,2394 @@
+{
+  "book_id": "otit_o_oitijhyo",
+  "book_name": "Otit_O_Oitijhyo",
+  "book_name_bn": "অতীত ও ঐতিহ্য",
+  "subject": "history",
+  "class": 7,
+  "chapter_no": 3,
+  "chapter_title_bn": "ভারতের সমাজ, অর্থনীতি ও সংস্কৃতির কয়েকটি ধারা: খ্রিস্টীয় সপ্তম থেকে দ্বাদশ শতক",
+  "source_file": "otit_o_oitijhyo_ch03_questions.json",
+  "questions": {
+    "mcq": [
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_001",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "উত্তর ভারতের অর্থনীতি",
+        "question_bn": "খ্রিস্টীয় সপ্তম শতক থেকে উত্তর ভারতের কোন ক্ষেত্রে মন্দা দেখা গিয়েছিল?",
+        "options": [
+          "কৃষি",
+          "ব্যবসা-বাণিজ্য",
+          "শিল্প",
+          "শিক্ষা",
+          "ধর্ম"
+        ],
+        "correct_answer": "ব্যবসা-বাণিজ্য"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_002",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "আরব বণিক",
+        "question_bn": "নবম শতাব্দী থেকে কাদের যাতায়াত বেড়ে যাওয়ায় বহির্বাণিজ্যের উন্নতি হয়েছিল?",
+        "options": [
+          "চিনা বণিক",
+          "আরব বণিক",
+          "গ্রিক বণিক",
+          "রোমান বণিক",
+          "ইউরোপীয় বণিক"
+        ],
+        "correct_answer": "আরব বণিক"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_003",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সামন্ত ব্যবস্থা",
+        "question_bn": "রাজহক ও শাসনের আধিকার ভাগ হয়ে যাওয়ার ব্যবস্থাকে কী বলে?",
+        "options": [
+          "বর্ণব্যবস্থা",
+          "সামন্ত ব্যবস্থা",
+          "ভূমিদান ব্যবস্থা",
+          "খাজনা ব্যবস্থা",
+          "নিগম ব্যবস্থা"
+        ],
+        "correct_answer": "সামন্ত ব্যবস্থা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_004",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চোল রাজ্য",
+        "question_bn": "চোল রাজ্যে কৃষকদের বসতি ঘিরে গড়ে ওঠা গ্রামকে শাসন করত কোনটি?",
+        "options": [
+          "নাড়ু",
+          "উর",
+          "নগরম",
+          "সভা",
+          "মণ্ডলম"
+        ],
+        "correct_answer": "উর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_005",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পাল-সেন যুগের মুদ্রা",
+        "question_bn": "পাল-সেন যুগে বাংলায় জিনিস কেনাবেচার প্রধান মাধ্যম কী হয়ে উঠেছিল?",
+        "options": [
+          "সোনার মুদ্রা",
+          "রুপোর মুদ্রা",
+          "কড়ি",
+          "তামার মুদ্রা",
+          "বিনিময় প্রথা"
+        ],
+        "correct_answer": "কড়ি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_006",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পাল-সেন যুগের কৃষি",
+        "question_bn": "পাল-সেন যুগে রাজারা কৃষকদের কাছ থেকে উৎপন্ন ফসলের কত ভাগ কর নিতেন?",
+        "options": [
+          "এক-চতুর্থাংশ",
+          "এক-তৃতীয়াংশ",
+          "এক-দ্বিতীয়াংশ",
+          "এক-ষষ্ঠাংশ",
+          "এক-অষ্টমাংশ"
+        ],
+        "correct_answer": "এক-ষষ্ঠাংশ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_007",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বাংলার ভাষার ইতিহাস",
+        "question_bn": "পালযুগে বাংলা ভাষার উৎপত্তি কোন ভাষা থেকে হয়েছিল?",
+        "options": [
+          "পালি",
+          "প্রাকৃত",
+          "মাগধী অপভ্রংশ",
+          "সংস্কৃত",
+          "অবহট্ট"
+        ],
+        "correct_answer": "মাগধী অপভ্রংশ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_008",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চর্যাপদ",
+        "question_bn": "চর্যাপদ কাদের লেখা কবিতা ও গানের সংকলন?",
+        "options": [
+          "সংস্কৃত পণ্ডিত",
+          "বৌদ্ধ সিদ্ধাচার্য",
+          "ব্রাহ্মণ কবি",
+          "সেন রাজারা",
+          "পাল রাজারা"
+        ],
+        "correct_answer": "বৌদ্ধ সিদ্ধাচার্য"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_009",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বিক্রমশীল মহাবিহার",
+        "question_bn": "বিক্রমশীল মহাবিহার কোন পাল রাজা প্রতিষ্ঠা করেছিলেন?",
+        "options": [
+          "গোপাল",
+          "ধর্মপাল",
+          "দেবপাল",
+          "রামপাল",
+          "মহিপাল"
+        ],
+        "correct_answer": "ধর্মপাল"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_010",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পালযুগের শিল্পরীতি",
+        "question_bn": "পালযুগের শিল্পরীতিকে কী বলা হয়?",
+        "options": [
+          "পশ্চিমা শিল্পরীতি",
+          "প্রাচ্য শিল্পরীতি",
+          "গুপ্তরীতি",
+          "চোল শিল্পরীতি",
+          "লোকায়ত শিল্পরীতি"
+        ],
+        "correct_answer": "প্রাচ্য শিল্পরীতি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_011",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সামন্ত শ্রেণি",
+        "question_bn": "সমকালীন লেখকরা কোন নামে সামন্ত গোষ্ঠীর পরিচয় দিয়েছেন?",
+        "options": [
+          "সামন্ত, রাজা, রৌণক",
+          "মহারাজা, সামন্ত, মণ্ডল",
+          "রাজা, উপরাজা, প্রধান",
+          "সেনাপতি, রাজা, ভূস্বামী",
+          "সামন্ত, পাল, নায়ক"
+        ],
+        "correct_answer": "সামন্ত, রাজা, রৌণক"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_012",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চোল প্রশাসন",
+        "question_bn": "চোল রাজ্যে কয়েকটি গ্রাম নিয়ে গঠিত প্রশাসনিক একক কোনটি?",
+        "options": [
+          "উর",
+          "নাড়ু",
+          "মণ্ডলম",
+          "নগরম",
+          "সভা"
+        ],
+        "correct_answer": "নাড়ু"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_013",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ব্রশ্বদেয় ব্যবস্থা",
+        "question_bn": "ব্রাহ্মণদের যে জমি দান করা হতো যার কর নেওয়া হতো না, তাকে কী বলা হতো?",
+        "options": [
+          "ভূমিদান",
+          "অগ্রহার",
+          "ব্রশ্বদেয়",
+          "নিষ্কর",
+          "দেবদান"
+        ],
+        "correct_answer": "ব্রশ্বদেয়"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_014",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "তাঞ্জোর মন্দির",
+        "question_bn": "তাঞ্জোরের বিখ্যাত মন্দির কোন চোল শাসকের সময়ে তৈরি হয়?",
+        "options": [
+          "রাজরাজ",
+          "রাজেন্দ্র",
+          "পরান্তক",
+          "কুলোত্তুঙ্গ",
+          "বিক্রম"
+        ],
+        "correct_answer": "রাজরাজ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_015",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চর্যাপদের ভাষা",
+        "question_bn": "চর্যাপদে ব্যবহৃত ভাষা কোনটির নিদর্শন?",
+        "options": [
+          "প্রাচীন সংস্কৃত",
+          "প্রাচীন পালি",
+          "আদি বাংলা",
+          "মাগধী",
+          "অপভ্রংশ"
+        ],
+        "correct_answer": "আদি বাংলা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_016",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "অতীশ দীপঙ্কর",
+        "question_bn": "অতীশ দীপঙ্কর-শ্রীজ্ঞান কোন গ্রামে জন্মগ্রহণ করেন?",
+        "options": [
+          "বিক্রমপুর",
+          "বজ্রযোগিনী",
+          "পাহাড়পুর",
+          "ওদন্তপুরী",
+          "সোমপুরী"
+        ],
+        "correct_answer": "বজ্রযোগিনী"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_017",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বৌদ্ধ মতবাদ",
+        "question_bn": "মহাযান বৌদ্ধধর্মের সঙ্গে অন্যান্য দার্শনিক চিন্তাধারা মিলে কোন মতের জন্ম হয়?",
+        "options": [
+          "হীনযান",
+          "সহজযান",
+          "বজ্রযান বা তন্ত্রযান",
+          "থেরবাদ",
+          "কালচক্রযান"
+        ],
+        "correct_answer": "বজ্রযান বা তন্ত্রযান"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_018",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সন্ধ্যাকর নন্দী",
+        "question_bn": "সন্ধ্যাকর নন্দী রচিত কাব্যের নাম কী?",
+        "options": [
+          "গীতগোবিন্দম",
+          "পবনদূত",
+          "রামচরিত",
+          "দানসাগর",
+          "অদ্ভুতসাগর"
+        ],
+        "correct_answer": "রামচরিত"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_019",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "নালন্দা বিহার",
+        "question_bn": "নালন্দার সমৃদ্ধির যুগে সেখানে কতজন আবাসিক ভিক্ষু থাকতেন?",
+        "options": [
+          "পাঁচ হাজার",
+          "দশ হাজার",
+          "পনেরো হাজার",
+          "বিশ হাজার",
+          "তিন হাজার"
+        ],
+        "correct_answer": "দশ হাজার"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_020",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "জয়দেব",
+        "question_bn": "লক্ষ্মণসেনের রাজসভার বিখ্যাত কবি জয়দেবের বিখ্যাত রচনার বিষয় কী ছিল?",
+        "options": [
+          "রাজার বীরগাথা",
+          "রাধা-কৃষ্ণের প্রেম",
+          "সমরকাহিনী",
+          "বৌদ্ধ ধর্ম",
+          "প্রকৃতির বর্ণনা"
+        ],
+        "correct_answer": "রাধা-কৃষ্ণের প্রেম"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_021",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পাল-সেন যুগের শিল্প",
+        "question_bn": "পাল-সেন যুগে বাংলার প্রধান শিল্পদ্রব্য কোনটি ছিল?",
+        "options": [
+          "লোহার সরঞ্জাম",
+          "কার্পাস বস্ত্র",
+          "মাটির পাত্র",
+          "কাচের জিনিস",
+          "রেশম কাপড়"
+        ],
+        "correct_answer": "কার্পাস বস্ত্র"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_022",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সেন যুগের সমাজ",
+        "question_bn": "সেন আমলে অব্রাহ্মণদের সবাইকে কী হিসাবে ধরা হতো?",
+        "options": [
+          "বৈশ্য বা শূদ্র",
+          "সংকর বা শূদ্র",
+          "ক্ষত্রিয় বা বৈশ্য",
+          "কায়স্থ বা শূদ্র",
+          "উপজাতি বা দাস"
+        ],
+        "correct_answer": "সংকর বা শূদ্র"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_023",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বল্লালসেন",
+        "question_bn": "বল্লালসেনের লেখা কোন দুটি বই পাওয়া গেছে?",
+        "options": [
+          "রামচরিত ও পবনদূত",
+          "দানসাগর ও অদ্ভুতসাগর",
+          "গীতগোবিন্দম ও পবনদূত",
+          "ব্রাহ্মণসর্বস্ব ও দানসাগর",
+          "অদ্ভুতসাগর ও ব্রাহ্মণসর্বস্ব"
+        ],
+        "correct_answer": "দানসাগর ও অদ্ভুতসাগর"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_024",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চোল শিল্প",
+        "question_bn": "চোল রাজ্যের কোন হস্তশিল্প বিখ্যাত ছিল?",
+        "options": [
+          "রেশম বস্ত্র",
+          "পোড়ামাটির শিল্প",
+          "ব্রোঞ্জ হস্তশিল্প",
+          "পাথরের ভাস্কর্য",
+          "কাঠের শিল্প"
+        ],
+        "correct_answer": "ব্রোঞ্জ হস্তশিল্প"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_025",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ইউরোপীয় সামন্ততন্ত্র",
+        "question_bn": "খ্রিস্টীয় দ্বাদশ শতক ইউরোপে কোন ব্যবস্থার সেরা সময় ছিল?",
+        "options": [
+          "গণতন্ত্র",
+          "রাজতন্ত্র",
+          "সামন্ততন্ত্র",
+          "ধর্মতন্ত্র",
+          "প্রজাতন্ত্র"
+        ],
+        "correct_answer": "সামন্ততন্ত্র"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_026",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "দক্ষিণ ভারতের বাণিজ্য",
+        "question_bn": "দক্ষিণ ভারতে নবম থেকে একাদশ শতকের মধ্যে কাদের কারণে বিদেশে ভারতীয় বণিকদের প্রভাব বেড়েছিল?",
+        "options": [
+          "পল্লব রাজাদের",
+          "চালুক্য রাজাদের",
+          "চোলদের ক্ষমতা বিস্তারের",
+          "পাণ্ড্য রাজাদের",
+          "রাষ্ট্রকূটদের"
+        ],
+        "correct_answer": "চোলদের ক্ষমতা বিস্তারের"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_027",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "অতীশের তিব্বত যাত্রা",
+        "question_bn": "অতীশ দীপঙ্কর কত খ্রিস্টাব্দে তিব্বতে গিয়েছিলেন?",
+        "options": [
+          "১০২০",
+          "১০৩০",
+          "১০৪০",
+          "১০৫০",
+          "১০৬০"
+        ],
+        "correct_answer": "১০৪০"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_028",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "চর্যাপদ উদ্ধার",
+        "question_bn": "চর্যাপদের পুঁথি কে উদ্ধার করেন?",
+        "options": [
+          "রবীন্দ্রনাথ ঠাকুর",
+          "হরপ্রসাদ শাস্ত্রী",
+          "সুনীতিকুমার চট্টোপাধ্যায়",
+          "দীনেশচন্দ্র সেন",
+          "রামেন্দ্রসুন্দর ত্রিবেদী"
+        ],
+        "correct_answer": "হরপ্রসাদ শাস্ত্রী"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_029",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "পাহাড়পুর ভাস্কর্য",
+        "question_bn": "পাহাড়পুরের মূল মন্দিরের গায়ে পাথরের ফলকে কোন দেবতার মূর্তি নেই?",
+        "options": [
+          "রাধা-কৃষ্ণ",
+          "বলরাম",
+          "বুদ্ধ",
+          "ইন্দ্র",
+          "শিব"
+        ],
+        "correct_answer": "ইন্দ্র"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_030",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "পালযুগের শিল্পী",
+        "question_bn": "পালযুগে ধীমান ও বীটপাল কোন অঞ্চলের শিল্পী ছিলেন?",
+        "options": [
+          "বিক্রমপুর",
+          "বরেন্দ্রভূমি",
+          "পাহাড়পুর",
+          "তাম্রলিপ্তি",
+          "সমতট"
+        ],
+        "correct_answer": "বরেন্দ্রভূমি"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_031",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সুয়ান জাং",
+        "question_bn": "পর্যটক সুয়ান জাং কোন কোন শহরে ব্যবসায়িক কাজকর্মের উল্লেখ করেছেন?",
+        "options": [
+          "পাটলিপুত্র ও বারাণসী",
+          "থানেশ্বর, কনৌজ ও বারাণসী",
+          "উজ্জয়িনী ও তক্ষশীলা",
+          "দিল্লি ও আগ্রা",
+          "মথুরা ও বৃন্দাবন"
+        ],
+        "correct_answer": "থানেশ্বর, কনৌজ ও বারাণসী"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_032",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পাল-সেন যুগের ফসল",
+        "question_bn": "পাল-সেন যুগে বাংলার প্রধান ফসল কোনগুলি ছিল?",
+        "options": [
+          "ধান, গম ও যব",
+          "ধান, সরষে ও নানারকম ফল",
+          "গম, ডাল ও তুলো",
+          "আখ, নীল ও তুলো",
+          "পান, সুপুরি ও মহুয়া"
+        ],
+        "correct_answer": "ধান, সরষে ও নানারকম ফল"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_033",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বৌদ্ধ বিহার",
+        "question_bn": "নিচের কোনটি পালযুগের বিখ্যাত বৌদ্ধ বিহার নয়?",
+        "options": [
+          "নালন্দা",
+          "ওদন্তপুরী",
+          "বিক্রমশীল",
+          "তক্ষশীলা",
+          "সোমপুরী"
+        ],
+        "correct_answer": "তক্ষশীলা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_034",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "আঙ্কোরভাট মন্দির",
+        "question_bn": "কম্বোডিয়ার আঙ্কোরভাটের বিখ্যাত বিষ্ণু মন্দির কোন শতকে তৈরি হয়?",
+        "options": [
+          "দশম শতক",
+          "একাদশ শতক",
+          "দ্বাদশ শতক",
+          "ত্রয়োদশ শতক",
+          "নবম শতক"
+        ],
+        "correct_answer": "দ্বাদশ শতক"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_035",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বোরোবোদুর",
+        "question_bn": "ইন্দোনেশিয়ার বোরোবোদুরের বৌদ্ধ মন্দির কোন শতকে নির্মিত হয়েছিল?",
+        "options": [
+          "সপ্তম শতক",
+          "অষ্টম শতক",
+          "নবম শতক",
+          "দশম শতক",
+          "একাদশ শতক"
+        ],
+        "correct_answer": "অষ্টম শতক"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_036",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "লক্ষ্মণসেনের পঞ্চরত্ন",
+        "question_bn": "লক্ষ্মণসেনের রাজসভার পঞ্চরত্নের মধ্যে কে ছিলেন না?",
+        "options": [
+          "জয়দেব",
+          "ধোয়ী",
+          "গোবর্ধন",
+          "উমাপতিধর",
+          "সন্ধ্যাকর নন্দী"
+        ],
+        "correct_answer": "সন্ধ্যাকর নন্দী"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_037",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চর্যাপদের সময়কাল",
+        "question_bn": "চর্যাপদ কোন সময়কালের মধ্যে লেখা হয়েছিল?",
+        "options": [
+          "ষষ্ঠ থেকে দশম শতক",
+          "সপ্তম থেকে একাদশ শতক",
+          "অষ্টম থেকে দ্বাদশ শতক",
+          "নবম থেকে ত্রয়োদশ শতক",
+          "পঞ্চম থেকে নবম শতক"
+        ],
+        "correct_answer": "অষ্টম থেকে দ্বাদশ শতক"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_038",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সেন রাজাদের ধর্ম",
+        "question_bn": "সেন রাজারা কোন ধর্মকে প্রাধান্য দিতেন?",
+        "options": [
+          "বৌদ্ধধর্ম",
+          "জৈনধর্ম",
+          "ব্রাহ্মণ্য ধর্ম",
+          "ইসলাম",
+          "শিখ ধর্ম"
+        ],
+        "correct_answer": "ব্রাহ্মণ্য ধর্ম"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_039",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পাল রাজাদের বর্ণ",
+        "question_bn": "পাল রাজারা কোন বর্ণের ছিলেন বলে মনে করা হয়?",
+        "options": [
+          "ব্রাহ্মণ",
+          "ক্ষত্রিয় বা কায়স্থ",
+          "বৈশ্য",
+          "শূদ্র",
+          "অজানা"
+        ],
+        "correct_answer": "ক্ষত্রিয় বা কায়স্থ"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_040",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বিক্রমশীলের শিক্ষাব্যবস্থা",
+        "question_bn": "বিক্রমশীল মহাবিহারে সর্বোচ্চ কতজন ছাত্র পড়ত?",
+        "options": [
+          "এক হাজার",
+          "দুই হাজার",
+          "তিন হাজার",
+          "পাঁচ হাজার",
+          "দশ হাজার"
+        ],
+        "correct_answer": "তিন হাজার"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_041",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "অতীশের জন্ম-মৃত্যু",
+        "question_bn": "অতীশ দীপঙ্কর-শ্রীজ্ঞানের আনুমানিক জীবনকাল কোনটি?",
+        "options": [
+          "৯৫০-১০৩৫",
+          "৯৮০-১০৫৩",
+          "১০০০-১০৭৫",
+          "৯৬০-১০৪০",
+          "৯৭০-১০৬০"
+        ],
+        "correct_answer": "৯৮০-১০৫৩"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_042",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "লক্ষ্মণসেনের মন্ত্রী",
+        "question_bn": "লক্ষ্মণসেনের মন্ত্রী হলায়ুধ কোন বিষয়ে বই লিখেছিলেন?",
+        "options": [
+          "চিকিৎসাশাস্ত্র",
+          "বৈদিক নিয়ম",
+          "ব্যাকরণ",
+          "জ্যোতির্বিদ্যা",
+          "দর্শন"
+        ],
+        "correct_answer": "বৈদিক নিয়ম"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_043",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "সোমপুরী বিহার",
+        "question_bn": "সোমপুরী বিহার কোথায় অবস্থিত ছিল?",
+        "options": [
+          "ভাগলপুরের কাছে",
+          "ঢাকা জেলায়",
+          "রাজশাহীর পাহাড়পুরে",
+          "উত্তরবঙ্গে",
+          "নালন্দার কাছে"
+        ],
+        "correct_answer": "রাজশাহীর পাহাড়পুরে"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_044",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চোলযুগের সেচব্যবস্থা",
+        "question_bn": "চোল রাজ্যে কোন নদী থেকে খাল কেটে সেচব্যবস্থার উন্নতি করা হয়েছিল?",
+        "options": [
+          "গোদাবরী",
+          "কৃষ্ণা",
+          "কাবেরী",
+          "তুঙ্গভদ্রা",
+          "পেরিয়ার"
+        ],
+        "correct_answer": "কাবেরী"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_045",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পাল সাম্রাজ্যের পতন",
+        "question_bn": "কৈবর্তরা কোন পাল রাজার বরেন্দ্রভূমি দখল করেছিল?",
+        "options": [
+          "দেবপাল",
+          "ধর্মপাল",
+          "রামপাল",
+          "মহিপাল",
+          "গোপাল"
+        ],
+        "correct_answer": "রামপাল"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_046",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "ডাক ও খনার বচন",
+        "question_bn": "ডাক ও খনার বচন কোন বিষয়ে তথ্য দিত?",
+        "options": [
+          "ব্যবসা-বাণিজ্যের নিয়ম",
+          "কৃষিকাজের জ্ঞান",
+          "রাজ্যশাসনের পদ্ধতি",
+          "ধর্মীয় অনুষ্ঠান",
+          "শিক্ষার পদ্ধতি"
+        ],
+        "correct_answer": "কৃষিকাজের জ্ঞান"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_047",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ইসলামীয় সংস্কৃতির প্রভাব",
+        "question_bn": "ভারতে ইসলামীয় সংস্কৃতি আসার ফলে কোন ক্ষেত্রে বেশি লাভ হয়েছিল?",
+        "options": [
+          "কৃষি",
+          "শিল্প",
+          "জ্ঞানচর্চা",
+          "সামরিক শক্তি",
+          "বাণিজ্য"
+        ],
+        "correct_answer": "জ্ঞানচর্চা"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_048",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "চক্রপাণিদত্ত",
+        "question_bn": "চক্রপাণিদত্ত কোন বিষয়ে লিখেছিলেন?",
+        "options": [
+          "জ্যোতির্বিদ্যা",
+          "ব্যাকরণ",
+          "চিকিৎসা-বিজ্ঞান",
+          "দর্শন",
+          "ইতিহাস"
+        ],
+        "correct_answer": "চিকিৎসা-বিজ্ঞান"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_049",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "পাল বৌদ্ধ মতবাদ",
+        "question_bn": "সিদ্ধাচার্যদের মতবাদের নেতাদের কী বলা হতো?",
+        "options": [
+          "আচার্য",
+          "সিদ্ধাচার্য",
+          "বোধিসত্ত্ব",
+          "ভিক্ষু",
+          "পণ্ডিত"
+        ],
+        "correct_answer": "সিদ্ধাচার্য"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_mcq_050",
+        "type": "mcq",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "নালন্দার শিক্ষক-ছাত্র",
+        "question_bn": "নালন্দার সমৃদ্ধির যুগে দশ হাজার আবাসিকের মধ্যে কতজন ছাত্র ছিল?",
+        "options": [
+          "৫,০০০",
+          "৬,৫০০",
+          "৮,৫০০",
+          "৭,০০০",
+          "৯,০০০"
+        ],
+        "correct_answer": "৮,৫০০"
+      }
+    ],
+    "match_pairs": [
+      {
+        "id": "otit_o_oitijhyo_ch03_match_001",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বৌদ্ধ বিহার ও অবস্থান",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "বিক্রমশীল",
+            "right": "ভাগলপুরের কাছে"
+          },
+          {
+            "left": "সোমপুরী",
+            "right": "রাজশাহী জেলার পাহাড়পুরে"
+          },
+          {
+            "left": "জগদ্দল",
+            "right": "উত্তরবঙ্গে"
+          },
+          {
+            "left": "ওদন্তপুরী",
+            "right": "নালন্দার কাছে"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_match_002",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "রাজা ও রচনা",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "জয়দেব",
+            "right": "গীতগোবিন্দম"
+          },
+          {
+            "left": "সন্ধ্যাকর নন্দী",
+            "right": "রামচরিত"
+          },
+          {
+            "left": "ধোয়ী",
+            "right": "পবনদূত"
+          },
+          {
+            "left": "বল্লালসেন",
+            "right": "দানসাগর"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_match_003",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চোল প্রশাসনিক একক",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "উর",
+            "right": "কৃষকদের গ্রাম পরিচালনা"
+          },
+          {
+            "left": "নাড়ু",
+            "right": "কয়েকটি গ্রামের সমষ্টি"
+          },
+          {
+            "left": "নগরম",
+            "right": "ব্যবসায়ীদের পরিষদ"
+          },
+          {
+            "left": "মণ্ডলম",
+            "right": "প্রদেশ"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_match_004",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সিদ্ধাচার্য ও বৌদ্ধ মত",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "লুইপাদ",
+            "right": "সহজযানের প্রচারক"
+          },
+          {
+            "left": "সরহপাদ",
+            "right": "চর্যাপদের রচয়িতা"
+          },
+          {
+            "left": "কাহুপাদ",
+            "right": "বজ্রযানের সিদ্ধাচার্য"
+          },
+          {
+            "left": "ভূসুকুপাদ",
+            "right": "তান্ত্রিক বৌদ্ধমতের প্রচারক"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_match_005",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পালযুগের শিক্ষাবিদ",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "ধীমান",
+            "right": "পালযুগের বিখ্যাত শিল্পী"
+          },
+          {
+            "left": "বীটপাল",
+            "right": "ধীমানের পুত্র ও শিল্পী"
+          },
+          {
+            "left": "চক্রপাণিদত্ত",
+            "right": "চিকিৎসাবিজ্ঞান লেখক"
+          },
+          {
+            "left": "সর্বানন্দ",
+            "right": "অভিধানপ্রণেতা"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_match_006",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "দক্ষিণ-পূর্ব এশিয়ার সংস্কৃতি",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "বোরোবোদুর",
+            "right": "ইন্দোনেশিয়া"
+          },
+          {
+            "left": "আঙ্কোরভাট",
+            "right": "কম্বোডিয়া"
+          },
+          {
+            "left": "রামায়ণের নৃত্য",
+            "right": "কম্বোডিয়ায় জনপ্রিয়"
+          },
+          {
+            "left": "ভারতীয় লিপির প্রভাব",
+            "right": "দক্ষিণ-পূর্ব এশিয়া"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_match_007",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পাল-সেন যুগের ফসল ও পণ্য",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "কার্পাস বস্ত্র",
+            "right": "প্রধান শিল্পদ্রব্য"
+          },
+          {
+            "left": "কড়ি",
+            "right": "প্রধান মুদ্রা"
+          },
+          {
+            "left": "ধান",
+            "right": "প্রধান ফসল"
+          },
+          {
+            "left": "মাছ",
+            "right": "নদনদীর সম্পদ"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_match_008",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "সেন রাজা ও উপাধি",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "লক্ষ্মণসেন",
+            "right": "বৈষ্ণব"
+          },
+          {
+            "left": "লক্ষ্মণসেনের পূর্বসূরি",
+            "right": "শৈব"
+          },
+          {
+            "left": "বল্লালসেন",
+            "right": "স্মৃতিশাস্ত্র রচয়িতা"
+          },
+          {
+            "left": "হলায়ুধ",
+            "right": "লক্ষ্মণসেনের মন্ত্রী"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_match_009",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "অতীশের জীবন",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "অতীশের জন্মস্থান",
+            "right": "বজ্রযোগিনী গ্রাম"
+          },
+          {
+            "left": "অতীশের দীক্ষাগুরু",
+            "right": "আচার্য শীলরক্ষিত"
+          },
+          {
+            "left": "অতীশের যাত্রার গন্তব্য",
+            "right": "তিব্বত"
+          },
+          {
+            "left": "অতীশের সমাধিস্থান",
+            "right": "লাসার কাছে"
+          }
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_match_010",
+        "type": "match_pairs",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ভূমিদান ব্যবস্থা",
+        "question_bn": "বাম স্তম্ভের সঙ্গে ডান স্তম্ভ মেলাও",
+        "pairs": [
+          {
+            "left": "ব্রশ্বদেয়",
+            "right": "ব্রাহ্মণদের নিষ্কর জমিদান"
+          },
+          {
+            "left": "পাল যুগের ভূমিদান",
+            "right": "ধর্মীয় প্রতিষ্ঠানকে দান"
+          },
+          {
+            "left": "সেন যুগের ভূমিদান",
+            "right": "ব্রাহ্মণদের দান"
+          },
+          {
+            "left": "অনাবাদী জমি পরিষ্কার",
+            "right": "ব্রাহ্মণদের কাজ"
+          }
+        ]
+      }
+    ],
+    "true_false": [
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_001",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "উত্তর ভারতের বাণিজ্য",
+        "question_bn": "খ্রিস্টীয় সপ্তম শতক থেকে উত্তর ভারতের বেশ কিছু জায়গায় ব্যবসা-বাণিজ্যের মন্দা দেখা গিয়েছিল।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_002",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সামন্ত গোষ্ঠী",
+        "question_bn": "সামন্ত গোষ্ঠী নিজেরা পরিশ্রম করে উৎপাদন করত।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_003",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চোলযুগের সেচ",
+        "question_bn": "তামিলনাড়ুতে কাবেরী নদী থেকে খাল কেটে সেচব্যবস্থার উন্নতি করা হয়েছিল।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_004",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পাল-সেন যুগের মুদ্রা",
+        "question_bn": "পাল-সেন যুগে বাংলায় সোনার মুদ্রার ব্যবহার বেড়ে গিয়েছিল।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_005",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "বাংলা ভাষার জন্ম",
+        "question_bn": "আনুমানিক ৮০০-১১০০ খ্রিস্টাব্দের মধ্যে প্রাচীন বাংলা ভাষার জন্ম হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_006",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "চর্যাপদ উদ্ধার",
+        "question_bn": "চর্যাপদের পুঁথি হরপ্রসাদ শাস্ত্রী তিব্বত থেকে উদ্ধার করেছিলেন।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_007",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "পালযুগের শিল্পরীতি",
+        "question_bn": "পালযুগের শিল্পরীতিকে প্রাচ্য শিল্পরীতি বলা হয়।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_008",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "easy",
+        "topic_bn": "সেন রাজাদের ধর্ম",
+        "question_bn": "সেন রাজারা বৌদ্ধধর্মের পৃষ্ঠপোষকতা করতেন।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_009",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "বিক্রমশীল মহাবিহার",
+        "question_bn": "বিক্রমশীল মহাবিহারে পাঁচশো বছর ধরে শিক্ষাকার্যক্রম চলেছিল।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_010",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "অতীশের ধর্মমত",
+        "question_bn": "অতীশ দীপঙ্কর ব্রাহ্মণ্য মতবাদে বিশ্বাসী ছিলেন।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_011",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পাল রাজাদের ধর্ম",
+        "question_bn": "পাল রাজারা নিজেরা বৌদ্ধ হলেও ব্রাহ্মণ্য সংস্কৃতিরও পৃষ্ঠপোষকতা করতেন।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_012",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "চোল বাণিজ্য",
+        "question_bn": "দক্ষিণ ভারতে নবম থেকে একাদশ শতকের মধ্যে বাণিজ্যের অবনতি হয়েছিল।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_013",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "পাল-সেন যুগের অর্থনীতি",
+        "question_bn": "পাল-সেন যুগে বৈদেশিক বাণিজ্যে আরব বণিকদের দাপটের কারণে বাংলার অর্থনীতি কৃষিনির্ভর হয়ে পড়েছিল।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_014",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "ইউরোপীয় সামন্ততন্ত্র",
+        "question_bn": "ইউরোপে সামন্ততন্ত্র খ্রিস্টীয় দশম শতকে সবচেয়ে শক্তিশালী ছিল।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_015",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "medium",
+        "topic_bn": "জয়দেব",
+        "question_bn": "জয়দেব লক্ষ্মণসেনের রাজসভার পঞ্চরত্নের একজন ছিলেন।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_016",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "বল্লালসেনের রচনা",
+        "question_bn": "বল্লালসেন মোট চারটি বই লিখেছিলেন যার মধ্যে দুটি পাওয়া গেছে।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_017",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "পাহাড়পুরের ভাস্কর্য",
+        "question_bn": "পাহাড়পুরের ফলকে কেবলমাত্র বৌদ্ধ দেব-দেবীর মূর্তি রয়েছে।",
+        "correct_answer": "false"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_018",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "অতীশের তিব্বতের প্রভাব",
+        "question_bn": "অতীশের প্রচেষ্টায় তিব্বতে বৌদ্ধধর্ম জনপ্রিয় হয়েছিল।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_019",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "নালন্দার ধ্বংস",
+        "question_bn": "নালন্দা মহাবিহার ত্রয়োদশ শতকে ধ্বংস হয়েছিল।",
+        "correct_answer": "true"
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_tf_020",
+        "type": "true_false",
+        "part": 1,
+        "marks": 1,
+        "difficulty": "hard",
+        "topic_bn": "সদুক্তিকর্ণামৃত",
+        "question_bn": "সদুক্তিকর্ণামৃত গ্রন্থ চতুর্দশ শতকে সংকলিত হয়েছিল।",
+        "correct_answer": "false"
+      }
+    ],
+    "tap_sequence": [
+      {
+        "id": "otit_o_oitijhyo_ch03_seq_001",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সামন্ত ব্যবস্থার স্তরবিন্যাস",
+        "question_bn": "সামন্ত ব্যবস্থার ধাপগুলি উপর থেকে নিচের ক্রমে সাজাও",
+        "items": [
+          "সামন্ত (মাঝারি শাসক)",
+          "জনগণ",
+          "রাজা",
+          "মহাসামন্ত"
+        ],
+        "correct_order": [
+          "রাজা",
+          "মহাসামন্ত",
+          "সামন্ত (মাঝারি শাসক)",
+          "জনগণ"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_seq_002",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চোল প্রশাসনিক স্তর",
+        "question_bn": "চোল প্রশাসনিক একক ছোট থেকে বড় ক্রমে সাজাও",
+        "items": [
+          "নাড়ু",
+          "মণ্ডলম",
+          "গ্রাম (উর)",
+          "রাজ্য"
+        ],
+        "correct_order": [
+          "গ্রাম (উর)",
+          "নাড়ু",
+          "মণ্ডলম",
+          "রাজ্য"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_seq_003",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বাংলা ভাষার বিকাশ",
+        "question_bn": "বাংলা ভাষার উৎপত্তির ক্রম সঠিকভাবে সাজাও",
+        "items": [
+          "প্রাচীন বাংলা",
+          "মাগধী অপভ্রংশ",
+          "আধুনিক বাংলা",
+          "গৌড়-বঙ্গীয় রূপ"
+        ],
+        "correct_order": [
+          "মাগধী অপভ্রংশ",
+          "গৌড়-বঙ্গীয় রূপ",
+          "প্রাচীন বাংলা",
+          "আধুনিক বাংলা"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_seq_004",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "অতীশের জীবনের ঘটনা",
+        "question_bn": "অতীশের জীবনের ঘটনাগুলি কালক্রম অনুযায়ী সাজাও",
+        "items": [
+          "বিক্রমশীল মহাবিহারে আচার্য হওয়া",
+          "তিব্বতে গমন",
+          "জন্ম বজ্রযোগিনী গ্রামে",
+          "দীপঙ্কর-শ্রীজ্ঞান নাম গ্রহণ"
+        ],
+        "correct_order": [
+          "জন্ম বজ্রযোগিনী গ্রামে",
+          "দীপঙ্কর-শ্রীজ্ঞান নাম গ্রহণ",
+          "বিক্রমশীল মহাবিহারে আচার্য হওয়া",
+          "তিব্বতে গমন"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_seq_005",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পাল-সেন শাসনকাল",
+        "question_bn": "নিচের রাজবংশগুলি কালক্রম অনুযায়ী সাজাও (প্রাচীন থেকে আধুনিক)",
+        "items": [
+          "সেন",
+          "গুপ্ত",
+          "পাল",
+          "ব্রিটিশ"
+        ],
+        "correct_order": [
+          "গুপ্ত",
+          "পাল",
+          "সেন",
+          "ব্রিটিশ"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_seq_006",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বৌদ্ধ মতবাদের বিকাশ",
+        "question_bn": "বৌদ্ধ মতবাদের উৎপত্তি ক্রম সাজাও (প্রাচীন থেকে নতুন)",
+        "items": [
+          "সহজযান",
+          "বজ্রযান/তন্ত্রযান",
+          "হীনযান",
+          "মহাযান"
+        ],
+        "correct_order": [
+          "হীনযান",
+          "মহাযান",
+          "বজ্রযান/তন্ত্রযান",
+          "সহজযান"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_seq_007",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পাল রাজাদের ক্রম",
+        "question_bn": "নিচের পাল রাজাদের শাসনের ক্রম সাজাও (প্রথম থেকে শেষ)",
+        "items": [
+          "ধর্মপাল",
+          "রামপাল",
+          "গোপাল",
+          "দেবপাল"
+        ],
+        "correct_order": [
+          "গোপাল",
+          "ধর্মপাল",
+          "দেবপাল",
+          "রামপাল"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_seq_008",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "লক্ষ্মণসেনের পঞ্চরত্ন",
+        "question_bn": "লক্ষ্মণসেনের রাজসভার পঞ্চরত্নের যেকোনো চারজনকে সঠিক ক্রমে সাজাও (বর্ণানুক্রম অনুযায়ী)",
+        "items": [
+          "উমাপতিধর",
+          "জয়দেব",
+          "গোবর্ধন",
+          "শরণ"
+        ],
+        "correct_order": [
+          "উমাপতিধর",
+          "গোবর্ধন",
+          "জয়দেব",
+          "শরণ"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_seq_009",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "পালযুগের বৌদ্ধ আচার্যগণ",
+        "question_bn": "নিচের পালযুগের আচার্যদের কালক্রম অনুযায়ী সাজাও (প্রাচীন থেকে নতুন)",
+        "items": [
+          "দীপঙ্কর-শ্রীজ্ঞান",
+          "শান্তরক্ষিত",
+          "গোরক্ষনাথ",
+          "শান্তিদেব"
+        ],
+        "correct_order": [
+          "শান্তরক্ষিত",
+          "শান্তিদেব",
+          "দীপঙ্কর-শ্রীজ্ঞান",
+          "গোরক্ষনাথ"
+        ]
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_seq_010",
+        "type": "tap_sequence",
+        "part": 1,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ভারত-বহির্বিশ্বের সংস্কৃতি প্রসার",
+        "question_bn": "ভারতীয় সংস্কৃতির প্রভাবের দেশগুলো পশ্চিম থেকে পূর্বে সাজাও",
+        "items": [
+          "ইন্দোনেশিয়া",
+          "তিব্বত",
+          "কম্বোডিয়া",
+          "চিন"
+        ],
+        "correct_order": [
+          "তিব্বত",
+          "চিন",
+          "কম্বোডিয়া",
+          "ইন্দোনেশিয়া"
+        ]
+      }
+    ],
+    "categorize": [
+      {
+        "id": "otit_o_oitijhyo_ch03_cat_001",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "বৌদ্ধ বিহারের অবস্থান",
+        "question_bn": "নিচের বৌদ্ধ বিহারগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "বর্তমান বাংলাদেশে": [
+            "সোমপুরী",
+            "জগদ্দল",
+            "বিক্রমপুরী",
+            "ওদন্তপুরী"
+          ],
+          "বর্তমান ভারতে": [
+            "নালন্দা",
+            "বিক্রমশীল",
+            "নালন্দার কাছের বিহার",
+            "ভাগলপুরের বিহার"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_cat_002",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "পাল ও সেন যুগের বিশেষত্ব",
+        "question_bn": "নিচের বৈশিষ্ট্যগুলিকে সঠিক যুগে ভাগ করো",
+        "categories": {
+          "পাল যুগ": [
+            "বৌদ্ধধর্মের প্রসার",
+            "মহাযান বৌদ্ধমত",
+            "চর্যাপদ রচনা",
+            "বিক্রমশীল প্রতিষ্ঠা"
+          ],
+          "সেন যুগ": [
+            "ব্রাহ্মণ্যধর্মের প্রাধান্য",
+            "বর্ণব্যবস্থা কঠোর",
+            "গীতগোবিন্দম রচনা",
+            "স্মৃতিশাস্ত্র রচনা"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_cat_003",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "চোল ও পাল শাসনের বৈশিষ্ট্য",
+        "question_bn": "নিচের বৈশিষ্ট্যগুলি চোল না পাল — ভাগ করো",
+        "categories": {
+          "চোল শাসন": [
+            "উর ও নাড়ু পরিষদ",
+            "ব্রোঞ্জ হস্তশিল্প",
+            "তাঞ্জোর মন্দির",
+            "নগরম পরিষদ"
+          ],
+          "পাল শাসন": [
+            "বৌদ্ধ বিহার প্রতিষ্ঠা",
+            "ধীমান ও বীটপাল",
+            "প্রাচ্য শিল্পরীতি",
+            "রামচরিত কাব্য"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_cat_004",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "লেখক ও রচনার বিষয়",
+        "question_bn": "নিচের লেখকদের রচনার বিষয় অনুযায়ী ভাগ করো",
+        "categories": {
+          "সাহিত্য রচনা": [
+            "জয়দেব",
+            "ধোয়ী",
+            "সন্ধ্যাকর নন্দী",
+            "গোবর্ধন"
+          ],
+          "শাস্ত্রগ্রন্থ রচনা": [
+            "চক্রপাণিদত্ত",
+            "বল্লালসেন",
+            "হলায়ুধ",
+            "সর্বানন্দ"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_cat_005",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "পাল-সেন যুগের পণ্য ও উৎপাদন",
+        "question_bn": "নিচের জিনিসগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "কৃষিজ পণ্য": [
+            "ধান",
+            "সরষে",
+            "কার্পাস",
+            "পান"
+          ],
+          "অকৃষিজ পণ্য": [
+            "মাছ",
+            "কাঠ",
+            "ধাতুর গয়না",
+            "কার্পাস বস্ত্র"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_cat_006",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "বৌদ্ধ মতবাদ",
+        "question_bn": "নিচের বৌদ্ধ মতবাদগুলিকে সঠিক দলে ভাগ করো",
+        "categories": {
+          "পুরনো মতবাদ": [
+            "হীনযান",
+            "মহাযান",
+            "থেরবাদ",
+            "শ্রাবকযান"
+          ],
+          "পাল যুগে নতুন মতবাদ": [
+            "বজ্রযান",
+            "তন্ত্রযান",
+            "সহজযান",
+            "কালচক্রযান"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_cat_007",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "ভারত ও বহির্বিশ্বের সম্পর্ক",
+        "question_bn": "নিচের বিষয়গুলি ভারত থেকে বাইরে গেছে না বাইরে থেকে ভারতে এসেছে — ভাগ করো",
+        "categories": {
+          "ভারত থেকে বাইরে গেছে": [
+            "বৌদ্ধধর্ম",
+            "রামায়ণের গল্প",
+            "ভারতীয় লিপি",
+            "সংস্কৃত ভাষার প্রভাব"
+          ],
+          "বাইরে থেকে ভারতে এসেছে": [
+            "আরব বণিক",
+            "ইসলামীয় সংস্কৃতি",
+            "পানপাতা চাষ",
+            "হুয়েন সাং"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_cat_008",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "hard",
+        "topic_bn": "সামন্ত ও রাজস্ব ব্যবস্থা",
+        "question_bn": "নিচের বিষয়গুলি ভারতীয় না ইউরোপীয় সামন্ততন্ত্রের বৈশিষ্ট্য — ভাগ করো",
+        "categories": {
+          "ভারতীয় সামন্ততন্ত্র": [
+            "সামন্ত ও মহাসামন্ত",
+            "ব্রশ্বদেয় ব্যবস্থা",
+            "নিগম বা শিল্পী গোষ্ঠী",
+            "রাজস্ব থেকে সামন্তের আয়"
+          ],
+          "ইউরোপীয় সামন্ততন্ত্র": [
+            "নাইট বা অশ্বারোহী",
+            "ম্যানর বা খামার",
+            "ভূমিদাস বা সার্ফ",
+            "দুর্গ নির্মাণ"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_cat_009",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "medium",
+        "topic_bn": "পাল যুগের শিল্পীদের কাজ",
+        "question_bn": "নিচের শিল্পীদের সৃষ্টিকর্ম অনুযায়ী ভাগ করো",
+        "categories": {
+          "ভাস্কর্য ও চিত্রশিল্পী": [
+            "ধীমান",
+            "বীটপাল",
+            "পোড়ামাটির শিল্পী",
+            "পাহাড়পুরের ফলক নির্মাতা"
+          ],
+          "সাহিত্যিক ও জ্ঞানী": [
+            "সন্ধ্যাকর নন্দী",
+            "চক্রপাণিদত্ত",
+            "শান্তরক্ষিত",
+            "অতীশ দীপঙ্কর"
+          ]
+        }
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_cat_010",
+        "type": "categorize",
+        "part": 1,
+        "marks": 2,
+        "marks_per_item": 0.5,
+        "difficulty": "easy",
+        "topic_bn": "পাল-সেন যুগের ধর্ম",
+        "question_bn": "নিচের বিষয়গুলিকে সঠিক ধর্মের দলে ভাগ করো",
+        "categories": {
+          "বৌদ্ধধর্মের বিষয়": [
+            "চর্যাপদ",
+            "বিহার",
+            "সিদ্ধাচার্য",
+            "নির্বাণ"
+          ],
+          "ব্রাহ্মণ্যধর্মের বিষয়": [
+            "স্মৃতিশাস্ত্র",
+            "বর্ণব্যবস্থা",
+            "শিব পূজা",
+            "ব্রশ্বদেয়"
+          ]
+        }
+      }
+    ],
+    "short_write": [
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_001",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "মুদ্রা ব্যবস্থা",
+        "question_bn": "পাল-সেন যুগে বাংলায় কেনাবেচার প্রধান মাধ্যম কী ছিল?",
+        "expected_answer": "কড়ি",
+        "max_words": 1,
+        "answer_slot_id": 1
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_002",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সামন্ত ব্যবস্থা",
+        "question_bn": "রাজহক ও শাসনের আধিকার ভাগ হয়ে যাওয়ার ব্যবস্থাকে কী বলে?",
+        "expected_answer": "সামন্ত ব্যবস্থা",
+        "max_words": 2,
+        "answer_slot_id": 2
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_003",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চোল প্রশাসন",
+        "question_bn": "চোল রাজ্যে কৃষকদের গ্রাম পরিচালনাকারী সভার নাম কী?",
+        "expected_answer": "উর",
+        "max_words": 1,
+        "answer_slot_id": 3
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_004",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চোল প্রশাসন",
+        "question_bn": "চোল রাজ্যে ব্যবসায়ীদের পরিষদের নাম কী?",
+        "expected_answer": "নগরম",
+        "max_words": 1,
+        "answer_slot_id": 4
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_005",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পালযুগের শিল্পরীতি",
+        "question_bn": "পালযুগের শিল্পরীতিকে কী বলা হয়?",
+        "expected_answer": "প্রাচ্য শিল্পরীতি",
+        "max_words": 2,
+        "answer_slot_id": 5
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_006",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চর্যাপদ",
+        "question_bn": "চর্যাপদ কাদের লেখা?",
+        "expected_answer": "বৌদ্ধ সিদ্ধাচার্য",
+        "max_words": 2,
+        "answer_slot_id": 6
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_007",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "বিক্রমশীল",
+        "question_bn": "বিক্রমশীল মহাবিহার কে প্রতিষ্ঠা করেন?",
+        "expected_answer": "ধর্মপাল",
+        "max_words": 1,
+        "answer_slot_id": 7
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_008",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "অতীশের জন্মস্থান",
+        "question_bn": "অতীশ দীপঙ্কর কোন গ্রামে জন্মেছিলেন?",
+        "expected_answer": "বজ্রযোগিনী",
+        "max_words": 1,
+        "answer_slot_id": 8
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_009",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চোলের হস্তশিল্প",
+        "question_bn": "চোল রাজ্যের কোন হস্তশিল্প বিখ্যাত ছিল?",
+        "expected_answer": "ব্রোঞ্জ হস্তশিল্প",
+        "max_words": 2,
+        "answer_slot_id": 9
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_010",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পাল-সেন ফসল",
+        "question_bn": "পাল-সেন যুগে বাংলার প্রধান ফসল কী ছিল?",
+        "expected_answer": "ধান",
+        "max_words": 1,
+        "answer_slot_id": 10
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_011",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "ব্রশ্বদেয়",
+        "question_bn": "ব্রাহ্মণদের নিষ্কর জমিদানের ব্যবস্থাকে কী বলা হতো?",
+        "expected_answer": "ব্রশ্বদেয়",
+        "max_words": 1,
+        "answer_slot_id": 11
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_012",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "গীতগোবিন্দম",
+        "question_bn": "গীতগোবিন্দম কে লিখেছিলেন?",
+        "expected_answer": "জয়দেব",
+        "max_words": 1,
+        "answer_slot_id": 12
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_013",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পাল-সেন যুগের বস্ত্র",
+        "question_bn": "পাল-সেন যুগে বাংলার প্রধান শিল্পদ্রব্য কী ছিল?",
+        "expected_answer": "কার্পাস বস্ত্র",
+        "max_words": 2,
+        "answer_slot_id": 13
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_014",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চর্যাপদের ভাষা",
+        "question_bn": "চর্যাপদে কোন ভাষার নিদর্শন পাওয়া যায়?",
+        "expected_answer": "আদি বাংলা",
+        "max_words": 2,
+        "answer_slot_id": 14
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_015",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "সেন যুগের ধর্ম",
+        "question_bn": "সেন রাজারা কোন ধর্মকে প্রাধান্য দিতেন?",
+        "expected_answer": "ব্রাহ্মণ্যধর্ম",
+        "max_words": 1,
+        "answer_slot_id": 15
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_016",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "রামচরিত",
+        "question_bn": "রামচরিত কাব্য কে রচনা করেন?",
+        "expected_answer": "সন্ধ্যাকর নন্দী",
+        "max_words": 2,
+        "answer_slot_id": 16
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_017",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "চর্যাপদ উদ্ধার",
+        "question_bn": "চর্যাপদের পুঁথি কে উদ্ধার করেন?",
+        "expected_answer": "হরপ্রসাদ শাস্ত্রী",
+        "max_words": 2,
+        "answer_slot_id": 17
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_018",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "পালযুগের শিল্পী",
+        "question_bn": "পালযুগে বরেন্দ্রভূমির বিখ্যাত শিল্পী কে ছিলেন?",
+        "expected_answer": "ধীমান",
+        "max_words": 1,
+        "answer_slot_id": 18
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_019",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "তাঞ্জোর মন্দির",
+        "question_bn": "তাঞ্জোরের বিখ্যাত মন্দির কোন শাসকের আমলে তৈরি হয়?",
+        "expected_answer": "রাজরাজ",
+        "max_words": 1,
+        "answer_slot_id": 19
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_020",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "easy",
+        "topic_bn": "নাড়ু",
+        "question_bn": "চোল রাজ্যে কয়েকটি গ্রাম নিয়ে গঠিত প্রশাসনিক এককের নাম কী?",
+        "expected_answer": "নাড়ু",
+        "max_words": 1,
+        "answer_slot_id": 20
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_021",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পালযুগের ভাষা",
+        "question_bn": "পালযুগে উচ্চশিক্ষা ও সাহিত্য কোন ভাষায় রচিত হতো?",
+        "expected_answer": "সংস্কৃত",
+        "max_words": 1,
+        "answer_slot_id": 21
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_022",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "অতীশের ধর্মপ্রচার",
+        "question_bn": "অতীশ তিব্বতে কোন বৌদ্ধমত প্রচার করেন?",
+        "expected_answer": "মহাযান বৌদ্ধধর্ম",
+        "max_words": 2,
+        "answer_slot_id": 22
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_023",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বিক্রমশীলের ছাত্র",
+        "question_bn": "বিক্রমশীল মহাবিহারে সর্বোচ্চ কতজন ছাত্র পড়তেন?",
+        "expected_answer": "তিন হাজার",
+        "max_words": 2,
+        "answer_slot_id": 23
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_024",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "নালন্দার আবাসিক",
+        "question_bn": "নালন্দার সমৃদ্ধির যুগে কতজন আবাসিক ভিক্ষু থাকতেন?",
+        "expected_answer": "দশ হাজার",
+        "max_words": 2,
+        "answer_slot_id": 24
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_025",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পাল বৌদ্ধ মত",
+        "question_bn": "বজ্রযান বা তন্ত্রযানের নেতাদের কী বলা হতো?",
+        "expected_answer": "সিদ্ধাচার্য",
+        "max_words": 1,
+        "answer_slot_id": 25
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_026",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "কৃষি কর",
+        "question_bn": "পাল-সেন যুগে রাজা ফসলের কত অংশ কর নিতেন?",
+        "expected_answer": "এক-ষষ্ঠাংশ",
+        "max_words": 1,
+        "answer_slot_id": 26
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_027",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "দানসাগর",
+        "question_bn": "দানসাগর কে লিখেছিলেন?",
+        "expected_answer": "বল্লালসেন",
+        "max_words": 1,
+        "answer_slot_id": 27
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_028",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পবনদূত",
+        "question_bn": "পবনদূত কাব্য কে রচনা করেন?",
+        "expected_answer": "ধোয়ী",
+        "max_words": 1,
+        "answer_slot_id": 28
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_029",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সোমপুরী বিহারের স্থান",
+        "question_bn": "সোমপুরী বিহার কোথায় ছিল?",
+        "expected_answer": "পাহাড়পুরে",
+        "max_words": 1,
+        "answer_slot_id": 29
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_030",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "আঙ্কোরভাটের দেবতা",
+        "question_bn": "আঙ্কোরভাটের বিখ্যাত মন্দির কোন দেবতার?",
+        "expected_answer": "বিষ্ণু",
+        "max_words": 1,
+        "answer_slot_id": 30
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_031",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "বোরোবোদুরের দেশ",
+        "question_bn": "বোরোবোদুরের বৌদ্ধ মন্দির কোন দেশে অবস্থিত?",
+        "expected_answer": "ইন্দোনেশিয়া",
+        "max_words": 1,
+        "answer_slot_id": 31
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_032",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "ব্রাহ্মণসর্বস্ব",
+        "question_bn": "ব্রাহ্মণসর্বস্ব গ্রন্থ কে লিখেছিলেন?",
+        "expected_answer": "হলায়ুধ",
+        "max_words": 1,
+        "answer_slot_id": 32
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_033",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "চর্যাপদের পুঁথি উদ্ধারের স্থান",
+        "question_bn": "চর্যাপদের পুঁথি কোথা থেকে উদ্ধার হয়েছিল?",
+        "expected_answer": "নেপাল",
+        "max_words": 1,
+        "answer_slot_id": 33
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_034",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "পালযুগের মন্দির উপাদান",
+        "question_bn": "পালযুগের মন্দির নির্মাণে কী ব্যবহৃত হতো?",
+        "expected_answer": "পোড়ামাটির ইট",
+        "max_words": 2,
+        "answer_slot_id": 34
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_035",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "সদুক্তিকর্ণামৃত",
+        "question_bn": "সদুক্তিকর্ণামৃত কে সংকলন করেছিলেন?",
+        "expected_answer": "শ্রীধর দাস",
+        "max_words": 2,
+        "answer_slot_id": 35
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_036",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "medium",
+        "topic_bn": "লক্ষ্মণসেনের ধর্ম",
+        "question_bn": "লক্ষ্মণসেন কোন ধর্মের অনুসারী ছিলেন?",
+        "expected_answer": "বৈষ্ণব",
+        "max_words": 1,
+        "answer_slot_id": 36
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_037",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "অতীশের জীবনকাল",
+        "question_bn": "অতীশ দীপঙ্করের মৃত্যু সাল কত?",
+        "expected_answer": "১০৫৩",
+        "max_words": 1,
+        "answer_slot_id": 37
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_038",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "অতীশের তিব্বত যাত্রার সাল",
+        "question_bn": "অতীশ কত সালে তিব্বতে গিয়েছিলেন?",
+        "expected_answer": "১০৪০",
+        "max_words": 1,
+        "answer_slot_id": 38
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_039",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বাংলা ভাষার উৎপত্তিকাল",
+        "question_bn": "প্রাচীন বাংলা ভাষার জন্ম আনুমানিক কোন শতাব্দীতে?",
+        "expected_answer": "নবম শতকে",
+        "max_words": 2,
+        "answer_slot_id": 39
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_040",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "নালন্দার শিক্ষক সংখ্যা",
+        "question_bn": "নালন্দার সমৃদ্ধির যুগে কতজন শিক্ষক ছিলেন?",
+        "expected_answer": "দেড় হাজার",
+        "max_words": 2,
+        "answer_slot_id": 40
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_041",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ধীমানের শিল্পক্ষেত্র",
+        "question_bn": "ধীমান ও বীটপাল কোন ধরনের শিল্পে বিখ্যাত ছিলেন?",
+        "expected_answer": "ধাতব শিল্প",
+        "max_words": 2,
+        "answer_slot_id": 41
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_042",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "কাবেরী সেচ",
+        "question_bn": "চোল রাজ্যে সেচের জন্য কোন নদী থেকে খাল কাটা হয়েছিল?",
+        "expected_answer": "কাবেরী",
+        "max_words": 1,
+        "answer_slot_id": 42
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_043",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "পালযুগের বৌদ্ধ আচার্য",
+        "question_bn": "অষ্টম-নবম শতকে পালযুগের বিখ্যাত বৌদ্ধ আচার্য কে ছিলেন?",
+        "expected_answer": "শান্তরক্ষিত",
+        "max_words": 1,
+        "answer_slot_id": 43
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_044",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "ইউরোপীয় সামন্ততন্ত্রের সেরা সময়",
+        "question_bn": "ইউরোপে সামন্ততন্ত্রের সেরা সময় কোন শতক ছিল?",
+        "expected_answer": "দ্বাদশ শতক",
+        "max_words": 2,
+        "answer_slot_id": 44
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_045",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "পালযুগের প্রাচীন বিহার",
+        "question_bn": "পালযুগের বৌদ্ধ শিক্ষার সবচেয়ে পুরনো বিখ্যাত বিহার কোনটি?",
+        "expected_answer": "নালন্দা",
+        "max_words": 1,
+        "answer_slot_id": 45
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_046",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "আরব বণিকদের প্রভাব",
+        "question_bn": "কোন সাগরে আরব বণিকদের দাপটের কারণে বাংলার বণিকরা পিছু হটেছিল?",
+        "expected_answer": "পশ্চিম সাগর",
+        "max_words": 2,
+        "answer_slot_id": 46
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_047",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "সদুক্তিকর্ণামৃতের সময়",
+        "question_bn": "সদুক্তিকর্ণামৃত গ্রন্থ কোন শতকে সংকলিত হয়?",
+        "expected_answer": "ত্রয়োদশ শতক",
+        "max_words": 2,
+        "answer_slot_id": 47
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_048",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "পাল রাজাদের বর্ণ",
+        "question_bn": "পাল রাজারা কোন বর্ণের ছিলেন?",
+        "expected_answer": "ক্ষত্রিয়",
+        "max_words": 1,
+        "answer_slot_id": 48
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_049",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "বিক্রমশীলের প্রতিষ্ঠাকাল",
+        "question_bn": "বিক্রমশীল মহাবিহার কোন শতকে প্রতিষ্ঠিত হয়েছিল?",
+        "expected_answer": "অষ্টম শতক",
+        "max_words": 2,
+        "answer_slot_id": 49
+      },
+      {
+        "id": "otit_o_oitijhyo_ch03_sw_050",
+        "type": "short_write",
+        "part": 2,
+        "marks": 2,
+        "difficulty": "hard",
+        "topic_bn": "অতীশের পরিচিতি",
+        "question_bn": "অতীশের বাড়ি কোন বিশেষ নামে পরিচিত?",
+        "expected_answer": "নাস্তিক পণ্ডিতের",
+        "max_words": 2,
+        "answer_slot_id": 50
+      }
+    ]
+  }
+}
