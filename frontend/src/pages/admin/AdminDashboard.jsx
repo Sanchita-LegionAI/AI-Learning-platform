@@ -1053,26 +1053,36 @@ function WrittenAnswersPanel({ token, sessions, fmt }) {
               <p className="text-[11px] font-ui text-ink-light bn">{selectedSession.chapter_name}</p>
             </div>
             <div className="divide-y divide-border">
+              {/* Use evaluations if available (have student_answer, correct_answer, feedback)
+                  Otherwise fall back to question list with ocr_answers map */}
               {(answers.part2_evals?.length > 0
-                ? answers.part2_evals
-                : answers.session?.part2_questions || []
-              ).map((item, i) => {
-                // Use eval rows if available (have question_bn + student_answer + correct_answer)
-                // Fall back to question list if no evals yet
-                const isEval = !!item.session_id
-                const questionBn   = isEval ? item.question_bn   : item.question_bn
-                const studentAns   = isEval ? item.student_answer : null
-                const correctAns   = isEval ? item.correct_answer : null
-                const marksAwarded = isEval ? item.marks_awarded  : null
-                const marksMax     = isEval ? item.marks_max      : null
-                const isCorrect    = isEval ? item.is_correct     : null
-                const feedbackBn   = isEval ? item.feedback_bn    : null
-                const slotId       = isEval ? (i + 1) : item.answer_slot_id
-
-                // Also check ocr_answers map for typed answers
-                const ocrAns = answers.session?.part2_ocr_answers?.[slotId]
-                            ?? answers.session?.part2_ocr_answers?.[String(slotId)]
-                const displayAnswer = studentAns || ocrAns || '—'
+                ? answers.part2_evals.map((ev, i) => ({
+                    slotId:       i + 1,
+                    questionBn:   ev.question_bn,
+                    studentAns:   ev.student_answer,
+                    correctAns:   ev.correct_answer,
+                    marksAwarded: ev.marks_awarded,
+                    marksMax:     ev.marks_max,
+                    isCorrect:    ev.is_correct,
+                    feedbackBn:   ev.feedback_bn,
+                  }))
+                : (answers.session?.part2_questions || []).map((q, i) => {
+                    const slotId = q.answer_slot_id
+                    const ocrAns = answers.session?.part2_ocr_answers?.[slotId]
+                                ?? answers.session?.part2_ocr_answers?.[String(slotId)]
+                    return {
+                      slotId,
+                      questionBn:   q.question_bn,
+                      studentAns:   ocrAns || null,
+                      correctAns:   q.expected_answer || null,
+                      marksAwarded: null,
+                      marksMax:     null,
+                      isCorrect:    null,
+                      feedbackBn:   null,
+                    }
+                  })
+              ).map(({ slotId, questionBn, studentAns, correctAns, marksAwarded, marksMax, isCorrect, feedbackBn }, i) => {
+                const displayAnswer = studentAns || '—'
 
                 return (
                   <div key={i} className="px-4 py-3 space-y-2">
