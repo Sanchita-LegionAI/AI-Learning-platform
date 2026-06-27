@@ -959,9 +959,10 @@ function AnalyticsTab({ token }) {
               </tbody>
             </table>
           </div>
+        </div>
+      )}
 
-        {/* ── Exam Detail Panel ── */}
-        {selectedExam && (
+      {selectedExam && (
           <div className="bg-white rounded-xl border border-border overflow-hidden">
             {/* Header */}
             <div className="flex items-center justify-between px-4 py-3 bg-gray-50 border-b border-border">
@@ -1050,7 +1051,6 @@ Correct: ${e.correct_answer}`}
             )}
           </div>
         )}
-      )}
 
       {/* ── Chapter Stats ── */}
       {subTab === 'chapters' && (
