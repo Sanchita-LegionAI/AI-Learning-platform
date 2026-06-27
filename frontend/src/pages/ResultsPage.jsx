@@ -6,6 +6,7 @@ import { useLocation, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import { api } from '../lib/api'
 import ProgressBar from '../components/ProgressBar'
+import AiEvaluationCard from '../components/AiEvaluationCard'
 import LoadingMessage from '../components/LoadingMessage'
 
 const GRADE_COLORS = {
@@ -248,6 +249,15 @@ export default function ResultsPage() {
           )}
         </div>
 
+
+        {/* Part 2 skipped notice */}
+        {(sessionData.part2_skipped || state?.result?.part2_skipped) && (
+          <div className="bg-amber-50 border border-amber-200 rounded-xl px-4 py-3 mb-3">
+            <p className="bn text-sm text-amber-800">
+              ⚠️ দ্বিতীয় অংশ বাদ দেওয়া হয়েছে — ১ নম্বর কাটা হয়েছে।
+            </p>
+          </div>
+        )}
         {/* Part score breakdown */}
         <div className="grid grid-cols-2 gap-3 mb-5">
           <div className="card text-center bg-blue-50 border-blue-200">
@@ -289,6 +299,10 @@ export default function ResultsPage() {
             </div>
           </>
         )}
+
+
+        {/* AI Evaluation */}
+        <AiEvaluationCard />
 
         {/* Actions */}
         <div className="pb-8 space-y-3">

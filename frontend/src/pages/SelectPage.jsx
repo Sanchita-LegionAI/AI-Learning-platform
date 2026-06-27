@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import { api } from '../lib/api'
 import ProgressBar from '../components/ProgressBar'
+import AiEvaluationCard from '../components/AiEvaluationCard'
 import LoadingMessage from '../components/LoadingMessage'
 import ErrorMessage from '../components/ErrorMessage'
 
@@ -104,6 +105,9 @@ export default function SelectPage() {
         </div>
 
         {error && <ErrorMessage message={error} onRetry={() => setError('')} />}
+
+        {/* AI Evaluation Card */}
+        <AiEvaluationCard />
 
         {activeExamCount >= MAX_ACTIVE_EXAMS && (
           <div className="bg-red-50 border border-red-200 rounded-xl px-4 py-3">

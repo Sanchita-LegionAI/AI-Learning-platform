@@ -1,12 +1,22 @@
 // pages/Part2Page.jsx
-// Shows Part 2 short_write questions — student writes answers on paper, then photographs.
+// Shows Part 2 short_write questions.
+// Student can either write answers on paper → photograph,
+// OR skip Part 2 entirely with a -1 mark penalty.
 
+import { useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
+import { useAuth } from '../context/AuthContext'
+import { api } from '../lib/api'
 import ProgressBar from '../components/ProgressBar'
 
 export default function Part2Page() {
-  const { state }  = useLocation()
-  const navigate   = useNavigate()
+  const { state }    = useLocation()
+  const navigate     = useNavigate()
+  const { token }    = useAuth()
+
+  const [skipping,     setSkipping]     = useState(false)
+  const [skipError,    setSkipError]    = useState('')
+  const [showConfirm,  setShowConfirm]  = useState(false)
 
   if (!state?.session_id || !state?.part2_questions) {
     navigate('/exam/select')
@@ -14,6 +24,36 @@ export default function Part2Page() {
   }
 
   const { session_id, part2_questions, part1_result, examData } = state
+
+  const handleSkip = async () => {
+    setSkipping(true)
+    setSkipError('')
+    try {
+      const result = await api.skipPart2(session_id, token)
+      // Go straight to results with the skip result
+      navigate('/exam/results', {
+        state: {
+          result: {
+            total_score_awarded:  result.total_score,
+            total_score_max:      result.total_max,
+            grade:                result.grade,
+            percentage:           result.percentage,
+            part2_score_awarded:  0,
+            part2_score_max:      examData?.part2_max_marks ?? 0,
+            overall_feedback_bn:  `দ্বিতীয় অংশ বাদ দেওয়া হয়েছে। ১ নম্বর কাটা হয়েছে।`,
+            results:              [],
+            part2_skipped:        true,
+            penalty:              result.penalty,
+          },
+          part1_result,
+        }
+      })
+    } catch (e) {
+      setSkipError(e.message)
+      setSkipping(false)
+      setShowConfirm(false)
+    }
+  }
 
   return (
     <div className="min-h-screen bg-cream flex flex-col">
@@ -59,8 +99,6 @@ export default function Part2Page() {
                   </div>
                 </div>
               </div>
-
-              {/* Answer line visual */}
               <div className="mt-3 border-b-2 border-dashed border-pink-300 pb-1">
                 <p className="text-xs font-ui text-pink-300">উত্তর:</p>
               </div>
@@ -68,8 +106,44 @@ export default function Part2Page() {
           ))}
         </div>
 
-        {/* Proceed */}
+        {/* Skip error */}
+        {skipError && (
+          <div className="bg-red-50 border border-red-200 rounded-xl px-4 py-3">
+            <p className="bn text-sm text-red-700">{skipError}</p>
+          </div>
+        )}
+
+        {/* Confirm skip dialog */}
+        {showConfirm && (
+          <div className="bg-amber-50 border border-amber-300 rounded-xl px-4 py-4 space-y-3">
+            <p className="bn text-sm font-bold text-amber-800">নিশ্চিত করো</p>
+            <p className="bn text-sm text-amber-700">
+              দ্বিতীয় অংশ বাদ দিলে তোমার মোট নম্বর থেকে <strong>১ নম্বর কাটা</strong> যাবে।
+              তবুও কি বাদ দিতে চাও?
+            </p>
+            <div className="flex gap-3">
+              <button
+                onClick={handleSkip}
+                disabled={skipping}
+                className="flex-1 bg-amber-500 text-white font-ui font-semibold text-sm py-2.5 rounded-xl
+                  hover:bg-amber-600 disabled:opacity-50 transition-all"
+              >
+                {skipping ? 'অপেক্ষা করো…' : 'হ্যাঁ, বাদ দাও (-১ নম্বর)'}
+              </button>
+              <button
+                onClick={() => setShowConfirm(false)}
+                disabled={skipping}
+                className="flex-1 btn-secondary"
+              >
+                না, লিখব
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* Actions */}
         <div className="pb-8 space-y-3">
+          {/* Primary: proceed to photo */}
           <button
             onClick={() => navigate('/exam/upload', {
               state: { session_id, part2_questions, part1_result, examData }
@@ -78,6 +152,18 @@ export default function Part2Page() {
           >
             উত্তর লেখা হয়েছে — ছবি তুলুন 📷
           </button>
+
+          {/* Secondary: skip with penalty */}
+          {!showConfirm && (
+            <button
+              onClick={() => setShowConfirm(true)}
+              className="w-full text-sm font-ui font-medium text-amber-700 border border-amber-300
+                bg-amber-50 hover:bg-amber-100 py-3 rounded-xl transition-all"
+            >
+              পরীক্ষা শেষ করুন  <span className="text-amber-500 font-semibold">(-১ নম্বর)</span>
+            </button>
+          )}
+
           <button
             onClick={() => navigate(-1)}
             className="btn-secondary"

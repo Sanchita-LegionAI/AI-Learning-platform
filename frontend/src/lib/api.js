@@ -39,11 +39,17 @@ export const api = {
     }, token),
 
   // Step 2: submit Part 1 answers — instant server-side evaluation, no LLM
-  // answers: { "question_db_id": answer_value }
   submitPart1: (sessionId, answers, token) =>
     request('/api/exam/submit-part1', {
       method: 'POST',
       body: JSON.stringify({ session_id: sessionId, answers }),
+    }, token),
+
+  // Step 2b: SKIP Part 2 — deducts 1 mark, completes session immediately
+  skipPart2: (sessionId, token) =>
+    request('/api/exam/skip-part2', {
+      method: 'POST',
+      body: JSON.stringify({ session_id: sessionId }),
     }, token),
 
   // Step 3: upload Part 2 answer sheet photo to R2
@@ -61,7 +67,6 @@ export const api = {
     }, token),
 
   // Step 4b: student confirms (or edits) OCR results
-  // confirmedAnswers: { "slot_id": "ocr_text" }
   submitOcrAnswers: (sessionId, confirmedAnswers, token) =>
     request('/api/exam/submit-ocr-answers', {
       method: 'POST',
@@ -74,6 +79,15 @@ export const api = {
       method: 'POST',
       body: JSON.stringify({ session_id: sessionId }),
     }, token),
+
+  // ── AI Evaluation ─────────────────────────────────────────────────────────
+  // Request a new AI evaluation (once per day)
+  requestAiEvaluation: (token) =>
+    request('/api/exam/ai-evaluation', { method: 'POST', body: '{}' }, token),
+
+  // Get all saved AI evaluations for this user
+  getAiEvaluations: (token) =>
+    request('/api/exam/ai-evaluations', {}, token),
 
   // ── Session management ────────────────────────────────────────────────────────
   getSession: (sessionId, token) =>
