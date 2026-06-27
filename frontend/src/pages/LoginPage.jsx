@@ -3,7 +3,6 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
 import { useAuth } from '../context/AuthContext'
-import ProgressBar from '../components/ProgressBar'
 
 export default function LoginPage() {
   const { user, signOut } = useAuth()
@@ -77,7 +76,6 @@ export default function LoginPage() {
 
     return (
       <div className="min-h-screen bg-cream flex flex-col">
-        <ProgressBar currentStep="login" />
         <div className="flex-1 flex flex-col items-center justify-center px-4 pb-10">
 
           {/* Logo */}
@@ -147,7 +145,6 @@ export default function LoginPage() {
   // ── Normal login form ────────────────────────────────────────────────────
   return (
     <div className="min-h-screen bg-cream flex flex-col">
-      <ProgressBar currentStep="login" />
 
       <div className="flex-1 flex flex-col items-center justify-center px-4 pb-10">
         {/* Logo / header */}
