@@ -959,7 +959,6 @@ function AnalyticsTab({ token }) {
               </tbody>
             </table>
           </div>
-        </div>
 
         {/* ── Exam Detail Panel ── */}
         {selectedExam && (
@@ -1051,6 +1050,7 @@ Correct: ${e.correct_answer}`}
             )}
           </div>
         )}
+      )}
 
       {/* ── Chapter Stats ── */}
       {subTab === 'chapters' && (
