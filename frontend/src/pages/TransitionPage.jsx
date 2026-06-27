@@ -1,7 +1,13 @@
 // pages/TransitionPage.jsx
-// Shows Part 1 score instantly, then guides student to Part 2 (write on paper)
+// Shows Part 1 score, then lets student:
+//   A) Skip Part 2 entirely (-1 mark)
+//   B) Type answers directly
+//   C) Write on paper and photograph
 
+import { useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
+import { useAuth } from '../context/AuthContext'
+import { api } from '../lib/api'
 import ProgressBar from '../components/ProgressBar'
 
 const GRADE_CONFIG = {
@@ -14,8 +20,13 @@ const GRADE_CONFIG = {
 }
 
 export default function TransitionPage() {
-  const { state }  = useLocation()
-  const navigate   = useNavigate()
+  const { state }   = useLocation()
+  const navigate    = useNavigate()
+  const { token }   = useAuth()
+
+  const [showSkipConfirm, setShowSkipConfirm] = useState(false)
+  const [skipping,        setSkipping]        = useState(false)
+  const [skipError,       setSkipError]       = useState('')
 
   if (!state?.session_id || !state?.part1_result) {
     navigate('/exam/select')
@@ -24,8 +35,36 @@ export default function TransitionPage() {
 
   const { session_id, part1_result, part2_questions = [], examData } = state
   const { score_awarded, score_max, percentage, grade } = part1_result
-
   const gc = GRADE_CONFIG[grade] || GRADE_CONFIG['B']
+
+  const handleSkip = async () => {
+    setSkipping(true)
+    setSkipError('')
+    try {
+      const result = await api.skipPart2(session_id, token)
+      navigate('/exam/results', {
+        state: {
+          result: {
+            total_score_awarded:  result.total_score,
+            total_score_max:      result.total_max,
+            grade:                result.grade,
+            percentage:           result.percentage,
+            part2_score_awarded:  0,
+            part2_score_max:      examData?.part2_max_marks ?? 0,
+            overall_feedback_bn:  'দ্বিতীয় অংশ বাদ দেওয়া হয়েছে। ১ নম্বর কাটা হয়েছে।',
+            results:              [],
+            part2_skipped:        true,
+            penalty:              result.penalty,
+          },
+          part1_result,
+        }
+      })
+    } catch (e) {
+      setSkipError(e.message)
+      setSkipping(false)
+      setShowSkipConfirm(false)
+    }
+  }
 
   return (
     <div className="min-h-screen bg-cream flex flex-col">
@@ -42,7 +81,7 @@ export default function TransitionPage() {
               <p className="text-3xl font-bold font-ui text-ink">{score_awarded}/{score_max}</p>
               <p className="text-xs font-ui text-ink-light">নম্বর</p>
             </div>
-            <div className={`w-px h-10 bg-border`} />
+            <div className="w-px h-10 bg-border" />
             <div>
               <p className={`text-3xl font-bold font-ui ${gc.color}`}>{grade}</p>
               <p className="text-xs font-ui text-ink-light">গ্রেড</p>
@@ -60,19 +99,6 @@ export default function TransitionPage() {
           <div className="flex-1 h-px bg-border" />
           <p className="text-xs font-ui text-ink-light">এখন দ্বিতীয় অংশ</p>
           <div className="flex-1 h-px bg-border" />
-        </div>
-
-        {/* Part 2 instructions */}
-        <div className="card bg-pink-50 border-pink-200">
-          <h2 className="bn text-base font-bold text-pink-800 mb-2">✏️ কাগজে লেখার পালা</h2>
-          <p className="bn text-sm text-pink-700 leading-relaxed mb-3">
-            এখন নিচের প্রশ্নগুলোর উত্তর কাগজে লিখতে হবে। প্রতিটি উত্তর মাত্র ১-২টি শব্দে।
-          </p>
-          <ul className="bn text-xs text-pink-600 space-y-1 list-disc list-inside">
-            <li>কাগজে নম্বর অনুযায়ী লেখো</li>
-            <li>বড় করে স্পষ্টভাবে লেখো</li>
-            <li>লেখা শেষে ছবি তুলবে</li>
-          </ul>
         </div>
 
         {/* Part 2 question preview */}
@@ -95,13 +121,62 @@ export default function TransitionPage() {
           </div>
         </div>
 
-        <div className="pb-8">
+        {/* Skip error */}
+        {skipError && (
+          <div className="bg-red-50 border border-red-200 rounded-xl px-4 py-3">
+            <p className="bn text-sm text-red-700">{skipError}</p>
+          </div>
+        )}
+
+        {/* Skip confirm dialog */}
+        {showSkipConfirm && (
+          <div className="bg-amber-50 border border-amber-300 rounded-xl px-4 py-4 space-y-3">
+            <p className="bn text-sm font-bold text-amber-800">নিশ্চিত করো</p>
+            <p className="bn text-sm text-amber-700">
+              দ্বিতীয় অংশ বাদ দিলে <strong>১ নম্বর কাটা</strong> যাবে। তবুও কি বাদ দিতে চাও?
+            </p>
+            <div className="flex gap-3">
+              <button onClick={handleSkip} disabled={skipping}
+                className="flex-1 bg-amber-500 text-white font-ui font-semibold text-sm py-2.5 rounded-xl hover:bg-amber-600 disabled:opacity-50 transition-all">
+                {skipping ? 'অপেক্ষা করো…' : 'হ্যাঁ, বাদ দাও (-১ নম্বর)'}
+              </button>
+              <button onClick={() => setShowSkipConfirm(false)} disabled={skipping}
+                className="flex-1 btn-secondary">
+                না, উত্তর দেব
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* Actions */}
+        <div className="pb-8 space-y-3">
+          {/* Type answers */}
           <button
-            onClick={() => navigate('/exam/part2', { state: { session_id, part2_questions, part1_result, examData } })}
+            onClick={() => navigate('/exam/part2', {
+              state: { session_id, part2_questions, part1_result, examData, mode: 'type' }
+            })}
             className="btn-primary"
           >
-            দ্বিতীয় অংশ শুরু করুন →
+            ✍️ টাইপ করে উত্তর দিন
           </button>
+
+          {/* Write on paper */}
+          <button
+            onClick={() => navigate('/exam/part2', {
+              state: { session_id, part2_questions, part1_result, examData, mode: 'photo' }
+            })}
+            className="w-full py-3 rounded-xl border border-border font-ui font-medium text-sm text-ink bg-white hover:border-saffron/50 transition-all"
+          >
+            📷 কাগজে লিখে ছবি তুলুন
+          </button>
+
+          {/* Skip */}
+          {!showSkipConfirm && (
+            <button onClick={() => setShowSkipConfirm(true)}
+              className="w-full text-sm font-ui font-medium text-amber-700 border border-amber-300 bg-amber-50 hover:bg-amber-100 py-3 rounded-xl transition-all">
+              পরীক্ষা শেষ করুন <span className="font-semibold text-amber-500">(-১ নম্বর)</span>
+            </button>
+          )}
         </div>
       </div>
     </div>

@@ -790,7 +790,7 @@ function AnalyticsTab({ token }) {
   const [sessions,  setSessions]  = useState([])
   const [chStats,   setChStats]   = useState([])
   const [loading,   setLoading]   = useState(true)
-  const [subTab,    setSubTab]    = useState('users')   // users | chapters
+  const [subTab,    setSubTab]    = useState('users')   // users | chapters | answers
   const [search,    setSearch]    = useState('')
   const [gradeFilter, setGradeFilter] = useState('')
 
@@ -860,7 +860,7 @@ function AnalyticsTab({ token }) {
 
       {/* Sub tabs */}
       <div className="flex gap-1 border-b border-border">
-        {[['users', 'Student Exams'], ['chapters', 'Chapter Stats']].map(([key, label]) => (
+        {[['users', 'Student Exams'], ['chapters', 'Chapter Stats'], ['answers', 'Written Answers']].map(([key, label]) => (
           <button key={key} onClick={() => setSubTab(key)}
             className={`py-2 px-4 text-sm font-ui font-medium border-b-2 transition-colors
               ${subTab === key ? 'border-saffron text-saffron' : 'border-transparent text-ink-light hover:text-ink'}`}>
@@ -975,6 +975,126 @@ function AnalyticsTab({ token }) {
           </table>
         </div>
       )}
+
+      {/* ── Written Answers ── */}
+      {subTab === 'answers' && (
+        <WrittenAnswersPanel token={token} sessions={completed} fmt={fmt} />
+      )}
+    </div>
+  )
+}
+
+function WrittenAnswersPanel({ token, sessions, fmt }) {
+  const [selectedSession, setSelectedSession] = useState(null)
+  const [answers,         setAnswers]         = useState(null)
+  const [loading,         setLoading]         = useState(false)
+
+  const sessionsWithP2 = sessions.filter(s =>
+    s.part2_completed && parseFloat(s.part2_score_max) > 0
+  )
+
+  const loadAnswers = async (session) => {
+    setSelectedSession(session)
+    setLoading(true)
+    try {
+      const d = await apiFetch('GET', `/api/exam/session/${session.id}`, null, token)
+      setAnswers(d)
+    } catch (e) { setAnswers(null) }
+    finally { setLoading(false) }
+  }
+
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="bg-white rounded-xl border border-border overflow-y-auto max-h-[520px]">
+        <div className="px-3 py-2 border-b border-border bg-gray-50">
+          <p className="text-xs font-ui font-semibold text-ink-light">
+            {sessionsWithP2.length} sessions with Part 2
+          </p>
+        </div>
+        {sessionsWithP2.length === 0 ? (
+          <p className="text-xs font-ui text-ink-light text-center py-8">No Part 2 submissions yet</p>
+        ) : sessionsWithP2.map((s, i) => (
+          <button key={i} onClick={() => loadAnswers(s)}
+            className={`w-full text-left px-3 py-3 border-t border-border transition-colors
+              ${selectedSession?.id === s.id ? 'bg-saffron/5 border-l-2 border-l-saffron' : 'hover:bg-gray-50'}`}>
+            <p className="text-xs font-ui font-semibold text-ink truncate">
+              {s.display_name || s.user_id?.slice(0,8)}
+            </p>
+            <p className="text-[11px] font-ui text-ink-light bn truncate mt-0.5">
+              Ch{s.chapter_number} {s.chapter_name}
+            </p>
+            <div className="flex items-center gap-2 mt-1">
+              <span className="text-[10px] font-ui text-ink-light">{fmt(s.submitted_at)}</span>
+              <span className="text-[10px] font-ui font-semibold text-saffron-dark">
+                P2: {s.part2_score_awarded}/{s.part2_score_max}
+              </span>
+            </div>
+          </button>
+        ))}
+      </div>
+
+      <div className="bg-white rounded-xl border border-border">
+        {!selectedSession && (
+          <div className="flex items-center justify-center h-48 text-ink-light text-xs font-ui">
+            Select a session to view answers
+          </div>
+        )}
+        {loading && (
+          <div className="flex items-center justify-center h-48 gap-2">
+            <Spinner /><span className="text-xs font-ui text-ink-light">Loading…</span>
+          </div>
+        )}
+        {answers && !loading && (
+          <div className="overflow-y-auto max-h-[520px]">
+            <div className="px-4 py-3 border-b border-border bg-gray-50">
+              <p className="text-xs font-ui font-semibold text-ink">
+                {selectedSession.display_name} · Ch{selectedSession.chapter_number}
+              </p>
+              <p className="text-[11px] font-ui text-ink-light bn">{selectedSession.chapter_name}</p>
+            </div>
+            <div className="divide-y divide-border">
+              {(answers.session?.part2_questions || []).map((q, i) => {
+                const slotId = q.answer_slot_id
+                const ocr    = answers.session?.part2_ocr_answers?.[slotId]
+                              ?? answers.session?.part2_ocr_answers?.[String(slotId)]
+                const evalR  = (answers.part2_evals || []).find(e => e.question_index === i)
+                return (
+                  <div key={i} className="px-4 py-3 space-y-1">
+                    <div className="flex items-start gap-2">
+                      <span className="flex-shrink-0 w-5 h-5 rounded-full bg-pink-400 text-white text-[10px] font-bold font-ui flex items-center justify-center mt-0.5">
+                        {slotId}
+                      </span>
+                      <p className="bn text-xs text-ink leading-relaxed">{q.question_bn}</p>
+                    </div>
+                    <div className="ml-7 space-y-1">
+                      <div className="flex items-center gap-2">
+                        <span className="text-[10px] font-ui text-ink-light">উত্তর:</span>
+                        <span className="bn text-xs font-semibold text-ink">
+                          {ocr || '—'}
+                        </span>
+                      </div>
+                      {evalR && (
+                        <div className="flex items-center gap-2">
+                          <span className={`text-[10px] font-ui font-semibold px-1.5 py-0.5 rounded border
+                            ${evalR.is_correct ? 'bg-green-50 text-green-700 border-green-200' : 'bg-red-50 text-red-600 border-red-200'}`}>
+                            {evalR.marks_awarded}/{evalR.marks_max}
+                          </span>
+                          <span className="text-[10px] font-ui text-ink-light">
+                            সঠিক: {evalR.correct_answer}
+                          </span>
+                        </div>
+                      )}
+                      {evalR?.feedback_bn && (
+                        <p className="bn text-[10px] text-ink-light leading-snug">{evalR.feedback_bn}</p>
+                      )}
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   )
 }

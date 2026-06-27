@@ -329,6 +329,7 @@ def upload_answer(
     try:
         object_key, signed_url, expires_at = upload_answer_image(
             session_id   = body.session_id,
+            user_id      = user_id,
             image_bytes  = image_bytes,
             content_type = body.content_type,
         )

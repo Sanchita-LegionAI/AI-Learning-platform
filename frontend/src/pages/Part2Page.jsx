@@ -1,7 +1,7 @@
 // pages/Part2Page.jsx
-// Shows Part 2 short_write questions.
-// Student can either write answers on paper → photograph,
-// OR skip Part 2 entirely with a -1 mark penalty.
+// Two modes:
+//   'type'  — student types answers directly (Bengali script or Banglish)
+//   'photo' — student writes on paper, then photographs
 
 import { useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
@@ -10,164 +10,187 @@ import { api } from '../lib/api'
 import ProgressBar from '../components/ProgressBar'
 
 export default function Part2Page() {
-  const { state }    = useLocation()
-  const navigate     = useNavigate()
-  const { token }    = useAuth()
-
-  const [skipping,     setSkipping]     = useState(false)
-  const [skipError,    setSkipError]    = useState('')
-  const [showConfirm,  setShowConfirm]  = useState(false)
+  const { state }  = useLocation()
+  const navigate   = useNavigate()
+  const { token }  = useAuth()
 
   if (!state?.session_id || !state?.part2_questions) {
     navigate('/exam/select')
     return null
   }
 
-  const { session_id, part2_questions, part1_result, examData } = state
+  const { session_id, part2_questions, part1_result, examData, mode = 'photo' } = state
 
-  const handleSkip = async () => {
-    setSkipping(true)
-    setSkipError('')
+  // ── Typed mode state ────────────────────────────────────────────────────────
+  const [typedAnswers, setTypedAnswers] = useState(() => {
+    const init = {}
+    for (const q of part2_questions) init[q.answer_slot_id] = ''
+    return init
+  })
+  const [submitting,  setSubmitting]  = useState(false)
+  const [submitError, setSubmitError] = useState('')
+
+  const setAnswer = (slotId, val) => {
+    const q = part2_questions.find(q => q.answer_slot_id === slotId)
+    const maxWords = q?.max_words || 3
+    const words = val.trim().split(/\s+/).filter(Boolean)
+    if (words.length > maxWords && val.endsWith(' ')) return
+    setTypedAnswers(prev => ({ ...prev, [slotId]: val }))
+  }
+
+  const handleTypedSubmit = async () => {
+    setSubmitError('')
+    setSubmitting(true)
+    // Build confirmed answers map — same format as OCR review
+    const confirmed = {}
+    for (const q of part2_questions) {
+      confirmed[q.answer_slot_id] = typedAnswers[q.answer_slot_id]?.trim() || 'কোনো উত্তর লেখা হয়নি'
+    }
     try {
-      const result = await api.skipPart2(session_id, token)
-      // Go straight to results with the skip result
+      await api.submitOcrAnswers(session_id, confirmed, token)
+      // Go to evaluate directly (skip photo/OCR entirely)
+      const evalResult = await api.evaluatePart2(session_id, token)
       navigate('/exam/results', {
-        state: {
-          result: {
-            total_score_awarded:  result.total_score,
-            total_score_max:      result.total_max,
-            grade:                result.grade,
-            percentage:           result.percentage,
-            part2_score_awarded:  0,
-            part2_score_max:      examData?.part2_max_marks ?? 0,
-            overall_feedback_bn:  `দ্বিতীয় অংশ বাদ দেওয়া হয়েছে। ১ নম্বর কাটা হয়েছে।`,
-            results:              [],
-            part2_skipped:        true,
-            penalty:              result.penalty,
-          },
-          part1_result,
-        }
+        state: { result: evalResult, part1_result }
       })
     } catch (e) {
-      setSkipError(e.message)
-      setSkipping(false)
-      setShowConfirm(false)
+      setSubmitError(e.message || 'উত্তর পাঠানো যায়নি। আবার চেষ্টা করুন।')
+      setSubmitting(false)
     }
   }
 
+  const allAnswered = part2_questions.every(q => typedAnswers[q.answer_slot_id]?.trim())
+
+  // ── Shared question list ────────────────────────────────────────────────────
+  const QuestionList = ({ showInputs }) => (
+    <div className="card space-y-4">
+      <p className="label">দ্বিতীয় অংশের প্রশ্ন ({part2_questions.length}টি)</p>
+      {part2_questions.map((q) => (
+        <div key={q.id} className="space-y-2">
+          <div className="flex gap-3 items-start">
+            <span className="flex-shrink-0 w-7 h-7 rounded-full bg-pink-400 text-white text-xs font-bold font-ui flex items-center justify-center mt-0.5">
+              {q.answer_slot_id}
+            </span>
+            <div className="flex-1">
+              <p className="bn text-base text-ink leading-relaxed font-medium">{q.question_bn}</p>
+              <div className="flex items-center gap-2 mt-1">
+                <span className="text-xs font-ui text-pink-600 bg-pink-50 px-2 py-0.5 rounded-full border border-pink-200">
+                  {q.marks} নম্বর
+                </span>
+                <span className="text-xs font-ui text-ink-light">
+                  সর্বোচ্চ {q.max_words || 2} শব্দ
+                </span>
+              </div>
+            </div>
+          </div>
+
+          {showInputs && (
+            <div className="ml-10">
+              <input
+                type="text"
+                value={typedAnswers[q.answer_slot_id] || ''}
+                onChange={e => setAnswer(q.answer_slot_id, e.target.value)}
+                placeholder="এখানে উত্তর লেখো (বাংলা বা Banglish)"
+                className="w-full text-sm font-ui border border-pink-200 rounded-xl px-3 py-2.5
+                  focus:outline-none focus:border-pink-400 bg-pink-50/30 placeholder:text-ink-light/50 bn"
+              />
+              <p className="text-[10px] font-ui text-ink-light mt-1">
+                বাংলা ফন্টে বা English letters-এ বাংলা (Banglish) — দুটোই চলবে
+              </p>
+            </div>
+          )}
+
+          {!showInputs && (
+            <div className="ml-10 border-b-2 border-dashed border-pink-200 pb-1">
+              <span className="text-xs font-ui text-pink-200">উত্তর:</span>
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+  )
+
+  // ── PHOTO MODE ──────────────────────────────────────────────────────────────
+  if (mode === 'photo') {
+    return (
+      <div className="min-h-screen bg-cream flex flex-col">
+        <ProgressBar currentStep="upload" />
+        <div className="flex-1 max-w-app mx-auto w-full px-4 py-5 page-enter space-y-4">
+          <div>
+            <h1 className="bn text-xl font-bold text-ink mb-1">দ্বিতীয় অংশ</h1>
+            <p className="bn text-sm text-ink-light">নিচের প্রশ্নগুলোর উত্তর কাগজে লেখো, তারপর ছবি তোলো</p>
+          </div>
+
+          <div className="bg-pink-50 border border-pink-200 rounded-xl px-4 py-3">
+            <p className="bn text-sm font-bold text-pink-800 mb-1">মনে রেখো</p>
+            <ul className="bn text-xs text-pink-700 space-y-0.5 list-disc list-inside">
+              <li>কাগজে প্রশ্ন নম্বর অনুযায়ী উত্তর লেখো</li>
+              <li>প্রতিটি উত্তর মাত্র ১-২টি শব্দে</li>
+              <li>বড় করে স্পষ্টভাবে লেখো</li>
+            </ul>
+          </div>
+
+          <QuestionList showInputs={false} />
+
+          <div className="pb-8 space-y-3">
+            <button
+              onClick={() => navigate('/exam/upload', {
+                state: { session_id, part2_questions, part1_result, examData }
+              })}
+              className="btn-primary"
+            >
+              উত্তর লেখা হয়েছে — ছবি তুলুন 📷
+            </button>
+            <button onClick={() => navigate(-1)} className="btn-secondary">
+              ← আগের পাতায় যান
+            </button>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  // ── TYPE MODE ───────────────────────────────────────────────────────────────
   return (
     <div className="min-h-screen bg-cream flex flex-col">
       <ProgressBar currentStep="upload" />
-
       <div className="flex-1 max-w-app mx-auto w-full px-4 py-5 page-enter space-y-4">
-
-        {/* Header */}
         <div>
-          <h1 className="bn text-xl font-bold text-ink mb-1">দ্বিতীয় অংশ</h1>
+          <h1 className="bn text-xl font-bold text-ink mb-1">দ্বিতীয় অংশ — টাইপ করুন</h1>
           <p className="bn text-sm text-ink-light">
-            নিচের প্রশ্নগুলোর উত্তর কাগজে লেখো, তারপর ছবি তোলো
+            প্রতিটি প্রশ্নের উত্তর সরাসরি টাইপ করুন
           </p>
         </div>
 
-        {/* Reminder */}
-        <div className="bg-pink-50 border border-pink-200 rounded-xl px-4 py-3">
-          <p className="bn text-sm font-bold text-pink-800 mb-1">মনে রেখো</p>
-          <ul className="bn text-xs text-pink-700 space-y-0.5 list-disc list-inside">
-            <li>কাগজে প্রশ্ন নম্বর অনুযায়ী উত্তর লেখো</li>
-            <li>প্রতিটি উত্তর মাত্র ১-২টি শব্দে</li>
-            <li>বড় করে স্পষ্টভাবে লেখো যাতে AI পড়তে পারে</li>
-          </ul>
+        <div className="bg-blue-50 border border-blue-200 rounded-xl px-4 py-3">
+          <p className="bn text-xs text-blue-800">
+            💡 বাংলা কীবোর্ড না থাকলে English letters-এ বাংলা লেখো — AI বুঝতে পারবে।
+            যেমন: "Mughol Samrajyo" → মুঘল সাম্রাজ্য
+          </p>
         </div>
 
-        {/* Questions */}
-        <div className="space-y-3">
-          {part2_questions.map((q) => (
-            <div key={q.id} className="card">
-              <div className="flex items-start gap-3">
-                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-pink-400 text-white font-bold font-ui flex items-center justify-center text-sm">
-                  {q.answer_slot_id}
-                </div>
-                <div className="flex-1">
-                  <p className="bn text-base text-ink leading-relaxed font-medium">{q.question_bn}</p>
-                  <div className="flex items-center gap-2 mt-2">
-                    <span className="text-xs font-ui text-pink-600 bg-pink-50 px-2 py-0.5 rounded-full border border-pink-200">
-                      {q.marks} নম্বর
-                    </span>
-                    <span className="text-xs font-ui text-ink-light">
-                      সর্বোচ্চ {q.max_words || 2} শব্দ
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="mt-3 border-b-2 border-dashed border-pink-300 pb-1">
-                <p className="text-xs font-ui text-pink-300">উত্তর:</p>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        {/* Skip error */}
-        {skipError && (
+        {submitError && (
           <div className="bg-red-50 border border-red-200 rounded-xl px-4 py-3">
-            <p className="bn text-sm text-red-700">{skipError}</p>
+            <p className="bn text-sm text-red-700">{submitError}</p>
           </div>
         )}
 
-        {/* Confirm skip dialog */}
-        {showConfirm && (
-          <div className="bg-amber-50 border border-amber-300 rounded-xl px-4 py-4 space-y-3">
-            <p className="bn text-sm font-bold text-amber-800">নিশ্চিত করো</p>
-            <p className="bn text-sm text-amber-700">
-              দ্বিতীয় অংশ বাদ দিলে তোমার মোট নম্বর থেকে <strong>১ নম্বর কাটা</strong> যাবে।
-              তবুও কি বাদ দিতে চাও?
-            </p>
-            <div className="flex gap-3">
-              <button
-                onClick={handleSkip}
-                disabled={skipping}
-                className="flex-1 bg-amber-500 text-white font-ui font-semibold text-sm py-2.5 rounded-xl
-                  hover:bg-amber-600 disabled:opacity-50 transition-all"
-              >
-                {skipping ? 'অপেক্ষা করো…' : 'হ্যাঁ, বাদ দাও (-১ নম্বর)'}
-              </button>
-              <button
-                onClick={() => setShowConfirm(false)}
-                disabled={skipping}
-                className="flex-1 btn-secondary"
-              >
-                না, লিখব
-              </button>
-            </div>
-          </div>
-        )}
+        <QuestionList showInputs={true} />
 
-        {/* Actions */}
         <div className="pb-8 space-y-3">
-          {/* Primary: proceed to photo */}
           <button
-            onClick={() => navigate('/exam/upload', {
-              state: { session_id, part2_questions, part1_result, examData }
-            })}
-            className="btn-primary"
+            onClick={handleTypedSubmit}
+            disabled={submitting}
+            className="btn-primary disabled:opacity-50"
           >
-            উত্তর লেখা হয়েছে — ছবি তুলুন 📷
+            {submitting ? 'মূল্যায়ন হচ্ছে…' : 'উত্তর জমা দিন ও মূল্যায়ন করুন →'}
           </button>
-
-          {/* Secondary: skip with penalty */}
-          {!showConfirm && (
-            <button
-              onClick={() => setShowConfirm(true)}
-              className="w-full text-sm font-ui font-medium text-amber-700 border border-amber-300
-                bg-amber-50 hover:bg-amber-100 py-3 rounded-xl transition-all"
-            >
-              পরীক্ষা শেষ করুন  <span className="text-amber-500 font-semibold">(-১ নম্বর)</span>
-            </button>
+          {!allAnswered && (
+            <p className="bn text-xs text-ink-light text-center">
+              সব প্রশ্নের উত্তর দিলে জমা দেওয়া যাবে
+            </p>
           )}
-
-          <button
-            onClick={() => navigate(-1)}
-            className="btn-secondary"
-          >
+          <button onClick={() => navigate(-1)} className="btn-secondary">
             ← আগের পাতায় যান
           </button>
         </div>
