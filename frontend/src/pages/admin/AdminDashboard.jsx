@@ -984,31 +984,43 @@ function AnalyticsTab({ token }) {
               </div>
             ) : examDetail ? (
               <div className="divide-y divide-border max-h-96 overflow-y-auto">
-                {/* Part 1 summary */}
+                {/* Part 1 detail */}
                 <div className="px-4 py-3 bg-blue-50/30">
-                  <p className="text-xs font-ui font-semibold text-ink mb-1">
-                    অংশ ১ — {selectedExam.part1_score_awarded}/{selectedExam.part1_score_max}
+                  <p className="text-xs font-ui font-semibold text-ink mb-2">
+                    Part 1 — {selectedExam.part1_score_awarded}/{selectedExam.part1_score_max}
                   </p>
-                  <div className="flex flex-wrap gap-1.5">
-                    {(examDetail.part1_evals || []).map((e, i) => (
-                      <span key={i} title={`Q: ${e.question_bn}
-StudentAns: ${e.student_answer}
-Correct: ${e.correct_answer}`}
-                        className={`text-[10px] font-ui px-1.5 py-0.5 rounded border cursor-help
-                          ${e.is_correct ? 'bg-green-50 border-green-200 text-green-700' : 'bg-red-50 border-red-200 text-red-500'}`}>
-                        Q{i+1} {e.is_correct ? '✓' : '✗'} {e.marks_awarded}/{e.marks_max}
-                      </span>
-                    ))}
-                    {(examDetail.part1_evals || []).length === 0 && (
-                      <span className="text-[10px] font-ui text-ink-light">No Part 1 evaluation data</span>
-                    )}
-                  </div>
+                  {(examDetail.part1_evals || []).length === 0 ? (
+                    <p className="text-[11px] font-ui text-ink-light">No Part 1 evaluation data</p>
+                  ) : (
+                    <div className="space-y-2">
+                      {examDetail.part1_evals.map((e, i) => (
+                        <div key={i} className="space-y-0.5">
+                          <div className="flex items-start gap-2">
+                            <span className={`flex-shrink-0 text-[10px] font-ui font-semibold px-1.5 py-0.5 rounded border mt-0.5 whitespace-nowrap
+                              ${e.is_correct ? 'bg-green-50 border-green-200 text-green-700' : 'bg-red-50 border-red-200 text-red-500'}`}>
+                              Q{i+1} {e.is_correct ? '✓' : '✗'} {e.marks_awarded}/{e.marks_max}
+                            </span>
+                            <p className="bn text-xs text-ink leading-snug">{e.question_bn}</p>
+                          </div>
+                          <div className="ml-10 flex flex-wrap gap-x-4">
+                            <span className="text-[10px] font-ui text-ink-light">
+                              Student: <span className="bn font-semibold text-ink">{e.student_answer || '—'}</span>
+                            </span>
+                            <span className="text-[10px] font-ui text-ink-light">
+                              Correct: <span className="bn font-semibold text-forest">{e.correct_answer || '—'}</span>
+                            </span>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
+
 
                 {/* Part 2 detail */}
                 <div className="px-4 py-3">
                   <p className="text-xs font-ui font-semibold text-ink mb-2">
-                    অংশ ২ — {selectedExam.part2_score_awarded ?? 'বাদ'}/{selectedExam.part2_score_max}
+                    Part 2 — {selectedExam.part2_score_awarded ?? 'skipped'}/{selectedExam.part2_score_max}
                   </p>
                   {(examDetail.part2_evals || []).length === 0 ? (
                     <p className="text-[11px] font-ui text-ink-light">
