@@ -293,6 +293,7 @@ def call_llm(
         "evaluation":          "evaluate_answers",
         "ocr":                 "ocr_answers",
         "tutor":               "tutor",
+        "ai_summary":          "ai_summary",
     }.get(purpose, purpose)
 
     primary = get_active_provider(purpose)

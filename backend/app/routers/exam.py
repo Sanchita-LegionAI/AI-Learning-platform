@@ -552,7 +552,7 @@ def request_ai_evaluation(
     # call_llm handles provider selection and API call logging internally
     try:
         response_text = call_llm(
-            purpose       = "evaluation",
+            purpose       = "ai_summary",   # separate purpose — can use Claude for better writing
             system_prompt = "তুমি একজন অভিজ্ঞ বাংলা মাধ্যমের শিক্ষক। তুমি সবসময় বাংলায় উত্তর দাও।",
             user_prompt   = prompt,
             user_id       = user_id,
