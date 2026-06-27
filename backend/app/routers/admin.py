@@ -253,6 +253,53 @@ def trigger_import(admin: dict = Depends(require_admin)):
 # CURRICULUM MANAGEMENT — zero-SQL interface
 # =============================================================================
 
+
+@router.get("/session/{session_id}")
+def get_session_admin(session_id: str, admin: dict = Depends(require_admin)):
+    """
+    Fetch any exam session by ID (admin — no user_id filter).
+    Returns full session + part1_evals + part2_evals for the Analytics detail panel.
+    """
+    supabase = get_supabase()
+
+    res = (
+        supabase.table("exam_sessions")
+        .select(
+            "*, chapters!inner(name_bn, chapter_number, "
+            "books!inner(subjects!inner(display_name_bn)))"
+        )
+        .eq("id", session_id)
+        .single()
+        .execute()
+    )
+    if not res.data:
+        raise HTTPException(status_code=404, detail="Session not found")
+
+    s       = res.data
+    chapter = s.pop("chapters", {}) or {}
+    book    = chapter.get("books",    {}) or {}
+    subject = book.get("subjects",    {}) or {}
+
+    evals_res = (
+        supabase.table("evaluations")
+        .select("*")
+        .eq("session_id", session_id)
+        .order("question_index")
+        .execute()
+    )
+    evals = evals_res.data or []
+
+    return {
+        "session": {
+            **s,
+            "chapter_name":   chapter.get("name_bn", ""),
+            "chapter_number": chapter.get("chapter_number"),
+            "subject_name":   subject.get("display_name_bn", ""),
+        },
+        "part1_evals": [e for e in evals if e["q_part"] == "part1"],
+        "part2_evals": [e for e in evals if e["q_part"] == "part2"],
+    }
+
 @router.post("/curriculum/seed-class")
 def seed_class(body: SeedClassRequest, admin: dict = Depends(require_admin)):
     """

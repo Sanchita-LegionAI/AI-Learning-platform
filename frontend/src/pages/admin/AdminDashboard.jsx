@@ -846,7 +846,7 @@ function AnalyticsTab({ token }) {
   useEffect(() => {
     if (!selectedExam) { setExamDetail(null); return }
     setDetailLoading(true)
-    apiFetch('GET', `/api/exam/session/${selectedExam.id}`, null, token)
+    apiFetch('GET', `/api/admin/session/${selectedExam.id}`, null, token)
       .then(d => setExamDetail(d))
       .catch(() => setExamDetail(null))
       .finally(() => setDetailLoading(false))
@@ -1105,7 +1105,7 @@ function WrittenAnswersPanel({ token, sessions, fmt }) {
     setSelectedSession(session)
     setLoading(true)
     try {
-      const d = await apiFetch('GET', `/api/exam/session/${session.id}`, null, token)
+      const d = await apiFetch('GET', `/api/admin/session/${session.id}`, null, token)
       setAnswers(d)
     } catch (e) { setAnswers(null) }
     finally { setLoading(false) }
