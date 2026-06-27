@@ -289,6 +289,65 @@ def seed_class(body: SeedClassRequest, admin: dict = Depends(require_admin)):
     }
 
 
+@router.get("/exam-sessions")
+def get_all_exam_sessions(
+    admin: dict = Depends(require_admin),
+    limit: int = Query(200, le=500),
+    offset: int = Query(0),
+):
+    """
+    All completed exam sessions with student info, chapter, scores and grade.
+    Used by the admin Analytics tab.
+    """
+    supabase = get_supabase()
+
+    res = (
+        supabase.table("exam_sessions")
+        .select(
+            "id, user_id, started_at, submitted_at, completed, grade, "
+            "score_awarded, score_max, "
+            "part1_score_awarded, part1_score_max, "
+            "part2_score_awarded, part2_score_max, "
+            "chapters!inner(name_bn, chapter_number, "
+            "books!inner(title_bn, subjects!inner(display_name_bn)))"
+        )
+        .eq("completed", True)
+        .order("submitted_at", desc=True)
+        .limit(limit)
+        .offset(offset)
+        .execute()
+    )
+
+    # Fetch user display names
+    user_ids = list({s["user_id"] for s in (res.data or [])})
+    users_map = {}
+    if user_ids:
+        users_res = (
+            supabase.table("users")
+            .select("id, display_name, phone")
+            .in_("id", user_ids)
+            .execute()
+        )
+        for u in (users_res.data or []):
+            users_map[u["id"]] = u.get("display_name") or u.get("phone") or u["id"][:8]
+
+    sessions = []
+    for s in (res.data or []):
+        chapter = s.pop("chapters", {}) or {}
+        book    = chapter.get("books", {}) or {}
+        subject = book.get("subjects", {}) or {}
+        sessions.append({
+            **s,
+            "display_name":   users_map.get(s["user_id"], s["user_id"][:8]),
+            "chapter_name":   chapter.get("name_bn", ""),
+            "chapter_number": chapter.get("chapter_number"),
+            "book_title":     book.get("title_bn", ""),
+            "subject_name":   subject.get("display_name_bn", ""),
+        })
+
+    return {"sessions": sessions, "total": len(sessions)}
+
+
 @router.get("/curriculum/tree")
 def get_curriculum_tree(admin: dict = Depends(require_admin)):
     """

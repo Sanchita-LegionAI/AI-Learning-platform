@@ -3,7 +3,7 @@ import { useEffect, useState, useRef, useCallback } from 'react'
 import { useAuth } from '../../context/AuthContext'
 import { api } from '../../lib/api'
 
-const TABS = ['Overview', 'Curriculum', 'Models', 'Logs']
+const TABS = ['Overview', 'Curriculum', 'Analytics', 'Models', 'Logs']
 
 const BASE = () => import.meta.env.VITE_API_URL || 'http://localhost:8000'
 
@@ -784,7 +784,202 @@ function PanelEmpty({ context, onAction }) {
   )
 }
 
-// ─── Curriculum tab root ──────────────────────────────────────────────────────
+// ─── Analytics tab ────────────────────────────────────────────────────────────
+
+function AnalyticsTab({ token }) {
+  const [sessions,  setSessions]  = useState([])
+  const [chStats,   setChStats]   = useState([])
+  const [loading,   setLoading]   = useState(true)
+  const [subTab,    setSubTab]    = useState('users')   // users | chapters
+  const [search,    setSearch]    = useState('')
+  const [gradeFilter, setGradeFilter] = useState('')
+
+  useEffect(() => {
+    Promise.all([
+      apiFetch('GET', '/api/admin/exam-sessions', null, token),
+      apiFetch('GET', '/api/admin/chapter-stats', null, token),
+    ]).then(([sessData, chData]) => {
+      setSessions(sessData.sessions || [])
+      setChStats(chData.stats || [])
+    }).catch(console.error)
+    .finally(() => setLoading(false))
+  }, [token])
+
+  // ── summary stats ──────────────────────────────────────────────────────────
+  const completed = sessions.filter(s => s.completed)
+  const totalAttempts = completed.length
+  const uniqueStudents = new Set(completed.map(s => s.user_id)).size
+  const avgScore = totalAttempts > 0
+    ? (completed.reduce((sum, s) => sum + (parseFloat(s.score_awarded) || 0), 0) / totalAttempts).toFixed(1)
+    : '—'
+  const avgPct = totalAttempts > 0
+    ? Math.round(completed.reduce((sum, s) => {
+        const max = parseFloat(s.score_max) || 1
+        return sum + ((parseFloat(s.score_awarded) || 0) / max) * 100
+      }, 0) / totalAttempts)
+    : '—'
+
+  // ── filtered sessions ──────────────────────────────────────────────────────
+  const filteredSessions = completed.filter(s => {
+    const q = search.toLowerCase()
+    const matchSearch = !q ||
+      (s.display_name || '').toLowerCase().includes(q) ||
+      (s.chapter_name || '').toLowerCase().includes(q) ||
+      (s.subject_name || '').toLowerCase().includes(q)
+    const matchGrade = !gradeFilter || s.grade === gradeFilter
+    return matchSearch && matchGrade
+  }).sort((a, b) => new Date(b.submitted_at) - new Date(a.submitted_at))
+
+  const GRADE_COLORS = {
+    'A+': 'bg-green-50 text-green-700 border-green-200',
+    'A':  'bg-green-50 text-green-600 border-green-200',
+    'B+': 'bg-blue-50 text-blue-700 border-blue-200',
+    'B':  'bg-blue-50 text-blue-600 border-blue-200',
+    'C':  'bg-yellow-50 text-yellow-700 border-yellow-200',
+    'D':  'bg-red-50 text-red-600 border-red-200',
+  }
+
+  const fmt = iso => iso ? new Date(iso).toLocaleDateString('en-GB', { day:'2-digit', month:'short', year:'2-digit', hour:'2-digit', minute:'2-digit' }) : '—'
+
+  if (loading) return (
+    <div className="flex items-center justify-center py-20 text-ink-light font-ui text-sm">
+      <Spinner /> <span className="ml-2">Loading analytics…</span>
+    </div>
+  )
+
+  return (
+    <div className="space-y-5">
+
+      {/* Summary cards */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+        <StatCard label="Total attempts" value={totalAttempts} />
+        <StatCard label="Unique students" value={uniqueStudents} />
+        <StatCard label="Avg score" value={avgScore} sub="marks" accent />
+        <StatCard label="Avg percentage" value={`${avgPct}%`} />
+      </div>
+
+      {/* Sub tabs */}
+      <div className="flex gap-1 border-b border-border">
+        {[['users', 'Student Exams'], ['chapters', 'Chapter Stats']].map(([key, label]) => (
+          <button key={key} onClick={() => setSubTab(key)}
+            className={`py-2 px-4 text-sm font-ui font-medium border-b-2 transition-colors
+              ${subTab === key ? 'border-saffron text-saffron' : 'border-transparent text-ink-light hover:text-ink'}`}>
+            {label}
+          </button>
+        ))}
+      </div>
+
+      {/* ── Student Exams ── */}
+      {subTab === 'users' && (
+        <div className="space-y-3">
+          {/* Filters */}
+          <div className="flex gap-2 flex-wrap">
+            <input
+              placeholder="Search student, chapter, subject…"
+              value={search}
+              onChange={e => setSearch(e.target.value)}
+              className="flex-1 min-w-[200px] text-xs font-ui border border-border rounded-lg px-3 py-2
+                focus:outline-none focus:border-saffron/60 placeholder:text-ink-light/40"
+            />
+            <select
+              value={gradeFilter}
+              onChange={e => setGradeFilter(e.target.value)}
+              className="text-xs font-ui border border-border rounded-lg px-3 py-2 focus:outline-none focus:border-saffron/60 bg-white"
+            >
+              <option value="">All grades</option>
+              {['A+','A','B+','B','C','D'].map(g => <option key={g}>{g}</option>)}
+            </select>
+            <span className="text-xs font-ui text-ink-light self-center">
+              {filteredSessions.length} results
+            </span>
+          </div>
+
+          {/* Table */}
+          <div className="bg-white rounded-xl border border-border overflow-x-auto">
+            <table className="w-full text-xs font-ui min-w-[700px]">
+              <thead className="bg-gray-50 text-ink-light">
+                <tr>
+                  {['Student', 'Subject', 'Chapter', 'Score', 'P1', 'P2', 'Grade', 'Date'].map(h => (
+                    <th key={h} className="text-left px-3 py-2 font-medium">{h}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {filteredSessions.length === 0 ? (
+                  <tr><td colSpan={8} className="text-center py-8 text-ink-light">No results</td></tr>
+                ) : filteredSessions.map((s, i) => (
+                  <tr key={s.id || i} className="border-t border-border hover:bg-gray-50">
+                    <td className="px-3 py-2 font-medium text-ink max-w-[120px] truncate">
+                      {s.display_name || s.email || s.phone || s.user_id?.slice(0,8) + '…'}
+                    </td>
+                    <td className="px-3 py-2 text-ink-light bn max-w-[80px] truncate">{s.subject_name}</td>
+                    <td className="px-3 py-2 bn max-w-[140px] truncate" title={s.chapter_name}>
+                      Ch{s.chapter_number} {s.chapter_name}
+                    </td>
+                    <td className="px-3 py-2 font-semibold text-ink">
+                      {s.score_awarded}/{s.score_max}
+                      <span className="text-ink-light font-normal ml-1">
+                        ({s.score_max > 0 ? Math.round((s.score_awarded/s.score_max)*100) : 0}%)
+                      </span>
+                    </td>
+                    <td className="px-3 py-2 text-ink-light">
+                      {s.part1_score_awarded ?? '—'}/{s.part1_score_max ?? '—'}
+                    </td>
+                    <td className="px-3 py-2 text-ink-light">
+                      {s.part2_score_awarded !== null ? `${s.part2_score_awarded}/${s.part2_score_max}` : '—'}
+                    </td>
+                    <td className="px-3 py-2">
+                      {s.grade ? (
+                        <span className={`px-1.5 py-0.5 rounded border text-xs font-semibold ${GRADE_COLORS[s.grade] || ''}`}>
+                          {s.grade}
+                        </span>
+                      ) : '—'}
+                    </td>
+                    <td className="px-3 py-2 text-ink-light whitespace-nowrap">{fmt(s.submitted_at)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
+      {/* ── Chapter Stats ── */}
+      {subTab === 'chapters' && (
+        <div className="bg-white rounded-xl border border-border overflow-x-auto">
+          <table className="w-full text-xs font-ui min-w-[500px]">
+            <thead className="bg-gray-50 text-ink-light">
+              <tr>
+                {['Book', 'Chapter', 'Attempts', 'Avg Score', 'Last attempt'].map(h => (
+                  <th key={h} className="text-left px-3 py-2 font-medium">{h}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {chStats.length === 0 ? (
+                <tr><td colSpan={5} className="text-center py-8 text-ink-light">No data yet</td></tr>
+              ) : chStats.map((s, i) => (
+                <tr key={i} className="border-t border-border hover:bg-gray-50">
+                  <td className="px-3 py-2 text-ink-light">{s.chapters?.books?.title_bn || '—'}</td>
+                  <td className="px-3 py-2 bn text-ink max-w-[200px] truncate">
+                    Ch{s.chapters?.chapter_number} {s.chapters?.name_bn}
+                  </td>
+                  <td className="px-3 py-2 font-semibold text-ink">{s.total_attempts}</td>
+                  <td className="px-3 py-2 text-ink">
+                    {s.average_score != null ? parseFloat(s.average_score).toFixed(1) : '—'}
+                  </td>
+                  <td className="px-3 py-2 text-ink-light">{fmt(s.last_updated)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+    </div>
+  )
+}
+
+
 
 function CurriculumTab({ token }) {
   const [tree,       setTree]       = useState([])
@@ -913,6 +1108,8 @@ export default function AdminDashboard() {
         {msg && tab !== 'Curriculum' && <Toast msg={msg} onClose={() => setMsg('')} />}
 
         {tab === 'Curriculum' && <CurriculumTab token={token} />}
+
+        {tab === 'Analytics' && <AnalyticsTab token={token} />}
 
         {tab === 'Overview' && (
           <div className="space-y-6">
