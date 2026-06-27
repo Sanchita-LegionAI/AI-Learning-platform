@@ -73,7 +73,7 @@ export default function AiEvaluationCard() {
           {requesting
             ? '…'
             : hasToday
-              ? '✓ আজ হয়েছে'
+              ? '✓ আজ মূল্যায়ন হয়েছে'
               : '+ নতুন মূল্যায়ন'}
         </button>
       </div>
@@ -120,7 +120,7 @@ export default function AiEvaluationCard() {
                 <div>
                   <p className="bn text-xs font-semibold text-ink">{formatDate(ev.created_at)}</p>
                   <p className="text-[11px] font-ui text-ink-light mt-0.5">
-                    {ev.session_count}টি পরীক্ষার ভিত্তিতে
+                    {String(ev.session_count).replace(/[0-9]/g, d => "০১২৩৪৫৬৭৮৯"[d])}টি পরীক্ষার ভিত্তিতে
                   </p>
                 </div>
                 <span className="text-ink-light text-xs ml-2">
