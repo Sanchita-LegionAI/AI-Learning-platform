@@ -793,6 +793,9 @@ function AnalyticsTab({ token }) {
   const [subTab,    setSubTab]    = useState('users')   // users | chapters | answers
   const [search,    setSearch]    = useState('')
   const [gradeFilter, setGradeFilter] = useState('')
+  const [selectedExam, setSelectedExam] = useState(null)
+  const [examDetail,   setExamDetail]   = useState(null)
+  const [detailLoading, setDetailLoading] = useState(false)
 
   useEffect(() => {
     Promise.all([
@@ -838,6 +841,16 @@ function AnalyticsTab({ token }) {
     'C':  'bg-yellow-50 text-yellow-700 border-yellow-200',
     'D':  'bg-red-50 text-red-600 border-red-200',
   }
+
+  // Load full session detail when a row is clicked
+  useEffect(() => {
+    if (!selectedExam) { setExamDetail(null); return }
+    setDetailLoading(true)
+    apiFetch('GET', `/api/exam/session/${selectedExam.id}`, null, token)
+      .then(d => setExamDetail(d))
+      .catch(() => setExamDetail(null))
+      .finally(() => setDetailLoading(false))
+  }, [selectedExam, token])
 
   const fmt = iso => iso ? new Date(iso).toLocaleDateString('en-GB', { day:'2-digit', month:'short', year:'2-digit', hour:'2-digit', minute:'2-digit' }) : '—'
 
@@ -908,7 +921,11 @@ function AnalyticsTab({ token }) {
                 {filteredSessions.length === 0 ? (
                   <tr><td colSpan={8} className="text-center py-8 text-ink-light">No results</td></tr>
                 ) : filteredSessions.map((s, i) => (
-                  <tr key={s.id || i} className="border-t border-border hover:bg-gray-50">
+                  <tr key={s.id || i}
+                    className="border-t border-border hover:bg-saffron/5 cursor-pointer transition-colors"
+                    onClick={() => setSelectedExam(s)}
+                    title="Click to view full evaluation"
+                  >
                     <td className="px-3 py-2 font-medium text-ink max-w-[120px] truncate">
                       {s.display_name || s.email || s.phone || s.user_id?.slice(0,8) + '…'}
                     </td>
@@ -936,13 +953,104 @@ function AnalyticsTab({ token }) {
                       ) : '—'}
                     </td>
                     <td className="px-3 py-2 text-ink-light whitespace-nowrap">{fmt(s.submitted_at)}</td>
+                    <td className="px-3 py-2 text-ink-light/40 text-xs">→</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
         </div>
-      )}
+
+        {/* ── Exam Detail Panel ── */}
+        {selectedExam && (
+          <div className="bg-white rounded-xl border border-border overflow-hidden">
+            {/* Header */}
+            <div className="flex items-center justify-between px-4 py-3 bg-gray-50 border-b border-border">
+              <div>
+                <p className="text-xs font-ui font-semibold text-ink">
+                  {selectedExam.display_name} — Ch{selectedExam.chapter_number} {selectedExam.chapter_name}
+                </p>
+                <p className="text-[11px] font-ui text-ink-light mt-0.5">
+                  {fmt(selectedExam.submitted_at)} · Score: {selectedExam.score_awarded}/{selectedExam.score_max} · Grade: {selectedExam.grade}
+                </p>
+              </div>
+              <button onClick={() => setSelectedExam(null)}
+                className="text-ink-light hover:text-ink text-lg leading-none px-2">×</button>
+            </div>
+
+            {detailLoading ? (
+              <div className="flex items-center justify-center py-8 gap-2">
+                <Spinner /><span className="text-xs font-ui text-ink-light">Loading evaluation…</span>
+              </div>
+            ) : examDetail ? (
+              <div className="divide-y divide-border max-h-96 overflow-y-auto">
+                {/* Part 1 summary */}
+                <div className="px-4 py-3 bg-blue-50/30">
+                  <p className="text-xs font-ui font-semibold text-ink mb-1">
+                    অংশ ১ — {selectedExam.part1_score_awarded}/{selectedExam.part1_score_max}
+                  </p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {(examDetail.part1_evals || []).map((e, i) => (
+                      <span key={i} title={`Q: ${e.question_bn}
+StudentAns: ${e.student_answer}
+Correct: ${e.correct_answer}`}
+                        className={`text-[10px] font-ui px-1.5 py-0.5 rounded border cursor-help
+                          ${e.is_correct ? 'bg-green-50 border-green-200 text-green-700' : 'bg-red-50 border-red-200 text-red-500'}`}>
+                        Q{i+1} {e.is_correct ? '✓' : '✗'} {e.marks_awarded}/{e.marks_max}
+                      </span>
+                    ))}
+                    {(examDetail.part1_evals || []).length === 0 && (
+                      <span className="text-[10px] font-ui text-ink-light">No Part 1 evaluation data</span>
+                    )}
+                  </div>
+                </div>
+
+                {/* Part 2 detail */}
+                <div className="px-4 py-3">
+                  <p className="text-xs font-ui font-semibold text-ink mb-2">
+                    অংশ ২ — {selectedExam.part2_score_awarded ?? 'বাদ'}/{selectedExam.part2_score_max}
+                  </p>
+                  {(examDetail.part2_evals || []).length === 0 ? (
+                    <p className="text-[11px] font-ui text-ink-light">
+                      {selectedExam.part2_score_awarded === 0 && selectedExam.part2_completed
+                        ? 'Part 2 was skipped (-1 mark penalty)'
+                        : 'No Part 2 data'}
+                    </p>
+                  ) : (
+                    <div className="space-y-3">
+                      {examDetail.part2_evals.map((e, i) => (
+                        <div key={i} className="space-y-1">
+                          <div className="flex items-start gap-2">
+                            <span className={`flex-shrink-0 text-[10px] font-ui font-semibold px-1.5 py-0.5 rounded border mt-0.5
+                              ${e.is_correct ? 'bg-green-50 border-green-200 text-green-700' : 'bg-red-50 border-red-200 text-red-500'}`}>
+                              {e.marks_awarded}/{e.marks_max}
+                            </span>
+                            <p className="bn text-xs text-ink leading-snug">{e.question_bn}</p>
+                          </div>
+                          <div className="ml-8 flex flex-wrap gap-x-4 gap-y-0.5">
+                            <span className="text-[10px] font-ui text-ink-light">
+                              ছাত্র: <span className="bn font-semibold text-ink">{e.student_answer || '—'}</span>
+                            </span>
+                            <span className="text-[10px] font-ui text-ink-light">
+                              সঠিক: <span className="bn font-semibold text-forest">{e.correct_answer || '—'}</span>
+                            </span>
+                          </div>
+                          {e.feedback_bn && (
+                            <p className="ml-8 bn text-[10px] text-ink-light italic leading-snug">{e.feedback_bn}</p>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </div>
+            ) : (
+              <div className="px-4 py-8 text-center">
+                <p className="text-xs font-ui text-ink-light">Could not load evaluation details</p>
+              </div>
+            )}
+          </div>
+        )}
 
       {/* ── Chapter Stats ── */}
       {subTab === 'chapters' && (
@@ -1266,13 +1374,24 @@ export default function AdminDashboard() {
         {tab === 'Overview' && (
           <div className="space-y-6">
             <h2 className="text-base font-ui font-semibold text-ink">Usage Overview (last 30 days)</h2>
-            {summary && (
+            {!summary ? (
+              <div className="bg-white rounded-xl border border-border px-6 py-10 text-center">
+                <p className="text-sm font-ui text-ink-light">Loading usage data…</p>
+                <p className="text-xs font-ui text-ink-light/60 mt-1">
+                  If this persists, check that api_calls table has data and v_cost_summary view exists.
+                </p>
+              </div>
+            ) : (
               <>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                  <StatCard label="Total calls" value={summary.summary.reduce((a, r) => a + r.calls, 0)} />
-                  <StatCard label="Total cost (₹)" accent value={`₹${summary.summary.reduce((a, r) => a + r.total_cost_inr, 0).toFixed(2)}`} />
-                  <StatCard label="Projection 1k/day" value={`₹${summary.projection?.inr_1k_per_month?.toLocaleString() || '—'}`} sub="per month" />
-                  <StatCard label="Projection 5k/day" value={`₹${summary.projection?.inr_5k_per_month?.toLocaleString() || '—'}`} sub="per month" />
+                  <StatCard label="Total calls" value={summary.summary?.reduce((a, r) => a + r.calls, 0) ?? 0} />
+                  <StatCard label="Total cost (₹)" accent value={`₹${(summary.summary?.reduce((a, r) => a + r.total_cost_inr, 0) ?? 0).toFixed(2)}`} />
+                  <StatCard label="Avg cost/call" value={
+                    summary.summary?.length > 0
+                      ? `₹${(summary.summary.reduce((a,r) => a + r.total_cost_inr, 0) / summary.summary.reduce((a,r) => a + r.calls, 0)).toFixed(4)}`
+                      : '—'
+                  } sub="per API call" />
+                  <StatCard label="Call types" value={new Set(summary.summary?.map(r => r.call_type)).size ?? 0} sub="distinct" />
                 </div>
                 <div className="bg-white rounded-xl border border-border overflow-hidden">
                   <table className="w-full text-sm font-ui">
