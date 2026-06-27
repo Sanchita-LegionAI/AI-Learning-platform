@@ -9,6 +9,51 @@ import { useAuth } from '../context/AuthContext'
 import { api } from '../lib/api'
 import ProgressBar from '../components/ProgressBar'
 
+// ── Defined OUTSIDE the component to prevent remount on every keystroke ───────
+function QuestionItem({ q, showInput, value, onChange }) {
+  return (
+    <div className="space-y-2">
+      <div className="flex gap-3 items-start">
+        <span className="flex-shrink-0 w-7 h-7 rounded-full bg-pink-400 text-white text-xs font-bold font-ui flex items-center justify-center mt-0.5">
+          {q.answer_slot_id}
+        </span>
+        <div className="flex-1">
+          <p className="bn text-base text-ink leading-relaxed font-medium">{q.question_bn}</p>
+          <div className="flex items-center gap-2 mt-1">
+            <span className="text-xs font-ui text-pink-600 bg-pink-50 px-2 py-0.5 rounded-full border border-pink-200">
+              {q.marks} নম্বর
+            </span>
+            <span className="text-xs font-ui text-ink-light">
+              সর্বোচ্চ {q.max_words || 2} শব্দ
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {showInput ? (
+        <div className="ml-10">
+          <input
+            type="text"
+            value={value}
+            onChange={e => onChange(q.answer_slot_id, e.target.value)}
+            placeholder="এখানে উত্তর লেখো (বাংলা বা Banglish)"
+            className="w-full text-sm font-ui border border-pink-200 rounded-xl px-3 py-2.5
+              focus:outline-none focus:border-pink-400 bg-pink-50/30 bn
+              placeholder:text-ink-light/50"
+          />
+          <p className="text-[10px] font-ui text-ink-light mt-1">
+            বাংলা ফন্টে বা English letters-এ বাংলা (Banglish) — দুটোই চলবে
+          </p>
+        </div>
+      ) : (
+        <div className="ml-10 border-b-2 border-dashed border-pink-200 pb-1">
+          <span className="text-xs font-ui text-pink-200">উত্তর:</span>
+        </div>
+      )}
+    </div>
+  )
+}
+
 export default function Part2Page() {
   const { state }  = useLocation()
   const navigate   = useNavigate()
@@ -21,7 +66,6 @@ export default function Part2Page() {
 
   const { session_id, part2_questions, part1_result, examData, mode = 'photo' } = state
 
-  // ── Typed mode state ────────────────────────────────────────────────────────
   const [typedAnswers, setTypedAnswers] = useState(() => {
     const init = {}
     for (const q of part2_questions) init[q.answer_slot_id] = ''
@@ -34,6 +78,7 @@ export default function Part2Page() {
     const q = part2_questions.find(q => q.answer_slot_id === slotId)
     const maxWords = q?.max_words || 3
     const words = val.trim().split(/\s+/).filter(Boolean)
+    // Allow typing but stop if exceeded by a space (word boundary)
     if (words.length > maxWords && val.endsWith(' ')) return
     setTypedAnswers(prev => ({ ...prev, [slotId]: val }))
   }
@@ -41,74 +86,19 @@ export default function Part2Page() {
   const handleTypedSubmit = async () => {
     setSubmitError('')
     setSubmitting(true)
-    // Build confirmed answers map — same format as OCR review
     const confirmed = {}
     for (const q of part2_questions) {
       confirmed[q.answer_slot_id] = typedAnswers[q.answer_slot_id]?.trim() || 'কোনো উত্তর লেখা হয়নি'
     }
     try {
       await api.submitOcrAnswers(session_id, confirmed, token)
-      // Go to evaluate directly (skip photo/OCR entirely)
       const evalResult = await api.evaluatePart2(session_id, token)
-      navigate('/exam/results', {
-        state: { result: evalResult, part1_result }
-      })
+      navigate('/exam/results', { state: { result: evalResult, part1_result } })
     } catch (e) {
       setSubmitError(e.message || 'উত্তর পাঠানো যায়নি। আবার চেষ্টা করুন।')
       setSubmitting(false)
     }
   }
-
-  const allAnswered = part2_questions.every(q => typedAnswers[q.answer_slot_id]?.trim())
-
-  // ── Shared question list ────────────────────────────────────────────────────
-  const QuestionList = ({ showInputs }) => (
-    <div className="card space-y-4">
-      <p className="label">দ্বিতীয় অংশের প্রশ্ন ({part2_questions.length}টি)</p>
-      {part2_questions.map((q) => (
-        <div key={q.id} className="space-y-2">
-          <div className="flex gap-3 items-start">
-            <span className="flex-shrink-0 w-7 h-7 rounded-full bg-pink-400 text-white text-xs font-bold font-ui flex items-center justify-center mt-0.5">
-              {q.answer_slot_id}
-            </span>
-            <div className="flex-1">
-              <p className="bn text-base text-ink leading-relaxed font-medium">{q.question_bn}</p>
-              <div className="flex items-center gap-2 mt-1">
-                <span className="text-xs font-ui text-pink-600 bg-pink-50 px-2 py-0.5 rounded-full border border-pink-200">
-                  {q.marks} নম্বর
-                </span>
-                <span className="text-xs font-ui text-ink-light">
-                  সর্বোচ্চ {q.max_words || 2} শব্দ
-                </span>
-              </div>
-            </div>
-          </div>
-
-          {showInputs && (
-            <div className="ml-10">
-              <input
-                type="text"
-                value={typedAnswers[q.answer_slot_id] || ''}
-                onChange={e => setAnswer(q.answer_slot_id, e.target.value)}
-                placeholder="এখানে উত্তর লেখো (বাংলা বা Banglish)"
-                className="w-full text-sm font-ui border border-pink-200 rounded-xl px-3 py-2.5
-                  focus:outline-none focus:border-pink-400 bg-pink-50/30 placeholder:text-ink-light/50 bn"
-              />
-              <p className="text-[10px] font-ui text-ink-light mt-1">
-                বাংলা ফন্টে বা English letters-এ বাংলা (Banglish) — দুটোই চলবে
-              </p>
-            </div>
-          )}
-
-          {!showInputs && (
-            <div className="ml-10 border-b-2 border-dashed border-pink-200 pb-1">
-              <span className="text-xs font-ui text-pink-200">উত্তর:</span>
-            </div>
-          )}
-        </div>
-      ))}
-    </div>
-  )
 
   // ── PHOTO MODE ──────────────────────────────────────────────────────────────
   if (mode === 'photo') {
@@ -130,7 +120,12 @@ export default function Part2Page() {
             </ul>
           </div>
 
-          <QuestionList showInputs={false} />
+          <div className="card space-y-4">
+            <p className="label">দ্বিতীয় অংশের প্রশ্ন ({part2_questions.length}টি)</p>
+            {part2_questions.map(q => (
+              <QuestionItem key={q.answer_slot_id} q={q} showInput={false} value="" onChange={() => {}} />
+            ))}
+          </div>
 
           <div className="pb-8 space-y-3">
             <button
@@ -141,9 +136,7 @@ export default function Part2Page() {
             >
               উত্তর লেখা হয়েছে — ছবি তুলুন 📷
             </button>
-            <button onClick={() => navigate(-1)} className="btn-secondary">
-              ← আগের পাতায় যান
-            </button>
+            <button onClick={() => navigate(-1)} className="btn-secondary">← আগের পাতায় যান</button>
           </div>
         </div>
       </div>
@@ -157,9 +150,7 @@ export default function Part2Page() {
       <div className="flex-1 max-w-app mx-auto w-full px-4 py-5 page-enter space-y-4">
         <div>
           <h1 className="bn text-xl font-bold text-ink mb-1">দ্বিতীয় অংশ — টাইপ করুন</h1>
-          <p className="bn text-sm text-ink-light">
-            প্রতিটি প্রশ্নের উত্তর সরাসরি টাইপ করুন
-          </p>
+          <p className="bn text-sm text-ink-light">প্রতিটি প্রশ্নের উত্তর সরাসরি টাইপ করুন</p>
         </div>
 
         <div className="bg-blue-50 border border-blue-200 rounded-xl px-4 py-3">
@@ -175,7 +166,18 @@ export default function Part2Page() {
           </div>
         )}
 
-        <QuestionList showInputs={true} />
+        <div className="card space-y-5">
+          <p className="label">দ্বিতীয় অংশের প্রশ্ন ({part2_questions.length}টি)</p>
+          {part2_questions.map(q => (
+            <QuestionItem
+              key={q.answer_slot_id}
+              q={q}
+              showInput={true}
+              value={typedAnswers[q.answer_slot_id] || ''}
+              onChange={setAnswer}
+            />
+          ))}
+        </div>
 
         <div className="pb-8 space-y-3">
           <button
@@ -185,14 +187,7 @@ export default function Part2Page() {
           >
             {submitting ? 'মূল্যায়ন হচ্ছে…' : 'উত্তর জমা দিন ও মূল্যায়ন করুন →'}
           </button>
-          {!allAnswered && (
-            <p className="bn text-xs text-ink-light text-center">
-              সব প্রশ্নের উত্তর দিলে জমা দেওয়া যাবে
-            </p>
-          )}
-          <button onClick={() => navigate(-1)} className="btn-secondary">
-            ← আগের পাতায় যান
-          </button>
+          <button onClick={() => navigate(-1)} className="btn-secondary">← আগের পাতায় যান</button>
         </div>
       </div>
     </div>

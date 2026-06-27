@@ -1053,39 +1053,61 @@ function WrittenAnswersPanel({ token, sessions, fmt }) {
               <p className="text-[11px] font-ui text-ink-light bn">{selectedSession.chapter_name}</p>
             </div>
             <div className="divide-y divide-border">
-              {(answers.session?.part2_questions || []).map((q, i) => {
-                const slotId = q.answer_slot_id
-                const ocr    = answers.session?.part2_ocr_answers?.[slotId]
-                              ?? answers.session?.part2_ocr_answers?.[String(slotId)]
-                const evalR  = (answers.part2_evals || []).find(e => e.question_index === i)
+              {(answers.part2_evals?.length > 0
+                ? answers.part2_evals
+                : answers.session?.part2_questions || []
+              ).map((item, i) => {
+                // Use eval rows if available (have question_bn + student_answer + correct_answer)
+                // Fall back to question list if no evals yet
+                const isEval = !!item.session_id
+                const questionBn   = isEval ? item.question_bn   : item.question_bn
+                const studentAns   = isEval ? item.student_answer : null
+                const correctAns   = isEval ? item.correct_answer : null
+                const marksAwarded = isEval ? item.marks_awarded  : null
+                const marksMax     = isEval ? item.marks_max      : null
+                const isCorrect    = isEval ? item.is_correct     : null
+                const feedbackBn   = isEval ? item.feedback_bn    : null
+                const slotId       = isEval ? (i + 1) : item.answer_slot_id
+
+                // Also check ocr_answers map for typed answers
+                const ocrAns = answers.session?.part2_ocr_answers?.[slotId]
+                            ?? answers.session?.part2_ocr_answers?.[String(slotId)]
+                const displayAnswer = studentAns || ocrAns || '—'
+
                 return (
-                  <div key={i} className="px-4 py-3 space-y-1">
+                  <div key={i} className="px-4 py-3 space-y-2">
                     <div className="flex items-start gap-2">
                       <span className="flex-shrink-0 w-5 h-5 rounded-full bg-pink-400 text-white text-[10px] font-bold font-ui flex items-center justify-center mt-0.5">
                         {slotId}
                       </span>
-                      <p className="bn text-xs text-ink leading-relaxed">{q.question_bn}</p>
+                      <p className="bn text-xs text-ink leading-relaxed font-medium">{questionBn}</p>
                     </div>
-                    <div className="ml-7 space-y-1">
-                      <div className="flex items-center gap-2">
-                        <span className="text-[10px] font-ui text-ink-light">উত্তর:</span>
-                        <span className="bn text-xs font-semibold text-ink">
-                          {ocr || '—'}
+                    <div className="ml-7 space-y-1.5">
+                      <div className="flex items-center gap-2 flex-wrap">
+                        <span className="text-[10px] font-ui text-ink-light">ছাত্রের উত্তর:</span>
+                        <span className="bn text-xs font-semibold text-ink bg-gray-50 px-2 py-0.5 rounded border border-border">
+                          {displayAnswer}
                         </span>
                       </div>
-                      {evalR && (
+                      {correctAns && (
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <span className="text-[10px] font-ui text-ink-light">সঠিক উত্তর:</span>
+                          <span className="bn text-xs text-forest font-semibold">{correctAns}</span>
+                        </div>
+                      )}
+                      {marksAwarded !== null && (
                         <div className="flex items-center gap-2">
                           <span className={`text-[10px] font-ui font-semibold px-1.5 py-0.5 rounded border
-                            ${evalR.is_correct ? 'bg-green-50 text-green-700 border-green-200' : 'bg-red-50 text-red-600 border-red-200'}`}>
-                            {evalR.marks_awarded}/{evalR.marks_max}
+                            ${isCorrect ? 'bg-green-50 text-green-700 border-green-200' : 'bg-red-50 text-red-600 border-red-200'}`}>
+                            {marksAwarded}/{marksMax} নম্বর
                           </span>
                           <span className="text-[10px] font-ui text-ink-light">
-                            সঠিক: {evalR.correct_answer}
+                            {isCorrect ? '✓ সঠিক' : '✗ ভুল'}
                           </span>
                         </div>
                       )}
-                      {evalR?.feedback_bn && (
-                        <p className="bn text-[10px] text-ink-light leading-snug">{evalR.feedback_bn}</p>
+                      {feedbackBn && (
+                        <p className="bn text-[10px] text-ink-light leading-snug italic">{feedbackBn}</p>
                       )}
                     </div>
                   </div>

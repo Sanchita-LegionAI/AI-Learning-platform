@@ -19,7 +19,7 @@ from app.services.evaluation_service import evaluate_part2
 from app.services.part1_evaluator import evaluate_part1
 from app.services.question_service import get_exam_config, select_questions_for_exam, serialise_questions
 from app.services.r2_service import upload_answer_image
-from app.services.llm_router import get_active_provider, call_llm
+from app.services.llm_router import call_llm
 
 router = APIRouter(prefix="/api/exam", tags=["exam"])
 
@@ -549,30 +549,18 @@ def request_ai_evaluation(
 সহজ, উৎসাহমূলক ও স্পষ্ট ভাষায় লেখো। প্রতিটি অংশ আলাদা প্যারায় লেখো।"""
 
     # ── Call LLM ──────────────────────────────────────────────────────────────
+    # call_llm handles provider selection and API call logging internally
     try:
-        provider_cfg = get_active_provider("evaluation")
-        response_text, input_tok, output_tok, cost_usd, cost_inr = call_llm(
-            provider_cfg = provider_cfg,
+        response_text = call_llm(
+            purpose       = "evaluation",
             system_prompt = "তুমি একজন অভিজ্ঞ বাংলা মাধ্যমের শিক্ষক। তুমি সবসময় বাংলায় উত্তর দাও।",
             user_prompt   = prompt,
-            max_tokens    = 1200,
+            user_id       = user_id,
+            ip_address    = ip,
+            session_id    = None,
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"AI evaluation failed: {e}")
-
-    # ── Log API call ──────────────────────────────────────────────────────────
-    supabase.table("api_calls").insert({
-        "user_id":       user_id,
-        "ip_address":    ip,
-        "call_type":     "ai_evaluation",
-        "provider":      provider_cfg["provider_name"],
-        "model":         provider_cfg["model_name"],
-        "input_tokens":  input_tok,
-        "output_tokens": output_tok,
-        "cost_usd":      cost_usd,
-        "cost_inr":      cost_inr,
-        "success":       True,
-    }).execute()
 
     # ── Save evaluation ───────────────────────────────────────────────────────
     eval_res = supabase.table("ai_evaluations").insert({
@@ -681,6 +669,7 @@ def my_sessions(user: dict = Depends(require_student)):
             "score_awarded, score_max, "
             "part1_score_awarded, part1_score_max, part1_completed, "
             "part2_score_awarded, part2_score_max, part2_completed, "
+            "part1_questions, part2_questions, answer_image_key, "
             "chapters!inner(name_bn, chapter_number, "
             "books!inner(subjects!inner(display_name_bn)))"
         )
