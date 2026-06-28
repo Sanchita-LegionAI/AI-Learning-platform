@@ -71,35 +71,59 @@ export default function MyExamsPage() {
 
   const handleResume = (session) => {
     const examData = {
-      session_id:        session.id,
-      chapter_name:      session.chapter_name,
-      subject:           session.subject_name,
-      part1_max_marks:   session.part1_score_max,
-      part2_max_marks:   session.part2_score_max,
+      session_id:      session.id,
+      chapter_name:    session.chapter_name,
+      subject:         session.subject_name,
+      part1_max_marks: session.part1_score_max,
+      part2_max_marks: session.part2_score_max,
+      total_max_marks: session.score_max,
     }
     const part1_result = session.part1_completed ? {
       score_awarded: session.part1_score_awarded,
       score_max:     session.part1_score_max,
       percentage:    session.part1_score_max > 0
         ? Math.round((session.part1_score_awarded / session.part1_score_max) * 100) : 0,
-      grade: '',
+      grade: session.grade || '',
+      results: [],
     } : null
 
+    // Completed: go straight to results
+    if (session.completed) {
+      navigate('/exam/results', { state: { session_id: session.id, fromHistory: true } })
+      return
+    }
+    // Image uploaded but not evaluated yet
     if (session.answer_image_key) {
       navigate('/exam/results', { state: { session_id: session.id, fromHistory: true } })
-    } else if (session.part2_completed) {
-      navigate('/exam/results', { state: { session_id: session.id, fromHistory: true } })
-    } else if (session.part1_completed && session.part2_questions?.length > 0) {
-      navigate('/exam/transition', {
-        state: { session_id: session.id, part1_result, part2_questions: session.part2_questions, examData }
-      })
-    } else if (session.part1_questions?.length > 0) {
-      navigate('/exam/part1', {
-        state: { session_id: session.id, part1_questions: session.part1_questions, part2_questions: session.part2_questions || [], examData }
-      })
-    } else {
-      navigate('/exam/select')
+      return
     }
+    // Part 1 done, Part 2 pending — go to transition page
+    if (session.part1_completed && session.part2_questions?.length > 0) {
+      navigate('/exam/transition', {
+        state: {
+          session_id:      session.id,
+          part1_result,
+          part2_questions: session.part2_questions,
+          examData,
+        }
+      })
+      return
+    }
+    // Part 1 in progress — resume Part 1 with saved questions
+    if (session.part1_questions?.length > 0) {
+      navigate('/exam/part1', {
+        state: {
+          examData: {
+            ...examData,
+            part1_questions: session.part1_questions,
+            part2_questions: session.part2_questions || [],
+          }
+        }
+      })
+      return
+    }
+    // No questions saved — nothing to resume, go to select
+    navigate('/exam/select')
   }
 
   const handleViewResult = (session) => {
@@ -107,11 +131,11 @@ export default function MyExamsPage() {
   }
 
   const statusLabel = (s) => {
-    if (s.completed)           return { text: 'মূল্যায়িত',    color: 'bg-emerald-100 text-emerald-700' }
-    if (s.answer_image_key)    return { text: 'মূল্যায়ন বাকি', color: 'bg-amber-100 text-amber-700' }
-    if (s.part1_completed)     return { text: 'উত্তর বাকি',   color: 'bg-blue-100 text-blue-700' }
-    if (s.part1_questions?.length > 0) return { text: 'অসমাপ্ত', color: 'bg-gray-100 text-gray-500' }
-    return { text: 'শুরু হয়নি',  color: 'bg-gray-100 text-gray-500' }
+    if (s.completed)                         return { text: 'মূল্যায়িত',    color: 'bg-emerald-100 text-emerald-700' }
+    if (s.answer_image_key)                  return { text: 'মূল্যায়ন বাকি', color: 'bg-amber-100 text-amber-700' }
+    if (s.part1_completed)                   return { text: 'অংশ ২ বাকি',   color: 'bg-blue-100 text-blue-700' }
+    if (s.part1_questions?.length > 0)       return { text: 'অসমাপ্ত',      color: 'bg-orange-100 text-orange-700' }
+    return { text: 'শুরু হয়নি', color: 'bg-gray-100 text-gray-500' }
   }
 
   return (
