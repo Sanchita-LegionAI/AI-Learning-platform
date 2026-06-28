@@ -249,6 +249,97 @@ def trigger_import(admin: dict = Depends(require_admin)):
         raise HTTPException(status_code=500, detail=str(e))
 
 
+
+# =============================================================================
+# QUESTION EDITOR — zero-SQL search and edit
+# =============================================================================
+
+@router.get("/questions/search")
+def search_questions(
+    q:          str   = Query(..., min_length=2),
+    book_id:    str   = Query(None),
+    q_type:     str   = Query(None),
+    limit:      int   = Query(30, le=100),
+    admin: dict = Depends(require_admin),
+):
+    """
+    Full-text search across question_bn, topic_bn.
+    Returns question rows with chapter + book context.
+    """
+    supabase = get_supabase()
+
+    query = (
+        supabase.table("questions")
+        .select(
+            "id, question_code, q_type, q_part, marks, difficulty, "
+            "topic_bn, question_bn, options, correct_answer, "
+            "pairs, items, correct_order, categories, "
+            "expected_answer, max_words, answer_slot_id, active, "
+            "chapters!inner(id, name_bn, chapter_number, "
+            "books!inner(book_id_code, title_bn))"
+        )
+        .ilike("question_bn", f"%{q}%")
+        .limit(limit)
+    )
+
+    if q_type:
+        query = query.eq("q_type", q_type)
+
+    res = query.execute()
+    rows = []
+    for r in (res.data or []):
+        chapter = r.pop("chapters", {}) or {}
+        book    = chapter.pop("books", {}) or {}
+        rows.append({
+            **r,
+            "chapter_name":   chapter.get("name_bn", ""),
+            "chapter_number": chapter.get("chapter_number"),
+            "book_id_code":   book.get("book_id_code", ""),
+            "book_title":     book.get("title_bn", ""),
+        })
+    return {"questions": rows, "total": len(rows)}
+
+
+class QuestionUpdateRequest(BaseModel):
+    question_bn:    Optional[str]  = None
+    topic_bn:       Optional[str]  = None
+    difficulty:     Optional[str]  = None
+    options:        Optional[list] = None
+    correct_answer: Optional[str]  = None
+    pairs:          Optional[list] = None
+    items:          Optional[list] = None
+    correct_order:  Optional[list] = None
+    categories:     Optional[dict] = None
+    expected_answer: Optional[str] = None
+    max_words:      Optional[int]  = None
+    active:         Optional[bool] = None
+
+
+@router.patch("/questions/{question_id}")
+def update_question(
+    question_id: int,
+    body: QuestionUpdateRequest,
+    admin: dict = Depends(require_admin),
+):
+    """Update any field(s) of a question by DB id."""
+    supabase = get_supabase()
+
+    # Build update dict — only include non-None fields
+    update_data = {k: v for k, v in body.dict().items() if v is not None}
+    if not update_data:
+        raise HTTPException(status_code=400, detail="No fields to update")
+
+    res = (
+        supabase.table("questions")
+        .update(update_data)
+        .eq("id", question_id)
+        .execute()
+    )
+    if not res.data:
+        raise HTTPException(status_code=404, detail="Question not found")
+
+    return {"ok": True, "updated": question_id, "fields": list(update_data.keys())}
+
 # =============================================================================
 # CURRICULUM MANAGEMENT — zero-SQL interface
 # =============================================================================

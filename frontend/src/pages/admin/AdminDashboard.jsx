@@ -3,7 +3,7 @@ import { useEffect, useState, useRef, useCallback } from 'react'
 import { useAuth } from '../../context/AuthContext'
 import { api } from '../../lib/api'
 
-const TABS = ['Overview', 'Curriculum', 'Analytics', 'Models', 'Logs']
+const TABS = ['Overview', 'Curriculum', 'Analytics', 'Questions', 'Models', 'Logs']
 
 const BASE = () => import.meta.env.VITE_API_URL || 'http://localhost:8000'
 
@@ -69,6 +69,253 @@ function Badge({ children, color = 'gray' }) {
 
 function Spinner() {
   return <span className="inline-block w-3 h-3 border-2 border-current border-t-transparent rounded-full animate-spin" />
+}
+
+
+// ─── Questions tab ────────────────────────────────────────────────────────────
+
+const Q_TYPE_LABELS = {
+  mcq: 'MCQ', match_pairs: 'Match', true_false: 'T/F',
+  tap_sequence: 'Sequence', categorize: 'Categorize', short_write: 'Short Write'
+}
+
+function QuestionEditor({ q, onSave, onCancel }) {
+  const [form, setForm] = useState({
+    question_bn:     q.question_bn    || '',
+    topic_bn:        q.topic_bn       || '',
+    difficulty:      q.difficulty     || 'Medium',
+    correct_answer:  q.correct_answer || '',
+    expected_answer: q.expected_answer || '',
+    options:         q.options        || [],
+    active:          q.active ?? true,
+  })
+  const [saving, setSaving] = useState(false)
+
+  const set = (k, v) => setForm(p => ({ ...p, [k]: v }))
+
+  const setOption = (i, v) => {
+    const opts = [...form.options]
+    opts[i] = v
+    set('options', opts)
+  }
+
+  return (
+    <div className="bg-saffron/5 border border-saffron/20 rounded-xl p-4 space-y-3">
+      {/* Question text */}
+      <div>
+        <label className="text-[11px] font-ui font-medium text-ink-light block mb-1">Question (Bengali)</label>
+        <textarea
+          value={form.question_bn}
+          onChange={e => set('question_bn', e.target.value)}
+          rows={3}
+          className="w-full text-xs font-ui border border-border rounded-lg px-3 py-2 bn resize-none
+            focus:outline-none focus:border-saffron/60"
+        />
+      </div>
+
+      {/* Topic + Difficulty */}
+      <div className="grid grid-cols-2 gap-2">
+        <div>
+          <label className="text-[11px] font-ui font-medium text-ink-light block mb-1">Topic</label>
+          <input value={form.topic_bn} onChange={e => set('topic_bn', e.target.value)}
+            className="w-full text-xs font-ui border border-border rounded-lg px-2 py-1.5 bn focus:outline-none focus:border-saffron/60" />
+        </div>
+        <div>
+          <label className="text-[11px] font-ui font-medium text-ink-light block mb-1">Difficulty</label>
+          <select value={form.difficulty} onChange={e => set('difficulty', e.target.value)}
+            className="w-full text-xs font-ui border border-border rounded-lg px-2 py-1.5 bg-white focus:outline-none">
+            {['Easy','Medium','Hard'].map(d => <option key={d}>{d}</option>)}
+          </select>
+        </div>
+      </div>
+
+      {/* MCQ options */}
+      {q.q_type === 'mcq' && form.options.length > 0 && (
+        <div>
+          <label className="text-[11px] font-ui font-medium text-ink-light block mb-1">Options</label>
+          <div className="space-y-1">
+            {form.options.map((opt, i) => (
+              <div key={i} className="flex items-center gap-2">
+                <span className="text-[10px] font-ui text-ink-light w-4">{String.fromCharCode(65+i)}.</span>
+                <input value={opt} onChange={e => setOption(i, e.target.value)}
+                  className={`flex-1 text-xs font-ui border rounded-lg px-2 py-1 bn focus:outline-none
+                    ${opt === form.correct_answer ? 'border-green-400 bg-green-50' : 'border-border'}`} />
+                <button onClick={() => set('correct_answer', opt)}
+                  className={`text-[10px] font-ui px-1.5 py-1 rounded border transition-all
+                    ${opt === form.correct_answer ? 'bg-green-500 text-white border-green-500' : 'border-border text-ink-light hover:border-green-400'}`}>
+                  ✓
+                </button>
+              </div>
+            ))}
+          </div>
+          <p className="text-[10px] font-ui text-ink-light mt-1">Click ✓ to mark correct answer</p>
+        </div>
+      )}
+
+      {/* True/False correct answer */}
+      {q.q_type === 'true_false' && (
+        <div>
+          <label className="text-[11px] font-ui font-medium text-ink-light block mb-1">Correct Answer</label>
+          <div className="flex gap-2">
+            {['true','false'].map(v => (
+              <button key={v} onClick={() => set('correct_answer', v)}
+                className={`text-xs font-ui px-4 py-1.5 rounded-lg border transition-all
+                  ${form.correct_answer === v ? 'bg-saffron text-white border-saffron' : 'border-border text-ink hover:border-saffron/50'}`}>
+                {v}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Short write expected answer */}
+      {q.q_type === 'short_write' && (
+        <div>
+          <label className="text-[11px] font-ui font-medium text-ink-light block mb-1">Expected Answer</label>
+          <input value={form.expected_answer} onChange={e => set('expected_answer', e.target.value)}
+            className="w-full text-xs font-ui border border-border rounded-lg px-2 py-1.5 bn focus:outline-none focus:border-saffron/60" />
+        </div>
+      )}
+
+      {/* Active toggle */}
+      <div className="flex items-center gap-2">
+        <input type="checkbox" id={`active-${q.id}`} checked={form.active}
+          onChange={e => set('active', e.target.checked)} className="w-3 h-3" />
+        <label htmlFor={`active-${q.id}`} className="text-[11px] font-ui text-ink-light">Active (shown in exams)</label>
+      </div>
+
+      {/* Actions */}
+      <div className="flex gap-2 pt-1">
+        <button onClick={() => onSave(q.id, form)} disabled={saving}
+          className="flex-1 text-xs font-ui font-semibold bg-saffron text-white py-2 rounded-xl hover:bg-saffron-dark disabled:opacity-50 transition-all">
+          {saving ? 'Saving…' : 'Save Changes'}
+        </button>
+        <button onClick={onCancel}
+          className="flex-1 text-xs font-ui border border-border py-2 rounded-xl hover:border-gray-400 transition-all text-ink">
+          Cancel
+        </button>
+      </div>
+    </div>
+  )
+}
+
+function QuestionsTab({ token }) {
+  const [query,    setQuery]    = useState('')
+  const [qType,    setQType]    = useState('')
+  const [results,  setResults]  = useState([])
+  const [loading,  setLoading]  = useState(false)
+  const [editingId, setEditingId] = useState(null)
+  const [msg,      setMsg]      = useState('')
+
+  const search = async () => {
+    if (query.trim().length < 2) return
+    setLoading(true); setMsg('')
+    try {
+      const d = await apiFetch('GET',
+        `/api/admin/questions/search?q=${encodeURIComponent(query)}${qType ? `&q_type=${qType}` : ''}`,
+        null, token)
+      setResults(d.questions || [])
+      if (d.questions.length === 0) setMsg('✗ No questions found')
+    } catch (e) { setMsg(`✗ ${e.message}`) }
+    finally { setLoading(false) }
+  }
+
+  const save = async (id, form) => {
+    setMsg('')
+    try {
+      await apiFetch('PATCH', `/api/admin/questions/${id}`, form, token)
+      setResults(prev => prev.map(q => q.id === id ? { ...q, ...form } : q))
+      setEditingId(null)
+      setMsg('✓ Question updated')
+    } catch (e) { setMsg(`✗ ${e.message}`) }
+  }
+
+  return (
+    <div className="space-y-4">
+      <div>
+        <h2 className="text-base font-ui font-semibold text-ink">Question Editor</h2>
+        <p className="text-xs font-ui text-ink-light mt-0.5">
+          Search questions by text, click to edit. Changes save directly to the database.
+        </p>
+      </div>
+
+      <Toast msg={msg} onClose={() => setMsg('')} />
+
+      {/* Search bar */}
+      <div className="flex gap-2">
+        <input
+          value={query}
+          onChange={e => setQuery(e.target.value)}
+          onKeyDown={e => e.key === 'Enter' && search()}
+          placeholder="Search question text e.g. চৌম্বক"
+          className="flex-1 text-sm font-ui border border-border rounded-xl px-4 py-2.5 bn
+            focus:outline-none focus:border-saffron/60 placeholder:text-ink-light/40"
+        />
+        <select value={qType} onChange={e => setQType(e.target.value)}
+          className="text-xs font-ui border border-border rounded-xl px-3 py-2.5 bg-white focus:outline-none">
+          <option value="">All types</option>
+          {Object.entries(Q_TYPE_LABELS).map(([k, v]) => <option key={k} value={k}>{v}</option>)}
+        </select>
+        <button onClick={search} disabled={loading || query.trim().length < 2}
+          className="text-sm font-ui font-semibold bg-saffron text-white px-5 py-2.5 rounded-xl
+            hover:bg-saffron-dark disabled:opacity-50 transition-all">
+          {loading ? '…' : 'Search'}
+        </button>
+      </div>
+
+      {/* Results */}
+      {results.length > 0 && (
+        <div className="space-y-2">
+          <p className="text-xs font-ui text-ink-light">{results.length} result{results.length > 1 ? 's' : ''}</p>
+          {results.map(q => (
+            <div key={q.id} className="bg-white rounded-xl border border-border overflow-hidden">
+              {/* Question row */}
+              <div className="flex items-start gap-3 px-4 py-3">
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2 flex-wrap mb-1">
+                    <Badge color="gray">{Q_TYPE_LABELS[q.q_type] || q.q_type}</Badge>
+                    <Badge color={q.difficulty === 'Easy' ? 'green' : q.difficulty === 'Hard' ? 'red' : 'yellow'}>
+                      {q.difficulty}
+                    </Badge>
+                    {!q.active && <Badge color="red">Inactive</Badge>}
+                    <span className="text-[10px] font-ui text-ink-light font-mono truncate">
+                      {q.book_id_code} · Ch{q.chapter_number}
+                    </span>
+                  </div>
+                  <p className="bn text-sm text-ink leading-snug">{q.question_bn}</p>
+                  {q.q_type === 'mcq' && q.correct_answer && (
+                    <p className="text-[10px] font-ui text-forest mt-0.5">✓ {q.correct_answer}</p>
+                  )}
+                  {q.q_type === 'short_write' && q.expected_answer && (
+                    <p className="text-[10px] font-ui text-forest mt-0.5">Expected: {q.expected_answer}</p>
+                  )}
+                </div>
+                <button
+                  onClick={() => setEditingId(editingId === q.id ? null : q.id)}
+                  className={`shrink-0 text-xs font-ui font-semibold px-3 py-1.5 rounded-lg border transition-all
+                    ${editingId === q.id
+                      ? 'bg-gray-100 border-gray-300 text-ink-light'
+                      : 'border-saffron/30 text-saffron hover:bg-saffron hover:text-white'}`}>
+                  {editingId === q.id ? 'Close' : 'Edit'}
+                </button>
+              </div>
+
+              {/* Inline editor */}
+              {editingId === q.id && (
+                <div className="border-t border-border px-4 pb-4 pt-3">
+                  <QuestionEditor
+                    q={q}
+                    onSave={save}
+                    onCancel={() => setEditingId(null)}
+                  />
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  )
 }
 
 // ─── Curriculum tab ───────────────────────────────────────────────────────────
@@ -1382,6 +1629,8 @@ export default function AdminDashboard() {
         {tab === 'Curriculum' && <CurriculumTab token={token} />}
 
         {tab === 'Analytics' && <AnalyticsTab token={token} />}
+
+        {tab === 'Questions' && <QuestionsTab token={token} />}
 
         {tab === 'Overview' && (
           <div className="space-y-6">
