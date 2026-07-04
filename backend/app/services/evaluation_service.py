@@ -192,6 +192,7 @@ def evaluate_part2(
         eval_rows.append({
             "session_id":     session_id,
             "question_index": i,
+            "question_id":    q.get("id"),
             "q_type":         "short_write",
             "q_part":         "part2",
             "question_bn":    q["question_bn"],

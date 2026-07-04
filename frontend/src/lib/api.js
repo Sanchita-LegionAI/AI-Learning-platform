@@ -81,9 +81,12 @@ export const api = {
     }, token),
 
   // ── AI Evaluation ─────────────────────────────────────────────────────────
-  // Request a new AI evaluation (once per day)
-  requestAiEvaluation: (token) =>
-    request('/api/exam/ai-evaluation', { method: 'POST', body: '{}' }, token),
+  // Request a new subject-wise AI evaluation (once per week)
+  requestAiEvaluation: (bookId, token) =>
+    request('/api/exam/ai-evaluation', {
+      method: 'POST',
+      body: JSON.stringify({ book_id: bookId }),
+    }, token),
 
   // Get all saved AI evaluations for this user
   getAiEvaluations: (token) =>

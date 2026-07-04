@@ -2,12 +2,12 @@
 routers/exam.py  — v4
 Adds:
   POST /api/exam/skip-part2        — skip Part 2, deduct 1 mark, complete session
-  POST /api/exam/ai-evaluation     — request AI evaluation (once per day)
+  POST /api/exam/ai-evaluation     — subject-wise AI evaluation (once per WEEK)
   GET  /api/exam/ai-evaluations    — list saved evaluations for this user
 """
 import base64
 import math
-from datetime import datetime, timezone, date
+from datetime import datetime, timezone, date, timedelta
 from typing import Optional
 
 from fastapi import APIRouter, Depends, HTTPException, Request
@@ -20,6 +20,11 @@ from app.services.part1_evaluator import evaluate_part1
 from app.services.question_service import get_exam_config, select_questions_for_exam, serialise_questions
 from app.services.r2_service import upload_answer_image
 from app.services.llm_router import call_llm
+from app.services.subject_evaluation_service import (
+    build_subject_summary,
+    build_evaluation_prompt,
+    bn_digits,
+)
 
 router = APIRouter(prefix="/api/exam", tags=["exam"])
 
@@ -197,6 +202,7 @@ def submit_part1(
         eval_rows.append({
             "session_id":     body.session_id,
             "question_index": i,
+            "question_id":    r.get("question_id"),
             "q_type":         r["q_type"],
             "q_part":         "part1",
             "question_bn":    r["question_bn"],
@@ -452,109 +458,94 @@ def evaluate_part2_endpoint(
 
 
 # =============================================================================
-# AI EVALUATION  (new)
+# AI EVALUATION — subject-wise, deterministic stats + LLM commentary
 # =============================================================================
+
+EVAL_COOLDOWN_DAYS = 7   # one AI evaluation per week (global, across subjects)
+EVAL_MIN_EXAMS     = 2   # minimum completed exams in the subject
+
+
+class AiEvaluationRequest(BaseModel):
+    book_id: int
+
 
 @router.post("/ai-evaluation")
 def request_ai_evaluation(
+    body:    AiEvaluationRequest,
     request: Request,
     user:    dict = Depends(require_student),
 ):
     """
-    Generate an AI evaluation of the student's recent exams (last 10 completed).
-    Limited to once per day per user.
-    Saves result to ai_evaluations table.
+    Subject-wise AI evaluation:
+      1. Weekly limit check (latest ai_evaluations.created_at)
+      2. Deterministic aggregation of ALL completed exams for the chosen book
+         (per-question correct/wrong history, repeatedly-wrong questions,
+         topic & chapter accuracy) — zero LLM cost
+      3. LLM writes Bengali feedback grounded strictly in those numbers
+      4. Saved to ai_evaluations with book_id + stats_json
     """
     user_id  = user["user_id"]
     ip       = _get_client_ip(request)
     supabase = get_supabase()
-    today    = date.today().isoformat()
 
-    # ── Check daily limit ─────────────────────────────────────────────────────
-    usage_res = (
-        supabase.table("daily_usage")
-        .select("eval_count")
-        .eq("user_id",    user_id)
-        .eq("usage_date", today)
+    # ── Weekly limit ──────────────────────────────────────────────────────────
+    last_res = (
+        supabase.table("ai_evaluations")
+        .select("created_at")
+        .eq("user_id", user_id)
+        .order("created_at", desc=True)
+        .limit(1)
         .execute()
     )
-    usage = usage_res.data[0] if usage_res.data else None
-    eval_count = usage["eval_count"] if usage else 0
-
-    if eval_count >= 1:
-        raise HTTPException(
-            status_code=429,
-            detail={
-                "message_bn": "আজকের AI মূল্যায়ন ইতিমধ্যে ব্যবহার হয়েছে। আগামীকাল আবার চেষ্টা করুন।",
-                "code": "EVAL_LIMIT_REACHED"
-            }
+    if last_res.data:
+        last_at = datetime.fromisoformat(
+            last_res.data[0]["created_at"].replace("Z", "+00:00")
         )
+        next_at = last_at + timedelta(days=EVAL_COOLDOWN_DAYS)
+        now     = datetime.now(timezone.utc)
+        if now < next_at:
+            next_bn = bn_digits(next_at.strftime("%d/%m/%Y"))
+            raise HTTPException(
+                status_code=429,
+                detail={
+                    "message_bn": (
+                        "AI মূল্যায়ন সপ্তাহে একবার করা যায়। "
+                        f"পরবর্তী মূল্যায়ন করা যাবে {next_bn} তারিখে। "
+                        "এর মধ্যে আরও পরীক্ষা দাও!"
+                    ),
+                    "code":          "EVAL_LIMIT_REACHED",
+                    "next_available": next_at.isoformat(),
+                },
+            )
 
-    # ── Fetch last 10 completed sessions ──────────────────────────────────────
-    sessions_res = (
-        supabase.table("exam_sessions")
-        .select(
-            "id, started_at, score_awarded, score_max, grade, "
-            "part1_score_awarded, part1_score_max, "
-            "part2_score_awarded, part2_score_max, "
-            "chapters!inner(name_bn, chapter_number, "
-            "books!inner(title_bn, subjects!inner(display_name_bn)))"
-        )
-        .eq("user_id",  user_id)
-        .eq("completed", True)
-        .order("started_at", desc=True)
-        .limit(10)
-        .execute()
-    )
+    # ── Deterministic subject summary ─────────────────────────────────────────
+    try:
+        summary = build_subject_summary(user_id=user_id, book_id=body.book_id)
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
 
-    sessions = sessions_res.data or []
-    if len(sessions) == 0:
+    if summary is None or summary["stats"]["exam_count"] < EVAL_MIN_EXAMS:
+        done = summary["stats"]["exam_count"] if summary else 0
         raise HTTPException(
             status_code=400,
             detail={
-                "message_bn": "এখনো কোনো পরীক্ষা সম্পন্ন হয়নি। প্রথমে একটি পরীক্ষা দাও।",
-                "code": "NO_EXAMS"
-            }
+                "message_bn": (
+                    f"এই বিষয়ে এখনো পর্যাপ্ত পরীক্ষা দেওয়া হয়নি "
+                    f"({bn_digits(done)}টি সম্পন্ন)। মূল্যায়নের জন্য কমপক্ষে "
+                    f"{bn_digits(EVAL_MIN_EXAMS)}টি পরীক্ষা সম্পন্ন করতে হবে।"
+                ),
+                "code": "NOT_ENOUGH_EXAMS",
+            },
         )
 
-    # ── Build exam summary for LLM ────────────────────────────────────────────
-    exam_lines = []
-    for s in sessions:
-        chapter  = s.get("chapters", {}) or {}
-        book     = chapter.get("books", {}) or {}
-        subject  = book.get("subjects", {}) or {}
-        pct      = round((float(s["score_awarded"] or 0) / float(s["score_max"] or 1)) * 100)
-        exam_lines.append(
-            f"- বিষয়: {subject.get('display_name_bn','?')} | "
-            f"অধ্যায়: {chapter.get('name_bn','?')} | "
-            f"নম্বর: {s['score_awarded']}/{s['score_max']} ({pct}%) | "
-            f"গ্রেড: {s['grade']} | "
-            f"অংশ ১: {s['part1_score_awarded']}/{s['part1_score_max']} | "
-            f"অংশ ২: {s.get('part2_score_awarded') or 'বাদ'}/{s['part2_score_max']}"
-        )
+    stats = summary["stats"]
 
-    exam_summary = "\n".join(exam_lines)
-
-    prompt = f"""তুমি একজন বাংলা মাধ্যমের শিক্ষক। নিচে একজন সপ্তম শ্রেণীর ছাত্র/ছাত্রীর সাম্প্রতিক {len(sessions)}টি পরীক্ষার ফলাফল দেওয়া হলো:
-
-{exam_summary}
-
-এই তথ্যের ভিত্তিতে বাংলায় একটি বিস্তারিত মূল্যায়ন লেখো। মূল্যায়নে অবশ্যই থাকবে:
-
-১. **শক্তির দিক**: কোন বিষয় বা অধ্যায়ে সে ভালো করেছে।
-২. **দুর্বলতার দিক**: কোথায় উন্নতি দরকার এবং কেন।
-৩. **পরামর্শ**: কোন অধ্যায় বা বিষয় আবার পড়লে ভালো হবে এবং কীভাবে পড়বে।
-৪. **সামগ্রিক মন্তব্য**: ছাত্র/ছাত্রীকে উৎসাহিত করে একটি সংক্ষিপ্ত মন্তব্য।
-
-সহজ, উৎসাহমূলক ও স্পষ্ট ভাষায় লেখো। প্রতিটি অংশ আলাদা প্যারায় লেখো।"""
-
-    # ── Call LLM ──────────────────────────────────────────────────────────────
-    # call_llm handles provider selection and API call logging internally
+    # ── Call LLM with the grounded prompt ─────────────────────────────────────
     try:
         response_text = call_llm(
-            purpose       = "ai_summary",   # separate purpose — can use Claude for better writing
+            purpose       = "ai_summary",
             system_prompt = "তুমি একজন অভিজ্ঞ বাংলা মাধ্যমের শিক্ষক। তুমি সবসময় বাংলায় উত্তর দাও।",
-            user_prompt   = prompt,
+            user_prompt   = build_evaluation_prompt(summary),
             user_id       = user_id,
             ip_address    = ip,
             session_id    = None,
@@ -565,29 +556,22 @@ def request_ai_evaluation(
     # ── Save evaluation ───────────────────────────────────────────────────────
     eval_res = supabase.table("ai_evaluations").insert({
         "user_id":          user_id,
-        "session_count":    len(sessions),
+        "book_id":          body.book_id,
+        "session_count":    stats["exam_count"],
+        "stats_json":       stats,
         "full_response_bn": response_text,
     }).execute()
 
     eval_id = eval_res.data[0]["id"]
 
-    # ── Update daily usage ────────────────────────────────────────────────────
-    if usage:
-        supabase.table("daily_usage").update({
-            "eval_count": eval_count + 1
-        }).eq("user_id", user_id).eq("usage_date", today).execute()
-    else:
-        supabase.table("daily_usage").upsert({
-            "user_id":    user_id,
-            "usage_date": today,
-            "eval_count": 1,
-            "exam_count": 0,
-        }).execute()
-
     return {
         "id":               eval_id,
         "created_at":       datetime.now(timezone.utc).isoformat(),
-        "session_count":    len(sessions),
+        "book_id":          body.book_id,
+        "book_title_bn":    stats["book_title_bn"],
+        "subject_bn":       stats["subject_bn"],
+        "session_count":    stats["exam_count"],
+        "stats_json":       stats,
         "full_response_bn": response_text,
     }
 
@@ -600,12 +584,21 @@ def get_ai_evaluations(user: dict = Depends(require_student)):
 
     res = (
         supabase.table("ai_evaluations")
-        .select("id, created_at, session_count, full_response_bn")
+        .select("id, created_at, session_count, full_response_bn, "
+                "book_id, stats_json, books(title_bn)")
         .eq("user_id", user_id)
         .order("created_at", desc=True)
         .execute()
     )
-    return {"evaluations": res.data or []}
+
+    evaluations = []
+    for e in (res.data or []):
+        book = e.pop("books", None) or {}
+        e["book_title_bn"] = book.get("title_bn")
+        evaluations.append(e)
+
+    return {"evaluations": evaluations}
+
 
 
 # =============================================================================
